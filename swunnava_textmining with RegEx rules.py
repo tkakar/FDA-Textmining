@@ -13,7 +13,7 @@ import re
 import nltk
 from nltk.tokenize import sent_tokenize, word_tokenize
 
-content = "This spontaneous report from a female patient concerns a 18 year old Caucasian female with a 18 month old child. The patient's weight was 90.46lbs and height was 600ins. In 15-AUG-2014, the patient contacted her physician about the events and was prescribed an increased dosage of domperidone.  The patient reported the increased dose of domperidone had not relieved her worsening symptoms. On 13-AUG-2014, the patient experienced not feeling well today."
+content = "This spontaneous report from a female patient concerns a 18 year old Caucasian female with a 18 month old child. The patient's weight was 90.46lbs and height was 1m 72cm. In 15-AUG-2014, the patient contacted her physician about the events and was prescribed an increased dosage of domperidone.  The patient reported the increased dose of domperidone had not relieved her worsening symptoms. On 13-AUG-2014, the patient experienced not feeling well today."
 extract_age = re.findall(r'.*\s([0-9]+).?(yr|yrs|years|year).*',content,re.IGNORECASE)
 if not extract_age:
     extract_age = re.findall(r'.*\s([0-9]+).?(months|months-old|months old|month-old|month old).*',content,re.IGNORECASE)
@@ -31,11 +31,15 @@ if not extract_weight:
 else:
     weight = extract_weight[0][0]+" pounds"
 
-extract_height = re.findall(r'.*\s([0-9]+(\.[0-9]+)?).?(feet|foot|in|inches|inch|"|cm).*',content,re.IGNORECASE)
+extract_height = re.findall(r'\s([0-9\']+(\.[0-9]+)?).?(feet|foot|ft|in|inches|inch|"|cm|meters|meter|m |\')',content,re.IGNORECASE)
+##curent issue:m needs space after it and 72cm needs space before it, which causes overlap in whitespace so cm is not recognized
 if not extract_height:
     height="unknown"
 else:
     height = extract_height[0][0]+" "+extract_height[0][2]
+    if len(extract_height)>1:
+        height += " "+extract_height[1][0]+" "+extract_height[1][2]
+
 
 extract_gender_m = []
 extract_gender_f = []
