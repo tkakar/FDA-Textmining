@@ -65,7 +65,7 @@ def main():
     other_dates = []
   
 ##  Example formats: 06-AUG-2014
-    date_range  = re.findall(r'(from)\s([0-9]{2}[a-zA-Z]{3}[0-9]{4})\s(until)\s([0-9]{2}[a-zA-Z]{3}[0-9]{4})',content,re.IGNORECASE)
+    date_range  = re.findall(r'(from)\s([0-9]{2}[a-zA-Z]{3}[0-9]{4})\s(until|through|to)\s([0-9]{2}[a-zA-Z]{3}[0-9]{4})',content,re.IGNORECASE)
     extract_dates = re.findall(r'\s(on)\s([0-9]{2}\-?[a-zA-Z]{3}\-?[0-9]{4})', content,re.IGNORECASE)
  #   extract_dates = re.findall(r'.([0-9]{2}\-[a-zA-Z]{3}\-[0-9]{4})',content,re.IGNORECASE)
     if not date_range:
