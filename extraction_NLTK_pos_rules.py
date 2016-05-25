@@ -12,9 +12,8 @@
 import re
 import nltk
 from nltk.tokenize import sent_tokenize, word_tokenize
-import sys
 
-#content = "This spontaneous report from a female patient concerns a 71-year-old Caucasian female. The patient's weight was 160 pounds and height was 167.5 inches. In 15-AUG-2014, the patient contacted her physician about the events and was prescribed an increased dosage of domperidone.  The patient reported the increased dose of domperidone had not relieved her worsening symptoms. On 13-AUG-2014, the patient experienced not feeling well today."
+content = "This spontaneous report from a female patient concerns a 71-year-old Caucasian female. The patient's weight was 160 pounds and height was 167.5 inches. In 15-AUG-2014, the patient contacted her physician about the events and was prescribed an increased dosage of domperidone.  The patient reported the increased dose of domperidone had not relieved her worsening symptoms. On 13-AUG-2014, the patient experienced not feeling well today."
 sentences = sent_tokenize(content)
 filtered_sentences = []
 for s in sentences:
