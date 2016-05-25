@@ -13,21 +13,25 @@ import re
 import nltk
 from nltk.tokenize import sent_tokenize, word_tokenize
 
-content = "This spontaneous report from a female patient concerns a 71 yr Caucasian female. The patient's weight was 160 pounds and height was 167.5 inches. In 15-AUG-2014, the patient contacted her physician about the events and was prescribed an increased dosage of domperidone.  The patient reported the increased dose of domperidone had not relieved her worsening symptoms. On 13-AUG-2014, the patient experienced not feeling well today."
-extract_age = re.findall(r'.*([0-9]{2}).?(yrs|years|year).*',content,re.IGNORECASE)
+content = "This spontaneous report from a female patient concerns a 18 year old Caucasian female with a 18 month old child. The patient's weight was 90.46lbs and height was 600ins. In 15-AUG-2014, the patient contacted her physician about the events and was prescribed an increased dosage of domperidone.  The patient reported the increased dose of domperidone had not relieved her worsening symptoms. On 13-AUG-2014, the patient experienced not feeling well today."
+extract_age = re.findall(r'.*\s([0-9]+).?(yr|yrs|years|year).*',content,re.IGNORECASE)
 if not extract_age:
-    age="unknown"
+    extract_age = re.findall(r'.*\s([0-9]+).?(months|months-old|months old|month-old|month old).*',content,re.IGNORECASE)
+    if not extract_age:
+        age="unknown"
+    else:
+        age = extract_age[0][0]+" months"
 else:
     age = extract_age[0][0]+" years"
 
-extract_weight = re.findall(r'.*([0-9]{3}(\.[0-9]{1})?).?(pounds|pound|lb|lbs).*',content,re.IGNORECASE)
+extract_weight = re.findall(r'.*\s([0-9]+(\.[0-9]+)?).?(pounds|pound|lb|lbs).*',content,re.IGNORECASE)
 ##    extract_weight = re.findall(r'.*\d{1,3}(\.\d)?.?(pounds|pound|lb|lbs).*',s,re.IGNORECASE)
 if not extract_weight:
     weight="unknown"
 else:
     weight = extract_weight[0][0]+" pounds"
 
-extract_height = re.findall(r'.*([0-9]{3}(\.[0-9]{1})?).?(feet|foot|inches|inch|"|cm).*',content,re.IGNORECASE)
+extract_height = re.findall(r'.*\s([0-9]+(\.[0-9]+)?).?(feet|foot|in|inches|inch|"|cm).*',content,re.IGNORECASE)
 if not extract_height:
     height="unknown"
 else:
