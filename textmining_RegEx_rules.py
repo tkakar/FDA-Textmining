@@ -4,6 +4,8 @@
 #               Extract age, gender, height, weight and dates mentioned in the report
 #
 # Author:      susmitha wunnava
+#              vimig socrates
+#              amber wallace
 #
 # Created:     28/03/2016
 # Copyright:   (c) susmi 2016
@@ -21,27 +23,27 @@ def main():
     ##All of the below forms must have spaces before and after (or could be the end of sentence- period after) the complete date form!!
 
     #of forms: 01-03-2016, 01/03/2016, 1-03-2016, 1/03/2016, 1-3/2016
-    dateRegex1 = r'\s[0-9]{1,2}[\/-][0-9]{1,2}[-\/][0-9]{4}[\s\.]'
+    dateRegex1 = r'\b([0-9]{1,2}[\/-][0-9]{1,2}[-\/][0-9]{4})\b'
     #of forms: 01-Mar-2016, 01/Mar/2016, 1-Mar-2016, 1/Mar/2016, 01Mar2016, 1Mar2016, 1-Mar/2016 
-    dateRegex2 = r'\s[0-9]{1,2}[\/-]?[a-zA-Z]{3}[-\/]?[0-9]{4}[\s\.]'
+    dateRegex2 = r'\b([0-9]{1,2}[\/-]?[a-zA-Z]{3}[-\/]?[0-9]{4})\b'
     
     #of forms: 01-03-16, 01/03/16, 1-03-16, 1/03/16, 1-3/2016
-    dateRegex3 = r'\s[0-9]{1,2}[\/-][0-9]{1,2}[-\/][0-9]{2}[\s\.]'
+    dateRegex3 = r'\b([0-9]{1,2}[\/-][0-9]{1,2}[-\/][0-9]{2})\b'
     #of forms: 01-Mar-16, 01/Mar/16, 1-Mar-16, 1/Mar/16, 01Mar16, 1Mar16, 1-Mar/16 
-    dateRegex4 = r'\s[0-9]{1,2}[\/-]?[a-zA-Z]{3}[-\/]?[0-9]{2}[\s\.]'
+    dateRegex4 = r'\b([0-9]{1,2}[\/-]?[a-zA-Z]{3}[-\/]?[0-9]{2})\b'
     #of forms: 3/14, 3-14
-    dateRegex5 = r'\s[0-9]{1,2}[\/-][0-9]{1,2}[\.\s]'
+    dateRegex5 = r'\b([0-9]{1,2}[\/-][0-9]{1,2})\b'
     
     #of forms: March-15, March/15, March 15, March15
-    dateRegex6 = r'\s[a-zA-z]{4,9}[-\/\s]?[0-9]{1,2}[\.\s]'
+    dateRegex6 = r'\b([a-zA-z]{4,9}[-\/\s]?[0-9]{1,2})\b'
     #of forms: 14-Mar , 14/Mar , 14 Mar , 14Mar 
-    dateRegex7 = r'\s[0-9]{1,2}[-\/\s]?[a-zA-z]{3}[\.\s]'
+    dateRegex7 = r'\b([0-9]{1,2}[-\/\s]?[a-zA-z]{3})\b'
     #of forms: Mar-14, Mar/14, Mar 14, Mar14
-    dateRegex8 = r'\s[a-zA-z]{3}[-\/\s]?[0-9]{1,2}[\.\s]'
+    dateRegex8 = r'\b([a-zA-z]{3}[-\/\s]?[0-9]{1,2})\b'
     #of forms: March 14, 2014
-    dateRegex9 = r'\s[a-zA-z]{4,9}\s[0-9]{1,2}\,\s[0-9]{4}[\.\s]'
+    dateRegex9 = r'\b([a-zA-z]{4,9}\s[0-9]{1,2}\,\s[0-9]{4})\b'
 
-    dateRegList = {dateRegex1, dateRegex2, dateRegex3, dateRegex4, dateRegex5, dateRegex6, dateRegex7, dateRegex8, dateRegex9}
+    dateRegList = [dateRegex1, dateRegex2, dateRegex3, dateRegex4, dateRegex5, dateRegex6, dateRegex7, dateRegex8, dateRegex9]
 
     #content = "This spontaneous report from a female patient concerns a 18 year old Caucasian female with a 18 month old child. The patient's weight 98.6lbs and the patient had a height of  5' 3\". In 15-AUG-2014, the patient contacted her physician about the events and was prescribed an increased dosage of domperidone.  The patient reported the increased dose of domperidone had not relieved her worsening symptoms. On 13-AUG-2014, the patient experienced not feeling well"
     extract_age = re.findall(r'.*\s([0-9]+).?(yr|yrs|years|year).*',content,re.IGNORECASE)
@@ -89,40 +91,48 @@ def main():
     date_range = []
     dates = []
     other_dates = []
-  
-##  Example formats: 06-AUG-2014
-    date_range  = re.findall(r'(from)\s(on)\s([0-9]{2}\-?[a-zA-Z]{3}\-?[0-9]{4})',content,re.IGNORECASE)
-    extract_dates = re.findall(r'\s(on)\s([0-9]{2}\-?[a-zA-Z]{3}\-?[0-9]{4})', content,re.IGNORECASE)
- #   extract_dates = re.findall(r'.([0-9]{2}\-[a-zA-Z]{3}\-[0-9]{4})',content,re.IGNORECASE)
-    if not date_range:
-        dates="unknown"
-        dateExistFlag = False;
-    else:
-#dates=', '.join(extract_dates)
-        dates.append(date_range[0][1])
-        dates.append(date_range[0][3])
-        dateExistFlag = True;
+    dateRangeTmp = []
+    otherDateTmp = []
 
+#checks through all possible regexes for Dates given at beginning of file
+    for i in range(0,len(dateRegList)):
+
+        dateRangeTmp = re.findall(r'\b(from)\s{start_date}\s(until|through|to)\s{end_date}'.format(start_date=dateRegList[i],end_date=dateRegList[i]),content,re.IGNORECASE)
+        otherDateTmp = re.findall(r'\b(on)\s{date}'.format(date=dateRegList[i]), content,re.IGNORECASE)
+
+        if dateRangeTmp:
+            date_range += dateRangeTmp
+        if otherDateTmp:
+            extract_dates += otherDateTmp
+
+    print(extract_dates)
+#report date range, if exists
+    if not date_range:
+        dateRangeFlag = False
+    else:
+        dates = date_range
+        dateRangeFlag = True
+#pulls all other dates, if exist
     if not extract_dates:
-        other_dates = "unknown"
         date2ExistFlag = False;
     else:
         date2ExistFlag = True;
         for x in range(0,len(extract_dates)): 
             other_dates.append(extract_dates[x][1])
-#        print(extract_dates)
 
+#prints everything
     print("Age: " + age)
     print("Gender: " + gender)
     print("Weight: " + weight)
     print("Height: "+  height)
+
     if date2ExistFlag:
         print("Other Dates: " + ', '.join(other_dates))
     else:
         print("Other Dates: unknown")
 
-    if dateExistFlag:
-        print("Report between " + dates[0] + " and " + dates[1])
+    if dateRangeFlag:
+        print("Report between " + dates[0][1] + " and " + dates[0][3])
     else:
         print("Report Range Unknown")
 
