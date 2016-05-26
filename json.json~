@@ -1,0 +1,38 @@
+{
+   "Patient Information":{
+      "Patient Identifier":null,
+      "Age":null,
+      "Date of Birth":null,
+      "Sex":null,
+      "Weight":null,
+      "Ethnicity":null,
+      "Race":{
+         "Asian":false,
+         "American Indian or Alaskan Native":false,
+         "Black or African American":false,
+         "White":false,
+         "Native Hawaiian or Other Pacific Islander":false
+      }
+   },
+   "Adverse Event or Product Problem":{
+
+      },
+   "Suspect Product(s)":{
+
+      },
+   "Suspect Medical Device":{
+
+      },
+   "Initial Reporter":{
+
+      },
+   "For Use By User Facility/Importer":{
+
+      },
+   "All Manufacturers":{
+
+      },
+   "Device Manufacturers Only":{
+
+      }
+}
