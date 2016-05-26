@@ -1,4 +1,4 @@
-#-------------------------------------------------------------------------------
+]#-------------------------------------------------------------------------------
 # Name:        Information extraction with Regular Expressions
 # Purpose:      Textmining on FDA report narratives
 #               Extract age, gender, height, weight and dates mentioned in the report
