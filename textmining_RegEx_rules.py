@@ -18,26 +18,30 @@ def main():
     f = open(sys.argv[1], 'r+')
     content = f.read()
     
-    #of forms: 01-03-2016, 01/03/2016, 1-03-2016, 1/03/2016 
-    dateRegex1 = r'[0-9]{1,2}[\/-][0-9]{1,2}[-\/]?([0-9]{4})?'
-    #of forms: 01-Mar-2016, 01/Mar/2016, 1-Mar-2016, 1/Mar/2016
-    dateRegex2 = r'[0-9]{1,2}[\/-][a-zA-Z]{3}[-\/]([0-9]{4})?'
+    ##All of the below forms must have spaces before and after (or could be the end of sentence- period after) the complete date form!!
+
+    #of forms: 01-03-2016, 01/03/2016, 1-03-2016, 1/03/2016, 1-3/2016
+    dateRegex1 = r'\s[0-9]{1,2}[\/-][0-9]{1,2}[-\/][0-9]{4}[\s\.]'
+    #of forms: 01-Mar-2016, 01/Mar/2016, 1-Mar-2016, 1/Mar/2016, 01Mar2016, 1Mar2016, 1-Mar/2016 
+    dateRegex2 = r'\s[0-9]{1,2}[\/-]?[a-zA-Z]{3}[-\/]?[0-9]{4}[\s\.]'
     
-    #of forms: 01-03-16, 01/03/16, 1-03-16, 1/03/16 
-    dateRegex3 = r'[0-9]{1,2}[\/-][0-9]{1,2}[-\/]?([0-9]{2})?'
-    #of forms: 01-Mar-16, 01/Mar/16, 1-Mar-16, 1/Mar/16
-    dateRegex4 = r'[0-9]{1,2}[\/-][a-zA-Z]{3}[-\/]([0-9]{2})?'
+    #of forms: 01-03-16, 01/03/16, 1-03-16, 1/03/16, 1-3/2016
+    dateRegex3 = r'\s[0-9]{1,2}[\/-][0-9]{1,2}[-\/][0-9]{2}[\s\.]'
+    #of forms: 01-Mar-16, 01/Mar/16, 1-Mar-16, 1/Mar/16, 01Mar16, 1Mar16, 1-Mar/16 
+    dateRegex4 = r'\s[0-9]{1,2}[\/-]?[a-zA-Z]{3}[-\/]?[0-9]{2}[\s\.]'
     #of forms: 3/14, 3-14
-    dateRegex5 = r'[0-9]{1,2}[\/-][0-9]{1,2}'
+    dateRegex5 = r'\s[0-9]{1,2}[\/-][0-9]{1,2}[\.\s]'
     
-    #of forms: March-15, March/15, March 15
-    dateRegex6 = r'[a-zA-z]{4,9}[-\/\s]?[0-9]{1,2}'
-    #of forms: 14-Mar, 14/Mar, 14 Mar
-    dateRegex7 = r'[0-9]{1,2}[-\/\s]?[a-zA-z]{3}\s'
-    #of forms: Mar-14, Mar/14, Mar 14
-    dateRegex8 = r'[a-zA-z]{3}[-\/\s]?[0-9]{1,2}'
+    #of forms: March-15, March/15, March 15, March15
+    dateRegex6 = r'\s[a-zA-z]{4,9}[-\/\s]?[0-9]{1,2}[\.\s]'
+    #of forms: 14-Mar , 14/Mar , 14 Mar , 14Mar 
+    dateRegex7 = r'\s[0-9]{1,2}[-\/\s]?[a-zA-z]{3}[\.\s]'
+    #of forms: Mar-14, Mar/14, Mar 14, Mar14
+    dateRegex8 = r'\s[a-zA-z]{3}[-\/\s]?[0-9]{1,2}[\.\s]'
     #of forms: March 14, 2014
-    dateRegex9 = r'[a-zA-z]{4,9}\s[0-9]{1,2}\,\s[0-9]{4}'
+    dateRegex9 = r'\s[a-zA-z]{4,9}\s[0-9]{1,2}\,\s[0-9]{4}[\.\s]'
+
+    dateRegList = {dateRegex1, dateRegex2, dateRegex3, dateRegex4, dateRegex5, dateRegex6, dateRegex7, dateRegex8, dateRegex9}
 
     #content = "This spontaneous report from a female patient concerns a 18 year old Caucasian female with a 18 month old child. The patient's weight 98.6lbs and the patient had a height of  5' 3\". In 15-AUG-2014, the patient contacted her physician about the events and was prescribed an increased dosage of domperidone.  The patient reported the increased dose of domperidone had not relieved her worsening symptoms. On 13-AUG-2014, the patient experienced not feeling well"
     extract_age = re.findall(r'.*\s([0-9]+).?(yr|yrs|years|year).*',content,re.IGNORECASE)
@@ -87,7 +91,7 @@ def main():
     other_dates = []
   
 ##  Example formats: 06-AUG-2014
-    date_range  = re.findall(r'(from)\s([0-9]{2}[a-zA-Z]{3}[0-9]{4})\s(until|through|to)\s([0-9]{2}[a-zA-Z]{3}[0-9]{4})',content,re.IGNORECASE)
+    date_range  = re.findall(r'(from)\s(on)\s([0-9]{2}\-?[a-zA-Z]{3}\-?[0-9]{4})',content,re.IGNORECASE)
     extract_dates = re.findall(r'\s(on)\s([0-9]{2}\-?[a-zA-Z]{3}\-?[0-9]{4})', content,re.IGNORECASE)
  #   extract_dates = re.findall(r'.([0-9]{2}\-[a-zA-Z]{3}\-[0-9]{4})',content,re.IGNORECASE)
     if not date_range:
