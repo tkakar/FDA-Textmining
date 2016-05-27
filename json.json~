@@ -15,8 +15,26 @@
       }
    },
    "Adverse Event or Product Problem":{
-
+      "Adverse Event":false,
+      "Product Problem":false,
+      "Outcome Attributed to Adverse Event":{
+         "Death":{
+            "Dead":false,
+            "Date":null
+         },
+         "Life-threatening":false,
+         "Hospitalization - initial or prolonged":false,
+         "Other Serious (Important Medical Events)":false,
+         "Required Intervention to Prevent Permanent Impairment/Damage (Devices)":false,
+         "Disability or Permanent Damage":false,
+         "Congenital Anomaly/Birth Defects":false
       },
+      "Date of Event":null,
+      "Date of this Report":null,
+      "Describe Event or Problem":null,
+      "Relevant Tests/Laboratory Data, Including Dates":null,
+      "Other Relevant History, Including Preexisting Medical Conditions":null
+   },
    "Suspect Product(s)":{
 
       },
