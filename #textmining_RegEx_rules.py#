@@ -1,4 +1,4 @@
-]#-------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------
 # Name:        Information extraction with Regular Expressions
 # Purpose:      Textmining on FDA report narratives
 #               Extract age, gender, height, weight and dates mentioned in the report
@@ -18,10 +18,18 @@ def main():
     f = open(sys.argv[1], 'r+')
     content = f.read()
     
+    #var contains all dates
+    allDates = []
+
     #of forms: 01-03-2016, 01/03/2016, 1-03-2016, 1/03/2016 
     dateRegex1 = r'[0-9]{1,2}[\/-][0-9]{1,2}[-\/]?([0-9]{4})?'
+    #convert to standard date format:
+    dr1 = re.findall(dateRegex1)
+    for date in dr1:
+        temp = date[2]
+        
     #of forms: 01-Mar-2016, 01/Mar/2016, 1-Mar-2016, 1/Mar/2016
-    dateRegex2 = r'[0-9]{1,2}[\/-][a-zA-Z]{3}[-\/]([0-9]{4})?'
+    dateRegex2 = r'[0-9]{1,2}[\/-]?[a-zA-Z]{3}[-\/]?([0-9]{4})?'
     
     #of forms: 01-03-16, 01/03/16, 1-03-16, 1/03/16 
     dateRegex3 = r'[0-9]{1,2}[\/-][0-9]{1,2}[-\/]?([0-9]{2})?'

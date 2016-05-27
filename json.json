@@ -1,0 +1,109 @@
+##Amber working on an object designed to store all necessary extracted information
+
+{
+   "Patient Information":{
+      "Patient Identifier":null,
+      "Age":null,
+      "Date of Birth":null,
+      "Sex":null,
+      "Weight":null,
+      "Ethnicity":null,
+      "Race":{
+         "Asian":false,
+         "American Indian or Alaskan Native":false,
+         "Black or African American":false,
+         "White":false,
+         "Native Hawaiian or Other Pacific Islander":false
+      }
+   },
+   "Adverse Event or Product Problem":{
+      "Adverse Event":false,
+      "Product Problem":false,
+      "Outcome Attributed to Adverse Event":{
+         "Death":{
+            "Dead":false,
+            "Date":null
+         },
+         "Life-threatening":false,
+         "Hospitalization - initial or prolonged":false,
+         "Other Serious (Important Medical Events)":false,
+         "Required Intervention to Prevent Permanent Impairment/Damage (Devices)":false,
+         "Disability or Permanent Damage":false,
+         "Congenital Anomaly/Birth Defects":false
+      },
+      "Date of Event":null,
+      "Date of this Report":null,
+      "Describe Event or Problem":null,
+      "Relevant Tests/Laboratory Data, Including Dates":null,
+      "Other Relevant History, Including Preexisting Medical Conditions":null
+   },
+   "Suspect Product(s)":{
+      "Product Info":[
+         {
+            "Name":null,
+            "Strength":null,
+            "NDC/ID":null,
+            "Manufacturer/Compounder":null,
+            "Lot Number":null,
+            "Dose":null,
+            "Frequency":null,
+            "Route Used":null,
+            "Therapy Date Start":null,
+            "Therapy Date End":null,
+            "Diagnosis for Use":null,
+            "Compounded":null,
+            "Over the Counter":null,
+            "Expiration Date":null,
+            "Event Abated After Use Stopped or Reduced":null,
+            "Event Reappeared After Reintroduction":null
+         }
+      ],
+      "Concomitant Medical Products and Therapy Dates":null
+   },
+   "Suspect Medical Device":{
+      "Brand Name":null,
+      "Common Device Name":null,
+      "Procode":null,
+      "Manufacturer":{
+         "Name":null,
+         "City":null,
+         "State":null
+      },
+      "Model Number":null,
+      "Catalog Number":null,
+      "Serial Number":null,
+      "Lot Number":null,
+      "Expiration Date":null,
+      "UDI Number":null,
+      "Operator of Device":null,
+      "Date Implanted":null,
+      "Date Explanted":null,
+      "This a single-use device that was reprocessed and reused on a patient":{
+         "Single-use Device":false,
+         "Name of Reprocessor":null,
+         "Address of Repocessor":null
+      },
+      "Device Available for Evaluation":null,
+      "Concomitant Medical Products and Therapy Dates":null
+   },
+   "Initial Reporter":{
+      "Name":{
+         "First Name":null,
+         "Last Name":null
+      },
+      "Address":{
+         "Street":null,
+         "City":null,
+         "State/Province/Region":null,
+         "Country":null,
+         "ZIP/Postal Code":null
+      },
+      "Phone Number":null,
+      "Email":null,
+      "Health Professional":null,
+      "Occupation":null,
+      "Initial Reporter Also Sent Report to FDA":"unknown"
+   }
+}
+
+##There are more components to the form, but they are not relative to a doctor's narative, they are specifically for the manufacturers etc. so I have not included them. 
