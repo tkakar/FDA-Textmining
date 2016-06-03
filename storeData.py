@@ -42,6 +42,24 @@ def main():
 				"White":False,
 				"Native Hawaiian or Other Pacific Islander":False
 			}
+		},
+		"Initial Reporter":{
+			"Name":{
+				"First Name":None,
+				"Last Name":None
+			},
+			"Address":{
+				"Street":None,
+				"City":None,
+				"State/Province/Region":None,
+				"Country":None,
+				"ZIP/Postal Code":None
+			},
+			"Phone Number":None,
+			"Email":None,
+			"Health Professional":None,
+			"Occupation":None,
+			"Initial Reporter Also Sent Report to FDA":"unknown"
 		}
 	}
 
@@ -85,13 +103,53 @@ def main():
 	data["Patient Information"]["Sex"] = gender
 
 	#RACE---------------------------------------------------------------------
+	#white
 	extract_white = re.findall(r'(white|caucasian)',content,re.IGNORECASE)
 	if not extract_white:
 		white = False
 	else:
 		white = True
-
 	data["Patient Information"]["Race"]["White"] = white
+
+	#black
+	extract_black = re.findall(r'(black|african)',content,re.IGNORECASE)
+	if not extract_black:
+		black = False
+	else:
+		black = True
+	data["Patient Information"]["Race"]["Black or African American"] = black
+
+	#American Indian or Alaskan Native
+	extract_native = re.findall(r'(american indian|alaskan native)',content,re.IGNORECASE)
+	if not extract_native:
+		native = False
+	else:
+		native = True
+	data["Patient Information"]["Race"]["American Indian or Alaskan Native"] = native
+
+	#Asian
+	extract_asian = re.findall(r'\s(asian)',content,re.IGNORECASE)
+	if not extract_asian:
+		asian = False
+	else:
+		asian = True
+	data["Patient Information"]["Race"]["Asian"] = asian
+
+	#Native Hawaiian or Other Pacific Islander
+	extract_islander = re.findall(r'(hawaiian|pacific islander)',content,re.IGNORECASE)
+	if not extract_islander:
+		islander = False
+	else:
+		islander = True
+	data["Patient Information"]["Race"]["Native Hawaiian or Other Pacific Islander"] = islander
+
+	#ETHNICITY----------------------------------------------------
+	extract_hispanic = re.findall(r'(hispanic)',content,re.IGNORECASE)
+	if not extract_hispanic:
+		hispanic = None
+	else:
+		hispanic = "Hispanic"
+	data["Patient Information"]["Ethnicity"] = hispanic
 
    	#JSONEncoder().encode(data)
 	result = json.dumps(data)
