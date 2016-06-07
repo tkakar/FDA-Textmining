@@ -27,6 +27,8 @@ Both work, but have some limitations:
 
      The POSTagger and NERTagger both are packaged as separate projects (not under the CoreNLP pipeline) and are therefore not supported by the nltk module. This has been brought up as an enhancement in Github under nltk development recently, but no one has taken it up yet. Vimig might pursue this in some free time, but for our purposes, this isn't that necessary as we can use one of the other working libraries. Further, when tool goes live, we would want to run the Stanford NLP system as a JSON-RPC Server so a new command line isn't created for every request to the Stanford library. 
 
+Github issue:
+https://github.com/nltk/nltk/issues/1019
 
 For StanfordPOSTagger: 
 
