@@ -1,5 +1,3 @@
-##Amber working on an object designed to store all necessary extracted information
-
 {
    "Patient Information":{
       "Patient Identifier":null,
@@ -104,6 +102,4 @@
       "Occupation":null,
       "Initial Reporter Also Sent Report to FDA":"unknown"
    }
-}
-
-##There are more components to the form, but they are not relative to a doctor's narative, they are specifically for the manufacturers etc. so I have not included them. 
+} 

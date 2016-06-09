@@ -1,0 +1,44 @@
+conjunction, CD, conjunction
+ 
+ ('prescribed', 'VBN'),
+  ('in', 'IN'),
+  ('August', 'NNP'),
+  ('2014', 'CD'),
+  ('for', 'IN'),
+  ('lactation', 'NN'),
+  ('.', '.')],
+
+('infant', 'NN'),
+  ('was', 'VBD'),
+  ('3', 'CD'),
+  ('months', 'NNS'),
+  ('old', 'JJ'),
+  ('when', 'WRB'),
+  ('she', 'PRP'),
+
+
+[('About', 'IN'),
+  ('3', 'CD'),
+  ('weeks-1', 'JJ'),
+  ('month', 'NN'),
+  ('later', 'RB'),
+  ('(', '('),
+  ('mid-January', 'JJ'),
+  ('2015', 'CD'),
+  (')', ')'),
+  (',', ','),
+  ('patient', 'JJ'),
+  ('developed', 'VBN'),
+
+('domperidone', 'NN'),
+  ('is', 'VBZ'),
+  ('being', 'VBG'),
+  ('started', 'VBN'),
+  ('6', 'CD'),
+  ('months', 'NNS'),
+  ('before', 'IN'),
+  ('those', 'DT'),
+  ('women', 'NNS'),
+
+    
+

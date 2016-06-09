@@ -1,0 +1,115 @@
+TIMEX Limitations (NTLK)
+--------------------------------------------------------------
+
+Seems to only be limited to relative temporal expressions (i.e. "two weeks ago", "today", etc.) but fails to include actual date recognition (i.e. "May <TIMEX2>2000</TIMEX2>", "n16-Apr-<TIMEX2>2015</TIMEX2>"). It does grab years however.
+
+ 
+                                                                                                     
+
+
+Stanford NLP Limitations (both library and env-wise)
+
+https://github.com/brendano/stanford_corenlp_pywrapper
+------------------------------------------------------
+
+Requires at least CoreNLP v. 3.5.1 which requires Java 8, which RAMBO and CCC don't have (only Java 7) - as of 6/6/16
+
+
+https://github.com/dasmith/stanford-corenlp-python
+--------------------------------------------------
+
+Works on RAMBO with version 2.4.1 CoreNLP tools. Parses both absolute and relative temporal expressions.
+
+Using NLTK.tag.stanford module
+------------------------------
+
+Both work, but have some limitations:
+
+     The POSTagger and NERTagger both are packaged as separate projects (not under the CoreNLP pipeline) and are therefore not supported by the nltk module. This has been brought up as an enhancement in Github under nltk development recently, but no one has taken it up yet. Vimig might pursue this in some free time, but for our purposes, this isn't that necessary as we can use one of the other working libraries. Further, when tool goes live, we would want to run the Stanford NLP system as a JSON-RPC Server so a new command line isn't created for every request to the Stanford library. 
+
+Github issue:
+https://github.com/nltk/nltk/issues/1019
+
+For StanfordPOSTagger: 
+
+st = StanfordPOSTagger('english-bidirectional-distsim.tagger')
+>>> st.tag('What is the airspeed of an unladen swallow ?'.split())
+Loading default properties from tagger C:\Users\vsocrates\Downloads\stanford-ner-2015-12-09\stanford-ner.jar
+
+Exception in thread "main" edu.stanford.nlp.io.RuntimeIOException: No such trained tagger config file found: C:\Users\vsocrates\Downloads\stanford-ner-2015-12-09\stanford-ner.jar
+
+	  at edu.stanford.nlp.tagger.maxent.TaggerConfig.<init>(TaggerConfig.java:150)
+	  at edu.stanford.nlp.tagger.maxent.TaggerConfig.<init>(TaggerConfig.java:128)
+
+	  at edu.stanford.nlp.tagger.maxent.MaxentTagger.main(MaxentTagger.java:1836)
+
+
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    st.tag('What is the airspeed of an unladen swallow ?'.split())
+  File "C:\Python34\lib\site-packages\nltk\tag\stanford.py", line 71, in tag
+    return sum(self.tag_sents([tokens]), [])
+  File "C:\Python34\lib\site-packages\nltk\tag\stanford.py", line 94, in tag_sents
+    stdout=PIPE, stderr=PIPE)
+  File "C:\Python34\lib\site-packages\nltk\internals.py", line 134, in java
+    raise OSError('Java command failed : ' + str(cmd))
+OSError: Java command failed : ['C:\\Program Files\\Java\\jdk1.8.0_45\\bin\\java.exe', '-mx1000m', '-cp', 'C:\\Users\\vsocrates\\Downloads\\stanford-postagger-2015-12-09\\stanford-postagger-3.6.0-javadoc.jar;C:\\Users\\vsocrates\\Downloads\\stanford-postagger-2015-12-09\\stanford-postagger-3.6.0-sources.jar;C:\\Users\\vsocrates\\Downloads\\stanford-postagger-2015-12-09\\stanford-postagger-3.6.0.jar;C:\\Users\\vsocrates\\Downloads\\stanford-postagger-2015-12-09\\stanford-postagger.jar;C:\\Users\\vsocrates\\Downloads\\stanford-postagger-2015-12-09\\lib\\slf4j-api.jar;C:\\Users\\vsocrates\\Downloads\\stanford-postagger-2015-12-09\\lib\\slf4j-simple.jar', 'edu.stanford.nlp.tagger.maxent.MaxentTagger', '-model', 'C:\\Users\\vsocrates\\Downloads\\stanford-ner-2015-12-09\\stanford-ner.jar', '-textFile', 'C:\\Users\\vsocrates\\AppData\\Local\\Temp\\tmpnf5bzmai', '-tokenize', 'false', '-outputFormatOptions', 'keepEmptySentences', '-encoding', 'utf8']
+
+Issue Resolved:
+Need to use entire path name and also (possibly-not sure made multiple changes to fix) add ./classifers folder to STANFORD_MODELS env. variable.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+For StanfordNERTagger:
+
+st = StanfordNERTagger('english.all.3class.distsim.crf.ser.gz')
+>>> st.tag('Rami Eid is studying at Stony Brook University in NY'.split())
+CRFClassifier invoked on Tue Jun 07 09:34:49 EDT 2016 with arguments:
+   -loadClassifier C:\Users\vsocrates\Downloads\stanford-ner-2015-12-09\stanford-ner.jar -textFile C:\Users\vsocrates\AppData\Local\Temp\tmpk0gsz96g -outputFormat slashTags -tokenizerFactory edu.stanford.nlp.process.WhitespaceTokenizer -tokenizerOptions "tokenizeNLs=false" -encoding utf8
+
+tokenizerFactory=edu.stanford.nlp.process.WhitespaceTokenizer
+
+tokenizerOptions="tokenizeNLs=false"
+
+loadClassifier=C:\Users\vsocrates\Downloads\stanford-ner-2015-12-09\stanford-ner.jar
+
+encoding=utf8
+
+textFile=C:\Users\vsocrates\AppData\Local\Temp\tmpk0gsz96g
+
+outputFormat=slashTags
+
+Loading classifier from C:\Users\vsocrates\Downloads\stanford-ner-2015-12-09\stanford-ner.jar ... Exception in thread "main" edu.stanford.nlp.io.RuntimeIOException: java.io.StreamCorruptedException: invalid stream header: 504B0304
+
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifierNoExceptions(AbstractSequenceClassifier.java:1499)
+
+	at edu.stanford.nlp.ie.crf.CRFClassifier.main(CRFClassifier.java:3015)
+
+Caused by: java.io.StreamCorruptedException: invalid stream header: 504B0304
+
+       at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:806)
+
+       at java.io.ObjectInputStream.<init>(ObjectInputStream.java:299)
+
+       at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifier(AbstractSequenceClassifier.java:1454)
+
+       at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifier(AbstractSequenceClassifier.java:1486)
+
+       at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifierNoExceptions(AbstractSequenceClassifier.java:1497)
+
+       ... 1 more
+
+
+Traceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    st.tag('Rami Eid is studying at Stony Brook University in NY'.split())
+  File "C:\Python34\lib\site-packages\nltk\tag\stanford.py", line 71, in tag
+    return sum(self.tag_sents([tokens]), [])
+  File "C:\Python34\lib\site-packages\nltk\tag\stanford.py", line 94, in tag_sents
+    stdout=PIPE, stderr=PIPE)
+  File "C:\Python34\lib\site-packages\nltk\internals.py", line 134, in java
+    raise OSError('Java command failed : ' + str(cmd))
+OSError: Java command failed : ['C:\\Program Files\\Java\\jdk1.8.0_45\\bin\\java.exe', '-mx1000m', '-cp', 'C:\\Users\\vsocrates\\Downloads\\stanford-ner-2015-12-09\\stanford-ner-3.6.0-javadoc.jar;C:\\Users\\vsocrates\\Downloads\\stanford-ner-2015-12-09\\stanford-ner-3.6.0-sources.jar;C:\\Users\\vsocrates\\Downloads\\stanford-ner-2015-12-09\\stanford-ner-3.6.0.jar;C:\\Users\\vsocrates\\Downloads\\stanford-ner-2015-12-09\\stanford-ner.jar;C:\\Users\\vsocrates\\Downloads\\stanford-ner-2015-12-09\\lib\\joda-time.jar;C:\\Users\\vsocrates\\Downloads\\stanford-ner-2015-12-09\\lib\\jollyday-0.4.7.jar;C:\\Users\\vsocrates\\Downloads\\stanford-ner-2015-12-09\\lib\\slf4j-api.jar;C:\\Users\\vsocrates\\Downloads\\stanford-ner-2015-12-09\\lib\\slf4j-simple.jar;C:\\Users\\vsocrates\\Downloads\\stanford-ner-2015-12-09\\lib\\stanford-ner-resources.jar', 'edu.stanford.nlp.ie.crf.CRFClassifier', '-loadClassifier', 'C:\\Users\\vsocrates\\Downloads\\stanford-ner-2015-12-09\\stanford-ner.jar', '-textFile', 'C:\\Users\\vsocrates\\AppData\\Local\\Temp\\tmpk0gsz96g', '-outputFormat', 'slashTags', '-tokenizerFactory', 'edu.stanford.nlp.process.WhitespaceTokenizer', '-tokenizerOptions', '"tokenizeNLs=false"', '-encoding', 'utf8']
+
+Issue Resolved:
+Need to use entire path name and also (possibly-not sure made multiple changes to fix) add ./classifers folder to STANFORD_MODELS env. variable.
