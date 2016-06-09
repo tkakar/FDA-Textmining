@@ -40,10 +40,10 @@ def main():
         
     #print(sentenceTimexTags)
     
-    uniqueSentenceTimexes = [set(sublist) for sublist in sentenceTimexTags]
-    uniqueList = list(uniqueSentenceTimexes)
+    uniqueSentenceTimexes = [list(set(sublist)) for sublist in sentenceTimexTags]
+#    uniqueList = uniqueSentenceTimexes.pop()
     #print ('\r\n')
-    print(uniqueList)
+ #   print(uniqueList)
 
     words2 = []
     for wordTagSent in range(0,len(uniqueSentenceTimexes)):
@@ -54,7 +54,7 @@ def main():
         words2.append(otherWords)
 
     print(words)
-    print(list(words2))
+    print(words2)
 
 len2 = lambda l: sum([len(x) for x in l])
 
