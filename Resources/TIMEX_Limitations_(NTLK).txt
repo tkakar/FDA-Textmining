@@ -1,4 +1,4 @@
-TIMEX Limitations (NTLK)
+nltk.TIMEX Limitations (NTLK)
 --------------------------------------------------------------
 
 Seems to only be limited to relative temporal expressions (i.e. "two weeks ago", "today", etc.) but fails to include actual date recognition (i.e. "May <TIMEX2>2000</TIMEX2>", "n16-Apr-<TIMEX2>2015</TIMEX2>"). It does grab years however.
@@ -18,7 +18,7 @@ Requires at least CoreNLP v. 3.5.1 which requires Java 8, which RAMBO and CCC do
 https://github.com/dasmith/stanford-corenlp-python
 --------------------------------------------------
 
-Works on RAMBO with version 2.4.1 CoreNLP tools. Parses both absolute and relative temporal expressions.
+Works on RAMBO with version 3.4.1 CoreNLP tools. Parses both absolute and relative temporal expressions.
 
 Using NLTK.tag.stanford module
 ------------------------------

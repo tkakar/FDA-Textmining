@@ -1,0 +1,38 @@
+raw = open('./tests/t2.json').read()
+
+>>> raw
+'{\r\n   "sentences":[\r\n      {\r\n         "parsetree":"(ROOT (S (NP-TMP (JJ Last) (NN summer)) (, ,) (NP (PRP they)) (VP (VBD met) (NP (DT every) (NNP Tuesday) (NN afternoon)) (, ,) (PP (IN from) (NP (CD 1:00) (NN pm))) (PP (TO to) (NP (CD 3:00) (NN pm)))) (. .)))",\r\n         "text":"Last summer, they met every Tuesday afternoon, from 1:00 pm to 3:00 pm.",\r\n         "dependencies":[\r\n            [\r\n               "root",\r\n               "ROOT",\r\n               "met"\r\n            ],\r\n            [\r\n               "amod",\r\n               "summer",\r\n               "Last"\r\n            ],\r\n            [\r\n               "tmod",\r\n               "met",\r\n               "summer"\r\n            ],\r\n            [\r\n               "nsubj",\r\n               "met",\r\n               "they"\r\n            ],\r\n            [\r\n               "det",\r\n               "afternoon",\r\n               "every"\r\n            ],\r\n            [\r\n               "nn",\r\n               "afternoon",\r\n               "Tuesday"\r\n            ],\r\n            [\r\n               "dobj",\r\n               "met",\r\n               "afternoon"\r\n            ],\r\n            [\r\n               "num",\r\n               "pm",\r\n               "1:00"\r\n            ],\r\n            [\r\n               "prep_from",\r\n               "met",\r\n               "pm"\r\n            ],\r\n            [\r\n               "num",\r\n               "pm",\r\n               "3:00"\r\n            ],\r\n            [\r\n               "prep_to",\r\n               "met",\r\n               "pm"\r\n            ]\r\n         ],\r\n         "words":[\r\n            [\r\n               "Last",\r\n               {\r\n                  "NormalizedNamedEntityTag":"XXXX-SU",\r\n                  "Timex":"<TIMEX3 alt_value=\\"XXXX-SU OFFSET P-1Y\\" anchorTimeID=\\"t2\\" temporalFunction=\\"true\\" tid=\\"t1\\" type=\\"DATE\\" valueFromFunction=\\"tf0\\">Last summer</TIMEX3>",\r\n                  "Lemma":"last",\r\n                  "CharacterOffsetEnd":"4",\r\n                  "PartOfSpeech":"JJ",\r\n                  "CharacterOffsetBegin":"0",\r\n                  "NamedEntityTag":"DATE"\r\n               }\r\n            ]\r\n            ]\r\n      }\r\n   ]\r\n}'
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+>>> parsed = json.loads(raw)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+to get timex tag in word:  parsed['sentences'][0]['words'][x][1]['Timex'] ==> x is what is cycled to get words
+
+parsed['sentences'][x]['words'][y][z]['Timex'] ==> x ==> each sentence, y is what is cycled to get words, z[0] is the word, z[1] is the rest of the stuff
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+ import xml.etree.ElementTree  as ET
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+>>> root = ET.fromstring(timexTag)
+
+>>> root
+<Element 'TIMEX3' at 0x7f524c967950>
+
+>>> root.tag
+'TIMEX3'
+
+>>> root.attrib
+{'temporalFunction': 'true', 'alt_value': 'XXXX-SU OFFSET P-1Y', 'tid': 't1', 'anchorTimeID': 't2', 'type': 'DATE', 'valueFromFunction': 'tf0'}
+
+>>> root.get('temporalFunction')
+'true'
+
+root.text ==> 'Last summer'
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+raw2 = raw.strip()[1:-1]
+raw3 = raw2.decode('string-escape')
+
+json.loads(raw3)
