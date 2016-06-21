@@ -1,8 +1,7 @@
 
-
 class DataElement(object):
     
-    def __init__(self,extracedField=None, charOffset=None, extractorName=None):
+    def __init__(self,extractedField=None, charOffset=None, extractorName=None):
         self.extractedField = extractedField
         self.charOffset = charOffset
         self.extractorName = extractorName

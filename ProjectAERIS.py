@@ -1,6 +1,6 @@
 import sys
 from Preprocessor import Preprocessor
-from EventDate.AERecognitionEventDateExtractor import AERecogExtractor 
+from AERecognitionEventDateExtractor import AERecogExtractor 
 import nltk
 from nltk import data
 
