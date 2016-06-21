@@ -1,0 +1,33 @@
+Date identification Ideas:
+------------------------------
+
+Simple Regex rules, take first TIMEX3 return
+look for words "AE(s)" or "Adverse Events" in sentence. Find closest date.
+	after or before
+	same sentence
+look for words "suspect" or in relation to drug and find closest date. 
+most common surrounding parts of speech?
+Location within the report (following drug references via MetaMap)
+See proximity to symptoms (as seen by MetaMap)
+fuzzy string matching using Levenshtein distance
+
+---------
+make sure to look for "unknown date", "unspecified date" as an option
+
+------
+Would it be better to create Date objects for all dates found, and then try to figure out their semantic meaning, or look for the "event date" specifically and worry about rest later? 
+
+	First is probably easier.
+
+--------
+
+Options for Pipeline
+
+utility methods (i.e. pass raw text/tagged text, and string regex to RegEx pipeline)
+create objects for all found "data elements" and then use/discard them as necessary (e.g. create Date objects for all Timex3 tagged elements)
+pass in ProjectAERIS Object into extractors, which will include file location/raw text for further extraction
+	output would be corresponding "data element" object (EventDateObject, GenderObject)
+
+
+----------------------------------
+look at tokenization, sentence structure (break them up) and see how well it works

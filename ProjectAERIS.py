@@ -1,17 +1,31 @@
-import timex3-extractor from NLP_NLTK as timex2
 import sys
+from Preprocessor import Preprocessor
+from EventDate.AERecognitionEventDateExtractor import AERecogExtractor 
+import nltk
+from nltk import data
 
-
-def __init__():
-    
+nltk.data.path.append('/work/vsocrates/nltk_data')
 
 def main():
-    filename = sys.argv[2]
-    rawTextFile = open(filename)
-    rawText = rawTextFile.read()
 
+    sysArgs = sys.argv[1:]
+    if len(sysArgs) >= 1:
+        preprocessOne = Preprocessor(rawTextFileName=sysArgs[0])
+        print 'done preprocess!'
+    else:
+        print "Need a file name!" 
+        return
+
+    tagged_text = preprocessOne.timexTagAndTokenizeText()
+    print 'done tagging!'
+    recogEx = AERecogExtractor(tagged_text)
     
+    isFoundDate = recogEx.findDates()
+    if not isFoundDate:
+        print "Didn't find a date :(" 
+        return 
 
+    print 'date found!'
 
 
 if __name__ == "__main__":

@@ -1,0 +1,18 @@
+B0;136;0cfrom nltk_contrib import timex
+import re
+import nltk
+
+def main():
+    raw = open('../test_cases/fda001.txt').read()
+    
+    tagged_raw = timex.tag(raw)
+    print(tagged_raw)
+    
+    #search for words (e.g. 'AE(s)' or 'Adverse Event(s)')
+    pattern = r'(Adverse Event(?:s?)|\bAE(\s|s))'
+    re_pat = re.compile(pattern)
+    aeTags = re.findall(re_pat, tagged_raw)
+    print(aeTags)
+
+if __name__ == '__main__':
+    main()
