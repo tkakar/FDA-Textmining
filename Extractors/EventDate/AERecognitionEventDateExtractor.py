@@ -1,4 +1,4 @@
-from nltk_contrib import timex
+from nltk_contrib.nltk_contrib import timex
 import re
 import nltk
 from nltk import word_tokenize, sent_tokenize
@@ -12,7 +12,7 @@ class AERecogExtractor(object):
         self.tokens = time_tagged_tokenizedText
         
     def findDates(self):
-
+#        print self.tokens
         #search for words (e.g. 'AE(s)' or 'Adverse Event(s)')
         pattern = r'\bAE(\s|s)'
         pattern2 = r'\bevents?\b'
@@ -31,11 +31,15 @@ class AERecogExtractor(object):
                 ae_index_list.append(index)
                 
         if ae_index_list == []:
-            print "There are no instances of keyword 'adverse event'"
-            return False
+            print "There are no instances of keyword 'adverse event/AE'"
+            return False 
+            
         #Get the indices for all the found tagged words
         time_index_list = [index for index in range(0,len(self.tokens)) if re_pat3.search(self.tokens[index])]
         
+        if time_index_list == []:
+            print "There are no temporal expressions in the text."
+            return False
         #Minimize difference between indices for AE keywork  and dates
         diff = min(product(ae_index_list, time_index_list), key = lambda t: abs(t[0] - t[1]))
 
