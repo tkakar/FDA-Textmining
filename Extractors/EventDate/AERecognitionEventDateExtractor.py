@@ -5,6 +5,7 @@ from nltk import word_tokenize, sent_tokenize
 from nltk.tokenize import MWETokenizer
 import itertools
 from itertools import product 
+from DataElements.EventDateElement import EventDateElement
 
 class AERecogExtractor(object): 
 
@@ -60,5 +61,6 @@ class AERecogExtractor(object):
             date = date[::-1]
 
         print date
-
-        return True
+        #TODO Need to figure out how to find the char offset when we have tagged text only
+        return EventDateElement(" ".join(date), 0, "AERecognitionEventDateExtrator")
+#        return True

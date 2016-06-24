@@ -19,22 +19,23 @@ def main():
 
     tagged_text = preprocessOne.timexTagAndTokenizeText()
     print 'done tagging!'
-    recogEx = AERecogExtractor(tagged_text)
-    recogEx2 = SuspectRecogExtractor(tagged_text)
+#    tagged_text2 = preprocessOne.timexTagAndTokenizeText()
+#    recogEx = AERecogExtractor(tagged_text)
+#    recogEx2 = SuspectRecogExtractor(tagged_text)
 
     posTagged = preprocessOne.posTaggedText()
-    print posTagged
+#    print posTagged
 
-    isFoundDate = recogEx.findDates()
-    isFoundDate2 = recogEx2.findDates()
-    if not isFoundDate:
-        print "AE Extractor didn't find a date  :(" 
-        return
-    if not isFoundDate2:
-        print "Suspect Extractor didn't find a date :("
-        return
+#    isFoundDate = recogEx.findDates()
+#    isFoundDate2 = recogEx2.findDates()
+    # if not isFoundDate:
+    #     print "AE Extractor didn't find a date  :(" 
+    #     return
+    # if not isFoundDate2:
+    #     print "Suspect Extractor didn't find a date :("
+    #     return
 
-    print 'date found!'
+    # print 'date found!'
 
 
 if __name__ == "__main__":
