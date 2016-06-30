@@ -1,4 +1,4 @@
-import sys
+import sys, re
 from nltk_contrib.nltk_contrib import timex
 from Preprocessor import Preprocessor
 from AERecognitionEventDateExtractor import AERecogExtractor 
@@ -10,20 +10,29 @@ nltk.data.path.append('/work/vsocrates/nltk_data')
 def main():
 
     sysArgs = sys.argv[1:]
-    if len(sysArgs) >= 1:
-        preprocessOne = Preprocessor(rawTextFileName=sysArgs[0])
+    if len(sysArgs) >= 2:
+        preprocessOne = Preprocessor(rawTextFileName=sysArgs[0], outputXMLFileName=sysArgs[1])
         print 'done preprocess!'
     else:
         print "Need a file name!" 
         return
 
-    tagged_text = preprocessOne.timexTagAndTokenizeText()
+#    test = preprocessOne.parseText()
+#    pattern = re.compile("\s?\n\s?")
+#    print test
+#    test2 = pattern.split(test)
+    # test2 = [i for i in test if i is not '']
+    # print test2
+    # print test2[1]
+    # tagged_text = preprocessOne.timexTagAndTokenizeText()
+    #print test
     print 'done tagging!'
 #    tagged_text2 = preprocessOne.timexTagAndTokenizeText()
 #    recogEx = AERecogExtractor(tagged_text)
 #    recogEx2 = SuspectRecogExtractor(tagged_text)
 
     posTagged = preprocessOne.posTaggedText()
+    preprocessOne.getParseTree()
 #    print posTagged
 
 #    isFoundDate = recogEx.findDates()
