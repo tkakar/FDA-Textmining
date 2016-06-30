@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATIONS textSource=null annotator=null>
+	<EVENT_DT start=null end=null></EVENT_DT>
+	<DEMOGRAPHICS>
+		<AGE_SET>
+			<AGE start=null end=null></AGE>
+			<AGE_COD start=null end=null></AGE_COD>
+		</AGE_SET>
+		<WT_SET>
+			<WT start=null end=null></WT>
+			<WT_COD start=null end=null></WT_COD>
+		</WT_SET>
+		<SEX start=null end=null></SEX>
+	</DEMOGRAPHICS>
+	<DRUG_FILE>
+		<INSTANCE> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
+	      <DRUGNAME start=null end=null></DRUGNAME>
+	      <ROUTE start=null end=null></ROUTE>
+	      <DECHAL start=null end=null></DECHAL>
+	      <RECHAL start=null end=null></RECHAL>
+	      <DOSE_AMT start=null end=null></DOSE_AMT>
+	      <DOSE_UNIT start=null end=null></DOSE_UNIT>
+	      <DOSE_FORM start=null end=null></DOSE_FORM>
+	      <DOSE_FREQ start=null end=null></DOSE_FREQ>
+    	</INSTANCE>
+	</DRUG_FILE>
+	<REACTION_FILE>
+		<PT start=null end=null></PT>
+	</REACTION_FILE>
+	<INDICATION_FILE>
+		<INDI_PT start=null end=null></INDI_PT>
+	</INDICATION_FILE>
+</ANNOTATIONS>
