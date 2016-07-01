@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATIONS textSource="gen014.txt" annotator="Vimig Socrates">
+	<EVENT_DT start="419" end="438">20070601</EVENT_DT>
+	<DEMOGRAPHICS>
+		<AGE_SET>
+			<AGE start="261" end="263">65</AGE>
+			<AGE_COD start="264" end="272">year old</AGE_COD>
+		</AGE_SET>
+		<WT_SET>
+			<WT start="" end=""></WT>
+			<WT_COD start="" end=""></WT_COD>
+		</WT_SET>
+		<SEX start="279" end="283">M</SEX>
+	</DEMOGRAPHICS>
+	<DRUG_FILE>
+		<INSTANCE> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
+	      <DRUGNAME start="2387" end="2394">Aspirin</DRUGNAME>
+	      <ROUTE start="2400" end="2402">po</ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="2395" end="2397">81</DOSE_AMT>
+	      <DOSE_UNIT start="2397" end="2399">MG</DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="2403" end="2405">QD</DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="2432" end="2442">Metoprolol</DRUGNAME>
+	      <ROUTE start="2449" end="2451">po</ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="2443" end="2446">100</DOSE_AMT>
+	      <DOSE_UNIT start="2446" end="2448">MG</DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="2452" end="2454">QD</DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="2468" end="2474">Prozac</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="2475" end="2477">20</DOSE_AMT>
+	      <DOSE_UNIT start="2477" end="2479">MG</DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="2483" end="2485">QD</DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="2509" end="2517">Protonix</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="2189" end="2199">Metoprolol</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="2239" end="2245">Prozac</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+	</DRUG_FILE>
+	<REACTION_FILE>
+		<PT start="" end=""></PT>
+	</REACTION_FILE>
+	<INDICATION_FILE>
+		<INDI_PT start="" end=""></INDI_PT>
+	</INDICATION_FILE>
+</ANNOTATIONS>

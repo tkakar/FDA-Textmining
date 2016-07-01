@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATIONS textSource="gen012.txt" annotator="Vimig Socrates">
+	<EVENT_DT start="" end=""></EVENT_DT>
+	<DEMOGRAPHICS>
+		<AGE_SET>
+			<AGE start="19" end="21">72</AGE>
+			<AGE_COD start="21" end="23">YR</AGE_COD>
+		</AGE_SET>
+		<WT_SET>
+			<WT start="" end=""></WT>
+			<WT_COD start="" end=""></WT_COD>
+		</WT_SET>
+		<SEX start="143" end="146">M</SEX>
+	</DEMOGRAPHICS>
+	<DRUG_FILE>
+		<INSTANCE> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
+	      <DRUGNAME start="1648" end="1658">lisinopril</DRUGNAME>
+	      <ROUTE start="1665" end="1667">po</ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="1659" end="1661">20</DOSE_AMT>
+	      <DOSE_UNIT start="1662" end="1664">MG</DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="1668" end="1673">QD</DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="1686" end="1692">Hytrin</DRUGNAME>
+	      <ROUTE start="1698" end="1700">po</ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="1693" end="1694">5</DOSE_AMT>
+	      <DOSE_UNIT start="1695" end="1697">MG</DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="1701" end="1711">HS</DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="1725" end="1728">ASA</DRUGNAME>
+	      <ROUTE start="1736" end="1738">po</ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="1739" end="1732">325</DOSE_AMT>
+	      <DOSE_UNIT start="1733" end="1735">MG</DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="1739" end="1744">QD</DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="1770" end="1781">Allopurinol</DRUGNAME>
+	      <ROUTE start="1788" end="1790">po</ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="1782" end="1785">300</DOSE_AMT>
+	      <DOSE_UNIT start="1785" end="1787">MG</DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="1791" end="1796">QD</DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="1821" end="1829">Atrovent</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="1830" end="1831">2</DOSE_AMT>
+	      <DOSE_UNIT start="1831" end="1836">puffs</DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="1837" end="1850">QID</DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="1864" end="1870">Motrin</DRUGNAME>
+	      <ROUTE start="1877" end="1879">po</ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="1871" end="1874">200</DOSE_AMT>
+	      <DOSE_UNIT start="1874" end="1876">mg</DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="1880" end="1895">BID</DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="1923" end="1928">Aleve</DRUGNAME>
+	      <ROUTE start="1938" end="1940">po</ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="1929" end="1930">1</DOSE_AMT>
+	      <DOSE_UNIT start="1933" end="1937">tabs</DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="1941" end="1956">BID</DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="1984" end="1991">Tylenol</DRUGNAME>
+	      <ROUTE start="2011" end="2013">po</ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="2002" end="2003">1</DOSE_AMT>
+	      <DOSE_UNIT start="2006" end="2010">tabs</DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="2014" end="2029">TID</DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="2057" end="2069">Saw palmetto</DRUGNAME>
+	      <ROUTE start="2077" end="2079">po</ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="2070" end="2071">2</DOSE_AMT>
+	      <DOSE_UNIT start="2072" end="2076">tabs</DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="2080" end="2085">QD</DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="2057" end="2069">Saw palmetto</DRUGNAME>
+	      <ROUTE start="2077" end="2079">po</ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="2070" end="2071">2</DOSE_AMT>
+	      <DOSE_UNIT start="2072" end="2076">tabs</DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="2080" end="2085">QD</DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="2112" end="2117">sulfa</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="2149" end="2156">codeine</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+	</DRUG_FILE>
+	<REACTION_FILE>
+		<PT start="" end=""></PT>
+	</REACTION_FILE>
+	<INDICATION_FILE>
+		<INDI_PT start="" end=""></INDI_PT>
+	</INDICATION_FILE>
+</ANNOTATIONS>
