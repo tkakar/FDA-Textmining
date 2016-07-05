@@ -37,6 +37,8 @@
 	      <DOSE_UNIT start="1378" end="1410">UNK</DOSE_UNIT>
 	      <DOSE_FORM start="417" end="441">UNK</DOSE_FORM>
 	      <DOSE_FREQ start="3752" end="3765">TID</DOSE_FREQ>
+	      <REACTIONS_IDS></REACTIONS_IDS>
+	      <INDICATION_IDS>0</INDICATION_IDS>
     	</INSTANCE>
     	<INSTANCE id="1" primary="false" timePeriod="current">
 	      <DRUGNAME start="324" end="335">DOMPERIDONE</DRUGNAME>
@@ -58,6 +60,8 @@
 	      <DOSE_UNIT start="1216" end="1248">UNK</DOSE_UNIT>
 	      <DOSE_FORM start="1176" end="1199">UNK</DOSE_FORM>
 	      <DOSE_FREQ start="1216" end="1248">UNK</DOSE_FREQ>
+	      <REACTIONS_IDS></REACTIONS_IDS>
+	      <INDICATION_IDS>0</INDICATION_IDS>
     	</INSTANCE>
     	<INSTANCE id="2" primary="false" timePeriod="current">
 	      <DRUGNAME start="1524" end="1534">mesalazine</DRUGNAME>
@@ -69,12 +73,21 @@
 	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
 	      <DOSE_FORM start="2607" end="2631">UNK</DOSE_FORM>
 	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+	      <REACTIONS_IDS></REACTIONS_IDS>
+	      <INDICATION_IDS>1</INDICATION_IDS>
     	</INSTANCE>
 	</DRUG_FILE>
 	<REACTION_FILE>
-		<PT id="" start="" end=""></PT>
+		<PT id="0" start="601" end="611">ARRHYTHMIA</PT>
+		<PT id="1" start="622" end="647">POSSIBLE DRUG INTERACTION</PT>
+		<PT id="2" start="658" end="664">UNWELL</PT>
+		<PT id="3" start="679" end="693">SEVERE FATIGUE</PT>
+		<PT id="4" start="708" end="716">DRY EYES</PT>
+		<PT id="5" start="731" end="740">DRY MOUTH</PT>
+		<PT id="6" start="755" end="769">PERIOD STOPPED</PT>
 	</REACTION_FILE>
 	<INDICATION_FILE>
-		<INDI_PT id="" start="" end=""></INDI_PT>
+		<INDI_PT id="0" start="393" end="406">GASTROPARESIS</INDI_PT>
+		<INDI_PT id="1" start="1539" end="1554">Crohn's disease</INDI_PT>
 	</INDICATION_FILE>
 </ANNOTATIONS>

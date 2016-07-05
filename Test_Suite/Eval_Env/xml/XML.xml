@@ -34,7 +34,9 @@
 		<INDI_PT id="" start="" end=""></INDI_PT>
 	</INDICATION_FILE>
 </ANNOTATIONS>
-
+<COMMENT>
+This section is for freeform comments from the annotator regarding any particular test case. 
+</COMMENT>
 <!--
 
 	mark explicit unknown: UNK
