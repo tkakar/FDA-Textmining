@@ -3,52 +3,78 @@
 	<EVENT_DT start="" end=""></EVENT_DT>
 	<DEMOGRAPHICS>
 		<AGE_SET>
-			<AGE start="" end=""></AGE>
-			<AGE_COD start="" end=""></AGE_COD>
+			<AGE start="244" end="255">UNK</AGE>
+			<AGE_COD start="144" end="255">UNK</AGE_COD>
 		</AGE_SET>
 		<WT_SET>
-			<WT start="" end=""></WT>
-			<WT_COD start="" end=""></WT_COD>
+			<WT start="972" end="996">UNK</WT>
+			<WT_COD start="972" end="996">UNK</WT_COD>
 		</WT_SET>
 		<SEX start="228" end="234">F</SEX>
 	</DEMOGRAPHICS>
 	<DRUG_FILE>
-		<INSTANCE> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
-	      <DRUGNAME start="376" end="388">ERYTHROMYCIN</DRUGNAME>
+		<INSTANCE id="0" primary="false" timePeriod="current"> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
+	      <DRUGNAME primary=start="376" end="388">ERYTHROMYCIN</DRUGNAME>
+	      <COREF start="270" end="282"/>
+	      <COREF start="1329" end="1341"/>
+	      <COREF start="1857" end="1869"/>
+	      <COREF start="2385" end="2397"/>
+	      <COREF start="2862" end="2874"/>
+	      <COREF start="3481" end="3493"/>
+	      <COREF start="3677" end="3689"/>
+	      <COREF start="3739" end="3751"/>
+	      <COREF start="3798" end="3810"/>
+	      <COREF start="3841" end="3853"/>
+	      <COREF start="4564" end="4576"/>
+	      <COREF start="4621" end="4633"/>
+	      <COREF start="4691" end="4703"/>
+	      <COREF start="4756" end="4768"/>
+	      <COREF start="5004" end="5016"/>
+	      <ROUTE start="1343" end="1376">UNK</ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="1378" end="1410">UNK</DOSE_AMT>
+	      <DOSE_UNIT start="1378" end="1410">UNK</DOSE_UNIT>
+	      <DOSE_FORM start="417" end="441">UNK</DOSE_FORM>
+	      <DOSE_FREQ start="3752" end="3765">TID</DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE id="1" primary="false" timePeriod="current">
+	      <DRUGNAME start="324" end="335">DOMPERIDONE</DRUGNAME>
+	      <COREF start="459" end="470"/>
+	      <COREF start="1153" end="1164"/>
+	      <COREF start="1741" end="1752"/>
+	      <COREF start="1841" end="1852"/>
+	      <COREF start="2409" end="2420"/>
+	      <COREF start="3465" end="3476"/>
+	      <COREF start="3661" end="3672"/>
+	      <COREF start="4299" end="4310"/>
+	      <COREF start="4487" end="4498"/>
+	      <COREF start="5810" end="5821"/>
+	      <COREF start="6000" end="6011"/>
 	      <ROUTE start="" end=""></ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
 	      <RECHAL start="" end=""></RECHAL>
 	      <DOSE_AMT start="1216" end="1248">UNK</DOSE_AMT>
 	      <DOSE_UNIT start="1216" end="1248">UNK</DOSE_UNIT>
 	      <DOSE_FORM start="1176" end="1199">UNK</DOSE_FORM>
-	      <DOSE_FREQ start="3752" end="3765">TID</DOSE_FREQ>
+	      <DOSE_FREQ start="1216" end="1248">UNK</DOSE_FREQ>
     	</INSTANCE>
-    	<INSTANCE>
-	      <DRUGNAME start="376" end="388">DOMPERIDONE</DRUGNAME>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="" end=""></DOSE_AMT>
-	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
-	      <REACTIONS>1,2,3</REACTIONS>
-    	</INSTANCE>
-    	<INSTANCE>
+    	<INSTANCE id="2" primary="false" timePeriod="current">
 	      <DRUGNAME start="1524" end="1534">mesalazine</DRUGNAME>
+	      <COREF start="2585" end="2595"/>
 	      <ROUTE start="" end=""></ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
 	      <RECHAL start="" end=""></RECHAL>
 	      <DOSE_AMT start="" end=""></DOSE_AMT>
 	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FORM start="2607" end="2631">UNK</DOSE_FORM>
 	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
     	</INSTANCE>
 	</DRUG_FILE>
 	<REACTION_FILE>
-		<PT start="" end=""></PT>
+		<PT id="" start="" end=""></PT>
 	</REACTION_FILE>
 	<INDICATION_FILE>
-		<INDI_PT start="" end=""></INDI_PT>
+		<INDI_PT id="" start="" end=""></INDI_PT>
 	</INDICATION_FILE>
 </ANNOTATIONS>
