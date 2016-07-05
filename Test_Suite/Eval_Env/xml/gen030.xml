@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATIONS textSource="gen030.txt" annotator="Vimig Socrates">
+	<EVENT_DT start="670" end="676">199709</EVENT_DT>
+	<DEMOGRAPHICS>
+		<AGE_SET>
+			<AGE start="11" end="13">70</AGE>
+			<AGE_COD start="14" end="16">YR</AGE_COD>
+		</AGE_SET>
+		<WT_SET>
+			<WT start="" end=""></WT>
+			<WT_COD start="" end=""></WT_COD>
+		</WT_SET>
+		<SEX start="21" end="25">M</SEX>
+	</DEMOGRAPHICS>
+	<DRUG_FILE>
+	</DRUG_FILE>
+	<REACTION_FILE>
+		<PT start="" end=""></PT>
+	</REACTION_FILE>
+	<INDICATION_FILE>
+		<INDI_PT start="" end=""></INDI_PT>
+	</INDICATION_FILE>
+</ANNOTATIONS>
