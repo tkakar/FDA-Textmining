@@ -11,41 +11,21 @@ def main():
 
     sysArgs = sys.argv[1:]
     if len(sysArgs) >= 2:
+        """when calling ProjectAeris, it should be done with a raw text file and an output xml file location as the first and second arguments respectively"""
         preprocessOne = Preprocessor(rawTextFileName=sysArgs[0], outputXMLFileName=sysArgs[1])
         print 'done preprocess!'
     else:
         print "Need a file name!" 
         return
 
-#    test = preprocessOne.parseText()
-#    pattern = re.compile("\s?\n\s?")
-#    print test
-#    test2 = pattern.split(test)
-    # test2 = [i for i in test if i is not '']
-    # print test2
-    # print test2[1]
-    # tagged_text = preprocessOne.timexTagAndTokenizeText()
-    #print test
-    print 'done tagging!'
-#    tagged_text2 = preprocessOne.timexTagAndTokenizeText()
-#    recogEx = AERecogExtractor(tagged_text)
-#    recogEx2 = SuspectRecogExtractor(tagged_text)
-
+#Currently (as of 7-5-16), only the two following methods work. The other ones still need to be updated and integrated into the XML document
+ 
     posTagged = preprocessOne.posTaggedText()
-    preprocessOne.getParseTree()
+    parseTree = preprocessOne.getParseTree()
+
+# You can see the individual outputs, or just open the XML file that was just created!!!!    
 #    print posTagged
-
-#    isFoundDate = recogEx.findDates()
-#    isFoundDate2 = recogEx2.findDates()
-    # if not isFoundDate:
-    #     print "AE Extractor didn't find a date  :(" 
-    #     return
-    # if not isFoundDate2:
-    #     print "Suspect Extractor didn't find a date :("
-    #     return
-
-    # print 'date found!'
-
+#    print parseTree.dump()
 
 if __name__ == "__main__":
     main()
