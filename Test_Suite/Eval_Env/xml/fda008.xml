@@ -32,6 +32,7 @@
 	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+	      <REACTIONS>1,2,3</REACTIONS>
     	</INSTANCE>
     	<INSTANCE>
 	      <DRUGNAME start="1524" end="1534">mesalazine</DRUGNAME>
