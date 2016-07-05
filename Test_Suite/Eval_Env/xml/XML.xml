@@ -23,13 +23,15 @@
 	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+	      <REACTIONS_IDS></REACTIONS_IDS> <!-- REACTION_IDS and INDICATION_IDS are delimited by commands (e.g. <REACTIONS_IDS></REACTIONS_IDS>) -->
+	      <INDICATION_IDS></INDICATION_IDS>
     	</INSTANCE>
 	</DRUG_FILE>
 	<REACTION_FILE>
 		<PT id="" start="" end=""></PT>
 	</REACTION_FILE>
 	<INDICATION_FILE>
-		<INDI_PT start="" end=""></INDI_PT>
+		<INDI_PT id="" start="" end=""></INDI_PT>
 	</INDICATION_FILE>
 </ANNOTATIONS>
 
