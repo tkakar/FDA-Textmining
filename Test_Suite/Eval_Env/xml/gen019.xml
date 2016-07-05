@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATIONS textSource="gen019.txt" annotator="Amber Wallace">
+	<EVENT_DT start="" end=""></EVENT_DT>
+	<DEMOGRAPHICS>
+		<AGE_SET>
+			<AGE start="10" end="12">27</AGE>
+			<AGE_COD start="13" end="21">YR</AGE_COD>
+		</AGE_SET>
+		<WT_SET>
+			<WT start="" end="">100-150</WT>
+			<WT_COD start="" end="">LBS</WT_COD>
+		</WT_SET>
+		<SEX start="29" end="35">F</SEX>
+	</DEMOGRAPHICS>
+	<DRUG_FILE>
+		<INSTANCE> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
+	      <DRUGNAME start="" end=""></DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+	</DRUG_FILE>
+	<REACTION_FILE>
+		<PT start="" end=""></PT>
+	</REACTION_FILE>
+	<INDICATION_FILE>
+		<INDI_PT start="" end=""></INDI_PT>
+	</INDICATION_FILE>
+</ANNOTATIONS>
