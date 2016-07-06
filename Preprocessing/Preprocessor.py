@@ -7,7 +7,8 @@ When creating new methods, make sure to check the dictionary (textList) to see i
 
 Todo:
     * Fix dictionary (textList)  key phrase, so it doesn't have to rely on programmer accuracy
-
+    * Update timexTagText and wordTokenizeText methods (possibly also wordTokenizeAndTagMethod)
+    * Add method to allow choice of tokenization method (BLIIP or NLTK)
 """
 
 import sys, re
@@ -36,9 +37,7 @@ class Preprocessor(object):
             self.textList = {}
 
 #Initialize the XML file (minimizes XML I/O)
-            self.xmlname = outputXMLFileName #'/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Resources/xml_output_changed.xml'
-            # self.xmlTree = ET.parse(self.xmlname)
-            # self.root = self.xmlTree.getroot()
+            self.xmlname = outputXMLFileName
 
             self.rrp = RerankingParser.fetch_and_load('GENIA+PubMed')
             self.parseText()
@@ -49,14 +48,19 @@ class Preprocessor(object):
 
 
     def parseText(self):
-        """Creates the XML object and parses the raw narrative into the ElementTree python object.  
+        """Creates the XML object and parses the raw narrative into the ElementTree python object. This method parses paragraphs, sentences,
+        and tokenizes the text. Any additional features that need to be added into the XML file must have their own methods. 
+           
+        Args:
+            None
         
+        Returns:
+            None
+            It does write the parsed text to the file specified in the initializer
 
         """
         self.file = open(self.filename)
         raw = self.file.read()
-        #root = ET.parse(self.xmlname) 
-        #root = ET.Element('StartOutput', text="teats")
         self.tree = ET.ElementTree(ET.Element('StartOutput'))
         self.root = self.tree.getroot()
         paraParent = ET.SubElement(self.root,'Paragraphs')
@@ -68,9 +72,9 @@ class Preprocessor(object):
         
         paraParent.set('Count', str(len(paragraphs)))
         
-        #paraParent = root.find('Paragraphs')
         for index, paragraph in enumerate(paragraphs):
             tempParaElement = ET.Element('Paragraph', attrib={'id':str(index)})
+
 #We aren't currently including the paragraph text in the <Paragraph /> tag
 #            tempParaElement.text =  paragraph
             paraParent.append(tempParaElement)            
@@ -98,8 +102,17 @@ class Preprocessor(object):
 
         self.writeToXML()
 
-#TODO optimize preprocessor so it saves already created formats            
     def timexTagText(self, altText=None):
+        """Tags all the temporal expressions and surrounds them with <TIMEX2> XML tags in line with the text
+
+        Args:
+            None
+            
+        Returns:
+            tagged text (str)
+        
+        """
+
         """When altText is specified, the method assumes that some random text is being sent to be tagged, so doesn't save in dictionary"""
         if altText is not None:
             raw = altText
