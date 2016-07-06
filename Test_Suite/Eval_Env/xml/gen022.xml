@@ -13,6 +13,19 @@
 		<SEX start="17" end="23">F</SEX>
 	</DEMOGRAPHICS>
 	<DRUG_FILE>
+		<INSTANCE id="0" primary="false" timePeriod="past"> 
+	      <DRUGNAME start="313" end="316">PCN</DRUGNAME>
+	      <COREF start="" end=""/>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+	      <REACTIONS_IDS></REACTIONS_IDS> 
+	      <INDICATION_IDS></INDICATION_IDS>
+    	</INSTANCE>
 	</DRUG_FILE>
 	<REACTION_FILE>
 		<PT start="" end=""></PT>
@@ -21,3 +34,4 @@
 		<INDI_PT start="" end=""></INDI_PT>
 	</INDICATION_FILE>
 </ANNOTATIONS>
+<COMMENT>Allergic to PCN, but doesn't say what the "REACTIONS" are.</COMMENT>
