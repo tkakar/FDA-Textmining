@@ -12,7 +12,7 @@ Todo:
 """
 
 import sys, re
-from nltk_contrib.nltk_contrib import timex
+from nltk_contrib import timex
 from nltk import word_tokenize, sent_tokenize
 from nltk.tokenize import MWETokenizer
 from nltk import pos_tag

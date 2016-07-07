@@ -1,4 +1,4 @@
-from nltk_contrib.nltk_contrib import timex
+from nltk_contrib import timex
 import re
 import nltk
 from nltk import word_tokenize, sent_tokenize
