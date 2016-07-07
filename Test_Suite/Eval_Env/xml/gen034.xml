@@ -13,8 +13,12 @@
 		<SEX start="57" end="62">F</SEX>
 	</DEMOGRAPHICS>
 	<DRUG_FILE>
-		<INSTANCE> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
+		<INSTANCE id="0" primary="false" timePeriod="current"> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
 	      <DRUGNAME start="259" end="272">nitroglycerin</DRUGNAME>
+	      <COREF start="451" end="464"/>
+	      <COREF start="1827" end="1840"/>
+	      <COREF start="2193" end="2206"/>
+	      <COREF start="5323" end="5336"/>
 	      <ROUTE start="248" end="258">sublingual</ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
 	      <RECHAL start="" end=""></RECHAL>
@@ -22,9 +26,12 @@
 	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+	      <REACTIONS_IDS></REACTIONS_IDS>
+	      <INDICATION_IDS>0</INDICATION_IDS>
     	</INSTANCE>
-		<INSTANCE>
+		<INSTANCE id="1" primary="false" timePeriod="current">
 	      <DRUGNAME start="2044" end="2053">Detrol LA</DRUGNAME>
+	      <COREF start="6373" end="6379"/>
 	      <ROUTE start="" end=""></ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
 	      <RECHAL start="" end=""></RECHAL>
@@ -32,8 +39,10 @@
 	      <DOSE_UNIT start="2056" end="2058">MG</DOSE_UNIT>
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="2059" end="2069">QD</DOSE_FREQ>
+	      <REACTIONS_IDS></REACTIONS_IDS>
+	      <INDICATION_IDS></INDICATION_IDS>
     	</INSTANCE>
-    	<INSTANCE>
+    	<INSTANCE id="2" primary="false" timePeriod="current">
 	      <DRUGNAME start="2074" end="2082">Prilosec</DRUGNAME>
 	      <ROUTE start="" end=""></ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
@@ -42,9 +51,12 @@
 	      <DOSE_UNIT start="2095" end="2097">MG</DOSE_UNIT>
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="2098" end="2108">QD</DOSE_FREQ>
+	      <REACTIONS_IDS></REACTIONS_IDS>
+	      <INDICATION_IDS></INDICATION_IDS>
     	</INSTANCE>
-    	<INSTANCE>
+    	<INSTANCE id="3" primary="false" timePeriod="current">
 	      <DRUGNAME start="2113" end="2124">Glucosamine</DRUGNAME>
+	      <COREF start="6314" end="6325"/>
 	      <ROUTE start="" end=""></ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
 	      <RECHAL start="" end=""></RECHAL>
@@ -52,8 +64,10 @@
 	      <DOSE_UNIT start="2133" end="2135">MG</DOSE_UNIT>
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="3136" end="2146">QD</DOSE_FREQ>
+	      <REACTIONS_IDS></REACTIONS_IDS>
+	      <INDICATION_IDS>1</INDICATION_IDS>
     	</INSTANCE>
-    	<INSTANCE>
+    	<INSTANCE id="4" primary="false" timePeriod="current">
 	      <DRUGNAME start="2165" end="2177">Multivitamin</DRUGNAME>
 	      <ROUTE start="2178" end="2182">p.o.</ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
@@ -62,8 +76,10 @@
 	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="2183" end="2188">QD</DOSE_FREQ>
+	      <REACTIONS_IDS></REACTIONS_IDS>
+	      <INDICATION_IDS></INDICATION_IDS>
     	</INSTANCE>
-    	<INSTANCE>
+    	<INSTANCE id="5" primary="false" timePeriod="current">
 	      <DRUGNAME start="2242" end="2251">Toprol-XL</DRUGNAME>
 	      <ROUTE start="" end=""></ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
@@ -72,9 +88,12 @@
 	      <DOSE_UNIT start="2255" end="2257">MG</DOSE_UNIT>
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="2258" end="2268">QD</DOSE_FREQ>
+	      <REACTIONS_IDS></REACTIONS_IDS>
+	      <INDICATION_IDS></INDICATION_IDS>
     	</INSTANCE>
-    	<INSTANCE>
+    	<INSTANCE id="6" primary="false" timePeriod="current">
 	      <DRUGNAME start="2355" end="2362">Aspirin</DRUGNAME>
+	      <COREF start="5581" end="5588"/>
 	      <ROUTE start="" end=""></ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
 	      <RECHAL start="" end=""></RECHAL>
@@ -82,9 +101,12 @@
 	      <DOSE_UNIT start="2367" end="2369">MG</DOSE_UNIT>
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="2370" end="2380">QD</DOSE_FREQ>
+	      <REACTIONS_IDS></REACTIONS_IDS>
+	      <INDICATION_IDS></INDICATION_IDS>
     	</INSTANCE>
-    	<INSTANCE>
+    	<INSTANCE id="7" primary="false" timePeriod="current">
 	      <DRUGNAME start="2385" end="2391">Plavix</DRUGNAME>
+	      <COREF start="5590" end="5596"/>
 	      <ROUTE start="" end=""></ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
 	      <RECHAL start="" end=""></RECHAL>
@@ -92,8 +114,10 @@
 	      <DOSE_UNIT start="2395" end="2397">MG</DOSE_UNIT>
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="2398" end="2408">QD</DOSE_FREQ>
+	      <REACTIONS_IDS></REACTIONS_IDS>
+	      <INDICATION_IDS></INDICATION_IDS>
     	</INSTANCE>
-    	<INSTANCE>
+    	<INSTANCE id="7" primary="false" timePeriod="current">
 	      <DRUGNAME start="2413" end="2419">Diovan</DRUGNAME>
 	      <ROUTE start="" end=""></ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
@@ -102,9 +126,12 @@
 	      <DOSE_UNIT start="2424" end="2426">MG</DOSE_UNIT>
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="2427" end="2437">QD</DOSE_FREQ>
+	      <REACTIONS_IDS></REACTIONS_IDS>
+	      <INDICATION_IDS></INDICATION_IDS>
     	</INSTANCE>
-    	<INSTANCE>
+    	<INSTANCE id="8" primary="false" timePeriod="current">
 	      <DRUGNAME start="2443" end="2451">Claritin</DRUGNAME>
+	      <COREF start="6345" end="6353"/>
 	      <ROUTE start="" end=""></ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
 	      <RECHAL start="" end=""></RECHAL>
@@ -112,9 +139,12 @@
 	      <DOSE_UNIT start="2455" end="2457">MG</DOSE_UNIT>
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="2458" end="2468">QD</DOSE_FREQ>
+	      <REACTIONS_IDS></REACTIONS_IDS>
+	      <INDICATION_IDS>2</INDICATION_IDS>
     	</INSTANCE>
-    	<INSTANCE>
+    	<INSTANCE id="9" primary="false" timePeriod="current">
 	      <DRUGNAME start="2496" end="2503">Norvasc</DRUGNAME>
+	      <COREF start="5622" end="5629"/>
 	      <ROUTE start="" end=""></ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
 	      <RECHAL start="" end=""></RECHAL>
@@ -122,9 +152,12 @@
 	      <DOSE_UNIT start="2506" end="2508">MG</DOSE_UNIT>
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="2509" end="2519">QD</DOSE_FREQ>
+	      <REACTIONS_IDS></REACTIONS_IDS>
+	      <INDICATION_IDS></INDICATION_IDS>
     	</INSTANCE>
-    	<INSTANCE>
+    	<INSTANCE id="10" primary="false" timePeriod="current">
 	      <DRUGNAME start="2525" end="2532">Lipitor</DRUGNAME>
+	      <COREF start="5609" end="5616"/>
 	      <ROUTE start="" end=""></ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
 	      <RECHAL start="" end=""></RECHAL>
@@ -132,8 +165,10 @@
 	      <DOSE_UNIT start="2535" end="2537">MG</DOSE_UNIT>
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="2538" end="2548">QD</DOSE_FREQ>
+	      <REACTIONS_IDS></REACTIONS_IDS>
+	      <INDICATION_IDS></INDICATION_IDS>
     	</INSTANCE>
-    	<INSTANCE>
+    	<INSTANCE id="11" primary="false" timePeriod="current">
 	      <DRUGNAME start="2554" end="2560">Evista</DRUGNAME>
 	      <ROUTE start="" end=""></ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
@@ -142,8 +177,10 @@
 	      <DOSE_UNIT start="2564" end="2566">MG</DOSE_UNIT>
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="2567" end="2577">QD</DOSE_FREQ>
+	      <REACTIONS_IDS></REACTIONS_IDS>
+	      <INDICATION_IDS></INDICATION_IDS>
     	</INSTANCE>
-    	<INSTANCE>
+    	<INSTANCE id="12" primary="false" timePeriod="current">
 	      <DRUGNAME start="5598" end="5607">valsartan</DRUGNAME>
 	      <ROUTE start="" end=""></ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
@@ -152,8 +189,10 @@
 	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+	      <REACTIONS_IDS></REACTIONS_IDS>
+	      <INDICATION_IDS></INDICATION_IDS>
     	</INSTANCE>
-    	<INSTANCE>
+    	<INSTANCE id="13" primary="false" timePeriod="current">
 	      <DRUGNAME start="5649" end="5654">Imdur</DRUGNAME>
 	      <ROUTE start="" end=""></ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
@@ -162,12 +201,18 @@
 	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+	      <REACTIONS_IDS></REACTIONS_IDS>
+	      <INDICATION_IDS></INDICATION_IDS>
     	</INSTANCE>
 </DRUG_FILE>
 	<REACTION_FILE>
-		<PT start="" end=""></PT>
+		<PT id="" start="" end=""></PT>
 	</REACTION_FILE>
 	<INDICATION_FILE>
-		<INDI_PT start="" end=""></INDI_PT>
+		<INDI_PT id="0" start="172" end="185">left arm pain</INDI_PT>
+		<INDI_PT id="1" start="2151" end="2160">arthritis</INDI_PT>
+		<INDI_PT id="2" start="2473" end="2490">allergic rhinitis</INDI_PT>
+		<INDI_PT id="3" start="6387" end="6407">urinary incontinence</INDI_PT>
 	</INDICATION_FILE>
 </ANNOTATIONS>
+<COMMENT></COMMENT>

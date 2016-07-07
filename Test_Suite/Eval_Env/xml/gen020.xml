@@ -13,7 +13,7 @@
 		<SEX start="18" end="24">F</SEX>
 	</DEMOGRAPHICS>
 	<DRUG_FILE>
-		<INSTANCE> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
+		<INSTANCE id="0" primary="false" timePeriod="current"> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
 	      <DRUGNAME start="860" end="873">Baclofen pump</DRUGNAME>
 	      <ROUTE start="" end=""></ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
@@ -25,9 +25,8 @@
     	</INSTANCE>
 	</DRUG_FILE>
 	<REACTION_FILE>
-		<PT start="" end=""></PT>
 	</REACTION_FILE>
 	<INDICATION_FILE>
-		<INDI_PT start="" end=""></INDI_PT>
 	</INDICATION_FILE>
 </ANNOTATIONS>
+<COMMENT></COMMENT>
