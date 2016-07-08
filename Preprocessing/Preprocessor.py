@@ -18,6 +18,7 @@ from nltk.tokenize import MWETokenizer
 from nltk import pos_tag
 import xml.etree.ElementTree as ET
 from bllipparser import RerankingParser
+from pymetamap import MetaMap
 
 class Borg:
     _shared_state = {}
@@ -25,7 +26,7 @@ class Borg:
         self.__dict__ = self._shared_state
 
 class Preprocessor(Borg):
-
+    _firstInitialization = True
     def __init__(self, rawTextFileName=None, outputXMLFileName=None):
         """Initializes the Preprocessor and returns it. This includes loading any models that will be used in multiple preprocessing methods (e.g. RerankingParser)
 
@@ -39,9 +40,9 @@ class Preprocessor(Borg):
         """
 
         Borg.__init__(self)
-        if not self.__dict__:
+        if Preprocessor._firstInitialization:
                 self.rrp = RerankingParser.fetch_and_load('GENIA+PubMed')
-
+                Preprocessor._firstInitialization = False
 
                 if rawTextFileName is not None:
                     self.filename = rawTextFileName
@@ -54,7 +55,6 @@ class Preprocessor(Borg):
             #print file
                 else:
                     print "Need a text file!"
-
     def getList(self):
         return self.textList
 
@@ -246,7 +246,7 @@ class Preprocessor(Borg):
         self.writeToXML()
 #        ET.dump(self.root)
         return self.root
-
+        
     def writeToXML(self):
         self.tree.write(self.xmlname)
 
