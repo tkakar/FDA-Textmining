@@ -1,0 +1,439 @@
+commit 4ef790e122374e7d1139e2c39d82f879873b161b
+Author: Vimig <vimig.socrates@gmail.com>
+Date:   Thu Jul 7 04:46:57 2016 -0400
+
+    started integrated pipeline w/ changes to main class
+
+commit 36af158cb65dbf7bdee83882b75bf94e8e8fa1e1
+Author: Vimig <vimig.socrates@gmail.com>
+Date:   Wed Jul 6 15:52:44 2016 -0400
+
+    added pass to extractorhandler class
+
+commit 549f712882688777f56299634687b150f220bc86
+Merge: 4743711 976d593
+Author: Vimig <vimig.socrates@gmail.com>
+Date:   Tue Jul 5 17:38:07 2016 -0400
+
+    Merge branch 'master' of https://gitlab.com/vsocrates/FDA-Textmining into pipeline_v2
+    
+    Conflicts:
+    	test_cases/gen030.txt
+    	test_cases/gen031.txt
+
+commit 4743711a25a2a27044b174b3bf151a3bde149a6e
+Author: Vimig <vimig.socrates@gmail.com>
+Date:   Tue Jul 5 17:27:07 2016 -0400
+
+    fixed nltk_contrib and cleaned up ProjectAERIS class
+
+commit e6a591e731b702512dc9eb6afa92d4275d1058e0
+Author: Vimig <vimig.socrates@gmail.com>
+Date:   Thu Jun 30 13:02:52 2016 -0400
+
+    added support for bliip parser, XML intermediate format, and slight restructures
+
+commit 976d5937c085d7550e08360ec14d1ee9830edb0e
+Merge: 5138316 4ea7979
+Author: alw218 <amberw95@gmail.com>
+Date:   Tue Jun 28 11:16:09 2016 -0400
+
+    Merge branch 'moreTests'
+
+commit f65c9856e987f4b34c57c28abac8257b814290d6
+Author: Vimig <vimig.socrates@gmail.com>
+Date:   Fri Jun 24 15:24:21 2016 -0400
+
+    I/O optimization to Preprocessor.py
+
+commit 3a04f80d7b6b4d94c8b0c461f064ed0d581f6579
+Author: Vimig <vimig.socrates@gmail.com>
+Date:   Thu Jun 23 02:38:40 2016 -0400
+
+    added suspect extractor, preprocessing for pos, support for unk in timex
+
+commit 1da7281ae07b382d2b47c15245b80de9e632ec32
+Author: Vimig <vimig.socrates@gmail.com>
+Date:   Tue Jun 21 15:57:07 2016 -0400
+
+    added README finally
+
+commit a338c8543de4203f11144c2a05aa8013550b69cd
+Author: Vimig <vimig.socrates@gmail.com>
+Date:   Tue Jun 21 14:39:44 2016 -0400
+
+    fixed folder structure and added pythonpath
+
+commit 72423ca398a09cc79b34f9c1a7184a89b63736b9
+Author: Vimig <vimig.socrates@gmail.com>
+Date:   Tue Jun 21 12:13:59 2016 -0400
+
+    created proprocessor and fixed projectaeris files
+
+commit b6985d4df6f9b153d527955a9064d53b4c665814
+Author: Vimig <vimig.socrates@gmail.com>
+Date:   Wed Jun 15 14:49:35 2016 -0400
+
+    added nltk_contrib directory actually
+
+commit 84bc27611c33afd1609672f3570aac49f5135f3a
+Author: Vimig <vimig.socrates@gmail.com>
+Date:   Wed Jun 15 14:45:08 2016 -0400
+
+    added ProjectAERIS, fixed timex.py module
+
+commit 4ea79790387c151bc77227ee0c564c46eb9a38b7
+Author: alw218 <amberw95@gmail.com>
+Date:   Tue Jun 14 10:27:19 2016 -0400
+
+    tests through 42
+
+commit 5138316e90557cf35296c23b649dc6ef4f07b45c
+Author: Vimig <vimig.socrates@gmail.com>
+Date:   Thu Jun 9 17:49:01 2016 -0400
+
+    fixed output of SUtime TIMEX tag extraction stdout display
+
+commit 818d08bbe7dc42752f199d3f02e3d6eba8ebc141
+Merge: 755e1bf 2d4e4de
+Author: Vimig <vimig.socrates@gmail.com>
+Date:   Thu Jun 9 16:02:50 2016 -0400
+
+    Merge branch 'master' of https://gitlab.com/vsocrates/FDA-Textmining into Sutime_Dates
+
+commit 755e1bf8169b2511df1610c6bc378ab6f9e7e239
+Author: Vimig <vimig.socrates@gmail.com>
+Date:   Thu Jun 9 15:46:24 2016 -0400
+
+    added Stanford CoreNLP tagger support for SUTime Timex Date tag
+
+commit 86681d4f15499e19c2550423eb84251b07d8866a
+Author: Vimig <vimig.socrates@gmail.com>
+Date:   Thu Jun 9 15:41:34 2016 -0400
+
+    added Stanford CoreNLP tagger support for SUTime Timex Date tags
+
+commit 2d4e4de4ca3f8081f52f86a4484d11697070e6e7
+Merge: 02c07fc 9fb2696
+Author: alw218 <amberw95@gmail.com>
+Date:   Thu Jun 9 10:39:29 2016 -0400
+
+    new test cases
+
+commit 02c07fc5f05a4ea0e890e212368b4fa1e3922646
+Author: alw218 <amberw95@gmail.com>
+Date:   Thu Jun 9 10:28:25 2016 -0400
+
+    test cases through 30
+
+commit 9fb2696a08deaa04962fad838d19f0330ca091d7
+Author: Vimig <vimig.socrates@gmail.com>
+Date:   Tue Jun 7 11:25:48 2016 -0400
+
+    document github link sutime tagger dev
+
+commit 603c76081e4ebb9c66466ecacc0389dc1f595327
+Author: Vimig <vimig.socrates@gmail.com>
+Date:   Tue Jun 7 11:24:58 2016 -0400
+
+    more detail on stanford corenlp system documentation
+
+commit 523289854814615ae3e5deb3fd9f19278cb6bcf9
+Author: Vimig <vimig.socrates@gmail.com>
+Date:   Tue Jun 7 10:58:27 2016 -0400
+
+    documented temporal NLP libraries
+
+commit 6af070bbb0cf6789d35dce1b391839f2ac9896fe
+Merge: 8ab0cd5 ae1b120
+Author: Vimig <vimig.socrates@gmail.com>
+Date:   Wed Jun 1 14:20:34 2016 -0400
+
+    Merge branch 'master' of https://gitlab.com/vsocrates/FDA-Textmining
+
+commit 8ab0cd51858961cce176add664c899fbf5322766
+Merge: 9afc8ce 38ebd5b
+Author: Vimig <vimig.socrates@gmail.com>
+Date:   Wed Jun 1 14:19:55 2016 -0400
+
+    Merge branch 'master' of https://gitlab.com/vsocrates/FDA-Textmining
+
+commit ae1b120c7c43d437fc89617831ecd69e76bf3b51
+Merge: 9afc8ce 38ebd5b
+Author: Vimig Socrates <vsocrates@CCCWORK4.WPI.EDU>
+Date:   Wed Jun 1 13:01:01 2016 -0400
+
+    Merge branch 'master' of https://gitlab.com/vsocrates/FDA-Textmining
+
+commit 9afc8ceb0495bb60c833cb9311c596a959399959
+Author: Vimig Socrates <vsocrates@CCCWORK4.WPI.EDU>
+Date:   Wed Jun 1 12:55:04 2016 -0400
+
+    restructure: added two more folders
+
+commit 38ebd5b9ead746a76e15f63542fd75232ae3fb7c
+Author: Vimig Socrates <vsocrates@CCCWORK4.WPI.EDU>
+Date:   Wed Jun 1 12:55:04 2016 -0400
+
+    file restructure: added folders for extractors and test suite
+
+commit b3994873d03948d5045e630113de2081df83bfdc
+Merge: 5b03e02 25b7cdd
+Author: Vimig Socrates <vimigsocrates@gmail.com>
+Date:   Wed Jun 1 16:49:22 2016 +0000
+
+    Merge branch 'revert-5b03e024' into 'master'
+    
+    Revert "project resturcture: added folders for extractors"
+    
+    This reverts commit 5b03e02436dabb39d3d4f0345c4b98096c4ae5e4
+    
+    See merge request !5
+
+commit 25b7cdd1d2a458eede90505f26f333e9497b224c
+Author: Vimig Socrates <vimigsocrates@gmail.com>
+Date:   Wed Jun 1 16:48:53 2016 +0000
+
+    Revert "project resturcture: added folders for extractors"
+    
+    This reverts commit 5b03e02436dabb39d3d4f0345c4b98096c4ae5e4
+
+commit 5b03e02436dabb39d3d4f0345c4b98096c4ae5e4
+Author: Vimig Socrates <vsocrates@CCCWORK4.WPI.EDU>
+Date:   Wed Jun 1 12:47:53 2016 -0400
+
+    project resturcture: added folders for extractors
+
+commit 46b593fa60ac3aefdc615e34720a2d21e7c10760
+Author: Vimig Socrates <vimig.socrates@gmail.com>
+Date:   Mon May 30 23:06:07 2016 -0400
+
+    added combined test case txt files
+
+commit 2194d9d4796939d9e923d92dccc99da4ed71483e
+Author: Vimig Socrates <vimig.socrates@gmail.com>
+Date:   Mon May 30 22:30:35 2016 -0400
+
+    remove json comments, not under specs
+
+commit 9808132aea693da0fdb0518f360a8c73f31e7c56
+Author: Vimig Socrates <vimig.socrates@gmail.com>
+Date:   Mon May 30 20:06:53 2016 -0400
+
+    deleted repeated test cases
+
+commit 824656b03c936df19d88fe3f56194c2933c8c4f1
+Author: Vimig Socrates <vsocrates@CCCWORK3.WPI.EDU>
+Date:   Fri May 27 14:58:28 2016 -0400
+
+    added 11th narrative from paper
+
+commit 5f1a08ece44fefade5ec28f33d5b8415dab749d6
+Merge: bb69e66 36eba98
+Author: Amber Wallace <awallace@CCCWORK3.WPI.EDU>
+Date:   Fri May 27 14:43:01 2016 -0400
+
+    adding json file
+
+commit 36eba98421dcf084884b3d87e5141cfbc99e1219
+Author: Amber Wallace <awallace@CCCWORK3.WPI.EDU>
+Date:   Fri May 27 14:40:44 2016 -0400
+
+    add all for checkout reasons. ignore this
+
+commit 91c628509e09e231a1f4940789164d55320f1f65
+Author: Amber Wallace <awallace@rambo.wpi.edu>
+Date:   Fri May 27 14:33:58 2016 -0400
+
+    working json file complete
+
+commit bb69e667820888274caec1f4f8d4033bbe34dd72
+Merge: 4b61855 60b68b9
+Author: Vimig Socrates <vimigsocrates@gmail.com>
+Date:   Thu May 26 21:55:01 2016 +0000
+
+    Merge branch 'regexDate' into 'master'
+    
+    Regex date
+    
+    
+    
+    See merge request !4
+
+commit 60b68b9b237f282e323197396bf11220b9da6df8
+Author: Vimig Socrates <vsocrates@CCCWORK3.WPI.EDU>
+Date:   Thu May 26 17:51:32 2016 -0400
+
+    prints new regex date format, ready for date standardization
+
+commit d284efa32e2339ab901bc4cb3a81cc8ed0516732
+Author: Amber Wallace <awallace@CCCWORK3.WPI.EDU>
+Date:   Thu May 26 17:48:32 2016 -0400
+
+    json file in progress
+
+commit b05de168a8205724a6f383d741772f5c838ee308
+Author: Amber Wallace <awallace@CCCWORK3.WPI.EDU>
+Date:   Thu May 26 17:44:09 2016 -0400
+
+    json file in progress
+
+commit 5fe3f85ef7600fc5b53f3b4b7305ecb23d9dae99
+Author: Amber Wallace <awallace@rambo.wpi.edu>
+Date:   Thu May 26 17:40:05 2016 -0400
+
+    json structure file in progress
+
+commit 11892e51e61d2317c7cdc442a6d82670a861dc24
+Author: Vimig Socrates <vsocrates@CCCWORK3.WPI.EDU>
+Date:   Thu May 26 16:25:01 2016 -0400
+
+    added functionality for regex Dates period(.) and no spaces
+
+commit 4b61855759925928b972c589b882c46e82b442d1
+Author: Vimig Socrates <vsocrates@CCCWORK3.WPI.EDU>
+Date:   Thu May 26 15:53:50 2016 -0400
+
+    added several date forms and individual regex expr for later organization
+
+commit 37894cc3baf7b3d3869f95dd0ccf6f27b76397e9
+Merge: b4ac740 0870bb8
+Author: Vimig Socrates <vsocrates@CCCWORK3.WPI.EDU>
+Date:   Wed May 25 16:27:10 2016 -0400
+
+    Merge branch 'master' of https://gitlab.com/vsocrates/FDA-Textmining
+
+commit b4ac7401742d0758e876b130c168f856e9194aa5
+Author: Vimig Socrates <vsocrates@rambo.wpi.edu>
+Date:   Wed May 25 16:24:16 2016 -0400
+
+    added extra regex for dates
+
+commit 0870bb88b68edfd9d160af86ea73c0da67dd9a70
+Merge: d0d8511 91816a7
+Author: Amber Wallace <awallace@CCCWORK3.WPI.EDU>
+Date:   Wed May 25 16:01:32 2016 -0400
+
+    Merge branch 'master' of https://gitlab.com/vsocrates/FDA-Textmining
+    pulling new code
+
+commit 91816a72a0aca377ad2e5e7b4af2295234ae1a08
+Author: Vimig Socrates <vsocrates@CCCWORK3.WPI.EDU>
+Date:   Wed May 25 15:46:15 2016 -0400
+
+    changed all names
+
+commit 5b935117c153d6995ca86858244c60a715a71745
+Author: Vimig Socrates <vsocrates@CCCWORK3.WPI.EDU>
+Date:   Wed May 25 15:37:29 2016 -0400
+
+    fixed naming issue
+
+commit d0d851118a2dafd4f533ff8c00c35790b3722531
+Merge: a9569ab 2e49ca6
+Author: Amber Wallace <awallace@CCCWORK3.WPI.EDU>
+Date:   Wed May 25 15:24:06 2016 -0400
+
+    Merge branch 'Amber-5-25'
+    attemp
+    Conflicts:
+    	textmining_RegEx_rules.py
+
+commit 2e49ca67afe40b0fd34acc2a2a0d9c4eba078b54
+Author: Amber Wallace <awallace@rambo.wpi.edu>
+Date:   Wed May 25 15:16:03 2016 -0400
+
+    namechange to match
+
+commit 43e39a04a798c173f42e9288ffec66786f3e2156
+Merge: b43323f a9569ab
+Author: Vimig Socrates <vsocrates@CCCWORK3.WPI.EDU>
+Date:   Wed May 25 15:00:00 2016 -0400
+
+    Merge branch 'master' of https://gitlab.com/vsocrates/FDA-Textmining into regexDates
+    test message don't save
+
+commit a9569abbe91fd25bfae30fabccad3a923c534037
+Merge: 3ad41fe e2b31ef
+Author: Amber Wallace <awallace@CCCWORK3.WPI.EDU>
+Date:   Wed May 25 14:55:51 2016 -0400
+
+    Merge branch 'Amber-t
+    quit
+    5-25'
+
+commit e2b31ef4b70a3673f7576d2a4b0f1d9e06605313
+Author: Amber Wallace <awallace@rambo.wpi.edu>
+Date:   Wed May 25 14:49:40 2016 -0400
+
+    final touches on age, height, weight
+
+commit 3ad41fe16f427c52aa4b94b0f45d185c6879f22a
+Merge: 89c8d47 4203d13
+Author: Vimig Socrates <vimigsocrates@gmail.com>
+Date:   Wed May 25 18:36:02 2016 +0000
+
+    Merge branch 'regexDates' into 'master'
+    
+    merging date regex changes to master
+    
+    
+    
+    See merge request !2
+
+commit b43323f9fe0cc4aa5ae1ca1d1aa2e2db7c8d9c21
+Merge: 4203d13 c1ad66c
+Author: Vimig Socrates <vsocrates@CCCWORK3.WPI.EDU>
+Date:   Wed May 25 14:33:51 2016 -0400
+
+    Merge remote-tracking branch 'origin' into regexDates
+    merging changes to date regex
+
+commit 89c8d473f4beff95393ec2b2452b3ad675afaebe
+Merge: c1ad66c 5725a47
+Author: Vimig Socrates <vimigsocrates@gmail.com>
+Date:   Wed May 25 18:33:26 2016 +0000
+
+    Merge branch 'Amber-5-25' into 'master'
+    
+    more progress on height
+    
+    
+    
+    See merge request !1
+
+commit 4203d13fe4f9c7649bb75d7f1126f7f619f38098
+Author: Vimig Socrates <vsocrates@CCCWORK3.WPI.EDU>
+Date:   Wed May 25 14:30:12 2016 -0400
+
+    added study date timeline regex
+
+commit 5725a47e19a374b3701dfa904d5419d3fca7cc40
+Author: Amber Wallace <awallace@rambo.wpi.edu>
+Date:   Wed May 25 12:07:11 2016 -0400
+
+    more progress on height
+
+commit c1ad66c6c3c63e859a8166eaab71ae7f38f550f7
+Author: Amber Wallace <awallace@rambo.wpi.edu>
+Date:   Wed May 25 11:20:43 2016 -0400
+
+    improved age, height, and weight regex
+
+commit ddaac6320dbfae78c5c6da63a47fd60c2ad1e7ea
+Author: Vimig Socrates <vimigsocrates@gmail.com>
+Date:   Wed May 25 08:39:01 2016 -0400
+
+    removed word and .py# files
+
+commit 55a36a691702b46ff4d866829201dc3952416ac2
+Author: Vimig Socrates <vimigsocrates@gmail.com>
+Date:   Wed May 25 08:24:45 2016 -0400
+
+    added text files for test cases
+
+commit 6c456d368de5f3f2569315d03417f4fa74482a99
+Author: Vimig Socrates <vimigsocrates@gmail.com>
+Date:   Tue May 24 15:11:03 2016 -0400
+
+    initial commit, still needs README

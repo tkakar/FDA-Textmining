@@ -3,41 +3,30 @@ import nltk
 from nltk import word_tokenize, sent_tokenize, data
 from nltk_contrib import timex 
 from AERecognitionEventDateExtractor import AERecogExtractor
+from SuspectRecognitionEventDateExtractor import SuspectRecogExtractor
 import sys
 sys.path.append('/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/')
+nltk.data.path.append('/work/vsocrates/nltk_data/')
 import ExtractorHandler
 
-class EventDateExtractorHandler(ExtractorHandler):
+class EventDateExtractorHandler(object):
     
-    def __init__(self, filename):
-        nltk.data.path.append('/work/vsocrates/nltk_data/')
-        self.ExtractorList = []
-        self.filename = filename
+    def __init__(self, anExtractorList):
+        self.AllPossibleExtractorList = ["AERecogExtractor":AERecogExtractor, "SuspectRecogExtractor":SuspectRecogExtractor,
+                              "NaiveEventDateExtractor":NaiveExtractor]
+
+        for extractor in anExtractorList:
+            self.extractorList.append(self.AllPossibleExtractorList[extractor])
+        
+    def getAllPossibleExtractors(self):
+        return self.AllPossibleExtractorList
 
     def getExtractorList(self):
-        return self.ExtractorList
+        return self.extractorList
+           
+    def runExtractors():
+        for extractor in self.extractorList:
+            extractor.findDates()
 
-    def initialTagFile():
-        raw = open(filename).read()       
-
-        #tag all temporal expressions with timex2 tags
-        tagged_raw = timex.tag(raw)
-        
-        #word-tokenize all tags
-        word_tagged = word_tokenize(tagged_raw)
-        #consolidate all broken apart Timex2 tags into single "words"
-        mweTokenizer = MWETokenizer(mwes=[('<','/TIMEX2','>'),('<','TIMEX2','>')], separator='')
-        word_tagged = mweTokenizer.tokenize(word_tagged)
-
-        close(filename)
-
-        return word_tagged
-    
-    def useAEExtractor(tokens):
-        extractor = AERecogExtractor(tokens)
-        extractor.findDates()
-        
-        
 def main():
     extractorHandler = EventDateExtractorHandler('../test_cases/fda001.txt')
-    

@@ -2,7 +2,7 @@ from nltk_contrib import timex
 import re
 import nltk
 
-class NaiveExtractor(EventDateExtractor):
+class NaiveExtractor(object):
 
     def main():
         raw = open('../test_cases/fda008.txt').read()
@@ -22,4 +22,3 @@ class NaiveExtractor(EventDateExtractor):
         raw = "<TIMEX2>16-Apr-2015</TIMEX2> asdfafasdfasdfas 2343"
         tagged2 = timex.tag(raw)
     #    print(tagged2)
-

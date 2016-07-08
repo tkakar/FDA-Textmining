@@ -1,1 +1,1 @@
-{"Event Date" : ["AERecognitionEventDateExtractor", "NaiveEventDateExtractor"]}
+{"Event Date" : ["AERecogExtractor", "SuspectRecogExtractor"]}

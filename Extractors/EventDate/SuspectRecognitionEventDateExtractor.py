@@ -5,11 +5,13 @@ from nltk import word_tokenize, sent_tokenize
 from nltk.tokenize import MWETokenizer
 import itertools
 from itertools import product 
+from Preprocessor import Preprocessor
 
 class SuspectRecogExtractor(object):
     
-    def __init__(self, time_tagged_tokenizedText):
-        self.tokens = time_tagged_tokenizedText
+    def __init__(self):
+        preprocess = Preprocessor()
+        self.tokens = preprocess.timexTagAndTokenizeText()
         
     def findDates(self):
         pattern = r'\btherapy|therapies|medications?|drugs?|products?\b'

@@ -6,12 +6,14 @@ from nltk.tokenize import MWETokenizer
 import itertools
 from itertools import product 
 from DataElements.EventDateElement import EventDateElement
+from Preprocessor import Preprocessor
 
 class AERecogExtractor(object): 
 
-    def __init__(self, time_tagged_tokenizedText):
-        self.tokens = time_tagged_tokenizedText
-        
+    def __init__(self):
+        preprocess = Preprocessor()
+        self.tokens = preprocess.timexTagAndTokenizeText()
+#        print self.tokens
     def findDates(self):
 #        print self.tokens
         #search for words (e.g. 'AE(s)' or 'Adverse Event(s)')
