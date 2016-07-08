@@ -8,7 +8,6 @@ from NaiveEventDateExtractor import NaiveExtractor
 import sys
 sys.path.append('/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/')
 nltk.data.path.append('/work/vsocrates/nltk_data/')
-import ExtractorHandler
 
 class EventDateAssembler(object):
     
