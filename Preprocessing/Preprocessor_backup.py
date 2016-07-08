@@ -18,15 +18,8 @@ from nltk.tokenize import MWETokenizer
 from nltk import pos_tag
 import xml.etree.ElementTree as ET
 from bllipparser import RerankingParser
-from pymetamap import MetaMap
 
-class Borg:
-    _shared_state = {}
-    def __init__(self):
-        self.__dict__ = self._shared_state
-
-class Preprocessor(Borg):
-    _firstInitialization = True
+class Preprocessor(object):
     def __init__(self, rawTextFileName=None, outputXMLFileName=None):
         """Initializes the Preprocessor and returns it. This includes loading any models that will be used in multiple preprocessing methods (e.g. RerankingParser)
 
@@ -37,26 +30,22 @@ class Preprocessor(Borg):
         Returns:
             Preprocessor object
 
+
         """
-
-        Borg.__init__(self)
-        if Preprocessor._firstInitialization:
-                self.rrp = RerankingParser.fetch_and_load('GENIA+PubMed')
-                Preprocessor._firstInitialization = False
-
-                if rawTextFileName is not None:
-                    self.filename = rawTextFileName
-                    self.textList = {}
+        if rawTextFileName is not None:
+            self.filename = rawTextFileName
+            self.textList = {}
 
 #Initialize the XML file (minimizes XML I/O)
-                    self.xmlname = outputXMLFileName
-                    self.parseText()
+            self.xmlname = outputXMLFileName
+
+            self.rrp = RerankingParser.fetch_and_load('GENIA+PubMed')
+            self.parseText()
 
             #print file
-                else:
-                    print "Need a text file!"
-    def getList(self):
-        return self.textList
+        else:
+            print "Need a text file!"
+
 
     def parseText(self):
         """Creates the XML object and parses the raw narrative into the ElementTree python object. This method parses paragraphs, sentences,
@@ -179,14 +168,9 @@ class Preprocessor(Borg):
             
         '''consolidate all broken apart Timex2 tags into single "words"'''
         if self.textList.get('timexTagAndTokenizeText') is None:
-            nestedListOutput = [MWETokenizer(mwes=[('<','/TIMEX2','>'),('<','TIMEX2','>')], separator='').tokenize(x) for x in word_tagged]
-            
-            #We need to remove and change this line if we don't want flattened (one dimensional list). Read below comment.
-            self.textList['timexTagAndTokenizeText'] = [item for sublist in nestedListOutput for item in sublist]
+            self.textList['timexTagAndTokenizeText'] = [MWETokenizer(mwes=[('<','/TIMEX2','>'),('<','TIMEX2','>')], separator='').tokenize(x) for x in word_tagged]
 
-        """Currently, the output is a flattened list, we need to decide if we want to keep the sentence structure (making the output a list of lists.
-        This throws off the AEExtractor and the SuspectExtractor, which need to then be fixed."""
-#        print self.textList.get('timexTagAndTokenizeText')
+        print self.textList.get('timexTagAndTokenizeText')
         return self.textList.get('timexTagAndTokenizeText')
 
 
@@ -246,7 +230,7 @@ class Preprocessor(Borg):
         self.writeToXML()
 #        ET.dump(self.root)
         return self.root
-        
+
     def writeToXML(self):
         self.tree.write(self.xmlname)
 

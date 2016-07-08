@@ -1,30 +1,27 @@
-from nltk_contrib.nltk_contrib import timex
+from nltk_contrib import timex
 import re
 import nltk
 from nltk import word_tokenize, sent_tokenize
 from nltk.tokenize import MWETokenizer
 import itertools
 from itertools import product 
+from Preprocessor import Preprocessor
 
 class SuspectRecogExtractor(object):
     
-    def __init__(self, time_tagged_tokenizedText):
-        self.tokens = time_tagged_tokenizedText
+    def __init__(self):
+        preprocess = Preprocessor()
+        self.tokens = preprocess.timexTagAndTokenizeText()
         
     def findDates(self):
-#        print self.tokens
-        #search for words (e.g. 'AE(s)' or 'Adverse Event(s)')
-#        pattern = r'\bAE(\s|s)'
-#        pattern2 = r'\bevents?\b'
         pattern = r'\btherapy|therapies|medications?|drugs?|products?\b'
         pattern3 = r'<\/?TIMEX2>'
         re_pat = re.compile(pattern, re.IGNORECASE)
-#        re_pat2 = re.compile(pattern2, re.IGNORECASE)
         re_pat3 = re.compile(pattern3, re.IGNORECASE)
 
         ae_index_list = []
 
-        #Go through and check for all adverse event/AE keyworks
+        #Go through and check for all 'suspect' keyworks
         for index in range (0, len(self.tokens)):
             if (self.tokens[index].lower() == 'suspect'.lower() and 
                 re_pat.search(self.tokens[index + 1])):
