@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATIONS textSource="fda009.txt" annotator="Amber Wallace">
+	<EVENT_DT start="" end=""></EVENT_DT>
+	<DEMOGRAPHICS>
+		<AGE_SET>
+			<AGE start="" end=""></AGE>
+			<AGE_COD start="" end=""></AGE_COD>
+		</AGE_SET>
+		<WT_SET>
+			<WT start="" end=""></WT>
+			<WT_COD start="" end=""></WT_COD>
+		</WT_SET>
+		<SEX start="92" end="98">F</SEX>
+	</DEMOGRAPHICS>
+	<DRUG_FILE>
+		<INSTANCE>
+	      <DRUGNAME start="141" end="152">PARACETAMOL</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="154" end="162">RAMPIRIL</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="164" end="183">AMLODIPINE BESILATE</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="185" end="204">HYDROCHLOROTHIAZIDE</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="206" end="227">CANDESARTAN CILEXETIL</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="229" end="249">LEVOTHYROXINE SODIUM</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="251" end="265">ERGOCALCIFEROL</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="267" end="276">EZETIMIBE</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="278" end="288">LISINOPRIL</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="290" end="308">METHYLPREDNISOLONE</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="310" end="320">PREDNISONE</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="322" end="343">SITAGLIPTIN PHOSPHATE</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="345" end="365">ROSUVASTATIN CALCIUM</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="370" end="390">LEVOTHYROXINE SODIUM</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="495" end="501">NEXIUM</DRUGNAME>
+	      <ROUTE start="490" end="494">ORAL</ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="572" end="583">DEPO-MEDROL</DRUGNAME>
+	      <ROUTE start="556" end="571">INTRA-ARTICULAR</ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="690" end="699">DIAMICRON</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="790" end="801">DOMPERIDONE</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="898" end="904">LANTUS</DRUGNAME>
+	      <ROUTE start="885" end="897">SUBCUTANEOUS</ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="1001" end="1007">LYRICA</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="1131" end="1138">RITUXAN</DRUGNAME>
+	      <ROUTE start="1093" end="1104">INTRAVENOUS</ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="1152" end="1158">1000.0</DOSE_AMT>
+	      <DOSE_UNIT start="1159" end="1169">MG</DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+	</DRUG_FILE>
+	<REACTION_FILE>
+		<PT start="1366" end="1386">CONDITION AGGRAVATED</PT>
+		<PT start="1449" end="1474">CORONARY ARTERY OCCLUSION</PT>
+	</REACTION_FILE>
+	<INDICATION_FILE>
+		<INDI_PT start="" end=""></INDI_PT>
+	</INDICATION_FILE>
+</ANNOTATIONS>

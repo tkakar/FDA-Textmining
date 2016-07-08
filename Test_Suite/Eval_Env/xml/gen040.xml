@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATIONS textSource="gen040.txt" annotator="Vimig Socrates">
+	<EVENT_DT start="" end=""></EVENT_DT>
+	<DEMOGRAPHICS>
+		<AGE_SET>
+			<AGE start="74" end="76">80</AGE>
+			<AGE_COD start="77" end="85">YR</AGE_COD>
+		</AGE_SET>
+		<WT_SET>
+			<WT start="" end=""></WT>
+			<WT_COD start="" end=""></WT_COD>
+		</WT_SET>
+		<SEX start="92" end="98">F</SEX>
+	</DEMOGRAPHICS>
+	<DRUG_FILE>
+		<INSTANCE id="0" primary="true" timePeriod="current"> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
+	      <DRUGNAME start="139" end="147">Coumadin</DRUGNAME>
+	      <COREF start="1327" end="1335"/>
+	      <COREF start="1411" end="1419"/>
+	      <COREF start="2105" end="2113"/>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+	      <REACTIONS_IDS></REACTIONS_IDS>
+	      <INDICATION_IDS>0</INDICATION_IDS>
+    	</INSTANCE>
+    	<INSTANCE id="1" primary="false" timePeriod="current"> 
+	      <DRUGNAME start="1785" end="1791">Feosol</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="1792" end="1795">325</DOSE_AMT>
+	      <DOSE_UNIT start="1796" end="1798">MG</DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="1799" end="1804">QD</DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE id="2" primary="false" timePeriod="current"> 
+	      <DRUGNAME start="1806" end="1819">multivitamins</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="1820" end="1823">one</DOSE_AMT>
+	      <DOSE_UNIT start="1820" end="1823">DF</DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="1824" end="1829">QD</DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE id="3" primary="false" timePeriod="current"> 
+	      <DRUGNAME start="1831" end="1839">Protonix</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="1840" end="1842">40</DOSE_AMT>
+	      <DOSE_UNIT start="1843" end="1845">MG</DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="1846" end="1852">BID</DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE id="4" primary="false" timePeriod="current"> 
+	      <DRUGNAME start="1854" end="1857">KCl</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="1858" end="1860">20</DOSE_AMT>
+	      <DOSE_UNIT start="1861" end="1864">MEQ</DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="1865" end="1870">QD</DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE id="5" primary="false" timePeriod="current"> 
+	      <DRUGNAME start="" end="">Lasix</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="1878" end="1880">40</DOSE_AMT>
+	      <DOSE_UNIT start="1881" end="1883">MG</DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="1884" end="1890">BID</DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE id="6" primary="false" timePeriod="current"> 
+	      <DRUGNAME start="1892" end="1900">atenolol</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="1901" end="1903">50</DOSE_AMT>
+	      <DOSE_UNIT start="1904" end="1906">MG</DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="1907" end="1912">QD</DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE id="7" primary="false" timePeriod="current"> 
+	      <DRUGNAME start="1914" end="1923">Synthroid</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="1924" end="1926">80</DOSE_AMT>
+	      <DOSE_UNIT start="1927" end="1930">UG</DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="1931" end="1936">QD</DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE id="8" primary="false" timePeriod="current"> 
+	      <DRUGNAME start="1938" end="1943">Actos</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="1944" end="1946">30</DOSE_AMT>
+	      <DOSE_UNIT start="1947" end="1949">MG</DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="1950" end="1955">QD</DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE id="9" primary="false" timePeriod="current"> 
+	      <DRUGNAME start="1957" end="1964">Mevacor</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="1965" end="1967">40</DOSE_AMT>
+	      <DOSE_UNIT start="1968" end="1970">MG</DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="1971" end="1976"></DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE id="10" primary="false" timePeriod="current"> 
+	      <DRUGNAME start="1982" end="1992">lisinopril</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="1993" end="1995">20</DOSE_AMT>
+	      <DOSE_UNIT start="1996" end="1998">MG</DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="1999" end="2004">QD</DOSE_FREQ>
+    	</INSTANCE>
+	</DRUG_FILE>
+	<REACTION_FILE>
+		<PT id="" start="" end=""></PT>
+	</REACTION_FILE>
+	<INDICATION_FILE>
+		<INDI_PT id="0" start="115" end="134">atrial fibrillation</INDI_PT>
+	</INDICATION_FILE>
+</ANNOTATIONS>
+<COMMENT></COMMENT>
