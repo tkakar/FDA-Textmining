@@ -1,3 +1,9 @@
+"""EventDateAssembler Class
+
+This module is an implementation of the Assembler class described in the architecture.
+
+"""
+
 from Extractors.EventDate.AERecognitionEventDateExtractor import AERecogExtractor
 from Extractors.EventDate.SuspectRecognitionEventDateExtractor import SuspectRecogExtractor
 from Extractors.EventDate.NaiveEventDateExtractor import NaiveExtractor 

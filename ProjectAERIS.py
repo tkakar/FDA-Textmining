@@ -25,6 +25,7 @@ def main():
 
 #Place to test new preprocess methods
 #    preprocessOne.getMetaMapConcepts()
+    preprocessOne.posTaggedText()
 #Place to test new preprocess methods
 
 
