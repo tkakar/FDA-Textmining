@@ -164,16 +164,10 @@ def tag(text):
         
     found = reg14.findall(text)
     found = [a[0] for a in found if len(a) > 1]
-<<<<<<< HEAD
-    print(found)
-    for timex in found:
-        timex_found.append(timex)
-    print "reached the unk found" 
-=======
+
 #    print(found)
     for timex in found:
         timex_found.append(timex)
->>>>>>> pipeline_v2
 
     # Year
     found = reg5.findall(text)

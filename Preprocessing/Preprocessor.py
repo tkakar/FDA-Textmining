@@ -72,6 +72,8 @@ class Preprocessor(Borg):
         """
         self.file = open(self.filename)
         raw = self.file.read()
+        rawOffsetIntermed = raw
+        offsetIter = 0
         self.tree = ET.ElementTree(ET.Element('StartOutput'))
         self.root = self.tree.getroot()
         paraParent = ET.SubElement(self.root,'Paragraphs')
@@ -106,12 +108,20 @@ class Preprocessor(Borg):
                 tokenParent.set('Count', str(len(tokensList)))
                 tempSentElement.append(tokenParent)
                 for index, word in enumerate(tokensList):
-                    tempWordElement = ET.Element('Token', attrib={'id':str(index)})
+                    offsetIndex = rawOffsetIntermed.find(word, offsetIter)
+                    tempWordElement = ET.Element('Token', attrib={'id':str(index), 'offset':str(offsetIndex)+':'+ str(offsetIndex+len(word))})
                     tempWordElement.text = word
                     tokenParent.append(tempWordElement)
+                    offsetIter = offsetIndex
 #        ET.dump(root)
 
         self.writeToXML()
+        self.file.close()
+
+    def findOffsets(self, xmlTree):
+        rawText = open(self.filename).read()
+        
+
 
     def timexTagText(self, altText=None):
         """Tags all the temporal expressions and surrounds them with <TIMEX2> XML tags in line with the text
@@ -247,6 +257,34 @@ class Preprocessor(Borg):
 #        ET.dump(self.root)
         return self.root
         
+    def getMetaMapConcepts(self, altText=None):
+        mm = MetaMap.get_instance('/work/tkakar/public_mm/bin/metamap14')
+        nestedWordList = self.wordTokenizeText()
+        wordList = [item for sublist in nestedWordList for item in sublist]
+        print 'wordList:  ', wordList
+        concepts,error = mm.extract_concepts(wordList)
+        pattern = re.compile('(\[(?:(orch|phsu|sosy|dsyn),(orch|phsu|sosy|dsyn)?)\])')
+        
+        for concept in concepts:
+            #TODO, see if there is any information that we are missing due to some combination not described by the Regex
+            match = pattern.search(concept.semtypes)
+            if match:
+                print concept
+
+        print '\n\n\n\n'
+
+        
+        concepts,error = mm.extract_concepts([open(self.filename).read()])
+        print [open(self.filename).read()]
+        pattern = re.compile('(\[(?:(orch|phsu|sosy|dsyn),?(orch|phsu|sosy|dsyn)?)\])')
+        
+        for concept in concepts:
+            #TODO, see if there is any information that we are missing due to some combination not described by the Regex
+            match = pattern.search(concept.semtypes)
+            if match:
+                print concept
+        #Currently stops at printing both the tokenized and non-tokenized found concepts TODO Come back and enter into XML file
+
     def writeToXML(self):
         self.tree.write(self.xmlname)
 

@@ -24,6 +24,11 @@ def main():
         print "Need a file name!" 
         return
 
+#Place to test new preprocess methods
+    preprocessOne.getMetaMapConcepts()
+#Place to test new preprocess methods
+
+
     config = json.load(open(configFile))
     entities = config.keys()
 
