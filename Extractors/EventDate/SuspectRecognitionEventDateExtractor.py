@@ -1,11 +1,9 @@
 from nltk_contrib import timex
 import re
 import nltk
-from nltk import word_tokenize, sent_tokenize
-from nltk.tokenize import MWETokenizer
 import itertools
 from itertools import product 
-from Preprocessor import Preprocessor
+from Preprocessing.Preprocessor import Preprocessor
 
 class SuspectRecogExtractor(object):
     

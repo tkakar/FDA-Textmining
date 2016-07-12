@@ -1,13 +1,12 @@
-import re
-import nltk
-from nltk import word_tokenize, sent_tokenize, data
-from nltk_contrib import timex 
-from AERecognitionEventDateExtractor import AERecogExtractor
-from SuspectRecognitionEventDateExtractor import SuspectRecogExtractor
-from NaiveEventDateExtractor import NaiveExtractor 
-import sys
-sys.path.append('/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/')
-nltk.data.path.append('/work/vsocrates/nltk_data/')
+"""EventDateAssembler Class
+
+This module is an implementation of the Assembler class described in the architecture.
+
+"""
+
+from Extractors.EventDate.AERecognitionEventDateExtractor import AERecogExtractor
+from Extractors.EventDate.SuspectRecognitionEventDateExtractor import SuspectRecogExtractor
+from Extractors.EventDate.NaiveEventDateExtractor import NaiveExtractor 
 
 class EventDateAssembler(object):
     

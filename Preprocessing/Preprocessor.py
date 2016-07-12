@@ -20,6 +20,8 @@ import xml.etree.ElementTree as ET
 from bllipparser import RerankingParser
 from pymetamap import MetaMap
 
+"""The class below (taken from http://python-3-patterns-idioms-test.readthedocs.io/en/latest/Singleton.html) is an implementation of the Singleton design pattern that allows for all instances created of the preprocessor to refer to the same namespace, allowing usage of the textList dictionary
+"""
 class Borg:
     _shared_state = {}
     def __init__(self):
@@ -72,6 +74,8 @@ class Preprocessor(Borg):
         """
         self.file = open(self.filename)
         raw = self.file.read()
+        rawOffsetIntermed = raw
+        offsetIter = 0
         self.tree = ET.ElementTree(ET.Element('StartOutput'))
         self.root = self.tree.getroot()
         paraParent = ET.SubElement(self.root,'Paragraphs')
@@ -106,18 +110,21 @@ class Preprocessor(Borg):
                 tokenParent.set('Count', str(len(tokensList)))
                 tempSentElement.append(tokenParent)
                 for index, word in enumerate(tokensList):
-                    tempWordElement = ET.Element('Token', attrib={'id':str(index)})
+                    offsetIndex = rawOffsetIntermed.find(word, offsetIter)
+                    tempWordElement = ET.Element('Token', attrib={'id':str(index), 'offset':str(offsetIndex)+':'+ str(offsetIndex+len(word))})
                     tempWordElement.text = word
                     tokenParent.append(tempWordElement)
+                    offsetIter = offsetIndex
 #        ET.dump(root)
 
         self.writeToXML()
+        self.file.close()
 
     def timexTagText(self, altText=None):
         """Tags all the temporal expressions and surrounds them with <TIMEX2> XML tags in line with the text
 
         Args:
-            None
+            altText (str) The text to be tagged, if it is not the same as the whole narrative the preprocessor was created with. This text won't be stored.
             
         Returns:
             tagged text (str)
@@ -144,7 +151,15 @@ class Preprocessor(Borg):
  
 
     def wordTokenizeText(self, altText=None):
-        """Output: tokenized list of words in the format [['This', 'is', 'a', 'sentence', '.'],['And', 'maybe', 'another']]"""
+        """Tokenizes all the words currently using the nltk TreebankTokenizer for words, and the Punkt sentence tokenizer.
+        
+        Args:
+            altText (str) The text to be tagged, if it is not the same as the whole narrative the preprocessor was created with. This text won't be stored.
+
+        Returns:
+            tokenized text (nested list, by sentence): 
+            ex. [['This', 'is', 'a', 'sentence', '.'],['And', 'maybe', 'another']]
+        """
         if altText is not None:
             raw = altText
             altTokenizedText  = [word_tokenize(t) for t in sent_tokenize(raw)]
@@ -162,6 +177,17 @@ class Preprocessor(Borg):
 
 
     def timexTagAndTokenizeText(self, altText=None):
+        """Tags temporal expressions with nltk timex2, and tokenizes the resultant text.
+
+        Args:
+            altText (str) The text to be tagged, if it is not the same as the whole narrative the preprocessor was created with. This text won't be stored.
+        
+        Returns:
+            tokenized text (nested list, by sentence): 
+            ex. [['This', 'is', 'a', 'sentence', '.'],['And', 'maybe', 'another']]
+
+        """
+
         """In this method, two steps are required, so if altText is specified, all steps are done inside the if statement, so incorrect dict entries aren't stored"""
         if altText is not None:
             raw = altText
@@ -189,8 +215,17 @@ class Preprocessor(Borg):
 #        print self.textList.get('timexTagAndTokenizeText')
         return self.textList.get('timexTagAndTokenizeText')
 
-
     def posTaggedText(self, altText=None):
+        """Tags the text with parts-of-speech (POS) using the Charniak-Johnson parser after nltk tokenizes the words using the Penn Treebank tokenizer. 
+
+        Args:
+            altText (str) The text to be tagged, if it is not the same as the whole narrative the preprocessor was created with. This text won't be stored.
+        
+        Returns:
+            the POS-tagged text (nested list)
+            ex. [[('A', 'DT'), ('female', 'JJ'), ('patient', 'NN'), ('died', 'VBD'), ('while', 'IN'), ('receiving', 'VBG'), ('Taxol', 'NN'), ('therapy', 'NN'), ('.', '.')], [('She', 'PRP'), ('did', 'VBD'), ("n't", 'RB'), ('surive', 'VB'), ('.', '.')]]
+        
+        """
         self.parseXML()
 
         if altText is not None:
@@ -199,7 +234,8 @@ class Preprocessor(Borg):
             altOutputStep2 = [self.rrp.tag(sent) for sent in altOutputStep1]
             return altOutputStep2
         else:
-            
+
+            posTaggedSents = []
             paragraphs = self.root.find('Paragraphs')
             for paragraph in paragraphs.findall('Paragraph'):
                 sentences = paragraph.find('Sentences')
@@ -207,13 +243,24 @@ class Preprocessor(Borg):
                     tokens = sentence.find('Tokens')
 #We have to take the first element, because for some reason, wordTokenizeText outputs a nested list, even with only one sentence
                     posTagList = self.rrp.tag(self.wordTokenizeText(sentence.text)[0])
+                    posTaggedSents.append(posTagList)
                     for index, token in enumerate(tokens.findall('Token')):
                         token.attrib['POSTag'] = posTagList[index][1]
-       
-        self.writeToXML()
-#        print pos_tagged
+                        
+
+        return posTaggedSents
     
     def getParseTree(self, altText=None):
+        """
+        Creates a parse tree using the POS tags in the intermediate XML (the method above) and the Charniak-Johnson parser. 
+        
+        Args:
+            altText (str) The text to be tagged, if it is not the same as the whole narrative the preprocessor was created with. This text won't be stored.
+        
+        Returns:
+            The parse tree created (str)
+        """
+
         self.parseXML()
         """In order to use the BLLIP parser (Charniak-Johnson parser) we must tokenize by sentence first. When using the alternate text option
         you have to only pass it individual sentences, like other methods (TODO: make sure this is the case for other methods)
@@ -247,9 +294,62 @@ class Preprocessor(Borg):
 #        ET.dump(self.root)
         return self.root
         
+    def getMetaMapConcepts(self, altText=None):
+        """
+        Returns the MetaMap concepts found using the 'pymetamap' python wrapper. 
+        
+        Args:
+            altText (str) The text to be tagged, if it is not the same as the whole narrative the preprocessor was created with. This text won't be stored.
+        
+        Returns:
+            the MetaMap concepts, as described in the pymetamap documentation (list)
+        """
+        mm = MetaMap.get_instance('/work/tkakar/public_mm/bin/metamap14')
+        nestedWordList = self.wordTokenizeText()
+        wordList = [item for sublist in nestedWordList for item in sublist]
+        print 'wordList:  ', wordList
+        concepts,error = mm.extract_concepts(wordList)
+        pattern = re.compile('(\[(?:(orch|phsu|sosy|dsyn),(orch|phsu|sosy|dsyn)?)\])')
+        
+        for concept in concepts:
+            #TODO, see if there is any information that we are missing due to some combination not described by the Regex
+            match = pattern.search(concept.semtypes)
+            if match:
+                print concept
+
+        print '\n\n\n\n'
+
+        
+        concepts,error = mm.extract_concepts([open(self.filename).read()])
+        print [open(self.filename).read()]
+        pattern = re.compile('(\[(?:(orch|phsu|sosy|dsyn),?(orch|phsu|sosy|dsyn)?)\])')
+        
+        for concept in concepts:
+            #TODO, see if there is any information that we are missing due to some combination not described by the Regex
+            match = pattern.search(concept.semtypes)
+            if match:
+                print concept
+        #Currently stops at printing both the tokenized and non-tokenized found concepts TODO Come back and enter into XML file
+
     def writeToXML(self):
+        """Writes the tree to the output xml specified.
+
+        Args:
+            None
+
+        Returns:
+            None
+        """
         self.tree.write(self.xmlname)
 
     def parseXML(self):
+        """Parses the XML tree in the xml file specified. This method was created to minimize file I/Os.
+        
+        Args:
+            None
+
+        Returns:
+            None
+        """
         self.tree = ET.parse(self.xmlname)
         self.root = self.tree.getroot()

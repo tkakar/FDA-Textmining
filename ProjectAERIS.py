@@ -1,13 +1,12 @@
 import sys, re
-from nltk_contrib import timex
-from Preprocessor import Preprocessor
-from AERecognitionEventDateExtractor import AERecogExtractor 
-from SuspectRecognitionEventDateExtractor import SuspectRecogExtractor
-from Assemblers.EventDateAssembler import EventDateAssembler
 import nltk
-from nltk import data
 sys.path.append('/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/')
 nltk.data.path.append('/work/vsocrates/nltk_data')
+from nltk_contrib import timex
+from Preprocessing.Preprocessor import Preprocessor
+from Extractors.EventDate.AERecognitionEventDateExtractor import AERecogExtractor 
+from Extractors.EventDate.SuspectRecognitionEventDateExtractor import SuspectRecogExtractor
+from Assemblers.EventDateAssembler import EventDateAssembler
 
 import json
 
@@ -23,6 +22,12 @@ def main():
     else:
         print "Need a file name!" 
         return
+
+#Place to test new preprocess methods
+#    preprocessOne.getMetaMapConcepts()
+    preprocessOne.posTaggedText()
+#Place to test new preprocess methods
+
 
     config = json.load(open(configFile))
     entities = config.keys()

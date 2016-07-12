@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATIONS textSource="fda010.txt" annotator="Amber Wallace">
+	<EVENT_DT start="" end=""></EVENT_DT>
+	<DEMOGRAPHICS>
+		<AGE_SET>
+			<AGE start="50" end="52">71</AGE>
+			<AGE_COD start="53" end="61">YR</AGE_COD>
+		</AGE_SET>
+		<WT_SET>
+			<WT start="153" end="156">160</WT>
+			<WT_COD start="157" end="163">LBS</WT_COD>
+		</WT_SET>
+		<SEX start="72" end="78">F</SEX>
+	</DEMOGRAPHICS>
+	<DRUG_FILE>
+		<INSTANCE>
+	      <DRUGNAME start="551" end="557">MYCINS</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="629" end="634">SULFA</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE>
+	      <DRUGNAME start="689" end="702">CANAGLIFLOZIN</DRUGNAME>
+	      <ROUTE start="712" end="716">ORAL</ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="733" end="736">300</DOSE_AMT>
+	      <DOSE_UNIT start="737" end="739">MG</DOSE_UNIT>
+	      <DOSE_FORM start="704" end="710">TABLETS</DOSE_FORM>
+	      <DOSE_FREQ start="740" end="750">QD</DOSE_FREQ>
+    	</INSTANCE>
+	</DRUG_FILE>
+	<REACTION_FILE>
+		<PT start="" end=""></PT>
+	</REACTION_FILE>
+	<INDICATION_FILE>
+		<INDI_PT start="" end=""></INDI_PT>
+	</INDICATION_FILE>
+</ANNOTATIONS>

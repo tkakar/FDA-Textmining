@@ -1,6 +1,4 @@
-import sys
-sys.path.append('../')
-from DataElement import  DataElement
+from DataElement import DataElement
 
 class EventDateElement(DataElement):
 

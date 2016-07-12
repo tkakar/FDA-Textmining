@@ -1,0 +1,4 @@
+egenix-mx-base==3.2.9
+bllipparser==2015.12.3
+nltk==3.2.1
+-e git+https://github.com/AnthonyMRios/pymetamap#egg=pymetamap
