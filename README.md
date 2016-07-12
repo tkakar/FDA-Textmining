@@ -7,8 +7,12 @@ Worcester, MA 01609
 
 ## Usage
 
-To run the program, use:
+To run the program, please follow this tutorial first: 
 
+[How to use] (https://gitlab.com/vsocrates/FDA-Textmining/wikis/how-to-use)
+
+Then run: 
+<br><br>
 ````
 python ProjectAERIS.py Test_Suite/Eval_Env/test_cases/short_example.txt output_file.xml Resources/config.json
 ````
