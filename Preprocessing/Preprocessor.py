@@ -48,6 +48,7 @@ class Preprocessor(Borg):
 
                 if rawTextFileName is not None:
                     self.filename = rawTextFileName
+                    """IMPORTANT: The list below stores multiple different forms of text, to minimize the amount of computation""" 
                     self.textList = {}
 
 #Initialize the XML file (minimizes XML I/O)
@@ -119,6 +120,17 @@ class Preprocessor(Borg):
 
         self.writeToXML()
         self.file.close()
+
+    def rawText(self):
+        """Returns the raw string (usually only used for RegEx extractors that don't want any preprocessing/XML)
+
+        Args:
+            None
+            
+        Returns
+            The raw string from the text file (str)
+        """
+        return open(self.filename).read()
 
     def timexTagText(self, altText=None):
         """Tags all the temporal expressions and surrounds them with <TIMEX2> XML tags in line with the text
@@ -307,7 +319,7 @@ class Preprocessor(Borg):
         mm = MetaMap.get_instance('/work/tkakar/public_mm/bin/metamap14')
         nestedWordList = self.wordTokenizeText()
         wordList = [item for sublist in nestedWordList for item in sublist]
-        print 'wordList:  ', wordList
+#        print 'wordList:  ', wordList
         concepts,error = mm.extract_concepts(wordList)
         pattern = re.compile('(\[(?:(orch|phsu|sosy|dsyn),(orch|phsu|sosy|dsyn)?)\])')
         
@@ -353,3 +365,18 @@ class Preprocessor(Borg):
         """
         self.tree = ET.parse(self.xmlname)
         self.root = self.tree.getroot()
+
+def placeOffsetInXML(phrase, tokenizedText, span, offset):
+    """Takes a word/phrase and places it in the intermediate XML file using offset and span. Tokenizes it first to ensure that it will fit in the same system we have.
+    
+    Args:
+        phrase (str) The string to be placed in XML
+        tokenizedText (list) The tokenized text is used to ensure that the same tokenizer used on the rest of the document is kept consistent. 
+        span (int) The length of the string
+        offset (int) The offset, in relation to the original text file
+
+    Returns:
+        None
+    """
+    
+    
