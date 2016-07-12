@@ -1,3 +1,19 @@
+"""ProjectAERIS module
+
+This is the main class for the entire system, for any particular narrative text file. This program will take in a text narrative, and output an XML file with tagged components, based on various customizatoins. The program takes three inputs:
+
+python ProjectAERIS.py [raw text narrative] [output xml file location] [configuration file]
+
+The first two are self-explanatory. The third is the configuration file, in JSON format in the form: 
+
+{"Event Date" : ["AERecogExtractor", "SuspectRecogExtractor"],
+ "Age" : ["AgeExtractor1", "AgeExtractor2"]}
+
+Todo:
+  +Cleanup the bottom of the file, make sure we don't need that code. 
+"""
+
+
 import sys, re
 import nltk
 sys.path.append('/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/')
@@ -11,6 +27,7 @@ from Assemblers.EventDateAssembler import EventDateAssembler
 import json
 
 def main():
+    """Takes in the input three files, and creates a Preprocessor object, runs each extractor, and compiles the results."""
     assemblerList = []
     sysArgs = sys.argv[1:]
     if len(sysArgs) >= 3:
