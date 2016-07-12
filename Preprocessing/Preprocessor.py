@@ -307,7 +307,7 @@ class Preprocessor(Borg):
         mm = MetaMap.get_instance('/work/tkakar/public_mm/bin/metamap14')
         nestedWordList = self.wordTokenizeText()
         wordList = [item for sublist in nestedWordList for item in sublist]
-        print 'wordList:  ', wordList
+#        print 'wordList:  ', wordList
         concepts,error = mm.extract_concepts(wordList)
         pattern = re.compile('(\[(?:(orch|phsu|sosy|dsyn),(orch|phsu|sosy|dsyn)?)\])')
         
