@@ -15,9 +15,10 @@
 	<DRUG_FILE>
 	</DRUG_FILE>
 	<REACTION_FILE>
-		<PT start="" end=""></PT>
+		<PT id="" start="" end=""></PT>
 	</REACTION_FILE>
 	<INDICATION_FILE>
-		<INDI_PT start="" end=""></INDI_PT>
+		<INDI_PT id="" start="" end=""></INDI_PT>
 	</INDICATION_FILE>
 </ANNOTATIONS>
+<COMMENT></COMMENT>

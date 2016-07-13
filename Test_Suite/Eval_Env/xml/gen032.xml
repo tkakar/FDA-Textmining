@@ -13,8 +13,17 @@
 		<SEX start="43" end="46">M</SEX>
 	</DEMOGRAPHICS>
 	<DRUG_FILE>
-		<INSTANCE> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
+		<INSTANCE id="0" primary="true" timePeriod="current"> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
 	      <DRUGNAME start="400" end="404">CPAP</DRUGNAME>
+	      <COREF start="159" end="163"/>
+	      <COREF start="449" end="453"/>
+	      <COREF start="570" end="574"/>
+	      <COREF start="778" end="782"/>
+	      <COREF start="1222" end="1226"/>
+	      <COREF start="2383" end="2387"/>
+	      <COREF start="2472" end="2476"/>
+	      <COREF start="2704" end="2708"/>
+	      <COREF start="" end=""/>
 	      <ROUTE start="394" end="399">nasal</ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
 	      <RECHAL start="" end=""></RECHAL>
@@ -22,8 +31,10 @@
 	      <DOSE_UNIT start="411" end="413">cm</DOSE_UNIT>
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="797" end="819">QD</DOSE_FREQ>
+	      <REACTIONS_IDS></REACTIONS_IDS>
+	      <INDICATION_IDS>0</INDICATION_IDS>
     	</INSTANCE>
-		<INSTANCE> 
+		<INSTANCE id="1" primary="false" timePeriod="current"> 
 	      <DRUGNAME start="1903" end="1910">Flonase</DRUGNAME>
 	      <ROUTE start="" end=""></ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
@@ -32,12 +43,15 @@
 	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+	      <REACTIONS_IDS></REACTIONS_IDS>
+	      <INDICATION_IDS></INDICATION_IDS>
     	</INSTANCE>
 	</DRUG_FILE>
 	<REACTION_FILE>
-		<PT start="" end=""></PT>
+		<PT id="" start="" end=""></PT>
 	</REACTION_FILE>
 	<INDICATION_FILE>
-		<INDI_PT start="" end=""></INDI_PT>
+		<INDI_PT id="0" start="103" end="114">sleep apnea</INDI_PT>
 	</INDICATION_FILE>
 </ANNOTATIONS>
+<COMMENT></COMMENT>
