@@ -5,6 +5,16 @@ This module contains all of the methods to preprocess the data and pass them to 
 IMPORTANT:
 When creating new methods, make sure to check the dictionary (textList) to see if the particular format of a test case that you want already exists before creating it. If it doesn't exist, create it and place it into textList with the key being the name of the method you write. This will help in minimizing File I/O and standardize the dictionary so people can find other versions of narratives. 
 
+Preprocessed Text Support (so far):
+
+  +Word Tokenization
+  +Sentence and Paragraph tokenization (in XML only)
+  +Timex2 tagging
+  +tokenization after timex2 tagging
+  +Part-of-speech tagging (POS)
+  +Parse tree creation
+  +MetaMap concept recognition
+
 Todo:
     * Fix dictionary (textList)  key phrase, so it doesn't have to rely on programmer accuracy
     * Update timexTagText and wordTokenizeText methods (possibly also wordTokenizeAndTagMethod)
