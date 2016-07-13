@@ -8,14 +8,14 @@
                <Tokens Count="18">
                   <Token id="0" offset="0:1">A</Token>
                   <Token id="1" offset="2:13">domperidone</Token>
-                     <DRUGNAME id="0" extractor="drugExtractor1"/>
-                     <DRUGNAME id="0" extractor="drugExtractor2"/>
+                     <DRUGNAME id="0" extractor="drugExtractor1"/></DRUGNAME>
+                     <DRUGNAME id="0" extractor="drugExtractor2"/></DRUGNAME>
                   <Token id="2" offset="14:15">(</Token>
                   <Token id="3" offset="15:17">30</Token>
-                     <DOSE_AMT id="0" drug_id="0" extractor="dosageExtractor1"/>
+                     <DOSE_AMT id="0" drug_id="0" extractor="dosageExtractor1"/></DOSE_AMT>
                   <Token id="4" offset="18:20">mg</Token>
-                     <DOSE_UNIT id="0" drug_id="0" extractor="doseUnitExtractor1"/>
-                     <DOSE_UNIT id="0" drug_id="0" extractor="doseUnitExtractor2"/>
+                     <DOSE_UNIT id="0" drug_id="0" extractor="doseUnitExtractor1"/></DOSE_UNIT>
+                     <DOSE_UNIT id="0" drug_id="0" extractor="doseUnitExtractor2"/></DOSE_UNIT>
                   <Token id="5" offset="20:21">,</Token>
                   <Token id="6" offset="22:26">oral</Token>
                   <Token id="7" offset="26:27">,</Token>
@@ -27,11 +27,11 @@
                   <Token id="13" offset="56:61">while</Token>
                   <Token id="14" offset="62:71">receiving</Token>
                   <Token id="15" offset="72:77">Taxol</Token>
-                     <DRUGNAME id="1" extractor="drugExtractor1"/>
-                     <DRUGNAME id="1" extractor="drugExtractor2"/>
+                     <DRUGNAME id="1" extractor="drugExtractor1"/></DRUGNAME>
+                     <DRUGNAME id="1" extractor="drugExtractor2"/><DRUGNAME>
                   <Token id="16" offset="78:85">therapy</Token>
-                     <DRUGNAME id="1" extractor="drugExtractor1"/>
-                     <DRUGNAME id="1" extractor="drugExtractor2"/>
+                     <DRUGNAME id="1" extractor="drugExtractor1"/></DRUGNAME>
+                     <DRUGNAME id="1" extractor="drugExtractor2"/></DRUGNAME>
                   <Token id="17" offset="85:86">.</Token>
                </Tokens>
             </Sentence>
