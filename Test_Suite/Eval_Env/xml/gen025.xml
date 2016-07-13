@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATIONS textSource="" annotator="">
-	<EVENT_DT start="" end=""></EVENT_DT>
+<ANNOTATIONS textSource="gen025.xml" annotator="Amber Wallace">
+	<EVENT_DT start="90" end="105">199109</EVENT_DT>
 	<DEMOGRAPHICS>
 		<AGE_SET>
-			<AGE start="" end=""></AGE>
-			<AGE_COD start="" end=""></AGE_COD>
+			<AGE start="16" end="18">67</AGE>
+			<AGE_COD start="18" end="27">YR</AGE_COD>
 		</AGE_SET>
 		<WT_SET>
 			<WT start="" end=""></WT>
 			<WT_COD start="" end=""></WT_COD>
 		</WT_SET>
-		<SEX start="" end=""></SEX>
+		<SEX start="28" end="33">F</SEX>
 	</DEMOGRAPHICS>
 	<DRUG_FILE> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
-		<INSTANCE id="1" primary="" timePeriod=""> <!--primary is bool | timePeriod can be current/past/unk -->
+		<INSTANCE id="" primary="" timePeriod=""> <!--primary is bool | timePeriod can be current/past/unk -->
 	      <DRUGNAME start="" end=""></DRUGNAME>
 	      <COREF start="" end=""/>
 	      <ROUTE start="" end=""></ROUTE>
@@ -36,15 +36,3 @@
 </ANNOTATIONS>
 <COMMENT>
 </COMMENT>
-<!--
-
-	mark explicit unknown: UNK
-list symptoms (not just preferred terms)
-coreferences
-	add subelement to existing <INSTANCE id="" primary="" timePeriod=""> tag
-ignore dechal and rechal
-take all drug info
-primary suspect tag, tag drug as specific thing
-	current vs past vs unk
-
--->

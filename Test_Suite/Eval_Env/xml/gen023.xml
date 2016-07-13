@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATIONS textSource="gen023.xml" annotator="Amber Wallace">
+<ANNOTATIONS textSource="gen023.txt" annotator="Amber Wallace">
 	<EVENT_DT start="" end=""></EVENT_DT>
 	<DEMOGRAPHICS>
 		<AGE_SET>
@@ -13,8 +13,9 @@
 		<SEX start="22" end="28">F</SEX>
 	</DEMOGRAPHICS>
 	<DRUG_FILE>
-		<INSTANCE> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
+		<INSTANCE id="" primary="" timePeriod=""> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
 	      <DRUGNAME start="" end=""></DRUGNAME>
+	      <COREF start="" end=""/>
 	      <ROUTE start="" end=""></ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
 	      <RECHAL start="" end=""></RECHAL>
@@ -31,3 +32,5 @@
 		<INDI_PT start="" end=""></INDI_PT>
 	</INDICATION_FILE>
 </ANNOTATIONS>
+<COMMENTS>
+</COMMENTS>

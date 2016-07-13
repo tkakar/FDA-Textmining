@@ -7,14 +7,15 @@
 			<AGE_COD start="13" end="21">YR</AGE_COD>
 		</AGE_SET>
 		<WT_SET>
-			<WT start="" end="">100-150</WT>
-			<WT_COD start="" end="">LBS</WT_COD>
+			<WT start="63" end="70">100-150</WT>
+			<WT_COD start="71" end="74">LBS</WT_COD>
 		</WT_SET>
 		<SEX start="29" end="35">F</SEX>
 	</DEMOGRAPHICS>
 	<DRUG_FILE>
-		<INSTANCE> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
+		<INSTANCE id="" primary="" timePeriod=""> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
 	      <DRUGNAME start="" end=""></DRUGNAME>
+	      <COREF start="" end=""/>
 	      <ROUTE start="" end=""></ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
 	      <RECHAL start="" end=""></RECHAL>
