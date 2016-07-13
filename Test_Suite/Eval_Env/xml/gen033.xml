@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATIONS textSource="gen033.txt" annotator="Amber Wallace">
+	<EVENT_DT start="" end=""></EVENT_DT>
+	<DEMOGRAPHICS>
+		<AGE_SET>
+			<AGE start="80" end="82">89</AGE>
+			<AGE_COD start="83" end="91">YR</AGE_COD>
+		</AGE_SET>
+		<WT_SET>
+			<WT start="" end=""></WT>
+			<WT_COD start="" end=""></WT_COD>
+		</WT_SET>
+		<SEX start="98" end="102">M</SEX>
+	</DEMOGRAPHICS>
+	<DRUG_FILE> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
+		<INSTANCE id="1" primary="FALSE" timePeriod="PAST"> <!--primary is bool | timePeriod can be current/past/unk -->
+	      <DRUGNAME start="1149" end="1155">COZAR</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="1156" end="1159">100</DOSE_AMT>
+	      <DOSE_UNIT start="1160" end="1162">MG</DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="1163" end="1168">QD</DOSE_FREQ>
+    	</INSTANCE>
+    	<INSTANCE id="2" primary="FALSE" timePeriod="PAST"> <!--primary is bool | timePeriod can be current/past/unk -->
+	      <DRUGNAME start="1173" end="1180">NORVASC</DRUGNAME>
+	      <COREF start="" end=""/>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="1181" end="1183">10</DOSE_AMT>
+	      <DOSE_UNIT start="1184" end="1186">MG</DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="1187" end="1192">QD</DOSE_FREQ>
+    	</INSTANCE>
+	</DRUG_FILE>
+	<REACTION_FILE>
+		<PT id="1" start="117" end="137">LOWER ABDOMINAL PAIN</PT>
+		<PT id="2" start="361" end="367">NAUSEA</PT>
+		<PT id="3" start="372" end="380">VOMITIING</PT>
+	</REACTION_FILE>
+	<INDICATION_FILE>
+		<INDI_PT id="1" start="1123" end="1135">HYPERTENSION</INDI_PT>
+	</INDICATION_FILE>
+</ANNOTATIONS>
+<COMMENT>
+</COMMENT>
+<!--
+
+	mark explicit unknown: UNK
+list symptoms (not just preferred terms)
+coreferences
+	add subelement to existing <INSTANCE id="" primary="" timePeriod=""> tag
+ignore dechal and rechal
+take all drug info
+primary suspect tag, tag drug as specific thing
+	current vs past vs unk
+
+-->

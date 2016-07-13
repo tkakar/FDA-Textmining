@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATIONS textSource="" annotator="">
+<ANNOTATIONS textSource="gen037.txt" annotator="Amber Wallace">
 	<EVENT_DT start="" end=""></EVENT_DT>
 	<DEMOGRAPHICS>
 		<AGE_SET>
-			<AGE start="" end=""></AGE>
-			<AGE_COD start="" end=""></AGE_COD>
+			<AGE start="80" end="82">55</AGE>
+			<AGE_COD start="83" end="85">YR</AGE_COD>
 		</AGE_SET>
 		<WT_SET>
 			<WT start="" end=""></WT>
 			<WT_COD start="" end=""></WT_COD>
 		</WT_SET>
-		<SEX start="" end=""></SEX>
+		<SEX start="86" end="88">F</SEX>
 	</DEMOGRAPHICS>
 	<DRUG_FILE> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
-		<INSTANCE id="" primary="" timePeriod=""> <!--primary is bool | timePeriod can be current/past/unk -->
-	      <DRUGNAME start="" end=""></DRUGNAME>
+		<INSTANCE id="1" primary="TRUE" timePeriod="CURRENT"> <!--primary is bool | timePeriod can be current/past/unk -->
+	      <DRUGNAME start="237" end="247">CEPHALEXIN</DRUGNAME>
 	      <COREF start="" end=""/>
 	      <ROUTE start="" end=""></ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
@@ -28,21 +28,22 @@
     	</INSTANCE>
 	</DRUG_FILE>
 	<REACTION_FILE>
-		<PT id="" start="" end=""></PT>
+		<PT id="1" start="341" end="347">NAUSEA</PT>
+		<PT id="2" start="353" end="367">ABDOMINAL PAIN</PT>
+		<PT id="3" start="379" end="386">FATIGUE</PT>
 	</REACTION_FILE>
 	<INDICATION_FILE>
 		<INDI_PT id="" start="" end=""></INDI_PT>
 	</INDICATION_FILE>
 </ANNOTATIONS>
 <COMMENT>
-This section is for freeform comments from the annotator regarding any particular test case. 
 </COMMENT>
 <!--
 
 	mark explicit unknown: UNK
 list symptoms (not just preferred terms)
 coreferences
-	add subelement to existing <instance> tag
+	add subelement to existing <INSTANCE id="" primary="" timePeriod=""> tag
 ignore dechal and rechal
 take all drug info
 primary suspect tag, tag drug as specific thing

@@ -13,7 +13,7 @@
 		<SEX start="46" end="49">F</SEX>
 	</DEMOGRAPHICS>
 	<DRUG_FILE>
-		<INSTANCE>
+		<INSTANCE id="" primary="" timePeriod="">
 	      <DRUGNAME start="139" end="150">DOMPERIDONE</DRUGNAME>
 	      <ROUTE start="" end=""></ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
@@ -25,9 +25,9 @@
     	</INSTANCE>
 	</DRUG_FILE>
 	<REACTION_FILE>
-		<PT start="" end=""></PT>
+		<PT id="" start="" end=""></PT>
 	</REACTION_FILE>
 	<INDICATION_FILE>
-		<INDI_PT start="" end=""></INDI_PT>
+		<INDI_PT id="" start="" end=""></INDI_PT>
 	</INDICATION_FILE>
 </ANNOTATIONS>

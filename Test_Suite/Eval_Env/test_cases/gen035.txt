@@ -6,8 +6,6 @@ DISPOSITION: The patient has been discharged home.
 
 DISCHARGE MEDICATIONS:
 1. Metoprolol 25 mg p.o. b.i.d.
-2. Simvastatin 20 mg p.o. daily.
 
 NEW MEDICATIONS:
-1. Prednisone 20 mg p.o. daily for seven days.
 2. Flonase nasal spray daily for 30 days.
