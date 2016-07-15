@@ -6,7 +6,6 @@ class DosageRegExtractor(object):
     def __init__(self):
         preprocess = Preprocessor()
         self.Text = preprocess.rawText()
-	print self.Text
         
     def findDosages(self):
 

@@ -16,8 +16,11 @@ Todo:
 
 import sys, re
 import nltk
-sys.path.append('/work/tkakar/FDA-Textmining/')
+
+#sys.path.append('/work/tkakar/FDA-Textmining/')
 nltk.data.path.append('/work/tkakar/nltk_data')
+sys.path.append('/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/')
+#nltk.data.path.append('/work/vsocrates/nltk_data')
 from nltk_contrib import timex
 from Preprocessing.Preprocessor import Preprocessor
 from Extractors.EventDate.AERecognitionEventDateExtractor import AERecogExtractor 
@@ -30,26 +33,35 @@ from Assemblers.AgeAssembler import AgeAssembler
 
 import json
 
-def main():
-    """Takes in the input three files, and creates a Preprocessor object, runs each extractor, and compiles the results."""
+def main(aRawTextFileName=None, aIntermediateXMLFileName=None, aConfigFile=None):
     assemblerList = []
-    sysArgs = sys.argv[1:]
-    if len(sysArgs) >= 3:
-        """when calling ProjectAeris, it should be done with a raw text file and an output xml file location as the first and second arguments respectively"""
-        preprocessOne = Preprocessor(rawTextFileName=sysArgs[0], outputXMLFileName=sysArgs[1])
-        configFile = sysArgs[2]
-        allAssemblerDict = {'Event Date':EventDateAssembler(), 'Dosage':DosageAssembler(), 'Age':AgeAssembler()}
-        print 'done preprocess!'
+    if aRawTextFileName is None and aIntermediateXMLFileName is None:
+
+        sysArgs = sys.argv[1:]
+        if len(sysArgs) >= 3:
+            """when calling ProjectAeris, it should be done with a raw text file and an output xml file location as the first and second arguments respectively"""
+            preprocessOne = Preprocessor(rawTextFileName=sysArgs[0],intermediateXMLFileName=sysArgs[1])
+            configFile = sysArgs[2]
+        else:
+            print "Missing some command-line arguments"
+            return
+
     else:
-        print "Need a file name!" 
-        return
+        preprocessOne = Preprocessor(rawTextFileName=aRawTextFileName, intermediateXMLFileName=aIntermediateXMLFileName)
+        configFile = aConfigFile
+        print 'initial preprocess done!'
+    
+    allAssemblerDict = {'Event Date':EventDateAssembler(), 'Dosage':DosageAssembler(), 'Age':AgeAssembler()}
 
 #Place to test new preprocess methods
-#    preprocessOne.getMetaMapConcepts()
-#    preprocessOne.posTaggedText()
-    print preprocessOne.rawText()
+    preprocessOne.getMetaMapConcepts()
+    preprocessOne.posTaggedText()
+    preprocessOne.getParseTree()
+#    print preprocessOne.rawText()
 #Place to test new preprocess methods
 
+
+#The following is to actually run the extractors
 
     config = json.load(open(configFile))
     entities = config.keys()
