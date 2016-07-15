@@ -1,5 +1,4 @@
 """Preprocessor Class
-
 This module contains all of the methods to preprocess the data and pass them to the extractors. This may include tokenization, POS tagging, or tagging a specific named entity concept with preliminary tags (temporal, MetaMap).
 
 IMPORTANT:
@@ -30,12 +29,12 @@ class Borg:
 
 class Preprocessor(Borg):
     _firstInitialization = True
-    def __init__(self, rawTextFileName=None, outputXMLFileName=None):
+    def __init__(self, rawTextFileName=None, intermediateXMLFileName=None):
         """Initializes the Preprocessor and returns it. This includes loading any models that will be used in multiple preprocessing methods (e.g. RerankingParser)
 
         Args:
             rawTextFileName (str): The name of the raw string narrative file
-            outputXMLFileName (str): The name of the BLANK file to contain the intermediate output XML
+            intermediateXMLFileName (str): The name of the BLANK file to contain the intermediate output XML
 
         Returns:
             Preprocessor object
@@ -53,12 +52,13 @@ class Preprocessor(Borg):
                     self.textList = {}
 
 #Initialize the XML file (minimizes XML I/O)
-                    self.xmlname = outputXMLFileName
+                    self.xmlname = intermediateXMLFileName
                     self.parseText()
 
             #print file
                 else:
                     print "Need a text file!"
+                    return
     def getList(self):
         return self.textList
 
@@ -127,6 +127,7 @@ class Preprocessor(Borg):
                     offsetIter = offsetIndex
                     globalIDIndex += 1
 
+#        ET.dump(self.root)
         self.writeToXML()
         self.file.close()
 

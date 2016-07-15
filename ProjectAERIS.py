@@ -1,5 +1,6 @@
 import sys, re
 import nltk
+import os, glob
 sys.path.append('/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/')
 nltk.data.path.append('/work/vsocrates/nltk_data')
 from nltk_contrib import timex
@@ -10,18 +11,27 @@ from Assemblers.EventDateAssembler import EventDateAssembler
 
 import json
 
-def main():
+path = '/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Postprocesing/IntermediatesFiles'
+
+def main(aRawTextFileName=None, aIntermediateXMLFileName=None, aConfigFile=None):
     assemblerList = []
-    sysArgs = sys.argv[1:]
-    if len(sysArgs) >= 3:
-        """when calling ProjectAeris, it should be done with a raw text file and an output xml file location as the first and second arguments respectively"""
-        preprocessOne = Preprocessor(rawTextFileName=sysArgs[0], outputXMLFileName=sysArgs[1])
-        configFile = sysArgs[2]
-        allAssemblerDict = {'Event Date':EventDateAssembler()} # , 'Age':AgeAssembler()}
-        print 'done preprocess!'
+    if aRawTextFileName is None and aIntermediateXMLFileName is None:
+
+        sysArgs = sys.argv[1:]
+        if len(sysArgs) >= 3:
+            """when calling ProjectAeris, it should be done with a raw text file and an output xml file location as the first and second arguments respectively"""
+            preprocessOne = Preprocessor(rawTextFileName=sysArgs[0],intermediateXMLFileName=sysArgs[1])
+            configFile = sysArgs[2]
+        else:
+            print "Missing some command-line arguments"
+            return
+
     else:
-        print "Need a file name!" 
-        return
+        preprocessOne = Preprocessor(rawTextFileName=aRawTextFileName, intermediateXMLFileName=aIntermediateXMLFileName)
+        configFile = aConfigFile
+        print 'initial preprocess done!'
+    
+    allAssemblerDict = {'Event Date':EventDateAssembler()} # , 'Age':AgeAssembler()}
 
 #Place to test new preprocess methods
     preprocessOne.getMetaMapConcepts()
@@ -30,6 +40,8 @@ def main():
 #    print preprocessOne.rawText()
 #Place to test new preprocess methods
 
+
+#The following is to actually run the extractors
 
     config = json.load(open(configFile))
     entities = config.keys()
