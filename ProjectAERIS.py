@@ -16,13 +16,15 @@ Todo:
 
 import sys, re
 import nltk
-sys.path.append('/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/')
-nltk.data.path.append('/work/vsocrates/nltk_data')
+sys.path.append('/work/tkakar/FDA-Textmining/')
+nltk.data.path.append('/work/tkakar/nltk_data')
 from nltk_contrib import timex
 from Preprocessing.Preprocessor import Preprocessor
 from Extractors.EventDate.AERecognitionEventDateExtractor import AERecogExtractor 
 from Extractors.EventDate.SuspectRecognitionEventDateExtractor import SuspectRecogExtractor
 from Assemblers.EventDateAssembler import EventDateAssembler
+from Extractors.Dosage.DosageRegExtractor import DosageRegExtractor 
+from Assemblers.DosageAssembler import DosageAssembler
 
 import json
 
@@ -34,7 +36,7 @@ def main():
         """when calling ProjectAeris, it should be done with a raw text file and an output xml file location as the first and second arguments respectively"""
         preprocessOne = Preprocessor(rawTextFileName=sysArgs[0], outputXMLFileName=sysArgs[1])
         configFile = sysArgs[2]
-        allAssemblerDict = {'Event Date':EventDateAssembler()} # , 'Age':AgeAssembler()}
+        allAssemblerDict = {'Event Date':EventDateAssembler(), 'Dosage':DosageAssembler()}
         print 'done preprocess!'
     else:
         print "Need a file name!" 
