@@ -25,6 +25,8 @@ from Extractors.EventDate.SuspectRecognitionEventDateExtractor import SuspectRec
 from Assemblers.EventDateAssembler import EventDateAssembler
 from Extractors.Dosage.DosageRegExtractor import DosageRegExtractor 
 from Assemblers.DosageAssembler import DosageAssembler
+from Extractors.Age.RegExpAgeExtractor import RegExpExtractor 
+from Assemblers.AgeAssembler import AgeAssembler
 
 import json
 
@@ -36,7 +38,7 @@ def main():
         """when calling ProjectAeris, it should be done with a raw text file and an output xml file location as the first and second arguments respectively"""
         preprocessOne = Preprocessor(rawTextFileName=sysArgs[0], outputXMLFileName=sysArgs[1])
         configFile = sysArgs[2]
-        allAssemblerDict = {'Event Date':EventDateAssembler(), 'Dosage':DosageAssembler()}
+        allAssemblerDict = {'Event Date':EventDateAssembler(), 'Dosage':DosageAssembler(), 'Age':AgeAssembler()}
         print 'done preprocess!'
     else:
         print "Need a file name!" 
