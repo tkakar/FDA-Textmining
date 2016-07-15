@@ -24,9 +24,10 @@ def main():
         return
 
 #Place to test new preprocess methods
-#    preprocessOne.getMetaMapConcepts()
-#    preprocessOne.posTaggedText()
-    print preprocessOne.rawText()
+    preprocessOne.getMetaMapConcepts()
+    preprocessOne.posTaggedText()
+    preprocessOne.getParseTree()
+#    print preprocessOne.rawText()
 #Place to test new preprocess methods
 
 
