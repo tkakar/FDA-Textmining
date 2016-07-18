@@ -13,8 +13,9 @@
 		<SEX start="66" end="69">M</SEX>
 	</DEMOGRAPHICS>
 	<DRUG_FILE>
-		<INSTANCE> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
+		<INSTANCE id="" primary="" timePeriod=""> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
 	      <DRUGNAME start="" end=""></DRUGNAME>
+	      <COREF start="" end=""/>
 	      <ROUTE start="" end=""></ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
 	      <RECHAL start="" end=""></RECHAL>

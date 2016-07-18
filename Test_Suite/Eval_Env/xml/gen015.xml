@@ -13,8 +13,9 @@
 		<SEX start="93" end="96">M</SEX>
 	</DEMOGRAPHICS>
 	<DRUG_FILE>
-		<INSTANCE>
+		<INSTANCE id="1" primary="" timePeriod="">
 	      <DRUGNAME start="884" end="892">COUMADIN</DRUGNAME>
+	      <COREF start="" end=""/>
 	      <ROUTE start="" end=""></ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
 	      <RECHAL start="" end=""></RECHAL>
@@ -23,8 +24,9 @@
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
     	</INSTANCE>
-    	<INSTANCE>
+    	<INSTANCE id="2" primary="" timePeriod="">
 	      <DRUGNAME start="1218" end="1225">TYLENOL</DRUGNAME>
+	      <COREF start="" end=""/>
 	      <ROUTE start="" end=""></ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
 	      <RECHAL start="" end=""></RECHAL>
@@ -33,8 +35,9 @@
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
     	</INSTANCE>
-    	<INSTANCE>
+    	<INSTANCE id="3" primary="" timePeriod="">
 	      <DRUGNAME start="1227" end="1234">ASPIRIN</DRUGNAME>
+	      <COREF start="" end=""/>
 	      <ROUTE start="" end=""></ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
 	      <RECHAL start="" end=""></RECHAL>
@@ -43,8 +46,9 @@
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
     	</INSTANCE>
-    	<INSTANCE>
+    	<INSTANCE id="4" primary="" timePeriod="">
 	      <DRUGNAME start="1238" end="1246">PERCOCET</DRUGNAME>
+	      <COREF start="" end=""/>
 	      <ROUTE start="" end=""></ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
 	      <RECHAL start="" end=""></RECHAL>
@@ -53,8 +57,9 @@
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
     	</INSTANCE>
-    	<INSTANCE>
+    	<INSTANCE id="5" primary="" timePeriod="">
 	      <DRUGNAME start="2673" end="2680">ECOTRIN</DRUGNAME>
+	      <COREF start="" end=""/>
 	      <ROUTE start="2688" end="2690">ORAL</ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
 	      <RECHAL start="" end=""></RECHAL>
@@ -63,8 +68,9 @@
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
     	</INSTANCE>
-    	<INSTANCE>
+    	<INSTANCE id="6" primary="" timePeriod="">
 	      <DRUGNAME start="2694" end="2703">VERAPAMIL</DRUGNAME>
+	      <COREF start="" end=""/>
 	      <ROUTE start="2711" end="2713">ORAL</ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
 	      <RECHAL start="" end=""></RECHAL>
@@ -73,8 +79,9 @@
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
     	</INSTANCE>
-    	<INSTANCE>
+    	<INSTANCE id="7" primary="" timePeriod="">
 	      <DRUGNAME start="2717" end="2729">LANSOPRAZOLE</DRUGNAME>
+	      <COREF start="" end=""/>
 	      <ROUTE start="2733" end="2735">ORAL</ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
 	      <RECHAL start="" end=""></RECHAL>
@@ -83,8 +90,9 @@
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
     	</INSTANCE>
-    	<INSTANCE>
+    	<INSTANCE id="8" primary="" timePeriod="">
 	      <DRUGNAME start="2739" end="2747">DILANTIN</DRUGNAME>
+	      <COREF start="" end=""/>
 	      <ROUTE start="2752" end="2754">ORAL</ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
 	      <RECHAL start="" end=""></RECHAL>
@@ -93,8 +101,9 @@
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
     	</INSTANCE>
-    	<INSTANCE>
+    	<INSTANCE id="9" primary="" timePeriod="">
 	      <DRUGNAME start="2759" end="2767">ATROVENT</DRUGNAME>
+	      <COREF start="" end=""/>
 	      <ROUTE start="" end=""></ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
 	      <RECHAL start="" end=""></RECHAL>
@@ -103,8 +112,9 @@
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
     	</INSTANCE>
-    	<INSTANCE>
+    	<INSTANCE id="10" primary="" timePeriod="">
 	      <DRUGNAME start="2780" end="2788">VANCERIL</DRUGNAME>
+	      <COREF start="" end=""/>
 	      <ROUTE start="" end=""></ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
 	      <RECHAL start="" end=""></RECHAL>
@@ -113,8 +123,9 @@
 	      <DOSE_FORM start="" end=""></DOSE_FORM>
 	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
     	</INSTANCE>
-    	<INSTANCE>
+    	<INSTANCE id="qq" primary="" timePeriod="">
 	      <DRUGNAME start="2801" end="2807">COLACE</DRUGNAME>
+	      <COREF start="" end=""/>
 	      <ROUTE start="2815" end="2817">ORAL</ROUTE>
 	      <DECHAL start="" end=""></DECHAL>
 	      <RECHAL start="" end=""></RECHAL>

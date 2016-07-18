@@ -1,34 +1,67 @@
+"""ProjectAERIS module
+
+This is the main class for the entire system, for any particular narrative text file. This program will take in a text narrative, and output an XML file with tagged components, based on various customizatoins. The program takes three inputs:
+
+python ProjectAERIS.py [raw text narrative] [output xml file location] [configuration file]
+
+The first two are self-explanatory. The third is the configuration file, in JSON format in the form: 
+
+{"Event Date" : ["AERecogExtractor", "SuspectRecogExtractor"],
+ "Age" : ["AgeExtractor1", "AgeExtractor2"]}
+
+Todo:
+  +Cleanup the bottom of the file, make sure we don't need that code. 
+"""
+
+
 import sys, re
 import nltk
+
+#sys.path.append('/work/tkakar/FDA-Textmining/')
+nltk.data.path.append('/work/tkakar/nltk_data')
 sys.path.append('/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/')
-nltk.data.path.append('/work/vsocrates/nltk_data')
+#nltk.data.path.append('/work/vsocrates/nltk_data')
 from nltk_contrib import timex
 from Preprocessing.Preprocessor import Preprocessor
 from Extractors.EventDate.AERecognitionEventDateExtractor import AERecogExtractor 
 from Extractors.EventDate.SuspectRecognitionEventDateExtractor import SuspectRecogExtractor
 from Assemblers.EventDateAssembler import EventDateAssembler
+from Extractors.Dosage.DosageRegExtractor import DosageRegExtractor 
+from Assemblers.DosageAssembler import DosageAssembler
+from Extractors.Age.RegExpAgeExtractor import RegExpExtractor 
+from Assemblers.AgeAssembler import AgeAssembler
 
 import json
 
-def main():
+def main(aRawTextFileName=None, aIntermediateXMLFileName=None, aConfigFile=None):
     assemblerList = []
-    sysArgs = sys.argv[1:]
-    if len(sysArgs) >= 3:
-        """when calling ProjectAeris, it should be done with a raw text file and an output xml file location as the first and second arguments respectively"""
-        preprocessOne = Preprocessor(rawTextFileName=sysArgs[0], outputXMLFileName=sysArgs[1])
-        configFile = sysArgs[2]
-        allAssemblerDict = {'Event Date':EventDateAssembler()} # , 'Age':AgeAssembler()}
-        print 'done preprocess!'
+    if aRawTextFileName is None and aIntermediateXMLFileName is None:
+
+        sysArgs = sys.argv[1:]
+        if len(sysArgs) >= 3:
+            """when calling ProjectAeris, it should be done with a raw text file and an output xml file location as the first and second arguments respectively"""
+            preprocessOne = Preprocessor(rawTextFileName=sysArgs[0],intermediateXMLFileName=sysArgs[1])
+            configFile = sysArgs[2]
+        else:
+            print "Missing some command-line arguments"
+            return
+
     else:
-        print "Need a file name!" 
-        return
+        preprocessOne = Preprocessor(rawTextFileName=aRawTextFileName, intermediateXMLFileName=aIntermediateXMLFileName)
+        configFile = aConfigFile
+        print 'initial preprocess done!'
+    
+    allAssemblerDict = {'Event Date':EventDateAssembler(), 'Dosage':DosageAssembler(), 'Age':AgeAssembler()}
 
 #Place to test new preprocess methods
-#    preprocessOne.getMetaMapConcepts()
-#    preprocessOne.posTaggedText()
-    print preprocessOne.rawText()
+    preprocessOne.getMetaMapConcepts()
+    preprocessOne.posTaggedText()
+    preprocessOne.getParseTree()
+#    print preprocessOne.rawText()
 #Place to test new preprocess methods
 
+
+#The following is to actually run the extractors
 
     config = json.load(open(configFile))
     entities = config.keys()
