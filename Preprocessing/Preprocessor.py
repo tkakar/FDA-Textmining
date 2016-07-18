@@ -319,9 +319,10 @@ class Preprocessor(Borg):
             for paragraph in paragraphs.findall('Paragraph'):
                 sentences = paragraph.find('Sentences')
                 for sentence in sentences.findall('Sentence'):
+                    print 'sentence text is: ', sentence.find('Text').text
                     tempParseTreeElement = ET.Element('ParseTree')
 #We have to take the first element, because for some reason, wordTokenizeText outputs a nested list, even with only one element
-                    tempParseTreeElement.text = self.rrp.simple_parse(self.wordTokenizeText(sentence.text)[0])
+                    tempParseTreeElement.text = self.rrp.simple_parse(self.wordTokenizeText(sentence.find('Text').text)[0])
                     sentence.append(tempParseTreeElement)
 
 #        ET.dump(tree.getroot())
