@@ -1,7 +1,7 @@
 import os, glob
 import ProjectAERIS
 
-inputPath = '/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Test_Suite/Test_Cases/'
+inputPath = '/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Test_Suite/Test_Cases_UNIX'
 
 outputPath = '/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Postprocessing/IntermediateFiles'
 

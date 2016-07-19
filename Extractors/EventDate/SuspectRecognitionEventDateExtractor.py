@@ -7,8 +7,8 @@ from Preprocessing.Preprocessor import Preprocessor
 
 class SuspectRecogExtractor(object):
     
-    def __init__(self):
-        preprocess = Preprocessor()
+    def __init__(self, rawTextFileName, intermediateXMLFileName):
+        preprocess = Preprocessor(rawTextFileName, intermediateXMLFileName)
         self.tokens = preprocess.timexTagAndTokenizeText()
         
     def findDates(self):

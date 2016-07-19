@@ -8,7 +8,7 @@ Todo:
 """
 class DataElement(object):
     
-    def __init__(self,extractedField=None, charOffset=None, extractorName=None):
+    def __init__(self,extractedField=None, charOffset=None, extractorName=None, entityName=None):
         """Initializes the DataElement with information received from an Extractor that will be passed to the Assembler.
         
         Args:
@@ -22,6 +22,7 @@ class DataElement(object):
         self.extractedField = extractedField
         self.charOffset = charOffset
         self.extractorName = extractorName
+        self.entityName = entityName
 
     def getExtractedField(self):
         """Gets the extracted field
@@ -88,3 +89,9 @@ class DataElement(object):
             None
         """ 
         self.extractorName = extractorName
+
+    def getEntityName(self):
+        return self.entityName
+
+    def setEntityName(self, entityName):
+        self.entityName = entityName

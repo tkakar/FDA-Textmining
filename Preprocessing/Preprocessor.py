@@ -29,17 +29,33 @@ from nltk import pos_tag
 import xml.etree.ElementTree as ET
 from bllipparser import RerankingParser
 from pymetamap import MetaMap
+from xml.etree.ElementTree import XMLParser
 
 """The class below (taken from http://python-3-patterns-idioms-test.readthedocs.io/en/latest/Singleton.html) is an implementation of the Singleton design pattern that allows for all instances created of the preprocessor to refer to the same namespace, allowing usage of the textList dictionary
 """
-class Borg:
-    _shared_state = {}
-    def __init__(self):
-        self.__dict__ = self._shared_state
+# class Borg:
+#     _shared_state = {}
+#     def __init__(self):
+#         self.__dict__ = self._shared_state
 
-class Preprocessor(Borg):
+class Preprocessor(object):
+    
+    """IMPORTANT: The list below stores multiple different forms of text, to minimize the amount of computation""" 
+    textList = {}
     _firstInitialization = True
-    def __init__(self, rawTextFileName=None, intermediateXMLFileName=None):
+    filename = ''
+    rrp = RerankingParser.fetch_and_load('GENIA+PubMed')
+    # def __new__(cls, condition = None):
+    #     if not condition in cls.saved_instances:
+    #         cls.saved_instances[condition] = super(
+    #             Conditional_Singleton, cls).__new__(cls)
+    #     return cls.saved_instances[condition]
+
+    # def __init__(self, condition = None):
+    #     if not getattr(self, 'initialization'):
+    #         self.initialization = some_func_of(condition)
+
+    def __init__(self, rawTextFileName, intermediateXMLFileName):
         """Initializes the Preprocessor and returns it. This includes loading any models that will be used in multiple preprocessing methods (e.g. RerankingParser)
 
         Args:
@@ -50,27 +66,39 @@ class Preprocessor(Borg):
             Preprocessor object
 
         """
+        if 'filename' in Preprocessor.textList and Preprocessor.textList['filename'] == rawTextFileName:
+            self.filename = Preprocessor.textList['filename']
+            self.xmlname = intermediateXMLFileName
+            # if Preprocessor._firstInitialization:
+            #     self.rrp = RerankingParser.fetch_and_load('GENIA+PubMed')
+            #     Preprocessor._firstInitialization = False
 
-        Borg.__init__(self)
-        if Preprocessor._firstInitialization:
-                self.rrp = RerankingParser.fetch_and_load('GENIA+PubMed')
-                Preprocessor._firstInitialization = False
+            return
+        # print 'borg dict:   ', Borg.__dict__['_shared_state']
+        # print 'borg dict2 :   ', Borg.__dict__
+        # if 'filename' in Borg.__dict__['_shared_state'] and 'xmlname' in Borg.__dict__['_shared_state']:
+        #     if Borg.__dict__['_shared_state']['filename'] == rawTextFileName and Borg.__dict__['_shared_state']['xmlname'] == intermediateXMLFileName:
+        #         Borg.__init__(self)
+        #         print 'using made preprocessor'
+        #     else:
+        #         print 'creating new preprocessor'
+        #         pass
 
-                if rawTextFileName is not None:
-                    self.filename = rawTextFileName
-                    """IMPORTANT: The list below stores multiple different forms of text, to minimize the amount of computation""" 
-                    self.textList = {}
-
-#Initialize the XML file (minimizes XML I/O)
-                    self.xmlname = intermediateXMLFileName
-                    self.parseText()
-
+        if rawTextFileName is not None:
+            self.filename = rawTextFileName
+                    #Initialize the XML file (minimizes XML I/O)
+            self.xmlname = intermediateXMLFileName
+            Preprocessor.textList['filename'] = self.filename
+            self.parseText()
+            
             #print file
-                else:
-                    print "Need a text file!"
-                    return
+        else:
+            print "Need a text file!"
+            return
+
+
     def getList(self):
-        return self.textList
+        return Preprocessor.textList
 
     def parseText(self):
         """Creates the XML object and parses the raw narrative into the ElementTree python object. This method parses paragraphs, sentences,
@@ -137,7 +165,6 @@ class Preprocessor(Borg):
                     offsetIter = offsetIndex
                     globalIDIndex += 1
 
-#        ET.dump(self.root)
         self.writeToXML()
         self.file.close()
 
@@ -150,10 +177,11 @@ class Preprocessor(Borg):
         Returns
             The raw string from the text file (str)
         """
-        if self.textList.get('rawText') is None:
-            self.textList['rawText'] = open(self.filename).read()
+        if Preprocessor.textList.get('rawText') is None:
+            self.file = open(self.filename)
+            Preprocessor.textList['rawText'] = self.file.read()
             self.file.close()
-        return self.textList.get('rawText')
+        return Preprocessor.textList.get('rawText')
 
     def timexTagText(self, altText=None):
         """Tags all the temporal expressions and surrounds them with <TIMEX2> XML tags in line with the text
@@ -176,12 +204,12 @@ class Preprocessor(Borg):
             """Otherwise, we first check if it exists in the textList dict, if not, it is created and returned"""
             self.file = open(self.filename)
             raw = self.file.read()
-            if self.textList.get('timexTagText') is None:
-                self.textList['timexTagText'] = timex.tag(raw)
+            if Preprocessor.textList.get('timexTagText') is None:
+                Preprocessor.textList['timexTagText'] = timex.tag(raw)
 
             self.file.close()
 
-        return self.textList.get('timexTagText')
+        return Preprocessor.textList.get('timexTagText')
 
  
 
@@ -203,12 +231,13 @@ class Preprocessor(Borg):
         else:
             self.file = open(self.filename)
             raw = self.file.read()
-            if self.textList.get('wordTokenizeText') is None:
-                self.textList['wordTokenizeText'] = [word_tokenize(t) for t in sent_tokenize(raw)]
-
+            if Preprocessor.textList.get('wordTokenizeText') is None:
+                Preprocessor.textList['wordTokenizeText'] = [word_tokenize(t) for t in sent_tokenize(raw)]
+            else:
+                print "Didn't create one!!"
             self.file.close()
 
-        return self.textList.get('wordTokenizeText')
+        return Preprocessor.textList.get('wordTokenizeText')
 
 
     def timexTagAndTokenizeText(self, altText=None):
@@ -239,16 +268,16 @@ class Preprocessor(Borg):
             word_tagged = self.wordTokenizeText(tagged)
             
         '''consolidate all broken apart Timex2 tags into single "words"'''
-        if self.textList.get('timexTagAndTokenizeText') is None:
+        if Preprocessor.textList.get('timexTagAndTokenizeText') is None:
             nestedListOutput = [MWETokenizer(mwes=[('<','/TIMEX2','>'),('<','TIMEX2','>')], separator='').tokenize(x) for x in word_tagged]
             
             #We need to remove and change this line if we don't want flattened (one dimensional list). Read below comment.
-            self.textList['timexTagAndTokenizeText'] = [item for sublist in nestedListOutput for item in sublist]
+            Preprocessor.textList['timexTagAndTokenizeText'] = [item for sublist in nestedListOutput for item in sublist]
 
         """Currently, the output is a flattened list, we need to decide if we want to keep the sentence structure (making the output a list of lists.
         This throws off the AEExtractor and the SuspectExtractor, which need to then be fixed."""
-#        print self.textList.get('timexTagAndTokenizeText')
-        return self.textList.get('timexTagAndTokenizeText')
+#        print Preprocessor.textList.get('timexTagAndTokenizeText')
+        return Preprocessor.textList.get('timexTagAndTokenizeText')
 
     def posTaggedText(self, altText=None):
         """Tags the text with parts-of-speech (POS) using the Charniak-Johnson parser after nltk tokenizes the words using the Penn Treebank tokenizer. 
@@ -266,7 +295,8 @@ class Preprocessor(Borg):
         if altText is not None:
             raw = altText
             altOutputStep1 = self.wordTokenizeText(raw)
-            altOutputStep2 = [self.rrp.tag(sent) for sent in altOutputStep1]
+            altOutputStep2 = [Preprocessor.rrp.tag(sent) for sent in altOutputStep1]
+#            altOutputStep2 = [pos_tag(word_tokenize(sent)) for sent in altOutputStep1]
             return altOutputStep2
         else:
 
@@ -277,10 +307,13 @@ class Preprocessor(Borg):
                 for sentence in sentences.findall('Sentence'):
                     tokens = sentence.find('Tokens')
 #We have to take the first element, because for some reason, wordTokenizeText outputs a nested list, even with only one sentence
-                    posTagList = self.rrp.tag(self.wordTokenizeText(sentence.find('Text').text)[0])
-                    posTaggedSents.append(posTagList)
-                    for index, token in enumerate(tokens.findall('Token')):
-                        token.attrib['POSTag'] = posTagList[index][1]
+                    words = self.wordTokenizeText(sentence.find('Text').text)[0]
+                    if words:
+                        posTagList = Preprocessor.rrp.tag(words) #Preprocessor.rrp.simple_parse(self.wordTokenizeText(sentence.find('Text').text)[0])
+#                    posTagList = pos_tag(word_tokenize(sentence.find('Text').text)) #Preprocessor.rrp.simple_parse(self.wordTokenizeText(sentence.find('Text').text)[0])
+                        posTaggedSents.append(posTagList)
+                        for index, token in enumerate(tokens.findall('Token')):
+                            token.attrib['POSTag'] = posTagList[index][1]
 
                         
         self.writeToXML()
@@ -304,7 +337,7 @@ class Preprocessor(Borg):
         if altText is not None:
             raw = altText
             altOutputStep1 = self.wordTokenizeText(raw)
-            altParseTree = self.rrp.simple_parse(altOutputStep1)
+            altParseTree = Preprocessor.rrp.simple_parse(altOutputStep1)
             return altParseTree
         else:
 #            self.file = open(self.filename)
@@ -319,10 +352,15 @@ class Preprocessor(Borg):
             for paragraph in paragraphs.findall('Paragraph'):
                 sentences = paragraph.find('Sentences')
                 for sentence in sentences.findall('Sentence'):
-                    print 'sentence text is: ', sentence.find('Text').text
                     tempParseTreeElement = ET.Element('ParseTree')
 #We have to take the first element, because for some reason, wordTokenizeText outputs a nested list, even with only one element
-                    tempParseTreeElement.text = self.rrp.simple_parse(self.wordTokenizeText(sentence.find('Text').text)[0])
+                    text = sentence.find('Text').text
+                    if re.match(r'\w+\.', text):
+                        tempParseTreeElement.text = Preprocessor.rrp.simple_parse(self.wordTokenizeText(text)[0])
+                    else:
+                        pass
+                        """Currently, if the sentence doesn't have any alphanumeric characters (followed by a period), nothing will be entered in the text,
+                        but a ParseTree object will still be created and added."""
                     sentence.append(tempParseTreeElement)
 
 #        ET.dump(tree.getroot())
@@ -408,7 +446,6 @@ class Preprocessor(Borg):
                     tempMetaMapElem.text = key.semtypes.replace("'",'')
                     conceptXMLTag.append(tempMetaMapElem)
         self.writeToXML()
-        self.file.close()
     # def getMetaMapConceptsSent(self, altText=None):
     #     mm = MetaMap.get_instance('/work/tkakar/public_mm/bin/metamap14')
     #     rawText = self.rawText()
@@ -442,7 +479,7 @@ class Preprocessor(Borg):
         Returns:
             None
         """
-        self.tree.write(self.xmlname)
+        self.tree.write(self.xmlname)#, encoding='utf-8')
 
     def parseXML(self):
         """Parses the XML tree in the xml file specified. This method was created to minimize file I/Os.
@@ -453,7 +490,7 @@ class Preprocessor(Borg):
         Returns:
             None
         """
-        self.tree = ET.parse(self.xmlname)
+        self.tree = ET.parse(self.xmlname)#, parser=XMLParser(encoding='utf-8'))
         self.root = self.tree.getroot()
 
     def placeOffsetInXML(self, phrase, tokenizedText,offset, span):
