@@ -12,7 +12,7 @@ from Extractors.EventDate.NaiveEventDateExtractor import NaiveExtractor
 
 class EventDateAssembler(object):
     
-    def __init__(self, anExtractorList=[]):
+    def __init__(self, rawTextFileName, intermediateXMLFileName, anExtractorList=[]):
         """
         Initializes the EventDateAssembler and returns it. All Extractors for the Event Date DataElement must be specified in the list below. 
 
@@ -22,10 +22,9 @@ class EventDateAssembler(object):
         Returns:
             EventDateAssembler Object
         """
-        self.AllPossibleExtractorList = {"AERecogExtractor":AERecogExtractor(), "SuspectRecogExtractor":SuspectRecogExtractor(), "NaiveEventDateExtractor":NaiveExtractor()}
+        self.AllPossibleExtractorList = {"AERecogExtractor":AERecogExtractor(rawTextFileName, intermediateXMLFileName), "SuspectRecogExtractor":SuspectRecogExtractor(rawTextFileName, intermediateXMLFileName)}#, "NaiveEventDateExtractor":NaiveExtractor(rawTextFileName, intermediateXMLFileName)}
         self.extractorList = anExtractorList
         self.extractorObjList = []
-
     def setExtractorList(self, aList):
         """Sets the extractor list by searching the dictionary for corresponding python objects.
 
