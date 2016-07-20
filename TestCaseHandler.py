@@ -15,8 +15,8 @@ def main():
         lastFolderIdx = filename.rfind(r'/')
         outputFileName = filename[lastFolderIdx + 1:-4]
         print 'outputFileName', outputPath+r'/'+outputFileName+'.xml'
-        print 'filename: ', filename, 'outputpath: ', outputPath+r'/'+outputFileName+'.xml', 'configpath: ', configFilePath
-        ProjectAERIS.main(filename, outputPath+r'/'+outputFileName+'.xml', configFilePath)
+        print 'filename: ', filename, 'outputpath: ', outputPath+r'/'+outputFileName+'_Intermediate.xml', 'configpath: ', configFilePath
+        ProjectAERIS.main(filename, outputPath+r'/'+outputFileName+'_Intermediate.xml', configFilePath)
 #        count += 1
 #        rawTextFile = f.read()
 

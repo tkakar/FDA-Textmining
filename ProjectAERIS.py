@@ -66,7 +66,7 @@ def main(aRawTextFileName=None, aIntermediateXMLFileName=None, aConfigFile=None)
     allAssemblerDict = {'Event Date':EventDateAssembler(rawTextFileName, intermediateXMLFileName), 'Dosage':DosageAssembler(rawTextFileName, intermediateXMLFileName), 'Age':AgeAssembler(rawTextFileName, intermediateXMLFileName)}
 
 #Place to test new preprocess methods
-#    preprocessOne.getMetaMapConcepts()
+    preprocessOne.getMetaMapConcepts()
     preprocessOne.posTaggedText()
     preprocessOne.getParseTree()
 #    print preprocessOne.rawText()
