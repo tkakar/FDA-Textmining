@@ -163,7 +163,7 @@ def tag(text):
         timex_found.append(timex)
         
     found = reg14.findall(text)
-    found = [a[0] for a in found if len(a) > 1]
+    found = [a for a in found if len(a) > 1]
 
 #    print(found)
     for timex in found:

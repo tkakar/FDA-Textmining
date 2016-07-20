@@ -29,17 +29,21 @@ from nltk import pos_tag
 import xml.etree.ElementTree as ET
 from bllipparser import RerankingParser
 from pymetamap import MetaMap
+from xml.etree.ElementTree import XMLParser
 
 """The class below (taken from http://python-3-patterns-idioms-test.readthedocs.io/en/latest/Singleton.html) is an implementation of the Singleton design pattern that allows for all instances created of the preprocessor to refer to the same namespace, allowing usage of the textList dictionary
 """
-class Borg:
-    _shared_state = {}
-    def __init__(self):
-        self.__dict__ = self._shared_state
 
-class Preprocessor(Borg):
+class Preprocessor(object):
+    
+    """IMPORTANT: The list below stores multiple different forms of text, to minimize the amount of computation""" 
+    textList = {}
     _firstInitialization = True
-    def __init__(self, rawTextFileName=None, intermediateXMLFileName=None):
+    filename = ''
+    rrp = RerankingParser.fetch_and_load('GENIA+PubMed')
+
+
+    def __init__(self, rawTextFileName, intermediateXMLFileName):
         """Initializes the Preprocessor and returns it. This includes loading any models that will be used in multiple preprocessing methods (e.g. RerankingParser)
 
         Args:
@@ -50,27 +54,25 @@ class Preprocessor(Borg):
             Preprocessor object
 
         """
+        if 'filename' in Preprocessor.textList and Preprocessor.textList['filename'] == rawTextFileName:
+            self.filename = Preprocessor.textList['filename']
+            self.xmlname = intermediateXMLFileName
+ 
+            return
 
-        Borg.__init__(self)
-        if Preprocessor._firstInitialization:
-                self.rrp = RerankingParser.fetch_and_load('GENIA+PubMed')
-                Preprocessor._firstInitialization = False
+        if rawTextFileName is not None:
+            self.filename = rawTextFileName
+            self.xmlname = intermediateXMLFileName
+            Preprocessor.textList['filename'] = self.filename
+            self.parseText()
 
-                if rawTextFileName is not None:
-                    self.filename = rawTextFileName
-                    """IMPORTANT: The list below stores multiple different forms of text, to minimize the amount of computation""" 
-                    self.textList = {}
+        else:
+            print "Need a text file!"
+            return
 
-#Initialize the XML file (minimizes XML I/O)
-                    self.xmlname = intermediateXMLFileName
-                    self.parseText()
 
-            #print file
-                else:
-                    print "Need a text file!"
-                    return
     def getList(self):
-        return self.textList
+        return Preprocessor.textList
 
     def parseText(self):
         """Creates the XML object and parses the raw narrative into the ElementTree python object. This method parses paragraphs, sentences,
@@ -86,6 +88,8 @@ class Preprocessor(Borg):
         """
         self.file = open(self.filename)
         raw = self.file.read()
+        rawUnicode = raw.decode('utf-8')
+        raw = self.unicodeToASCII(rawUnicode)
         rawOffsetIntermed = raw
         offsetIter = 0
         offsetIterSent = 0
@@ -95,9 +99,9 @@ class Preprocessor(Borg):
         globalIDIndex = 0
         """Now we are breaking up by paragraph"""
         paraSplit = re.compile('\n').split(raw)
-        #Originally, we were using RegEx to remove all the empty space elements in the list, but they are all '', so we are just going to compare directly for that. Use this again if you find that that is no longer the case. 
-#        paragraphPattern = re.compile('[^\s*]')
-#        paragraphs = [i for i in paraSplit if not paragraphPattern.match(i)]
+        # Originally, we were using RegEx to remove all the empty space elements in the list, but they are all '', so we are just going to compare directly for that. Use this again if you find that that is no longer the case. 
+        # paragraphPattern = re.compile('[^\s*]')
+        # paragraphs = [i for i in paraSplit if not paragraphPattern.match(i)]
         paragraphs = [i for i in paraSplit if not i is '']
 
         paraParent.set('Count', str(len(paragraphs)))
@@ -105,8 +109,8 @@ class Preprocessor(Borg):
         for index, paragraph in enumerate(paragraphs):
             tempParaElement = ET.Element('Paragraph', attrib={'id':str(index)})
 
-#We aren't currently including the paragraph text in the <Paragraph /> tag
-#            tempParaElement.text =  paragraph
+            # We aren't currently including the paragraph text in the <Paragraph /> tag
+            # tempParaElement.text =  paragraph
             paraParent.append(tempParaElement)            
             
             """Now we have to sentence tokenize the text"""
@@ -137,7 +141,6 @@ class Preprocessor(Borg):
                     offsetIter = offsetIndex
                     globalIDIndex += 1
 
-#        ET.dump(self.root)
         self.writeToXML()
         self.file.close()
 
@@ -150,10 +153,11 @@ class Preprocessor(Borg):
         Returns
             The raw string from the text file (str)
         """
-        if self.textList.get('rawText') is None:
-            self.textList['rawText'] = open(self.filename).read()
+        if Preprocessor.textList.get('rawText') is None:
+            self.file = open(self.filename)
+            Preprocessor.textList['rawText'] = self.file.read()
             self.file.close()
-        return self.textList.get('rawText')
+        return Preprocessor.textList.get('rawText')
 
     def timexTagText(self, altText=None):
         """Tags all the temporal expressions and surrounds them with <TIMEX2> XML tags in line with the text
@@ -176,12 +180,12 @@ class Preprocessor(Borg):
             """Otherwise, we first check if it exists in the textList dict, if not, it is created and returned"""
             self.file = open(self.filename)
             raw = self.file.read()
-            if self.textList.get('timexTagText') is None:
-                self.textList['timexTagText'] = timex.tag(raw)
+            if Preprocessor.textList.get('timexTagText') is None:
+                Preprocessor.textList['timexTagText'] = timex.tag(raw)
 
             self.file.close()
 
-        return self.textList.get('timexTagText')
+        return Preprocessor.textList.get('timexTagText')
 
  
 
@@ -203,12 +207,13 @@ class Preprocessor(Borg):
         else:
             self.file = open(self.filename)
             raw = self.file.read()
-            if self.textList.get('wordTokenizeText') is None:
-                self.textList['wordTokenizeText'] = [word_tokenize(t) for t in sent_tokenize(raw)]
-
+            if Preprocessor.textList.get('wordTokenizeText') is None:
+                Preprocessor.textList['wordTokenizeText'] = [word_tokenize(t) for t in sent_tokenize(raw)]
+            else:
+                print "Didn't create one!!"
             self.file.close()
 
-        return self.textList.get('wordTokenizeText')
+        return Preprocessor.textList.get('wordTokenizeText')
 
 
     def timexTagAndTokenizeText(self, altText=None):
@@ -239,16 +244,15 @@ class Preprocessor(Borg):
             word_tagged = self.wordTokenizeText(tagged)
             
         '''consolidate all broken apart Timex2 tags into single "words"'''
-        if self.textList.get('timexTagAndTokenizeText') is None:
+        if Preprocessor.textList.get('timexTagAndTokenizeText') is None:
             nestedListOutput = [MWETokenizer(mwes=[('<','/TIMEX2','>'),('<','TIMEX2','>')], separator='').tokenize(x) for x in word_tagged]
             
             #We need to remove and change this line if we don't want flattened (one dimensional list). Read below comment.
-            self.textList['timexTagAndTokenizeText'] = [item for sublist in nestedListOutput for item in sublist]
+            Preprocessor.textList['timexTagAndTokenizeText'] = [item for sublist in nestedListOutput for item in sublist]
 
         """Currently, the output is a flattened list, we need to decide if we want to keep the sentence structure (making the output a list of lists.
         This throws off the AEExtractor and the SuspectExtractor, which need to then be fixed."""
-#        print self.textList.get('timexTagAndTokenizeText')
-        return self.textList.get('timexTagAndTokenizeText')
+        return Preprocessor.textList.get('timexTagAndTokenizeText')
 
     def posTaggedText(self, altText=None):
         """Tags the text with parts-of-speech (POS) using the Charniak-Johnson parser after nltk tokenizes the words using the Penn Treebank tokenizer. 
@@ -266,7 +270,7 @@ class Preprocessor(Borg):
         if altText is not None:
             raw = altText
             altOutputStep1 = self.wordTokenizeText(raw)
-            altOutputStep2 = [self.rrp.tag(sent) for sent in altOutputStep1]
+            altOutputStep2 = [Preprocessor.rrp.tag(sent) for sent in altOutputStep1]
             return altOutputStep2
         else:
 
@@ -276,11 +280,14 @@ class Preprocessor(Borg):
                 sentences = paragraph.find('Sentences')
                 for sentence in sentences.findall('Sentence'):
                     tokens = sentence.find('Tokens')
-#We have to take the first element, because for some reason, wordTokenizeText outputs a nested list, even with only one sentence
-                    posTagList = self.rrp.tag(self.wordTokenizeText(sentence.find('Text').text)[0])
-                    posTaggedSents.append(posTagList)
-                    for index, token in enumerate(tokens.findall('Token')):
-                        token.attrib['POSTag'] = posTagList[index][1]
+                    #We have to take the first element, because for some reason, wordTokenizeText outputs a nested list, even with only one sentence
+                    words = self.wordTokenizeText(sentence.find('Text').text)[0]
+                    """We have to check if words is empty or not, otherwise segfault"""
+                    if words:
+                        posTagList = Preprocessor.rrp.tag(words)
+                        posTaggedSents.append(posTagList)
+                        for index, token in enumerate(tokens.findall('Token')):
+                            token.attrib['POSTag'] = posTagList[index][1]
 
                         
         self.writeToXML()
@@ -304,30 +311,30 @@ class Preprocessor(Borg):
         if altText is not None:
             raw = altText
             altOutputStep1 = self.wordTokenizeText(raw)
-            altParseTree = self.rrp.simple_parse(altOutputStep1)
+            altParseTree = Preprocessor.rrp.simple_parse(altOutputStep1)
             return altParseTree
         else:
-#            self.file = open(self.filename)
-#            raw = self.file.read()
-#            root = ET.fromstring(open(self.xmlname).read())
-
-#Since we are doing an I/O anyway to input the new XML tags, we don't have to retokenize, and can use the information from the base XML document
-#            sent_tokens = sent_tokenize(raw)
-#            output = [rrp.simple_parse(sent) for sent in sent_tokens]
+            # Since we are doing an I/O anyway to input the new XML tags, we don't have to retokenize, and can use the information from the base XML document
+            # sent_tokens = sent_tokenize(raw)
+            # output = [rrp.simple_parse(sent) for sent in sent_tokens]
 
             paragraphs = self.root.find('Paragraphs')
             for paragraph in paragraphs.findall('Paragraph'):
                 sentences = paragraph.find('Sentences')
                 for sentence in sentences.findall('Sentence'):
                     tempParseTreeElement = ET.Element('ParseTree')
-#We have to take the first element, because for some reason, wordTokenizeText outputs a nested list, even with only one element
-                    tempParseTreeElement.text = self.rrp.simple_parse(self.wordTokenizeText(sentence.text)[0])
+                    # We have to take the first element, because for some reason, wordTokenizeText outputs a nested list, even with only one element
+                    text = sentence.find('Text').text
+                    """Only going to create a parse tree if there is some alphanumeric character and a period, otherwise parser crashes"""
+                    if re.search('\w+\.?', text):
+                        tempParseTreeElement.text = Preprocessor.rrp.simple_parse(self.wordTokenizeText(text)[0])
+                    else:
+                        pass
+                        """Currently, if the sentence doesn't have any alphanumeric characters (followed by a period), nothing will be entered in the text,
+                        but a ParseTree object will still be created and added."""
                     sentence.append(tempParseTreeElement)
 
-#        ET.dump(tree.getroot())
-#            print output
         self.writeToXML()
-#        ET.dump(self.root)
         return self.root
         
     def getMetaMapConcepts(self, altText=None):
@@ -347,91 +354,53 @@ class Preprocessor(Borg):
         concepts,error = mm.extract_concepts([rawText])
         pattern = re.compile('(\[(?:(orch|phsu|sosy|dsyn),?(orch|phsu|sosy|dsyn)?)\])')
         globalIDByConcept = {}
-        testCount = 0
         for concept in concepts:
-
-
-            if testCount > 1:
-                break
-
+            if not hasattr(concept, 'aa'):
             #TODO, see if there is any information that we are missing due to some combination not described by the Regex
-            match = pattern.search(concept.semtypes)
-            if match:
-                posInfo = concept.pos_info
-                triggerInfo = concept.trigger.split('-')
-                conceptName = triggerInfo[3]
-                #need to replace the quotes in the conceptName
-                conceptName = conceptName.replace('"','')
-
-                if ';' or '^' in posInfo:
-                    posInfoList = self.offsetParse(posInfo, ';')
-                else:
-                    posInfoList = self.offsetParse(posInfo)
-                #We need to change the format of the posInfos from (offset,span) to (offsetStartIndex, offsetEndIndex) here:
-                posInfoList = [(offset,span + offset) for (offset,span) in posInfoList]        
-
-                
-                for listIndex, (startIndex, endIndex) in enumerate(posInfoList):
-                    lfNum = rawText.count('\n',0,startIndex) 
-                    lastIdx = rawText.rfind(conceptName, 0, startIndex+len(conceptName))
-                    #you're going to forget this tomorrow morning, so this is the number of line feeds between the last instance of the concept name and where metamap thinks the word is.
-                    lfNumSpecific = rawText.count('\n', lastIdx,startIndex)
+                match = pattern.search(concept.semtypes)
+                if match:
+                    posInfo = concept.pos_info
+                    triggerInfo = concept.trigger.split('-')
+                    conceptName = triggerInfo[3]
+                    #need to replace the quotes in the conceptName
+                    conceptName = conceptName.replace('"','')
                     
-                    posInfoList[listIndex] = (startIndex - (lfNum + 1) + lfNumSpecific, endIndex - (lfNum + 1) + lfNumSpecific)
-                    
-                    
-                
-#                print 'concept: ', conceptName, 'posInfoList', posInfoList
-                
-                globalIDList = []
-                #we have the fixed offsets for each mention of the semantic type. we now need to find their location in the xml file. 
-                for newStartIdx, newEndIdx in posInfoList:
-#                    print 'tokniezedword: ',  word_tokenize(conceptName), 'nestadfasd;l: ', newStartIdx
-                    globalIds = self.placeOffsetInXML(conceptName, word_tokenize(conceptName), newStartIdx , newEndIdx-newStartIdx)
-#                    print 'concept: ', conceptName, 'globalIDs: ', globalIds
-                    globalIDList.append(globalIds)
+                    if ';' or '^' in posInfo:
+                        posInfoList = self.offsetParse(posInfo, ';')
+                    else:
+                        posInfoList = self.offsetParse(posInfo)
+                        #We need to change the format of the posInfos from (offset,span) to (offsetStartIndex, offsetEndIndex) here:
+                    posInfoList = [(offset,span + offset) for (offset,span) in posInfoList]        
 
-                globalIDByConcept[concept] = globalIDList
-
-#        print globalIDByConcept
                 
-#                self.root.findall(".//[@globalID="+str(
-#                print 'globalIDByConcept', globalIDByConcept
+                    for listIndex, (startIndex, endIndex) in enumerate(posInfoList):
+                        lfNum = rawText.count('\n',0,startIndex) 
+                        lastIdx = rawText.rfind(conceptName, 0, startIndex+len(conceptName))
+                        #you're going to forget this tomorrow morning, so this is the number of line feeds between the last instance of the concept name and where metamap thinks the word is.
+                        lfNumSpecific = rawText.count('\n', lastIdx,startIndex)
+                        
+                        posInfoList[listIndex] = (startIndex - (lfNum + 1) + lfNumSpecific, endIndex - (lfNum + 1) + lfNumSpecific)       
+                     
+                     
+                    globalIDList = []
+                    #we have the fixed offsets for each mention of the semantic type. we now need to find their location in the xml file. 
+                    for newStartIdx, newEndIdx in posInfoList:
+                        globalIds = self.placeOffsetInXML(conceptName, word_tokenize(conceptName), newStartIdx , newEndIdx-newStartIdx)
+                        globalIDList.append(globalIds)
+
+                    globalIDByConcept[concept] = globalIDList
+
         for key, value in globalIDByConcept.iteritems():
             for gIDList in value:
                 for gID in gIDList:
-                    # print 'key:  ', key, 'GID:  ', gID
                     conceptXMLTag = self.root.find(".//*[@globalID='"+str(gID)+"']")
-                # print 'conceptXMLTAG: ', conceptXMLTag.find('Text').text
                     tempMetaMapElem = ET.Element("METAMAP")
                     tempMetaMapElem.text = key.semtypes.replace("'",'')
                     conceptXMLTag.append(tempMetaMapElem)
+        
         self.writeToXML()
         self.file.close()
-    # def getMetaMapConceptsSent(self, altText=None):
-    #     mm = MetaMap.get_instance('/work/tkakar/public_mm/bin/metamap14')
-    #     rawText = self.rawText()
-    #     sentences = sent_tokenize(rawText)
-    #     pattern = re.compile('(\[(?:(orch|phsu|sosy|dsyn),?(orch|phsu|sosy|dsyn)?)\])')
 
-    #     for sentence in sentences:
-    #         concepts,error = mm.extract_concepts(sentence)
-    #         for concept in concepts:
-    #         #TODO, see if there is any information that we are missing due to some combination not described by the Regex
-    #             match = pattern.search(concept.semtypes)
-    #             if match:
-    #                 print concept
-    #                 posInfo = concept.pos_info
-    #                 offsetList = self.offsetParse
-    #                 if ';' or '^' in posInfo:
-    #                     posInfoList = self.offsetParse(posInfo, ';')
-    #                 else:
-    #                     posInfoList = self.offsetParse(posInfo)
-    #                 posInfoList = [(offset,span + offset) for (offset,span) in posInfoList]
-    #                 wordsList = word_tokenize(sentence)
-    #                 for word in wordsList:
-    #                     if concept.preferred_name.lower() == word.lower():
-    #                         pass
     def writeToXML(self):
         """Writes the tree to the output xml specified.
 
@@ -441,7 +410,7 @@ class Preprocessor(Borg):
         Returns:
             None
         """
-        self.tree.write(self.xmlname)
+        self.tree.write(self.xmlname)#, encoding='utf-8')
 
     def parseXML(self):
         """Parses the XML tree in the xml file specified. This method was created to minimize file I/Os.
@@ -452,7 +421,7 @@ class Preprocessor(Borg):
         Returns:
             None
         """
-        self.tree = ET.parse(self.xmlname)
+        self.tree = ET.parse(self.xmlname)#, parser=XMLParser(encoding='utf-8'))
         self.root = self.tree.getroot()
 
     def placeOffsetInXML(self, phrase, tokenizedText,offset, span):
@@ -475,7 +444,6 @@ class Preprocessor(Borg):
         for token in tokens:
             if idsReturned >= tokenLength:
                 break
-#            print "token.attrib['offset']: ", self.offsetParse(token.attrib['offset'])
             #In this case, we only ever get one offset at a time, so we don't loop through them. Just take the first (and only) element.
             (tokenStart, tokenEnd) = self.offsetParse(token.attrib['offset'])[0]
             if (offset == tokenStart or foundOffsetFlag):
@@ -491,7 +459,6 @@ class Preprocessor(Borg):
         if delimiter is not None:
             """For some reason, the case where offsetParse() is used in the MetaMap preprocessing, sometimes the delimiter (that is normally a colon[:]) is replaced (randomly, it seems) or by a carrot (^)
             The regex below is support for that. """
-#            print 'offsetStr', offsetStr
             offsetList = re.split(delimiter.encode('string-escape')+r'|\^', offsetStr)
             for offset in offsetList:
                 if ':' in offset:
@@ -502,3 +469,15 @@ class Preprocessor(Borg):
         else:
             colonLoc = offsetStr.find(':')
             return [(int(offsetStr[0:colonLoc]), int(offsetStr[colonLoc + 1:len(offsetStr)]))]
+
+
+    def unicodeToASCII(self, string):
+        """We are going to work solely in ascii, as it's easier for certain methods (i.e. word tokenization)"""
+        string = string.replace(u"\u2019", r"'")
+        string = string.replace(u"\u201C", r'"')
+        string = string.replace(u"\u201D", r'"')
+        string = string.replace(u"\u2013", r'-')
+        #degrees
+        string = string.replace(u"\u00B0", r'^')
+
+        return string
