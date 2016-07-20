@@ -370,34 +370,38 @@ class Preprocessor(object):
                     else:
                         posInfoList = self.offsetParse(posInfo)
                         #We need to change the format of the posInfos from (offset,span) to (offsetStartIndex, offsetEndIndex) here:
-                        posInfoList = [(offset,span + offset) for (offset,span) in posInfoList]        
+                    posInfoList = [(offset,span + offset) for (offset,span) in posInfoList]        
 
                 
-                        for listIndex, (startIndex, endIndex) in enumerate(posInfoList):
-                            lfNum = rawText.count('\n',0,startIndex) 
-                            lastIdx = rawText.rfind(conceptName, 0, startIndex+len(conceptName))
-                            #you're going to forget this tomorrow morning, so this is the number of line feeds between the last instance of the concept name and where metamap thinks the word is.
-                            lfNumSpecific = rawText.count('\n', lastIdx,startIndex)
-                            
-                            posInfoList[listIndex] = (startIndex - (lfNum + 1) + lfNumSpecific, endIndex - (lfNum + 1) + lfNumSpecific)       
-                            globalIDList = []
-                            #we have the fixed offsets for each mention of the semantic type. we now need to find their location in the xml file. 
-                            for newStartIdx, newEndIdx in posInfoList:
-                                globalIds = self.placeOffsetInXML(conceptName, word_tokenize(conceptName), newStartIdx , newEndIdx-newStartIdx)
-                                globalIDList.append(globalIds)
+                    for listIndex, (startIndex, endIndex) in enumerate(posInfoList):
+                        lfNum = rawText.count('\n',0,startIndex) 
+                        lastIdx = rawText.rfind(conceptName, 0, startIndex+len(conceptName))
+                        #you're going to forget this tomorrow morning, so this is the number of line feeds between the last instance of the concept name and where metamap thinks the word is.
+                        lfNumSpecific = rawText.count('\n', lastIdx,startIndex)
+                        
+                        posInfoList[listIndex] = (startIndex - (lfNum + 1) + lfNumSpecific, endIndex - (lfNum + 1) + lfNumSpecific)       
+                     
+                     
+                    globalIDList = []
+                    #we have the fixed offsets for each mention of the semantic type. we now need to find their location in the xml file. 
+                    for newStartIdx, newEndIdx in posInfoList:
+                        globalIds = self.placeOffsetInXML(conceptName, word_tokenize(conceptName), newStartIdx , newEndIdx-newStartIdx)
+                        globalIDList.append(globalIds)
 
-                            globalIDByConcept[concept] = globalIDList
+                    globalIDByConcept[concept] = globalIDList
 
-
+        print 'globalIDByConcept:   ', globalIDByConcept
         for key, value in globalIDByConcept.iteritems():
             for gIDList in value:
                 for gID in gIDList:
                     conceptXMLTag = self.root.find(".//*[@globalID='"+str(gID)+"']")
                     tempMetaMapElem = ET.Element("METAMAP")
                     tempMetaMapElem.text = key.semtypes.replace("'",'')
+                    print tempMetaMapElem.text
                     conceptXMLTag.append(tempMetaMapElem)
-
+        
         self.writeToXML()
+        self.file.close()
 
     def writeToXML(self):
         """Writes the tree to the output xml specified.

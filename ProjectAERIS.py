@@ -67,27 +67,27 @@ def main(aRawTextFileName=None, aIntermediateXMLFileName=None, aConfigFile=None)
 
 #Place to test new preprocess methods
     preprocessOne.getMetaMapConcepts()
-    preprocessOne.posTaggedText()
-    preprocessOne.getParseTree()
+#    preprocessOne.posTaggedText()
+#    preprocessOne.getParseTree()
 #    print preprocessOne.rawText()
 #Place to test new preprocess methods
 
 
 #The following is to actually run the extractors
 
-    config = json.load(open(configFile))
-    entities = config.keys()
+    # config = json.load(open(configFile))
+    # entities = config.keys()
 
-    for entity in entities:
-        if entity not in allAssemblerDict:
-            raise KeyError("An entity you entered doesn't exist")
-        else:
-            assemblerList.append((entity,allAssemblerDict[entity]))
+    # for entity in entities:
+    #     if entity not in allAssemblerDict:
+    #         raise KeyError("An entity you entered doesn't exist")
+    #     else:
+    #         assemblerList.append((entity,allAssemblerDict[entity]))
     
-    for name, assembler in assemblerList:
-        if config[name]:
-            assembler.setExtractorList(config[name])
-            assembler.runExtractors() 
+    # for name, assembler in assemblerList:
+    #     if config[name]:
+    #         assembler.setExtractorList(config[name])
+    #         assembler.runExtractors() 
 
 # #Currently (as of 7-5-16), only the two following methods work. The other ones still need to be updated and integrated into the XML document
 #     output = preprocessOne.wordTokenizeText()
