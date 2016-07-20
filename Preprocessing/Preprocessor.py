@@ -326,7 +326,7 @@ class Preprocessor(object):
                     # We have to take the first element, because for some reason, wordTokenizeText outputs a nested list, even with only one element
                     text = sentence.find('Text').text
                     """Only going to create a parse tree if there is some alphanumeric character and a period, otherwise parser crashes"""
-                    if re.match(r'\w+\.', text):
+                    if re.search('\w+\.?', text):
                         tempParseTreeElement.text = Preprocessor.rrp.simple_parse(self.wordTokenizeText(text)[0])
                     else:
                         pass
@@ -390,14 +390,12 @@ class Preprocessor(object):
 
                     globalIDByConcept[concept] = globalIDList
 
-        print 'globalIDByConcept:   ', globalIDByConcept
         for key, value in globalIDByConcept.iteritems():
             for gIDList in value:
                 for gID in gIDList:
                     conceptXMLTag = self.root.find(".//*[@globalID='"+str(gID)+"']")
                     tempMetaMapElem = ET.Element("METAMAP")
                     tempMetaMapElem.text = key.semtypes.replace("'",'')
-                    print tempMetaMapElem.text
                     conceptXMLTag.append(tempMetaMapElem)
         
         self.writeToXML()
