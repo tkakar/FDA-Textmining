@@ -1,49 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<annotations textSource="gen013.txt">
-  <annotation>
-    <mention id="annotate_Instance_54" />
-    <annotator id="annotate_Instance_6">Amber Wallace, WPI</annotator>
-    <span start="4" end="6" />
-    <spannedText>JR</spannedText>
-    <creationDate>Tue Jun 21 15:28:42 EDT 2016</creationDate>
-  </annotation>
-  <annotation>
-    <mention id="annotate_Instance_100" />
-    <annotator id="annotate_Instance_6">Amber Wallace, WPI</annotator>
-    <span start="12" end="14" />
-    <spannedText>47</spannedText>
-    <creationDate>Tue Jun 21 15:32:40 EDT 2016</creationDate>
-  </annotation>
-  <annotation>
-    <mention id="annotate_Instance_116" />
-    <annotator id="annotate_Instance_6">Amber Wallace, WPI</annotator>
-    <span start="15" end="19" />
-    <spannedText>year</spannedText>
-    <creationDate>Tue Jun 21 15:39:27 EDT 2016</creationDate>
-  </annotation>
-  <classMention id="annotate_Instance_100">
-    <mentionClass id="AGE">AGE</mentionClass>
-  </classMention>
-  <classMention id="annotate_Instance_54">
-    <mentionClass id="PATIENT_NAME">PATIENT_NAME</mentionClass>
-  </classMention>
-  <classMention id="annotate_Instance_116">
-    <mentionClass id="AGE_COD">AGE_COD</mentionClass>
-  </classMention>
-</annotations>
-
-<?XML version="1.0" encoding="UTF-8"?>
 <ANNOTATIONS textSource="gen013.txt" annotator="Amber Wallace">
-  <EVENT_DT start=null end=null></EVENT_DT>
+  <EVENT_DT start="" end=""></EVENT_DT>
   <DEMOGRAPHICS>
     <AGE_SET>
       <AGE start="12" end="14">47</AGE>
       <AGE_COD start="15" end="23">YR</AGE_COD>
     </AGE_SET>
     <WT_SET>
-      <WT start=null end=null></WT>
-      <WT_COD start=null end=null></WT_COD>
-    </WEIGHT_SET>
+      <WT start="" end=""></WT>
+      <WT_COD start="" end=""></WT_COD>
+    </WT_SET>
     <SEX start="30" end="34">M</SEX>
   </DEMOGRAPHICS>
   <DRUG_FILE>
@@ -119,9 +85,9 @@
     </INSTANCE>
   </DRUG_FILE>
   <REACTION_FILE>
-    <PT start=null end=null></PT>
+    <PT start="" end=""></PT>
   </REACTION_FILE>
   <INDICATION_FILE>
-    <INDI_PT start=null end=null></INDI_PT>
+    <INDI_PT start="" end=""></INDI_PT>
   </INDICATION_FILE>
 </ANNOTATIONS>

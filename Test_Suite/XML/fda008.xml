@@ -14,7 +14,7 @@
 	</DEMOGRAPHICS>
 	<DRUG_FILE>
 		<INSTANCE id="0" primary="false" timePeriod="current"> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
-	      <DRUGNAME primary=start="376" end="388">ERYTHROMYCIN</DRUGNAME>
+	      <DRUGNAME primary= "" start="376" end="388">ERYTHROMYCIN</DRUGNAME>
 	      <COREF start="270" end="282"/>
 	      <COREF start="1329" end="1341"/>
 	      <COREF start="1857" end="1869"/>
@@ -90,5 +90,5 @@
 		<INDI_PT id="0" start="393" end="406">GASTROPARESIS</INDI_PT>
 		<INDI_PT id="1" start="1539" end="1554">Crohn's disease</INDI_PT>
 	</INDICATION_FILE>
+    <COMMENT></COMMENT>
 </ANNOTATIONS>
-<COMMENT></COMMENT>
