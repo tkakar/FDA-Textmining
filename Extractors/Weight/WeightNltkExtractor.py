@@ -6,8 +6,8 @@ from DataElements.WeightElement import WeightElement
 
 class WeightNltkExtractor(object):
     
-    def __init__(self):
-        preprocess = Preprocessor()
+    def __init__(self, rawTextFileName, intermediateXMLFileName):
+        preprocess = Preprocessor(rawTextFileName, intermediateXMLFileName)
         self.Text = preprocess.rawText()
         
     def findWeight(self):

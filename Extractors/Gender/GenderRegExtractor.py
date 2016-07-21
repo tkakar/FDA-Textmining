@@ -4,8 +4,8 @@ from DataElements.GenderElement import GenderElement
 
 class GenderRegExtractor(object):
     
-    def __init__(self):
-        preprocess = Preprocessor()
+    def __init__(self, rawTextFileName, intermediateXMLFileName):
+        preprocess = Preprocessor(rawTextFileName, intermediateXMLFileName)
         self.Text = preprocess.rawText()
         
     def findGender(self):

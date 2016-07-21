@@ -11,7 +11,7 @@ from Extractors.Gender.GenderRegExtractor import GenderRegExtractor
 
 class GenderAssembler(object):
     
-    def __init__(self, anExtractorList=[]):
+    def __init__(self, rawTextFileName, intermediateXMLFileName, anExtractorList=[]):
         """
         Initializes the GenderAssembler and returns it. All Extractors for the Gender DataElement must be specified in the list below. 
 
@@ -21,7 +21,7 @@ class GenderAssembler(object):
         Returns:
             GenderAssembler Object
         """
-        self.AllPossibleExtractorList = {"GenderRegExtractor":GenderRegExtractor()}
+        self.AllPossibleExtractorList = {"GenderRegExtractor":GenderRegExtractor(rawTextFileName, intermediateXMLFileName)}
         self.extractorList = anExtractorList
         self.extractorObjList = []
 

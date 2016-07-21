@@ -12,7 +12,7 @@ from Extractors.Weight.WeightNltkExtractor import WeightNltkExtractor
 
 class WeightAssembler(object):
     
-    def __init__(self, anExtractorList=[]):
+    def __init__(self, rawTextFileName, intermediateXMLFileName, anExtractorList=[]):
         """
         Initializes the WeightAssembler and returns it. All Extractors for the Weight DataElement must be specified in the list below. 
 
@@ -22,7 +22,7 @@ class WeightAssembler(object):
         Returns:
             WeightAssembler Object
         """
-        self.AllPossibleExtractorList = {"WeightRegExtractor":WeightRegExtractor(), "WeightNltkExtractor":WeightNltkExtractor()}
+        self.AllPossibleExtractorList = {"WeightRegExtractor":WeightRegExtractor(rawTextFileName, intermediateXMLFileName), "WeightNltkExtractor":WeightNltkExtractor(rawTextFileName, intermediateXMLFileName)}
         self.extractorList = anExtractorList
         self.extractorObjList = []
 
