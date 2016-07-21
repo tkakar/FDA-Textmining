@@ -10,12 +10,12 @@ import xlrd
 
 #class to compare annotated xml to program output
 class Compare:
-    aroot = None
-    oroot = None
+    aroot = None #root of annotated xml
+    oroot = None #root of program output xml
+    runCode = None #unique code for this run 
 
-    #tuple fields
-    entity = None
-    fileName = None
+    entity = None #name of entity
+    fileName = None #name of file
     avc = None #annotated value
     asspan = None #annotated start span
     aespan = None #annotated end span
@@ -24,12 +24,95 @@ class Compare:
     pespan = None #program end span
     scval = None #strict confusion value TP/TN/FP/FN
     lcval = None #loose confusion value TP/TN/FP/FN
+    di = {} #dictionary for comparison of multiples
 
+    ###########################################
+    #TP = Annotated field == Program field
+    # TN = Annotated field missing & Program field missing
+    # FP = Program finds Incorrect value for field
+    # FN = Annotated field Found & Program field missing
+
+    # Examples:
+    # AGE
+    # Ann: 35     Out: 35       TP
+    # Ann:        Out:          TN
+    # Ann:        Out: 35       FP
+    # Ann: 35     Out: 23       FP
+    # Ann: 35     Out:          FN
+    #################################################
+
+    #Class to compare annotated xml to program output xml
     def __init__(self, ann, out):
         #get and store the roots of each tree
         Compare.aroot = ET.parse(ann).getroot()
         Compare.oroot = ET.parse(out).getroot()
         Compare.fileName = out
+
+    #call this function to write multiple drugs/reactions/etc to the excel file
+    def multi_write_to_file(self):
+        rb = xlrd.open_workbook('dataOut.xls')
+        r_sheet = rb.sheet_by_index(0) 
+        r = r_sheet.nrows
+        if Compare.runCode is None:
+            Compare.runCode = int(r_sheet.cell(r-1,0).value)+1
+        w = copy(rb) 
+        sheet = w.get_sheet(0) 
+        for key in Compare.di:
+            sheet.write(r,0, Compare.runCode)
+            sheet.write(r,1, Compare.fileName)
+            sheet.write(r,2, Compare.entity)
+            sheet.write(r,9, Compare.di[key]['cv'])
+                
+            #only fill in the correct fields
+            if Compare.di[key]['cv'] is not 'FP': #TP or FN
+                sheet.write(r,3, Compare.di[key]['value'])
+                sheet.write(r,4, key)
+                sheet.write(r,5, Compare.di[key]['end'])
+                if Compare.di[key]['cv'] is 'TP':
+                    sheet.write(r,6, Compare.di[key]['pvalue'])
+                    sheet.write(r,7, key)
+                    sheet.write(r,8, Compare.di[key]['end'])
+            else:
+                sheet.write(r,6, Compare.di[key]['pvalue'])
+                sheet.write(r,7, key)
+                sheet.write(r,8, Compare.di[key]['end'])
+            r += 1
+
+        w.save('dataOut.xls')
+        #clear vars
+        Compare.clearVars(self)
+
+    def multi_compare(self, entity, extractor):
+        atype = Compare.aroot.xpath('.//'+entity)
+        Compare.entity = entity
+        for instance in atype:
+            if instance is not None:
+                Compare.asspan = instance.get('start')
+                Compare.aespan = instance.get('end')
+                Compare.avc = instance.text
+                Compare.di[Compare.asspan] = {'end':Compare.aespan, 'value':Compare.avc, 'cv':'FN'}
+                corefs = instance.xpath('../COREF')
+                for coref in corefs:
+
+                    Compare.asspan = coref.get('start')
+                    Compare.aespan = coref.get('end')
+                    Compare.di[Compare.asspan] = {'end':Compare.aespan, 'value':Compare.avc, 'cv':'FN'}
+
+
+        #address output
+        otype = Compare.oroot.xpath('.//'+entity+'[@extractor=\''+extractor+'\']')
+        for oinstance in otype:
+            if oinstance is not None:
+                Compare.psspan = oinstance.get('start')
+                Compare.pespan = oinstance.get('end')
+                Compare.pv = oinstance.text
+                if Compare.di.has_key(Compare.psspan) and Compare.di[Compare.psspan]['end'] == Compare.pespan:
+                    Compare.di[Compare.psspan]['cv'] = 'TP'
+                    Compare.di[Compare.psspan]['pvalue'] = Compare.pv
+                else:
+                    Compare.di[Compare.psspan] = {'end':Compare.pespan, 'pvalue':Compare.pv, 'cv':'FP'}
+        Compare.multi_write_to_file(self)
+
 
     def run_compare(self, entity, extractor):
         Compare.run_ann(self, entity)
@@ -38,7 +121,7 @@ class Compare:
         Compare.run_loose(self)
         Compare.write_to_file(self)
 
-    def run_strict(self):
+    def run_strict(self): #strict is based on matching start and end span
         if Compare.asspan is not None and Compare.psspan is not None:
             if Compare.asspan == Compare.psspan and Compare.aespan == Compare.pespan:
                 Compare.scval = "TP"
@@ -50,9 +133,8 @@ class Compare:
             Compare.scval = "FP"
         else:
             Compare.scval = "TN"
-        print(Compare.scval)
 
-    def run_loose(self):
+    def run_loose(self): #loose is based on matching content string
         if Compare.avc is not None and Compare.pv is not None:
             if Compare.avc == Compare.pv:
                 Compare.lcval = "TP"
@@ -64,7 +146,6 @@ class Compare:
             Compare.lcval = "FP"
         else:
             Compare.lcval = "TN"
-        print(Compare.lcval)
 
     def run_ann(self, entity):
         atype = Compare.aroot.xpath('.//'+entity)
@@ -81,18 +162,19 @@ class Compare:
         for instance in atype:
             if instance is not None:
                 Compare.pv = instance.text
-                print(Compare.pv)
                 Compare.psspan = instance.get('start')
-                print(Compare.psspan)
                 Compare.pespan = instance.get('end')
 
+    #write a single instance like age or weight to file
     def write_to_file(self):
-        rb = xlrd.open_workbook('dataOut.xls',formatting_info=True)
+        rb = xlrd.open_workbook('dataOut.xls')
         r_sheet = rb.sheet_by_index(0) 
         r = r_sheet.nrows
+        if Compare.runCode is None:
+            Compare.runCode = int(r_sheet.cell(r-1,0).value)+1
         w = copy(rb) 
         sheet = w.get_sheet(0) 
-        sheet.write(r,0,"new val")
+        sheet.write(r,0, Compare.runCode)
         sheet.write(r,1, Compare.fileName)
         sheet.write(r,2, Compare.entity)
         sheet.write(r,3, Compare.avc)
@@ -105,8 +187,11 @@ class Compare:
         sheet.write(r,10, Compare.lcval)
         w.save('dataOut.xls')
         #clear vars
+        Compare.clearVars(self)
+
+    #clear vars so they are not unintentionally coppied over to the next entry
+    def clearVars(self):
         Compare.entity = None
-        Compare.fileName = None
         Compare.avc = None #annotated value
         Compare.asspan = None #annotated start span
         Compare.aespan = None #annotated end span
@@ -115,11 +200,12 @@ class Compare:
         Compare.pespan = None #program end span
         Compare.scval = None #strict confusion value TP/TN/FP/FN
         Compare.lcval = None #loose confusion value TP/TN/FP/FN
+        Compare.di = {}
 
 
 
 
 #run some examples/tests
 comp = Compare('test.xml','output_sample.xml')
-comp.run_compare('DRUGNAME', 'drugExtractor1')
 comp.run_compare('AGE_COD', 'ageCodExtractor1')
+comp.multi_compare('DRUGNAME', 'drugExtractor1')
