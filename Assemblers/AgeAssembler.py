@@ -12,7 +12,7 @@ from Extractors.Age.AgeNltkExtractor import AgeNltkExtractor
 
 class AgeAssembler(object):
     
-    def __init__(self, anExtractorList=[]):
+    def __init__(self, rawTextFileName, intermediateXMLFileName, anExtractorList=[]):
         """
         Initializes the AgeAssembler and returns it. All Extractors for the Age DataElement must be specified in the list below. 
 
@@ -22,7 +22,8 @@ class AgeAssembler(object):
         Returns:
             AgeAssembler Object
         """
-        self.AllPossibleExtractorList = {"AgeRegExtractor":AgeRegExtractor(), "AgeNltkExtractor":AgeNltkExtractor()}
+
+        self.AllPossibleExtractorList = {"AgeRegExtractor":AgeRegExtractor(rawTextFileName, intermediateXMLFileName), "AgeNltkExtractor":AgeNltkExtractor(rawTextFileName, intermediateXMLFileName)}
         self.extractorList = anExtractorList
         self.extractorObjList = []
 

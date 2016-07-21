@@ -16,8 +16,11 @@ Todo:
 
 import sys, re
 import nltk
-sys.path.append('/work/tkakar/FDA-Textmining/')
+
+#sys.path.append('/work/tkakar/FDA-Textmining/')
 nltk.data.path.append('/work/tkakar/nltk_data')
+sys.path.append('/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/')
+#nltk.data.path.append('/work/vsocrates/nltk_data')
 from nltk_contrib import timex
 from Preprocessing.Preprocessor import Preprocessor
 from Extractors.EventDate.AERecognitionEventDateExtractor import AERecogExtractor 
@@ -37,40 +40,61 @@ from Assemblers.GenderAssembler import GenderAssembler
 
 import json
 
-def main():
-    """Takes in the input three files, and creates a Preprocessor object, runs each extractor, and compiles the results."""
+#reload(sys)
+#sys.setdefaultencoding('utf-8')
+
+def main(aRawTextFileName=None, aIntermediateXMLFileName=None, aConfigFile=None):
     assemblerList = []
-    sysArgs = sys.argv[1:]
-    if len(sysArgs) >= 3:
-        """when calling ProjectAeris, it should be done with a raw text file and an output xml file location as the first and second arguments respectively"""
-        preprocessOne = Preprocessor(rawTextFileName=sysArgs[0], outputXMLFileName=sysArgs[1])
-        configFile = sysArgs[2]
-        allAssemblerDict = {'Event Date':EventDateAssembler(), 'Dosage':DosageAssembler(), 'Age':AgeAssembler(), 'Weight':WeightAssembler(), 'Gender':GenderAssembler()}
-        print 'done preprocess!'
-    else:
-        print "Need a file name!" 
-        return
+    if aRawTextFileName is None and aIntermediateXMLFileName is None:
 
-#Place to test new preprocess methods
-#    preprocessOne.getMetaMapConcepts()
-#    preprocessOne.posTaggedText()
-    print preprocessOne.rawText()
-#Place to test new preprocess methods
+        sysArgs = sys.argv[1:]
+        if len(sysArgs) >= 3:
+            """when calling ProjectAeris, it should be done with a raw text file and an output xml file location as the first and second arguments respectively"""
 
+            rawTextFileName = sysArgs[0]
+            intermediateXMLFileName = sysArgs[1]
+            configFileName  = sysArgs[2] 
 
-    config = json.load(open(configFile))
-    entities = config.keys()
-
-    for entity in entities:
-        if entity not in allAssemblerDict:
-            raise KeyError("An entity you entered doesn't exist")
         else:
-            assemblerList.append((entity,allAssemblerDict[entity]))
+            print "Missing some command-line arguments"
+            return
     
-    for name, assembler in assemblerList:
-        if config[name]:
-            assembler.setExtractorList(config[name])
-            assembler.runExtractors() 
+    else:
+        rawTextFileName = aRawTextFileName
+        intermediateXMLFileName = aIntermediateXMLFileName
+        configFileName = aConfigFile
+
+    print 'initial preprocess done!'
+    
+
+    preprocessOne = Preprocessor(rawTextFileName=rawTextFileName,intermediateXMLFileName=intermediateXMLFileName)
+    configFile = configFileName
+
+    allAssemblerDict = {'Event Date':EventDateAssembler(rawTextFileName, intermediateXMLFileName), 'Dosage':DosageAssembler(rawTextFileName, intermediateXMLFileName), 'Age':AgeAssembler(rawTextFileName, intermediateXMLFileName), 'Weight':WeightAssembler(rawTextFileName, intermediateXMLFileName), 'Gender':GenderAssembler(rawTextFileName, intermediateXMLFileName)}
+
+#Place to test new preprocess methods
+    preprocessOne.getMetaMapConcepts()
+    preprocessOne.posTaggedText()
+    preprocessOne.getParseTree()
+#    print preprocessOne.rawText()
+#Place to test new preprocess methods
+
+
+#The following is to actually run the extractors
+
+    # config = json.load(open(configFile))
+    # entities = config.keys()
+
+    # for entity in entities:
+    #     if entity not in allAssemblerDict:
+    #         raise KeyError("An entity you entered doesn't exist")
+    #     else:
+    #         assemblerList.append((entity,allAssemblerDict[entity]))
+    
+    # for name, assembler in assemblerList:
+    #     if config[name]:
+    #         assembler.setExtractorList(config[name])
+    #         assembler.runExtractors() 
 
 # #Currently (as of 7-5-16), only the two following methods work. The other ones still need to be updated and integrated into the XML document
 #     output = preprocessOne.wordTokenizeText()
