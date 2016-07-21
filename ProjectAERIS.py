@@ -24,9 +24,16 @@ from Extractors.EventDate.AERecognitionEventDateExtractor import AERecogExtracto
 from Extractors.EventDate.SuspectRecognitionEventDateExtractor import SuspectRecogExtractor
 from Assemblers.EventDateAssembler import EventDateAssembler
 from Extractors.Dosage.DosageRegExtractor import DosageRegExtractor 
-from Assemblers.DosageAssembler import DosageAssembler
-from Extractors.Age.RegExpAgeExtractor import RegExpExtractor 
+from Assemblers.DosageAssembler import DosageAssembler 
+from Extractors.Age.AgeRegExtractor import AgeRegExtractor 
+from Extractors.Age.AgeNltkExtractor import AgeNltkExtractor 
 from Assemblers.AgeAssembler import AgeAssembler
+from Extractors.Weight.WeightRegExtractor import WeightRegExtractor 
+from Extractors.Weight.WeightNltkExtractor import WeightNltkExtractor 
+from Assemblers.WeightAssembler import WeightAssembler
+from Extractors.Gender.GenderRegExtractor import GenderRegExtractor 
+from Assemblers.GenderAssembler import GenderAssembler
+
 
 import json
 
@@ -38,7 +45,7 @@ def main():
         """when calling ProjectAeris, it should be done with a raw text file and an output xml file location as the first and second arguments respectively"""
         preprocessOne = Preprocessor(rawTextFileName=sysArgs[0], outputXMLFileName=sysArgs[1])
         configFile = sysArgs[2]
-        allAssemblerDict = {'Event Date':EventDateAssembler(), 'Dosage':DosageAssembler(), 'Age':AgeAssembler()}
+        allAssemblerDict = {'Event Date':EventDateAssembler(), 'Dosage':DosageAssembler(), 'Age':AgeAssembler(), 'Weight':WeightAssembler(), 'Gender':GenderAssembler()}
         print 'done preprocess!'
     else:
         print "Need a file name!" 

@@ -1,4 +1,4 @@
-"""AgeAssembler Class
+"""GenderAssembler Class
 
 This module is an implementation of the Assembler class described in the architecture. It handles the creation and execution of all the extractors as specified by the config file from ProjectAERIS. When Assemblers are created for other DataElements, simply copy this class, but remember to change the __init__ function and runExtractors() functions, as per the wiki.
 
@@ -6,23 +6,22 @@ Todo:
     * Go through this class and use the @property decorator and create getter/setter methods that way. 
 """
 
-from Extractors.Age.AgeRegExtractor import AgeRegExtractor
-from Extractors.Age.AgeNltkExtractor import AgeNltkExtractor
+from Extractors.Gender.GenderRegExtractor import GenderRegExtractor
 
 
-class AgeAssembler(object):
+class GenderAssembler(object):
     
     def __init__(self, anExtractorList=[]):
         """
-        Initializes the AgeAssembler and returns it. All Extractors for the Age DataElement must be specified in the list below. 
+        Initializes the GenderAssembler and returns it. All Extractors for the Gender DataElement must be specified in the list below. 
 
         Args:
-            anExtractorList (list): the list passed from the config file for Age
+            anExtractorList (list): the list passed from the config file for Gender
         
         Returns:
-            AgeAssembler Object
+            GenderAssembler Object
         """
-        self.AllPossibleExtractorList = {"AgeRegExtractor":AgeRegExtractor(), "AgeNltkExtractor":AgeNltkExtractor()}
+        self.AllPossibleExtractorList = {"GenderRegExtractor":GenderRegExtractor()}
         self.extractorList = anExtractorList
         self.extractorObjList = []
 
@@ -71,13 +70,13 @@ class AgeAssembler(object):
             None
             
         Returns:
-            list of AgeElements (list)
+            list of GenderElements (list)
 
         TODO:
             Actually make it return DataElement list and make sure that won't cause problems
         """
         for extractor in self.extractorObjList:
-            extractor.findAge()
+            extractor.findGender()
 
 # def main():
 #     extractorHandler = EventDateExtractorHandler('../test_cases/fda001.txt')
