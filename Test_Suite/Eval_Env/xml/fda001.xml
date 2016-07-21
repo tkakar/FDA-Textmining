@@ -1,33 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATIONS textSource="fda001.txt" annotator="Amber Wallace">
-	<EVENT_DT start="930" end="942">201501</EVENT_DT>
-	<DEMOGRAPHICS>
-		<AGE_SET>
-			<AGE start="" end=""></AGE>
-			<AGE_COD start="" end=""></AGE_COD>
-		</AGE_SET>
-		<WT_SET>
-			<WT start="" end=""></WT>
-			<WT_COD start="" end=""></WT_COD>
-		</WT_SET>
-		<SEX start="46" end="49">F</SEX>
-	</DEMOGRAPHICS>
-	<DRUG_FILE>
-		<INSTANCE id="" primary="" timePeriod="">
-	      <DRUGNAME start="139" end="150">DOMPERIDONE</DRUGNAME>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="164" end="166">20</DOSE_AMT>
-	      <DOSE_UNIT start="167" end="169">MG</DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="170" end="187">TID-QID</DOSE_FREQ>
-    	</INSTANCE>
-	</DRUG_FILE>
-	<REACTION_FILE>
-		<PT id="" start="" end=""></PT>
-	</REACTION_FILE>
-	<INDICATION_FILE>
-		<INDI_PT id="" start="" end=""></INDI_PT>
-	</INDICATION_FILE>
+<ANNOTATIONS annotator="Amber Wallace" textSource="fda001.txt">
+   <EVENT_DT end="942" start="930">201501</EVENT_DT>
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="49" start="46">F</SEX>
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      <INSTANCE id="" primary="" timePeriod="">
+         <DRUGNAME end="150" start="139">DOMPERIDONE</DRUGNAME>
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="166" start="164">20</DOSE_AMT>
+         <DOSE_UNIT end="169" start="167">MG</DOSE_UNIT>
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="187" start="170">TID-QID</DOSE_FREQ>
+      </INSTANCE>
+   </DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="973" id="0" start="963">palpations</PT>
+      </INSTANCE>
+      <INSTANCE>
+         <PT end="1022" id="1" start="1012">very tired</PT>
+      </INSTANCE>
+      <INSTANCE>
+         <PT end="1194" id="2" start="1187">malaise</PT>
+      </INSTANCE>
+      <INSTANCE>
+         <PT end="1207" id="3" start="1196">palpitation</PT>
+      </INSTANCE>
+      <INSTANCE>
+         <PT end="1220" id="4" start="1210">chest pain</PT>
+      </INSTANCE>
+      <INSTANCE>
+         <PT end="1230" id="5" start="1223">syncope</PT>
+      </INSTANCE>
+   </REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="231" id="0" start="222">lactation</INDI_PT>
+      </INSTANCE>
+   </INDICATION_FILE>
 </ANNOTATIONS>

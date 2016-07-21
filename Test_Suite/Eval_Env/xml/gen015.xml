@@ -1,144 +1,143 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATIONS textSource="gen015.txt" annotator="Amber Wallace">
-	<EVENT_DT start="" end=""></EVENT_DT>
+<ANNOTATIONS annotator="Amber Wallace" textSource="gen015.txt">
+	<EVENT_DT end="" start="" />
 	<DEMOGRAPHICS>
 		<AGE_SET>
-			<AGE start="81" end="83">65</AGE>
-			<AGE_COD start="84" end="92">YR</AGE_COD>
+			<AGE end="83" start="81">65</AGE>
+			<AGE_COD end="92" start="84">YR</AGE_COD>
 		</AGE_SET>
 		<WT_SET>
-			<WT start="" end=""></WT>
-			<WT_COD start="" end=""></WT_COD>
+			<WT end="" start="" />
+			<WT_COD end="" start="" />
 		</WT_SET>
-		<SEX start="93" end="96">M</SEX>
+		<SEX end="96" start="93">M</SEX>
 	</DEMOGRAPHICS>
 	<DRUG_FILE>
 		<INSTANCE id="1" primary="" timePeriod="">
-	      <DRUGNAME start="884" end="892">COUMADIN</DRUGNAME>
-	      <COREF start="" end=""/>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="" end=""></DOSE_AMT>
-	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+	      <DRUGNAME end="892" start="884">COUMADIN</DRUGNAME>
+	      <COREF end="" start="" />
+	      <ROUTE end="" start="" />
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="" start="" />
+	      <DOSE_UNIT end="" start="" />
+	      <DOSE_FORM end="" start="" />
+	      <DOSE_FREQ end="" start="" />
     	</INSTANCE>
     	<INSTANCE id="2" primary="" timePeriod="">
-	      <DRUGNAME start="1218" end="1225">TYLENOL</DRUGNAME>
-	      <COREF start="" end=""/>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="" end=""></DOSE_AMT>
-	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+	      <DRUGNAME end="1225" start="1218">TYLENOL</DRUGNAME>
+	      <COREF end="" start="" />
+	      <ROUTE end="" start="" />
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="" start="" />
+	      <DOSE_UNIT end="" start="" />
+	      <DOSE_FORM end="" start="" />
+	      <DOSE_FREQ end="" start="" />
     	</INSTANCE>
     	<INSTANCE id="3" primary="" timePeriod="">
-	      <DRUGNAME start="1227" end="1234">ASPIRIN</DRUGNAME>
-	      <COREF start="" end=""/>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="" end=""></DOSE_AMT>
-	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+	      <DRUGNAME end="1234" start="1227">ASPIRIN</DRUGNAME>
+	      <COREF end="" start="" />
+	      <ROUTE end="" start="" />
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="" start="" />
+	      <DOSE_UNIT end="" start="" />
+	      <DOSE_FORM end="" start="" />
+	      <DOSE_FREQ end="" start="" />
     	</INSTANCE>
     	<INSTANCE id="4" primary="" timePeriod="">
-	      <DRUGNAME start="1238" end="1246">PERCOCET</DRUGNAME>
-	      <COREF start="" end=""/>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="" end=""></DOSE_AMT>
-	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+	      <DRUGNAME end="1246" start="1238">PERCOCET</DRUGNAME>
+	      <COREF end="" start="" />
+	      <ROUTE end="" start="" />
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="" start="" />
+	      <DOSE_UNIT end="" start="" />
+	      <DOSE_FORM end="" start="" />
+	      <DOSE_FREQ end="" start="" />
     	</INSTANCE>
     	<INSTANCE id="5" primary="" timePeriod="">
-	      <DRUGNAME start="2673" end="2680">ECOTRIN</DRUGNAME>
-	      <COREF start="" end=""/>
-	      <ROUTE start="2688" end="2690">ORAL</ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="2681" end="2684">325</DOSE_AMT>
-	      <DOSE_UNIT start="2685" end="2687">MG</DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+	      <DRUGNAME end="2680" start="2673">ECOTRIN</DRUGNAME>
+	      <COREF end="" start="" />
+	      <ROUTE end="2690" start="2688">ORAL</ROUTE>
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="2684" start="2681">325</DOSE_AMT>
+	      <DOSE_UNIT end="2687" start="2685">MG</DOSE_UNIT>
+	      <DOSE_FORM end="" start="" />
+	      <DOSE_FREQ end="" start="" />
     	</INSTANCE>
     	<INSTANCE id="6" primary="" timePeriod="">
-	      <DRUGNAME start="2694" end="2703">VERAPAMIL</DRUGNAME>
-	      <COREF start="" end=""/>
-	      <ROUTE start="2711" end="2713">ORAL</ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="2707" end="2710">180</DOSE_AMT>
-	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+	      <DRUGNAME end="2703" start="2694">VERAPAMIL</DRUGNAME>
+	      <COREF end="" start="" />
+	      <ROUTE end="2713" start="2711">ORAL</ROUTE>
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="2710" start="2707">180</DOSE_AMT>
+	      <DOSE_UNIT end="" start="" />
+	      <DOSE_FORM end="" start="" />
+	      <DOSE_FREQ end="" start="" />
     	</INSTANCE>
     	<INSTANCE id="7" primary="" timePeriod="">
-	      <DRUGNAME start="2717" end="2729">LANSOPRAZOLE</DRUGNAME>
-	      <COREF start="" end=""/>
-	      <ROUTE start="2733" end="2735">ORAL</ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="2730" end="2732">15</DOSE_AMT>
-	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+	      <DRUGNAME end="2729" start="2717">LANSOPRAZOLE</DRUGNAME>
+	      <COREF end="" start="" />
+	      <ROUTE end="2735" start="2733">ORAL</ROUTE>
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="2732" start="2730">15</DOSE_AMT>
+	      <DOSE_UNIT end="" start="" />
+	      <DOSE_FORM end="" start="" />
+	      <DOSE_FREQ end="" start="" />
     	</INSTANCE>
     	<INSTANCE id="8" primary="" timePeriod="">
-	      <DRUGNAME start="2739" end="2747">DILANTIN</DRUGNAME>
-	      <COREF start="" end=""/>
-	      <ROUTE start="2752" end="2754">ORAL</ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="2748" end="2751">300</DOSE_AMT>
-	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+	      <DRUGNAME end="2747" start="2739">DILANTIN</DRUGNAME>
+	      <COREF end="" start="" />
+	      <ROUTE end="2754" start="2752">ORAL</ROUTE>
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="2751" start="2748">300</DOSE_AMT>
+	      <DOSE_UNIT end="" start="" />
+	      <DOSE_FORM end="" start="" />
+	      <DOSE_FREQ end="" start="" />
     	</INSTANCE>
     	<INSTANCE id="9" primary="" timePeriod="">
-	      <DRUGNAME start="2759" end="2767">ATROVENT</DRUGNAME>
-	      <COREF start="" end=""/>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="2768" end="2769">4</DOSE_AMT>
-	      <DOSE_UNIT start="2770" end="2775">PUFF</DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+	      <DRUGNAME end="2767" start="2759">ATROVENT</DRUGNAME>
+	      <COREF end="" start="" />
+	      <ROUTE end="" start="" />
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="2769" start="2768">4</DOSE_AMT>
+	      <DOSE_UNIT end="2775" start="2770">PUFF</DOSE_UNIT>
+	      <DOSE_FORM end="" start="" />
+	      <DOSE_FREQ end="" start="" />
     	</INSTANCE>
     	<INSTANCE id="10" primary="" timePeriod="">
-	      <DRUGNAME start="2780" end="2788">VANCERIL</DRUGNAME>
-	      <COREF start="" end=""/>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="2789" end="2790">4</DOSE_AMT>
-	      <DOSE_UNIT start="2791" end="2796">PUFF</DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+	      <DRUGNAME end="2788" start="2780">VANCERIL</DRUGNAME>
+	      <COREF end="" start="" />
+	      <ROUTE end="" start="" />
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="2790" start="2789">4</DOSE_AMT>
+	      <DOSE_UNIT end="2796" start="2791">PUFF</DOSE_UNIT>
+	      <DOSE_FORM end="" start="" />
+	      <DOSE_FREQ end="" start="" />
     	</INSTANCE>
     	<INSTANCE id="qq" primary="" timePeriod="">
-	      <DRUGNAME start="2801" end="2807">COLACE</DRUGNAME>
-	      <COREF start="" end=""/>
-	      <ROUTE start="2815" end="2817">ORAL</ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="2808" end="2811">100</DOSE_AMT>
-	      <DOSE_UNIT start="2812" end="2814">MG</DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+	      <DRUGNAME end="2807" start="2801">COLACE</DRUGNAME>
+	      <COREF end="" start="" />
+	      <ROUTE end="2817" start="2815">ORAL</ROUTE>
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="2811" start="2808">100</DOSE_AMT>
+	      <DOSE_UNIT end="2814" start="2812">MG</DOSE_UNIT>
+	      <DOSE_FORM end="" start="" />
+	      <DOSE_FREQ end="" start="" />
     	</INSTANCE>
 	</DRUG_FILE>
 	<REACTION_FILE>
-		<PT start="" end=""></PT>
-	</REACTION_FILE>
+		<INSTANCE><PT end="" start="" />
+	</INSTANCE></REACTION_FILE>
 	<INDICATION_FILE>
-		<INDI_PT start="" end=""></INDI_PT>
-	</INDICATION_FILE>
+		<INSTANCE><INDI_PT end="" start="" />
+	</INSTANCE></INDICATION_FILE>
 </ANNOTATIONS>

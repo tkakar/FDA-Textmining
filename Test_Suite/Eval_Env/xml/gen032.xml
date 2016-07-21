@@ -1,57 +1,56 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATIONS textSource="gen032.txt" annotator="Vimig Socrates">
-	<EVENT_DT start="" end=""></EVENT_DT>
+<ANNOTATIONS annotator="Vimig Socrates" textSource="gen032.txt">
+	<EVENT_DT end="" start="" />
 	<DEMOGRAPHICS>
 		<AGE_SET>
-			<AGE start="31" end="33">30</AGE>
-			<AGE_COD start="32" end="42">YR</AGE_COD>
+			<AGE end="33" start="31">30</AGE>
+			<AGE_COD end="42" start="32">YR</AGE_COD>
 		</AGE_SET>
 		<WT_SET>
-			<WT start="2061" end="2064">172</WT>
-			<WT_COD start="2065" end="2071">LBS</WT_COD>
+			<WT end="2064" start="2061">172</WT>
+			<WT_COD end="2071" start="2065">LBS</WT_COD>
 		</WT_SET>
-		<SEX start="43" end="46">M</SEX>
+		<SEX end="46" start="43">M</SEX>
 	</DEMOGRAPHICS>
 	<DRUG_FILE>
-		<INSTANCE id="0" primary="true" timePeriod="current"> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
-	      <DRUGNAME start="400" end="404">CPAP</DRUGNAME>
-	      <COREF start="159" end="163"/>
-	      <COREF start="449" end="453"/>
-	      <COREF start="570" end="574"/>
-	      <COREF start="778" end="782"/>
-	      <COREF start="1222" end="1226"/>
-	      <COREF start="2383" end="2387"/>
-	      <COREF start="2472" end="2476"/>
-	      <COREF start="2704" end="2708"/>
-	      <COREF start="" end=""/>
-	      <ROUTE start="394" end="399">nasal</ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="408" end="410">10</DOSE_AMT>
-	      <DOSE_UNIT start="411" end="413">cm</DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="797" end="819">QD</DOSE_FREQ>
-	      <REACTIONS_IDS></REACTIONS_IDS>
+		<INSTANCE id="0" primary="true" timePeriod="current"> 
+	      <DRUGNAME end="404" start="400">CPAP</DRUGNAME>
+	      <COREF end="163" start="159" />
+	      <COREF end="453" start="449" />
+	      <COREF end="574" start="570" />
+	      <COREF end="782" start="778" />
+	      <COREF end="1226" start="1222" />
+	      <COREF end="2387" start="2383" />
+	      <COREF end="2476" start="2472" />
+	      <COREF end="2708" start="2704" />
+	      <COREF end="" start="" />
+	      <ROUTE end="399" start="394">nasal</ROUTE>
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="410" start="408">10</DOSE_AMT>
+	      <DOSE_UNIT end="413" start="411">cm</DOSE_UNIT>
+	      <DOSE_FORM end="" start="" />
+	      <DOSE_FREQ end="819" start="797">QD</DOSE_FREQ>
+	      <REACTIONS_IDS />
 	      <INDICATION_IDS>0</INDICATION_IDS>
     	</INSTANCE>
 		<INSTANCE id="1" primary="false" timePeriod="current"> 
-	      <DRUGNAME start="1903" end="1910">Flonase</DRUGNAME>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="" end=""></DOSE_AMT>
-	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
-	      <REACTIONS_IDS></REACTIONS_IDS>
-	      <INDICATION_IDS></INDICATION_IDS>
+	      <DRUGNAME end="1910" start="1903">Flonase</DRUGNAME>
+	      <ROUTE end="" start="" />
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="" start="" />
+	      <DOSE_UNIT end="" start="" />
+	      <DOSE_FORM end="" start="" />
+	      <DOSE_FREQ end="" start="" />
+	      <REACTIONS_IDS />
+	      <INDICATION_IDS />
     	</INSTANCE>
 	</DRUG_FILE>
 	<REACTION_FILE>
-		<PT id="" start="" end=""></PT>
-	</REACTION_FILE>
+		<INSTANCE><PT end="" id="" start="" />
+	</INSTANCE></REACTION_FILE>
 	<INDICATION_FILE>
-		<INDI_PT id="0" start="103" end="114">sleep apnea</INDI_PT>
-	</INDICATION_FILE>
+		<INSTANCE><INDI_PT end="114" id="0" start="103">sleep apnea</INDI_PT>
+	</INSTANCE></INDICATION_FILE>
+<COMMENT />
 </ANNOTATIONS>
-<COMMENT></COMMENT>

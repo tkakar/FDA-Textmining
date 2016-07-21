@@ -1,91 +1,90 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATIONS textSource="gen050.txt" annotator="Vimig Socrates">
-	<EVENT_DT start="" end=""></EVENT_DT>
+<ANNOTATIONS annotator="Vimig Socrates" textSource="gen050.txt">
+	<EVENT_DT end="" start="" />
 	<DEMOGRAPHICS>
 		<AGE_SET>
-			<AGE start="18" end="20">80</AGE>
-			<AGE_COD start="21" end="29">YR</AGE_COD>
+			<AGE end="20" start="18">80</AGE>
+			<AGE_COD end="29" start="21">YR</AGE_COD>
 		</AGE_SET>
 		<WT_SET>
-			<WT start="43" end="48">152.3</WT>
-			<WT_COD start="48" end="50">LBS</WT_COD>
+			<WT end="48" start="43">152.3</WT>
+			<WT_COD end="50" start="48">LBS</WT_COD>
 		</WT_SET>
-		<SEX start="36" end="42">F</SEX>
+		<SEX end="42" start="36">F</SEX>
 	</DEMOGRAPHICS>
-	<DRUG_FILE> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
+	<DRUG_FILE> 
 		<INSTANCE id="0" primary="false" timePeriod="current">
-	      <DRUGNAME start="91" end="99">Coumadin</DRUGNAME>
-	      <COREF start="" end=""/>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="" end=""></DOSE_AMT>
-	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
-	      <REACTIONS_IDS></REACTIONS_IDS>
+	      <DRUGNAME end="99" start="91">Coumadin</DRUGNAME>
+	      <COREF end="" start="" />
+	      <ROUTE end="" start="" />
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="" start="" />
+	      <DOSE_UNIT end="" start="" />
+	      <DOSE_FORM end="" start="" />
+	      <DOSE_FREQ end="" start="" />
+	      <REACTIONS_IDS />
 	      <INDICATION_IDS>0</INDICATION_IDS>
     	</INSTANCE>
     	<INSTANCE id="1" primary="true" timePeriod="current">
-	      <DRUGNAME start="193" end="199">Feosol</DRUGNAME>
-	      <COREF start="361" end="367"/>
-	      <COREF start="418" end="424"/>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="200" end="203">325</DOSE_AMT>
-	      <DOSE_UNIT start="204" end="206">MG</DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="207" end="212">QD</DOSE_FREQ>
+	      <DRUGNAME end="199" start="193">Feosol</DRUGNAME>
+	      <COREF end="367" start="361" />
+	      <COREF end="424" start="418" />
+	      <ROUTE end="" start="" />
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="203" start="200">325</DOSE_AMT>
+	      <DOSE_UNIT end="206" start="204">MG</DOSE_UNIT>
+	      <DOSE_FORM end="" start="" />
+	      <DOSE_FREQ end="212" start="207">QD</DOSE_FREQ>
 	      <REACTIONS_IDS>0</REACTIONS_IDS>
-	      <INDICATION_IDS></INDICATION_IDS>
+	      <INDICATION_IDS />
     	</INSTANCE>
     	<INSTANCE id="2" primary="false" timePeriod="current">
-	      <DRUGNAME start="214" end="217">KCl</DRUGNAME>
-	      <COREF start="" end=""/>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="218" end="220">20</DOSE_AMT>
-	      <DOSE_UNIT start="221" end="224">MEQ</DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="225" end="230">QD</DOSE_FREQ>
-	      <REACTIONS_IDS></REACTIONS_IDS>
-	      <INDICATION_IDS></INDICATION_IDS>
+	      <DRUGNAME end="217" start="214">KCl</DRUGNAME>
+	      <COREF end="" start="" />
+	      <ROUTE end="" start="" />
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="220" start="218">20</DOSE_AMT>
+	      <DOSE_UNIT end="224" start="221">MEQ</DOSE_UNIT>
+	      <DOSE_FORM end="" start="" />
+	      <DOSE_FREQ end="230" start="225">QD</DOSE_FREQ>
+	      <REACTIONS_IDS />
+	      <INDICATION_IDS />
     	</INSTANCE>
     	<INSTANCE id="3" primary="false" timePeriod="current">
-	      <DRUGNAME start="232" end="237">Lasix</DRUGNAME>
-	      <COREF start="" end=""/>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="238" end="240">40</DOSE_AMT>
-	      <DOSE_UNIT start="241" end="243">MG</DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="245" end="250">BID</DOSE_FREQ>
-	      <REACTIONS_IDS></REACTIONS_IDS>
-	      <INDICATION_IDS></INDICATION_IDS>
+	      <DRUGNAME end="237" start="232">Lasix</DRUGNAME>
+	      <COREF end="" start="" />
+	      <ROUTE end="" start="" />
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="240" start="238">40</DOSE_AMT>
+	      <DOSE_UNIT end="243" start="241">MG</DOSE_UNIT>
+	      <DOSE_FORM end="" start="" />
+	      <DOSE_FREQ end="250" start="245">BID</DOSE_FREQ>
+	      <REACTIONS_IDS />
+	      <INDICATION_IDS />
     	</INSTANCE>
     	<INSTANCE id="4" primary="false" timePeriod="current">
-	      <DRUGNAME start="280" end="285">Actos</DRUGNAME>
-	      <COREF start="" end=""/>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="286" end="288">30</DOSE_AMT>
-	      <DOSE_UNIT start="289" end="291">MG</DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="292" end="297">QD</DOSE_FREQ>
-	      <REACTIONS_IDS></REACTIONS_IDS>
+	      <DRUGNAME end="285" start="280">Actos</DRUGNAME>
+	      <COREF end="" start="" />
+	      <ROUTE end="" start="" />
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="288" start="286">30</DOSE_AMT>
+	      <DOSE_UNIT end="291" start="289">MG</DOSE_UNIT>
+	      <DOSE_FORM end="" start="" />
+	      <DOSE_FREQ end="297" start="292">QD</DOSE_FREQ>
+	      <REACTIONS_IDS />
 	      <INDICATION_IDS>1</INDICATION_IDS>
     	</INSTANCE>
 	</DRUG_FILE>
 	<REACTION_FILE>
-		<PT id="0" start="145" end="163">increasing fatigue</PT>
-	</REACTION_FILE>
+		<INSTANCE><PT end="163" id="0" start="145">increasing fatigue</PT>
+	</INSTANCE></REACTION_FILE>
 	<INDICATION_FILE>
-		<INDI_PT id="0" start="67" end="86">atrial fibrillation</INDI_PT>
-		<INDI_PT id="1" start="311" end="318">fatigue</INDI_PT>
-	</INDICATION_FILE>
+		<INSTANCE><INDI_PT end="86" id="0" start="67">atrial fibrillation</INDI_PT>
+		</INSTANCE><INSTANCE><INDI_PT end="318" id="1" start="311">fatigue</INDI_PT>
+	</INSTANCE></INDICATION_FILE>
+<COMMENT />
 </ANNOTATIONS>
-<COMMENT></COMMENT>

@@ -1,68 +1,55 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATIONS textSource="gen047.txt" annotator="Amber Wallace">
-	<EVENT_DT start="" end=""></EVENT_DT>
+<ANNOTATIONS annotator="Amber Wallace" textSource="gen047.txt">
+	<EVENT_DT end="" start="" />
 	<DEMOGRAPHICS>
 		<AGE_SET>
-			<AGE start="50" end="52">71</AGE>
-			<AGE_COD start="53" end="55">YR</AGE_COD>
+			<AGE end="52" start="50">71</AGE>
+			<AGE_COD end="55" start="53">YR</AGE_COD>
 		</AGE_SET>
 		<WT_SET>
-			<WT start="147" end="150">160</WT>
-			<WT_COD start="151" end="157">LBS</WT_COD>
+			<WT end="150" start="147">160</WT>
+			<WT_COD end="157" start="151">LBS</WT_COD>
 		</WT_SET>
-		<SEX start="66" end="72">F</SEX>
+		<SEX end="72" start="66">F</SEX>
 	</DEMOGRAPHICS>
-	<DRUG_FILE> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
-		<INSTANCE id="1" primary="TRUE" timePeriod="CURRENT"> <!--primary is bool | timePeriod can be current/past/unk -->
-	      <DRUGNAME start="378" end="391">CANAGLIFLOZIN</DRUGNAME>
-	      <COREF start="849" end="862"/>
-	      <ROUTE start="401" end="405">ORAL</ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="422" end="425">300</DOSE_AMT>
-	      <DOSE_UNIT start="426" end="428">MG</DOSE_UNIT>
-	      <DOSE_FORM start="393" end="399">TABLET</DOSE_FORM>
-	      <DOSE_FREQ start="429" end="439">QD</DOSE_FREQ>
-	      <REACTIONS_IDS></REACTIONS_IDS> <!-- REACTION_IDS and INDICATION_IDS are delimited by commas (e.g. <REACTIONS_IDS>1,2,3</REACTIONS_IDS>) -->
-	      <INDICATION_IDS></INDICATION_IDS>
+	<DRUG_FILE> 
+		<INSTANCE id="1" primary="TRUE" timePeriod="CURRENT"> 
+	      <DRUGNAME end="391" start="378">CANAGLIFLOZIN</DRUGNAME>
+	      <COREF end="862" start="849" />
+	      <ROUTE end="405" start="401">ORAL</ROUTE>
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="425" start="422">300</DOSE_AMT>
+	      <DOSE_UNIT end="428" start="426">MG</DOSE_UNIT>
+	      <DOSE_FORM end="399" start="393">TABLET</DOSE_FORM>
+	      <DOSE_FREQ end="439" start="429">QD</DOSE_FREQ>
+	      <REACTIONS_IDS /> 
+	      <INDICATION_IDS />
     	</INSTANCE>
-    	<INSTANCE id="2" primary="FALSE" timePeriod="CURRENT"> <!--primary is bool | timePeriod can be current/past/unk -->
-	      <DRUGNAME start="637" end="648">DOMPERIDONE</DRUGNAME>
-	      <COREF start="807" end="818"/>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="" end=""></DOSE_AMT>
-	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
-	      <REACTIONS_IDS></REACTIONS_IDS> <!-- REACTION_IDS and INDICATION_IDS are delimited by commas (e.g. <REACTIONS_IDS>1,2,3</REACTIONS_IDS>) -->
-	      <INDICATION_IDS></INDICATION_IDS>
+    	<INSTANCE id="2" primary="FALSE" timePeriod="CURRENT"> 
+	      <DRUGNAME end="648" start="637">DOMPERIDONE</DRUGNAME>
+	      <COREF end="818" start="807" />
+	      <ROUTE end="" start="" />
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="" start="" />
+	      <DOSE_UNIT end="" start="" />
+	      <DOSE_FORM end="" start="" />
+	      <DOSE_FREQ end="" start="" />
+	      <REACTIONS_IDS /> 
+	      <INDICATION_IDS />
     	</INSTANCE>
 	</DRUG_FILE>
 	<REACTION_FILE>
-		<PT id="1" start="218" end="236">ABDOMINAL BLOATING</PT>
-		<PT id="2" start="238" end="251">ABDOMINAL GAS</PT>
-		<PT id="3" start="916" end="934">INCREASED BELCHING</PT>
-		<PT id="4" start="936" end="963">WORSENING OF ABDONIMAL PAIN</PT>
-		<PT id="5" start="965" end="977">VERY GASEOUS</PT>
-		<PT id="6" start="979" end="1000">WORSENING OF BLOATING</PT>
-	</REACTION_FILE>
+		<INSTANCE><PT end="236" id="1" start="218">ABDOMINAL BLOATING</PT>
+		</INSTANCE><INSTANCE><PT end="251" id="2" start="238">ABDOMINAL GAS</PT>
+		</INSTANCE><INSTANCE><PT end="934" id="3" start="916">INCREASED BELCHING</PT>
+		</INSTANCE><INSTANCE><PT end="963" id="4" start="936">WORSENING OF ABDONIMAL PAIN</PT>
+		</INSTANCE><INSTANCE><PT end="977" id="5" start="965">VERY GASEOUS</PT>
+		</INSTANCE><INSTANCE><PT end="1000" id="6" start="979">WORSENING OF BLOATING</PT>
+	</INSTANCE></REACTION_FILE>
 	<INDICATION_FILE>
-		<INDI_PT id="" start="" end=""></INDI_PT>
-	</INDICATION_FILE>
-</ANNOTATIONS>
+		<INSTANCE><INDI_PT end="" id="" start="" />
+	</INSTANCE></INDICATION_FILE>
 <COMMENT>
 </COMMENT>
-<!--
-
-	mark explicit unknown: UNK
-list symptoms (not just preferred terms)
-coreferences
-	add subelement to existing <INSTANCE id="" primary="" timePeriod=""> tag
-ignore dechal and rechal
-take all drug info
-primary suspect tag, tag drug as specific thing
-	current vs past vs unk
-
--->
+</ANNOTATIONS>

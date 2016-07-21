@@ -1,32 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATIONS textSource="gen020.txt" annotator="Vimig Socrates">
-	<EVENT_DT start="" end=""></EVENT_DT>
+<ANNOTATIONS annotator="Vimig Socrates" textSource="gen020.txt">
+	<EVENT_DT end="" start="" />
 	<DEMOGRAPHICS>
 		<AGE_SET>
-			<AGE start="10" end="12">27</AGE>
-			<AGE_COD start="13" end="27">YR</AGE_COD>
+			<AGE end="12" start="10">27</AGE>
+			<AGE_COD end="27" start="13">YR</AGE_COD>
 		</AGE_SET>
 		<WT_SET>
-			<WT start="836" end="843">100</WT>
-			<WT_COD start="844" end="848">LBS</WT_COD>
+			<WT end="843" start="836">100</WT>
+			<WT_COD end="848" start="844">LBS</WT_COD>
 		</WT_SET>
-		<SEX start="18" end="24">F</SEX>
+		<SEX end="24" start="18">F</SEX>
 	</DEMOGRAPHICS>
 	<DRUG_FILE>
-		<INSTANCE id="0" primary="false" timePeriod="current"> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
-	      <DRUGNAME start="860" end="873">Baclofen pump</DRUGNAME>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="" end=""></DOSE_AMT>
-	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+		<INSTANCE id="0" primary="false" timePeriod="current"> 
+	      <DRUGNAME end="873" start="860">Baclofen pump</DRUGNAME>
+	      <ROUTE end="" start="" />
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="" start="" />
+	      <DOSE_UNIT end="" start="" />
+	      <DOSE_FORM end="" start="" />
+	      <DOSE_FREQ end="" start="" />
     	</INSTANCE>
 	</DRUG_FILE>
 	<REACTION_FILE>
 	</REACTION_FILE>
 	<INDICATION_FILE>
 	</INDICATION_FILE>
+<COMMENT />
 </ANNOTATIONS>
-<COMMENT></COMMENT>

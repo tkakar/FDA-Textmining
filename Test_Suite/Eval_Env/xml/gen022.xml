@@ -1,37 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATIONS textSource="gen022.txt" annotator="Vimig Socrates">
-	<EVENT_DT start="" end=""></EVENT_DT>
+<ANNOTATIONS annotator="Vimig Socrates" textSource="gen022.txt">
+	<EVENT_DT end="" start="" />
 	<DEMOGRAPHICS>
 		<AGE_SET>
-			<AGE start="10" end="12">61</AGE>
-			<AGE_COD start="13" end="16">YR</AGE_COD>
+			<AGE end="12" start="10">61</AGE>
+			<AGE_COD end="16" start="13">YR</AGE_COD>
 		</AGE_SET>
 		<WT_SET>
-			<WT start="950" end="953">176</WT>
-			<WT_COD start="953" end="957">LBS</WT_COD>
+			<WT end="953" start="950">176</WT>
+			<WT_COD end="957" start="953">LBS</WT_COD>
 		</WT_SET>
-		<SEX start="17" end="23">F</SEX>
+		<SEX end="23" start="17">F</SEX>
 	</DEMOGRAPHICS>
 	<DRUG_FILE>
 		<INSTANCE id="0" primary="false" timePeriod="past"> 
-	      <DRUGNAME start="313" end="316">PCN</DRUGNAME>
-	      <COREF start="" end=""/>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="" end=""></DOSE_AMT>
-	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
-	      <REACTIONS_IDS></REACTIONS_IDS> 
-	      <INDICATION_IDS></INDICATION_IDS>
+	      <DRUGNAME end="316" start="313">PCN</DRUGNAME>
+	      <COREF end="" start="" />
+	      <ROUTE end="" start="" />
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="" start="" />
+	      <DOSE_UNIT end="" start="" />
+	      <DOSE_FORM end="" start="" />
+	      <DOSE_FREQ end="" start="" />
+	      <REACTIONS_IDS /> 
+	      <INDICATION_IDS />
     	</INSTANCE>
 	</DRUG_FILE>
 	<REACTION_FILE>
-		<PT start="" end=""></PT>
-	</REACTION_FILE>
+		<INSTANCE><PT end="" start="" />
+	</INSTANCE></REACTION_FILE>
 	<INDICATION_FILE>
-		<INDI_PT start="" end=""></INDI_PT>
-	</INDICATION_FILE>
-</ANNOTATIONS>
+		<INSTANCE><INDI_PT end="" start="" />
+	</INSTANCE></INDICATION_FILE>
 <COMMENT>Allergic to PCN, but doesn't say what the "REACTIONS" are.</COMMENT>
+</ANNOTATIONS>

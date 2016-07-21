@@ -1,115 +1,114 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATIONS textSource="gen038.txt" annotator="Vimig Socrates">
-	<EVENT_DT start="" end=""></EVENT_DT>
+<ANNOTATIONS annotator="Vimig Socrates" textSource="gen038.txt">
+	<EVENT_DT end="" start="" />
 	<DEMOGRAPHICS>
 		<AGE_SET>
-			<AGE start="" end=""></AGE>
-			<AGE_COD start="" end=""></AGE_COD>
+			<AGE end="" start="" />
+			<AGE_COD end="" start="" />
 		</AGE_SET>
 		<WT_SET>
-			<WT start="" end=""></WT>
-			<WT_COD start="" end=""></WT_COD>
+			<WT end="" start="" />
+			<WT_COD end="" start="" />
 		</WT_SET>
-		<SEX start="357" end="371">F</SEX>
+		<SEX end="371" start="357">F</SEX>
 	</DEMOGRAPHICS>
 	<DRUG_FILE>
 		<INSTANCE id="0" primary="false" timePeriod="past">
-	      <DRUGNAME start="478" end="486">Prevacid</DRUGNAME>
-	      <COREF start="" end=""/>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="" end=""></DOSE_AMT>
-	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
-	      <REACTIONS_IDS></REACTIONS_IDS>
-	      <INDICATION_IDS></INDICATION_IDS>
+	      <DRUGNAME end="486" start="478">Prevacid</DRUGNAME>
+	      <COREF end="" start="" />
+	      <ROUTE end="" start="" />
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="" start="" />
+	      <DOSE_UNIT end="" start="" />
+	      <DOSE_FORM end="" start="" />
+	      <DOSE_FREQ end="" start="" />
+	      <REACTIONS_IDS />
+	      <INDICATION_IDS />
     	</INSTANCE>
     	<INSTANCE id="1" primary="false" timePeriod="current">
-	      <DRUGNAME start="510" end="516">Evista</DRUGNAME>
-	      <COREF start="" end=""/>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="517" end="519">60</DOSE_AMT>
-	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="520" end="525">QD</DOSE_FREQ>
-	      <REACTIONS_IDS></REACTIONS_IDS>
-	      <INDICATION_IDS></INDICATION_IDS>
+	      <DRUGNAME end="516" start="510">Evista</DRUGNAME>
+	      <COREF end="" start="" />
+	      <ROUTE end="" start="" />
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="519" start="517">60</DOSE_AMT>
+	      <DOSE_UNIT end="" start="" />
+	      <DOSE_FORM end="" start="" />
+	      <DOSE_FREQ end="525" start="520">QD</DOSE_FREQ>
+	      <REACTIONS_IDS />
+	      <INDICATION_IDS />
     	</INSTANCE>
     	<INSTANCE id="2" primary="false" timePeriod="current">
-	      <DRUGNAME start="527" end="537">Levothroid</DRUGNAME>
-	      <COREF start="" end=""/>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="538" end="542">0.05</DOSE_AMT>
-	      <DOSE_UNIT start="543" end="545">MG</DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="546" end="551">QD</DOSE_FREQ>
-	      <REACTIONS_IDS></REACTIONS_IDS>
-	      <INDICATION_IDS></INDICATION_IDS>
+	      <DRUGNAME end="537" start="527">Levothroid</DRUGNAME>
+	      <COREF end="" start="" />
+	      <ROUTE end="" start="" />
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="542" start="538">0.05</DOSE_AMT>
+	      <DOSE_UNIT end="545" start="543">MG</DOSE_UNIT>
+	      <DOSE_FORM end="" start="" />
+	      <DOSE_FREQ end="551" start="546">QD</DOSE_FREQ>
+	      <REACTIONS_IDS />
+	      <INDICATION_IDS />
     	</INSTANCE>
     	<INSTANCE id="3" primary="false" timePeriod="current">
-	      <DRUGNAME start="553" end="561">Claritin</DRUGNAME>
-	      <COREF start="" end=""/>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="562" end="564">10</DOSE_AMT>
-	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="565" end="570">QD</DOSE_FREQ>
-	      <REACTIONS_IDS></REACTIONS_IDS>
-	      <INDICATION_IDS></INDICATION_IDS>
+	      <DRUGNAME end="561" start="553">Claritin</DRUGNAME>
+	      <COREF end="" start="" />
+	      <ROUTE end="" start="" />
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="564" start="562">10</DOSE_AMT>
+	      <DOSE_UNIT end="" start="" />
+	      <DOSE_FORM end="" start="" />
+	      <DOSE_FREQ end="570" start="565">QD</DOSE_FREQ>
+	      <REACTIONS_IDS />
+	      <INDICATION_IDS />
     	</INSTANCE>
     	<INSTANCE id="4" primary="false" timePeriod="current">
-	      <DRUGNAME start="572" end="580">Celebrex</DRUGNAME>
-	      <COREF start="" end=""/>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="581" end="584">200</DOSE_AMT>
-	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="585" end="590">QD</DOSE_FREQ>
-	      <REACTIONS_IDS></REACTIONS_IDS>
-	      <INDICATION_IDS></INDICATION_IDS>
+	      <DRUGNAME end="580" start="572">Celebrex</DRUGNAME>
+	      <COREF end="" start="" />
+	      <ROUTE end="" start="" />
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="584" start="581">200</DOSE_AMT>
+	      <DOSE_UNIT end="" start="" />
+	      <DOSE_FORM end="" start="" />
+	      <DOSE_FREQ end="590" start="585">QD</DOSE_FREQ>
+	      <REACTIONS_IDS />
+	      <INDICATION_IDS />
     	</INSTANCE>
     	<INSTANCE id="5" primary="false" timePeriod="current">
-	      <DRUGNAME start="592" end="596">HCTZ</DRUGNAME>
-	      <COREF start="" end=""/>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="597" end="599">25</DOSE_AMT>
-	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="600" end="605">QD</DOSE_FREQ>
-	      <REACTIONS_IDS></REACTIONS_IDS>
-	      <INDICATION_IDS></INDICATION_IDS>
+	      <DRUGNAME end="596" start="592">HCTZ</DRUGNAME>
+	      <COREF end="" start="" />
+	      <ROUTE end="" start="" />
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="599" start="597">25</DOSE_AMT>
+	      <DOSE_UNIT end="" start="" />
+	      <DOSE_FORM end="" start="" />
+	      <DOSE_FREQ end="605" start="600">QD</DOSE_FREQ>
+	      <REACTIONS_IDS />
+	      <INDICATION_IDS />
     	</INSTANCE>
     	<INSTANCE id="6" primary="false" timePeriod="current">
-	      <DRUGNAME start="610" end="623">amitriptyline</DRUGNAME>
-	      <COREF start="" end=""/>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="" end=""></DOSE_AMT>
-	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="624" end="630">PRN</DOSE_FREQ>
-	      <REACTIONS_IDS></REACTIONS_IDS>
-	      <INDICATION_IDS></INDICATION_IDS>
+	      <DRUGNAME end="623" start="610">amitriptyline</DRUGNAME>
+	      <COREF end="" start="" />
+	      <ROUTE end="" start="" />
+	      <DECHAL end="" start="" />
+	      <RECHAL end="" start="" />
+	      <DOSE_AMT end="" start="" />
+	      <DOSE_UNIT end="" start="" />
+	      <DOSE_FORM end="" start="" />
+	      <DOSE_FREQ end="630" start="624">PRN</DOSE_FREQ>
+	      <REACTIONS_IDS />
+	      <INDICATION_IDS />
     	</INSTANCE>
 	</DRUG_FILE>
 	<REACTION_FILE>
-		<PT id="" start="" end=""></PT>
-	</REACTION_FILE>
+		<INSTANCE><PT end="" id="" start="" />
+	</INSTANCE></REACTION_FILE>
 	<INDICATION_FILE>
-		<INDI_PT id="" start="" end=""></INDI_PT>
-	</INDICATION_FILE>
+		<INSTANCE><INDI_PT end="" id="" start="" />
+	</INSTANCE></INDICATION_FILE>
+<COMMENT />
 </ANNOTATIONS>
-<COMMENT></COMMENT>

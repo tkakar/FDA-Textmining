@@ -1,34 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATIONS textSource="gen011.txt" annotator="Amber Wallace">
-	<EVENT_DT start="" end=""></EVENT_DT>
-	<DEMOGRAPHICS>
-		<AGE_SET>
-			<AGE start="16" end="18">45</AGE>
-			<AGE_COD start="19" end="21">YR</AGE_COD>
-		</AGE_SET>
-		<WT_SET>
-			<WT start="" end=""></WT>
-			<WT_COD start="" end=""></WT_COD>
-		</WT_SET>
-		<SEX start="22" end="25">M</SEX>
-	</DEMOGRAPHICS>
-	<DRUG_FILE>
-		<INSTANCE id="" primary="" timePeriod=""> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
-	      <DRUGNAME start="" end=""></DRUGNAME>
-	      <COREF start="" end=""/>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="" end=""></DOSE_AMT>
-	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
-    	</INSTANCE>
-	</DRUG_FILE>
-	<REACTION_FILE>
-		<PT start="94" end="104">Chest pain</PT>
-	</REACTION_FILE>
-	<INDICATION_FILE>
-		<INDI_PT start="" end=""></INDI_PT>
-	</INDICATION_FILE>
+<ANNOTATIONS annotator="Amber Wallace" textSource="gen011.txt">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="18" start="16">45</AGE>
+         <AGE_COD end="21" start="19">YR</AGE_COD>
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="25" start="22">M</SEX>
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      <INSTANCE id="" primary="" timePeriod="">
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+      </INSTANCE>
+   </DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="104" start="94">Chest pain</PT>
+         <COREF end="588" start="592" />
+      </INSTANCE>
+   </REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
 </ANNOTATIONS>
