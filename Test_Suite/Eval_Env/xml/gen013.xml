@@ -1,4 +1,4 @@
-<?XML version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ANNOTATIONS textSource="gen013.txt" annotator="Amber Wallace">
   <EVENT_DT start="" end=""></EVENT_DT>
   <DEMOGRAPHICS>
@@ -9,7 +9,7 @@
     <WT_SET>
       <WT start="" end=""></WT>
       <WT_COD start="" end=""></WT_COD>
-    </WEIGHT_SET>
+    </WT_SET>
     <SEX start="30" end="34">M</SEX>
   </DEMOGRAPHICS>
   <DRUG_FILE>

@@ -7,7 +7,7 @@ class DosageRegExtractor(object):
         preprocess = Preprocessor(rawTextFileName, intermediateXMLFileName)
         self.Text = preprocess.rawText()
         
-    def findDosages(self):
+    def findEntity(self):
 
 	 dosage ={'dos_unit':'','dos_amt': '', 'dos_freq':''}
 

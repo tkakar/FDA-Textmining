@@ -23,8 +23,8 @@ sys.path.append('/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/')
 #nltk.data.path.append('/work/vsocrates/nltk_data')
 from nltk_contrib import timex
 from Preprocessing.Preprocessor import Preprocessor
-from Extractors.EventDate.AERecognitionEventDateExtractor import AERecogExtractor 
-from Extractors.EventDate.SuspectRecognitionEventDateExtractor import SuspectRecogExtractor
+from Extractors.EventDate.AERecognitionEventDateExtractor import AERecognitionEventDateExtractor 
+from Extractors.EventDate.SuspectRecognitionEventDateExtractor import SuspectRecognitionEventDateExtractor
 from Assemblers.EventDateAssembler import EventDateAssembler
 from Extractors.Dosage.DosageRegExtractor import DosageRegExtractor 
 from Assemblers.DosageAssembler import DosageAssembler
@@ -63,7 +63,7 @@ def main(aRawTextFileName=None, aIntermediateXMLFileName=None, aConfigFile=None)
     preprocessOne = Preprocessor(rawTextFileName=rawTextFileName,intermediateXMLFileName=intermediateXMLFileName)
     configFile = configFileName
 
-    allAssemblerDict = {'Event Date':EventDateAssembler(rawTextFileName, intermediateXMLFileName), 'Dosage':DosageAssembler(rawTextFileName, intermediateXMLFileName), 'Age':AgeAssembler(rawTextFileName, intermediateXMLFileName)}
+    allAssemblerDict = {'Event Date':EventDateAssembler(rawTextFileName, intermediateXMLFileName)}#, 'Dosage':DosageAssembler(rawTextFileName, intermediateXMLFileName), 'Age':AgeAssembler(rawTextFileName, intermediateXMLFileName)}
 
 #Place to test new preprocess methods
     preprocessOne.getMetaMapConcepts()
@@ -75,20 +75,21 @@ def main(aRawTextFileName=None, aIntermediateXMLFileName=None, aConfigFile=None)
 
 #The following is to actually run the extractors
 
-    # config = json.load(open(configFile))
-    # entities = config.keys()
+    config = json.load(open(configFile))
+    entities = config.keys()
 
-    # for entity in entities:
-    #     if entity not in allAssemblerDict:
-    #         raise KeyError("An entity you entered doesn't exist")
-    #     else:
-    #         assemblerList.append((entity,allAssemblerDict[entity]))
+    for entity in entities:
+        if entity not in allAssemblerDict:
+            raise KeyError("An entity you entered doesn't exist")
+        else:
+            assemblerList.append((entity,allAssemblerDict[entity]))
     
-    # for name, assembler in assemblerList:
-    #     if config[name]:
-    #         assembler.setExtractorList(config[name])
-    #         assembler.runExtractors() 
-
+    for name, assembler in assemblerList:
+        if config[name]:
+            assembler.setExtractorList(config[name])
+            assembler.runExtractors() 
+            assembler.writeToSemiFinalXML()
+            assembler.launchTestSuite()
 # #Currently (as of 7-5-16), only the two following methods work. The other ones still need to be updated and integrated into the XML document
 #     output = preprocessOne.wordTokenizeText()
 #     posTagged = preprocessOne.posTaggedText()

@@ -2,7 +2,6 @@
 #import xmltodict
 import json
 import sys
-#import lxml.etree as ET
 import xml.etree.ElementTree as ET
 import xlwt
 from datetime import datetime
@@ -44,14 +43,18 @@ class Compare:
 
     #Class to compare annotated xml to program output xml
     def __init__(self, ann, out):
+        print 'from test.py ann: ', ann
+        print 'from test.py out: ', out
         #get and store the roots of each tree
         Compare.aroot = ET.parse(ann).getroot()
         Compare.oroot = ET.parse(out).getroot()
+        ET.dump(Compare.aroot)
+        ET.dump(Compare.oroot)
         Compare.fileName = out
 
     #call this function to write multiple drugs/reactions/etc to the excel file
     def multi_write_to_file(self):
-        rb = xlrd.open_workbook('dataOut.xls')
+        rb = xlrd.open_workbook('/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Test_Suite/Eval_Env/dataOut.xls')
         r_sheet = rb.sheet_by_index(0) 
         r = r_sheet.nrows
         if Compare.runCode is None:
@@ -79,11 +82,12 @@ class Compare:
                 sheet.write(r,8, Compare.di[key]['end'])
             r += 1
 
-        w.save('dataOut.xls')
+        w.save('/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Test_Suite/Eval_Env/dataOut.xls')
         #clear vars
         Compare.clearVars(self)
 
     def multi_compare(self, entity, extractor):
+
         atype = Compare.aroot.findall('.//'+entity)
         Compare.entity = entity
         for instance in atype:
@@ -104,9 +108,11 @@ class Compare:
         otype = Compare.oroot.findall('.//'+entity+'[@extractor=\''+extractor+'\']')
         for oinstance in otype:
             if oinstance is not None:
+                print("reached here")
                 Compare.psspan = oinstance.get('start')
                 Compare.pespan = oinstance.get('end')
                 Compare.pv = oinstance.text
+                print(Compare.pv)
                 if Compare.di.has_key(Compare.psspan) and Compare.di[Compare.psspan]['end'] == Compare.pespan:
                     Compare.di[Compare.psspan]['cv'] = 'TP'
                     Compare.di[Compare.psspan]['pvalue'] = Compare.pv
@@ -162,13 +168,15 @@ class Compare:
         atype = Compare.oroot.findall('.//'+entity+'[@extractor=\''+extractor+'\']')
         for instance in atype:
             if instance is not None:
+                print('instance: '),
                 Compare.pv = instance.text
                 Compare.psspan = instance.get('start')
                 Compare.pespan = instance.get('end')
+                print(Compare.pv)
 
     #write a single instance like age or weight to file
     def write_to_file(self):
-        rb = xlrd.open_workbook('dataOut.xls')
+        rb = xlrd.open_workbook('/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Test_Suite/Eval_Env/dataOut.xls')
         r_sheet = rb.sheet_by_index(0) 
         r = r_sheet.nrows
         if Compare.runCode is None:
@@ -186,7 +194,7 @@ class Compare:
         sheet.write(r,8, Compare.pespan)
         sheet.write(r,9, Compare.scval)
         sheet.write(r,10, Compare.lcval)
-        w.save('dataOut.xls')
+        w.save('/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Test_Suite/Eval_Env/dataOut.xls')
         #clear vars
         Compare.clearVars(self)
 
@@ -207,6 +215,6 @@ class Compare:
 
 
 #run some examples/tests
-comp = Compare('test.xml','output_sample.xml')
-comp.run_compare('AGE_COD', 'ageCodExtractor1')
-comp.multi_compare('DRUGNAME', 'drugExtractor1')
+comp = Compare('fda001.xml','fda001_EVENT_DT_Semifinal.xml')
+comp.run_compare('EVENT_DT', 'AERecognitionEventDateExtractor')
+#comp.multi_compare('DRUGNAME', 'drugExtractor1')

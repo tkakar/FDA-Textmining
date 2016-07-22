@@ -424,6 +424,10 @@ class Preprocessor(object):
         self.tree = ET.parse(self.xmlname)#, parser=XMLParser(encoding='utf-8'))
         self.root = self.tree.getroot()
 
+    def getRoot(self):
+        self.parseXML()
+        return self.root
+
     def placeOffsetInXML(self, phrase, tokenizedText,offset, span):
         """Takes a word/phrase and finds the globalIDs of the tokens in the intermediate XML that this word/phrase corresponds to. 
     

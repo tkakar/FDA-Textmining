@@ -59,9 +59,10 @@
 	<INDICATION_FILE>
 		<INDI_PT id="1" start="484" end="496">HYPERTENSION</INDI_PT>
 	</INDICATION_FILE>
-</ANNOTATIONS>
 <COMMENT>
 </COMMENT>
+</ANNOTATIONS>
+
 <!--
 
 	mark explicit unknown: UNK

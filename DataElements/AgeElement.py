@@ -10,4 +10,4 @@ class AgeElement(DataElement):
 
     def __init__(self, *args, **kwargs):
         """Calls the super"""
-        super(AgeElement, self).__init__(**kwargs)
+        super(AgeElement, self).__init__(*args, **kwargs)

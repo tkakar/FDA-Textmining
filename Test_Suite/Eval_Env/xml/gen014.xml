@@ -72,5 +72,5 @@
 		<INDI_PT id="1" start="2200" end="2210">Depression</INDI_PT>
 		<INDI_PT id="2" start="2416" end="2418">MI</INDI_PT>
 	</INDICATION_FILE>
-</ANNOTATIONS>
 <COMMENT></COMMENT>
+</ANNOTATIONS>

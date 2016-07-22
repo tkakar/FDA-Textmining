@@ -5,12 +5,15 @@ This module is an implementation of the Assembler class described in the archite
 Todo:
     * Go through this class and use the @property decorator and create getter/setter methods that way. 
 """
-
-from Extractors.EventDate.AERecognitionEventDateExtractor import AERecogExtractor
-from Extractors.EventDate.SuspectRecognitionEventDateExtractor import SuspectRecogExtractor
+from test import Compare
+from Extractors.EventDate.AERecognitionEventDateExtractor import AERecognitionEventDateExtractor
+from Extractors.EventDate.SuspectRecognitionEventDateExtractor import SuspectRecognitionEventDateExtractor
 from Extractors.EventDate.NaiveEventDateExtractor import NaiveExtractor 
+from Preprocessing.Preprocessor import Preprocessor
+from Assemblers.EntityAssembler import EntityAssembler
+import xml.etree.ElementTree as ET
 
-class EventDateAssembler(object):
+class EventDateAssembler(EntityAssembler):
     
     def __init__(self, rawTextFileName, intermediateXMLFileName, anExtractorList=[]):
         """
@@ -22,61 +25,20 @@ class EventDateAssembler(object):
         Returns:
             EventDateAssembler Object
         """
-        self.AllPossibleExtractorList = {"AERecogExtractor":AERecogExtractor(rawTextFileName, intermediateXMLFileName), "SuspectRecogExtractor":SuspectRecogExtractor(rawTextFileName, intermediateXMLFileName)}#, "NaiveEventDateExtractor":NaiveExtractor(rawTextFileName, intermediateXMLFileName)}
-        self.extractorList = anExtractorList
-        self.extractorObjList = []
-    def setExtractorList(self, aList):
-        """Sets the extractor list by searching the dictionary for corresponding python objects.
+        super(EventDateAssembler, self).__init__(rawTextFileName, intermediateXMLFileName, anExtractorList=[])
 
-        Args:
-            aList (list): the list from the config file to look up and initialize extractors
-            
-        Returns:
-            The created object list
-        """
-        self.extractorList = aList
-
-        for extractor in self.extractorList:
-            self.extractorObjList.append(self.AllPossibleExtractorList[extractor])
-            
-        return self.extractorObjList
-
-    def getAllPossibleExtractors(self):
-        """Gets the list of all possible extractors. Should really only be used for debugging. 
-
-        Args:
-            None
-            
-        Returns:
-            all possible extractor dictionary list
-        """
-        return self.AllPossibleExtractorList
-
-    def getExtractorObjList(self):
-        """Gets the list of objects created from looking up the config file strings in the dictionary
-
-        Args:
-            None
-            
-        Returns:
-            the list of extractor python objects 
-        """
-        return self.extractorObjList
-           
-    def runExtractors(self):
-        """Runs all the extractors and returns DataElements.
-        
-        Args:
-            None
-            
-        Returns:
-            list of EventDataElements (list)
-
-        TODO:
-            Actually make it return DataElement list and make sure that won't cause problems
-        """
-        for extractor in self.extractorObjList:
-            extractor.findDates()
-
+        self.AllPossibleExtractorList = {"AERecogExtractor":AERecognitionEventDateExtractor(rawTextFileName, intermediateXMLFileName), "SuspectRecogExtractor":SuspectRecognitionEventDateExtractor(rawTextFileName, intermediateXMLFileName)}
+        self.entityName = 'EVENT_DT'
+        self.filename = rawTextFileName
+        self.testCaseName = self.filename[self.filename.rfind(r'/') + 1:self.filename.rfind(r'.txt')]
+    
+    def launchTestSuite(self):
+        self.filename
+        # we need the annotation file and the program output file: Test_Suite/Eval_Env/xml/fda001.xml 
+        # and Test_Suite/Eval_Env/semifinal/fda001_EVENT_DT_Semifinal.xml
+        comp = Compare('Test_Suite/Eval_Env/xml/'+self.testCaseName+r'.xml', 'Test_Suite/Eval_Env/semifinal/'+self.testCaseName+'_'+self.entityName+'_'+r'Semifinal.xml')
+        #comp = Compare('../Test_Suite/Eval_Env/xml/'+self.testCaseName+r'.xml', '../Test_Suite/Eval_Env/semifinal/'+self.testCaseName+'_'+self.entityName+'_'+r'Semifinal.xml')
+        for element in self.dataElementList:
+            comp.run_compare(self.entityName, element.extractorName) 
 # def main():
 #     extractorHandler = EventDateExtractorHandler('../test_cases/fda001.txt')

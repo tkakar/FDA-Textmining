@@ -8,7 +8,7 @@ class RegExpExtractor(object):
         preprocess = Preprocessor(rawTextFileName, intermediateXMLFileName)
         self.Text = preprocess.rawText()
         
-    def findAge(self):
+    def findEntity(self):
 	extract_age = re.findall(r'.*([0-9]{2}).?(yrs|years|year).*',self.Text,re.IGNORECASE)
 	if not extract_age:
     		age="unknown"

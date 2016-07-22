@@ -7,73 +7,28 @@ Todo:
 """
 
 from Extractors.Dosage.DosageRegExtractor import DosageRegExtractor 
-
+from Preprocessing.Preprocessor import Preprocessor
+from Assemblers.EntityAssembler import EntityAssembler
+import xml.etree.ElementTree as ET
 
 class DosageAssembler(object):
-    
+
     def __init__(self, rawTextFileName, intermediateXMLFileName, anExtractorList=[]):
         """
-        Initializes the DosageAssembler and returns it. All Extractors for the Dosage DataElement must be specified in the list below. 
+        Initializes the EventDateAssembler and returns it. All Extractors for the Event Date DataElement must be specified in the list below. 
 
         Args:
-            anExtractorList (list): the list passed from the config file for Dosage
+            anExtractorList (list): the list passed from the config file for EventDate
         
         Returns:
-            DosageAssembler Object
+            EventDateAssembler Object
         """
+        super(DosageAssembler, self).__init__(rawTextFileName, intermediateXMLFileName, anExtractorList=[])
+
         self.AllPossibleExtractorList = {"DosageRegExtractor":DosageRegExtractor(rawTextFileName, intermediateXMLFileName)}
-        self.extractorList = anExtractorList
-        self.extractorObjList = []
+        #TODO: We need to figure out the best way to get this to work.
+        self.entityName = 'EVENT_DT'
 
-    def setExtractorList(self, aList):
-        """Sets the extractor list by searching the dictionary for corresponding python objects.
-
-        Args:
-            aList (list): the list from the config file to look up and initialize extractors
-            
-        Returns:
-            The created object list
-        """
-        self.extractorList = aList
-
-        for extractor in self.extractorList:
-            self.extractorObjList.append(self.AllPossibleExtractorList[extractor])
-            
-        return self.extractorObjList
-
-    def getAllPossibleExtractors(self):
-        """Gets the list of all possible extractors. Should really only be used for debugging. 
-
-        Args:
-            None
-            
-        Returns:
-            all possible extractor dictionary list
-        """
-        return self.AllPossibleExtractorList
-
-    def getExtractorObjList(self):
-        """Gets the list of objects created from looking up the config file strings in the dictionary
-
-        Args:
-            None
-            
-        Returns:
-            the list of extractor python objects 
-        """
-        return self.extractorObjList
-           
-    def runExtractors(self):
-        """Runs all the extractors and returns DataElements.
-        
-        Args:
-            None
-            
-        Returns:
-            list of EventDataElements (list)
-
-        TODO:
-            Actually make it return DataElement list and make sure that won't cause problems
-        """
-        for extractor in self.extractorObjList:
-            extractor.findDosages()
+    def lauchTestSuite(self):
+        pass
+    

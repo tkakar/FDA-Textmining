@@ -49,5 +49,5 @@
 	<INDICATION_FILE>
 		<INDI_PT id="0" start="485" end="500">type 2 diabetes</INDI_PT>
 	</INDICATION_FILE>
-</ANNOTATIONS>
 <COMMENT>Relationship between indication and suspect drug wasn't specified.</COMMENT>
+</ANNOTATIONS>

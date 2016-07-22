@@ -78,5 +78,7 @@ class AgeAssembler(object):
         for extractor in self.extractorObjList:
             extractor.findAge()
 
+
+    
 # def main():
 #     extractorHandler = EventDateExtractorHandler('../test_cases/fda001.txt')
