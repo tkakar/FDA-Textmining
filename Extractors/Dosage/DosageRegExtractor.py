@@ -1,5 +1,6 @@
 import re
 from Preprocessing.Preprocessor import Preprocessor
+from DataElements.DosageElement import DosageElement
 
 class DosageRegExtractor(object):
     
@@ -31,5 +32,5 @@ class DosageRegExtractor(object):
     		dosage_all.append(dosage.copy())
 
 	 print(dosage_all)
-
+	 # return DosageElement(" ".join(dosage_all), 0, "DosageRegExtractor")
          return True
