@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Semifinal Entity_Type="Drug">
+	<Entity>
+		<AGE start="50" end="52" extractor="ageExtractor1">71</AGE>
+		<INSTANCE>
+	      <DRUGNAME start="2" end="13" extractor="drugExtractor1">domperidone</DRUGNAME>
+        </INSTANCE>
+      	<INSTANCE>
+	      <DRUGNAME start="2" end="13" extractor="drugExtractor2">domperidone</DRUGNAME>
+        </INSTANCE>
+      	<INSTANCE>
+	      <DRUGNAME start="72" end="85" extractor="drugExtractor1">Taxol therapy</DRUGNAME>
+        </INSTANCE>
+        <INSTANCE>
+	      <DRUGNAME start="72" end="85" extractor="drugExtractor2">Taxol therapy</DRUGNAME>
+	    </INSTANCE>
+	</Entity>
+</Semifinal>
