@@ -8,8 +8,8 @@ from Preprocessing.Preprocessor import Preprocessor
 
 class AERecogExtractor(object): 
 
-    def __init__(self):
-        preprocess = Preprocessor()
+    def __init__(self, rawTextFileName, intermediateXMLFileName):
+        preprocess = Preprocessor(rawTextFileName, intermediateXMLFileName)
         self.tokens = preprocess.timexTagAndTokenizeText()
 #        print self.tokens
     def findDates(self):

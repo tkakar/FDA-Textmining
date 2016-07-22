@@ -1,0 +1,53 @@
+
+Case 1:
+This spontaneous report from a female patient concerns a 71-year-old Caucasian female. 
+The patient's weight was 160 pounds and height was 167.5 inches. Concurrent conditions included abdominal bloating, abdominal gas, abdominal pain, allergy to trees, belching (abdominal), diabetic paresis (coded as diabetic gastroparesis), no alcohol use, no smoking, and type 2 diabetes. 
+In 15-AUG-2014, the patient contacted her physician about the events and was prescribed an increased dosage of domperidone.  The patient reported the increased dose of domperidone had not relieved her worsening symptoms.  On 13-AUG-2014, the patient experienced not feeling well today. 
+
+age : 71 years
+gender : female
+weight : 160 pounds
+height : 167.5 inches
+Dates Mentioned : 15-AUG-2014, 13-AUG-2014
+
+age : 71 year
+weight : 160 pounds
+height : 167.5 inches
+Dates Mentioned : 15 AUG 2014, 13 AUG 2014
+----------------------------------------------------
+
+Case 2:
+A spontaneous report was received from a Health canada via Health professional concerning a Female patient 45 years old. The patient's weight was 120.5 pounds and height was 110 inches. 
+Concomitant medications included paracetamol, ramipril, amlodipine besilate, hydrochlorothiazide, candesartan cilexetil, levothyroxine sodium, ergocalciferol, ezetimibe, lisinopril, methylprednisolone, prednisone, sitagliptin phosphate, rosuvastatin calcium and levothyroxine sodium.Patients relevant history and concurrent disease were not available.
+A retrospective analysis of patients treated with sunitinib for metastatic renal cell cancer (mRCC) from 01-Oct-2007 until 01-Oct-2011 was performed. 
+
+age : 45 years
+gender : Female
+weight : 120.5 pounds
+height : 110 inches
+Dates Mentioned : 01-Oct-2007, 01-Oct-2011
+
+age : 45 years
+weight : 120.5 pounds
+height : 110 inches
+Dates Mentioned : 01 Oct 2007, 01 Oct 2011
+
+----------------------------------------------------
+
+Case 3:
+This spontaneous report was received from a consumer (patient's mother) and concerns a female patient of 25 years of age. 
+The patient's height and weight were 60 inches and 120 lbs. The patient's medical history and concurrent conditions included: Crohn's disease and gastroparesis. The reporter stated that the patient was treated with domperidone (route and formulation unspecified, batch unknown) dosage and frequency unspecified initiated on an unspecified date for gastroparesis and non-company suspect drug erythromycin (route and formulation unspecified) dosage and frequency unspecified initiated on an unspecified date for gastroparesis (possible drug interaction)
+
+age : 25 years
+gender : female
+weight : 120 pounds
+height : unknown
+Dates Mentioned : unknown
+
+age : 25 years
+weight : 120 lbs
+height : 60 inches
+
+Dates Mentioned : Unknown
+----------------------------------------------------
+

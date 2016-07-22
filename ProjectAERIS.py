@@ -37,6 +37,9 @@ from Assemblers.DrugnameAssembler import DrugnameAssembler
 
 import json
 
+#reload(sys)
+#sys.setdefaultencoding('utf-8')
+
 def main(aRawTextFileName=None, aIntermediateXMLFileName=None, aConfigFile=None):
     assemblerList = []
     if aRawTextFileName is None and aIntermediateXMLFileName is None:
@@ -44,18 +47,28 @@ def main(aRawTextFileName=None, aIntermediateXMLFileName=None, aConfigFile=None)
         sysArgs = sys.argv[1:]
         if len(sysArgs) >= 3:
             """when calling ProjectAeris, it should be done with a raw text file and an output xml file location as the first and second arguments respectively"""
-            preprocessOne = Preprocessor(rawTextFileName=sysArgs[0],intermediateXMLFileName=sysArgs[1])
-            configFile = sysArgs[2]
+
+            rawTextFileName = sysArgs[0]
+            intermediateXMLFileName = sysArgs[1]
+            configFileName  = sysArgs[2] 
+
         else:
             print "Missing some command-line arguments"
             return
-
-    else:
-        preprocessOne = Preprocessor(rawTextFileName=aRawTextFileName, intermediateXMLFileName=aIntermediateXMLFileName)
-        configFile = aConfigFile
-        print 'initial preprocess done!'
     
-    allAssemblerDict = {'Event Date':EventDateAssembler(), 'Dosage':DosageAssembler(), 'Age':AgeAssembler(), 'Drugname':DrugnameAssembler()}
+    else:
+        rawTextFileName = aRawTextFileName
+        intermediateXMLFileName = aIntermediateXMLFileName
+        configFileName = aConfigFile
+
+    print 'initial preprocess done!'
+    
+
+    preprocessOne = Preprocessor(rawTextFileName=rawTextFileName,intermediateXMLFileName=intermediateXMLFileName)
+    configFile = configFileName
+
+    allAssemblerDict = {'Event Date':EventDateAssembler(rawTextFileName, intermediateXMLFileName), 'Dosage':DosageAssembler(rawTextFileName, intermediateXMLFileName), 'Age':AgeAssembler(rawTextFileName, intermediateXMLFileName), 'Drugname':DrugnameAssembler(rawTextFileName, intermediateXMLFileName)}
+
 
 #Place to test new preprocess methods
     preprocessOne.getMetaMapConcepts()
@@ -67,19 +80,19 @@ def main(aRawTextFileName=None, aIntermediateXMLFileName=None, aConfigFile=None)
 
 #The following is to actually run the extractors
 
-    config = json.load(open(configFile))
-    entities = config.keys()
+    # config = json.load(open(configFile))
+    # entities = config.keys()
 
-    for entity in entities:
-        if entity not in allAssemblerDict:
-            raise KeyError("An entity you entered doesn't exist")
-        else:
-            assemblerList.append((entity,allAssemblerDict[entity]))
+    # for entity in entities:
+    #     if entity not in allAssemblerDict:
+    #         raise KeyError("An entity you entered doesn't exist")
+    #     else:
+    #         assemblerList.append((entity,allAssemblerDict[entity]))
     
-    for name, assembler in assemblerList:
-        if config[name]:
-            assembler.setExtractorList(config[name])
-            assembler.runExtractors() 
+    # for name, assembler in assemblerList:
+    #     if config[name]:
+    #         assembler.setExtractorList(config[name])
+    #         assembler.runExtractors() 
 
 # #Currently (as of 7-5-16), only the two following methods work. The other ones still need to be updated and integrated into the XML document
 #     output = preprocessOne.wordTokenizeText()

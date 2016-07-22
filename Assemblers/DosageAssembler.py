@@ -11,7 +11,7 @@ from Extractors.Dosage.DosageRegExtractor import DosageRegExtractor
 
 class DosageAssembler(object):
     
-    def __init__(self, anExtractorList=[]):
+    def __init__(self, rawTextFileName, intermediateXMLFileName, anExtractorList=[]):
         """
         Initializes the DosageAssembler and returns it. All Extractors for the Dosage DataElement must be specified in the list below. 
 
@@ -21,7 +21,7 @@ class DosageAssembler(object):
         Returns:
             DosageAssembler Object
         """
-        self.AllPossibleExtractorList = {"DosageRegExtractor":DosageRegExtractor()}
+        self.AllPossibleExtractorList = {"DosageRegExtractor":DosageRegExtractor(rawTextFileName, intermediateXMLFileName)}
         self.extractorList = anExtractorList
         self.extractorObjList = []
 

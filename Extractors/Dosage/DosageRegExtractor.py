@@ -4,8 +4,8 @@ from DataElements.DosageElement import DosageElement
 
 class DosageRegExtractor(object):
     
-    def __init__(self):
-        preprocess = Preprocessor()
+    def __init__(self,rawTextFileName, intermediateXMLFileName):
+        preprocess = Preprocessor(rawTextFileName, intermediateXMLFileName)
         self.Text = preprocess.rawText()
         
     def findDosages(self):

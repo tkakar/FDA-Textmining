@@ -11,7 +11,7 @@ from Extractors.Age.RegExpAgeExtractor import RegExpExtractor
 
 class AgeAssembler(object):
     
-    def __init__(self, anExtractorList=[]):
+    def __init__(self, rawTextFileName, intermediateXMLFileName, anExtractorList=[]):
         """
         Initializes the EventDateAssembler and returns it. All Extractors for the Event Date DataElement must be specified in the list below. 
 
@@ -21,7 +21,7 @@ class AgeAssembler(object):
         Returns:
             EventDateAssembler Object
         """
-        self.AllPossibleExtractorList = {"RegExpExtractor":RegExpExtractor()}
+        self.AllPossibleExtractorList = {"RegExpExtractor":RegExpExtractor(rawTextFileName, intermediateXMLFileName)}
         self.extractorList = anExtractorList
         self.extractorObjList = []
 
