@@ -2,7 +2,8 @@
 #import xmltodict
 import json
 import sys
-import lxml.etree as ET
+#import lxml.etree as ET
+import xml.etree.ElementTree as ET
 import xlwt
 from datetime import datetime
 from xlutils.copy import copy
@@ -83,7 +84,7 @@ class Compare:
         Compare.clearVars(self)
 
     def multi_compare(self, entity, extractor):
-        atype = Compare.aroot.xpath('.//'+entity)
+        atype = Compare.aroot.findall('.//'+entity)
         Compare.entity = entity
         for instance in atype:
             if instance is not None:
@@ -91,7 +92,7 @@ class Compare:
                 Compare.aespan = instance.get('end')
                 Compare.avc = instance.text
                 Compare.di[Compare.asspan] = {'end':Compare.aespan, 'value':Compare.avc, 'cv':'FN'}
-                corefs = instance.xpath('../COREF')
+                corefs = instance.findall('../COREF')
                 for coref in corefs:
 
                     Compare.asspan = coref.get('start')
@@ -100,7 +101,7 @@ class Compare:
 
 
         #address output
-        otype = Compare.oroot.xpath('.//'+entity+'[@extractor=\''+extractor+'\']')
+        otype = Compare.oroot.findall('.//'+entity+'[@extractor=\''+extractor+'\']')
         for oinstance in otype:
             if oinstance is not None:
                 Compare.psspan = oinstance.get('start')
@@ -148,7 +149,7 @@ class Compare:
             Compare.lcval = "TN"
 
     def run_ann(self, entity):
-        atype = Compare.aroot.xpath('.//'+entity)
+        atype = Compare.aroot.findall('.//'+entity)
         Compare.entity = entity
         for instance in atype:
             if instance is not None:
@@ -158,7 +159,7 @@ class Compare:
                 Compare.avc = instance.text
 
     def run_out(self, entity, extractor):
-        atype = Compare.oroot.xpath('.//'+entity+'[@extractor=\''+extractor+'\']')
+        atype = Compare.oroot.findall('.//'+entity+'[@extractor=\''+extractor+'\']')
         for instance in atype:
             if instance is not None:
                 Compare.pv = instance.text
