@@ -1,1 +1,1 @@
-{"Event Date" : ["AERecogExtractor", "SuspectRecogExtractor"],"Dosage" : ["DosageRegExtractor"], "Age" : ["AgeRegExtractor", "AgeNltkExtractor"], "Weight" : ["WeightRegExtractor", "WeightNltkExtractor"], "Gender" : ["GenderRegExtractor"]}
+{"Event Date" : ["AERecogExtractor", "SuspectRecogExtractor"],"Dosage" : ["DosageRegExtractor"], "Drugname":["DrugnameMetamapExtractor", "DrugnameRegExtractor"], "Age" : ["AgeRegExtractor", "AgeNltkExtractor"], "Weight" : ["WeightRegExtractor", "WeightNltkExtractor"], "Gender" : ["GenderRegExtractor"]}

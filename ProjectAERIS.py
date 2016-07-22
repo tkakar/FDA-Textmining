@@ -36,6 +36,10 @@ from Extractors.Weight.WeightNltkExtractor import WeightNltkExtractor
 from Assemblers.WeightAssembler import WeightAssembler
 from Extractors.Gender.GenderRegExtractor import GenderRegExtractor 
 from Assemblers.GenderAssembler import GenderAssembler
+from Extractors.Drugname.DrugnameMetamapExtractor import DrugnameMetamapExtractor 
+from Extractors.Drugname.DrugnameRegExtractor import DrugnameRegExtractor 
+from Assemblers.DrugnameAssembler import DrugnameAssembler 
+
 
 
 import json
@@ -70,7 +74,8 @@ def main(aRawTextFileName=None, aIntermediateXMLFileName=None, aConfigFile=None)
     preprocessOne = Preprocessor(rawTextFileName=rawTextFileName,intermediateXMLFileName=intermediateXMLFileName)
     configFile = configFileName
 
-    allAssemblerDict = {'Event Date':EventDateAssembler(rawTextFileName, intermediateXMLFileName), 'Dosage':DosageAssembler(rawTextFileName, intermediateXMLFileName), 'Age':AgeAssembler(rawTextFileName, intermediateXMLFileName), 'Weight':WeightAssembler(rawTextFileName, intermediateXMLFileName), 'Gender':GenderAssembler(rawTextFileName, intermediateXMLFileName)}
+    allAssemblerDict = {'Event Date':EventDateAssembler(rawTextFileName, intermediateXMLFileName), 'Dosage':DosageAssembler(rawTextFileName, intermediateXMLFileName), 'Drugname':DrugnameAssembler(rawTextFileName, intermediateXMLFileName), 'Age':AgeAssembler(rawTextFileName, intermediateXMLFileName), 'Weight':WeightAssembler(rawTextFileName, intermediateXMLFileName), 'Gender':GenderAssembler(rawTextFileName, intermediateXMLFileName)}
+
 
 #Place to test new preprocess methods
     preprocessOne.getMetaMapConcepts()
