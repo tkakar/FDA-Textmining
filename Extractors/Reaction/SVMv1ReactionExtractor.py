@@ -1,5 +1,5 @@
-import sys
-sys.path.append('/Users/xqin/Workspace/Code/FDA-Textmining/')
+#import sys,os
+#sys.path.append('/Users/xqin/Workspace/Code/FDA-Textmining/')
 
 import xml.etree.ElementTree as ET
 import hashlib
@@ -9,6 +9,7 @@ import pickle
 from sklearn import svm
 from operator import itemgetter
 from Extractors.Feature.FeatureExtractor import FeatureExtractor
+from DataElements.ReactionElement import ReactionElement
 from Preprocessing.Preprocessor import Preprocessor
 
 class SVMv1ReactionExtractor(object):
@@ -18,7 +19,7 @@ class SVMv1ReactionExtractor(object):
         preprocessor.posTaggedText()
         preprocessor.getParseTree()
         preprocessor.getMetaMapConcepts()
-        self.intermediateXML = intermediateXMLFileName
+        self.intermediate = intermediateXMLFileName
         self.vectors = []
     
     def clean(self):
@@ -53,7 +54,7 @@ class SVMv1ReactionExtractor(object):
                     token_vec.append([token[0].text,str[0],str[1],metamap_vector])
                     #token_vec.append([token[0].text,str[0],str[1]])
                     
-                tokens_pt = self.get_PhrasalClass(sentence.find("ParseTree").text)
+                tokens_pt = FE.get_PhrasalClass(sentence.find("ParseTree").text)
                 pretoken = ['','','']
                 
                 offset = 0
@@ -65,34 +66,34 @@ class SVMv1ReactionExtractor(object):
                     if pretoken[0] == '':
                         prevalue = -2
                     else:
-                        prevalue = self.GetPOSFeatureValue(pretoken[1])
+                        prevalue = FE.GetPOSFeatureValue(pretoken[1])
                         # feature
                     vector.append(tokeninfo)
                     vector += token_vec[offset][3]
-                    vector.append(self.GetPOSFeatureValue(token[1]))
-                    vector.append(self.GetPhrasalClassFeatureValue(token[2]))
+                    vector.append(FE.GetPOSFeatureValue(token[1]))
+                    vector.append(FE.GetPhrasalClassFeatureValue(token[2]))
                     vector.append(prevalue)
-                    vector.append(self.ContainCapitalLetter(token[0]))
-                    vector.append(self.ContainDigit(token[0]))
-                    vector.append(self.IsPunctuation(token[0]))
-                    vector.append(self.IsStartWithLetterEndWithNumber(token[0]))
-                    vector += self.GetPrefixValue(3, token[0])
-                    vector += self.GetSufixValue(3, token[0])
-                    vector += self.GetREFeatures(token[0])
-                    vector += self.GetPrefixSufixValue(4,token[0])
-                    vector += self.GetPrefixSufixValue(4,token[0])
-                    vector.append(self.GetDigitCollapsesValue(token[0]))
-                    vector.append(self.GetWordClassValue(token[0]))
+                    vector.append(FE.ContainCapitalLetter(token[0]))
+                    vector.append(FE.ContainDigit(token[0]))
+                    vector.append(FE.IsPunctuation(token[0]))
+                    vector.append(FE.IsStartWithLetterEndWithNumber(token[0]))
+                    vector += FE.GetPrefixValue(3, token[0])
+                    vector += FE.GetSufixValue(3, token[0])
+                    vector += FE.GetREFeatures(token[0])
+                    vector += FE.GetPrefixSufixValue(4,token[0])
+                    vector += FE.GetPrefixSufixValue(4,token[0])
+                    vector.append(FE.GetDigitCollapsesValue(token[0]))
+                    vector.append(FE.GetWordClassValue(token[0]))
                     pretoken = token
                     offset += 1
                     self.vectors.append(vector)
         return self.vectors
    
     def findReaction(self):
-        self.get_FeatureVector()
+        self.get_FeatureVector(self.intermediate)
         X = [f[1:] for f in self.vectors]
         
-        with open('../../Resources/svm.pkl', 'rb') as f:
+        with open('../../Resources/svm_reaction.pkl', 'rb') as f:
             clf = pickle.load(f)
             
         predictions = clf.predict(X)     
@@ -101,7 +102,7 @@ class SVMv1ReactionExtractor(object):
         Offsets = []
         
         offset = 0
-        print predictions
+        #print len(predictions)
         for label in predictions:
             if label == 1:
                 print self.vectors[offset][0]
@@ -110,3 +111,7 @@ class SVMv1ReactionExtractor(object):
             offset += 1
 
         return ReactionElement(Reactions, Offsets, "SVMv1ReactionExtractor")
+    
+#for filename in os.listdir("/Users/xqin/Workspace/Code/LearnPython/IntermediateFiles/"):
+#    t = SVMv1ReactionExtractor("ac","/Users/xqin/Workspace/Code/LearnPython/IntermediateFiles/"+filename)
+#    t.findReaction()
