@@ -27,12 +27,19 @@ from Extractors.EventDate.AERecognitionEventDateExtractor import AERecogExtracto
 from Extractors.EventDate.SuspectRecognitionEventDateExtractor import SuspectRecogExtractor
 from Assemblers.EventDateAssembler import EventDateAssembler
 from Extractors.Dosage.DosageRegExtractor import DosageRegExtractor 
-from Assemblers.DosageAssembler import DosageAssembler
-from Extractors.Age.RegExpAgeExtractor import RegExpExtractor 
+from Assemblers.DosageAssembler import DosageAssembler 
+from Extractors.Age.AgeRegExtractor import AgeRegExtractor 
+from Extractors.Age.AgeNltkExtractor import AgeNltkExtractor 
 from Assemblers.AgeAssembler import AgeAssembler
+from Extractors.Weight.WeightRegExtractor import WeightRegExtractor 
+from Extractors.Weight.WeightNltkExtractor import WeightNltkExtractor 
+from Assemblers.WeightAssembler import WeightAssembler
+from Extractors.Gender.GenderRegExtractor import GenderRegExtractor 
+from Assemblers.GenderAssembler import GenderAssembler
 from Extractors.Drugname.DrugnameMetamapExtractor import DrugnameMetamapExtractor 
 from Extractors.Drugname.DrugnameRegExtractor import DrugnameRegExtractor 
 from Assemblers.DrugnameAssembler import DrugnameAssembler 
+
 
 
 import json
@@ -67,7 +74,7 @@ def main(aRawTextFileName=None, aIntermediateXMLFileName=None, aConfigFile=None)
     preprocessOne = Preprocessor(rawTextFileName=rawTextFileName,intermediateXMLFileName=intermediateXMLFileName)
     configFile = configFileName
 
-    allAssemblerDict = {'Event Date':EventDateAssembler(rawTextFileName, intermediateXMLFileName), 'Dosage':DosageAssembler(rawTextFileName, intermediateXMLFileName), 'Age':AgeAssembler(rawTextFileName, intermediateXMLFileName), 'Drugname':DrugnameAssembler(rawTextFileName, intermediateXMLFileName)}
+    allAssemblerDict = {'Event Date':EventDateAssembler(rawTextFileName, intermediateXMLFileName), 'Dosage':DosageAssembler(rawTextFileName, intermediateXMLFileName), 'Drugname':DrugnameAssembler(rawTextFileName, intermediateXMLFileName), 'Age':AgeAssembler(rawTextFileName, intermediateXMLFileName), 'Weight':WeightAssembler(rawTextFileName, intermediateXMLFileName), 'Gender':GenderAssembler(rawTextFileName, intermediateXMLFileName)}
 
 
 #Place to test new preprocess methods
@@ -80,19 +87,19 @@ def main(aRawTextFileName=None, aIntermediateXMLFileName=None, aConfigFile=None)
 
 #The following is to actually run the extractors
 
-    # config = json.load(open(configFile))
-    # entities = config.keys()
+    config = json.load(open(configFile))
+    entities = config.keys()
 
-    # for entity in entities:
-    #     if entity not in allAssemblerDict:
-    #         raise KeyError("An entity you entered doesn't exist")
-    #     else:
-    #         assemblerList.append((entity,allAssemblerDict[entity]))
+    for entity in entities:
+        if entity not in allAssemblerDict:
+            raise KeyError("An entity you entered doesn't exist")
+        else:
+            assemblerList.append((entity,allAssemblerDict[entity]))
     
-    # for name, assembler in assemblerList:
-    #     if config[name]:
-    #         assembler.setExtractorList(config[name])
-    #         assembler.runExtractors() 
+    for name, assembler in assemblerList:
+        if config[name]:
+            assembler.setExtractorList(config[name])
+            assembler.runExtractors() 
 
 # #Currently (as of 7-5-16), only the two following methods work. The other ones still need to be updated and integrated into the XML document
 #     output = preprocessOne.wordTokenizeText()
