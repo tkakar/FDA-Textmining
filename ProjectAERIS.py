@@ -30,6 +30,10 @@ from Extractors.Dosage.DosageRegExtractor import DosageRegExtractor
 from Assemblers.DosageAssembler import DosageAssembler
 from Extractors.Age.RegExpAgeExtractor import RegExpExtractor 
 from Assemblers.AgeAssembler import AgeAssembler
+from Extractors.Drugname.DrugnameMetamapExtractor import DrugnameMetamapExtractor 
+from Extractors.Drugname.DrugnameRegExtractor import DrugnameRegExtractor 
+from Assemblers.DrugnameAssembler import DrugnameAssembler 
+
 
 import json
 
@@ -63,7 +67,8 @@ def main(aRawTextFileName=None, aIntermediateXMLFileName=None, aConfigFile=None)
     preprocessOne = Preprocessor(rawTextFileName=rawTextFileName,intermediateXMLFileName=intermediateXMLFileName)
     configFile = configFileName
 
-    allAssemblerDict = {'Event Date':EventDateAssembler(rawTextFileName, intermediateXMLFileName), 'Dosage':DosageAssembler(rawTextFileName, intermediateXMLFileName), 'Age':AgeAssembler(rawTextFileName, intermediateXMLFileName)}
+    allAssemblerDict = {'Event Date':EventDateAssembler(rawTextFileName, intermediateXMLFileName), 'Dosage':DosageAssembler(rawTextFileName, intermediateXMLFileName), 'Age':AgeAssembler(rawTextFileName, intermediateXMLFileName), 'Drugname':DrugnameAssembler(rawTextFileName, intermediateXMLFileName)}
+
 
 #Place to test new preprocess methods
     preprocessOne.getMetaMapConcepts()
