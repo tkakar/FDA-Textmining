@@ -21,64 +21,68 @@ class AgeAssembler(object):
         Returns:
             EventDateAssembler Object
         """
+        super(EventDateAssembler, self).__init__(rawTextFileName, intermediateXMLFileName, anExtractorList=[])
+
         self.AllPossibleExtractorList = {"RegExpExtractor":RegExpExtractor(rawTextFileName, intermediateXMLFileName)}
-        self.extractorList = anExtractorList
-        self.extractorObjList = []
+        self.entityName = 'AGE'
+        self.filename = rawTextFileName
+        self.testCaseName = self.filename[self.filename.rfind(r'/') + 1:self.filename.rfind(r'.txt')]
 
-    def setExtractorList(self, aList):
-        """Sets the extractor list by searching the dictionary for corresponding python objects.
+    def launchTestSuite(self):
+        self.filename
+        # we need the annotation file and the program output file: Test_Suite/Eval_Env/xml/fda001.xml 
+        # and Test_Suite/Eval_Env/semifinal/fda001_EVENT_DT_Semifinal.xml
+        comp = Compare('Test_Suite/Eval_Env/xml/'+self.testCaseName+r'.xml', 'Test_Suite/Eval_Env/semifinal/'+self.testCaseName+'_'+self.entityName+'_'+r'Semifinal.xml')
+        #comp = Compare('../Test_Suite/Eval_Env/xml/'+self.testCaseName+r'.xml', '../Test_Suite/Eval_Env/semifinal/'+self.testCaseName+'_'+self.entityName+'_'+r'Semifinal.xml')
+        for element in self.dataElementList:
+            comp.run_compare(self.entityName, element.extractorName) 
 
-        Args:
-            aList (list): the list from the config file to look up and initialize extractors
-            
-        Returns:
-            The created object list
-        """
-        self.extractorList = aList
 
-        for extractor in self.extractorList:
-            self.extractorObjList.append(self.AllPossibleExtractorList[extractor])
-            
-        return self.extractorObjList
+    def writeToSemiFinalXML(self):
 
-    def getAllPossibleExtractors(self):
-        """Gets the list of all possible extractors. Should really only be used for debugging. 
-
-        Args:
-            None
-            
-        Returns:
-            all possible extractor dictionary list
-        """
-        return self.AllPossibleExtractorList
-
-    def getExtractorObjList(self):
-        """Gets the list of objects created from looking up the config file strings in the dictionary
-
-        Args:
-            None
-            
-        Returns:
-            the list of extractor python objects 
-        """
-        return self.extractorObjList
-           
-    def runExtractors(self):
-        """Runs all the extractors and returns DataElements.
+        filename = self.filename
+        filename = filename[:filename.rfind('.txt')]
+        testCaseName = filename[filename.rfind(r'/') + 1:]
         
-        Args:
-            None
-            
-        Returns:
-            list of EventDataElements (list)
+        outputXMLFN = 'Test_Suite/Eval_Env/semifinal/'+testCaseName+'_'+self.entityName+'_Semifinal.xml'
 
-        TODO:
-            Actually make it return DataElement list and make sure that won't cause problems
-        """
-        for extractor in self.extractorObjList:
-            extractor.findAge()
+        defXML = open('Test_Suite/XML/XML.xml')
+        etree = ET.parse(defXML)
+        root = etree.getroot()
+        
+        root.attrib['textSource'] = filename
+        root.attrib['annotator'] = 'Project MEFA Program'
+#############################
+    #You can do for each here and this should work maybe?... This sucks
 
+#########################        
+        for dataelements in self.dataElementList:
+            if isinstance(dataelements, list):
+                for dataelement in dataelements:
+                    self.xmlWriterHelper(dataelement, root)
+            else:
+                self.xmlWriterHelper(dataelements, root)
 
+        #We had to remove this and not use self.entityName because each returned element in self.dataElementList has more than one dataElement (each extractor returns more than one item)
+        #edElem = root.find(self.entityName)
+
+        etree.write(outputXMLFN)
+        
+    def xmlWriterHelper(self, element, root):
+        elem = ET.Element(element.entityName)
+
+        start = str(dataelement.charOffset[0][0])
+        end = str(dataelement.charOffset[-1][1])
+
+        elem.attrib['start'] = start
+        elem.attrib['end'] = end
+        elem.attrib['extractor'] = dataelement.extractorName
+        elem.text = dataelement.extractedField
+
+        entityParent = root.findall('.//'+element.entityName+'/..')
+        entityParent.append(elem)
+
+        return root
     
 # def main():
 #     extractorHandler = EventDateExtractorHandler('../test_cases/fda001.txt')
