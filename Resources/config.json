@@ -1,5 +1,2 @@
-<<<<<<< HEAD
-{"Event Date" : ["AERecogExtractor", "SuspectRecogExtractor"] ,"Dosage" : ["DosageRegExtractor"], "Age" : ["RegExpExtractor"]}
-=======
 {"Event Date" : ["AERecogExtractor", "SuspectRecogExtractor"],"Dosage" : ["DosageRegExtractor"], "Drugname":["DrugnameMetamapExtractor", "DrugnameRegExtractor"], "Age" : ["AgeRegExtractor", "AgeNltkExtractor"], "Weight" : ["WeightRegExtractor", "WeightNltkExtractor"], "Gender" : ["GenderRegExtractor"]}
->>>>>>> 0b5f9791bb3f6fab0fe6c2116cb48a05bc874076
+

@@ -5,7 +5,6 @@ This module is an implementation of the Assembler class described in the archite
 Todo:
     * Go through this class and use the @property decorator and create getter/setter methods that way. 
 """
-from test import Compare
 from Extractors.EventDate.AERecognitionEventDateExtractor import AERecognitionEventDateExtractor
 from Extractors.EventDate.SuspectRecognitionEventDateExtractor import SuspectRecognitionEventDateExtractor
 from Extractors.EventDate.NaiveEventDateExtractor import NaiveExtractor 
@@ -32,13 +31,6 @@ class EventDateAssembler(EntityAssembler):
         self.filename = rawTextFileName
         self.testCaseName = self.filename[self.filename.rfind(r'/') + 1:self.filename.rfind(r'.txt')]
     
-    def launchTestSuite(self):
-        self.filename
-        # we need the annotation file and the program output file: Test_Suite/Eval_Env/xml/fda001.xml 
-        # and Test_Suite/Eval_Env/semifinal/fda001_EVENT_DT_Semifinal.xml
-        comp = Compare('Test_Suite/Eval_Env/xml/'+self.testCaseName+r'.xml', 'Test_Suite/Eval_Env/semifinal/'+self.testCaseName+'_'+self.entityName+'_'+r'Semifinal.xml')
-        #comp = Compare('../Test_Suite/Eval_Env/xml/'+self.testCaseName+r'.xml', '../Test_Suite/Eval_Env/semifinal/'+self.testCaseName+'_'+self.entityName+'_'+r'Semifinal.xml')
-        for element in self.dataElementList:
-            comp.run_compare(self.entityName, element.extractorName) 
+    
 # def main():
 #     extractorHandler = EventDateExtractorHandler('../test_cases/fda001.txt')

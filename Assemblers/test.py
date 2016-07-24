@@ -48,7 +48,6 @@ class Compare:
         #get and store the roots of each tree
         Compare.aroot = ET.parse(ann).getroot()
         Compare.oroot = ET.parse(out).getroot()
-        ET.dump(Compare.aroot)
         ET.dump(Compare.oroot)
         Compare.fileName = out
 
@@ -108,11 +107,9 @@ class Compare:
         otype = Compare.oroot.findall('.//'+entity+'[@extractor=\''+extractor+'\']')
         for oinstance in otype:
             if oinstance is not None:
-                print("reached here")
                 Compare.psspan = oinstance.get('start')
                 Compare.pespan = oinstance.get('end')
                 Compare.pv = oinstance.text
-                print(Compare.pv)
                 if Compare.di.has_key(Compare.psspan) and Compare.di[Compare.psspan]['end'] == Compare.pespan:
                     Compare.di[Compare.psspan]['cv'] = 'TP'
                     Compare.di[Compare.psspan]['pvalue'] = Compare.pv
@@ -168,11 +165,9 @@ class Compare:
         atype = Compare.oroot.findall('.//'+entity+'[@extractor=\''+extractor+'\']')
         for instance in atype:
             if instance is not None:
-                print('instance: '),
                 Compare.pv = instance.text
                 Compare.psspan = instance.get('start')
                 Compare.pespan = instance.get('end')
-                print(Compare.pv)
 
     #write a single instance like age or weight to file
     def write_to_file(self):

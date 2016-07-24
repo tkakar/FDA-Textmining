@@ -4,7 +4,7 @@
       <AGE_SET>
          <AGE end="" start="" />
          <AGE_COD end="" start="" />
-      </AGE_SET>
+      <AGE end="2159" extractor="AgeRegExtrator" start="2158">6</AGE><AGE_COD end="2166" extractor="AgeRegExtrator" start="2160">MON</AGE_COD><AGE end="2159" extractor="AgeRegExtrator" start="2158">6</AGE><AGE_COD end="2166" extractor="AgeRegExtrator" start="2160">MON</AGE_COD></AGE_SET>
       <WT_SET>
          <WT end="" start="" />
          <WT_COD end="" start="" />
@@ -42,4 +42,4 @@
       </INSTANCE>
    </INDICATION_FILE>
    <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
-<EVENT_DT end="217" extractor="AERecognitionEventDateExtractor" start="206">August 2014</EVENT_DT></ANNOTATIONS>
+</ANNOTATIONS>

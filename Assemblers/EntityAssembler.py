@@ -11,6 +11,7 @@ from Extractors.EventDate.SuspectRecognitionEventDateExtractor import SuspectRec
 from Extractors.EventDate.NaiveEventDateExtractor import NaiveExtractor 
 from Preprocessing.Preprocessor import Preprocessor
 import xml.etree.ElementTree as ET
+from test import Compare
 
 class EntityAssembler(object):
     
@@ -84,9 +85,22 @@ class EntityAssembler(object):
         for extractor in self.extractorObjList:
             ev_dataElem = extractor.findEntity()
 
-            if ev_dataElem and ev_dataElem.charOffset:
+            hasCharOffsetFlag = True
+            if isinstance(ev_dataElem, (list, tuple)):
+                for entity in ev_dataElem:
+                    if not ev_dataElem and ev_dataElem.charOffset:
+                        hasCharOffsetFlag = False
+
+                if hasCharOffsetFlag:
+                    self.dataElementList.append(ev_dataElem)
+
+            elif ev_dataElem and ev_dataElem.charOffset:
                 self.dataElementList.append(ev_dataElem)
             
+   
+# def main():
+#     extractorHandler = EventDateExtractorHandler('../test_cases/fda001.txt')
+
     def writeToSemiFinalXML(self):
 
         filename = self.filename
@@ -101,24 +115,54 @@ class EntityAssembler(object):
         
         root.attrib['textSource'] = filename
         root.attrib['annotator'] = 'Project MEFA Program'
+      
+        print "this is the dataelementlist: ", self.dataElementList
+        for dataelements in self.dataElementList:
+            if isinstance(dataelements, list):
+                for dataelement in dataelements:
+                    root = self.xmlWriterHelper(dataelement, root)
+            else:
+                root = self.xmlWriterHelper(dataelements, root)
 
-        edElem = root.find(self.entityName)
-        
-        #edElem.attrib['
-        for dataelement in self.dataElementList:
-
-            elem = ET.Element(self.entityName)
-            start = str(dataelement.charOffset[0][0])
-            end = str(dataelement.charOffset[-1][1])
-                
-            elem.attrib['start'] = start
-            elem.attrib['end'] = end
-            elem.attrib['extractor'] = dataelement.extractorName
-            elem.text = dataelement.extractedField
-                
-            root.append(elem)
-
+        #We had to remove this and not use self.entityName because each returned element in self.dataElementList has more than one dataElement (each extractor returns more than one item)
+        #edElem = root.find(self.entityName)
+        etree._setroot(root)
         etree.write(outputXMLFN)
         
-# def main():
-#     extractorHandler = EventDateExtractorHandler('../test_cases/fda001.txt')
+    def xmlWriterHelper(self, element, root):
+        elem = ET.Element(element.entityName)
+        print "thsi is the type of the charOffset: ", element.charOffset, type(element.charOffset)
+        if isinstance(element.charOffset, tuple):
+            start = str(element.charOffset[0])
+            end = str(element.charOffset[1])
+        else:
+            start = str(element.charOffset[0][0])
+            end = str(element.charOffset[-1][1])
+
+        elem.attrib['start'] = start
+        elem.attrib['end'] = end
+        elem.attrib['extractor'] = element.extractorName
+        elem.text = element.extractedField
+
+        print "this is the element.entityname: ", element.entityName
+        entityParent = root.find('.//'+element.entityName+'/..')
+        entityParent.append(elem)
+
+        print "I;m not sure this works!!!!!:::::", ET.dump(root)
+        
+        return root
+
+    def launchTestSuite(self):
+        self.filename
+        # we need the annotation file and the program output file: Test_Suite/Eval_Env/xml/fda001.xml 
+        # and Test_Suite/Eval_Env/semifinal/fda001_EVENT_DT_Semifinal.xml
+        comp = Compare('Test_Suite/Eval_Env/xml/'+self.testCaseName+r'.xml', 'Test_Suite/Eval_Env/semifinal/'+self.testCaseName+'_'+self.entityName+'_'+r'Semifinal.xml')
+        #comp = Compare('../Test_Suite/Eval_Env/xml/'+self.testCaseName+r'.xml', '../Test_Suite/Eval_Env/semifinal/'+self.testCaseName+'_'+self.entityName+'_'+r'Semifinal.xml')
+        for elements in self.dataElementList:
+            if isinstance(elements, list):
+                for dataelement in elements:
+                    comp.run_compare(dataelement.entityName, dataelement.extractorName) 
+            else:
+                comp.run_compare(elements.entityName, elements.extractorName) 
+            
+

@@ -11,7 +11,7 @@ from Preprocessing.Preprocessor import Preprocessor
 from Assemblers.EntityAssembler import EntityAssembler
 import xml.etree.ElementTree as ET
 
-class DosageAssembler(object):
+class DosageAssembler(EntityAssembler):
 
     def __init__(self, rawTextFileName, intermediateXMLFileName, anExtractorList=[]):
         """
@@ -28,48 +28,5 @@ class DosageAssembler(object):
         self.AllPossibleExtractorList = {"DosageRegExtractor":DosageRegExtractor(rawTextFileName, intermediateXMLFileName)}
         #TODO: We need to figure out the best way to get this to work.
         self.entityName = 'DOSAGE'
-
-    def launchTestSuite(self):
-        self.filename
-        # we need the annotation file and the program output file: Test_Suite/Eval_Env/xml/fda001.xml 
-        # and Test_Suite/Eval_Env/semifinal/fda001_EVENT_DT_Semifinal.xml
-        comp = Compare('Test_Suite/Eval_Env/xml/'+self.testCaseName+r'.xml', 'Test_Suite/Eval_Env/semifinal/'+self.testCaseName+'_'+self.entityName+'_'+r'Semifinal.xml')
-        #comp = Compare('../Test_Suite/Eval_Env/xml/'+self.testCaseName+r'.xml', '../Test_Suite/Eval_Env/semifinal/'+self.testCaseName+'_'+self.entityName+'_'+r'Semifinal.xml')
-        for element in self.dataElementList:
-            comp.run_compare(self.entityName, element.extractorName) 
-
-
-    def writeToSemiFinalXML(self):
-
-        filename = self.filename
-        filename = filename[:filename.rfind('.txt')]
-        testCaseName = filename[filename.rfind(r'/') + 1:]
-        
-        outputXMLFN = 'Test_Suite/Eval_Env/semifinal/'+testCaseName+'_'+self.entityName+'_Semifinal.xml'
-
-        defXML = open('Test_Suite/XML/XML.xml')
-        etree = ET.parse(defXML)
-        root = etree.getroot()
-        
-        root.attrib['textSource'] = filename
-        root.attrib['annotator'] = 'Project MEFA Program'
-
-        for 
-        edElem = root.find(self.entityName)
-        
-        #edElem.attrib['
-        for dataelement in self.dataElementList:
-
-            elem = ET.Element(self.entityName)
-            start = str(dataelement.charOffset[0][0])
-            end = str(dataelement.charOffset[-1][1])
-                
-            elem.attrib['start'] = start
-            elem.attrib['end'] = end
-            elem.attrib['extractor'] = dataelement.extractorName
-            elem.text = dataelement.extractedField
-                
-            root.append(elem)
-
-        etree.write(outputXMLFN)
-        
+        self.filename = rawTextFileName
+        self.testCaseName = self.filename[self.filename.rfind(r'/') + 1:self.filename.rfind(r'.txt')]

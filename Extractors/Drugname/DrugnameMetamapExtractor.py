@@ -5,8 +5,8 @@ from pymetamap import MetaMap
 
 class DrugnameMetamapExtractor(object):
     
-    def __init__(self):
-        preprocess = Preprocessor()
+    def __init__(self, rawTextFileName, intermediateXMLFileName):
+        preprocess = Preprocessor(rawTextFileName, intermediateXMLFileName)
         self.Text = preprocess.rawText()
         
     def findDrugnames(self):

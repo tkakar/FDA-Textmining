@@ -8,72 +8,23 @@ Todo:
 
 from Extractors.Drugname.DrugnameMetamapExtractor import DrugnameMetamapExtractor 
 from Extractors.Drugname.DrugnameRegExtractor import DrugnameRegExtractor 
+from Assemblers.EntityAssembler import EntityAssembler
 
-class DrugnameAssembler(object):
+class DrugnameAssembler(EntityAssembler):
     
-    def __init__(self, anExtractorList=[]):
+    def __init__(self, rawTextFileName, intermediateXMLFileName, anExtractorList=[]):
         """
-        Initializes the DosageAssembler and returns it. All Extractors for the Dosage DataElement must be specified in the list below. 
+        Initializes the EventDateAssembler and returns it. All Extractors for the Event Date DataElement must be specified in the list below. 
 
         Args:
-            anExtractorList (list): the list passed from the config file for Dosage
+            anExtractorList (list): the list passed from the config file for EventDate
         
         Returns:
-            DosageAssembler Object
+            EventDateAssembler Object
         """
-        self.AllPossibleExtractorList = {"DrugnameMetamapExtractor":DrugnameMetamapExtractor (),"DrugnameRegExtractor":DrugnameRegExtractor ()}
-        self.extractorList = anExtractorList
-        self.extractorObjList = []
+        super(DrugnameAssembler, self).__init__(rawTextFileName, intermediateXMLFileName, anExtractorList=[])
 
-    def setExtractorList(self, aList):
-        """Sets the extractor list by searching the dictionary for corresponding python objects.
-
-        Args:
-            aList (list): the list from the config file to look up and initialize extractors
-            
-        Returns:
-            The created object list
-        """
-        self.extractorList = aList
-
-        for extractor in self.extractorList:
-            self.extractorObjList.append(self.AllPossibleExtractorList[extractor])
-            
-        return self.extractorObjList
-
-    def getAllPossibleExtractors(self):
-        """Gets the list of all possible extractors. Should really only be used for debugging. 
-
-        Args:
-            None
-            
-        Returns:
-            all possible extractor dictionary list
-        """
-        return self.AllPossibleExtractorList
-
-    def getExtractorObjList(self):
-        """Gets the list of objects created from looking up the config file strings in the dictionary
-
-        Args:
-            None
-            
-        Returns:
-            the list of extractor python objects 
-        """
-        return self.extractorObjList
-           
-    def runExtractors(self):
-        """Runs all the extractors and returns DataElements.
-        
-        Args:
-            None
-            
-        Returns:
-            list of DrugnameDataElements (list)
-
-        TODO:
-            Actually make it return DataElement list and make sure that won't cause problems
-        """
-        for extractor in self.extractorObjList:
-            extractor.findDrugnames()
+        self.AllPossibleExtractorList = {"DrugnameMetamapExtractor":DrugnameMetamapExtractor (rawTextFileName, intermediateXMLFileName),"DrugnameRegExtractor":DrugnameRegExtractor (rawTextFileName, intermediateXMLFileName)}
+        self.entityName = 'DRUGNAME'
+        self.filename = rawTextFileName
+        self.testCaseName = self.filename[self.filename.rfind(r'/') + 1:self.filename.rfind(r'.txt')]

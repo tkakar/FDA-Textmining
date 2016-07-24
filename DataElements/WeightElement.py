@@ -10,4 +10,4 @@ class WeightElement(DataElement):
 
     def __init__(self, *args, **kwargs):
         """Calls the super"""
-        super(WeightElement, self).__init__(**kwargs)
+        super(WeightElement, self).__init__(*args, **kwargs)
