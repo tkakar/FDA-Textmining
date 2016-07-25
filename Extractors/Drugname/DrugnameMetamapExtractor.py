@@ -36,5 +36,5 @@ class DrugnameMetamapExtractor(object):
 				#print ("token= "+token, " SemType= " +semType, " Offset= "+offset)
 			break;
 	print ("DrugnameMetamap: " +token)
-	return DrugnameElement("".join(token), offset, "DrugnameMetamapExtractor")
+	return DrugnameElement("".join(token), offset, "DrugnameMetamapExtractor", "DRUGNAME")
 	#return True
