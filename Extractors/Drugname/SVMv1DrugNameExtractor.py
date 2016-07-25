@@ -89,11 +89,12 @@ class SVMv1DrugNameExtractor(object):
                     self.vectors.append(vector)
         return self.vectors
    
-    def findDrugName(self):
+    def findEntity(self):
         self.get_FeatureVector(self.intermediate)
         X = [f[1:] for f in self.vectors]
         
-        with open('../../Resources/svm_drugname.pkl', 'rb') as f:
+        with open('Resources/svm_drugname.pkl', 'rb') as f:
+        #with open('../../Resources/svm_drugname.pkl', 'rb') as f:
             clf = pickle.load(f)
             
         predictions = clf.predict(X)     
@@ -110,7 +111,11 @@ class SVMv1DrugNameExtractor(object):
                 Offsets.append([self.vectors[offset][0][1],self.vectors[offset][0][2]])
             offset += 1
 
-        return DrugnameElement(DrugNames, Offsets, "SVMv1DrugNameExtractor")
+        drugNameElementList = []
+        for x,y in DrugNames,Offsets:
+            drugNameElementList.append(DrugnameElement(x, y, "SVMv1DrugNameExtractor", "DRUGNAME"))
+
+        return drugNameElementList
     
 #for filename in os.listdir("/Users/xqin/Workspace/Code/LearnPython/IntermediateFiles/"):
 #    t = SVMv1DrugNameExtractor("ac","/Users/xqin/Workspace/Code/LearnPython/IntermediateFiles/"+filename)

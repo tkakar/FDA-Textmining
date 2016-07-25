@@ -83,4 +83,9 @@ class AERecognitionEventDateExtractor(object):
         
         offsetList = self.preprocess.offsetParse(";".join(offsets), delimiter=";")
         
-        return EventDateElement(" ".join(date), offsetList, "AERecognitionEventDateExtractor", 'EVENT_DT')
+        print " ".join(date), offsetList
+        # 
+        if not offsetList:
+            return EventDateElement(" ".join(date),[[]], "AERecognitionEventDateExtractor", 'EVENT_DT')
+        else:
+            return EventDateElement(" ".join(date), offsetList, "AERecognitionEventDateExtractor", 'EVENT_DT')

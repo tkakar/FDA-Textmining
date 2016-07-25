@@ -8,6 +8,8 @@ Todo:
 
 from Extractors.Weight.WeightRegExtractor import WeightRegExtractor
 from Extractors.Weight.WeightNltkExtractor import WeightNltkExtractor
+from Extractors.Weight.SVMv1WeightExtractor import SVMv1WeightExtractor
+
 from Assemblers.EntityAssembler import EntityAssembler
 
 class WeightAssembler(EntityAssembler):
@@ -24,7 +26,7 @@ class WeightAssembler(EntityAssembler):
         """
         super(WeightAssembler, self).__init__(rawTextFileName, intermediateXMLFileName, anExtractorList=[])
 
-        self.AllPossibleExtractorList = {"WeightRegExtractor":WeightRegExtractor(rawTextFileName, intermediateXMLFileName), "WeightNltkExtractor":WeightNltkExtractor(rawTextFileName, intermediateXMLFileName)}
+        self.AllPossibleExtractorList = {"WeightRegExtractor":WeightRegExtractor(rawTextFileName, intermediateXMLFileName), "WeightNltkExtractor":WeightNltkExtractor(rawTextFileName, intermediateXMLFileName), "SVMv1WeightExtractor":SVMv1WeightExtractor(rawTextFileName, intermediateXMLFileName)}
         self.entityName = 'WT_SET'
         self.filename = rawTextFileName
         self.testCaseName = self.filename[self.filename.rfind(r'/') + 1:self.filename.rfind(r'.txt')]

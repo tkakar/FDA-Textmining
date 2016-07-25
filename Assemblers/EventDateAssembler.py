@@ -7,7 +7,8 @@ Todo:
 """
 from Extractors.EventDate.AERecognitionEventDateExtractor import AERecognitionEventDateExtractor
 from Extractors.EventDate.SuspectRecognitionEventDateExtractor import SuspectRecognitionEventDateExtractor
-from Extractors.EventDate.NaiveEventDateExtractor import NaiveExtractor 
+from Extractors.EventDate.NaiveEventDateExtractor import NaiveEventDateExtractor 
+from Extractors.EventDate.SVMv1EventDateExtractor import SVMv1EventDateExtractor
 from Preprocessing.Preprocessor import Preprocessor
 from Assemblers.EntityAssembler import EntityAssembler
 import xml.etree.ElementTree as ET
@@ -26,7 +27,7 @@ class EventDateAssembler(EntityAssembler):
         """
         super(EventDateAssembler, self).__init__(rawTextFileName, intermediateXMLFileName, anExtractorList=[])
 
-        self.AllPossibleExtractorList = {"AERecogExtractor":AERecognitionEventDateExtractor(rawTextFileName, intermediateXMLFileName), "SuspectRecogExtractor":SuspectRecognitionEventDateExtractor(rawTextFileName, intermediateXMLFileName)}
+        self.AllPossibleExtractorList = {"AERecogExtractor":AERecognitionEventDateExtractor(rawTextFileName, intermediateXMLFileName), "SuspectRecogExtractor":SuspectRecognitionEventDateExtractor(rawTextFileName, intermediateXMLFileName), "SVMv1EventDateExtractor":SVMv1EventDateExtractor(rawTextFileName, intermediateXMLFileName), "NaiveEventDateExtractor":NaiveEventDateExtractor(rawTextFileName, intermediateXMLFileName)}
         self.entityName = 'EVENT_DT'
         self.filename = rawTextFileName
         self.testCaseName = self.filename[self.filename.rfind(r'/') + 1:self.filename.rfind(r'.txt')]

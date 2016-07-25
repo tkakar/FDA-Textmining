@@ -7,6 +7,7 @@ Todo:
 """
 
 from Extractors.Gender.GenderRegExtractor import GenderRegExtractor
+from Extractors.Gender.SVMv1GenderExtractor import SVMv1GenderExtractor
 from Assemblers.EntityAssembler import EntityAssembler
 
 class GenderAssembler(EntityAssembler):
@@ -23,7 +24,7 @@ class GenderAssembler(EntityAssembler):
         """
         super(GenderAssembler, self).__init__(rawTextFileName, intermediateXMLFileName, anExtractorList=[])
 
-        self.AllPossibleExtractorList = {"GenderRegExtractor":GenderRegExtractor(rawTextFileName, intermediateXMLFileName)}
+        self.AllPossibleExtractorList = {"GenderRegExtractor":GenderRegExtractor(rawTextFileName, intermediateXMLFileName), "SVMv1GenderExtractor":SVMv1GenderExtractor(rawTextFileName, intermediateXMLFileName)}
         self.entityName = 'SEX'
         self.filename = rawTextFileName
         self.testCaseName = self.filename[self.filename.rfind(r'/') + 1:self.filename.rfind(r'.txt')]

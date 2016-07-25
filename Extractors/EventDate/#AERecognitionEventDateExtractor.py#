@@ -1,33 +1,38 @@
-from nltk_contrib import timex
 import re
 import nltk
+from nltk_contrib import timex
 import itertools
 from itertools import product 
-from Preprocessing.Preprocessor import Preprocessor
 from DataElements.EventDateElement import EventDateElement
+from Preprocessing.Preprocessor import Preprocessor
 
-class SuspectRecognitionEventDateExtractor(object):
-    
+class AERecogExtractor(object): 
+
     def __init__(self, rawTextFileName, intermediateXMLFileName):
         self.preprocess = Preprocessor(rawTextFileName, intermediateXMLFileName)
         self.tokens = self.preprocess.timexTagAndTokenizeText()
-        
-    def findEntity(self):
-        pattern = r'\btherapy|therapies|medications?|drugs?|products?\b'
+#        print self.tokens
+    def findDates(self):
+#        print self.tokens
+        #search for words (e.g. 'AE(s)' or 'Adverse Event(s)')
+        pattern = r'\bAE(\s|s)'
+        pattern2 = r'\bevents?\b'
         pattern3 = r'<\/?TIMEX2>'
         re_pat = re.compile(pattern, re.IGNORECASE)
+        re_pat2 = re.compile(pattern2, re.IGNORECASE)
         re_pat3 = re.compile(pattern3, re.IGNORECASE)
 
         ae_index_list = []
 
-        #Go through and check for all 'suspect' keyworks
+        #Go through and check for all adverse event/AE keyworks
         for index in range (0, len(self.tokens)):
-            if (self.tokens[index].lower() == 'suspect'.lower() and 
-                re_pat.search(self.tokens[index + 1])):
+            if (self.tokens[index].lower() == 'Adverse'.lower() and 
+                re_pat2.search(self.tokens[index + 1])) or (re_pat.search(self.tokens[index])):
+
                 ae_index_list.append(index)
                 
         if ae_index_list == []:
-            print "There are no instances of keyword 'suspect'"
+            print "There are no instances of keyword 'adverse event/AE'"
             return False 
             
         #Get the indices for all the found tagged words
@@ -39,7 +44,6 @@ class SuspectRecognitionEventDateExtractor(object):
         #Minimize difference between indices for AE keywork  and dates
         diff = min(product(ae_index_list, time_index_list), key = lambda t: abs(t[0] - t[1]))
 
-        #Create tuples based on if found index order is: timex,AE or AE,timex 
         if re_pat3.search(self.tokens[diff[0]]):
             timexTuple = (diff[0],self.tokens[diff[0]])
             aeTuple = (diff[1],self.tokens[diff[1]])
@@ -72,13 +76,8 @@ class SuspectRecognitionEventDateExtractor(object):
         for x in range(0,len(date)):
             elem = root.find(".//*[@globalID='"+str(loc + x)+r"']")
             offsets.append(elem.attrib['offset'])
+            
+        print " ".join(date)
 
-
-        
-        print 'SuspectRecognitionEventDateExtractor: ', " ".join(date)
-        offsetList = self.preprocess.offsetParse(";".join(offsets), delimiter=";")
-
-        if not offsetList:
-            return EventDateElement(" ".join(date), [[]], "SuspectRecognitionEventDateExtractor", 'EVENT_DT')
-        else:   
-            return EventDateElement(" ".join(date), offsetList, "SuspectRecognitionEventDateExtractor", 'EVENT_DT')
+        return EventDateElement(" ".join(date), ";".join(offsets), "AERecognitionEventDateExtrator", 'EVENT_DT')
+    

@@ -8,6 +8,8 @@ Todo:
 
 from Extractors.Age.AgeRegExtractor import AgeRegExtractor
 from Extractors.Age.AgeNltkExtractor import AgeNltkExtractor
+from Extractors.Age.SVMv1AgeExtractor import SVMv1AgeExtractor
+
 from Assemblers.EntityAssembler import EntityAssembler
 import xml.etree.ElementTree as ET
 from test import Compare
@@ -26,7 +28,7 @@ class AgeAssembler(EntityAssembler):
         """
         super(AgeAssembler, self).__init__(rawTextFileName, intermediateXMLFileName, anExtractorList=[])
 
-        self.AllPossibleExtractorList = {"AgeRegExtractor":AgeRegExtractor(rawTextFileName, intermediateXMLFileName), "AgeNltkExtractor":AgeNltkExtractor(rawTextFileName, intermediateXMLFileName)}
+        self.AllPossibleExtractorList = {"AgeRegExtractor":AgeRegExtractor(rawTextFileName, intermediateXMLFileName), "AgeNltkExtractor":AgeNltkExtractor(rawTextFileName, intermediateXMLFileName), "SVMv1AgeExtractor":SVMv1AgeExtractor(rawTextFileName, intermediateXMLFileName)}
         self.entityName = 'AGE_SET'
         self.filename = rawTextFileName
         self.testCaseName = self.filename[self.filename.rfind(r'/') + 1:self.filename.rfind(r'.txt')]

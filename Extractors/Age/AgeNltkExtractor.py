@@ -73,7 +73,7 @@ class AgeNltkExtractor(object):
         self.preprocess.parseXML()
         root = self.preprocess.root 
 
-        for elem in root.iterfind(tag='Token'):
+        #for elem in root.iterfind(tag='Token'):
             
         print 'this was found in the xml: ', root.find(".//[tag='"+age[0]+"'")
 
@@ -86,5 +86,5 @@ class AgeNltkExtractor(object):
     	print("nltk_age:",age)
 
         #[AgeElement(age, extract_age.span(1), "AgeRegExtrator", "AGE"), AgeCodeElement(ageCode, extract_age.span(2), "AgeRegExtrator", "AGE_COD")]
-    	return AgeElement(" ".join(age), 0, "AgeNltkExtrator")
+    	return AgeElement(" ".join(age), 0, "AgeNltkExtrator", "AGE")
     	#return True

@@ -6,14 +6,13 @@ When creating new methods, make sure to check the dictionary (textList) to see i
 
 Preprocessed Text Support (so far):
 
-  +Raw Text ---------------------- rawText()
-  +Word Tokenization ---------------------- wordTokenizeText()
-  +Sentence and Paragraph tokenization (in XML only) ---------------------- NONE
-  +Timex2 tagging ---------------------- timexTagText()
-  +tokenization after timex2 tagging ---------------------- timexTagAndTokenizeText()
-  +Part-of-speech tagging (POS) ---------------------- posTaggedText()
-  +Parse tree creation ---------------------- getParseTree()
-  +MetaMap concept recognition ---------------------- getMetaMapConcepts()
+  +Word Tokenization
+  +Sentence and Paragraph tokenization (in XML only)
+  +Timex2 tagging
+  +tokenization after timex2 tagging
+  +Part-of-speech tagging (POS)
+  +Parse tree creation
+  +MetaMap concept recognition
 
 Todo:
     * Fix dictionary (textList)  key phrase, so it doesn't have to rely on programmer accuracy
@@ -41,7 +40,6 @@ class Preprocessor(object):
     textList = {}
     _firstInitialization = True
     filename = ''
-    #rrp = BllipParser.from_unified_model_dir('/home/vsocrates/.local/share/bllipparser/GENIA+PubMed')
     rrp = RerankingParser.fetch_and_load('GENIA+PubMed')
 
 
@@ -91,6 +89,7 @@ class Preprocessor(object):
         self.file = open(self.filename)
         raw = self.file.read()
         rawUnicode = raw.decode('utf-8')
+        raw.find(uunicodeToASCII
         raw = self.unicodeToASCII(rawUnicode)
         rawOffsetIntermed = raw
         offsetIter = 0
@@ -328,7 +327,7 @@ class Preprocessor(object):
                     # We have to take the first element, because for some reason, wordTokenizeText outputs a nested list, even with only one element
                     text = sentence.find('Text').text
                     """Only going to create a parse tree if there is some alphanumeric character and a period, otherwise parser crashes"""
-                    if re.search('\w+\.?', text):
+                    if re.match(r'\w+\.', text):
                         tempParseTreeElement.text = Preprocessor.rrp.simple_parse(self.wordTokenizeText(text)[0])
                     else:
                         pass
@@ -372,25 +371,24 @@ class Preprocessor(object):
                     else:
                         posInfoList = self.offsetParse(posInfo)
                         #We need to change the format of the posInfos from (offset,span) to (offsetStartIndex, offsetEndIndex) here:
-                    posInfoList = [(offset,span + offset) for (offset,span) in posInfoList]        
+                        posInfoList = [(offset,span + offset) for (offset,span) in posInfoList]        
 
                 
-                    for listIndex, (startIndex, endIndex) in enumerate(posInfoList):
-                        lfNum = rawText.count('\n',0,startIndex) 
-                        lastIdx = rawText.rfind(conceptName, 0, startIndex+len(conceptName))
-                        #you're going to forget this tomorrow morning, so this is the number of line feeds between the last instance of the concept name and where metamap thinks the word is.
-                        lfNumSpecific = rawText.count('\n', lastIdx,startIndex)
-                        
-                        posInfoList[listIndex] = (startIndex - (lfNum + 1) + lfNumSpecific, endIndex - (lfNum + 1) + lfNumSpecific)       
-                     
-                     
-                    globalIDList = []
-                    #we have the fixed offsets for each mention of the semantic type. we now need to find their location in the xml file. 
-                    for newStartIdx, newEndIdx in posInfoList:
-                        globalIds = self.placeOffsetInXML(conceptName, word_tokenize(conceptName), newStartIdx , newEndIdx-newStartIdx)
-                        globalIDList.append(globalIds)
+                        for listIndex, (startIndex, endIndex) in enumerate(posInfoList):
+                            lfNum = rawText.count('\n',0,startIndex) 
+                            lastIdx = rawText.rfind(conceptName, 0, startIndex+len(conceptName))
+                            #you're going to forget this tomorrow morning, so this is the number of line feeds between the last instance of the concept name and where metamap thinks the word is.
+                            lfNumSpecific = rawText.count('\n', lastIdx,startIndex)
+                            
+                            posInfoList[listIndex] = (startIndex - (lfNum + 1) + lfNumSpecific, endIndex - (lfNum + 1) + lfNumSpecific)       
+                            globalIDList = []
+                            #we have the fixed offsets for each mention of the semantic type. we now need to find their location in the xml file. 
+                            for newStartIdx, newEndIdx in posInfoList:
+                                globalIds = self.placeOffsetInXML(conceptName, word_tokenize(conceptName), newStartIdx , newEndIdx-newStartIdx)
+                                globalIDList.append(globalIds)
 
-                    globalIDByConcept[concept] = globalIDList
+                            globalIDByConcept[concept] = globalIDList
+
 
         for key, value in globalIDByConcept.iteritems():
             for gIDList in value:
@@ -399,7 +397,7 @@ class Preprocessor(object):
                     tempMetaMapElem = ET.Element("METAMAP")
                     tempMetaMapElem.text = key.semtypes.replace("'",'')
                     conceptXMLTag.append(tempMetaMapElem)
-        
+
         self.writeToXML()
 
     def writeToXML(self):
@@ -424,10 +422,6 @@ class Preprocessor(object):
         """
         self.tree = ET.parse(self.xmlname)#, parser=XMLParser(encoding='utf-8'))
         self.root = self.tree.getroot()
-
-    def getRoot(self):
-        self.parseXML()
-        return self.root
 
     def placeOffsetInXML(self, phrase, tokenizedText,offset, span):
         """Takes a word/phrase and finds the globalIDs of the tokens in the intermediate XML that this word/phrase corresponds to. 
@@ -468,8 +462,8 @@ class Preprocessor(object):
             for offset in offsetList:
                 if ':' in offset:
                     colonLoc = offset.find(':')
-                    offsetlist = [int(offset[0:colonLoc]), int(offset[colonLoc + 1:len(offset)])]
-                    offsetIntList.append(offsetlist)            
+                    offsetTuple = (int(offset[0:colonLoc]), int(offset[colonLoc + 1:len(offset)]))
+                    offsetIntList.append(offsetTuple)            
             return offsetIntList
         else:
             colonLoc = offsetStr.find(':')
@@ -478,11 +472,5 @@ class Preprocessor(object):
 
     def unicodeToASCII(self, string):
         """We are going to work solely in ascii, as it's easier for certain methods (i.e. word tokenization)"""
-        string = string.replace(u"\u2019", r"'")
-        string = string.replace(u"\u201C", r'"')
-        string = string.replace(u"\u201D", r'"')
-        string = string.replace(u"\u2013", r'-')
-        #degrees
-        string = string.replace(u"\u00B0", r'^')
-
+        string.replace(u'\u2019', r"'")
         return string

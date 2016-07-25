@@ -8,7 +8,7 @@ class GenderRegExtractor(object):
         preprocess = Preprocessor(rawTextFileName, intermediateXMLFileName)
         self.Text = preprocess.rawText()
         
-    def findGender(self):
+    def findEntity(self):
 	extract_gender_m = []
 	extract_gender_f = []
 	extract_gender_m = re.findall(r'.(\bmale\b)',self.Text,re.IGNORECASE)
@@ -24,6 +24,6 @@ class GenderRegExtractor(object):
 
 	print("regEx_gender:" + gender)
 
-	return GenderElement(" ".join(gender), 0, "GenderRegExtrator")
+	return GenderElement(" ".join(gender), 0, "GenderRegExtrator", "SEX")
 
 	#return True

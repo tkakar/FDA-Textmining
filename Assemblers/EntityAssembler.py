@@ -5,10 +5,6 @@ This module is an implementation of the Assembler class described in the archite
 Todo:
     * Go through this class and use the @property decorator and create getter/setter methods that way. 
 """
-
-from Extractors.EventDate.AERecognitionEventDateExtractor import AERecognitionEventDateExtractor
-from Extractors.EventDate.SuspectRecognitionEventDateExtractor import SuspectRecognitionEventDateExtractor
-from Extractors.EventDate.NaiveEventDateExtractor import NaiveExtractor 
 from Preprocessing.Preprocessor import Preprocessor
 import xml.etree.ElementTree as ET
 from test import Compare
@@ -93,8 +89,8 @@ class EntityAssembler(object):
 
                 if hasCharOffsetFlag:
                     self.dataElementList.append(ev_dataElem)
-
-            elif ev_dataElem and ev_dataElem.charOffset:
+               
+            elif ev_dataElem and hasattr(ev_dataElem, 'charOffset'):
                 self.dataElementList.append(ev_dataElem)
             
    
@@ -130,19 +126,19 @@ class EntityAssembler(object):
         
     def xmlWriterHelper(self, element, root):
         elem = ET.Element(element.entityName)
-        if isinstance(element.charOffset, tuple):
-            start = str(element.charOffset[0])
-            end = str(element.charOffset[1])
-        else:
-            start = str(element.charOffset[0][0])
-            end = str(element.charOffset[-1][1])
+        #should be reading in a list of lists
+        print "THIS IS THE OFFSET WE ARE ERRORING ON: ", element.charOffset
+        start = str(element.charOffset[0][0])
+        end = str(element.charOffset[-1][1])
 
-        elem.attrib['start'] = start
-        elem.attrib['end'] = end
-        elem.attrib['extractor'] = element.extractorName
-        elem.text = element.extractedField
+        elem.attrib['start'] = str(start)
+        elem.attrib['end'] = str(end)
+        elem.attrib['extractor'] = str(element.extractorName)
+        elem.text = str(element.extractedField)
 
+        print 'element.entityName: ', element.entityName
         entityParent = root.find('.//'+element.entityName+'/..')
+        print "This is the element: ", ET.dump(elem)
         entityParent.append(elem)
 
         

@@ -8,6 +8,8 @@ Todo:
 
 from Extractors.Drugname.DrugnameMetamapExtractor import DrugnameMetamapExtractor 
 from Extractors.Drugname.DrugnameRegExtractor import DrugnameRegExtractor 
+from Extractors.Drugname.SVMv1DrugNameExtractor import SVMv1DrugNameExtractor
+
 from Assemblers.EntityAssembler import EntityAssembler
 
 class DrugnameAssembler(EntityAssembler):
@@ -24,7 +26,7 @@ class DrugnameAssembler(EntityAssembler):
         """
         super(DrugnameAssembler, self).__init__(rawTextFileName, intermediateXMLFileName, anExtractorList=[])
 
-        self.AllPossibleExtractorList = {"DrugnameMetamapExtractor":DrugnameMetamapExtractor (rawTextFileName, intermediateXMLFileName),"DrugnameRegExtractor":DrugnameRegExtractor (rawTextFileName, intermediateXMLFileName)}
+        self.AllPossibleExtractorList = {"DrugnameMetamapExtractor":DrugnameMetamapExtractor (rawTextFileName, intermediateXMLFileName),"DrugnameRegExtractor":DrugnameRegExtractor (rawTextFileName, intermediateXMLFileName), "SVMv1DrugNameExtractor":SVMv1DrugNameExtractor(rawTextFileName, intermediateXMLFileName)}
         self.entityName = 'DRUGNAME'
         self.filename = rawTextFileName
         self.testCaseName = self.filename[self.filename.rfind(r'/') + 1:self.filename.rfind(r'.txt')]

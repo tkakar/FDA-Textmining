@@ -24,6 +24,7 @@ class Compare:
     pespan = None #program end span
     scval = None #strict confusion value TP/TN/FP/FN
     lcval = None #loose confusion value TP/TN/FP/FN
+    extractor = None #name of program extractor (different than entity)
     di = {} #dictionary for comparison of multiples
 
     ###########################################
@@ -48,7 +49,7 @@ class Compare:
         #get and store the roots of each tree
         Compare.aroot = ET.parse(ann).getroot()
         Compare.oroot = ET.parse(out).getroot()
-#        ET.dump(Compare.oroot)
+#        ET.dump(Compare.aroot)
         Compare.fileName = out
 
     #call this function to write multiple drugs/reactions/etc to the excel file
@@ -65,7 +66,7 @@ class Compare:
             sheet.write(r,1, Compare.fileName)
             sheet.write(r,2, Compare.entity)
             sheet.write(r,9, Compare.di[key]['cv'])
-                
+            sheet.write(r,11, Compare.extractor)   
             #only fill in the correct fields
             if Compare.di[key]['cv'] is not 'FP': #TP or FN
                 sheet.write(r,3, Compare.di[key]['value'])
@@ -86,7 +87,7 @@ class Compare:
         Compare.clearVars(self)
 
     def multi_compare(self, entity, extractor):
-
+        Compare.extractor = extractor
         atype = Compare.aroot.findall('.//'+entity)
         Compare.entity = entity
         for instance in atype:
@@ -119,6 +120,7 @@ class Compare:
 
 
     def run_compare(self, entity, extractor):
+        Compare.extractor = extractor
         Compare.run_ann(self, entity)
         Compare.run_out(self, entity, extractor)
         Compare.run_strict(self)
@@ -189,6 +191,7 @@ class Compare:
         sheet.write(r,8, Compare.pespan)
         sheet.write(r,9, Compare.scval)
         sheet.write(r,10, Compare.lcval)
+        sheet.write(r,11, Compare.extractor)
         w.save('/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Test_Suite/Eval_Env/dataOut.xls')
         #clear vars
         Compare.clearVars(self)
@@ -204,6 +207,7 @@ class Compare:
         Compare.pespan = None #program end span
         Compare.scval = None #strict confusion value TP/TN/FP/FN
         Compare.lcval = None #loose confusion value TP/TN/FP/FN
+        Compare.extractor = None
         Compare.di = {}
 
 

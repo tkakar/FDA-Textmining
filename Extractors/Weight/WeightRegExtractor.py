@@ -8,7 +8,7 @@ class WeightRegExtractor(object):
         preprocess = Preprocessor(rawTextFileName, intermediateXMLFileName)
         self.Text = preprocess.rawText()
         
-    def findWeight(self):
+    def findEntity(self):
 	#extract_weight = re.findall(r'.*([0-9]{3}(\.[0-9]{1})?).?(pounds|pound|lb|lbs).*',self.Text,re.IGNORECASE)
 	# the below rule takes care of the digits issues
 	extract_weight = re.findall(r'.*\s([0-9]+(\.[0-9]+)?).?(pounds|pound|lb|lbs).*',self.Text,re.IGNORECASE)
@@ -20,6 +20,6 @@ class WeightRegExtractor(object):
 
 	print ("regEx_weight:" + weight)
 
-	return WeightElement(" ".join(weight), 0, "WeightRegExtrator")
+	return WeightElement(" ".join(weight), [[]], "WeightRegExtrator", "WT")
 
 	#return True
