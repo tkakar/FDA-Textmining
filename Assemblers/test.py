@@ -53,7 +53,7 @@ class Compare:
 
     #call this function to write multiple drugs/reactions/etc to the excel file
     def multi_write_to_file(self):
-        rb = xlrd.open_workbook('/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Test_Suite/Eval_Env/dataOut.xls')
+        rb = xlrd.open_workbook('/work/swunnava/git-repos/FDA-Textmining-TSIntegration/Test_Suite/Eval_Env/dataOut.xls')
         r_sheet = rb.sheet_by_index(0) 
         r = r_sheet.nrows
         if Compare.runCode is None:
@@ -81,7 +81,7 @@ class Compare:
                 sheet.write(r,8, Compare.di[key]['end'])
             r += 1
 
-        w.save('/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Test_Suite/Eval_Env/dataOut.xls')
+        w.save('/work/swunnava/git-repos/FDA-Textmining-TSIntegration/Test_Suite/Eval_Env/dataOut.xls')
         #clear vars
         Compare.clearVars(self)
 
@@ -171,7 +171,7 @@ class Compare:
 
     #write a single instance like age or weight to file
     def write_to_file(self):
-        rb = xlrd.open_workbook('/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Test_Suite/Eval_Env/dataOut.xls')
+        rb = xlrd.open_workbook('/work/swunnava/git-repos/FDA-Textmining-TSIntegration/Test_Suite/Eval_Env/dataOut.xls')
         r_sheet = rb.sheet_by_index(0) 
         r = r_sheet.nrows
         if Compare.runCode is None:
@@ -189,7 +189,7 @@ class Compare:
         sheet.write(r,8, Compare.pespan)
         sheet.write(r,9, Compare.scval)
         sheet.write(r,10, Compare.lcval)
-        w.save('/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Test_Suite/Eval_Env/dataOut.xls')
+        w.save('/work/swunnava/git-repos/FDA-Textmining-TSIntegration/Test_Suite/Eval_Env/dataOut.xls')
         #clear vars
         Compare.clearVars(self)
 

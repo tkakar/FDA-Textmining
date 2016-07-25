@@ -60,30 +60,6 @@ class AgeNltkExtractor(object):
         age = 'unknown'
         age_keyword_list = ["yrs", "years", "year", "yo"]
 
-        print "this are the final tags::::::    ", final_tags
-    	for tags in final_tags:
-            print "These are cleartags of some kind: ??? ", tags
-            if any(word in tags for word in age_keyword_list):
-                age = tags
-                #Added the below so it would take the first instance, not the last like it was doing. 
-                break
-
-
-        #Now to find the location of the words we got!
-        self.preprocess.parseXML()
-        root = self.preprocess.root 
-
-        for elem in root.iterfind(tag='Token'):
-            
-        print 'this was found in the xml: ', root.find(".//[tag='"+age[0]+"'")
-
-    	#if not year:
-        	#	dates = "Unknown"
-    	#else:
-        	#	dates = ', '.join(year)
-    	#print(dates)
-
-    	print("nltk_age:",age)
 
         #[AgeElement(age, extract_age.span(1), "AgeRegExtrator", "AGE"), AgeCodeElement(ageCode, extract_age.span(2), "AgeRegExtrator", "AGE_COD")]
     	return AgeElement(" ".join(age), 0, "AgeNltkExtrator")
