@@ -94,7 +94,7 @@ class EntityAssembler(object):
                 if hasCharOffsetFlag:
                     self.dataElementList.append(ev_dataElem)
 
-            elif ev_dataElem and ev_dataElem.charOffset:
+            elif ev_dataElem and hasattr(ev_dataElem, 'charOffset'):
                 self.dataElementList.append(ev_dataElem)
             
    

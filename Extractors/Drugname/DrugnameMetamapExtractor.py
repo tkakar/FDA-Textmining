@@ -9,7 +9,7 @@ class DrugnameMetamapExtractor(object):
         preprocess = Preprocessor(rawTextFileName, intermediateXMLFileName)
         self.Text = preprocess.rawText()
         
-    def findDrugnames(self):
+    def findEntity(self):
 
 	# the server installed on your machine
 	mm = MetaMap.get_instance('/work/tkakar/public_mm/bin/metamap14')

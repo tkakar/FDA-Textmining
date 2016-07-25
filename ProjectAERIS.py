@@ -100,8 +100,8 @@ def main(aRawTextFileName=None, aIntermediateXMLFileName=None, aConfigFile=None)
         if config[name]:
             assembler.setExtractorList(config[name])
             assembler.runExtractors() 
-            assembler.writeToSemiFinalXML()
-            assembler.launchTestSuite()
+            #assembler.writeToSemiFinalXML()
+            #assembler.launchTestSuite()
 
 # #Currently (as of 7-5-16), only the two following methods work. The other ones still need to be updated and integrated into the XML document
 #     output = preprocessOne.wordTokenizeText()
