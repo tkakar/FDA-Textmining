@@ -24,6 +24,7 @@ class Compare:
     pespan = None #program end span
     scval = None #strict confusion value TP/TN/FP/FN
     lcval = None #loose confusion value TP/TN/FP/FN
+    extractor = None #name of program extractor (different than entity)
     di = {} #dictionary for comparison of multiples
 
     ###########################################
@@ -66,6 +67,7 @@ class Compare:
             sheet.write(r,1, Compare.fileName)
             sheet.write(r,2, Compare.entity)
             sheet.write(r,9, Compare.di[key]['cv'])
+            sheet.write(r,11, Compare.extractor)
                 
             #only fill in the correct fields
             if Compare.di[key]['cv'] is not 'FP': #TP or FN
@@ -87,7 +89,7 @@ class Compare:
         Compare.clearVars(self)
 
     def multi_compare(self, entity, extractor):
-
+        Compare.extractor = extractor
         atype = Compare.aroot.findall('.//'+entity)
         Compare.entity = entity
         for instance in atype:
@@ -122,6 +124,7 @@ class Compare:
 
 
     def run_compare(self, entity, extractor):
+        Compare.extractor = extractor
         Compare.run_ann(self, entity)
         Compare.run_out(self, entity, extractor)
         Compare.run_strict(self)
@@ -194,6 +197,7 @@ class Compare:
         sheet.write(r,8, Compare.pespan)
         sheet.write(r,9, Compare.scval)
         sheet.write(r,10, Compare.lcval)
+        sheet.write(r,11, Compare.extractor)
         w.save('/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Test_Suite/Eval_Env/dataOut.xls')
         #clear vars
         Compare.clearVars(self)
@@ -209,6 +213,7 @@ class Compare:
         Compare.pespan = None #program end span
         Compare.scval = None #strict confusion value TP/TN/FP/FN
         Compare.lcval = None #loose confusion value TP/TN/FP/FN
+        Compare.extractor = None
         Compare.di = {}
 
 
