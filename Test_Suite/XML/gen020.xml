@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATIONS textSource="gen020.txt" annotator="Vimig Socrates">
+	<EVENT_DT start="" end=""></EVENT_DT>
+	<DEMOGRAPHICS>
+		<AGE_SET>
+			<AGE start="10" end="12">27</AGE>
+			<AGE_COD start="13" end="27">YR</AGE_COD>
+		</AGE_SET>
+		<WT_SET>
+			<WT start="836" end="843">100</WT>
+			<WT_COD start="844" end="848">LBS</WT_COD>
+		</WT_SET>
+		<SEX start="18" end="24">F</SEX>
+	</DEMOGRAPHICS>
+	<DRUG_FILE>
+		<INSTANCE id="0" primary="false" timePeriod="current"> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
+	      <DRUGNAME start="860" end="873">Baclofen pump</DRUGNAME>
+	      <ROUTE start="" end=""></ROUTE>
+	      <DECHAL start="" end=""></DECHAL>
+	      <RECHAL start="" end=""></RECHAL>
+	      <DOSE_AMT start="" end=""></DOSE_AMT>
+	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
+	      <DOSE_FORM start="" end=""></DOSE_FORM>
+	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
+    	</INSTANCE>
+	</DRUG_FILE>
+	<REACTION_FILE>
+	</REACTION_FILE>
+	<INDICATION_FILE>
+	</INDICATION_FILE>
+</ANNOTATIONS>
+<COMMENT></COMMENT>
