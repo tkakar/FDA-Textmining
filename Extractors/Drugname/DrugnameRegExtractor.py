@@ -5,8 +5,8 @@ from DataElements.DrugnameElement import DrugnameElement
 
 class DrugnameRegExtractor(object):
     
-    def __init__(self):
-        preprocess = Preprocessor()
+    def __init__(self,rawTextFileName, intermediateXMLFileName):
+        preprocess = Preprocessor(rawTextFileName, intermediateXMLFileName)
         self.Tokens = preprocess.wordTokenizeText()
         
     def findDrugnames(self):
@@ -19,7 +19,7 @@ class DrugnameRegExtractor(object):
 	for tokens in self.Tokens:
 		for token in tokens:
 			if token in drugnames:
-				print token
+				print "DrugnameRegEx: " + token
 				break
 	#return DrugnameElement("".join(output), 0, "DrugnameMetamapExtractor")
 	return True

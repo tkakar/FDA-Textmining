@@ -14,9 +14,10 @@ class DrugnameMetamapExtractor(object):
 	# the server installed on your machine
 	mm = MetaMap.get_instance('/work/tkakar/public_mm/bin/metamap14')
 
-	sample_Text = '/work/tkakar/FDAfirstNarrative.txt'
+	#sample_Text = '/work/tkakar/FDAfirstNarrative.txt'
+	rawText = self.Text
 	#sents= self.Text
-	concepts,error = mm.extract_concepts(filename= sample_Text, word_sense_disambiguation=True)
+	concepts,error = mm.extract_concepts([rawText], word_sense_disambiguation=True)
 
 
 	for concept in concepts:
@@ -31,9 +32,9 @@ class DrugnameMetamapExtractor(object):
 				token = concept.trigger.strip().split("-")[0]
 				token = token.replace("[","")
 				offset = concept.pos_info
-				output = "token= "+ token + ", SemType= " +semType + ", Offset= "+offset
-				print ("token= "+token, " SemType= " +semType, " Offset= "+offset)
+				#output = "token= "+ token + ", SemType= " +semType + ", Offset= "+offset
+				#print ("token= "+token, " SemType= " +semType, " Offset= "+offset)
 			break;
-
-	return DrugnameElement("".join(output), 0, "DrugnameMetamapExtractor")
+	print ("DrugnameMetamap: " +token)
+	return DrugnameElement("".join(token), offset, "DrugnameMetamapExtractor")
 	#return True

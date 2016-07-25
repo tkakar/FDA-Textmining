@@ -6,22 +6,24 @@ Todo:
     * Go through this class and use the @property decorator and create getter/setter methods that way. 
 """
 
-from Extractors.Age.RegExpAgeExtractor import RegExpExtractor
+from Extractors.Age.AgeRegExtractor import AgeRegExtractor
+from Extractors.Age.AgeNltkExtractor import AgeNltkExtractor
 
 
 class AgeAssembler(object):
     
     def __init__(self, rawTextFileName, intermediateXMLFileName, anExtractorList=[]):
         """
-        Initializes the EventDateAssembler and returns it. All Extractors for the Event Date DataElement must be specified in the list below. 
+        Initializes the AgeAssembler and returns it. All Extractors for the Age DataElement must be specified in the list below. 
 
         Args:
-            anExtractorList (list): the list passed from the config file for EventDate
+            anExtractorList (list): the list passed from the config file for Age
         
         Returns:
-            EventDateAssembler Object
+            AgeAssembler Object
         """
-        self.AllPossibleExtractorList = {"RegExpExtractor":RegExpExtractor(rawTextFileName, intermediateXMLFileName)}
+
+        self.AllPossibleExtractorList = {"AgeRegExtractor":AgeRegExtractor(rawTextFileName, intermediateXMLFileName), "AgeNltkExtractor":AgeNltkExtractor(rawTextFileName, intermediateXMLFileName)}
         self.extractorList = anExtractorList
         self.extractorObjList = []
 
@@ -70,7 +72,7 @@ class AgeAssembler(object):
             None
             
         Returns:
-            list of EventDataElements (list)
+            list of AgeElements (list)
 
         TODO:
             Actually make it return DataElement list and make sure that won't cause problems
