@@ -7,23 +7,22 @@ from DataElements.AgeElement import AgeElement
 class AgeNltkExtractor(object):
     
     def __init__(self, rawTextFileName, intermediateXMLFileName):
-        preprocess = Preprocessor(rawTextFileName, intermediateXMLFileName)
-        self.Text = preprocess.rawText()
+        self.preprocess = Preprocessor(rawTextFileName, intermediateXMLFileName)
+        self.Text = self.preprocess.rawText()
         
     def findEntity(self):
-	sentences = sent_tokenize(self.Text)
-	filtered_sentences = []
-	for s in sentences:
-            s=re.sub('-', ' ', s)   ## Replace "-" with " " in the sentences, especially useful for extracting age
-            filtered_sentences.append(s)
+    	sentences = sent_tokenize(self.Text)
+    	filtered_sentences = []
+    	for s in sentences:
+                s=re.sub('-', ' ', s)   ## Replace "-" with " " in the sentences, especially useful for extracting age
+                filtered_sentences.append(s)
 
-	## Word Tokenization
-	tokenized = [word_tokenize(s) for s in filtered_sentences]
+    	## Word Tokenization
+    	tokenized = [word_tokenize(s) for s in filtered_sentences]
 
-	final_tags = []
-	year = []
+    	final_tags = []
 
-	for i in tokenized:
+    	for i in tokenized:
             #words = nltk.word_tokenize(i)
             tagged = nltk.pos_tag(i)
 
@@ -35,37 +34,57 @@ class AgeNltkExtractor(object):
             #print(chunked)
 
             for n in chunked:
+                print n
                 if isinstance(n, nltk.tree.Tree):
                     if n.label() == 'numberChunks':
+                        print "we need to know n[0][0]: ", n[0][0]
+                        print "we need to know n[1][0]: ", n[1][0]
+                        #print "we need to know n[2][0]: ", n[2][0]
                         if len(n) == 3:
                             if n[2][1] == 'CD':
-                                tag = n[0][0]+" "+n[1][0]+" "+n[2][0]
-                                year.append(tag)
+                                #Vimig needs to ask Susmitha what is the point of this line, I don't ever see [2][1] having been CD.
+                                # Because n[2][0] is always "old" if anything at all. 
+                                print "TESTREACHED!!!!!!!!!!!!!!!!!!!"
+                                tagList = [n[0][0], n[1][0], n[2][0]]
                             else:
-                                tag = n[0][0]+" "+n[1][0]
+                                tagList = [n[0][0], n[1][0]]
                         else:
-                            tag = n[0][0]+" "+n[1][0]
-                            final_tags.append(tag)
+                            tagList = [n[0][0], n[1][0]]
+                        
+                        final_tags.append(tagList)
                             #else:
                             #print(2)
                             
                     #print(final_tags)
 
         age = 'unknown'
-	age_keyword_list = ["yrs", "years", "year"]
+        age_keyword_list = ["yrs", "years", "year", "yo"]
 
-	for tags in final_tags:
+        print "this are the final tags::::::    ", final_tags
+    	for tags in final_tags:
+            print "These are cleartags of some kind: ??? ", tags
             if any(word in tags for word in age_keyword_list):
                 age = tags
+                #Added the below so it would take the first instance, not the last like it was doing. 
+                break
 
 
-	#if not year:
-    	#	dates = "Unknown"
-	#else:
-    	#	dates = ', '.join(year)
-	#print(dates)
+        #Now to find the location of the words we got!
+        self.preprocess.parseXML()
+        root = self.preprocess.root 
 
-	print("nltk_age:"+age)
+        for elem in root.iterfind(tag='Token'):
+            
+        print 'this was found in the xml: ', root.find(".//[tag='"+age[0]+"'")
 
-	return AgeElement(" ".join(age), 0, "AgeNltkExtrator")
-	#return True
+    	#if not year:
+        	#	dates = "Unknown"
+    	#else:
+        	#	dates = ', '.join(year)
+    	#print(dates)
+
+    	print("nltk_age:",age)
+
+        #[AgeElement(age, extract_age.span(1), "AgeRegExtrator", "AGE"), AgeCodeElement(ageCode, extract_age.span(2), "AgeRegExtrator", "AGE_COD")]
+    	return AgeElement(" ".join(age), 0, "AgeNltkExtrator")
+    	#return True

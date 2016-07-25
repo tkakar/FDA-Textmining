@@ -48,7 +48,7 @@ class Compare:
         #get and store the roots of each tree
         Compare.aroot = ET.parse(ann).getroot()
         Compare.oroot = ET.parse(out).getroot()
-        ET.dump(Compare.oroot)
+#        ET.dump(Compare.oroot)
         Compare.fileName = out
 
     #call this function to write multiple drugs/reactions/etc to the excel file

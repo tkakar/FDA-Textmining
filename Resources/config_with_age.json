@@ -1,1 +1,1 @@
-{"Event Date" : ["AERecogExtractor", "SuspectRecogExtractor"],"Age" : ["AgeRegExtractor"]}
+{"Event Date" : ["AERecogExtractor", "SuspectRecogExtractor"],"Age" : ["AgeNltkExtractor"]}

@@ -116,7 +116,6 @@ class EntityAssembler(object):
         root.attrib['textSource'] = filename
         root.attrib['annotator'] = 'Project MEFA Program'
       
-        print "this is the dataelementlist: ", self.dataElementList
         for dataelements in self.dataElementList:
             if isinstance(dataelements, list):
                 for dataelement in dataelements:
@@ -131,7 +130,6 @@ class EntityAssembler(object):
         
     def xmlWriterHelper(self, element, root):
         elem = ET.Element(element.entityName)
-        print "thsi is the type of the charOffset: ", element.charOffset, type(element.charOffset)
         if isinstance(element.charOffset, tuple):
             start = str(element.charOffset[0])
             end = str(element.charOffset[1])
@@ -144,11 +142,9 @@ class EntityAssembler(object):
         elem.attrib['extractor'] = element.extractorName
         elem.text = element.extractedField
 
-        print "this is the element.entityname: ", element.entityName
         entityParent = root.find('.//'+element.entityName+'/..')
         entityParent.append(elem)
 
-        print "I;m not sure this works!!!!!:::::", ET.dump(root)
         
         return root
 
