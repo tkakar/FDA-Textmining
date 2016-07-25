@@ -156,5 +156,3 @@ class EntityAssembler(object):
                     comp.run_compare(dataelement.entityName, dataelement.extractorName) 
             else:
                 comp.run_compare(elements.entityName, elements.extractorName) 
-            
-

@@ -60,6 +60,7 @@ class AgeNltkExtractor(object):
         age = 'unknown'
         age_keyword_list = ["yrs", "years", "year", "yo"]
 
+<<<<<<< HEAD
         print "this are the final tags::::::    ", final_tags
     	for tags in final_tags:
             print "These are cleartags of some kind: ??? ", tags
@@ -84,6 +85,8 @@ class AgeNltkExtractor(object):
     	#print(dates)
 
     	print("nltk_age:",age)
+=======
+>>>>>>> 35334bd9dd7dbbb53bea5080e8e1b31782faf1ee
 
         #[AgeElement(age, extract_age.span(1), "AgeRegExtrator", "AGE"), AgeCodeElement(ageCode, extract_age.span(2), "AgeRegExtrator", "AGE_COD")]
     	return AgeElement(" ".join(age), 0, "AgeNltkExtrator", "AGE")
