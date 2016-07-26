@@ -13,7 +13,7 @@ class Compare:
     aroot = None #root of annotated xml
     oroot = None #root of program output xml
     runCode = None #unique code for this run 
-
+    pathToFile = '/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Eval_Env/dataOut.xls'	
     entity = None #name of entity
     fileName = None #name of file
     avc = None #annotated value
@@ -54,7 +54,8 @@ class Compare:
 
     #call this function to write multiple drugs/reactions/etc to the excel file
     def multi_write_to_file(self):
-        rb = xlrd.open_workbook('/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Test_Suite/Eval_Env/dataOut.xls')
+	
+        rb = xlrd.open_workbook(Compare.pathToFile)
         r_sheet = rb.sheet_by_index(0) 
         r = r_sheet.nrows
         if Compare.runCode is None:
@@ -81,13 +82,10 @@ class Compare:
                 sheet.write(r,7, key)
                 sheet.write(r,8, Compare.di[key]['end'])
             r += 1
-<<<<<<< HEAD
-	pathToFile = '/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Eval_Env/dataOut.xls'
-        w.save(pathToFile)
-=======
 
-        w.save('/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Test_Suite/Eval_Env/dataOut.xls')
->>>>>>> 4ec137cd319088066f5c750b21dc7afd4a6adae9
+	
+        w.save(Compare.pathToFile)
+
         #clear vars
         Compare.clearVars(self)
 
@@ -178,11 +176,9 @@ class Compare:
 
     #write a single instance like age or weight to file
     def write_to_file(self):
-<<<<<<< HEAD
-        rb = xlrd.open_workbook(pathToFile)
-=======
-        rb = xlrd.open_workbook('/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Test_Suite/Eval_Env/dataOut.xls')
->>>>>>> 4ec137cd319088066f5c750b21dc7afd4a6adae9
+
+        rb = xlrd.open_workbook(Compare.pathToFile)
+
         r_sheet = rb.sheet_by_index(0) 
         r = r_sheet.nrows
         if Compare.runCode is None:
@@ -201,7 +197,7 @@ class Compare:
         sheet.write(r,9, Compare.scval)
         sheet.write(r,10, Compare.lcval)
         sheet.write(r,11, Compare.extractor)
-        w.save(pathToFile)
+        w.save(Compare.pathToFile)
 
         #clear vars
         Compare.clearVars(self)

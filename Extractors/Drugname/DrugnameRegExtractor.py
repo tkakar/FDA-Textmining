@@ -16,13 +16,13 @@ class DrugnameRegExtractor(object):
     		drugnames= myfile.read().splitlines()
 		#print( drugnames) 
 	#break;
-	Drug_list=[]
+	#Drug_list=[]
 	for tokens in self.Tokens:
 		for token in tokens:
 			if token in drugnames:
 				print "DrugnameRegEx: " + token
-				Drug_list.append(token)
-				break
-	if Drug_list:
-		return DrugnameElement("".join(Drug_list), 0, "DrugnameMetamapExtractor", "DRUGNAME")
+				#Drug_list.append(token)
+				
+	
+				return DrugnameElement("".join(token),[[0]], "DrugnameMetamapExtractor", "DRUGNAME")
 	#return True

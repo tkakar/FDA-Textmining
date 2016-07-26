@@ -1,4 +1,4 @@
-<ANNOTATIONS annotator="Project MEFA Program" textSource="/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Test_Suite/Test_Cases/fda001">
+<ANNOTATIONS annotator="Project MEFA Program" textSource="Test_Suite/Eval_Env/test_cases/fda001">
    <EVENT_DT end="" start="" />
    <DEMOGRAPHICS>
       <AGE_SET>
@@ -42,4 +42,4 @@
       </INSTANCE>
    </INDICATION_FILE>
    <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
-<EVENT_DT end="217" extractor="AERecognitionEventDateExtractor" start="206">August 2014</EVENT_DT><EVENT_DT end="225" extractor="NaiveEventDateExtractory" start="214">August 2014</EVENT_DT></ANNOTATIONS>
+<EVENT_DT end="217" extractor="AERecognitionEventDateExtractor" start="206">August 2014</EVENT_DT></ANNOTATIONS>

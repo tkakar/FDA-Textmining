@@ -36,5 +36,5 @@ class DosageRegExtractor(object):
    		 dosage_freq['f_offset']=match.span(5)
 	 	 print(dosage_amount, dosage_freq, dosage_unit)
 		 if dosage_amount:
-	 		 return [DosageElement(dosage_amount['dos_amt'], dosage_amount['a_offset'], "DosageRegExtractor" , "DOSE_AMT"), DosageElement(dosage_freq['dos_freq'], dosage_freq['f_offset'], "DosageRegExtractor" , "DOSE_FREQ"), DosageElement(dosage_unit['dos_unit'], dosage_unit['u_offset'], "DosageRegExtractor" , "DOSE_UNIT")]
-        # return True
+	 		  return [DosageElement(dosage_amount['dos_amt'], [list(dosage_amount['a_offset'])], "DosageRegExtractor" , "DOSE_AMT"), DosageElement(dosage_freq['dos_freq'],[list(dosage_freq['f_offset'])], "DosageRegExtractor" , "DOSE_FREQ"), DosageElement(dosage_unit['dos_unit'], [list(dosage_unit['u_offset'])], "DosageRegExtractor" , "DOSE_UNIT")]
+	 		  #return True

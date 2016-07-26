@@ -1,10 +1,10 @@
-<ANNOTATIONS annotator="Project MEFA Program" textSource="Test_Suite/Eval_Env/test_cases/fda001">
+<ANNOTATIONS annotator="Project MEFA Program" textSource="Test_Suite/Eval_Env/test_cases/short_example">
    <EVENT_DT end="" start="" />
    <DEMOGRAPHICS>
       <AGE_SET>
          <AGE end="" start="" />
          <AGE_COD end="" start="" />
-      <AGE end="2159" extractor="AgeRegExtrator" start="2158">6</AGE><AGE_COD end="2166" extractor="AgeRegExtrator" start="2160">MON</AGE_COD></AGE_SET>
+      </AGE_SET>
       <WT_SET>
          <WT end="" start="" />
          <WT_COD end="" start="" />
