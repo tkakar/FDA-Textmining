@@ -10,4 +10,4 @@ class EventDateElement(DataElement):
 
     def __init__(self, *args, **kwargs):
         """Calls the super"""
-        super(EventDateElement, self).__init__(**kwargs)
+        super(EventDateElement, self).__init__(*args, **kwargs)

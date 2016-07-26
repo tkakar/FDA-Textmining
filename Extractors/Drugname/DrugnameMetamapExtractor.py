@@ -5,11 +5,12 @@ from pymetamap import MetaMap
 
 class DrugnameMetamapExtractor(object):
     
-    def __init__(self,rawTextFileName, intermediateXMLFileName):
+
+    def __init__(self, rawTextFileName, intermediateXMLFileName):
         preprocess = Preprocessor(rawTextFileName, intermediateXMLFileName)
         self.Text = preprocess.rawText()
         
-    def findDrugnames(self):
+    def findEntity(self):
 
 	# the server installed on your machine
 	mm = MetaMap.get_instance('/work/tkakar/public_mm/bin/metamap14')
@@ -35,6 +36,6 @@ class DrugnameMetamapExtractor(object):
 				#output = "token= "+ token + ", SemType= " +semType + ", Offset= "+offset
 				#print ("token= "+token, " SemType= " +semType, " Offset= "+offset)
 			break;
+
 	print ("DrugnameMetamap: " +token)
 	return DrugnameElement("".join(token), offset, "DrugnameMetamapExtractor", "DRUGNAME")
-	#return True

@@ -7,76 +7,24 @@ Todo:
 """
 
 from Extractors.Gender.GenderRegExtractor import GenderRegExtractor
+from Extractors.Gender.SVMv1GenderExtractor import SVMv1GenderExtractor
+from Assemblers.EntityAssembler import EntityAssembler
 
+class GenderAssembler(EntityAssembler):
 
-class GenderAssembler(object):
-    
     def __init__(self, rawTextFileName, intermediateXMLFileName, anExtractorList=[]):
         """
-        Initializes the GenderAssembler and returns it. All Extractors for the Gender DataElement must be specified in the list below. 
+        Initializes the EventDateAssembler and returns it. All Extractors for the Event Date DataElement must be specified in the list below. 
 
         Args:
-            anExtractorList (list): the list passed from the config file for Gender
+            anExtractorList (list): the list passed from the config file for EventDate
         
         Returns:
-            GenderAssembler Object
+            EventDateAssembler Object
         """
-        self.AllPossibleExtractorList = {"GenderRegExtractor":GenderRegExtractor(rawTextFileName, intermediateXMLFileName)}
-        self.extractorList = anExtractorList
-        self.extractorObjList = []
+        super(GenderAssembler, self).__init__(rawTextFileName, intermediateXMLFileName, anExtractorList=[])
 
-    def setExtractorList(self, aList):
-        """Sets the extractor list by searching the dictionary for corresponding python objects.
-
-        Args:
-            aList (list): the list from the config file to look up and initialize extractors
-            
-        Returns:
-            The created object list
-        """
-        self.extractorList = aList
-
-        for extractor in self.extractorList:
-            self.extractorObjList.append(self.AllPossibleExtractorList[extractor])
-            
-        return self.extractorObjList
-
-    def getAllPossibleExtractors(self):
-        """Gets the list of all possible extractors. Should really only be used for debugging. 
-
-        Args:
-            None
-            
-        Returns:
-            all possible extractor dictionary list
-        """
-        return self.AllPossibleExtractorList
-
-    def getExtractorObjList(self):
-        """Gets the list of objects created from looking up the config file strings in the dictionary
-
-        Args:
-            None
-            
-        Returns:
-            the list of extractor python objects 
-        """
-        return self.extractorObjList
-           
-    def runExtractors(self):
-        """Runs all the extractors and returns DataElements.
-        
-        Args:
-            None
-            
-        Returns:
-            list of GenderElements (list)
-
-        TODO:
-            Actually make it return DataElement list and make sure that won't cause problems
-        """
-        for extractor in self.extractorObjList:
-            extractor.findGender()
-
-# def main():
-#     extractorHandler = EventDateExtractorHandler('../test_cases/fda001.txt')
+        self.AllPossibleExtractorList = {"GenderRegExtractor":GenderRegExtractor(rawTextFileName, intermediateXMLFileName), "SVMv1GenderExtractor":SVMv1GenderExtractor(rawTextFileName, intermediateXMLFileName)}
+        self.entityName = 'SEX'
+        self.filename = rawTextFileName
+        self.testCaseName = self.filename[self.filename.rfind(r'/') + 1:self.filename.rfind(r'.txt')]

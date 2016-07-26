@@ -14,6 +14,7 @@
   <DRUG_FILE>
     <INSTANCE>
       <DRUGNAME start="551" end="557">MYCINS</DRUGNAME>
+      <COREF start="3452" end="6577"/>
       <ROUTE start="" end=""></ROUTE>
       <DECHAL start="" end=""></DECHAL>
       <RECHAL start="" end=""></RECHAL>
@@ -23,7 +24,9 @@
       <DOSE_FREQ start="" end=""></DOSE_FREQ>
     </INSTANCE>
     <INSTANCE>
-      <DRUGNAME start="629" end="634">SULFA</DRUGNAME>
+      <DRUGNAME start="72" end="85">SULFA</DRUGNAME>
+      <COREF start="1" end="6577"/>
+      <COREF start="45" end="677"/>
       <ROUTE start="" end=""></ROUTE>
 		        <DECHAL start="" end=""></DECHAL>
 			      <RECHAL start="" end=""></RECHAL>
@@ -33,7 +36,7 @@
 						      <DOSE_FREQ start="" end=""></DOSE_FREQ>
 						      </INSTANCE>
     <INSTANCE>
-            <DRUGNAME start="689" end="702">CANAGLIFLOZIN</DRUGNAME>
+            <DRUGNAME start="60" end="63">CANAGLIFLOZIN</DRUGNAME>
 	          <ROUTE start="712" end="716">ORAL</ROUTE>
 		        <DECHAL start="" end=""></DECHAL>
 			      <RECHAL start="" end=""></RECHAL>

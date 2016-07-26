@@ -35,5 +35,5 @@
 	<INDICATION_FILE>
 		<INDI_PT id="0" start="160" end="178">UNK</INDI_PT>
 	</INDICATION_FILE>
-</ANNOTATIONS>
 <COMMENT>Section of the narrative includes that "Relatedness between the suspect therapies and the events:...was not reported," but the primary suspect was kept as desloratadine. Also, for EVENT_DT, year is not specified, so "0000" is used.</COMMENT>
+</ANNOTATIONS>

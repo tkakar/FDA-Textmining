@@ -89,11 +89,12 @@ class SVMv1GenderExtractor(object):
                     self.vectors.append(vector)
         return self.vectors
    
-    def findGender(self):
+    def findEntity(self):
         self.get_FeatureVector(self.intermediate)
         X = [f[1:] for f in self.vectors]
         
-        with open('../../Resources/svm_gender.pkl', 'rb') as f:
+        with open('Resources/svm_gender.pkl', 'rb') as f:
+        #with open('../../Resources/svm_gender.pkl', 'rb') as f:
             clf = pickle.load(f)
             
         predictions = clf.predict(X)     
@@ -110,7 +111,7 @@ class SVMv1GenderExtractor(object):
                 Offsets.append([self.vectors[offset][0][1],self.vectors[offset][0][2]])
             offset += 1
 
-        return GenderElement(Genders, Offsets, "SVMv1GenderExtractor")
+        return GenderElement(Genders, Offsets, "SVMv1GenderExtractor", "SEX")
     
 #for filename in os.listdir("/Users/xqin/Workspace/Code/LearnPython/IntermediateFiles/"):
 #    t = SVMv1GenderExtractor("ac","/Users/xqin/Workspace/Code/LearnPython/IntermediateFiles/"+filename)

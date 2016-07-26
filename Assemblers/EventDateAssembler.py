@@ -5,12 +5,15 @@ This module is an implementation of the Assembler class described in the archite
 Todo:
     * Go through this class and use the @property decorator and create getter/setter methods that way. 
 """
+from Extractors.EventDate.AERecognitionEventDateExtractor import AERecognitionEventDateExtractor
+from Extractors.EventDate.SuspectRecognitionEventDateExtractor import SuspectRecognitionEventDateExtractor
+from Extractors.EventDate.NaiveEventDateExtractor import NaiveEventDateExtractor 
+from Extractors.EventDate.SVMv1EventDateExtractor import SVMv1EventDateExtractor
+from Preprocessing.Preprocessor import Preprocessor
+from Assemblers.EntityAssembler import EntityAssembler
+import xml.etree.ElementTree as ET
 
-from Extractors.EventDate.AERecognitionEventDateExtractor import AERecogExtractor
-from Extractors.EventDate.SuspectRecognitionEventDateExtractor import SuspectRecogExtractor
-from Extractors.EventDate.NaiveEventDateExtractor import NaiveExtractor 
-
-class EventDateAssembler(object):
+class EventDateAssembler(EntityAssembler):
     
     def __init__(self, rawTextFileName, intermediateXMLFileName, anExtractorList=[]):
         """
@@ -22,61 +25,13 @@ class EventDateAssembler(object):
         Returns:
             EventDateAssembler Object
         """
-        self.AllPossibleExtractorList = {"AERecogExtractor":AERecogExtractor(rawTextFileName, intermediateXMLFileName), "SuspectRecogExtractor":SuspectRecogExtractor(rawTextFileName, intermediateXMLFileName)}#, "NaiveEventDateExtractor":NaiveExtractor(rawTextFileName, intermediateXMLFileName)}
-        self.extractorList = anExtractorList
-        self.extractorObjList = []
-    def setExtractorList(self, aList):
-        """Sets the extractor list by searching the dictionary for corresponding python objects.
+        super(EventDateAssembler, self).__init__(rawTextFileName, intermediateXMLFileName, anExtractorList=[])
 
-        Args:
-            aList (list): the list from the config file to look up and initialize extractors
-            
-        Returns:
-            The created object list
-        """
-        self.extractorList = aList
-
-        for extractor in self.extractorList:
-            self.extractorObjList.append(self.AllPossibleExtractorList[extractor])
-            
-        return self.extractorObjList
-
-    def getAllPossibleExtractors(self):
-        """Gets the list of all possible extractors. Should really only be used for debugging. 
-
-        Args:
-            None
-            
-        Returns:
-            all possible extractor dictionary list
-        """
-        return self.AllPossibleExtractorList
-
-    def getExtractorObjList(self):
-        """Gets the list of objects created from looking up the config file strings in the dictionary
-
-        Args:
-            None
-            
-        Returns:
-            the list of extractor python objects 
-        """
-        return self.extractorObjList
-           
-    def runExtractors(self):
-        """Runs all the extractors and returns DataElements.
-        
-        Args:
-            None
-            
-        Returns:
-            list of EventDataElements (list)
-
-        TODO:
-            Actually make it return DataElement list and make sure that won't cause problems
-        """
-        for extractor in self.extractorObjList:
-            extractor.findDates()
-
+        self.AllPossibleExtractorList = {"AERecogExtractor":AERecognitionEventDateExtractor(rawTextFileName, intermediateXMLFileName), "SuspectRecogExtractor":SuspectRecognitionEventDateExtractor(rawTextFileName, intermediateXMLFileName), "SVMv1EventDateExtractor":SVMv1EventDateExtractor(rawTextFileName, intermediateXMLFileName), "NaiveEventDateExtractor":NaiveEventDateExtractor(rawTextFileName, intermediateXMLFileName)}
+        self.entityName = 'EVENT_DT'
+        self.filename = rawTextFileName
+        self.testCaseName = self.filename[self.filename.rfind(r'/') + 1:self.filename.rfind(r'.txt')]
+    
+    
 # def main():
 #     extractorHandler = EventDateExtractorHandler('../test_cases/fda001.txt')

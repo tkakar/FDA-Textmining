@@ -6,13 +6,14 @@ When creating new methods, make sure to check the dictionary (textList) to see i
 
 Preprocessed Text Support (so far):
 
-  +Word Tokenization
-  +Sentence and Paragraph tokenization (in XML only)
-  +Timex2 tagging
-  +tokenization after timex2 tagging
-  +Part-of-speech tagging (POS)
-  +Parse tree creation
-  +MetaMap concept recognition
+  +Raw Text ---------------------- rawText()
+  +Word Tokenization ---------------------- wordTokenizeText()
+  +Sentence and Paragraph tokenization (in XML only) ---------------------- NONE
+  +Timex2 tagging ---------------------- timexTagText()
+  +tokenization after timex2 tagging ---------------------- timexTagAndTokenizeText()
+  +Part-of-speech tagging (POS) ---------------------- posTaggedText()
+  +Parse tree creation ---------------------- getParseTree()
+  +MetaMap concept recognition ---------------------- getMetaMapConcepts()
 
 Todo:
     * Fix dictionary (textList)  key phrase, so it doesn't have to rely on programmer accuracy
@@ -40,6 +41,7 @@ class Preprocessor(object):
     textList = {}
     _firstInitialization = True
     filename = ''
+    #rrp = BllipParser.from_unified_model_dir('/home/vsocrates/.local/share/bllipparser/GENIA+PubMed')
     rrp = RerankingParser.fetch_and_load('GENIA+PubMed')
 
 
@@ -399,7 +401,6 @@ class Preprocessor(object):
                     conceptXMLTag.append(tempMetaMapElem)
         
         self.writeToXML()
-        self.file.close()
 
     def writeToXML(self):
         """Writes the tree to the output xml specified.
@@ -423,6 +424,10 @@ class Preprocessor(object):
         """
         self.tree = ET.parse(self.xmlname)#, parser=XMLParser(encoding='utf-8'))
         self.root = self.tree.getroot()
+
+    def getRoot(self):
+        self.parseXML()
+        return self.root
 
     def placeOffsetInXML(self, phrase, tokenizedText,offset, span):
         """Takes a word/phrase and finds the globalIDs of the tokens in the intermediate XML that this word/phrase corresponds to. 
@@ -463,8 +468,8 @@ class Preprocessor(object):
             for offset in offsetList:
                 if ':' in offset:
                     colonLoc = offset.find(':')
-                    offsetTuple = (int(offset[0:colonLoc]), int(offset[colonLoc + 1:len(offset)]))
-                    offsetIntList.append(offsetTuple)            
+                    offsetlist = [int(offset[0:colonLoc]), int(offset[colonLoc + 1:len(offset)])]
+                    offsetIntList.append(offsetlist)            
             return offsetIntList
         else:
             colonLoc = offsetStr.find(':')

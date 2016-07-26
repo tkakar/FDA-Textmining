@@ -23,24 +23,24 @@ sys.path.append('/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/')
 #nltk.data.path.append('/work/vsocrates/nltk_data')
 from nltk_contrib import timex
 from Preprocessing.Preprocessor import Preprocessor
-from Extractors.EventDate.AERecognitionEventDateExtractor import AERecogExtractor 
-from Extractors.EventDate.SuspectRecognitionEventDateExtractor import SuspectRecogExtractor
+#from Extractors.EventDate.AERecognitionEventDateExtractor import AERecognitionEventDateExtractor 
+#from Extractors.EventDate.SuspectRecognitionEventDateExtractor import SuspectRecognitionEventDateExtractor
 from Assemblers.EventDateAssembler import EventDateAssembler
-from Extractors.Dosage.DosageRegExtractor import DosageRegExtractor 
+#from Extractors.Dosage.DosageRegExtractor import DosageRegExtractor 
 from Assemblers.DosageAssembler import DosageAssembler 
-from Extractors.Age.AgeRegExtractor import AgeRegExtractor 
-from Extractors.Age.AgeNltkExtractor import AgeNltkExtractor 
+#from Extractors.Age.AgeRegExtractor import AgeRegExtractor 
+#from Extractors.Age.AgeNltkExtractor import AgeNltkExtractor 
 from Assemblers.AgeAssembler import AgeAssembler
-from Extractors.Weight.WeightRegExtractor import WeightRegExtractor 
-from Extractors.Weight.WeightNltkExtractor import WeightNltkExtractor 
+#from Extractors.Weight.WeightRegExtractor import WeightRegExtractor 
+#from Extractors.Weight.WeightNltkExtractor import WeightNltkExtractor 
 from Assemblers.WeightAssembler import WeightAssembler
-from Extractors.Gender.GenderRegExtractor import GenderRegExtractor 
+#from Extractors.Gender.GenderRegExtractor import GenderRegExtractor 
 from Assemblers.GenderAssembler import GenderAssembler
-from Extractors.Drugname.DrugnameMetamapExtractor import DrugnameMetamapExtractor 
-from Extractors.Drugname.DrugnameRegExtractor import DrugnameRegExtractor 
+#from Extractors.Drugname.DrugnameMetamapExtractor import DrugnameMetamapExtractor 
+#from Extractors.Drugname.DrugnameRegExtractor import DrugnameRegExtractor 
 from Assemblers.DrugnameAssembler import DrugnameAssembler 
-
-
+from Assemblers.WeightAssembler import WeightAssembler
+from Assemblers.ReactionAssembler import ReactionAssembler
 
 import json
 
@@ -74,8 +74,8 @@ def main(aRawTextFileName=None, aIntermediateXMLFileName=None, aConfigFile=None)
     preprocessOne = Preprocessor(rawTextFileName=rawTextFileName,intermediateXMLFileName=intermediateXMLFileName)
     configFile = configFileName
 
-    allAssemblerDict = {'Event Date':EventDateAssembler(rawTextFileName, intermediateXMLFileName), 'Dosage':DosageAssembler(rawTextFileName, intermediateXMLFileName), 'Drugname':DrugnameAssembler(rawTextFileName, intermediateXMLFileName), 'Age':AgeAssembler(rawTextFileName, intermediateXMLFileName), 'Weight':WeightAssembler(rawTextFileName, intermediateXMLFileName), 'Gender':GenderAssembler(rawTextFileName, intermediateXMLFileName)}
 
+    allAssemblerDict = {'Event Date':EventDateAssembler(rawTextFileName, intermediateXMLFileName)}#, 'Age':AgeAssembler(rawTextFileName, intermediateXMLFileName),'Dosage':DosageAssembler(rawTextFileName, intermediateXMLFileName), 'Drugname':DrugnameAssembler(rawTextFileName, intermediateXMLFileName), 'Weight':WeightAssembler(rawTextFileName, intermediateXMLFileName), 'Gender':GenderAssembler(rawTextFileName, intermediateXMLFileName), 'Reaction':ReactionAssembler(rawTextFileName, intermediateXMLFileName)}
 
 #Place to test new preprocess methods
     preprocessOne.getMetaMapConcepts()
@@ -100,6 +100,8 @@ def main(aRawTextFileName=None, aIntermediateXMLFileName=None, aConfigFile=None)
         if config[name]:
             assembler.setExtractorList(config[name])
             assembler.runExtractors() 
+            #assembler.writeToSemiFinalXML()
+            #assembler.launchTestSuite()
 
 # #Currently (as of 7-5-16), only the two following methods work. The other ones still need to be updated and integrated into the XML document
 #     output = preprocessOne.wordTokenizeText()

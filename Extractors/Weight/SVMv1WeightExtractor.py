@@ -89,11 +89,12 @@ class SVMv1WeightExtractor(object):
                     self.vectors.append(vector)
         return self.vectors
    
-    def findWeight(self):
+    def findEntity(self):
         self.get_FeatureVector(self.intermediate)
         X = [f[1:] for f in self.vectors]
         
-        with open('../../Resources/svm_weight.pkl', 'rb') as f:
+        with open('Resources/svm_weight.pkl', 'rb') as f:
+        #with open('../../Resources/svm_weight.pkl', 'rb') as f:
             clf = pickle.load(f)
             
         predictions = clf.predict(X)     
@@ -110,7 +111,7 @@ class SVMv1WeightExtractor(object):
                 Offsets.append([self.vectors[offset][0][1],self.vectors[offset][0][2]])
             offset += 1
 
-        return WeightElement(Weight, Offsets, "SVMv1WeightExtractor")
+        return WeightElement(Weight, Offsets, "SVMv1WeightExtractor", "WT")
     
 #for filename in os.listdir("/Users/xqin/Workspace/Code/LearnPython/IntermediateFiles/"):
 #    t = SVMv1WeightExtractor("ac","/Users/xqin/Workspace/Code/LearnPython/IntermediateFiles/"+filename)

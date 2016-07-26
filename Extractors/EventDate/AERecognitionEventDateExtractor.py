@@ -4,15 +4,16 @@ from nltk_contrib import timex
 import itertools
 from itertools import product 
 from DataElements.EventDateElement import EventDateElement
+from DataElements.DataElement import DataElement
 from Preprocessing.Preprocessor import Preprocessor
 
-class AERecogExtractor(object): 
+class AERecognitionEventDateExtractor(object): 
 
     def __init__(self, rawTextFileName, intermediateXMLFileName):
-        preprocess = Preprocessor(rawTextFileName, intermediateXMLFileName)
-        self.tokens = preprocess.timexTagAndTokenizeText()
+        self.preprocess = Preprocessor(rawTextFileName, intermediateXMLFileName)
+        self.tokens = self.preprocess.timexTagAndTokenizeText()
 #        print self.tokens
-    def findDates(self):
+    def findEntity(self):
 #        print self.tokens
         #search for words (e.g. 'AE(s)' or 'Adverse Event(s)')
         pattern = r'\bAE(\s|s)'
@@ -60,7 +61,31 @@ class AERecogExtractor(object):
             date = list(itertools.takewhile(lambda x: x.lower() != '<TIMEX2>'.lower(), reversedList[(len(self.tokens) - timexTuple[0]):]))
             date = date[::-1]
 
-        print date
-        #TODO Need to figure out how to find the char offset when we have tagged text only
-        return EventDateElement(" ".join(date), 0, "AERecognitionEventDateExtrator")
-#        return True
+        count = 0
+
+        #the rest is to find the offset
+        for idx, token in enumerate(self.tokens):
+            if idx > timexTuple[0]: break
+            if token.lower() == '<TIMEX2>'.lower() or token.lower() == '</TIMEX2>'.lower():
+                count += 1
+            
+        # add one because tokens index starts at 0
+        loc = timexTuple[0] + 1 - count
+        
+        root = self.preprocess.getRoot()
+        offsets = []
+        for x in range(0,len(date)):
+            elem = root.find(".//*[@globalID='"+str(loc + x)+r"']")
+            if elem is not None:
+                offsets.append(elem.attrib['offset'])
+        
+        print 'AERecognitionEventDateExtractor: ', " ".join(date)
+        
+        offsetList = self.preprocess.offsetParse(";".join(offsets), delimiter=";")
+        
+        print " ".join(date), offsetList
+        # 
+        if not offsetList:
+            return EventDateElement(" ".join(date),[[]], "AERecognitionEventDateExtractor", 'EVENT_DT')
+        else:
+            return EventDateElement(" ".join(date), offsetList, "AERecognitionEventDateExtractor", 'EVENT_DT')
