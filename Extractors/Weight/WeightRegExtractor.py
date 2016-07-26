@@ -15,9 +15,9 @@ class WeightRegExtractor(object):
 		if not extract_weight:
 			extract_weight = re.search(r'.*\s([0-9]+(\.[0-9]+)?).?(kg|kgs|kilograms|kilogram).*',self.Text,re.IGNORECASE)
 			if not extract_weight:
-	    		weight="UNK"
+	    			weight="UNK"
 			else:
-	    		weight = extract_weight.group(1)
+	    			weight = extract_weight.group(1)
 				weightCode = "KG"
 		else:
 			weight = extract_weight.group(1)

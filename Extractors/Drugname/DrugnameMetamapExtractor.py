@@ -38,4 +38,5 @@ class DrugnameMetamapExtractor(object):
 			break;
 
 	print ("DrugnameMetamap: " +token)
-	return DrugnameElement("".join(token), offset, "DrugnameMetamapExtractor", "DRUGNAME")
+	if token:
+		return DrugnameElement("".join(token), offset, "DrugnameMetamapExtractor", "DRUGNAME")

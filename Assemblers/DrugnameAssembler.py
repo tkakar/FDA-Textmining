@@ -23,15 +23,6 @@ class DrugnameAssembler(EntityAssembler):
         
         Returns:
 
-
-    def setExtractorList(self, aList):
-        """Sets the extractor list by searching the dictionary for corresponding python objects.
-
-        Args:
-            aList (list): the list from the config file to look up and initialize extractors
-            
-        Returns:
-            The created object list
             EventDateAssembler Object
 
         """
