@@ -27,7 +27,7 @@ class EventDateAssembler(EntityAssembler):
         """
         super(EventDateAssembler, self).__init__(rawTextFileName, intermediateXMLFileName, anExtractorList=[])
 
-        self.AllPossibleExtractorList = {"AERecogExtractor":AERecognitionEventDateExtractor(rawTextFileName, intermediateXMLFileName), "SuspectRecogExtractor":SuspectRecognitionEventDateExtractor(rawTextFileName, intermediateXMLFileName), "SVMv1EventDateExtractor":SVMv1EventDateExtractor(rawTextFileName, intermediateXMLFileName), "NaiveEventDateExtractor":NaiveEventDateExtractor(rawTextFileName, intermediateXMLFileName)}
+        self.AllPossibleExtractorList = {"AERecogExtractor":AERecognitionEventDateExtractor(rawTextFileName, intermediateXMLFileName), "SuspectRecogExtractor":SuspectRecognitionEventDateExtractor(rawTextFileName, intermediateXMLFileName), "NaiveEventDateExtractor":NaiveEventDateExtractor(rawTextFileName, intermediateXMLFileName)}#, "SVMv1EventDateExtractor":SVMv1EventDateExtractor(rawTextFileName, intermediateXMLFileName) }
         self.entityName = 'EVENT_DT'
         self.filename = rawTextFileName
         self.testCaseName = self.filename[self.filename.rfind(r'/') + 1:self.filename.rfind(r'.txt')]

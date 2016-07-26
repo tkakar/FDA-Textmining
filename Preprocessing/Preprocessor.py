@@ -62,6 +62,8 @@ class Preprocessor(object):
  
             return
 
+        Preprocessor.textList = {}
+
         if rawTextFileName is not None:
             self.filename = rawTextFileName
             self.xmlname = intermediateXMLFileName
@@ -88,10 +90,7 @@ class Preprocessor(object):
             It does write the parsed text to the file specified in the initializer
 
         """
-        self.file = open(self.filename)
-        raw = self.file.read()
-        rawUnicode = raw.decode('utf-8')
-        raw = self.unicodeToASCII(rawUnicode)
+        raw = self.rawText()
         rawOffsetIntermed = raw
         offsetIter = 0
         offsetIterSent = 0
@@ -144,7 +143,6 @@ class Preprocessor(object):
                     globalIDIndex += 1
 
         self.writeToXML()
-        self.file.close()
 
     def rawText(self):
         """Returns the raw string (usually only used for RegEx extractors that don't want any preprocessing/XML)
@@ -156,9 +154,12 @@ class Preprocessor(object):
             The raw string from the text file (str)
         """
         if Preprocessor.textList.get('rawText') is None:
-            self.file = open(self.filename)
-            Preprocessor.textList['rawText'] = self.file.read()
-            self.file.close()
+            file = open(self.filename)
+            raw = file.read()
+            rawUnicode = raw.decode('utf-8')
+            raw = self.unicodeToASCII(rawUnicode)
+            Preprocessor.textList['rawText'] = raw
+            file.close()
         return Preprocessor.textList.get('rawText')
 
     def timexTagText(self, altText=None):
@@ -180,12 +181,9 @@ class Preprocessor(object):
 
         else:
             """Otherwise, we first check if it exists in the textList dict, if not, it is created and returned"""
-            self.file = open(self.filename)
-            raw = self.file.read()
+            raw = self.rawText()
             if Preprocessor.textList.get('timexTagText') is None:
                 Preprocessor.textList['timexTagText'] = timex.tag(raw)
-
-            self.file.close()
 
         return Preprocessor.textList.get('timexTagText')
 
@@ -207,13 +205,11 @@ class Preprocessor(object):
             return altTokenizedText
 
         else:
-            self.file = open(self.filename)
-            raw = self.file.read()
+            raw = self.rawText()
             if Preprocessor.textList.get('wordTokenizeText') is None:
                 Preprocessor.textList['wordTokenizeText'] = [word_tokenize(t) for t in sent_tokenize(raw)]
             else:
                 print "Didn't create one!!"
-            self.file.close()
 
         return Preprocessor.textList.get('wordTokenizeText')
 
@@ -276,24 +272,27 @@ class Preprocessor(object):
             return altOutputStep2
         else:
 
-            posTaggedSents = []
-            paragraphs = self.root.find('Paragraphs')
-            for paragraph in paragraphs.findall('Paragraph'):
-                sentences = paragraph.find('Sentences')
-                for sentence in sentences.findall('Sentence'):
-                    tokens = sentence.find('Tokens')
-                    #We have to take the first element, because for some reason, wordTokenizeText outputs a nested list, even with only one sentence
-                    words = self.wordTokenizeText(sentence.find('Text').text)[0]
-                    """We have to check if words is empty or not, otherwise segfault"""
-                    if words:
-                        posTagList = Preprocessor.rrp.tag(words)
-                        posTaggedSents.append(posTagList)
-                        for index, token in enumerate(tokens.findall('Token')):
-                            token.attrib['POSTag'] = posTagList[index][1]
+            if Preprocessor.textList.get('posTaggedText') is None:
+                posTaggedSents = []
+                paragraphs = self.root.find('Paragraphs')
+                for paragraph in paragraphs.findall('Paragraph'):
+                    sentences = paragraph.find('Sentences')
+                    for sentence in sentences.findall('Sentence'):
+                        tokens = sentence.find('Tokens')
+                        #We have to take the first element, because for some reason, wordTokenizeText outputs a nested list, even with only one sentence
+                        words = self.wordTokenizeText(sentence.find('Text').text)[0]
+                        """We have to check if words is empty or not, otherwise segfault"""
+                        if words:
+                            posTagList = Preprocessor.rrp.tag(words)
+                            posTaggedSents.append(posTagList)
+                            for index, token in enumerate(tokens.findall('Token')):
+                                token.attrib['POSTag'] = posTagList[index][1]
 
                         
-        self.writeToXML()
-        return posTaggedSents
+                Preprocessor.textList['posTaggedText'] = posTaggedSents
+                self.writeToXML()
+            else:
+                return Preprocessor.textList.get('posTaggedText')
     
     def getParseTree(self, altText=None):
         """
@@ -319,25 +318,30 @@ class Preprocessor(object):
             # Since we are doing an I/O anyway to input the new XML tags, we don't have to retokenize, and can use the information from the base XML document
             # sent_tokens = sent_tokenize(raw)
             # output = [rrp.simple_parse(sent) for sent in sent_tokens]
+            if Preprocessor.textList.get('getParseTree') is None:
+                parsedTreeList = []
+                paragraphs = self.root.find('Paragraphs')
+                for paragraph in paragraphs.findall('Paragraph'):
+                    sentences = paragraph.find('Sentences')
+                    for sentence in sentences.findall('Sentence'):
+                        tempParseTreeElement = ET.Element('ParseTree')
+                        # We have to take the first element, because for some reason, wordTokenizeText outputs a nested list, even with only one element
+                        text = sentence.find('Text').text
+                        """Only going to create a parse tree if there is some alphanumeric character and a period, otherwise parser crashes"""
+                        if re.search('\w+\.?', text):
+                            tempParseTreeElement.text = Preprocessor.rrp.simple_parse(self.wordTokenizeText(text)[0])
+                            parsedTreeList.append(tempParseTreeElement.text)
+                        else:
+                            parsedTreeList.append([])
+                            pass
+                            """Currently, if the sentence doesn't have any alphanumeric characters (followed by a period), nothing will be entered in the text,
+                            but a ParseTree object will still be created and added."""
+                        sentence.append(tempParseTreeElement)
 
-            paragraphs = self.root.find('Paragraphs')
-            for paragraph in paragraphs.findall('Paragraph'):
-                sentences = paragraph.find('Sentences')
-                for sentence in sentences.findall('Sentence'):
-                    tempParseTreeElement = ET.Element('ParseTree')
-                    # We have to take the first element, because for some reason, wordTokenizeText outputs a nested list, even with only one element
-                    text = sentence.find('Text').text
-                    """Only going to create a parse tree if there is some alphanumeric character and a period, otherwise parser crashes"""
-                    if re.search('\w+\.?', text):
-                        tempParseTreeElement.text = Preprocessor.rrp.simple_parse(self.wordTokenizeText(text)[0])
-                    else:
-                        pass
-                        """Currently, if the sentence doesn't have any alphanumeric characters (followed by a period), nothing will be entered in the text,
-                        but a ParseTree object will still be created and added."""
-                    sentence.append(tempParseTreeElement)
-
-        self.writeToXML()
-        return self.root
+                Preprocessor.textList['getParseTree'] = parsedTreeList
+                self.writeToXML()
+            else:
+                return Preprocessor.textList.get('getParseTree')
         
     def getMetaMapConcepts(self, altText=None):
         """
@@ -380,13 +384,15 @@ class Preprocessor(object):
                         lastIdx = rawText.rfind(conceptName, 0, startIndex+len(conceptName))
                         #you're going to forget this tomorrow morning, so this is the number of line feeds between the last instance of the concept name and where metamap thinks the word is.
                         lfNumSpecific = rawText.count('\n', lastIdx,startIndex)
-                        
-                        posInfoList[listIndex] = (startIndex - (lfNum + 1) + lfNumSpecific, endIndex - (lfNum + 1) + lfNumSpecific)       
+                        #For some reason, we need to subract one at the end, TODO: Figure out why
+                        posInfoList[listIndex] = (startIndex - (lfNum + 1) + lfNumSpecific - 1, endIndex - (lfNum + 1) + lfNumSpecific - 1)
                      
                      
                     globalIDList = []
                     #we have the fixed offsets for each mention of the semantic type. we now need to find their location in the xml file. 
                     for newStartIdx, newEndIdx in posInfoList:
+#                        print "newStartIdx: ", newStartIdx
+#                        print "newEndIdx: ", newEndIdx
                         globalIds = self.placeOffsetInXML(conceptName, word_tokenize(conceptName), newStartIdx , newEndIdx-newStartIdx)
                         globalIDList.append(globalIds)
 
@@ -400,6 +406,7 @@ class Preprocessor(object):
                     tempMetaMapElem.text = key.semtypes.replace("'",'')
                     conceptXMLTag.append(tempMetaMapElem)
         
+#        print 'globalIDByConcept:      ', globalIDByConcept
         self.writeToXML()
 
     def writeToXML(self):

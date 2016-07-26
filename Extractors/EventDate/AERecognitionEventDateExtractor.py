@@ -71,7 +71,10 @@ class AERecognitionEventDateExtractor(object):
             
         # add one because tokens index starts at 0
         loc = timexTuple[0] + 1 - count
-        
+        print "this is the timexTuple: ", timexTuple[0]
+        print "this is the loc: ", loc
+
+
         root = self.preprocess.getRoot()
         offsets = []
         for x in range(0,len(date)):

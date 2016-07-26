@@ -1,9 +1,9 @@
 import os, glob
 import ProjectAERIS
 
-inputPath = '/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Test_Suite/Test_Cases/fda'
+inputPath = '/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Test_Suite/Test_Cases/'
 
-outputPath = '/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Postprocessing/IntermediateFiles2'
+outputPath = '/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Postprocessing/Intermediate4'
 
 configFilePath = '/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Resources/config_with_age.json'
 

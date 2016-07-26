@@ -18,11 +18,16 @@ class GenderRegExtractor(object):
 				gender = "UNK"
 	    		else:
 	        		gender = extract_gender_m.group()
-				gender_offset = "[{s},{e}]".format(s=extract_gender_m.start(), e=extract_gender_m.end())
+				#gender_offset = "[{s},{e}]".format(s=extract_gender_m.start(), e=extract_gender_m.end())
+				gender_offset = [extract_gender_m.start(), extract_gender_m.end()]
+                                #Change to make it from female/male to F,M
+                                gender = "M"
 		else:
 			gender = extract_gender_f.group()
-			gender_offset = "[{s},{e}]".format(s=extract_gender_f.start(), e=extract_gender_f.end())
+			gender_offset = [extract_gender_f.start(), extract_gender_f.end()]	
+                        #Change to make it from female/male to F,M
+                        gender = "F"
 	
 		if extract_gender_m or extract_gender_f:
-			print("regEx_gender:"+gender+gender_offset)
-			return [GenderElement(gender, gender_offset, "GenderRegExtrator", "SEX")]
+			print("regEx_gender:",gender,gender_offset)
+			return [GenderElement(gender, [gender_offset], "GenderRegExtrator", "SEX")]

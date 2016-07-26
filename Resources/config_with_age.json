@@ -3,5 +3,15 @@
       "AERecogExtractor",
       "SuspectRecogExtractor",
       "NaiveEventDateExtractor"
+   ],
+   "Age":[
+         "AgeRegExtractor"
+   ],
+   "Weight":[
+         "WeightRegExtractor"
+   ],
+   "Gender":[
+         "GenderRegExtractor"
    ]
+
 }

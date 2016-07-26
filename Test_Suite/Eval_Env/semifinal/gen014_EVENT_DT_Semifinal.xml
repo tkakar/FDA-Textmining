@@ -42,4 +42,4 @@
       </INSTANCE>
    </INDICATION_FILE>
    <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
-</ANNOTATIONS>
+<EVENT_DT end="116" extractor="NaiveEventDateExtractory" start="101">October 1, 2007</EVENT_DT></ANNOTATIONS>
