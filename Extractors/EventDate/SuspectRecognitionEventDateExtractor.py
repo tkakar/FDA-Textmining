@@ -4,14 +4,15 @@ import nltk
 import itertools
 from itertools import product 
 from Preprocessing.Preprocessor import Preprocessor
+from DataElements.EventDateElement import EventDateElement
 
-class SuspectRecogExtractor(object):
+class SuspectRecognitionEventDateExtractor(object):
     
     def __init__(self, rawTextFileName, intermediateXMLFileName):
-        preprocess = Preprocessor(rawTextFileName, intermediateXMLFileName)
-        self.tokens = preprocess.timexTagAndTokenizeText()
+        self.preprocess = Preprocessor(rawTextFileName, intermediateXMLFileName)
+        self.tokens = self.preprocess.timexTagAndTokenizeText()
         
-    def findDates(self):
+    def findEntity(self):
         pattern = r'\btherapy|therapies|medications?|drugs?|products?\b'
         pattern3 = r'<\/?TIMEX2>'
         re_pat = re.compile(pattern, re.IGNORECASE)
@@ -55,6 +56,29 @@ class SuspectRecogExtractor(object):
             date = list(itertools.takewhile(lambda x: x.lower() != '<TIMEX2>'.lower(), reversedList[(len(self.tokens) - timexTuple[0]):]))
             date = date[::-1]
 
-        print date
+        count = 0
 
-        return True
+        #the rest is to find the offset
+        for idx, token in enumerate(self.tokens):
+            if idx > timexTuple[0]: break
+            if token.lower() == '<TIMEX2>'.lower() or token.lower() == '</TIMEX2>'.lower():
+                count += 1
+            
+        # add one because tokens index starts at 0
+        loc = timexTuple[0] + 1 - count
+        
+        root = self.preprocess.getRoot()
+        offsets = []
+        for x in range(0,len(date)):
+            elem = root.find(".//*[@globalID='"+str(loc + x)+r"']")
+            offsets.append(elem.attrib['offset'])
+
+
+        
+        print 'SuspectRecognitionEventDateExtractor: ', " ".join(date)
+        offsetList = self.preprocess.offsetParse(";".join(offsets), delimiter=";")
+
+        if not offsetList:
+            return EventDateElement(" ".join(date), [[]], "SuspectRecognitionEventDateExtractor", 'EVENT_DT')
+        else:   
+            return EventDateElement(" ".join(date), offsetList, "SuspectRecognitionEventDateExtractor", 'EVENT_DT')

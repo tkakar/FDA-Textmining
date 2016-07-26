@@ -95,5 +95,5 @@
 	<INDICATION_FILE>
 		<INDI_PT id="0" start="309" end="323">blood-pressure</INDI_PT>
 	</INDICATION_FILE>
-</ANNOTATIONS>
 <COMMENT>This narrative has reactions, but they aren't related to any medication specifically.</COMMENT>
+</ANNOTATIONS>

@@ -19,12 +19,17 @@ class DataElement(object):
         Returns:
             Initialized DataElement (obj)
         """
-        self.extractedField = extractedField
-        self.charOffset = charOffset
-        self.extractorName = extractorName
-        self.entityName = entityName
+        self._extractedField = extractedField
+        self._charOffset = charOffset
+        self._extractorName = extractorName
+        self._entityName = entityName
 
-    def getExtractedField(self):
+
+    # def __repr__(self):
+    #     charOffset = [str(x)+':'+str(y)+';' for x,y in self.charOffset]
+    #     return 'Extracted Field: ', self.extractedField, 'charOffset: ', charOffset, 'extractorName: ', self.extractorName, 'entityName: ', self.entityName
+    @property
+    def extractedField(self):
         """Gets the extracted field
         
         Args:
@@ -33,9 +38,10 @@ class DataElement(object):
         Returns:
             the extracted field (str)
         """
-        return self.extractedField
+        return self._extractedField
 
-    def setExtractedField(self,extractedField):
+    @extractedField.setter
+    def extractedField(self,extractedField):
         """Sets the  extracted field
         
         Args:
@@ -44,9 +50,10 @@ class DataElement(object):
         Returns:
             None
         """
-        self.extractedField = extractedField
+        self._extractedField = extractedField
 
-    def getCharOffset(self):
+    @property
+    def charOffset(self):
         """Gets the character offset.
 
         Args:
@@ -55,9 +62,10 @@ class DataElement(object):
         Returns:
            the character offset (int)
         """
-        return self.charOffset
-
-    def setCharOffset(self,charOffset):
+        return self._charOffset
+    
+    @charOffset.setter
+    def charOffset(self,charOffset):
         """Sets the character offset
         
         Args:
@@ -66,9 +74,10 @@ class DataElement(object):
         Returns:
             None
         """ 
-        self.charOffset = charOffset
+        self._charOffset = charOffset
 
-    def getExtractorName(self):
+    @property
+    def extractorName(self):
         """Gets the name of the Extractor.
 
         Args:
@@ -77,9 +86,10 @@ class DataElement(object):
         Returns:
            the Extractor that found this DataElement (str)
         """
-        return self.extractorName
+        return self._extractorName
 
-    def setExtractorName(self,extractorName):
+    @extractorName.setter
+    def extractorName(self,extractorName):
         """Sets the Extractor name
         
         Args:
@@ -88,10 +98,12 @@ class DataElement(object):
         Returns:
             None
         """ 
-        self.extractorName = extractorName
+        self._extractorName = extractorName
 
-    def getEntityName(self):
-        return self.entityName
+    @property
+    def entityName(self):
+        return self._entityName
 
-    def setEntityName(self, entityName):
-        self.entityName = entityName
+    @entityName.setter
+    def entityName(self, entityName):
+        self._entityName = entityName

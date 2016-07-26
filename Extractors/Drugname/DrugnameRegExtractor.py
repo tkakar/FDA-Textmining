@@ -5,11 +5,11 @@ from DataElements.DrugnameElement import DrugnameElement
 
 class DrugnameRegExtractor(object):
     
-    def __init__(self):
-        preprocess = Preprocessor()
+    def __init__(self, rawTextFileName, intermediateXMLFileName):
+        preprocess = Preprocessor(rawTextFileName, intermediateXMLFileName)
         self.Tokens = preprocess.wordTokenizeText()
         
-    def findDrugnames(self):
+    def findEntity(self):
 	
 	with open("/work/tkakar/git-repos/FDA-Textmining/Drugslist.txt") as myfile:
     		drugnames= myfile.read().splitlines()

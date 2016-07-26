@@ -57,9 +57,10 @@
 	<INDICATION_FILE>
 		<INDI_PT id="" start="" end=""></INDI_PT>
 	</INDICATION_FILE>
-</ANNOTATIONS>
 <COMMENT>
 </COMMENT>
+</ANNOTATIONS>
+
 <!--
 
 	mark explicit unknown: UNK

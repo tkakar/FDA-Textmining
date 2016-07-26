@@ -1,2 +1,17 @@
-{"Event Date" : ["AERecognitionEventDateExtractor", "NaiveEventDateExtractor"],
-"Age" : ["testExtractor1", "testExtractor2"]}
+{
+   "Event Date":[
+      "AERecogExtractor",
+      "SuspectRecogExtractor",
+      "NaiveEventDateExtractor"
+   ],
+   "Age":[
+         "AgeRegExtractor"
+   ],
+   "Weight":[
+         "WeightRegExtractor"
+   ],
+   "Gender":[
+         "GenderRegExtractor"
+   ]
+
+}

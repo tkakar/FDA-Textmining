@@ -135,5 +135,5 @@
 	<INDICATION_FILE>
 		<INDI_PT id="0" start="115" end="134">atrial fibrillation</INDI_PT>
 	</INDICATION_FILE>
-</ANNOTATIONS>
 <COMMENT></COMMENT>
+</ANNOTATIONS>

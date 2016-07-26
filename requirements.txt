@@ -1,3 +1,8 @@
+numpy
+scipy
+sklearn
+xlwt
+xlutils
 egenix-mx-base==3.2.9
 bllipparser==2015.12.3
 nltk==3.2.1

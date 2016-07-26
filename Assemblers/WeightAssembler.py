@@ -8,76 +8,25 @@ Todo:
 
 from Extractors.Weight.WeightRegExtractor import WeightRegExtractor
 from Extractors.Weight.WeightNltkExtractor import WeightNltkExtractor
+from Extractors.Weight.SVMv1WeightExtractor import SVMv1WeightExtractor
 
+from Assemblers.EntityAssembler import EntityAssembler
 
-class WeightAssembler(object):
-    
+class WeightAssembler(EntityAssembler):
+
     def __init__(self, rawTextFileName, intermediateXMLFileName, anExtractorList=[]):
         """
-        Initializes the WeightAssembler and returns it. All Extractors for the Weight DataElement must be specified in the list below. 
+        Initializes the EventDateAssembler and returns it. All Extractors for the Event Date DataElement must be specified in the list below. 
 
         Args:
-            anExtractorList (list): the list passed from the config file for Weight
+            anExtractorList (list): the list passed from the config file for EventDate
         
         Returns:
-            WeightAssembler Object
+            EventDateAssembler Object
         """
-        self.AllPossibleExtractorList = {"WeightRegExtractor":WeightRegExtractor(rawTextFileName, intermediateXMLFileName), "WeightNltkExtractor":WeightNltkExtractor(rawTextFileName, intermediateXMLFileName)}
-        self.extractorList = anExtractorList
-        self.extractorObjList = []
+        super(WeightAssembler, self).__init__(rawTextFileName, intermediateXMLFileName, anExtractorList=[])
 
-    def setExtractorList(self, aList):
-        """Sets the extractor list by searching the dictionary for corresponding python objects.
-
-        Args:
-            aList (list): the list from the config file to look up and initialize extractors
-            
-        Returns:
-            The created object list
-        """
-        self.extractorList = aList
-
-        for extractor in self.extractorList:
-            self.extractorObjList.append(self.AllPossibleExtractorList[extractor])
-            
-        return self.extractorObjList
-
-    def getAllPossibleExtractors(self):
-        """Gets the list of all possible extractors. Should really only be used for debugging. 
-
-        Args:
-            None
-            
-        Returns:
-            all possible extractor dictionary list
-        """
-        return self.AllPossibleExtractorList
-
-    def getExtractorObjList(self):
-        """Gets the list of objects created from looking up the config file strings in the dictionary
-
-        Args:
-            None
-            
-        Returns:
-            the list of extractor python objects 
-        """
-        return self.extractorObjList
-           
-    def runExtractors(self):
-        """Runs all the extractors and returns DataElements.
-        
-        Args:
-            None
-            
-        Returns:
-            list of WeighteElements (list)
-
-        TODO:
-            Actually make it return DataElement list and make sure that won't cause problems
-        """
-        for extractor in self.extractorObjList:
-            extractor.findWeight()
-
-# def main():
-#     extractorHandler = EventDateExtractorHandler('../test_cases/fda001.txt')
+        self.AllPossibleExtractorList = {"WeightRegExtractor":WeightRegExtractor(rawTextFileName, intermediateXMLFileName), "WeightNltkExtractor":WeightNltkExtractor(rawTextFileName, intermediateXMLFileName), "SVMv1WeightExtractor":SVMv1WeightExtractor(rawTextFileName, intermediateXMLFileName)}
+        self.entityName = 'WT_SET'
+        self.filename = rawTextFileName
+        self.testCaseName = self.filename[self.filename.rfind(r'/') + 1:self.filename.rfind(r'.txt')]

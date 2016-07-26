@@ -89,11 +89,12 @@ class SVMv1AgeExtractor(object):
                     self.vectors.append(vector)
         return self.vectors
    
-    def findAge(self):
+    def findEntity(self):
         self.get_FeatureVector(self.intermediate)
         X = [f[1:] for f in self.vectors]
         
-        with open('../../Resources/svm_age.pkl', 'rb') as f:
+        with open('Resources/svm_age.pkl', 'rb') as f:
+        #with open('../../Resources/svm_age.pkl', 'rb') as f:
             clf = pickle.load(f)
             
         predictions = clf.predict(X)     
@@ -110,7 +111,7 @@ class SVMv1AgeExtractor(object):
                 Offsets.append([self.vectors[offset][0][1],self.vectors[offset][0][2]])
             offset += 1
 
-        return AgeElement(Ages, Offsets, "SVMv1AgeExtractor")
+        return AgeElement(Ages, Offsets, "SVMv1AgeExtractor", "AGE")
     
 #for filename in os.listdir("/Users/xqin/Workspace/Code/LearnPython/IntermediateFiles/"):
 #    t = SVMv1AgeExtractor("ac","/Users/xqin/Workspace/Code/LearnPython/IntermediateFiles/"+filename)

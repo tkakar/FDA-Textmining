@@ -89,11 +89,12 @@ class SVMv1ReactionExtractor(object):
                     self.vectors.append(vector)
         return self.vectors
    
-    def findReaction(self):
+    def findEntity(self):
         self.get_FeatureVector(self.intermediate)
         X = [f[1:] for f in self.vectors]
         
-        with open('../../Resources/svm_reaction.pkl', 'rb') as f:
+        #with open('../../Resources/svm_reaction.pkl', 'rb') as f:
+        with open('Resources/svm_reaction.pkl', 'rb') as f:
             clf = pickle.load(f)
             
         predictions = clf.predict(X)     
@@ -110,7 +111,7 @@ class SVMv1ReactionExtractor(object):
                 Offsets.append([self.vectors[offset][0][1],self.vectors[offset][0][2]])
             offset += 1
 
-        return ReactionElement(Reactions, Offsets, "SVMv1ReactionExtractor")
+        return ReactionElement(Reactions, Offsets, "SVMv1ReactionExtractor", "SEX")
     
 #for filename in os.listdir("/Users/xqin/Workspace/Code/LearnPython/IntermediateFiles/"):
 #    t = SVMv1ReactionExtractor("ac","/Users/xqin/Workspace/Code/LearnPython/IntermediateFiles/"+filename)

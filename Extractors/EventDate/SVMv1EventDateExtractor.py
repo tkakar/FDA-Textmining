@@ -89,11 +89,12 @@ class SVMv1EventDateExtractor(object):
                     self.vectors.append(vector)
         return self.vectors
    
-    def findEventDate(self):
+    def findEntity(self):
         self.get_FeatureVector(self.intermediate)
         X = [f[1:] for f in self.vectors]
         
-        with open('../../Resources/svm_eventdate.pkl', 'rb') as f:
+        with open('Resources/svm_eventdate.pkl', 'rb') as f:
+        #with open('../../Resources/svm_eventdate.pkl', 'rb') as f:
             clf = pickle.load(f)
             
         predictions = clf.predict(X)     
@@ -110,8 +111,13 @@ class SVMv1EventDateExtractor(object):
                 Offsets.append([self.vectors[offset][0][1],self.vectors[offset][0][2]])
             offset += 1
 
-        return EventDateElement(EventDates, Offsets, "SVMv1EventDateExtractor")
-    
+
+        drugNameElementList = []
+        for x,y in DrugNames,Offsets:
+            drugNameElementList.append(EventDateElement(x, y, "SVMv1EventDateExtractor", "EVENT_DT"))
+
+        return drugNameElementList
+
 #for filename in os.listdir("/Users/xqin/Workspace/Code/LearnPython/IntermediateFiles/"):
 #    t = SVMv1EventDateExtractor("ac","/Users/xqin/Workspace/Code/LearnPython/IntermediateFiles/"+filename)
 #    t.findEventDate()

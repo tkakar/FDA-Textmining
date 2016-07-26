@@ -10,4 +10,4 @@ class DosageElement(DataElement):
 
     def __init__(self, *args, **kwargs):
         """Calls the super"""
-        super(DosageElement, self).__init__(**kwargs)
+        super(DosageElement, self).__init__(*args, **kwargs)

@@ -1,0 +1,58 @@
+c<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATIONS textSource="" annotator="">
+   <EVENT_DT start="" end="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE start="" end="" />
+         <AGE_COD start="" end="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT start="" end="" />
+         <WT_COD start="" end="" />
+      </WT_SET>
+      <SEX start="" end="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
+      <INSTANCE id="" primary="" timePeriod="">
+         <!--primary is bool | timePeriod can be current/past/unk -->
+         <DRUGNAME start="" end="" />
+         <COREF start="" end="" />
+         <ROUTE start="" end="" />
+         <DECHAL start="" end="" />
+         <RECHAL start="" end="" />
+         <DOSE_AMT start="" end="" />
+         <DOSE_UNIT start="" end="" />
+         <DOSE_FORM start="" end="" />
+         <DOSE_FREQ start="" end="" />
+         <REACTIONS_IDS />
+         <!-- REACTION_IDS and INDICATION_IDS are delimited by commas (e.g. <REACTIONS_IDS>1,2,3</REACTIONS_IDS>) -->
+         <INDICATION_IDS />
+      </INSTANCE>
+   </DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT id="" start="" end="" />
+         <COREF start="" end="" />
+      </INSTANCE>
+   </REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT id="" start="" end="" />
+         <COREF start="" end="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>
+<!--
+
+	mark explicit unknown: UNK
+list symptoms (not just preferred terms)
+coreferences
+	add subelement to existing <instance> tag
+ignore dechal and rechal
+take all drug info
+primary suspect tag, tag drug as specific thing
+	current vs past vs unk
+
+-->

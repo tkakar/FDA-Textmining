@@ -10,7 +10,7 @@ class WeightNltkExtractor(object):
         preprocess = Preprocessor(rawTextFileName, intermediateXMLFileName)
         self.Text = preprocess.rawText()
         
-    def findWeight(self):
+    def findEntity(self):
 	sentences = sent_tokenize(self.Text)
 	filtered_sentences = []
 	for s in sentences:
@@ -67,7 +67,7 @@ class WeightNltkExtractor(object):
 
 	print("nltk_weight:"+weight)
 
-	return WeightElement(" ".join(weight), 0, "WeightNltkExtrator")
+	return WeightElement(" ".join(weight), 0, "WeightNltkExtrator", "WT")
 	#return True
 
 
