@@ -7,8 +7,8 @@ class DrugnameMetamapExtractor(object):
     
 
     def __init__(self, rawTextFileName, intermediateXMLFileName):
-        preprocess = Preprocessor(rawTextFileName, intermediateXMLFileName)
-        self.Text = preprocess.rawText()
+        self.preprocess = Preprocessor(rawTextFileName, intermediateXMLFileName)
+        self.Text = self.preprocess.rawText()
         
     def findEntity(self):
 
@@ -19,8 +19,9 @@ class DrugnameMetamapExtractor(object):
 	rawText = self.Text
 	#sents= self.Text
 	concepts,error = mm.extract_concepts([rawText], word_sense_disambiguation=True)
-
-
+	offset_list = []
+	drugs_list =[]
+	drug_offset_pair =()
 	for concept in concepts:
 		c= concept.semtypes
 		c =c.replace("[", "")
@@ -28,16 +29,30 @@ class DrugnameMetamapExtractor(object):
 		semTypes= c.strip().split(",")
 		#print semTypes, type(semTypes)
 		for semType in semTypes:
-
+			
 			if semType in ['phsu' , 'orch']:
 				token = concept.trigger.strip().split("-")[0]
 				token = token.replace("[","")
-				offset = concept.pos_info
-				#output = "token= "+ token + ", SemType= " +semType + ", Offset= "+offset
-				#print ("token= "+token, " SemType= " +semType, " Offset= "+offset)
-			break;
+				offset = self.preprocess.offsetParse(concept.pos_info,';')
+				
+				for item in offset:
+					#print item ,item[1]
+					item[1] = item[0]+item[1]
 
-	print ("DrugnameMetamap: " +token)
-	#print ("										offsetMetamap"  , type(offset) )
-	if token:
-		return DrugnameElement("".join(token), [[]], "DrugnameMetamapExtractor", "DRUGNAME")
+					
+					#print ("offsetMetamap"  ,  item )
+					offset_list.append(item)
+					drugs_list.append(token)
+	drugs_list= [drug.replace('"',"") for drug in drugs_list]
+	elementList = []
+	for drug,offset in zip(drugs_list,offset_list):
+#		print drug, [offset]
+		elementList.append(DrugnameElement(drug, [offset], "DrugnameMetamapExtractor", "DRUGNAME"))
+
+	print offset_list
+	return DrugnameElement(elementList)
+
+				
+
+					
+					

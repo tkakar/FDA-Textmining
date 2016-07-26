@@ -44,8 +44,8 @@ class Compare:
 
     #Class to compare annotated xml to program output xml
     def __init__(self, ann, out):
-        print 'from test.py ann: ', ann
-        print 'from test.py out: ', out
+        #print 'from test.py ann: ', ann
+        #print 'from test.py out: ', out
         #get and store the roots of each tree
         Compare.aroot = ET.parse(ann).getroot()
         Compare.oroot = ET.parse(out).getroot()

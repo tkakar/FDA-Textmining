@@ -27,7 +27,7 @@
          <REACTIONS_IDS />
          
          <INDICATION_IDS />
-      </INSTANCE>
+      <DRUGNAME end="171" extractor="DrugnameMetamapExtractor" start="2133">['Domperidon', 'Domperidon', 'Domperidon', 'Domperidon', 'Domperidon', 'Domperidon', 'Domperidon', 'Domperidon', 'Domperidon', 'Domperidon', 'Domperidon', 'Domperidon', 'Domperidon', 'Domperidon', 'Domperidon', 'Domperidon', 'Domperidon', 'Domperidon', 'Domperidon', 'Domperidon', 'Domperidon', 'Domperidon', 'Domperidon', 'Domperidon', 'Domperidon', 'Domperidon', 'Domperidon', 'Domperidon', 'Medication, NOS', 'stopping', 'Mg++']</DRUGNAME></INSTANCE>
    </DRUG_FILE>
    <REACTION_FILE>
       <INSTANCE>

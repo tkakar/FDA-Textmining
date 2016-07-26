@@ -18,11 +18,19 @@ class DrugnameRegExtractor(object):
 	#break;
 	#Drug_list=[]
 	for tokens in self.Tokens:
+		
 		for token in tokens:
-			if token in drugnames:
-				print "DrugnameRegEx: " + token
-				#Drug_list.append(token)
+			#print token
+			#regex = re.compile(r'' +token, re.IGNORECASE)
+			#[m.group(0) for l in drugnames for m in [regex.search(l)] if m]
+			
+			#if token in [x.lower() for x in tokens]:
+			#	print "DrugnameRegEx: " + token
+			#	#break
+			#	#Drug_list.append(token)
 				
-	
-				return DrugnameElement("".join(token),[[0]], "DrugnameMetamapExtractor", "DRUGNAME")
-	#return True
+			#else:
+			#	print ("Drugname not found by RegExtractor")
+			#	break
+				#return DrugnameElement("".join(token),[[]], "DrugnameMetamapExtractor", "DRUGNAME")
+			return True

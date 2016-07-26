@@ -4,7 +4,7 @@
       <AGE_SET>
          <AGE end="" start="" />
          <AGE_COD end="" start="" />
-      <AGE end="52" extractor="AgeRegExtrator" start="50">71</AGE><AGE_COD end="57" extractor="AgeRegExtrator" start="53">YR</AGE_COD></AGE_SET>
+      </AGE_SET>
       <WT_SET>
          <WT end="" start="" />
          <WT_COD end="" start="" />
@@ -27,7 +27,7 @@
          <REACTIONS_IDS />
          
          <INDICATION_IDS />
-      </INSTANCE>
+      <DOSE_AMT end="736" extractor="DosageRegExtractor" start="733">300</DOSE_AMT><DOSE_FREQ end="750" extractor="DosageRegExtractor" start="740">once a day</DOSE_FREQ><DOSE_UNIT end="739" extractor="DosageRegExtractor" start="737">mg</DOSE_UNIT></INSTANCE>
    </DRUG_FILE>
    <REACTION_FILE>
       <INSTANCE>

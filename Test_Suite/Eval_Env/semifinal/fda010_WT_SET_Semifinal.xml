@@ -1,4 +1,4 @@
-<ANNOTATIONS annotator="Project MEFA Program" textSource="/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Test_Suite/Test_Cases/fda010">
+<ANNOTATIONS annotator="Project MEFA Program" textSource="Test_Suite/Eval_Env/test_cases/fda010">
    <EVENT_DT end="" start="" />
    <DEMOGRAPHICS>
       <AGE_SET>
@@ -8,7 +8,7 @@
       <WT_SET>
          <WT end="" start="" />
          <WT_COD end="" start="" />
-      <WT end="156" extractor="WeightRegExtrator" start="153">160</WT><WT_COD end="163" extractor="WeightRegExtrator" start="157">LBS</WT_COD></WT_SET>
+      <WT end="156" extractor="WeightRegExtrator" start="153">160</WT><WT_COD end="163" extractor="WeightRegExtrator" start="157">LBS</WT_COD><WT end="0" extractor="WeightNltkExtrator" start="0">1 6 0   p o u n d s</WT></WT_SET>
       <SEX end="" start="" />
    </DEMOGRAPHICS>
    <DRUG_FILE>

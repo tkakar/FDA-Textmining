@@ -1,17 +1,3 @@
 {
-   "Event Date":[
-      "AERecogExtractor",
-      "SuspectRecogExtractor",
-      "NaiveEventDateExtractor"
-   ],
-   "Age":[
-         "AgeRegExtractor"
-   ],
-   "Weight":[
-         "WeightRegExtractor"
-   ],
-   "Gender":[
-         "GenderRegExtractor"
-   ]
-
+"Drugname":["DrugnameMetamapExtractor", "DrugnameRegExtractor"]
 }

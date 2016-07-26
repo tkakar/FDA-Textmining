@@ -84,7 +84,8 @@ class EntityAssembler(object):
             hasCharOffsetFlag = True
             if isinstance(ev_dataElem, (list, tuple)):
                 for entity in ev_dataElem:
-                    if not ev_dataElem and ev_dataElem.charOffset:
+                    if not ev_dataElem and not ev_dataElem.charOffset:
+#		  print "Reached: "
                         hasCharOffsetFlag = False
 
                 if hasCharOffsetFlag:
@@ -115,8 +116,11 @@ class EntityAssembler(object):
         for dataelements in self.dataElementList:
             if isinstance(dataelements, list):
                 for dataelement in dataelements:
+		    print "dataelement extracted: ", dataelement.extractedField
+		    print "dataelement extracted2: ", dataelement.charOffset
                     root = self.xmlWriterHelper(dataelement, root)
             else:
+		print "dataleemnt extracted3: ", dataelements.charOffset
                 root = self.xmlWriterHelper(dataelements, root)
 
         #We had to remove this and not use self.entityName because each returned element in self.dataElementList has more than one dataElement (each extractor returns more than one item)
@@ -127,6 +131,7 @@ class EntityAssembler(object):
     def xmlWriterHelper(self, element, root):
         elem = ET.Element(element.entityName)
         #should be reading in a list of lists
+	#print "Element extracted field: ", element.extractedField
         print "THIS IS THE OFFSET WE ARE ERRORING ON: ", element.charOffset
         #TODO: Figure out if this is the best way, ideally each extractor should make this check, but don't have time right now. 
         #By this, I mean checking if the offset exists should be done in each extractor properly.

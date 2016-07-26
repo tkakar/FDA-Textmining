@@ -8,7 +8,7 @@
       <WT_SET>
          <WT end="" start="" />
          <WT_COD end="" start="" />
-      </WT_SET>
+      <WT end="0" extractor="WeightNltkExtrator" start="0">u n k n o w n</WT></WT_SET>
       <SEX end="" start="" />
    </DEMOGRAPHICS>
    <DRUG_FILE>
