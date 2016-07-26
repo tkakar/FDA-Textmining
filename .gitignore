@@ -90,3 +90,11 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+
+# Additional Stuff
+/Postprocessing/
+/Postprocessing/Intermediate4
+/Postprocessing/IntermediateFiles
+/Postprocessing/IntermediateFiles2
+/Postprocessing/IntermediateFiles3
