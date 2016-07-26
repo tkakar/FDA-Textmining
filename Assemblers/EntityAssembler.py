@@ -128,20 +128,23 @@ class EntityAssembler(object):
         elem = ET.Element(element.entityName)
         #should be reading in a list of lists
         print "THIS IS THE OFFSET WE ARE ERRORING ON: ", element.charOffset
-        start = str(element.charOffset[0][0])
-        end = str(element.charOffset[-1][1])
+        #TODO: Figure out if this is the best way, ideally each extractor should make this check, but don't have time right now. 
+        #By this, I mean checking if the offset exists should be done in each extractor properly.
+        if element.charOffset[0]:
+            start = str(element.charOffset[0][0])
+            end = str(element.charOffset[-1][1])
 
-        elem.attrib['start'] = str(start)
-        elem.attrib['end'] = str(end)
-        elem.attrib['extractor'] = str(element.extractorName)
-        elem.text = str(element.extractedField)
+            elem.attrib['start'] = str(start)
+            elem.attrib['end'] = str(end)
+            elem.attrib['extractor'] = str(element.extractorName)
+            elem.text = str(element.extractedField)
 
-        print 'element.entityName: ', element.entityName
-        entityParent = root.find('.//'+element.entityName+'/..')
-        print "This is the element: ", ET.dump(elem)
-        entityParent.append(elem)
+            print 'element.entityName: ', element.entityName
+            entityParent = root.find('.//'+element.entityName+'/..')
+            print "This is the element: ", ET.dump(elem)
+            entityParent.append(elem)
 
-        
+            
         return root
 
     def launchTestSuite(self):

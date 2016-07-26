@@ -42,4 +42,4 @@
       </INSTANCE>
    </INDICATION_FILE>
    <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
-</ANNOTATIONS>
+<EVENT_DT end="1198" extractor="NaiveEventDateExtractory" start="1184">for seven days</EVENT_DT></ANNOTATIONS>

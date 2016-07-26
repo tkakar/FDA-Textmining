@@ -1,0 +1,17 @@
+EVENT_DT,AERecognitionEventDateExtractor,0,22,0,0,0.0,-1
+WT,WeightRegExtrator,26,5,0,0,0.838709677419,1.0
+WT_COD,WeightRegExtrator,27,4,0,0,0.870967741935,1.0
+EVENT_DT,NaiveEventDateExtractory,0,87,0,0,0.0,-1
+Entity,ExtractorName,0,0,0,1,-1,-1
+AGE,AgeRegExtrator,49,13,0,0,0.790322580645,1.0
+SEX,GenderRegExtrator,0,56,0,0,0.0,-1
+EVENT_DT,SuspectRecognitionEventDateExtractor,0,38,0,0,0.0,-1
+EVENT_DT,AERecognitionEventDateExtractor,0,22,0,0,0.0,-1
+WT,WeightRegExtrator,26,5,0,0,0.838709677419,1.0
+WT_COD,WeightRegExtrator,27,4,0,0,0.870967741935,1.0
+EVENT_DT,NaiveEventDateExtractory,0,87,0,0,0.0,-1
+Entity,ExtractorName,0,0,0,1,-1,-1
+AGE,AgeRegExtrator,49,13,0,0,0.790322580645,1.0
+SEX,GenderRegExtrator,0,56,0,0,0.0,-1
+AGE_COD,AgeRegExtrator,48,14,0,0,0.774193548387,1.0
+EVENT_DT,SuspectRecognitionEventDateExtractor,0,38,0,0,0.0,-1

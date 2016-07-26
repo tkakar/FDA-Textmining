@@ -13,5 +13,6 @@ class NaiveEventDateExtractor(object):
     def findEntity(self):
         s = re.search(r'(<TIMEX2>)(.*?)(</TIMEX2>)', self.text)
     #    print(tagged_raw[s.start():s.end()])
-        print('Event date: {}'.format(s.group(2)))
-        return EventDateElement(s.group(2), [[s.start(2), s.end(2)]], "NaiveEventDateExtractory", "EVENT_DT")
+        if s:
+	        print('Event date: {}'.format(s.group(2)))
+	        return EventDateElement(s.group(2), [[s.start(2), s.end(2)]], "NaiveEventDateExtractory", "EVENT_DT")

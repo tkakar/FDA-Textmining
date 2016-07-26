@@ -24,13 +24,15 @@ class AgeRegExtractor(object):
             age = extract_age.group(1)
             ageCode = "YR"
                         
-        if extract_age:    
-      		age_offset = "[{s},{e}]".format(s=extract_age.start(1), e=extract_age.end(1))
-	      	ageCode_offset = "[{s},{e}]".format(s=extract_age.start(2), e=extract_age.end(2))
+        if extract_age: 
+            age_offset = [extract_age.start(1), extract_age.end(1)]
+            ageCode_offset = [extract_age.start(2), extract_age.end(2)]
+      		#age_offset = "[{s},{e}]".format(s=extract_age.start(1), e=extract_age.end(1))
+	      	#ageCode_offset = "[{s},{e}]".format(s=extract_age.start(2), e=extract_age.end(2))
 
-		print ("regEx_age:"+age+age_offset)
-		print ("regEx_age_cod:"+ageCode+ageCode_offset)
-        	return [AgeElement(age, age_offset, "AgeRegExtrator", "AGE"), AgeCodeElement(ageCode, ageCode_offset, "AgeRegExtrator", "AGE_COD")]
+            print ("regEx_age:",age,age_offset)
+            print ("regEx_age_cod:",ageCode,ageCode_offset)
+            return [AgeElement(age, [age_offset], "AgeRegExtrator", "AGE"), AgeCodeElement(ageCode, [ageCode_offset], "AgeRegExtrator", "AGE_COD")]
 
         #return True
 
