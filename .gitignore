@@ -98,3 +98,5 @@ ENV/
 /Postprocessing/IntermediateFiles
 /Postprocessing/IntermediateFiles2
 /Postprocessing/IntermediateFiles3
+
+*.xls
