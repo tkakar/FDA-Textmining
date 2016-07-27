@@ -27,7 +27,7 @@
          <REACTIONS_IDS />
          
          <INDICATION_IDS />
-      </INSTANCE>
+      <DOSE_AMT end="356" extractor="DosageRegExtractor" start="353">5.0</DOSE_AMT><DOSE_FREQ end="374" extractor="DosageRegExtractor" start="360"> 1 every 1 day</DOSE_FREQ><DOSE_UNIT end="359" extractor="DosageRegExtractor" start="357">mg</DOSE_UNIT></INSTANCE>
    </DRUG_FILE>
    <REACTION_FILE>
       <INSTANCE>

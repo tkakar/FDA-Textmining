@@ -67,7 +67,7 @@ class WeightNltkExtractor(object):
 
 	print("nltk_weight:"+weight)
 
-	return WeightElement(" ".join(weight), [[0,0]], "WeightNltkExtrator", "WT")
+	return WeightElement(" ".join(weight), [[]], "WeightNltkExtrator", "WT")
 	#return True
 
 

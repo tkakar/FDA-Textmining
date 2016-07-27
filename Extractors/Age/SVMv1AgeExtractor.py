@@ -110,9 +110,11 @@ class SVMv1AgeExtractor(object):
                 Ages.append(self.vectors[offset][0][0])
                 Offsets.append([self.vectors[offset][0][1],self.vectors[offset][0][2]])
             offset += 1
+        element_list=[]
+        for i in range(0, len(Ages)-1):
+            element_list.append(AgeElement(Ages[i], offsets[i],"SVMv1AgeExtractor", "AGE"))
 
-        return AgeElement(Ages, Offsets, "SVMv1AgeExtractor", "AGE")
-    
+        return element_list    
 #for filename in os.listdir("/Users/xqin/Workspace/Code/LearnPython/IntermediateFiles/"):
 #    t = SVMv1AgeExtractor("ac","/Users/xqin/Workspace/Code/LearnPython/IntermediateFiles/"+filename)
 #    t.findAge()

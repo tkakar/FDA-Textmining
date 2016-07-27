@@ -73,7 +73,7 @@ class Compare:
                 
             #only fill in the correct fields
             if Compare.di[key]['cv'] is not 'FP': #TP or FN
-                sheet.write(r,3, Compare.di[key]['value'])
+                sheet.write(r,3, Compare.di[key]['pvalue'])
                 sheet.write(r,4, key)
                 sheet.write(r,5, Compare.di[key]['end'])
                 if Compare.di[key]['cv'] is 'TP':

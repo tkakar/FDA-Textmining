@@ -139,9 +139,9 @@ class EntityAssembler(object):
             elem.attrib['extractor'] = str(element.extractorName)
             elem.text = str(element.extractedField)
 
-            #print 'element.entityName: ', element.entityName
+            print 'element.entityName: ', element.entityName
             entityParent = root.find('.//'+element.entityName+'/..')
-            #print "This is the element: ", ET.dump(elem)
+            print "This is the element: ", ET.dump(elem)
             entityParent.append(elem)
 
             

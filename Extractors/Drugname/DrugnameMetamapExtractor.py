@@ -33,24 +33,27 @@ class DrugnameMetamapExtractor(object):
 			if semType in ['phsu' , 'orch']:
 				token = concept.trigger.strip().split("-")[0]
 				token = token.replace("[","")
+				#print concept.pos_info, "pos_info"
 				offset = self.preprocess.offsetParse(concept.pos_info,';')
-				
+				#print offset , "offset" , len(offset)
 				for item in offset:
 					#print item ,item[1]
 					item[1] = item[0]+item[1]
 
 					
 					#print ("offsetMetamap"  ,  item )
-					offset_list.append(item)
-					drugs_list.append(token)
+					if item not in offset_list:
+						offset_list.append(item)
+						drugs_list.append(token)
 	drugs_list= [drug.replace('"',"") for drug in drugs_list]
+	#print len(drugs_list)
 	elementList = []
 	for drug,offset in zip(drugs_list,offset_list):
 		#print drug, type(drug), type(offset), [offset]
 
 		elementList.append(DrugnameElement(drug, [offset], "DrugnameMetamapExtractor", "DRUGNAME"))
 
-	print (elementList)
+	#print len(elementList)
 	return elementList
 
 				
