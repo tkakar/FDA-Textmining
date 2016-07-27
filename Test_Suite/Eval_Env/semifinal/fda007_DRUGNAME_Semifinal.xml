@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="Test_Suite/Eval_Env/test_cases/fda007">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      <DRUGNAME end="707" extractor="DrugnameMetamapExtractor" start="700">Aspirin</DRUGNAME><DRUGNAME end="707" extractor="DrugnameMetamapExtractor" start="700">Aspirin</DRUGNAME><DRUGNAME end="715" extractor="DrugnameMetamapExtractor" start="708">Ecotrin</DRUGNAME><DRUGNAME end="715" extractor="DrugnameMetamapExtractor" start="708">Ecotrin</DRUGNAME><DRUGNAME end="1173" extractor="DrugnameMetamapExtractor" start="1163">Sucralfate</DRUGNAME><DRUGNAME end="1245" extractor="DrugnameMetamapExtractor" start="1237">Atenolol</DRUGNAME><DRUGNAME end="1245" extractor="DrugnameMetamapExtractor" start="1237">Atenolol</DRUGNAME><DRUGNAME end="1321" extractor="DrugnameMetamapExtractor" start="1307">Clarithromycin</DRUGNAME><DRUGNAME end="618" extractor="DrugnameMetamapExtractor" start="607">Domperidon</DRUGNAME><DRUGNAME end="618" extractor="DrugnameMetamapExtractor" start="607">Domperidon</DRUGNAME><DRUGNAME end="1386" extractor="DrugnameMetamapExtractor" start="1375">ciclesonide</DRUGNAME><DRUGNAME end="858" extractor="DrugnameMetamapExtractor" start="846">trandolapril</DRUGNAME><DRUGNAME end="858" extractor="DrugnameMetamapExtractor" start="846">trandolapril</DRUGNAME><DRUGNAME end="1093" extractor="DrugnameMetamapExtractor" start="1082">ustekinumab</DRUGNAME><DRUGNAME end="1453" extractor="DrugnameMetamapExtractor" start="1444">ezetimibe</DRUGNAME><DRUGNAME end="1453" extractor="DrugnameMetamapExtractor" start="1444">ezetimibe</DRUGNAME><DRUGNAME end="785" extractor="DrugnameMetamapExtractor" start="775">Imipramine</DRUGNAME><DRUGNAME end="785" extractor="DrugnameMetamapExtractor" start="775">Imipramine</DRUGNAME><DRUGNAME end="435" extractor="DrugnameMetamapExtractor" start="424">clopidogrel</DRUGNAME><DRUGNAME end="435" extractor="DrugnameMetamapExtractor" start="424">clopidogrel</DRUGNAME><DRUGNAME end="955" extractor="DrugnameMetamapExtractor" start="943">pantoprazole</DRUGNAME><DRUGNAME end="955" extractor="DrugnameMetamapExtractor" start="943">pantoprazole</DRUGNAME><DRUGNAME end="1020" extractor="DrugnameMetamapExtractor" start="1008">rosuvastatin</DRUGNAME><DRUGNAME end="1020" extractor="DrugnameMetamapExtractor" start="1008">rosuvastatin</DRUGNAME><DRUGNAME end="313" extractor="DrugnameMetamapExtractor" start="300">desloratadine</DRUGNAME><DRUGNAME end="313" extractor="DrugnameMetamapExtractor" start="300">desloratadine</DRUGNAME><DRUGNAME end="449" extractor="DrugnameMetamapExtractor" start="447">Mg++</DRUGNAME><DRUGNAME end="895" extractor="DrugnameMetamapExtractor" start="893">Mg++</DRUGNAME><DRUGNAME end="341" extractor="DrugnameMetamapExtractor" start="339">Mg++</DRUGNAME><DRUGNAME end="1394" extractor="DrugnameMetamapExtractor" start="1387">Alvesco</DRUGNAME><DRUGNAME end="320" extractor="DrugnameMetamapExtractor" start="314">Aerius</DRUGNAME><DRUGNAME end="320" extractor="DrugnameMetamapExtractor" start="314">Aerius</DRUGNAME><DRUGNAME end="527" extractor="DrugnameMetamapExtractor" start="518">Detrol LA</DRUGNAME><DRUGNAME end="527" extractor="DrugnameMetamapExtractor" start="518">Detrol LA</DRUGNAME><DRUGNAME end="1461" extractor="DrugnameMetamapExtractor" start="1454">Ezetrol</DRUGNAME><DRUGNAME end="1461" extractor="DrugnameMetamapExtractor" start="1454">Ezetrol</DRUGNAME><DRUGNAME end="864" extractor="DrugnameMetamapExtractor" start="859">Mavik</DRUGNAME><DRUGNAME end="864" extractor="DrugnameMetamapExtractor" start="859">Mavik</DRUGNAME><DRUGNAME end="1101" extractor="DrugnameMetamapExtractor" start="1094">Stelara</DRUGNAME><DRUGNAME end="1543" extractor="DrugnameMetamapExtractor" start="1525">montelukast sodium</DRUGNAME><DRUGNAME end="1543" extractor="DrugnameMetamapExtractor" start="1525">montelukast sodium</DRUGNAME><DRUGNAME end="517" extractor="DrugnameMetamapExtractor" start="497">tolterodine tartrate</DRUGNAME><DRUGNAME end="517" extractor="DrugnameMetamapExtractor" start="497">tolterodine tartrate</DRUGNAME></INSTANCE>
+   </DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

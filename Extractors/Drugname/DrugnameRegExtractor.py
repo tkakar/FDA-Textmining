@@ -7,30 +7,33 @@ class DrugnameRegExtractor(object):
     
 
     def __init__(self, rawTextFileName, intermediateXMLFileName):
-        preprocess = Preprocessor(rawTextFileName, intermediateXMLFileName)
-        self.Tokens = preprocess.wordTokenizeText()
+        self.preprocess = Preprocessor(rawTextFileName, intermediateXMLFileName)
+        self.Tokens = self.preprocess.wordTokenizeText()
         
     def findEntity(self):
 	
 	with open("/work/tkakar/git-repos/FDA-Textmining/Drugslist.txt") as myfile:
     		drugnames= myfile.read().splitlines()
-		#print( drugnames) 
-	#break;
-	#Drug_list=[]
+
+	Drug_list=[]
 	for tokens in self.Tokens:
-		
+		#print self.Tokens
 		for token in tokens:
-			#print token
-			#regex = re.compile(r'' +token, re.IGNORECASE)
-			#[m.group(0) for l in drugnames for m in [regex.search(l)] if m]
-			
-			#if token in [x.lower() for x in tokens]:
-			#	print "DrugnameRegEx: " + token
-			#	#break
-			#	#Drug_list.append(token)
-				
-			#else:
-			#	print ("Drugname not found by RegExtractor")
-			#	break
-				#return DrugnameElement("".join(token),[[]], "DrugnameMetamapExtractor", "DRUGNAME")
-			return True
+			token= token.lower()
+			# tokens have some unicode u character which needs to be removed
+			token = token.encode('utf-8')
+			if token in [item.lower() for item in drugnames]:
+				 #print "DrugnameRegEx: " + token
+				 #start = [match.start() for match in re.finditer(re.escape(token), T)]
+				 Drug_list.append(token)
+				 #return DrugnameElement("".join(token),[[]], "DrugnameMetamapExtractor", "DRUGNAME")
+				 #self.preprocess.parseOffset(token,":")
+	if not Drug_list:
+		print ("Drugname not found:")
+	else:
+		
+		## somehow the druglist has u' charachter with each token so replacing it
+		#Drug_list = [item.replace("u", "") for item in Drug_list]
+		#Drug_list = [item.replace("'", "") for item in Drug_list]
+		print Drug_list
+		return True

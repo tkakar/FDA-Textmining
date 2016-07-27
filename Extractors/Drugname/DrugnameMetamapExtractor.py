@@ -46,11 +46,12 @@ class DrugnameMetamapExtractor(object):
 	drugs_list= [drug.replace('"',"") for drug in drugs_list]
 	elementList = []
 	for drug,offset in zip(drugs_list,offset_list):
-#		print drug, [offset]
+		#print drug, type(drug), type(offset), [offset]
+
 		elementList.append(DrugnameElement(drug, [offset], "DrugnameMetamapExtractor", "DRUGNAME"))
 
-	print offset_list
-	return DrugnameElement(elementList)
+	print (elementList)
+	return elementList
 
 				
 
