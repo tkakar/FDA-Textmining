@@ -26,7 +26,7 @@ class Compare:
     lcval = None #loose confusion value TP/TN/FP/FN
     extractor = None #name of program extractor (different than entity)
     di = {} #dictionary for comparison of multiples
-    dataOut_filename = '/work/swunnava/git-repos/TSIntegration1/FDA-Textmining/Test_Suite/Eval_Env/dataOut.xls'
+    dataOut_filename = '/work/swunnava/git-repos/TSIntegration1/dataOut.xls'
 
     ###########################################
     #TP = Annotated field == Program field

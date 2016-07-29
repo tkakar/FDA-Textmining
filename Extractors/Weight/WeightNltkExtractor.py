@@ -49,6 +49,11 @@ class WeightNltkExtractor(object):
 		weight_keyword_list_LBS = ["pounds", "pound", "lb", "lbs"]
 		weight_keyword_list_KG = ["kg", "kgs", "kilograms", "kilogram"]
 
+		extract_weight_weightCode = ""
+		weight = ""
+		weightCode = ""
+		weightOffset = ""
+		weightCodeOffset = ""
 
 		for tags in final_tags:
     			if any(word in tags for word in weight_keyword_list):
@@ -75,8 +80,12 @@ class WeightNltkExtractor(object):
 			weightCodeOffset = weightCodeOffsetOrg.split(':')		#format: ['53', '57']
 			weightCodeOffset = map(int, weightCodeOffset)			#format: [53, 57]
 		
-            	print ("Nltk_weight:",weight,weightOffset)
-            	print ("Nltk_weight_code:",weightCode,weightCodeOffset)
-            	return [WeightElement(weight, [weightOffset], "WeightNltkExtrator", "AGE"), WeightCodeElement(weightCode, [weightCodeOffset], "WeightNltkExtrator", "AGE_COD")]
-		#return True
+		print ("Nltk_weight:",weight,weightOffset)
+            	print ("Nltk_weight_code:",weightCode,weightCodeOffset)            	
+		
+		if (weight == "UNK" and weightCode == "UNK"):
+			return False
+		else:
+            		return [WeightElement(weight, [weightOffset], "WeightNltkExtrator", "AGE"), WeightCodeElement(weightCode, [weightCodeOffset], "WeightNltkExtrator", "AGE_COD")]
+
     

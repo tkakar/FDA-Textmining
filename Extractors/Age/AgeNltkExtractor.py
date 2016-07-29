@@ -44,11 +44,20 @@ class AgeNltkExtractor(object):
 
         	#print(final_tags)						#testing
 
+
 		# this step will remove all false positives from the final tags except for true postives (age related tags)
 		age_keyword_list = ["yrs", "years", "year", "yr", "yo"]
+
+		extract_age_ageCode = ""
+		age = ""
+		ageCode = ""
+		ageOffset = ""
+		ageCodeOffset = ""
+
 		for tags in final_tags:
     			if any(word in tags for word in age_keyword_list):
         			extract_age_ageCode = tags	#format: '71;50:52 year;53:57'
+				break	#assuming that the demographics (age) of the patient is always at the beginning of the narrative
 
 		if not extract_age_ageCode:
 			age = "UNK"
@@ -70,6 +79,9 @@ class AgeNltkExtractor(object):
 		
             	print ("Nltk_age:",age,ageOffset)
             	print ("Nltk_age_code:",ageCode,ageCodeOffset)
-            	return [AgeElement(age, [ageOffset], "AgeNltkExtrator", "AGE"), AgeCodeElement(ageCode, [ageCodeOffset], "AgeNltkExtrator", "AGE_COD")]
-		#return True
+
+		if (age == "UNK" and ageCode == "UNK"):
+			return True
+		else:
+	            	return [AgeElement(age, [ageOffset], "AgeNltkExtrator", "AGE"), AgeCodeElement(ageCode, [ageCodeOffset], "AgeNltkExtrator", "AGE_COD")]
     
