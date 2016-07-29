@@ -5,10 +5,12 @@
       "NaiveEventDateExtractor"
    ],
    "Age":[
-         "AgeRegExtractor"
+         "AgeRegExtractor",
+         "AgeNltkExtractor"	
    ],
    "Weight":[
-         "WeightRegExtractor"
+         "WeightRegExtractor",
+         "WeightNltkExtractor"	
    ],
    "Gender":[
          "GenderRegExtractor"

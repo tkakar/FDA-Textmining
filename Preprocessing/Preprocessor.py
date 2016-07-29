@@ -115,6 +115,7 @@ class Preprocessor(object):
             paraParent.append(tempParaElement)            
             
             """Now we have to sentence tokenize the text"""
+            paragraph = re.sub('-', ' ', paragraph)   ## Replace "-" with " " in the sentences, especially useful for extracting age
             sentList = sent_tokenize(paragraph)
             sentParent = ET.Element('Sentences')
             sentParent.set('Count', str(len(sentList)))
