@@ -1,10 +1,10 @@
-<ANNOTATIONS annotator="Project MEFA Program" textSource="/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Test_Suite/Test_Cases/fda010">
+<ANNOTATIONS annotator="Project MEFA Program" textSource="Test_Suite/Test_Cases/fda010">
    <EVENT_DT end="" start="" />
    <DEMOGRAPHICS>
       <AGE_SET>
          <AGE end="" start="" />
          <AGE_COD end="" start="" />
-      </AGE_SET>
+      <AGE end="156" extractor="WeightNltkExtrator" start="153">160</AGE><AGE_COD end="163" extractor="WeightNltkExtrator" start="157">LBS</AGE_COD></AGE_SET>
       <WT_SET>
          <WT end="" start="" />
          <WT_COD end="" start="" />
