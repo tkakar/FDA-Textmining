@@ -55,13 +55,14 @@ class DrugnameAssembler(EntityAssembler):
             if isinstance(dataelements, list):
                 for dataelement in dataelements:
                     root = self.xmlWriterHelper(dataelement, root)
-                   # print "iffff"
+                    # print "iffff"
             else:
                 root = self.xmlWriterHelper(dataelements, root)
-                #print "dfd"
+                # print "else"
 
         #We had to remove this and not use self.entityName because each returned element in self.dataElementList has more than one dataElement (each extractor returns more than one item)
         #edElem = root.find(self.entityName)
+        #ET.dump(root)
         etree._setroot(root)
         etree.write(outputXMLFN)
         
@@ -71,8 +72,8 @@ class DrugnameAssembler(EntityAssembler):
         #print "THIS IS THE OFFSET WE ARE ERRORING ON: ", element.charOffset
         #TODO: Figure out if this is the best way, ideally each extractor should make this check, but don't have time right now. 
         #By this, I mean checking if the offset exists should be done in each extractor properly.
-        #print element.extractedField
         if element.charOffset[0]:
+            print "if charOffset ************************"
             start = str(element.charOffset[0][0])
             end = str(element.charOffset[-1][1])
 
@@ -80,12 +81,6 @@ class DrugnameAssembler(EntityAssembler):
             elem.attrib['end'] = str(end)
             elem.attrib['extractor'] = str(element.extractorName)
             elem.text = str(element.extractedField)
-
-           # print 'element.entityName: ', element.entityName
-            #entityParent = root.find('.//'+element.entityName+'/..')
-            #print "This is the entityPArent: ", entityParent
-            #print (root.find('.//'+element.entityName+'/../..'))
-            #entityParent.append(elem)
             superE = ET.Element("INSTANCE")
             superE.append(elem)
             entitySuperParent = root.find('.//'+element.entityName+'/../..')
@@ -99,8 +94,7 @@ class DrugnameAssembler(EntityAssembler):
         comp = Compare('Test_Suite/Eval_Env/xml/'+self.testCaseName+r'.xml', 'Test_Suite/Eval_Env/semifinal/'+self.testCaseName+'_'+self.entityName+'_'+r'Semifinal.xml')
         #comp = Compare('../Test_Suite/Eval_Env/xml/'+self.testCaseName+r'.xml', '../Test_Suite/Eval_Env/semifinal/'+self.testCaseName+'_'+self.entityName+'_'+r'Semifinal.xml')
         for elements in self.dataElementList:
-            if isinstance(elements, list):
-                for dataelement in elements:
-                    comp.multi_compare(dataelement.entityName, dataelement.extractorName) 
-            else:
-                comp.multi_compare(elements.entityName, elements.extractorName) 
+            print elements[0].extractedField, elements[0].extractorName, elements[0].entityName
+            ## if elements is null then might get error
+            comp.multi_compare(elements[0].entityName, elements[0].extractorName) 
+                
