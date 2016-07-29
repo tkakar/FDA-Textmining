@@ -66,4 +66,4 @@ class Evaluate(object):
             f.write(str(precision) + "," + str(recall) + "\n")
             
 Eval = Evaluate()
-Eval.get_measures(Eval.eval('Test_Suite/Eval_Env/dataOut.xls'),'results/r1.csv')
+Eval.get_measures(Eval.eval('Test_Suite/Eval_Env/dataOut2.xls'),'results/r1.csv')

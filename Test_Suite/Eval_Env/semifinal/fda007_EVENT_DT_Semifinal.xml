@@ -1,4 +1,4 @@
-<ANNOTATIONS annotator="Project MEFA Program" textSource="Test_Suite/Eval_Env/test_cases/fda007">
+<ANNOTATIONS annotator="Project MEFA Program" textSource="Test_Suite/Test_Cases/fda007">
    <EVENT_DT end="" start="" />
    <DEMOGRAPHICS>
       <AGE_SET>
@@ -42,4 +42,4 @@
       </INSTANCE>
    </INDICATION_FILE>
    <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
-<EVENT_DT end="1995" extractor="SuspectRecognitionEventDateExtractor" start="1976">unspecified date</EVENT_DT></ANNOTATIONS>
+<EVENT_DT end="1945" extractor="SuspectRecognitionEventDateExtractor" start="1934">unspecified date</EVENT_DT><EVENT_DT end="68" extractor="NaiveEventDateExtractory" start="64">0006</EVENT_DT></ANNOTATIONS>

@@ -26,6 +26,9 @@ class Compare:
     extractor = None #name of program extractor (different than entity)
     di = {} #dictionary for comparison of multiples
     dataOut_filename = '/work/tkakar/git-repos/dataOut.xls'
+
+
+
     ###########################################
     #TP = Annotated field == Program field
     # TN = Annotated field missing & Program field missing
@@ -50,10 +53,11 @@ class Compare:
         Compare.oroot = ET.parse(out).getroot()
 #        ET.dump(Compare.aroot)
         Compare.fileName = out
+	#dataOut_filename = '/work/swunnava/git-repos/TSIntegration1/FDA-Textmining/Test_Suite/Eval_Env/dataOut.xls'
+	#/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Test_Suite/Eval_Env/dataOut.xls
 
     #call this function to write multiple drugs/reactions/etc to the excel file
     def multi_write_to_file(self):
-    
         rb = xlrd.open_workbook(Compare.dataOut_filename)
         r_sheet = rb.sheet_by_index(0) 
         r = r_sheet.nrows
@@ -82,8 +86,7 @@ class Compare:
                 sheet.write(r,7, key)
                 sheet.write(r,8, Compare.di[key]['end'])
             r += 1
-
-    
+   
         w.save(Compare.dataOut_filename)
 
         #clear vars

@@ -115,6 +115,7 @@ class Preprocessor(object):
             paraParent.append(tempParaElement)            
             
             """Now we have to sentence tokenize the text"""
+            paragraph = re.sub('-', ' ', paragraph)   ## Replace "-" with " " in the sentences, especially useful for extracting age
             sentList = sent_tokenize(paragraph)
             sentParent = ET.Element('Sentences')
             sentParent.set('Count', str(len(sentList)))
@@ -353,61 +354,66 @@ class Preprocessor(object):
         Returns:
             the MetaMap concepts, as described in the pymetamap documentation (list)
         """
-        self.parseXML()
-        mm = MetaMap.get_instance('/work/tkakar/public_mm/bin/metamap14')
-        rawText = self.rawText()
+        if Preprocessor.textList.get("getMetaMapConcepts") is None:
+            self.parseXML()
+            mm = MetaMap.get_instance('/work/tkakar/public_mm/bin/metamap14')
+            rawText = self.rawText()
 
-        concepts,error = mm.extract_concepts([rawText])
-        pattern = re.compile('(\[(?:(orch|phsu|sosy|dsyn),?(orch|phsu|sosy|dsyn)?)\])')
-        globalIDByConcept = {}
-        for concept in concepts:
-            if not hasattr(concept, 'aa'):
-            #TODO, see if there is any information that we are missing due to some combination not described by the Regex
-                match = pattern.search(concept.semtypes)
-                if match:
-                    posInfo = concept.pos_info
-                    triggerInfo = concept.trigger.split('-')
-                    conceptName = triggerInfo[3]
-                    #need to replace the quotes in the conceptName
-                    conceptName = conceptName.replace('"','')
+            concepts,error = mm.extract_concepts([rawText])
+            pattern = re.compile('(\[(?:(orch|phsu|sosy|dsyn),?(orch|phsu|sosy|dsyn)?)\])')
+            globalIDByConcept = {}
+            returnedList = []
+            for concept in concepts:
+                if not hasattr(concept, 'aa'):
+                #TODO, see if there is any information that we are missing due to some combination not described by the Regex
+                    match = pattern.search(concept.semtypes)
+                    if match:
+                        returnedList.append(concept)
+                        posInfo = concept.pos_info
+                        triggerInfo = concept.trigger.split('-')
+                        conceptName = triggerInfo[3]
+                        #need to replace the quotes in the conceptName
+                        conceptName = conceptName.replace('"','')
+                        
+                        if ';' or '^' in posInfo:
+                            posInfoList = self.offsetParse(posInfo, ';')
+                        else:
+                            posInfoList = self.offsetParse(posInfo)
+                            #We need to change the format of the posInfos from (offset,span) to (offsetStartIndex, offsetEndIndex) here:
+                        posInfoList = [(offset,span + offset) for (offset,span) in posInfoList]        
+
                     
-                    if ';' or '^' in posInfo:
-                        posInfoList = self.offsetParse(posInfo, ';')
-                    else:
-                        posInfoList = self.offsetParse(posInfo)
-                        #We need to change the format of the posInfos from (offset,span) to (offsetStartIndex, offsetEndIndex) here:
-                    posInfoList = [(offset,span + offset) for (offset,span) in posInfoList]        
+                        for listIndex, (startIndex, endIndex) in enumerate(posInfoList):
+                            lfNum = rawText.count('\n',0,startIndex) 
+                            lastIdx = rawText.rfind(conceptName, 0, startIndex+len(conceptName))
+                            #you're going to forget this tomorrow morning, so this is the number of line feeds between the last instance of the concept name and where metamap thinks the word is.
+                            lfNumSpecific = rawText.count('\n', lastIdx,startIndex)
+                            #For some reason, we need to subract one at the end, TODO: Figure out why
+                            posInfoList[listIndex] = (startIndex - (lfNum + 1) + lfNumSpecific - 1, endIndex - (lfNum + 1) + lfNumSpecific - 1)
+                         
+                         
+                        globalIDList = []
+                        #we have the fixed offsets for each mention of the semantic type. we now need to find their location in the xml file. 
+                        for newStartIdx, newEndIdx in posInfoList:
+    #                        print "newStartIdx: ", newStartIdx
+    #                        print "newEndIdx: ", newEndIdx
+                            globalIds = self.placeOffsetInXML(conceptName, word_tokenize(conceptName), newStartIdx , newEndIdx-newStartIdx)
+                            globalIDList.append(globalIds)
 
-                
-                    for listIndex, (startIndex, endIndex) in enumerate(posInfoList):
-                        lfNum = rawText.count('\n',0,startIndex) 
-                        lastIdx = rawText.rfind(conceptName, 0, startIndex+len(conceptName))
-                        #you're going to forget this tomorrow morning, so this is the number of line feeds between the last instance of the concept name and where metamap thinks the word is.
-                        lfNumSpecific = rawText.count('\n', lastIdx,startIndex)
-                        #For some reason, we need to subract one at the end, TODO: Figure out why
-                        posInfoList[listIndex] = (startIndex - (lfNum + 1) + lfNumSpecific - 1, endIndex - (lfNum + 1) + lfNumSpecific - 1)
-                     
-                     
-                    globalIDList = []
-                    #we have the fixed offsets for each mention of the semantic type. we now need to find their location in the xml file. 
-                    for newStartIdx, newEndIdx in posInfoList:
-#                        print "newStartIdx: ", newStartIdx
-#                        print "newEndIdx: ", newEndIdx
-                        globalIds = self.placeOffsetInXML(conceptName, word_tokenize(conceptName), newStartIdx , newEndIdx-newStartIdx)
-                        globalIDList.append(globalIds)
+                        globalIDByConcept[concept] = globalIDList
 
-                    globalIDByConcept[concept] = globalIDList
+            for key, value in globalIDByConcept.iteritems():
+                for gIDList in value:
+                    for gID in gIDList:
+                        conceptXMLTag = self.root.find(".//*[@globalID='"+str(gID)+"']")
+                        tempMetaMapElem = ET.Element("METAMAP")
+                        tempMetaMapElem.text = key.semtypes.replace("'",'')
+                        conceptXMLTag.append(tempMetaMapElem)
+            
+            Preprocessor.textList['getMetaMapConcepts'] = returnedList
+            self.writeToXML()
 
-        for key, value in globalIDByConcept.iteritems():
-            for gIDList in value:
-                for gID in gIDList:
-                    conceptXMLTag = self.root.find(".//*[@globalID='"+str(gID)+"']")
-                    tempMetaMapElem = ET.Element("METAMAP")
-                    tempMetaMapElem.text = key.semtypes.replace("'",'')
-                    conceptXMLTag.append(tempMetaMapElem)
-        
-#        print 'globalIDByConcept:      ', globalIDByConcept
-        self.writeToXML()
+        return Preprocessor.textList.get('getMetaMapConcepts')
 
     def writeToXML(self):
         """Writes the tree to the output xml specified.

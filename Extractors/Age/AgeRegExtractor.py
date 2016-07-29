@@ -9,8 +9,15 @@ class AgeRegExtractor(object):
         preprocess = Preprocessor(rawTextFileName, intermediateXMLFileName)
         self.Text = preprocess.rawText()
         
-    def findEntity(self):
-        extract_age = re.search(r'.*\s([0-9]+).?(yr|yrs|years|year|yo).*',self.Text,re.IGNORECASE)
+    def findEntity(self):	
+
+	extract_age = ""
+	age = ""
+	age_offset = ""
+	ageCode = ""
+	ageCode_offset = ""
+
+        extract_age = re.search(r'.*\s([0-9]+).?(years-old|year-old|yr|yrs|years|year|yo|y.o.|y.o|y/o).*',self.Text,re.IGNORECASE)
         if not extract_age:
             extract_age = re.search(r'.*\s([0-9]+).?(months|months-old|months old|month-old|month old).*',self.Text,re.IGNORECASE)
             if not extract_age:

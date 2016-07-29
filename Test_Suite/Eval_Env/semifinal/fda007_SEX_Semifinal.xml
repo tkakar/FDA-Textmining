@@ -1,4 +1,4 @@
-<ANNOTATIONS annotator="Project MEFA Program" textSource="Test_Suite/Eval_Env/test_cases/fda007">
+<ANNOTATIONS annotator="Project MEFA Program" textSource="Test_Suite/Test_Cases/fda007">
    <EVENT_DT end="" start="" />
    <DEMOGRAPHICS>
       <AGE_SET>
@@ -10,7 +10,7 @@
          <WT_COD end="" start="" />
       </WT_SET>
       <SEX end="" start="" />
-   <SEX end="177" extractor="GenderRegExtrator" start="170">F</SEX></DEMOGRAPHICS>
+   <SEX end="170" extractor="GenderRegExtrator" start="163">F</SEX></DEMOGRAPHICS>
    <DRUG_FILE>
       
       <INSTANCE id="" primary="" timePeriod="">

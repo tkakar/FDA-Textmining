@@ -73,7 +73,7 @@ class DrugnameAssembler(EntityAssembler):
         #TODO: Figure out if this is the best way, ideally each extractor should make this check, but don't have time right now. 
         #By this, I mean checking if the offset exists should be done in each extractor properly.
         if element.charOffset[0]:
-            print "if charOffset ************************"
+           # print "if charOffset ************************"
             start = str(element.charOffset[0][0])
             end = str(element.charOffset[-1][1])
 
@@ -94,7 +94,7 @@ class DrugnameAssembler(EntityAssembler):
         comp = Compare('Test_Suite/Eval_Env/xml/'+self.testCaseName+r'.xml', 'Test_Suite/Eval_Env/semifinal/'+self.testCaseName+'_'+self.entityName+'_'+r'Semifinal.xml')
         #comp = Compare('../Test_Suite/Eval_Env/xml/'+self.testCaseName+r'.xml', '../Test_Suite/Eval_Env/semifinal/'+self.testCaseName+'_'+self.entityName+'_'+r'Semifinal.xml')
         for elements in self.dataElementList:
-            print elements[0].extractedField, elements[0].extractorName, elements[0].entityName
+           # print elements[0].extractedField, elements[0].extractorName, elements[0].entityName
             ## if elements is null then might get error
             comp.multi_compare(elements[0].entityName, elements[0].extractorName) 
                 
