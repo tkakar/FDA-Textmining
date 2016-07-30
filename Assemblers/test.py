@@ -13,7 +13,6 @@ class Compare:
     aroot = None #root of annotated xml
     oroot = None #root of program output xml
     runCode = None #unique code for this run 
-
     entity = None #name of entity
     fileName = None #name of file
     avc = None #annotated value
@@ -26,7 +25,9 @@ class Compare:
     lcval = None #loose confusion value TP/TN/FP/FN
     extractor = None #name of program extractor (different than entity)
     di = {} #dictionary for comparison of multiples
-    dataOut_filename = '/work/swunnava/git-repos/TSIntegration1/dataOut.xls'
+    dataOut_filename = '/work/tkakar/git-repos/dataOut.xls'
+
+
 
     ###########################################
     #TP = Annotated field == Program field
@@ -45,8 +46,8 @@ class Compare:
 
     #Class to compare annotated xml to program output xml
     def __init__(self, ann, out):
-        print 'from test.py ann: ', ann
-        print 'from test.py out: ', out
+        #print 'from test.py ann: ', ann
+        #print 'from test.py out: ', out
         #get and store the roots of each tree
         Compare.aroot = ET.parse(ann).getroot()
         Compare.oroot = ET.parse(out).getroot()
@@ -72,6 +73,7 @@ class Compare:
             sheet.write(r,11, Compare.extractor)   
             #only fill in the correct fields
             if Compare.di[key]['cv'] is not 'FP': #TP or FN
+               # print Compare.di
                 sheet.write(r,3, Compare.di[key]['value'])
                 sheet.write(r,4, key)
                 sheet.write(r,5, Compare.di[key]['end'])
@@ -84,16 +86,21 @@ class Compare:
                 sheet.write(r,7, key)
                 sheet.write(r,8, Compare.di[key]['end'])
             r += 1
-
+   
         w.save(Compare.dataOut_filename)
+
         #clear vars
         Compare.clearVars(self)
 
     def multi_compare(self, entity, extractor):
+    #print "hello"
         Compare.extractor = extractor
         atype = Compare.aroot.findall('.//'+entity)
         Compare.entity = entity
+        #print Compare.extractor, Compare.entity,
+        #print len(atype)
         for instance in atype:
+            #print instance
             if instance is not None:
                 Compare.asspan = instance.get('start')
                 Compare.aespan = instance.get('end')
@@ -109,7 +116,9 @@ class Compare:
 
         #address output
         otype = Compare.oroot.findall('.//'+entity+'[@extractor=\''+extractor+'\']')
+        #print len(otype)
         for oinstance in otype:
+            
             if oinstance is not None:
                 Compare.psspan = oinstance.get('start')
                 Compare.pespan = oinstance.get('end')
@@ -119,6 +128,7 @@ class Compare:
                     Compare.di[Compare.psspan]['pvalue'] = Compare.pv
                 else:
                     Compare.di[Compare.psspan] = {'end':Compare.pespan, 'pvalue':Compare.pv, 'cv':'FP'}
+        #print self
         Compare.multi_write_to_file(self)
 
 
@@ -176,12 +186,15 @@ class Compare:
 
     #write a single instance like age or weight to file
     def write_to_file(self):
+
         rb = xlrd.open_workbook(Compare.dataOut_filename)
+
         r_sheet = rb.sheet_by_index(0) 
         r = r_sheet.nrows
         if Compare.runCode is None:
             Compare.runCode = int(r_sheet.cell(r-1,0).value)+1
         w = copy(rb) 
+        #print w
         sheet = w.get_sheet(0) 
         sheet.write(r,0, Compare.runCode)
         sheet.write(r,1, Compare.fileName)
@@ -218,6 +231,6 @@ class Compare:
 
 
 #run some examples/tests
-#comp = Compare('../../Test_Suite/Eval_Env/xml/fda001.xml','../../Test_Suite/Eval_Env/semifinal/fda001_EVENT_DT_Semifinal.xml')
+#comp = Compare('/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Eval_Env/xml/fda007.xml','/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Eval_Env/semifinal/fda007_DRUGNAME_Semifinal.xml')
 #comp.run_compare('EVENT_DT', 'AERecognitionEventDateExtractor')
-#comp.multi_compare('DRUGNAME', 'drugExtractor1')
+#comp.multi_compare('DRUGNAME', 'DrugnameRegExtractor')

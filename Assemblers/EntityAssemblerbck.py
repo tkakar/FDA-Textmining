@@ -8,6 +8,7 @@ Todo:
 from Preprocessing.Preprocessor import Preprocessor
 import xml.etree.ElementTree as ET
 from test import Compare
+from pprint import pprint
 
 class EntityAssembler(object):
     
@@ -80,11 +81,15 @@ class EntityAssembler(object):
         """
         for extractor in self.extractorObjList:
             ev_dataElem = extractor.findEntity()
-
+#	    pprint (vars(ev_dataElem))
+	    #pprint (vars(ev_dataElem._extractedField))
             hasCharOffsetFlag = True
             if isinstance(ev_dataElem, (list, tuple)):
+	#	print ("ev_Data")
                 for entity in ev_dataElem:
-                    if not ev_dataElem and ev_dataElem.charOffset:
+	#	    print ev_dataElem.charOffset, ev_dataElem , "Testing in Isinstane()"
+                    if not ev_dataElem and not ev_dataElem.charOffset:
+#		  print "Reached: "
                         hasCharOffsetFlag = False
 
                 if hasCharOffsetFlag:
@@ -113,10 +118,15 @@ class EntityAssembler(object):
         root.attrib['annotator'] = 'Project MEFA Program'
       
         for dataelements in self.dataElementList:
+	    #print dataelements
             if isinstance(dataelements, list):
+	#	print "dataeleemet is instance of list"
                 for dataelement in dataelements:
+	#	    print "dataelement extracted: ", dataelement.extractedField
+	#	    print "dataelement extracted2: ", dataelement.charOffset
                     root = self.xmlWriterHelper(dataelement, root)
             else:
+	#	print "dataleemnt extracted3: ", dataelements.charOffset
                 root = self.xmlWriterHelper(dataelements, root)
 
         #We had to remove this and not use self.entityName because each returned element in self.dataElementList has more than one dataElement (each extractor returns more than one item)
@@ -126,8 +136,10 @@ class EntityAssembler(object):
         
     def xmlWriterHelper(self, element, root):
         elem = ET.Element(element.entityName)
+	#print elem, element.entityName, element.charOffset ,"000000000"
         #should be reading in a list of lists
-        print "THIS IS THE OFFSET WE ARE ERRORING ON: ", element.charOffset
+	#print "Element extracted field: ", element.extractedField
+        #print "THIS IS THE OFFSET WE ARE ERRORING ON: ", element.charOffset
         #TODO: Figure out if this is the best way, ideally each extractor should make this check, but don't have time right now. 
         #By this, I mean checking if the offset exists should be done in each extractor properly.
         if element.charOffset[0]:
@@ -139,9 +151,9 @@ class EntityAssembler(object):
             elem.attrib['extractor'] = str(element.extractorName)
             elem.text = str(element.extractedField)
 
-            print 'element.entityName: ', element.entityName
+           # print 'element.entityName: ', element.entityName
             entityParent = root.find('.//'+element.entityName+'/..')
-            print "This is the element: ", ET.dump(elem)
+           # print "This is the element: ", ET.dump(elem)
             entityParent.append(elem)
 
             

@@ -12,6 +12,7 @@ class WeightRegExtractor(object):
     def findEntity(self):
         extract_weight = re.search(r'.*\s([0-9]+(\.[0-9]+)?).?(pounds|pound|lb|lbs).*',self.Text,re.IGNORECASE)
 
+
         if not extract_weight:
             extract_weight = re.search(r'.*\s([0-9]+(\.[0-9]+)?).?(kg|kgs|kilograms|kilogram).*',self.Text,re.IGNORECASE)
             if not extract_weight:
@@ -22,6 +23,7 @@ class WeightRegExtractor(object):
         else:
             weight = extract_weight.group(1)
             weightCode = "LBS"	 
+
 		
         if extract_weight:
             weight_offset = [extract_weight.start(1), extract_weight.end(1)]

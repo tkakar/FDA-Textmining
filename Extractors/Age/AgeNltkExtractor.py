@@ -85,3 +85,4 @@ class AgeNltkExtractor(object):
 		else:
 	            	return [AgeElement(age, [ageOffset], "AgeNltkExtrator", "AGE"), AgeCodeElement(ageCode, [ageCodeOffset], "AgeNltkExtrator", "AGE_COD")]
     
+

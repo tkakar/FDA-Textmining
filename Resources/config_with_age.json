@@ -1,4 +1,5 @@
 {
+
    "Event Date":[
       "AERecogExtractor",
       "SuspectRecogExtractor",
@@ -14,6 +15,9 @@
    ],
    "Gender":[
          "GenderRegExtractor"
-   ]
+   ],
+   "Drugname":[ "DrugnameRegExtractor", "DrugnameMetamapExtractor"], 
+   "Dosage": ["DosageRegExtractor"]
+
 
 }

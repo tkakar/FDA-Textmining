@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="Test_Suite/Test_Cases/fda007">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   <INSTANCE><DRUGNAME end="25" extractor="DrugnameRegExtractor" start="10">desloratadine</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="26" extractor="DrugnameRegExtractor" start="11">detrol</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="29" extractor="DrugnameRegExtractor" start="14">aspirin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="34" extractor="DrugnameRegExtractor" start="19">imipramine</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="41" extractor="DrugnameRegExtractor" start="26">trandolapril</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="50" extractor="DrugnameRegExtractor" start="35">mavik</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="61" extractor="DrugnameRegExtractor" start="46">pantoprazole</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="74" extractor="DrugnameRegExtractor" start="59">ustekinumab</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="89" extractor="DrugnameRegExtractor" start="74">stelara</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="106" extractor="DrugnameRegExtractor" start="91">sucralfate</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="125" extractor="DrugnameRegExtractor" start="110">clarithromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="146" extractor="DrugnameRegExtractor" start="131">alvesco</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="169" extractor="DrugnameRegExtractor" start="154">ezetimibe</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="707" extractor="DrugnameMetamapExtractor" start="700">Aspirin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="715" extractor="DrugnameMetamapExtractor" start="708">Ecotrin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1173" extractor="DrugnameMetamapExtractor" start="1163">Sucralfate</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1245" extractor="DrugnameMetamapExtractor" start="1237">Atenolol</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1321" extractor="DrugnameMetamapExtractor" start="1307">Clarithromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="618" extractor="DrugnameMetamapExtractor" start="607">Domperidon</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1386" extractor="DrugnameMetamapExtractor" start="1375">ciclesonide</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="858" extractor="DrugnameMetamapExtractor" start="846">trandolapril</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1093" extractor="DrugnameMetamapExtractor" start="1082">ustekinumab</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1453" extractor="DrugnameMetamapExtractor" start="1444">ezetimibe</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="785" extractor="DrugnameMetamapExtractor" start="775">Imipramine</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="435" extractor="DrugnameMetamapExtractor" start="424">clopidogrel</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="955" extractor="DrugnameMetamapExtractor" start="943">pantoprazole</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1020" extractor="DrugnameMetamapExtractor" start="1008">rosuvastatin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="313" extractor="DrugnameMetamapExtractor" start="300">desloratadine</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="449" extractor="DrugnameMetamapExtractor" start="447">Mg++</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="895" extractor="DrugnameMetamapExtractor" start="893">Mg++</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="341" extractor="DrugnameMetamapExtractor" start="339">Mg++</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1394" extractor="DrugnameMetamapExtractor" start="1387">Alvesco</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="320" extractor="DrugnameMetamapExtractor" start="314">Aerius</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="527" extractor="DrugnameMetamapExtractor" start="518">Detrol LA</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1461" extractor="DrugnameMetamapExtractor" start="1454">Ezetrol</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="864" extractor="DrugnameMetamapExtractor" start="859">Mavik</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1101" extractor="DrugnameMetamapExtractor" start="1094">Stelara</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1543" extractor="DrugnameMetamapExtractor" start="1525">montelukast sodium</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="517" extractor="DrugnameMetamapExtractor" start="497">tolterodine tartrate</DRUGNAME></INSTANCE></DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

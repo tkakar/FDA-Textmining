@@ -8,6 +8,7 @@ from DataElements.WeightCodeElement import WeightCodeElement
 from Preprocessing.Preprocessor import Preprocessor
 
 class WeightNltkExtractor(object):
+
 	def __init__(self,rawTextFileName,intermediateXMLFileName):
 		preprocessor = Preprocessor(rawTextFileName,intermediateXMLFileName)
         	preprocessor.posTaggedText()
@@ -87,5 +88,6 @@ class WeightNltkExtractor(object):
 			return False
 		else:
             		return [WeightElement(weight, [weightOffset], "WeightNltkExtrator", "AGE"), WeightCodeElement(weightCode, [weightCodeOffset], "WeightNltkExtrator", "AGE_COD")]
+
 
     

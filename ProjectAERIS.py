@@ -75,7 +75,8 @@ def main(aRawTextFileName=None, aIntermediateXMLFileName=None, aConfigFile=None)
     configFile = configFileName
 
 
-    allAssemblerDict = {'Event Date':EventDateAssembler(rawTextFileName, intermediateXMLFileName), 'Age':AgeAssembler(rawTextFileName, intermediateXMLFileName),'Weight':WeightAssembler(rawTextFileName, intermediateXMLFileName),'Gender':GenderAssembler(rawTextFileName, intermediateXMLFileName)} #,'Dosage':DosageAssembler(rawTextFileName, intermediateXMLFileName), 'Drugname':DrugnameAssembler(rawTextFileName, intermediateXMLFileName), , 'Reaction':ReactionAssembler(rawTextFileName, intermediateXMLFileName)}
+
+    allAssemblerDict = {'Event Date':EventDateAssembler(rawTextFileName, intermediateXMLFileName), 'Age':AgeAssembler(rawTextFileName, intermediateXMLFileName),'Dosage':DosageAssembler(rawTextFileName, intermediateXMLFileName), 'Drugname':DrugnameAssembler(rawTextFileName, intermediateXMLFileName), 'Weight':WeightAssembler(rawTextFileName, intermediateXMLFileName), 'Gender':GenderAssembler(rawTextFileName, intermediateXMLFileName), 'Reaction':ReactionAssembler(rawTextFileName, intermediateXMLFileName)}
 
 #Place to test new preprocess methods
     preprocessOne.getMetaMapConcepts()
