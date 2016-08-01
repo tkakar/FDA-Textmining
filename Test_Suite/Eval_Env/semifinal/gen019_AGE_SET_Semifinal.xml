@@ -4,7 +4,7 @@
       <AGE_SET>
          <AGE end="" start="" />
          <AGE_COD end="" start="" />
-      <AGE end="12" extractor="AgeRegExtrator" start="10">27</AGE><AGE_COD end="17" extractor="AgeRegExtrator" start="13">YR</AGE_COD></AGE_SET>
+      <AGE end="12" extractor="AgeRegExtrator" start="10">27</AGE><AGE_COD end="17" extractor="AgeRegExtrator" start="13">YR</AGE_COD><AGE end="12" extractor="AgeNltkExtrator" start="10">27</AGE><AGE_COD end="17" extractor="AgeNltkExtrator" start="13">YR</AGE_COD></AGE_SET>
       <WT_SET>
          <WT end="" start="" />
          <WT_COD end="" start="" />

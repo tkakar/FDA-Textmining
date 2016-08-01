@@ -58,6 +58,7 @@ class WeightNltkExtractor(object):
 		for tags in final_tags:
     			if any(word in tags for word in weight_keyword_list):
         			extract_weight_weightCode = tags	#format: '71;50:52 year;53:57'
+				break	#assuming that the demographics (weight) of the patient is always at the beginning of the narrative
 
 		if not extract_weight_weightCode:
 			weight = "UNK"

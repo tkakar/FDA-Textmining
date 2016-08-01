@@ -10,7 +10,7 @@
          <WT_COD end="" start="" />
       </WT_SET>
       <SEX end="" start="" />
-   <SEX end="34" extractor="GenderRegExtrator" start="29">M</SEX></DEMOGRAPHICS>
+   <SEX end="1985" extractor="GenderRegExtrator" start="1981">F</SEX></DEMOGRAPHICS>
    <DRUG_FILE>
       
       <INSTANCE id="" primary="" timePeriod="">

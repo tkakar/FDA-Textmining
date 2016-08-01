@@ -11,8 +11,12 @@ class GenderRegExtractor(object):
     def findEntity(self):
 		extract_gender_m = []
 		extract_gender_f = []
-		extract_gender_m = re.search(r'.(\bmale\b)',self.Text,re.IGNORECASE)
-		extract_gender_f = re.search(r'.(\bfemale\b)',self.Text,re.IGNORECASE)
+		gender = ""
+		gender_offset = ""
+
+		extract_gender_m = re.search(r'.(\bmale\b|\bman\b|he|his|him)',self.Text,re.IGNORECASE)
+		extract_gender_f = re.search(r'.(\bfemale\b|\bwoman\b|she|her|hers)',self.Text,re.IGNORECASE)
+
 		if not extract_gender_f:
 			if not extract_gender_m:
 				gender = "UNK"
