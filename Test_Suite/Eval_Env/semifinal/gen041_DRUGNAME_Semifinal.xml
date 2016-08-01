@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/gen041">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   <INSTANCE><DRUGNAME end="2131" extractor="DrugnameMetamapExtractor" start="2128">His</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1349" extractor="DrugnameMetamapExtractor" start="1346">His</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="923" extractor="DrugnameMetamapExtractor" start="920">His</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="773" extractor="DrugnameMetamapExtractor" start="770">His</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2516" extractor="DrugnameMetamapExtractor" start="2511">Coreg</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2181" extractor="DrugnameMetamapExtractor" start="2176">Coreg</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1651" extractor="DrugnameMetamapExtractor" start="1646">Coreg</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1290" extractor="DrugnameMetamapExtractor" start="1285">Coreg</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2581" extractor="DrugnameMetamapExtractor" start="2579">Mg++</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2192" extractor="DrugnameMetamapExtractor" start="2190">Mg++</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1298" extractor="DrugnameMetamapExtractor" start="1296">Mg++</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2230" extractor="DrugnameMetamapExtractor" start="2223">Procrit</DRUGNAME></INSTANCE></DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

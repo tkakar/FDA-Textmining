@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/gen039">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   <INSTANCE><DRUGNAME end="835" extractor="DrugnameRegExtractor" start="825">lisinopril</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="835" extractor="DrugnameRegExtractor" start="825">lisinopril</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="901" extractor="DrugnameRegExtractor" start="892">compazine</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="914" extractor="DrugnameRegExtractor" start="907">demerol</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="901" extractor="DrugnameRegExtractor" start="892">compazine</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="914" extractor="DrugnameRegExtractor" start="907">demerol</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="839" extractor="DrugnameMetamapExtractor" start="829">Lisinopril</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="471" extractor="DrugnameMetamapExtractor" start="461">Lisinopril</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2518" extractor="DrugnameMetamapExtractor" start="2509">Synthroid</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="628" extractor="DrugnameMetamapExtractor" start="619">Synthroid</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2471" extractor="DrugnameMetamapExtractor" start="2458">Levothyroxine</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="761" extractor="DrugnameMetamapExtractor" start="748">Levothyroxine</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="794" extractor="DrugnameMetamapExtractor" start="788">Asacol</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="896" extractor="DrugnameMetamapExtractor" start="890">NSAIDs</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="786" extractor="DrugnameMetamapExtractor" start="777">Albuterol</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="824" extractor="DrugnameMetamapExtractor" start="814">Amlodipine</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="808" extractor="DrugnameMetamapExtractor" start="800">Prilosec</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="456" extractor="DrugnameMetamapExtractor" start="449">Norvasc</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="920" extractor="DrugnameMetamapExtractor" start="913">Demerol</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="907" extractor="DrugnameMetamapExtractor" start="898">Compazine</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2092" extractor="DrugnameMetamapExtractor" start="2085">Glucose</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="970" extractor="DrugnameMetamapExtractor" start="965">I 131</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="82" extractor="DrugnameMetamapExtractor" start="77">I 131</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="653" extractor="DrugnameMetamapExtractor" start="646">generic</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="888" extractor="DrugnameMetamapExtractor" start="883">sulfa</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2262" extractor="DrugnameMetamapExtractor" start="2244">Radioactive Iodine</DRUGNAME></INSTANCE></DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

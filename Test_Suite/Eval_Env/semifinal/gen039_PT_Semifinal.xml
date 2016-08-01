@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/gen039">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   </DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   <INSTANCE><PT end="1032" extractor="ReactionMetamapExtractor" start="1027">Crohn's</PT></INSTANCE><INSTANCE><PT end="295" extractor="ReactionMetamapExtractor" start="282">Crohn's</PT></INSTANCE><INSTANCE><PT end="1066" extractor="ReactionMetamapExtractor" start="1062">COPD NOS</PT></INSTANCE><INSTANCE><PT end="301" extractor="ReactionMetamapExtractor" start="297">COPD NOS</PT></INSTANCE><INSTANCE><PT end="2281" extractor="ReactionMetamapExtractor" start="2267">Grave's disease</PT></INSTANCE><INSTANCE><PT end="1296" extractor="ReactionMetamapExtractor" start="1282">Grave's disease</PT></INSTANCE><INSTANCE><PT end="1627" extractor="ReactionMetamapExtractor" start="1622">Obese</PT></INSTANCE><INSTANCE><PT end="1021" extractor="ReactionMetamapExtractor" start="995">Inflammatory bowel disease</PT></INSTANCE><INSTANCE><PT end="280" extractor="ReactionMetamapExtractor" start="254">Inflammatory bowel disease</PT></INSTANCE><INSTANCE><PT end="1060" extractor="ReactionMetamapExtractor" start="1048">Fibromyalgia</PT></INSTANCE><INSTANCE><PT end="252" extractor="ReactionMetamapExtractor" start="240">Fibromyalgia</PT></INSTANCE><INSTANCE><PT end="1046" extractor="ReactionMetamapExtractor" start="1034">Hypertension</PT></INSTANCE><INSTANCE><PT end="498" extractor="ReactionMetamapExtractor" start="486">Hypertension</PT></INSTANCE><INSTANCE><PT end="2227" extractor="ReactionMetamapExtractor" start="2213">Hypothyroidism</PT></INSTANCE><INSTANCE><PT end="993" extractor="ReactionMetamapExtractor" start="979">Hypothyroidism</PT></INSTANCE><INSTANCE><PT end="1341" extractor="ReactionMetamapExtractor" start="1320">Hashimoto Thyroiditis</PT></INSTANCE><INSTANCE><PT end="1516" extractor="ReactionMetamapExtractor" start="1502">Abdominal Pain</PT></INSTANCE><INSTANCE><PT end="1442" extractor="ReactionMetamapExtractor" start="1432">Chest Pain</PT></INSTANCE><INSTANCE><PT end="1262" extractor="ReactionMetamapExtractor" start="1247">Thyroid disease</PT></INSTANCE><INSTANCE><PT end="347" extractor="ReactionMetamapExtractor" start="331">Thyroid disease</PT></INSTANCE><INSTANCE><PT end="2116" extractor="ReactionMetamapExtractor" start="2112">PLAN</PT></INSTANCE><INSTANCE><PT end="2656" extractor="ReactionMetamapExtractor" start="2644">Hyperthyroid</PT></INSTANCE><INSTANCE><PT end="1385" extractor="ReactionMetamapExtractor" start="1378">Fatigue</PT></INSTANCE><INSTANCE><PT end="1084" extractor="ReactionMetamapExtractor" start="1072">DISC DISEASE</PT></INSTANCE><INSTANCE><PT end="319" extractor="ReactionMetamapExtractor" start="307">DISC DISEASE</PT></INSTANCE><INSTANCE><PT end="1744" extractor="ReactionMetamapExtractor" start="1727">Periorbital edema</PT></INSTANCE><INSTANCE><PT end="419" extractor="ReactionMetamapExtractor" start="414">EDEMA LEGS</PT></INSTANCE><INSTANCE><PT end="431" extractor="ReactionMetamapExtractor" start="427">EDEMA LEGS</PT></INSTANCE><INSTANCE><PT end="1575" extractor="ReactionMetamapExtractor" start="1563">Leg swelling</PT></INSTANCE></REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

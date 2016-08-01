@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/gen050">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   <INSTANCE><DRUGNAME end="426" extractor="DrugnameMetamapExtractor" start="420">Feosol</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="369" extractor="DrugnameMetamapExtractor" start="363">Feosol</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="101" extractor="DrugnameMetamapExtractor" start="93">Coumadin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="293" extractor="DrugnameMetamapExtractor" start="291">Mg++</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="287" extractor="DrugnameMetamapExtractor" start="282">Actos</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="19" extractor="DrugnameMetamapExtractor" start="17">AN</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="48" extractor="DrugnameMetamapExtractor" start="45">AN</DRUGNAME></INSTANCE></DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

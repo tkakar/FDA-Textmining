@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/fda001">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   <INSTANCE><DRUGNAME end="2144" extractor="DrugnameMetamapExtractor" start="2133">Domperidon</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2270" extractor="DrugnameMetamapExtractor" start="2259">Domperidon</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1921" extractor="DrugnameMetamapExtractor" start="1910">Domperidon</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1847" extractor="DrugnameMetamapExtractor" start="1836">Domperidon</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1776" extractor="DrugnameMetamapExtractor" start="1765">Domperidon</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1656" extractor="DrugnameMetamapExtractor" start="1645">Domperidon</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1407" extractor="DrugnameMetamapExtractor" start="1396">Domperidon</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1302" extractor="DrugnameMetamapExtractor" start="1291">Domperidon</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1149" extractor="DrugnameMetamapExtractor" start="1138">Domperidon</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="868" extractor="DrugnameMetamapExtractor" start="857">Domperidon</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="784" extractor="DrugnameMetamapExtractor" start="773">Domperidon</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="320" extractor="DrugnameMetamapExtractor" start="309">Domperidon</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="165" extractor="DrugnameMetamapExtractor" start="154">Domperidon</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="152" extractor="DrugnameMetamapExtractor" start="141">Domperidon</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1559" extractor="DrugnameMetamapExtractor" start="1549">Medication, NOS</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1835" extractor="DrugnameMetamapExtractor" start="1827">stopping</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="171" extractor="DrugnameMetamapExtractor" start="169">Mg++</DRUGNAME></INSTANCE></DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

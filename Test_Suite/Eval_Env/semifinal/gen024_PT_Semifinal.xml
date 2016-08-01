@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/gen024">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   </DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   <INSTANCE><PT end="199" extractor="ReactionMetamapExtractor" start="185">Cerebral Palsy</PT></INSTANCE><INSTANCE><PT end="88" extractor="ReactionMetamapExtractor" start="74">Cerebral Palsy</PT></INSTANCE><INSTANCE><PT end="96" extractor="ReactionMetamapExtractor" start="90">Asthma</PT></INSTANCE><INSTANCE><PT end="167" extractor="ReactionMetamapExtractor" start="161">Stroke</PT></INSTANCE><INSTANCE><PT end="921" extractor="ReactionMetamapExtractor" start="911">Difficulty swallowing</PT></INSTANCE><INSTANCE><PT end="940" extractor="ReactionMetamapExtractor" start="930">Difficulty swallowing</PT></INSTANCE><INSTANCE><PT end="518" extractor="ReactionMetamapExtractor" start="514">Weak</PT></INSTANCE><INSTANCE><PT end="705" extractor="ReactionMetamapExtractor" start="694">far</PT></INSTANCE><INSTANCE><PT end="684" extractor="ReactionMetamapExtractor" start="673">Astigmatism</PT></INSTANCE><INSTANCE><PT end="568" extractor="ReactionMetamapExtractor" start="559">Stretches</PT></INSTANCE><INSTANCE><PT end="1316" extractor="ReactionMetamapExtractor" start="1312">Mobility poor</PT></INSTANCE><INSTANCE><PT end="1333" extractor="ReactionMetamapExtractor" start="1325">Mobility poor</PT></INSTANCE></REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

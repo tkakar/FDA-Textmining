@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/gen043">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   </DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   <INSTANCE><PT end="601" extractor="ReactionMetamapExtractor" start="594">Syncope</PT></INSTANCE><INSTANCE><PT end="1116" extractor="ReactionMetamapExtractor" start="1108">Symptoms</PT></INSTANCE><INSTANCE><PT end="797" extractor="ReactionMetamapExtractor" start="789">Symptoms</PT></INSTANCE><INSTANCE><PT end="554" extractor="ReactionMetamapExtractor" start="546">Symptoms</PT></INSTANCE><INSTANCE><PT end="429" extractor="ReactionMetamapExtractor" start="421">Symptoms</PT></INSTANCE><INSTANCE><PT end="591" extractor="ReactionMetamapExtractor" start="581">Chest Pain</PT></INSTANCE><INSTANCE><PT end="464" extractor="ReactionMetamapExtractor" start="459">Tired</PT></INSTANCE><INSTANCE><PT end="392" extractor="ReactionMetamapExtractor" start="387">Tired</PT></INSTANCE><INSTANCE><PT end="691" extractor="ReactionMetamapExtractor" start="684">Finding</PT></INSTANCE><INSTANCE><PT end="565" extractor="ReactionMetamapExtractor" start="558">Malaise</PT></INSTANCE></REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

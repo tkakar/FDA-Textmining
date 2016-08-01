@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/gen026">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   </DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   <INSTANCE><PT end="942" extractor="ReactionMetamapExtractor" start="938">Rash</PT></INSTANCE><INSTANCE><PT end="347" extractor="ReactionMetamapExtractor" start="343">Rash</PT></INSTANCE><INSTANCE><PT end="872" extractor="ReactionMetamapExtractor" start="864">Pain symptoms</PT></INSTANCE><INSTANCE><PT end="880" extractor="ReactionMetamapExtractor" start="876">Pain symptoms</PT></INSTANCE><INSTANCE><PT end="523" extractor="ReactionMetamapExtractor" start="515">Diabetes</PT></INSTANCE><INSTANCE><PT end="408" extractor="ReactionMetamapExtractor" start="400">Symptoms</PT></INSTANCE><INSTANCE><PT end="287" extractor="ReactionMetamapExtractor" start="283">hands pain</PT></INSTANCE><INSTANCE><PT end="300" extractor="ReactionMetamapExtractor" start="295">hands pain</PT></INSTANCE></REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/gen032">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   <INSTANCE><DRUGNAME end="1910" extractor="DrugnameRegExtractor" start="1903">flonase</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1910" extractor="DrugnameRegExtractor" start="1903">flonase</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2575" extractor="DrugnameMetamapExtractor" start="2572">His</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2457" extractor="DrugnameMetamapExtractor" start="2454">His</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2288" extractor="DrugnameMetamapExtractor" start="2285">His</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="520" extractor="DrugnameMetamapExtractor" start="517">His</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="596" extractor="DrugnameMetamapExtractor" start="593">His</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="148" extractor="DrugnameMetamapExtractor" start="145">His</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="289" extractor="DrugnameMetamapExtractor" start="286">His</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="79" extractor="DrugnameMetamapExtractor" start="76">His</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1930" extractor="DrugnameMetamapExtractor" start="1923">Flonase</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1361" extractor="DrugnameMetamapExtractor" start="1352">refresh</DRUGNAME></INSTANCE></DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

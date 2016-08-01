@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/gen047">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   </DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   <INSTANCE><PT end="490" extractor="ReactionMetamapExtractor" start="475">Type 2 Diabetes</PT></INSTANCE><INSTANCE><PT end="276" extractor="ReactionMetamapExtractor" start="261">Type 2 Diabetes</PT></INSTANCE><INSTANCE><PT end="967" extractor="ReactionMetamapExtractor" start="953">Abdominal Pain</PT></INSTANCE><INSTANCE><PT end="1004" extractor="ReactionMetamapExtractor" start="996">Bloating</PT></INSTANCE><INSTANCE><PT end="240" extractor="ReactionMetamapExtractor" start="222">Bloating</PT></INSTANCE><INSTANCE><PT end="692" extractor="ReactionMetamapExtractor" start="684">Symptoms</PT></INSTANCE><INSTANCE><PT end="255" extractor="ReactionMetamapExtractor" start="252">Gas</PT></INSTANCE><INSTANCE><PT end="949" extractor="ReactionMetamapExtractor" start="940">pain worsening</PT></INSTANCE><INSTANCE><PT end="967" extractor="ReactionMetamapExtractor" start="963">pain worsening</PT></INSTANCE></REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

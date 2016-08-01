@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/gen034">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   <INSTANCE><DRUGNAME end="2050" extractor="DrugnameRegExtractor" start="2044">detrol</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2082" extractor="DrugnameRegExtractor" start="2074">prilosec</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2206" extractor="DrugnameRegExtractor" start="2193">nitroglycerin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2362" extractor="DrugnameRegExtractor" start="2355">aspirin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2391" extractor="DrugnameRegExtractor" start="2385">plavix</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2419" extractor="DrugnameRegExtractor" start="2413">diovan</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2451" extractor="DrugnameRegExtractor" start="2443">claritin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2503" extractor="DrugnameRegExtractor" start="2496">norvasc</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2532" extractor="DrugnameRegExtractor" start="2525">lipitor</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2560" extractor="DrugnameRegExtractor" start="2554">evista</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2560" extractor="DrugnameRegExtractor" start="2554">evista</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="6353" extractor="DrugnameRegExtractor" start="6345">claritin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="6379" extractor="DrugnameRegExtractor" start="6373">detrol</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="6353" extractor="DrugnameRegExtractor" start="6345">claritin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="6379" extractor="DrugnameRegExtractor" start="6373">detrol</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="5381" extractor="DrugnameMetamapExtractor" start="5368">Nitroglycerin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2219" extractor="DrugnameMetamapExtractor" start="2206">Nitroglycerin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1844" extractor="DrugnameMetamapExtractor" start="1831">Nitroglycerin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="466" extractor="DrugnameMetamapExtractor" start="453">Nitroglycerin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="274" extractor="DrugnameMetamapExtractor" start="261">Nitroglycerin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="6095" extractor="DrugnameMetamapExtractor" start="6083">Beta</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="5558" extractor="DrugnameMetamapExtractor" start="5546">Beta</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="973" extractor="DrugnameMetamapExtractor" start="961">Beta</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="6398" extractor="DrugnameMetamapExtractor" start="6390">Claritin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2469" extractor="DrugnameMetamapExtractor" start="2461">Claritin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="4727" extractor="DrugnameMetamapExtractor" start="4716">Magnesium 2+</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2587" extractor="DrugnameMetamapExtractor" start="2585">Magnesium 2+</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2557" extractor="DrugnameMetamapExtractor" start="2555">Magnesium 2+</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2527" extractor="DrugnameMetamapExtractor" start="2525">Magnesium 2+</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2475" extractor="DrugnameMetamapExtractor" start="2473">Magnesium 2+</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2443" extractor="DrugnameMetamapExtractor" start="2441">Magnesium 2+</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2413" extractor="DrugnameMetamapExtractor" start="2411">Magnesium 2+</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2271" extractor="DrugnameMetamapExtractor" start="2269">Magnesium 2+</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2107" extractor="DrugnameMetamapExtractor" start="2105">Magnesium 2+</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2067" extractor="DrugnameMetamapExtractor" start="2065">Magnesium 2+</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="5674" extractor="DrugnameMetamapExtractor" start="5667">Norvasc</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2522" extractor="DrugnameMetamapExtractor" start="2515">Norvasc</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="5633" extractor="DrugnameMetamapExtractor" start="5626">Aspirin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2581" extractor="DrugnameMetamapExtractor" start="2575">Evista</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="5411" extractor="DrugnameMetamapExtractor" start="5402">Pain</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="564" extractor="DrugnameMetamapExtractor" start="555">Pain</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="4671" extractor="DrugnameMetamapExtractor" start="4660">Bicarbonate</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2092" extractor="DrugnameMetamapExtractor" start="2084">Prilosec</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="5652" extractor="DrugnameMetamapExtractor" start="5643">valsartan</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2867" extractor="DrugnameMetamapExtractor" start="2860">ALCOHOL</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="4710" extractor="DrugnameMetamapExtractor" start="4703">Glucose</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="6370" extractor="DrugnameMetamapExtractor" start="6359">Glucosamine</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="5661" extractor="DrugnameMetamapExtractor" start="5654">Lipitor</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2552" extractor="DrugnameMetamapExtractor" start="2545">Lipitor</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="5641" extractor="DrugnameMetamapExtractor" start="5635">Plavix</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2407" extractor="DrugnameMetamapExtractor" start="2401">Plavix</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="6427" extractor="DrugnameMetamapExtractor" start="6418">Detrol LA</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2062" extractor="DrugnameMetamapExtractor" start="2053">Detrol LA</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2892" extractor="DrugnameMetamapExtractor" start="2879">Illicit Drugs</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="5699" extractor="DrugnameMetamapExtractor" start="5694">Imdur</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2265" extractor="DrugnameMetamapExtractor" start="2256">Toprol</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="6326" extractor="DrugnameMetamapExtractor" start="6324">LV</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2436" extractor="DrugnameMetamapExtractor" start="2430">Diovan</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2189" extractor="DrugnameMetamapExtractor" start="2177">multivitamin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="6116" extractor="DrugnameMetamapExtractor" start="6104">Anti</DRUGNAME></INSTANCE></DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

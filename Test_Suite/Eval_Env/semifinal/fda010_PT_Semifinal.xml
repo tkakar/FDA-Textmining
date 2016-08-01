@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/fda010">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   </DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   <INSTANCE><PT end="1910" extractor="ReactionMetamapExtractor" start="1896">Abdominal Pain</PT></INSTANCE><INSTANCE><PT end="1218" extractor="ReactionMetamapExtractor" start="1204">Abdominal Pain</PT></INSTANCE><INSTANCE><PT end="278" extractor="ReactionMetamapExtractor" start="264">Abdominal Pain</PT></INSTANCE><INSTANCE><PT end="802" extractor="ReactionMetamapExtractor" start="787">Type 2 Diabetes</PT></INSTANCE><INSTANCE><PT end="419" extractor="ReactionMetamapExtractor" start="404">Type 2 Diabetes</PT></INSTANCE><INSTANCE><PT end="1144" extractor="ReactionMetamapExtractor" start="1136">Belching</PT></INSTANCE><INSTANCE><PT end="306" extractor="ReactionMetamapExtractor" start="298">Belching</PT></INSTANCE><INSTANCE><PT end="1947" extractor="ReactionMetamapExtractor" start="1939">Bloating</PT></INSTANCE><INSTANCE><PT end="1382" extractor="ReactionMetamapExtractor" start="1364">Bloating</PT></INSTANCE><INSTANCE><PT end="1415" extractor="ReactionMetamapExtractor" start="1407">Bloating</PT></INSTANCE><INSTANCE><PT end="1306" extractor="ReactionMetamapExtractor" start="1297">Bloating</PT></INSTANCE><INSTANCE><PT end="247" extractor="ReactionMetamapExtractor" start="229">Bloating</PT></INSTANCE><INSTANCE><PT end="336" extractor="ReactionMetamapExtractor" start="329">Paresis</PT></INSTANCE><INSTANCE><PT end="1892" extractor="ReactionMetamapExtractor" start="1883">pain worsening</PT></INSTANCE><INSTANCE><PT end="1910" extractor="ReactionMetamapExtractor" start="1906">pain worsening</PT></INSTANCE><INSTANCE><PT end="1187" extractor="ReactionMetamapExtractor" start="1178">pain worsening</PT></INSTANCE><INSTANCE><PT end="1218" extractor="ReactionMetamapExtractor" start="1214">pain worsening</PT></INSTANCE><INSTANCE><PT end="1239" extractor="ReactionMetamapExtractor" start="1230">pain worsening</PT></INSTANCE><INSTANCE><PT end="1257" extractor="ReactionMetamapExtractor" start="1253">pain worsening</PT></INSTANCE><INSTANCE><PT end="940" extractor="ReactionMetamapExtractor" start="918">Diabetic gastroparesis</PT></INSTANCE><INSTANCE><PT end="369" extractor="ReactionMetamapExtractor" start="347">Diabetic gastroparesis</PT></INSTANCE><INSTANCE><PT end="1635" extractor="ReactionMetamapExtractor" start="1627">Symptoms</PT></INSTANCE><INSTANCE><PT end="262" extractor="ReactionMetamapExtractor" start="259">Gas</PT></INSTANCE></REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

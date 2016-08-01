@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/gen030">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   </DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   <INSTANCE><PT end="861" extractor="ReactionMetamapExtractor" start="854">Angina</PT></INSTANCE><INSTANCE><PT end="777" extractor="ReactionMetamapExtractor" start="771">Angina</PT></INSTANCE><INSTANCE><PT end="747" extractor="ReactionMetamapExtractor" start="734">Pain of breast</PT></INSTANCE><INSTANCE><PT end="1539" extractor="ReactionMetamapExtractor" start="1534">Cough</PT></INSTANCE><INSTANCE><PT end="1549" extractor="ReactionMetamapExtractor" start="1541">Wheezing</PT></INSTANCE><INSTANCE><PT end="144" extractor="ReactionMetamapExtractor" start="131">PAIN IN CHEST</PT></INSTANCE><INSTANCE><PT end="1532" extractor="ReactionMetamapExtractor" start="1526">Chills</PT></INSTANCE><INSTANCE><PT end="1459" extractor="ReactionMetamapExtractor" start="1447">Hypertension</PT></INSTANCE><INSTANCE><PT end="622" extractor="ReactionMetamapExtractor" start="614">Ischaemia</PT></INSTANCE><INSTANCE><PT end="1225" extractor="ReactionMetamapExtractor" start="1207">Gasping for breath</PT></INSTANCE><INSTANCE><PT end="1566" extractor="ReactionMetamapExtractor" start="1551">Nausea/vomiting</PT></INSTANCE><INSTANCE><PT end="1442" extractor="ReactionMetamapExtractor" start="1416">poorly controlled diabetes</PT></INSTANCE><INSTANCE><PT end="285" extractor="ReactionMetamapExtractor" start="267">Chest pain at rest</PT></INSTANCE><INSTANCE><PT end="1108" extractor="ReactionMetamapExtractor" start="1100">legs swelling</PT></INSTANCE><INSTANCE><PT end="1120" extractor="ReactionMetamapExtractor" start="1116">legs swelling</PT></INSTANCE><INSTANCE><PT end="921" extractor="ReactionMetamapExtractor" start="911">DISCOMFORT</PT></INSTANCE><INSTANCE><PT end="544" extractor="ReactionMetamapExtractor" start="531">Heart Failure</PT></INSTANCE></REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/gen015">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   <INSTANCE><DRUGNAME end="964" extractor="DrugnameRegExtractor" start="956">coumadin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="964" extractor="DrugnameRegExtractor" start="956">coumadin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="8" extractor="DrugnameRegExtractor" start="-1">verapamil</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="11" extractor="DrugnameRegExtractor" start="-1">lansoprazole</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="7" extractor="DrugnameRegExtractor" start="-1">dilantin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="978" extractor="DrugnameMetamapExtractor" start="970">Coumadin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="906" extractor="DrugnameMetamapExtractor" start="898">Coumadin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1251" extractor="DrugnameMetamapExtractor" start="1244">Aspirin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2496" extractor="DrugnameMetamapExtractor" start="2492">Iron</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="956" extractor="DrugnameMetamapExtractor" start="952">Iron</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1242" extractor="DrugnameMetamapExtractor" start="1235">Tylenol</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1263" extractor="DrugnameMetamapExtractor" start="1255">Percocet</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2734" extractor="DrugnameMetamapExtractor" start="2732">QD</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2814" extractor="DrugnameMetamapExtractor" start="2813">QD</DRUGNAME></INSTANCE></DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/gen040">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   </DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   <INSTANCE><PT end="1711" extractor="ReactionMetamapExtractor" start="1672">Diabetes Mellitus, Non</PT></INSTANCE><INSTANCE><PT end="612" extractor="ReactionMetamapExtractor" start="573">Diabetes Mellitus, Non</PT></INSTANCE><INSTANCE><PT end="1761" extractor="ReactionMetamapExtractor" start="1755">Asthma</PT></INSTANCE><INSTANCE><PT end="620" extractor="ReactionMetamapExtractor" start="614">Asthma</PT></INSTANCE><INSTANCE><PT end="1542" extractor="ReactionMetamapExtractor" start="1539">PMD</PT></INSTANCE><INSTANCE><PT end="571" extractor="ReactionMetamapExtractor" start="551">Hypercholesterolaemia</PT></INSTANCE><INSTANCE><PT end="1749" extractor="ReactionMetamapExtractor" start="1735">Hypothyroidism</PT></INSTANCE><INSTANCE><PT end="640" extractor="ReactionMetamapExtractor" start="626">Hypothyroidism</PT></INSTANCE><INSTANCE><PT end="1313" extractor="ReactionMetamapExtractor" start="1310">WAS</PT></INSTANCE><INSTANCE><PT end="539" extractor="ReactionMetamapExtractor" start="522">Osteoarthritis Of Knees</PT></INSTANCE><INSTANCE><PT end="549" extractor="ReactionMetamapExtractor" start="544">Osteoarthritis Of Knees</PT></INSTANCE><INSTANCE><PT end="369" extractor="ReactionMetamapExtractor" start="359">Chest Pain</PT></INSTANCE><INSTANCE><PT end="247" extractor="ReactionMetamapExtractor" start="230">Microcytic anaemia</PT></INSTANCE><INSTANCE><PT end="1143" extractor="ReactionMetamapExtractor" start="1129">Diverticulosis</PT></INSTANCE><INSTANCE><PT end="215" extractor="ReactionMetamapExtractor" start="208">Fatigue</PT></INSTANCE><INSTANCE><PT end="1641" extractor="ReactionMetamapExtractor" start="1635">Anaemia</PT></INSTANCE><INSTANCE><PT end="1104" extractor="ReactionMetamapExtractor" start="1087">Erosive gastritis</PT></INSTANCE><INSTANCE><PT end="247" extractor="ReactionMetamapExtractor" start="241">anemia hemoglobin</PT></INSTANCE><INSTANCE><PT end="263" extractor="ReactionMetamapExtractor" start="253">anemia hemoglobin</PT></INSTANCE><INSTANCE><PT end="980" extractor="ReactionMetamapExtractor" start="959">EXTREMITY EDEMA, LOWER</PT></INSTANCE></REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

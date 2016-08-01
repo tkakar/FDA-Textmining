@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/gen033">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   </DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   <INSTANCE><PT end="4084" extractor="ReactionMetamapExtractor" start="4076">Vomiting</PT></INSTANCE><INSTANCE><PT end="532" extractor="ReactionMetamapExtractor" start="524">Vomiting</PT></INSTANCE><INSTANCE><PT end="443" extractor="ReactionMetamapExtractor" start="436">Vomiting</PT></INSTANCE><INSTANCE><PT end="384" extractor="ReactionMetamapExtractor" start="376">Vomiting</PT></INSTANCE><INSTANCE><PT end="4063" extractor="ReactionMetamapExtractor" start="4049">Abdominal Pain</PT></INSTANCE><INSTANCE><PT end="33" extractor="ReactionMetamapExtractor" start="19">Abdominal Pain</PT></INSTANCE><INSTANCE><PT end="141" extractor="ReactionMetamapExtractor" start="127">Abdominal Pain</PT></INSTANCE><INSTANCE><PT end="4169" extractor="ReactionMetamapExtractor" start="4152">Esophageal Reflux</PT></INSTANCE><INSTANCE><PT end="1217" extractor="ReactionMetamapExtractor" start="1200">Esophageal Reflux</PT></INSTANCE><INSTANCE><PT end="4206" extractor="ReactionMetamapExtractor" start="4198">Glaucoma</PT></INSTANCE><INSTANCE><PT end="2008" extractor="ReactionMetamapExtractor" start="2000">Glaucoma</PT></INSTANCE><INSTANCE><PT end="1433" extractor="ReactionMetamapExtractor" start="1425">Glaucoma</PT></INSTANCE><INSTANCE><PT end="4071" extractor="ReactionMetamapExtractor" start="4065">Nausea</PT></INSTANCE><INSTANCE><PT end="371" extractor="ReactionMetamapExtractor" start="365">Nausea</PT></INSTANCE><INSTANCE><PT end="4192" extractor="ReactionMetamapExtractor" start="4175">Allergic Rhinitis</PT></INSTANCE><INSTANCE><PT end="1268" extractor="ReactionMetamapExtractor" start="1251">Allergic Rhinitis</PT></INSTANCE><INSTANCE><PT end="2676" extractor="ReactionMetamapExtractor" start="2669">Syncope</PT></INSTANCE><INSTANCE><PT end="1972" extractor="ReactionMetamapExtractor" start="1952">Hypercholesterolaemia</PT></INSTANCE><INSTANCE><PT end="4146" extractor="ReactionMetamapExtractor" start="4134">Hypertension</PT></INSTANCE><INSTANCE><PT end="1141" extractor="ReactionMetamapExtractor" start="1129">Hypertension</PT></INSTANCE><INSTANCE><PT end="2721" extractor="ReactionMetamapExtractor" start="2709">Paresthesias</PT></INSTANCE><INSTANCE><PT end="2489" extractor="ReactionMetamapExtractor" start="2474">Angina Pectoris</PT></INSTANCE><INSTANCE><PT end="2611" extractor="ReactionMetamapExtractor" start="2604">Dysuria</PT></INSTANCE><INSTANCE><PT end="2199" extractor="ReactionMetamapExtractor" start="2190">Headaches</PT></INSTANCE><INSTANCE><PT end="2667" extractor="ReactionMetamapExtractor" start="2660">Seizure</PT></INSTANCE><INSTANCE><PT end="3355" extractor="ReactionMetamapExtractor" start="3345">Hypoactive</PT></INSTANCE><INSTANCE><PT end="2472" extractor="ReactionMetamapExtractor" start="2462">Chest Pain</PT></INSTANCE><INSTANCE><PT end="2373" extractor="ReactionMetamapExtractor" start="2368">Cough</PT></INSTANCE><INSTANCE><PT end="2437" extractor="ReactionMetamapExtractor" start="2418">Shortness of Breath</PT></INSTANCE><INSTANCE><PT end="2705" extractor="ReactionMetamapExtractor" start="2694">Hemiparesis</PT></INSTANCE><INSTANCE><PT end="2404" extractor="ReactionMetamapExtractor" start="2394">Haemoptysis</PT></INSTANCE><INSTANCE><PT end="1994" extractor="ReactionMetamapExtractor" start="1974">Rheumatoid Arthritis</PT></INSTANCE><INSTANCE><PT end="2414" extractor="ReactionMetamapExtractor" start="2406">Wheezing</PT></INSTANCE><INSTANCE><PT end="837" extractor="ReactionMetamapExtractor" start="820">Bowel obstruction</PT></INSTANCE><INSTANCE><PT end="3382" extractor="ReactionMetamapExtractor" start="3374">Cyanosis</PT></INSTANCE><INSTANCE><PT end="2286" extractor="ReactionMetamapExtractor" start="2275">sore throat</PT></INSTANCE><INSTANCE><PT end="3636" extractor="ReactionMetamapExtractor" start="3626">Tenderness</PT></INSTANCE><INSTANCE><PT end="3502" extractor="ReactionMetamapExtractor" start="3492">Tenderness</PT></INSTANCE><INSTANCE><PT end="3293" extractor="ReactionMetamapExtractor" start="3283">Tenderness</PT></INSTANCE><INSTANCE><PT end="2692" extractor="ReactionMetamapExtractor" start="2678">Incoordination</PT></INSTANCE><INSTANCE><PT end="2494" extractor="ReactionMetamapExtractor" start="2491">DOE</PT></INSTANCE><INSTANCE><PT end="2315" extractor="ReactionMetamapExtractor" start="2301">Neck stiffness</PT></INSTANCE><INSTANCE><PT end="2510" extractor="ReactionMetamapExtractor" start="2501">Orthopnea</PT></INSTANCE><INSTANCE><PT end="2499" extractor="ReactionMetamapExtractor" start="2496">PND</PT></INSTANCE><INSTANCE><PT end="2260" extractor="ReactionMetamapExtractor" start="2250">Rhinorrhea</PT></INSTANCE><INSTANCE><PT end="1322" extractor="ReactionMetamapExtractor" start="1304">Sleep disturbances</PT></INSTANCE><INSTANCE><PT end="324" extractor="ReactionMetamapExtractor" start="316">Symptoms</PT></INSTANCE><INSTANCE><PT end="3956" extractor="ReactionMetamapExtractor" start="3938">stomach distention</PT></INSTANCE><INSTANCE><PT end="4104" extractor="ReactionMetamapExtractor" start="4095">recurrent bowel obstruction</PT></INSTANCE><INSTANCE><PT end="4128" extractor="ReactionMetamapExtractor" start="4111">recurrent bowel obstruction</PT></INSTANCE></REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

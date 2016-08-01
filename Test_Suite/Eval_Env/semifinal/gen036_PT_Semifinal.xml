@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/gen036">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   </DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   <INSTANCE><PT end="2815" extractor="ReactionMetamapExtractor" start="2810">Blush</PT></INSTANCE><INSTANCE><PT end="2348" extractor="ReactionMetamapExtractor" start="2343">Blush</PT></INSTANCE><INSTANCE><PT end="579" extractor="ReactionMetamapExtractor" start="564">Light</PT></INSTANCE><INSTANCE><PT end="88" extractor="ReactionMetamapExtractor" start="73">Light</PT></INSTANCE><INSTANCE><PT end="1850" extractor="ReactionMetamapExtractor" start="1845">Obese</PT></INSTANCE><INSTANCE><PT end="362" extractor="ReactionMetamapExtractor" start="354">Vomiting</PT></INSTANCE><INSTANCE><PT end="274" extractor="ReactionMetamapExtractor" start="266">Vomiting</PT></INSTANCE><INSTANCE><PT end="1031" extractor="ReactionMetamapExtractor" start="1027">GERD</PT></INSTANCE><INSTANCE><PT end="1075" extractor="ReactionMetamapExtractor" start="1055">Hypercholesterolaemia</PT></INSTANCE><INSTANCE><PT end="1980" extractor="ReactionMetamapExtractor" start="1977">TIA</PT></INSTANCE><INSTANCE><PT end="458" extractor="ReactionMetamapExtractor" start="450">Numbness</PT></INSTANCE><INSTANCE><PT end="932" extractor="ReactionMetamapExtractor" start="926">Asthma</PT></INSTANCE><INSTANCE><PT end="1684" extractor="ReactionMetamapExtractor" start="1670">Ataxia, Truncal</PT></INSTANCE><INSTANCE><PT end="1208" extractor="ReactionMetamapExtractor" start="1184">Aortic Aneurysm, Thoracic</PT></INSTANCE><INSTANCE><PT end="1406" extractor="ReactionMetamapExtractor" start="1403">NMS</PT></INSTANCE><INSTANCE><PT end="1239" extractor="ReactionMetamapExtractor" start="1233">Stroke</PT></INSTANCE><INSTANCE><PT end="953" extractor="ReactionMetamapExtractor" start="936">Allergic Rhinitis</PT></INSTANCE><INSTANCE><PT end="536" extractor="ReactionMetamapExtractor" start="527">Dysphagia</PT></INSTANCE><INSTANCE><PT end="1411" extractor="ReactionMetamapExtractor" start="1408">a o</PT></INSTANCE><INSTANCE><PT end="241" extractor="ReactionMetamapExtractor" start="235">Nausea</PT></INSTANCE><INSTANCE><PT end="509" extractor="ReactionMetamapExtractor" start="501">Weakness</PT></INSTANCE><INSTANCE><PT end="2490" extractor="ReactionMetamapExtractor" start="2483">Finding</PT></INSTANCE><INSTANCE><PT end="974" extractor="ReactionMetamapExtractor" start="957">Chronic sinusitis</PT></INSTANCE><INSTANCE><PT end="392" extractor="ReactionMetamapExtractor" start="384">Symptoms</PT></INSTANCE></REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

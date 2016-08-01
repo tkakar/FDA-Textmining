@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/gen014">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   </DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   <INSTANCE><PT end="471" extractor="ReactionMetamapExtractor" start="457">Abdominal Pain</PT></INSTANCE><INSTANCE><PT end="231" extractor="ReactionMetamapExtractor" start="217">Abdominal Pain</PT></INSTANCE><INSTANCE><PT end="916" extractor="ReactionMetamapExtractor" start="912">Pain, Burning</PT></INSTANCE><INSTANCE><PT end="937" extractor="ReactionMetamapExtractor" start="930">Pain, Burning</PT></INSTANCE><INSTANCE><PT end="1789" extractor="ReactionMetamapExtractor" start="1777">Constipation</PT></INSTANCE><INSTANCE><PT end="1763" extractor="ReactionMetamapExtractor" start="1756">vomited</PT></INSTANCE><INSTANCE><PT end="1687" extractor="ReactionMetamapExtractor" start="1678">Dysphagia</PT></INSTANCE><INSTANCE><PT end="1294" extractor="ReactionMetamapExtractor" start="1285">HEART BURN</PT></INSTANCE><INSTANCE><PT end="1522" extractor="ReactionMetamapExtractor" start="1515">Fatigue</PT></INSTANCE><INSTANCE><PT end="2616" extractor="ReactionMetamapExtractor" start="2602">Drug Allergies</PT></INSTANCE><INSTANCE><PT end="1509" extractor="ReactionMetamapExtractor" start="1491">Decreased appetite</PT></INSTANCE><INSTANCE><PT end="2389" extractor="ReactionMetamapExtractor" start="2382">post mi</PT></INSTANCE><INSTANCE><PT end="1557" extractor="ReactionMetamapExtractor" start="1548">drenching sweats</PT></INSTANCE><INSTANCE><PT end="1570" extractor="ReactionMetamapExtractor" start="1564">drenching sweats</PT></INSTANCE><INSTANCE><PT end="1570" extractor="ReactionMetamapExtractor" start="1558">Night sweats</PT></INSTANCE><INSTANCE><PT end="1649" extractor="ReactionMetamapExtractor" start="1642">lump in throat</PT></INSTANCE><INSTANCE><PT end="1660" extractor="ReactionMetamapExtractor" start="1654">lump in throat</PT></INSTANCE><INSTANCE><PT end="1719" extractor="ReactionMetamapExtractor" start="1713">abdominal pain nausea</PT></INSTANCE><INSTANCE><PT end="1743" extractor="ReactionMetamapExtractor" start="1729">abdominal pain nausea</PT></INSTANCE><INSTANCE><PT end="928" extractor="ReactionMetamapExtractor" start="923">Sharp pain</PT></INSTANCE><INSTANCE><PT end="428" extractor="ReactionMetamapExtractor" start="403">Abdominal pain, epigastric</PT></INSTANCE></REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

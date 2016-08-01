@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/fda008">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   </DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   <INSTANCE><PT end="2537" extractor="ReactionMetamapExtractor" start="2524">Gastroparesis</PT></INSTANCE><INSTANCE><PT end="1312" extractor="ReactionMetamapExtractor" start="1299">Gastroparesis</PT></INSTANCE><INSTANCE><PT end="1474" extractor="ReactionMetamapExtractor" start="1461">Gastroparesis</PT></INSTANCE><INSTANCE><PT end="1110" extractor="ReactionMetamapExtractor" start="1097">Gastroparesis</PT></INSTANCE><INSTANCE><PT end="411" extractor="ReactionMetamapExtractor" start="398">Gastroparesis</PT></INSTANCE><INSTANCE><PT end="493" extractor="ReactionMetamapExtractor" start="480">Gastroparesis</PT></INSTANCE><INSTANCE><PT end="4495" extractor="ReactionMetamapExtractor" start="4486">Dry mouth</PT></INSTANCE><INSTANCE><PT end="4065" extractor="ReactionMetamapExtractor" start="4056">Dry mouth</PT></INSTANCE><INSTANCE><PT end="2324" extractor="ReactionMetamapExtractor" start="2315">Dry mouth</PT></INSTANCE><INSTANCE><PT end="2043" extractor="ReactionMetamapExtractor" start="2034">Dry mouth</PT></INSTANCE><INSTANCE><PT end="1670" extractor="ReactionMetamapExtractor" start="1661">Dry mouth</PT></INSTANCE><INSTANCE><PT end="746" extractor="ReactionMetamapExtractor" start="737">Dry mouth</PT></INSTANCE><INSTANCE><PT end="2669" extractor="ReactionMetamapExtractor" start="2664">Crohn Disease</PT></INSTANCE><INSTANCE><PT end="2680" extractor="ReactionMetamapExtractor" start="2673">Crohn Disease</PT></INSTANCE><INSTANCE><PT end="2495" extractor="ReactionMetamapExtractor" start="2490">Crohn Disease</PT></INSTANCE><INSTANCE><PT end="2506" extractor="ReactionMetamapExtractor" start="2499">Crohn Disease</PT></INSTANCE><INSTANCE><PT end="1557" extractor="ReactionMetamapExtractor" start="1552">Crohn Disease</PT></INSTANCE><INSTANCE><PT end="1568" extractor="ReactionMetamapExtractor" start="1561">Crohn Disease</PT></INSTANCE><INSTANCE><PT end="1081" extractor="ReactionMetamapExtractor" start="1076">Crohn Disease</PT></INSTANCE><INSTANCE><PT end="1092" extractor="ReactionMetamapExtractor" start="1085">Crohn Disease</PT></INSTANCE><INSTANCE><PT end="4470" extractor="ReactionMetamapExtractor" start="4463">Fatigue</PT></INSTANCE><INSTANCE><PT end="4041" extractor="ReactionMetamapExtractor" start="4034">Fatigue</PT></INSTANCE><INSTANCE><PT end="2285" extractor="ReactionMetamapExtractor" start="2278">Fatigue</PT></INSTANCE><INSTANCE><PT end="2019" extractor="ReactionMetamapExtractor" start="2012">Fatigue</PT></INSTANCE><INSTANCE><PT end="1659" extractor="ReactionMetamapExtractor" start="1652">Fatigue</PT></INSTANCE><INSTANCE><PT end="699" extractor="ReactionMetamapExtractor" start="692">Fatigue</PT></INSTANCE><INSTANCE><PT end="4482" extractor="ReactionMetamapExtractor" start="4474">Dry eyes</PT></INSTANCE><INSTANCE><PT end="4051" extractor="ReactionMetamapExtractor" start="4043">Dry eyes</PT></INSTANCE><INSTANCE><PT end="2304" extractor="ReactionMetamapExtractor" start="2296">Dry eyes</PT></INSTANCE><INSTANCE><PT end="2029" extractor="ReactionMetamapExtractor" start="2021">Dry eyes</PT></INSTANCE><INSTANCE><PT end="1683" extractor="ReactionMetamapExtractor" start="1675">Dry eyes</PT></INSTANCE><INSTANCE><PT end="722" extractor="ReactionMetamapExtractor" start="714">Dry eyes</PT></INSTANCE><INSTANCE><PT end="3765" extractor="ReactionMetamapExtractor" start="3762">WAS</PT></INSTANCE><INSTANCE><PT end="1065" extractor="ReactionMetamapExtractor" start="1055">condition</PT></INSTANCE><INSTANCE><PT end="3948" extractor="ReactionMetamapExtractor" start="3940">Symptoms</PT></INSTANCE><INSTANCE><PT end="3580" extractor="ReactionMetamapExtractor" start="3572">Symptoms</PT></INSTANCE><INSTANCE><PT end="4321" extractor="ReactionMetamapExtractor" start="4302">Autoimmune disorder</PT></INSTANCE></REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

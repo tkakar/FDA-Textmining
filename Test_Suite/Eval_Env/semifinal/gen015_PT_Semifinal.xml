@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/gen015">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   </DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   <INSTANCE><PT end="744" extractor="ReactionMetamapExtractor" start="741">TIA</PT></INSTANCE><INSTANCE><PT end="494" extractor="ReactionMetamapExtractor" start="491">TIA</PT></INSTANCE><INSTANCE><PT end="643" extractor="ReactionMetamapExtractor" start="640">CVA, NOS</PT></INSTANCE><INSTANCE><PT end="158" extractor="ReactionMetamapExtractor" start="152">CVA, NOS</PT></INSTANCE><INSTANCE><PT end="1717" extractor="ReactionMetamapExtractor" start="1708">Dizziness</PT></INSTANCE><INSTANCE><PT end="489" extractor="ReactionMetamapExtractor" start="480">Dizziness</PT></INSTANCE><INSTANCE><PT end="1111" extractor="ReactionMetamapExtractor" start="1099">sudden onset pain</PT></INSTANCE><INSTANCE><PT end="1132" extractor="ReactionMetamapExtractor" start="1128">sudden onset pain</PT></INSTANCE><INSTANCE><PT end="281" extractor="ReactionMetamapExtractor" start="276">sudden onset pain</PT></INSTANCE><INSTANCE><PT end="290" extractor="ReactionMetamapExtractor" start="286">sudden onset pain</PT></INSTANCE><INSTANCE><PT end="1412" extractor="ReactionMetamapExtractor" start="1404">Diplopia</PT></INSTANCE><INSTANCE><PT end="1703" extractor="ReactionMetamapExtractor" start="1692">Photophobia</PT></INSTANCE><INSTANCE><PT end="541" extractor="ReactionMetamapExtractor" start="525">Carotid Stenosis</PT></INSTANCE><INSTANCE><PT end="862" extractor="ReactionMetamapExtractor" start="859">MOD</PT></INSTANCE><INSTANCE><PT end="2002" extractor="ReactionMetamapExtractor" start="1992">Haemoptysis</PT></INSTANCE><INSTANCE><PT end="1483" extractor="ReactionMetamapExtractor" start="1477">Nausea</PT></INSTANCE><INSTANCE><PT end="1944" extractor="ReactionMetamapExtractor" start="1936">Wheezing</PT></INSTANCE><INSTANCE><PT end="672" extractor="ReactionMetamapExtractor" start="660">arm weakness</PT></INSTANCE><INSTANCE><PT end="1496" extractor="ReactionMetamapExtractor" start="1488">Vomiting</PT></INSTANCE><INSTANCE><PT end="2189" extractor="ReactionMetamapExtractor" start="2183">DEFECT</PT></INSTANCE><INSTANCE><PT end="1799" extractor="ReactionMetamapExtractor" start="1795">COPD NOS</PT></INSTANCE><INSTANCE><PT end="1196" extractor="ReactionMetamapExtractor" start="1188">Coughing</PT></INSTANCE><INSTANCE><PT end="2544" extractor="ReactionMetamapExtractor" start="2542">NH</PT></INSTANCE><INSTANCE><PT end="1727" extractor="ReactionMetamapExtractor" start="1719">Weakness</PT></INSTANCE><INSTANCE><PT end="443" extractor="ReactionMetamapExtractor" start="431">Hypertensive disease</PT></INSTANCE><INSTANCE><PT end="467" extractor="ReactionMetamapExtractor" start="460">Hypertensive disease</PT></INSTANCE><INSTANCE><PT end="2230" extractor="ReactionMetamapExtractor" start="2222">Disorder</PT></INSTANCE><INSTANCE><PT end="2514" extractor="ReactionMetamapExtractor" start="2508">Anaemia</PT></INSTANCE><INSTANCE><PT end="2905" extractor="ReactionMetamapExtractor" start="2891">Drug Allergies</PT></INSTANCE><INSTANCE><PT end="1400" extractor="ReactionMetamapExtractor" start="1386">Blurred vision</PT></INSTANCE><INSTANCE><PT end="1934" extractor="ReactionMetamapExtractor" start="1917">increased dyspnea</PT></INSTANCE><INSTANCE><PT end="2036" extractor="ReactionMetamapExtractor" start="2027">Orthopnea</PT></INSTANCE><INSTANCE><PT end="951" extractor="ReactionMetamapExtractor" start="944">Chronic anaemia</PT></INSTANCE><INSTANCE><PT end="968" extractor="ReactionMetamapExtractor" start="962">Chronic anaemia</PT></INSTANCE><INSTANCE><PT end="2043" extractor="ReactionMetamapExtractor" start="2040">PND</PT></INSTANCE><INSTANCE><PT end="2593" extractor="ReactionMetamapExtractor" start="2576">shoulder bursitis</PT></INSTANCE></REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

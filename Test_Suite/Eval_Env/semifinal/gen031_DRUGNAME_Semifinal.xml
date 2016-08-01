@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/gen031">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   <INSTANCE><DRUGNAME end="681" extractor="DrugnameRegExtractor" start="674">allegra</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="681" extractor="DrugnameRegExtractor" start="674">allegra</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1074" extractor="DrugnameMetamapExtractor" start="1068">Zyrtec</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="218" extractor="DrugnameMetamapExtractor" start="212">Zyrtec</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1141" extractor="DrugnameMetamapExtractor" start="1131">Loratadine</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="206" extractor="DrugnameMetamapExtractor" start="198">Claritin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="496" extractor="DrugnameMetamapExtractor" start="484">Nasal Sprays</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1093" extractor="DrugnameMetamapExtractor" start="1086">Allegra</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="685" extractor="DrugnameMetamapExtractor" start="678">Allegra</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="306" extractor="DrugnameMetamapExtractor" start="299">Allegra</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="557" extractor="DrugnameMetamapExtractor" start="547">Medication, NOS</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="639" extractor="DrugnameMetamapExtractor" start="629">Medication, NOS</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="456" extractor="DrugnameMetamapExtractor" start="440">Over</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="669" extractor="DrugnameMetamapExtractor" start="653">Ortho Tri</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1240" extractor="DrugnameMetamapExtractor" start="1233">Nasonex</DRUGNAME></INSTANCE></DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

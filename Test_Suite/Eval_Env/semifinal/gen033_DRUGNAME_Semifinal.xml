@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/gen033">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   <INSTANCE><DRUGNAME end="1542" extractor="DrugnameRegExtractor" start="1535">flovent</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1542" extractor="DrugnameRegExtractor" start="1535">flovent</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="4386" extractor="DrugnameMetamapExtractor" start="4377">Analgesic</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2889" extractor="DrugnameMetamapExtractor" start="2879">Analgesic</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1161" extractor="DrugnameMetamapExtractor" start="1155">Cozaar</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="3769" extractor="DrugnameMetamapExtractor" start="3758">Bicarbonate</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="3830" extractor="DrugnameMetamapExtractor" start="3824">Lipase</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="4357" extractor="DrugnameMetamapExtractor" start="4335">antiemetic medications</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1237" extractor="DrugnameMetamapExtractor" start="1231">Nexium</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1410" extractor="DrugnameMetamapExtractor" start="1404">Ativan</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="3818" extractor="DrugnameMetamapExtractor" start="3811">Amylase</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="3792" extractor="DrugnameMetamapExtractor" start="3782">Creatinine</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1186" extractor="DrugnameMetamapExtractor" start="1179">Norvasc</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="4369" extractor="DrugnameMetamapExtractor" start="4363">Zofran</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="3805" extractor="DrugnameMetamapExtractor" start="3798">Glucose</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1365" extractor="DrugnameMetamapExtractor" start="1360">Paxil</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1548" extractor="DrugnameMetamapExtractor" start="1541">Flovent</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1454" extractor="DrugnameMetamapExtractor" start="1447">Xalatan</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1289" extractor="DrugnameMetamapExtractor" start="1282">Allegra</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1385" extractor="DrugnameMetamapExtractor" start="1379">Advair</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1561" extractor="DrugnameMetamapExtractor" start="1553">Serevent</DRUGNAME></INSTANCE></DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

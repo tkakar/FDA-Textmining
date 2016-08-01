@@ -2,11 +2,11 @@ import os, glob
 import ProjectAERIS
 
 
-inputPath = '/work/swunnava/git-repos/TSIntegration1/FDA-Textmining/Test_Suite/Test_Cases/'
+inputPath = '/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/'
 
-outputPath = '/work/swunnava/git-repos/TSIntegration1/FDA-Textmining/Postprocessing/Intermediate4'
+outputPath = '/work/tkakar/git-repos/FDA-Textmining/Postprocessing/Intermediate4'
 
-configFilePath = '/work/swunnava/git-repos/TSIntegration1/FDA-Textmining/Resources/config_with_age.json'
+configFilePath = '/work/tkakar/git-repos/FDA-Textmining/Resources/config_with_age.json'
 
 def main():
     count = 0

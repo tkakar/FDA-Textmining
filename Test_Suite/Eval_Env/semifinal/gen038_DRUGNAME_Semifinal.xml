@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/gen038">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   <INSTANCE><DRUGNAME end="486" extractor="DrugnameRegExtractor" start="478">prevacid</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="486" extractor="DrugnameRegExtractor" start="478">prevacid</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="516" extractor="DrugnameRegExtractor" start="510">evista</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="537" extractor="DrugnameRegExtractor" start="527">levothroid</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="561" extractor="DrugnameRegExtractor" start="553">claritin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="580" extractor="DrugnameRegExtractor" start="572">celebrex</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="623" extractor="DrugnameRegExtractor" start="610">amitriptyline</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="516" extractor="DrugnameRegExtractor" start="510">evista</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="537" extractor="DrugnameRegExtractor" start="527">levothroid</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="561" extractor="DrugnameRegExtractor" start="553">claritin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="580" extractor="DrugnameRegExtractor" start="572">celebrex</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="623" extractor="DrugnameRegExtractor" start="610">amitriptyline</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2563" extractor="DrugnameRegExtractor" start="2554">pneumovax</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="567" extractor="DrugnameMetamapExtractor" start="559">Claritin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="522" extractor="DrugnameMetamapExtractor" start="516">Evista</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="629" extractor="DrugnameMetamapExtractor" start="616">Amitriptyline</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="602" extractor="DrugnameMetamapExtractor" start="598">HCTZ</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2605" extractor="DrugnameMetamapExtractor" start="2596">Pneumovax</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="543" extractor="DrugnameMetamapExtractor" start="533">Levothroid</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="490" extractor="DrugnameMetamapExtractor" start="482">Prevacid</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="586" extractor="DrugnameMetamapExtractor" start="578">Celebrex</DRUGNAME></INSTANCE></DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

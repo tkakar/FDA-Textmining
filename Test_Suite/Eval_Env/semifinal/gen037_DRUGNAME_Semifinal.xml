@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/gen037">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   <INSTANCE><DRUGNAME end="1423" extractor="DrugnameRegExtractor" start="1415">levaquin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1449" extractor="DrugnameRegExtractor" start="1442">vicodin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1464" extractor="DrugnameRegExtractor" start="1455">phenergan</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1423" extractor="DrugnameRegExtractor" start="1415">levaquin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1449" extractor="DrugnameRegExtractor" start="1442">vicodin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1464" extractor="DrugnameRegExtractor" start="1455">phenergan</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2224" extractor="DrugnameRegExtractor" start="2214">loratadine</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2224" extractor="DrugnameRegExtractor" start="2214">loratadine</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2303" extractor="DrugnameRegExtractor" start="2293">cephalexin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2303" extractor="DrugnameRegExtractor" start="2293">cephalexin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1614" extractor="DrugnameMetamapExtractor" start="1611">His</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="651" extractor="DrugnameMetamapExtractor" start="648">His</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="186" extractor="DrugnameMetamapExtractor" start="183">His</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2009" extractor="DrugnameMetamapExtractor" start="1998">Ceftriaxon</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="281" extractor="DrugnameMetamapExtractor" start="271">Cefalexin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1429" extractor="DrugnameMetamapExtractor" start="1421">Levaquin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2396" extractor="DrugnameMetamapExtractor" start="2382">Cephalosporins</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1057" extractor="DrugnameMetamapExtractor" start="1051">Lipase</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1046" extractor="DrugnameMetamapExtractor" start="1039">Amylase</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2460" extractor="DrugnameMetamapExtractor" start="2456">ETOH</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="988" extractor="DrugnameMetamapExtractor" start="981">Glucose</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="750" extractor="DrugnameMetamapExtractor" start="749">T</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="770" extractor="DrugnameMetamapExtractor" start="768">T</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2292" extractor="DrugnameMetamapExtractor" start="2282">salmeterol</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1470" extractor="DrugnameMetamapExtractor" start="1461">Phenergan</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1992" extractor="DrugnameMetamapExtractor" start="1979">Acetaminophen</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1455" extractor="DrugnameMetamapExtractor" start="1448">Vicodin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1328" extractor="DrugnameMetamapExtractor" start="1318">Medication, NOS</DRUGNAME></INSTANCE></DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

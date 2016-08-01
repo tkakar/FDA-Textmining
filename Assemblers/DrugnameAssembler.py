@@ -96,5 +96,8 @@ class DrugnameAssembler(EntityAssembler):
         for elements in self.dataElementList:
            # print elements[0].extractedField, elements[0].extractorName, elements[0].entityName
             ## if elements is null then might get error
-            comp.multi_compare(elements[0].entityName, elements[0].extractorName) 
+            if elements:
+                 comp.multi_compare(elements[0].entityName, elements[0].extractorName) 
+            else:
+                break
                 

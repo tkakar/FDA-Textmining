@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/gen012">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   </DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   <INSTANCE><PT end="1014" extractor="ReactionMetamapExtractor" start="1009">Faint</PT></INSTANCE><INSTANCE><PT end="1091" extractor="ReactionMetamapExtractor" start="1083">Faint</PT></INSTANCE><INSTANCE><PT end="2035" extractor="ReactionMetamapExtractor" start="2026">Arthritis</PT></INSTANCE><INSTANCE><PT end="2087" extractor="ReactionMetamapExtractor" start="2078">Arthritis</PT></INSTANCE><INSTANCE><PT end="2013" extractor="ReactionMetamapExtractor" start="2004">Arthritis</PT></INSTANCE><INSTANCE><PT end="1951" extractor="ReactionMetamapExtractor" start="1942">Arthritis</PT></INSTANCE><INSTANCE><PT end="840" extractor="ReactionMetamapExtractor" start="832">HEAD ACHE</PT></INSTANCE><INSTANCE><PT end="740" extractor="ReactionMetamapExtractor" start="732">HEAD ACHE</PT></INSTANCE><INSTANCE><PT end="1425" extractor="ReactionMetamapExtractor" start="1414">Pains, Chest</PT></INSTANCE><INSTANCE><PT end="752" extractor="ReactionMetamapExtractor" start="742">Pains, Chest</PT></INSTANCE><INSTANCE><PT end="314" extractor="ReactionMetamapExtractor" start="309">Dizzy</PT></INSTANCE><INSTANCE><PT end="1480" extractor="ReactionMetamapExtractor" start="1473">Vertigo</PT></INSTANCE><INSTANCE><PT end="1836" extractor="ReactionMetamapExtractor" start="1832">Gout</PT></INSTANCE><INSTANCE><PT end="1891" extractor="ReactionMetamapExtractor" start="1887">COPD NOS</PT></INSTANCE><INSTANCE><PT end="1613" extractor="ReactionMetamapExtractor" start="1605">Weakness</PT></INSTANCE><INSTANCE><PT end="2160" extractor="ReactionMetamapExtractor" start="2156">Rash</PT></INSTANCE><INSTANCE><PT end="1709" extractor="ReactionMetamapExtractor" start="1706">HTN</PT></INSTANCE><INSTANCE><PT end="1097" extractor="ReactionMetamapExtractor" start="1092">spell</PT></INSTANCE><INSTANCE><PT end="374" extractor="ReactionMetamapExtractor" start="365">feeling dizzy</PT></INSTANCE><INSTANCE><PT end="386" extractor="ReactionMetamapExtractor" start="379">feeling dizzy</PT></INSTANCE></REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

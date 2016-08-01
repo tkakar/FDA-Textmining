@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/fda008">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   <INSTANCE><DRUGNAME end="282" extractor="DrugnameRegExtractor" start="270">erythromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="388" extractor="DrugnameRegExtractor" start="376">erythromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2397" extractor="DrugnameRegExtractor" start="2385">erythromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2397" extractor="DrugnameRegExtractor" start="2385">erythromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2874" extractor="DrugnameRegExtractor" start="2862">erythromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2874" extractor="DrugnameRegExtractor" start="2862">erythromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="11" extractor="DrugnameRegExtractor" start="-1">erythromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="11" extractor="DrugnameRegExtractor" start="-1">erythromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="11" extractor="DrugnameRegExtractor" start="-1">erythromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="11" extractor="DrugnameRegExtractor" start="-1">erythromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="11" extractor="DrugnameRegExtractor" start="-1">erythromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="11" extractor="DrugnameRegExtractor" start="-1">erythromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="11" extractor="DrugnameRegExtractor" start="-1">erythromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="4754" extractor="DrugnameMetamapExtractor" start="4742">Erythromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="4821" extractor="DrugnameMetamapExtractor" start="4809">Erythromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="5073" extractor="DrugnameMetamapExtractor" start="5061">Erythromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="4625" extractor="DrugnameMetamapExtractor" start="4613">Erythromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="4683" extractor="DrugnameMetamapExtractor" start="4671">Erythromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="3854" extractor="DrugnameMetamapExtractor" start="3842">Erythromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="3733" extractor="DrugnameMetamapExtractor" start="3721">Erythromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="3795" extractor="DrugnameMetamapExtractor" start="3783">Erythromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="3536" extractor="DrugnameMetamapExtractor" start="3524">Erythromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2909" extractor="DrugnameMetamapExtractor" start="2897">Erythromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2417" extractor="DrugnameMetamapExtractor" start="2405">Erythromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1884" extractor="DrugnameMetamapExtractor" start="1872">Erythromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1354" extractor="DrugnameMetamapExtractor" start="1342">Erythromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="393" extractor="DrugnameMetamapExtractor" start="381">Erythromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="285" extractor="DrugnameMetamapExtractor" start="273">Erythromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="6076" extractor="DrugnameMetamapExtractor" start="6065">Domperidon</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="5884" extractor="DrugnameMetamapExtractor" start="5873">Domperidon</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="4546" extractor="DrugnameMetamapExtractor" start="4535">Domperidon</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="4357" extractor="DrugnameMetamapExtractor" start="4346">Domperidon</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="3716" extractor="DrugnameMetamapExtractor" start="3705">Domperidon</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="3519" extractor="DrugnameMetamapExtractor" start="3508">Domperidon</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2440" extractor="DrugnameMetamapExtractor" start="2429">Domperidon</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1867" extractor="DrugnameMetamapExtractor" start="1856">Domperidon</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1767" extractor="DrugnameMetamapExtractor" start="1756">Domperidon</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1177" extractor="DrugnameMetamapExtractor" start="1166">Domperidon</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="475" extractor="DrugnameMetamapExtractor" start="464">Domperidon</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="338" extractor="DrugnameMetamapExtractor" start="327">Domperidon</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2621" extractor="DrugnameMetamapExtractor" start="2611">Mesalazine</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1547" extractor="DrugnameMetamapExtractor" start="1537">Mesalazine</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="6063" extractor="DrugnameMetamapExtractor" start="6059">Drug</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="4740" extractor="DrugnameMetamapExtractor" start="4736">Drug</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="4777" extractor="DrugnameMetamapExtractor" start="4773">Drug</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="5059" extractor="DrugnameMetamapExtractor" start="5055">Drug</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2600" extractor="DrugnameMetamapExtractor" start="2590">Drug</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2403" extractor="DrugnameMetamapExtractor" start="2398">Drug</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1341" extractor="DrugnameMetamapExtractor" start="1337">Drug</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="578" extractor="DrugnameMetamapExtractor" start="568">Drug</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="4251" extractor="DrugnameMetamapExtractor" start="4249">FU</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="3701" extractor="DrugnameMetamapExtractor" start="3696">BrAnd</DRUGNAME></INSTANCE></DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

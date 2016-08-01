@@ -103,7 +103,7 @@ class DosageAssembler(EntityAssembler):
         #comp = Compare('../Test_Suite/Eval_Env/xml/'+self.testCaseName+r'.xml', '../Test_Suite/Eval_Env/semifinal/'+self.testCaseName+'_'+self.entityName+'_'+r'Semifinal.xml')
        
 
-        for de in self.dataElementList[0][0]:
-           # print de.entityName ,  de.extractorName, de.extractedField
-            comp.multi_compare(de.entityName, de.extractorName) 
+        # for de in self.dataElementList[0][0]:
+        #    # print de.entityName ,  de.extractorName, de.extractedField
+        #     comp.multi_compare(de.entityName, de.extractorName) 
 

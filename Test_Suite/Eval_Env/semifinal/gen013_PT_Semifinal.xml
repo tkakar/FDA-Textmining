@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/gen013">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   </DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   <INSTANCE><PT end="3671" extractor="ReactionMetamapExtractor" start="3663">HEAD ACHE</PT></INSTANCE><INSTANCE><PT end="2788" extractor="ReactionMetamapExtractor" start="2780">HEAD ACHE</PT></INSTANCE><INSTANCE><PT end="2659" extractor="ReactionMetamapExtractor" start="2650">HEAD ACHE</PT></INSTANCE><INSTANCE><PT end="2613" extractor="ReactionMetamapExtractor" start="2605">HEAD ACHE</PT></INSTANCE><INSTANCE><PT end="1540" extractor="ReactionMetamapExtractor" start="1532">HEAD ACHE</PT></INSTANCE><INSTANCE><PT end="2947" extractor="ReactionMetamapExtractor" start="2935">Kidney stone</PT></INSTANCE><INSTANCE><PT end="2834" extractor="ReactionMetamapExtractor" start="2821">Kidney stone</PT></INSTANCE><INSTANCE><PT end="2870" extractor="ReactionMetamapExtractor" start="2857">Kidney stone</PT></INSTANCE><INSTANCE><PT end="4809" extractor="ReactionMetamapExtractor" start="4800">MIGRAINES</PT></INSTANCE><INSTANCE><PT end="2524" extractor="ReactionMetamapExtractor" start="2515">MIGRAINES</PT></INSTANCE><INSTANCE><PT end="2435" extractor="ReactionMetamapExtractor" start="2426">MIGRAINES</PT></INSTANCE><INSTANCE><PT end="1357" extractor="ReactionMetamapExtractor" start="1353">said</PT></INSTANCE><INSTANCE><PT end="1059" extractor="ReactionMetamapExtractor" start="1055">said</PT></INSTANCE><INSTANCE><PT end="624" extractor="ReactionMetamapExtractor" start="620">said</PT></INSTANCE><INSTANCE><PT end="1381" extractor="ReactionMetamapExtractor" start="1374">Fainted</PT></INSTANCE><INSTANCE><PT end="644" extractor="ReactionMetamapExtractor" start="636">Fainted</PT></INSTANCE><INSTANCE><PT end="4658" extractor="ReactionMetamapExtractor" start="4654">Pain</PT></INSTANCE><INSTANCE><PT end="661" extractor="ReactionMetamapExtractor" start="657">Pain</PT></INSTANCE><INSTANCE><PT end="4420" extractor="ReactionMetamapExtractor" start="4414">Nausea</PT></INSTANCE><INSTANCE><PT end="2470" extractor="ReactionMetamapExtractor" start="2464">Nausea</PT></INSTANCE><INSTANCE><PT end="2064" extractor="ReactionMetamapExtractor" start="2049">Lower Back Pain</PT></INSTANCE><INSTANCE><PT end="5582" extractor="ReactionMetamapExtractor" start="5573">BACKPAIN</PT></INSTANCE><INSTANCE><PT end="1442" extractor="ReactionMetamapExtractor" start="1437">Dizzy</PT></INSTANCE><INSTANCE><PT end="5021" extractor="ReactionMetamapExtractor" start="5017">IDDM</PT></INSTANCE><INSTANCE><PT end="691" extractor="ReactionMetamapExtractor" start="683">breast soreness</PT></INSTANCE><INSTANCE><PT end="719" extractor="ReactionMetamapExtractor" start="714">breast soreness</PT></INSTANCE><INSTANCE><PT end="5005" extractor="ReactionMetamapExtractor" start="4999">Stroke</PT></INSTANCE><INSTANCE><PT end="3025" extractor="ReactionMetamapExtractor" start="3011">Diverticulitis</PT></INSTANCE><INSTANCE><PT end="2483" extractor="ReactionMetamapExtractor" start="2475">Vomiting</PT></INSTANCE><INSTANCE><PT end="1974" extractor="ReactionMetamapExtractor" start="1960">Hypothyroidism</PT></INSTANCE><INSTANCE><PT end="737" extractor="ReactionMetamapExtractor" start="729">Fatigued</PT></INSTANCE><INSTANCE><PT end="1422" extractor="ReactionMetamapExtractor" start="1418">Weak</PT></INSTANCE><INSTANCE><PT end="751" extractor="ReactionMetamapExtractor" start="743">Worn out</PT></INSTANCE><INSTANCE><PT end="2077" extractor="ReactionMetamapExtractor" start="2069">Leg pain, NOS</PT></INSTANCE><INSTANCE><PT end="918" extractor="ReactionMetamapExtractor" start="895">chronic lower back pain</PT></INSTANCE><INSTANCE><PT end="1220" extractor="ReactionMetamapExtractor" start="1205">strange feeling</PT></INSTANCE><INSTANCE><PT end="2551" extractor="ReactionMetamapExtractor" start="2544">Symptom, NOS</PT></INSTANCE><INSTANCE><PT end="4971" extractor="ReactionMetamapExtractor" start="4957">heart problems</PT></INSTANCE></REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

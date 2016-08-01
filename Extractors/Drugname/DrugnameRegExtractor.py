@@ -40,15 +40,17 @@ class DrugnameRegExtractor(object):
             offset = tokens.split(";")[1]
             drug= drug.lower()
             # print drug#, offset
-            if drug in [item.lower() for item in drugnames]:
+            if drug in [item.lower() for item in drugnames] and drug != '':
                  Drug_list.append(drug)
-                 #print offset, type(offset),  offset.split(':')[1] ,  type(offset.split(':')[1])
-                 d_offset.append(int(offset.split(':')[0]))
-                 d_offset.append(int(offset.split(':')[1]))
-                 drugname_offset.append (d_offset)   
-                 d_offset= []
+                # print "cjdkfjkld", offset, offset.split(':')
+                 if offset!= '':
+                    # print "test"
+                     d_offset.append(int(offset.split(':')[0]))
+                     d_offset.append(int(offset.split(':')[1]))
+                     drugname_offset.append (d_offset)   
+                     d_offset= []
         #print drugname_offset, Drug_list 
-        if not Drug_list:
+        if not Drug_list and not drugname_offset:
             print ("Drugname not found: \n")
             return False
         else:

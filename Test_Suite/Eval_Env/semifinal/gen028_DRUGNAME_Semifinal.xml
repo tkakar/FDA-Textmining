@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/gen028">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   <INSTANCE><DRUGNAME end="687" extractor="DrugnameMetamapExtractor" start="680">generic</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="599" extractor="DrugnameMetamapExtractor" start="580">generic</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="383" extractor="DrugnameMetamapExtractor" start="376">generic</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="108" extractor="DrugnameMetamapExtractor" start="91">generic</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="182" extractor="DrugnameMetamapExtractor" start="168">Cephalosporins</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="166" extractor="DrugnameMetamapExtractor" start="155">Penicillins</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="206" extractor="DrugnameMetamapExtractor" start="199">Codeine</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="193" extractor="DrugnameMetamapExtractor" start="184">morphines</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="342" extractor="DrugnameMetamapExtractor" start="337">Istin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="941" extractor="DrugnameMetamapExtractor" start="936">Amber</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="335" extractor="DrugnameMetamapExtractor" start="311">Blood Pressure Medicines</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="354" extractor="DrugnameMetamapExtractor" start="347">Tritace</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="645" extractor="DrugnameMetamapExtractor" start="630">New medications</DRUGNAME></INSTANCE></DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

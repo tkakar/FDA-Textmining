@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/work/tkakar/git-repos/FDA-Textmining/Test_Suite/Test_Cases/gen013">
+   <EVENT_DT end="" start="" />
+   <DEMOGRAPHICS>
+      <AGE_SET>
+         <AGE end="" start="" />
+         <AGE_COD end="" start="" />
+      </AGE_SET>
+      <WT_SET>
+         <WT end="" start="" />
+         <WT_COD end="" start="" />
+      </WT_SET>
+      <SEX end="" start="" />
+   </DEMOGRAPHICS>
+   <DRUG_FILE>
+      
+      <INSTANCE id="" primary="" timePeriod="">
+         
+         <DRUGNAME end="" start="" />
+         <COREF end="" start="" />
+         <ROUTE end="" start="" />
+         <DECHAL end="" start="" />
+         <RECHAL end="" start="" />
+         <DOSE_AMT end="" start="" />
+         <DOSE_UNIT end="" start="" />
+         <DOSE_FORM end="" start="" />
+         <DOSE_FREQ end="" start="" />
+         <REACTIONS_IDS />
+         
+         <INDICATION_IDS />
+      </INSTANCE>
+   <INSTANCE><DRUGNAME end="12" extractor="DrugnameRegExtractor" start="-1">acetaminophen</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="7" extractor="DrugnameRegExtractor" start="-1">diazepam</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="8" extractor="DrugnameRegExtractor" start="-1">synthroid</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="11" extractor="DrugnameRegExtractor" start="-1">promethazine</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="7" extractor="DrugnameRegExtractor" start="-1">tramadol</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="11" extractor="DrugnameRegExtractor" start="-1">zolmitriptan</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="5466" extractor="DrugnameMetamapExtractor" start="5463">His</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="5335" extractor="DrugnameMetamapExtractor" start="5332">His</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="5223" extractor="DrugnameMetamapExtractor" start="5220">His</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="5093" extractor="DrugnameMetamapExtractor" start="5090">His</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1717" extractor="DrugnameMetamapExtractor" start="1714">His</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1227" extractor="DrugnameMetamapExtractor" start="1224">His</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="713" extractor="DrugnameMetamapExtractor" start="710">His</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="431" extractor="DrugnameMetamapExtractor" start="428">His</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="3887" extractor="DrugnameMetamapExtractor" start="3877">Divalproex</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="4108" extractor="DrugnameMetamapExtractor" start="4099">Synthroid</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1557" extractor="DrugnameMetamapExtractor" start="1550">Tylenol</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="4094" extractor="DrugnameMetamapExtractor" start="4081">Levothyroxine</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="3490" extractor="DrugnameMetamapExtractor" start="3477">Acetaminophen</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="4675" extractor="DrugnameMetamapExtractor" start="4663">zolmitriptan</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2815" extractor="DrugnameMetamapExtractor" start="2805">Medication, NOS</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2043" extractor="DrugnameMetamapExtractor" start="2033">Medication, NOS</DRUGNAME></INSTANCE></DRUG_FILE>
+   <REACTION_FILE>
+      <INSTANCE>
+         <PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </REACTION_FILE>
+   <INDICATION_FILE>
+      <INSTANCE>
+         <INDI_PT end="" id="" start="" />
+         <COREF end="" start="" />
+      </INSTANCE>
+   </INDICATION_FILE>
+   <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>
