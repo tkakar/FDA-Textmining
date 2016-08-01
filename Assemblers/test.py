@@ -53,18 +53,20 @@ class Compare:
         Compare.oroot = ET.parse(out).getroot()
 #        ET.dump(Compare.aroot)
         Compare.fileName = out
-	#dataOut_filename = '/work/swunnava/git-repos/TSIntegration1/FDA-Textmining/Test_Suite/Eval_Env/dataOut.xls'
-	#/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Test_Suite/Eval_Env/dataOut.xls
+    #dataOut_filename = '/work/swunnava/git-repos/TSIntegration1/FDA-Textmining/Test_Suite/Eval_Env/dataOut.xls'
+    #/home/vsocrates/My_Documents/fda_textmining/FDA-Textmining/Test_Suite/Eval_Env/dataOut.xls
 
     #call this function to write multiple drugs/reactions/etc to the excel file
     def multi_write_to_file(self):
+        #print "hello"
         rb = xlrd.open_workbook(Compare.dataOut_filename)
         r_sheet = rb.sheet_by_index(0) 
         r = r_sheet.nrows
         if Compare.runCode is None:
             Compare.runCode = int(r_sheet.cell(r-1,0).value)+1
         w = copy(rb) 
-        sheet = w.get_sheet(0) 
+        sheet = w.get_sheet(0)
+        print Compare.di 
         for key in Compare.di:
             sheet.write(r,0, Compare.runCode)
             sheet.write(r,1, Compare.fileName)
@@ -73,7 +75,7 @@ class Compare:
             sheet.write(r,11, Compare.extractor)   
             #only fill in the correct fields
             if Compare.di[key]['cv'] is not 'FP': #TP or FN
-               # print Compare.di
+                
                 sheet.write(r,3, Compare.di[key]['value'])
                 sheet.write(r,4, key)
                 sheet.write(r,5, Compare.di[key]['end'])
@@ -129,7 +131,7 @@ class Compare:
                 else:
                     Compare.di[Compare.psspan] = {'end':Compare.pespan, 'pvalue':Compare.pv, 'cv':'FP'}
         #print self
-        Compare.multi_write_to_file(self)
+        #Compare.multi_write_to_file(self)
 
 
     def run_compare(self, entity, extractor):
