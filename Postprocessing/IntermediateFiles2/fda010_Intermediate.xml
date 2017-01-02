@@ -1,1 +1,1601 @@
-<StartOutput><Paragraphs Count="8"><Paragraph id="0"><Sentences Count="1"><Sentence id="0" offset="0:126"><Text>This spontaneous report from a patient concerns a 71-year-old Caucasian female from the United States: Local ID: 1-1878275180.</Text><Tokens Count="21"><Token POSTag="DT" globalID="0" id="0" offset="0:4"><Text>This</Text></Token><Token POSTag="JJ" globalID="1" id="1" offset="5:16"><Text>spontaneous</Text></Token><Token POSTag="NN" globalID="2" id="2" offset="17:23"><Text>report</Text></Token><Token POSTag="IN" globalID="3" id="3" offset="24:28"><Text>from</Text></Token><Token POSTag="DT" globalID="4" id="4" offset="29:30"><Text>a</Text></Token><Token POSTag="NN" globalID="5" id="5" offset="31:38"><Text>patient</Text></Token><Token POSTag="VBZ" globalID="6" id="6" offset="39:47"><Text>concerns</Text></Token><Token POSTag="DT" globalID="7" id="7" offset="48:49"><Text>a</Text></Token><Token POSTag="JJ" globalID="8" id="8" offset="50:61"><Text>71-year-old</Text></Token><Token POSTag="NN" globalID="9" id="9" offset="62:71"><Text>Caucasian</Text></Token><Token POSTag="NN" globalID="10" id="10" offset="72:78"><Text>female</Text></Token><Token POSTag="IN" globalID="11" id="11" offset="79:83"><Text>from</Text></Token><Token POSTag="DT" globalID="12" id="12" offset="84:87"><Text>the</Text></Token><Token POSTag="JJ" globalID="13" id="13" offset="88:94"><Text>United</Text></Token><Token POSTag="NNS" globalID="14" id="14" offset="95:101"><Text>States</Text></Token><Token POSTag=":" globalID="15" id="15" offset="101:102"><Text>:</Text></Token><Token POSTag="JJ" globalID="16" id="16" offset="103:108"><Text>Local</Text></Token><Token POSTag="NN" globalID="17" id="17" offset="109:111"><Text>ID</Text></Token><Token POSTag=":" globalID="18" id="18" offset="111:112"><Text>:</Text></Token><Token POSTag="CD" globalID="19" id="19" offset="113:125"><Text>1-1878275180</Text></Token><Token POSTag="." globalID="20" id="20" offset="125:126"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (NP (NP (DT This) (JJ spontaneous) (NN report)) (PP (IN from) (NP (DT a) (NN patient)))) (VP (VBZ concerns) (NP (NP (DT a) (JJ 71-year-old) (NN Caucasian) (NN female)) (PP (IN from) (NP (NP (DT the) (JJ United) (NNS States)) (: :) (NP (JJ Local) (NN ID)) (: :) (NP (CD 1-1878275180))))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (NP (DT This) (JJ spontaneous) (NN report)) (PP (IN from) (NP (DT a) (NN patient)))) (VP (VBZ concerns) (NP (NP (DT a) (JJ 71-year-old) (NN Caucasian) (NN female)) (PP (IN from) (NP (NP (DT the) (JJ United) (NNS States)) (: :) (NP (JJ Local) (NN ID)) (: :) (NP (CD 1-1878275180))))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (NP (DT This) (JJ spontaneous) (NN report)) (PP (IN from) (NP (DT a) (NN patient)))) (VP (VBZ concerns) (NP (NP (DT a) (JJ 71-year-old) (NN Caucasian) (NN female)) (PP (IN from) (NP (NP (DT the) (JJ United) (NNS States)) (: :) (NP (JJ Local) (NN ID)) (: :) (NP (CD 1-1878275180))))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (NP (DT This) (JJ spontaneous) (NN report)) (PP (IN from) (NP (DT a) (NN patient)))) (VP (VBZ concerns) (NP (NP (DT a) (JJ 71-year-old) (NN Caucasian) (NN female)) (PP (IN from) (NP (NP (DT the) (JJ United) (NNS States)) (: :) (NP (JJ Local) (NN ID)) (: :) (NP (CD 1-1878275180))))))) (. .)))</ParseTree></Sentence></Sentences></Paragraph><Paragraph id="1"><Sentences Count="0" /></Paragraph><Paragraph id="2"><Sentences Count="14"><Sentence id="0" offset="128:191"><Text>The patient's weight was 160 pounds and height was 67.5 inches.</Text><Tokens Count="12"><Token POSTag="DT" globalID="21" id="0" offset="128:131"><Text>The</Text></Token><Token POSTag="JJ" globalID="22" id="1" offset="132:141"><Text>patient's</Text></Token><Token POSTag="NN" globalID="23" id="2" offset="142:148"><Text>weight</Text></Token><Token POSTag="VBD" globalID="24" id="3" offset="149:152"><Text>was</Text></Token><Token POSTag="CD" globalID="25" id="4" offset="153:156"><Text>160</Text></Token><Token POSTag="NNS" globalID="26" id="5" offset="157:163"><Text>pounds</Text></Token><Token POSTag="CC" globalID="27" id="6" offset="164:167"><Text>and</Text></Token><Token POSTag="NN" globalID="28" id="7" offset="168:174"><Text>height</Text></Token><Token POSTag="VBD" globalID="29" id="8" offset="175:178"><Text>was</Text></Token><Token POSTag="CD" globalID="30" id="9" offset="179:183"><Text>67.5</Text></Token><Token POSTag="NNS" globalID="31" id="10" offset="184:190"><Text>inches</Text></Token><Token POSTag="." globalID="32" id="11" offset="190:191"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (S (NP (DT The) (JJ patient's) (NN weight)) (VP (VBD was) (NP (CD 160) (NNS pounds)))) (CC and) (S (NP (NN height)) (VP (VBD was) (NP (CD 67.5) (NNS inches))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (S (NP (DT The) (JJ patient's) (NN weight)) (VP (VBD was) (NP (CD 160) (NNS pounds)))) (CC and) (S (NP (NN height)) (VP (VBD was) (NP (CD 67.5) (NNS inches))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (S (NP (DT The) (JJ patient's) (NN weight)) (VP (VBD was) (NP (CD 160) (NNS pounds)))) (CC and) (S (NP (NN height)) (VP (VBD was) (NP (CD 67.5) (NNS inches))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (S (NP (DT The) (JJ patient's) (NN weight)) (VP (VBD was) (NP (CD 160) (NNS pounds)))) (CC and) (S (NP (NN height)) (VP (VBD was) (NP (CD 67.5) (NNS inches))))) (. .)))</ParseTree></Sentence><Sentence id="1" offset="193:415"><Text>Concurrent conditions included abdominal bloating, abdominal gas, abdominal pain, allergy to trees, belching (abdominal), diabetic paresis (coded as diabetic gastroparesis), no alcohol use, no smoking, and type 2 diabetes.</Text><Tokens Count="42"><Token POSTag="JJ" globalID="33" id="0" offset="193:203"><Text>Concurrent</Text></Token><Token POSTag="NNS" globalID="34" id="1" offset="204:214"><Text>conditions</Text></Token><Token POSTag="VBD" globalID="35" id="2" offset="215:223"><Text>included</Text></Token><Token POSTag="JJ" globalID="36" id="3" offset="224:233"><Text>abdominal</Text></Token><Token POSTag="NN" globalID="37" id="4" offset="234:242"><Text>bloating</Text></Token><Token POSTag="," globalID="38" id="5" offset="242:243"><Text>,</Text></Token><Token POSTag="JJ" globalID="39" id="6" offset="244:253"><Text>abdominal</Text></Token><Token POSTag="NN" globalID="40" id="7" offset="254:257"><Text>gas</Text></Token><Token POSTag="," globalID="41" id="8" offset="257:258"><Text>,</Text></Token><Token POSTag="JJ" globalID="42" id="9" offset="259:268"><Text>abdominal</Text></Token><Token POSTag="NN" globalID="43" id="10" offset="269:273"><Text>pain</Text></Token><Token POSTag="," globalID="44" id="11" offset="273:274"><Text>,</Text></Token><Token POSTag="NN" globalID="45" id="12" offset="275:282"><Text>allergy</Text></Token><Token POSTag="TO" globalID="46" id="13" offset="283:285"><Text>to</Text></Token><Token POSTag="NNS" globalID="47" id="14" offset="286:291"><Text>trees</Text></Token><Token POSTag="," globalID="48" id="15" offset="291:292"><Text>,</Text></Token><Token POSTag="NN" globalID="49" id="16" offset="293:301"><Text>belching</Text></Token><Token POSTag="-LRB-" globalID="50" id="17" offset="302:303"><Text>(</Text></Token><Token POSTag="JJ" globalID="51" id="18" offset="303:312"><Text>abdominal</Text></Token><Token POSTag="-RRB-" globalID="52" id="19" offset="312:313"><Text>)</Text></Token><Token POSTag="," globalID="53" id="20" offset="313:314"><Text>,</Text></Token><Token POSTag="JJ" globalID="54" id="21" offset="315:323"><Text>diabetic</Text></Token><Token POSTag="NN" globalID="55" id="22" offset="324:331"><Text>paresis</Text></Token><Token POSTag="-LRB-" globalID="56" id="23" offset="332:333"><Text>(</Text></Token><Token POSTag="VBN" globalID="57" id="24" offset="333:338"><Text>coded</Text></Token><Token POSTag="IN" globalID="58" id="25" offset="339:341"><Text>as</Text></Token><Token POSTag="JJ" globalID="59" id="26" offset="342:350"><Text>diabetic</Text></Token><Token POSTag="NN" globalID="60" id="27" offset="351:364"><Text>gastroparesis</Text></Token><Token POSTag="-RRB-" globalID="61" id="28" offset="364:365"><Text>)</Text></Token><Token POSTag="," globalID="62" id="29" offset="365:366"><Text>,</Text></Token><Token POSTag="DT" globalID="63" id="30" offset="367:369"><Text>no</Text></Token><Token POSTag="NN" globalID="64" id="31" offset="370:377"><Text>alcohol</Text></Token><Token POSTag="NN" globalID="65" id="32" offset="378:381"><Text>use</Text></Token><Token POSTag="," globalID="66" id="33" offset="381:382"><Text>,</Text></Token><Token POSTag="NN" globalID="67" id="34" offset="383:385"><Text>no</Text></Token><Token POSTag="NN" globalID="68" id="35" offset="386:393"><Text>smoking</Text></Token><Token POSTag="," globalID="69" id="36" offset="393:394"><Text>,</Text></Token><Token POSTag="CC" globalID="70" id="37" offset="395:398"><Text>and</Text></Token><Token POSTag="NN" globalID="71" id="38" offset="399:403"><Text>type</Text></Token><Token POSTag="CD" globalID="72" id="39" offset="404:405"><Text>2</Text></Token><Token POSTag="NNS" globalID="73" id="40" offset="406:414"><Text>diabetes</Text></Token><Token POSTag="." globalID="74" id="41" offset="414:415"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (NP (JJ Concurrent) (NNS conditions)) (VP (VBD included) (NP (NP (JJ abdominal) (NN bloating)) (, ,) (NP (JJ abdominal) (NN gas)) (, ,) (NP (JJ abdominal) (NN pain)) (, ,) (NP (NP (NN allergy)) (PP (TO to) (NP (NNS trees)))) (, ,) (NP (NP (NN belching)) (PRN (-LRB- -LRB-) (NP (JJ abdominal)) (-RRB- -RRB-))) (, ,) (NP (NP (JJ diabetic) (NN paresis)) (PRN (-LRB- -LRB-) (VP (VBN coded) (PP (IN as) (NP (JJ diabetic) (NN gastroparesis)))) (-RRB- -RRB-))) (, ,) (NP (DT no) (NN alcohol) (NN use)) (, ,) (NP (NN no) (NN smoking)) (, ,) (CC and) (NP (NN type) (CD 2) (NNS diabetes))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (JJ Concurrent) (NNS conditions)) (VP (VBD included) (NP (NP (JJ abdominal) (NN bloating)) (, ,) (NP (JJ abdominal) (NN gas)) (, ,) (NP (JJ abdominal) (NN pain)) (, ,) (NP (NP (NN allergy)) (PP (TO to) (NP (NNS trees)))) (, ,) (NP (NP (NN belching)) (PRN (-LRB- -LRB-) (NP (JJ abdominal)) (-RRB- -RRB-))) (, ,) (NP (NP (JJ diabetic) (NN paresis)) (PRN (-LRB- -LRB-) (VP (VBN coded) (PP (IN as) (NP (JJ diabetic) (NN gastroparesis)))) (-RRB- -RRB-))) (, ,) (NP (DT no) (NN alcohol) (NN use)) (, ,) (NP (NN no) (NN smoking)) (, ,) (CC and) (NP (NN type) (CD 2) (NNS diabetes))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (JJ Concurrent) (NNS conditions)) (VP (VBD included) (NP (NP (JJ abdominal) (NN bloating)) (, ,) (NP (JJ abdominal) (NN gas)) (, ,) (NP (JJ abdominal) (NN pain)) (, ,) (NP (NP (NN allergy)) (PP (TO to) (NP (NNS trees)))) (, ,) (NP (NP (NN belching)) (PRN (-LRB- -LRB-) (NP (JJ abdominal)) (-RRB- -RRB-))) (, ,) (NP (NP (JJ diabetic) (NN paresis)) (PRN (-LRB- -LRB-) (VP (VBN coded) (PP (IN as) (NP (JJ diabetic) (NN gastroparesis)))) (-RRB- -RRB-))) (, ,) (NP (DT no) (NN alcohol) (NN use)) (, ,) (NP (NN no) (NN smoking)) (, ,) (CC and) (NP (NN type) (CD 2) (NNS diabetes))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (JJ Concurrent) (NNS conditions)) (VP (VBD included) (NP (NP (JJ abdominal) (NN bloating)) (, ,) (NP (JJ abdominal) (NN gas)) (, ,) (NP (JJ abdominal) (NN pain)) (, ,) (NP (NP (NN allergy)) (PP (TO to) (NP (NNS trees)))) (, ,) (NP (NP (NN belching)) (PRN (-LRB- -LRB-) (NP (JJ abdominal)) (-RRB- -RRB-))) (, ,) (NP (NP (JJ diabetic) (NN paresis)) (PRN (-LRB- -LRB-) (VP (VBN coded) (PP (IN as) (NP (JJ diabetic) (NN gastroparesis)))) (-RRB- -RRB-))) (, ,) (NP (DT no) (NN alcohol) (NN use)) (, ,) (NP (NN no) (NN smoking)) (, ,) (CC and) (NP (NN type) (CD 2) (NNS diabetes))))) (. .)))</ParseTree></Sentence><Sentence id="2" offset="417:490"><Text>Other medical history included no history of drug abuse/illicit drug use.</Text><Tokens Count="12"><Token POSTag="JJ" globalID="75" id="0" offset="417:422"><Text>Other</Text></Token><Token POSTag="JJ" globalID="76" id="1" offset="423:430"><Text>medical</Text></Token><Token POSTag="NN" globalID="77" id="2" offset="431:438"><Text>history</Text></Token><Token POSTag="VBD" globalID="78" id="3" offset="439:447"><Text>included</Text></Token><Token POSTag="DT" globalID="79" id="4" offset="448:450"><Text>no</Text></Token><Token POSTag="NN" globalID="80" id="5" offset="451:458"><Text>history</Text></Token><Token POSTag="IN" globalID="81" id="6" offset="459:461"><Text>of</Text></Token><Token POSTag="NN" globalID="82" id="7" offset="462:466"><Text>drug</Text></Token><Token POSTag="NN" globalID="83" id="8" offset="467:480"><Text>abuse/illicit</Text></Token><Token POSTag="NN" globalID="84" id="9" offset="481:485"><Text>drug</Text></Token><Token POSTag="NN" globalID="85" id="10" offset="486:489"><Text>use</Text></Token><Token POSTag="." globalID="86" id="11" offset="489:490"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (NP (JJ Other) (JJ medical) (NN history)) (VP (VBD included) (NP (NP (DT no) (NN history)) (PP (IN of) (NP (NN drug) (NN abuse/illicit) (NN drug) (NN use)))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (JJ Other) (JJ medical) (NN history)) (VP (VBD included) (NP (NP (DT no) (NN history)) (PP (IN of) (NP (NN drug) (NN abuse/illicit) (NN drug) (NN use)))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (JJ Other) (JJ medical) (NN history)) (VP (VBD included) (NP (NP (DT no) (NN history)) (PP (IN of) (NP (NN drug) (NN abuse/illicit) (NN drug) (NN use)))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (JJ Other) (JJ medical) (NN history)) (VP (VBD included) (NP (NP (DT no) (NN history)) (PP (IN of) (NP (NN drug) (NN abuse/illicit) (NN drug) (NN use)))))) (. .)))</ParseTree></Sentence><Sentence id="3" offset="492:658"><Text>The patient had previously experienced allergy when taking mycins (not otherwise specified or NOS) (antibacterials for systemic use) and sulfa (sulfacetamide sodium).</Text><Tokens Count="29"><Token POSTag="DT" globalID="87" id="0" offset="492:495"><Text>The</Text></Token><Token POSTag="NN" globalID="88" id="1" offset="496:503"><Text>patient</Text></Token><Token POSTag="VBD" globalID="89" id="2" offset="504:507"><Text>had</Text></Token><Token POSTag="RB" globalID="90" id="3" offset="508:518"><Text>previously</Text></Token><Token POSTag="VBN" globalID="91" id="4" offset="519:530"><Text>experienced</Text></Token><Token POSTag="NN" globalID="92" id="5" offset="531:538"><Text>allergy</Text></Token><Token POSTag="WRB" globalID="93" id="6" offset="539:543"><Text>when</Text></Token><Token POSTag="VBG" globalID="94" id="7" offset="544:550"><Text>taking</Text></Token><Token POSTag="NNS" globalID="95" id="8" offset="551:557"><Text>mycins</Text></Token><Token POSTag="-LRB-" globalID="96" id="9" offset="558:559"><Text>(</Text></Token><Token POSTag="RB" globalID="97" id="10" offset="559:562"><Text>not</Text></Token><Token POSTag="RB" globalID="98" id="11" offset="563:572"><Text>otherwise</Text></Token><Token POSTag="VBN" globalID="99" id="12" offset="573:582"><Text>specified</Text></Token><Token POSTag="NN" globalID="100" id="13" offset="583:585"><Text>or</Text></Token><Token POSTag="NN" globalID="101" id="14" offset="586:589"><Text>NOS</Text></Token><Token POSTag="-RRB-" globalID="102" id="15" offset="589:590"><Text>)</Text></Token><Token POSTag="-LRB-" globalID="103" id="16" offset="591:592"><Text>(</Text></Token><Token POSTag="NNS" globalID="104" id="17" offset="592:606"><Text>antibacterials</Text></Token><Token POSTag="IN" globalID="105" id="18" offset="607:610"><Text>for</Text></Token><Token POSTag="JJ" globalID="106" id="19" offset="611:619"><Text>systemic</Text></Token><Token POSTag="NN" globalID="107" id="20" offset="620:623"><Text>use</Text></Token><Token POSTag="-RRB-" globalID="108" id="21" offset="623:624"><Text>)</Text></Token><Token POSTag="CC" globalID="109" id="22" offset="625:628"><Text>and</Text></Token><Token POSTag="NN" globalID="110" id="23" offset="629:634"><Text>sulfa</Text></Token><Token POSTag="-LRB-" globalID="111" id="24" offset="635:636"><Text>(</Text></Token><Token POSTag="NN" globalID="112" id="25" offset="636:649"><Text>sulfacetamide</Text></Token><Token POSTag="NN" globalID="113" id="26" offset="650:656"><Text>sodium</Text></Token><Token POSTag="-RRB-" globalID="114" id="27" offset="656:657"><Text>)</Text></Token><Token POSTag="." globalID="115" id="28" offset="657:658"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD had) (ADVP (RB previously)) (VP (VBN experienced) (NP (NN allergy))) (SBAR (WHADVP (WRB when)) (S (VP (VBG taking) (NP (NP (NP (NP (NNS mycins)) (PRN (-LRB- -LRB-) (NP (ADJP (ADVP (RB not) (RB otherwise)) (VBN specified)) (NN or) (NN NOS)) (-RRB- -RRB-))) (PRN (-LRB- -LRB-) (NP (NP (NNS antibacterials)) (PP (IN for) (NP (JJ systemic) (NN use)))) (-RRB- -RRB-))) (CC and) (NP (NP (NN sulfa)) (PRN (-LRB- -LRB-) (NP (NN sulfacetamide) (NN sodium)) (-RRB- -RRB-))))))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD had) (ADVP (RB previously)) (VP (VBN experienced) (NP (NN allergy))) (SBAR (WHADVP (WRB when)) (S (VP (VBG taking) (NP (NP (NP (NP (NNS mycins)) (PRN (-LRB- -LRB-) (NP (ADJP (ADVP (RB not) (RB otherwise)) (VBN specified)) (NN or) (NN NOS)) (-RRB- -RRB-))) (PRN (-LRB- -LRB-) (NP (NP (NNS antibacterials)) (PP (IN for) (NP (JJ systemic) (NN use)))) (-RRB- -RRB-))) (CC and) (NP (NP (NN sulfa)) (PRN (-LRB- -LRB-) (NP (NN sulfacetamide) (NN sodium)) (-RRB- -RRB-))))))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD had) (ADVP (RB previously)) (VP (VBN experienced) (NP (NN allergy))) (SBAR (WHADVP (WRB when)) (S (VP (VBG taking) (NP (NP (NP (NP (NNS mycins)) (PRN (-LRB- -LRB-) (NP (ADJP (ADVP (RB not) (RB otherwise)) (VBN specified)) (NN or) (NN NOS)) (-RRB- -RRB-))) (PRN (-LRB- -LRB-) (NP (NP (NNS antibacterials)) (PP (IN for) (NP (JJ systemic) (NN use)))) (-RRB- -RRB-))) (CC and) (NP (NP (NN sulfa)) (PRN (-LRB- -LRB-) (NP (NN sulfacetamide) (NN sodium)) (-RRB- -RRB-))))))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD had) (ADVP (RB previously)) (VP (VBN experienced) (NP (NN allergy))) (SBAR (WHADVP (WRB when)) (S (VP (VBG taking) (NP (NP (NP (NP (NNS mycins)) (PRN (-LRB- -LRB-) (NP (ADJP (ADVP (RB not) (RB otherwise)) (VBN specified)) (NN or) (NN NOS)) (-RRB- -RRB-))) (PRN (-LRB- -LRB-) (NP (NP (NNS antibacterials)) (PP (IN for) (NP (JJ systemic) (NN use)))) (-RRB- -RRB-))) (CC and) (NP (NP (NN sulfa)) (PRN (-LRB- -LRB-) (NP (NN sulfacetamide) (NN sodium)) (-RRB- -RRB-))))))))) (. .)))</ParseTree></Sentence><Sentence id="4" offset="660:936"><Text>The patient was treated with canagliflozin (tablet, oral, batch unknown) 300 mg once a day, initiated on 06-AUG-2014, for type 2 diabetes and domperidone (unspecified, batch unknown) dose and frequency unspecified, initiated on an unspecified date, for diabetic gastroparesis.</Text><Tokens Count="51"><Token POSTag="DT" globalID="116" id="0" offset="660:663"><Text>The</Text></Token><Token POSTag="NN" globalID="117" id="1" offset="664:671"><Text>patient</Text></Token><Token POSTag="VBD" globalID="118" id="2" offset="672:675"><Text>was</Text></Token><Token POSTag="VBN" globalID="119" id="3" offset="676:683"><Text>treated</Text></Token><Token POSTag="IN" globalID="120" id="4" offset="684:688"><Text>with</Text></Token><Token POSTag="NN" globalID="121" id="5" offset="689:702"><Text>canagliflozin</Text></Token><Token POSTag="-LRB-" globalID="122" id="6" offset="703:704"><Text>(</Text></Token><Token POSTag="NN" globalID="123" id="7" offset="704:710"><Text>tablet</Text></Token><Token POSTag="," globalID="124" id="8" offset="710:711"><Text>,</Text></Token><Token POSTag="JJ" globalID="125" id="9" offset="712:716"><Text>oral</Text></Token><Token POSTag="," globalID="126" id="10" offset="716:717"><Text>,</Text></Token><Token POSTag="JJ" globalID="127" id="11" offset="718:723"><Text>batch</Text></Token><Token POSTag="JJ" globalID="128" id="12" offset="724:731"><Text>unknown</Text></Token><Token POSTag="-RRB-" globalID="129" id="13" offset="731:732"><Text>)</Text></Token><Token POSTag="CD" globalID="130" id="14" offset="733:736"><Text>300</Text></Token><Token POSTag="NN" globalID="131" id="15" offset="737:739"><Text>mg</Text></Token><Token POSTag="IN" globalID="132" id="16" offset="740:744"><Text>once</Text></Token><Token POSTag="DT" globalID="133" id="17" offset="745:746"><Text>a</Text></Token><Token POSTag="NN" globalID="134" id="18" offset="747:750"><Text>day</Text></Token><Token POSTag="," globalID="135" id="19" offset="750:751"><Text>,</Text></Token><Token POSTag="VBN" globalID="136" id="20" offset="752:761"><Text>initiated</Text></Token><Token POSTag="IN" globalID="137" id="21" offset="762:764"><Text>on</Text></Token><Token POSTag="NN" globalID="138" id="22" offset="765:776"><Text>06-AUG-2014</Text></Token><Token POSTag="," globalID="139" id="23" offset="776:777"><Text>,</Text></Token><Token POSTag="IN" globalID="140" id="24" offset="778:781"><Text>for</Text></Token><Token POSTag="NN" globalID="141" id="25" offset="782:786"><Text>type</Text></Token><Token POSTag="CD" globalID="142" id="26" offset="787:788"><Text>2</Text></Token><Token POSTag="NNS" globalID="143" id="27" offset="789:797"><Text>diabetes</Text></Token><Token POSTag="CC" globalID="144" id="28" offset="798:801"><Text>and</Text></Token><Token POSTag="NN" globalID="145" id="29" offset="802:813"><Text>domperidone</Text></Token><Token POSTag="-LRB-" globalID="146" id="30" offset="814:815"><Text>(</Text></Token><Token POSTag="JJ" globalID="147" id="31" offset="815:826"><Text>unspecified</Text></Token><Token POSTag="," globalID="148" id="32" offset="826:827"><Text>,</Text></Token><Token POSTag="NN" globalID="149" id="33" offset="828:833"><Text>batch</Text></Token><Token POSTag="JJ" globalID="150" id="34" offset="834:841"><Text>unknown</Text></Token><Token POSTag="-RRB-" globalID="151" id="35" offset="841:842"><Text>)</Text></Token><Token POSTag="NN" globalID="152" id="36" offset="843:847"><Text>dose</Text></Token><Token POSTag="CC" globalID="153" id="37" offset="848:851"><Text>and</Text></Token><Token POSTag="NN" globalID="154" id="38" offset="852:861"><Text>frequency</Text></Token><Token POSTag="NN" globalID="155" id="39" offset="862:873"><Text>unspecified</Text></Token><Token POSTag="," globalID="156" id="40" offset="873:874"><Text>,</Text></Token><Token POSTag="VBN" globalID="157" id="41" offset="875:884"><Text>initiated</Text></Token><Token POSTag="IN" globalID="158" id="42" offset="885:887"><Text>on</Text></Token><Token POSTag="DT" globalID="159" id="43" offset="888:890"><Text>an</Text></Token><Token POSTag="JJ" globalID="160" id="44" offset="891:902"><Text>unspecified</Text></Token><Token POSTag="NN" globalID="161" id="45" offset="903:907"><Text>date</Text></Token><Token POSTag="," globalID="162" id="46" offset="907:908"><Text>,</Text></Token><Token POSTag="IN" globalID="163" id="47" offset="909:912"><Text>for</Text></Token><Token POSTag="JJ" globalID="164" id="48" offset="913:921"><Text>diabetic</Text></Token><Token POSTag="NN" globalID="165" id="49" offset="922:935"><Text>gastroparesis</Text></Token><Token POSTag="." globalID="166" id="50" offset="935:936"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD was) (VP (VBN treated) (PP (IN with) (NP (NP (NP (NP (NN canagliflozin)) (PRN (-LRB- -LRB-) (NP (NP (NN tablet)) (, ,) (NP (ADJP (JJ oral))) (, ,) (NP (JJ batch) (JJ unknown))) (-RRB- -RRB-))) (NP (NP (CD 300) (NN mg)) (PP (IN once) (NP (NP (DT a) (NN day)) (, ,) (VP (VBN initiated) (PP (IN on) (NP (NN 06-AUG-2014)))) (, ,))) (PP (IN for) (NP (NN type) (CD 2) (NNS diabetes))))) (CC and) (NP (NP (NN domperidone)) (PRN (-LRB- -LRB-) (ADJP (ADJP (JJ unspecified)) (, ,) (ADJP (NN batch) (JJ unknown))) (-RRB- -RRB-)) (NP (NN dose) (CC and) (NN frequency) (NN unspecified)) (, ,) (VP (VBN initiated) (PP (IN on) (NP (DT an) (JJ unspecified) (NN date)))) (, ,)))) (PP (IN for) (NP (JJ diabetic) (NN gastroparesis)))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD was) (VP (VBN treated) (PP (IN with) (NP (NP (NP (NP (NN canagliflozin)) (PRN (-LRB- -LRB-) (NP (NP (NN tablet)) (, ,) (NP (ADJP (JJ oral))) (, ,) (NP (JJ batch) (JJ unknown))) (-RRB- -RRB-))) (NP (NP (CD 300) (NN mg)) (PP (IN once) (NP (NP (DT a) (NN day)) (, ,) (VP (VBN initiated) (PP (IN on) (NP (NN 06-AUG-2014)))) (, ,))) (PP (IN for) (NP (NN type) (CD 2) (NNS diabetes))))) (CC and) (NP (NP (NN domperidone)) (PRN (-LRB- -LRB-) (ADJP (ADJP (JJ unspecified)) (, ,) (ADJP (NN batch) (JJ unknown))) (-RRB- -RRB-)) (NP (NN dose) (CC and) (NN frequency) (NN unspecified)) (, ,) (VP (VBN initiated) (PP (IN on) (NP (DT an) (JJ unspecified) (NN date)))) (, ,)))) (PP (IN for) (NP (JJ diabetic) (NN gastroparesis)))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD was) (VP (VBN treated) (PP (IN with) (NP (NP (NP (NP (NN canagliflozin)) (PRN (-LRB- -LRB-) (NP (NP (NN tablet)) (, ,) (NP (ADJP (JJ oral))) (, ,) (NP (JJ batch) (JJ unknown))) (-RRB- -RRB-))) (NP (NP (CD 300) (NN mg)) (PP (IN once) (NP (NP (DT a) (NN day)) (, ,) (VP (VBN initiated) (PP (IN on) (NP (NN 06-AUG-2014)))) (, ,))) (PP (IN for) (NP (NN type) (CD 2) (NNS diabetes))))) (CC and) (NP (NP (NN domperidone)) (PRN (-LRB- -LRB-) (ADJP (ADJP (JJ unspecified)) (, ,) (ADJP (NN batch) (JJ unknown))) (-RRB- -RRB-)) (NP (NN dose) (CC and) (NN frequency) (NN unspecified)) (, ,) (VP (VBN initiated) (PP (IN on) (NP (DT an) (JJ unspecified) (NN date)))) (, ,)))) (PP (IN for) (NP (JJ diabetic) (NN gastroparesis)))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD was) (VP (VBN treated) (PP (IN with) (NP (NP (NP (NP (NN canagliflozin)) (PRN (-LRB- -LRB-) (NP (NP (NN tablet)) (, ,) (NP (ADJP (JJ oral))) (, ,) (NP (JJ batch) (JJ unknown))) (-RRB- -RRB-))) (NP (NP (CD 300) (NN mg)) (PP (IN once) (NP (NP (DT a) (NN day)) (, ,) (VP (VBN initiated) (PP (IN on) (NP (NN 06-AUG-2014)))) (, ,))) (PP (IN for) (NP (NN type) (CD 2) (NNS diabetes))))) (CC and) (NP (NP (NN domperidone)) (PRN (-LRB- -LRB-) (ADJP (ADJP (JJ unspecified)) (, ,) (ADJP (NN batch) (JJ unknown))) (-RRB- -RRB-)) (NP (NN dose) (CC and) (NN frequency) (NN unspecified)) (, ,) (VP (VBN initiated) (PP (IN on) (NP (DT an) (JJ unspecified) (NN date)))) (, ,)))) (PP (IN for) (NP (JJ diabetic) (NN gastroparesis)))))) (. .)))</ParseTree></Sentence><Sentence id="5" offset="938:980"><Text>Concomitant medications were not reported.</Text><Tokens Count="6"><Token POSTag="JJ" globalID="167" id="0" offset="938:949"><Text>Concomitant</Text></Token><Token POSTag="NNS" globalID="168" id="1" offset="950:961"><Text>medications</Text></Token><Token POSTag="VBD" globalID="169" id="2" offset="962:966"><Text>were</Text></Token><Token POSTag="RB" globalID="170" id="3" offset="967:970"><Text>not</Text></Token><Token POSTag="VBN" globalID="171" id="4" offset="971:979"><Text>reported</Text></Token><Token POSTag="." globalID="172" id="5" offset="979:980"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (NP (JJ Concomitant) (NNS medications)) (VP (VBD were) (RB not) (VP (VBN reported)))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (JJ Concomitant) (NNS medications)) (VP (VBD were) (RB not) (VP (VBN reported)))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (JJ Concomitant) (NNS medications)) (VP (VBD were) (RB not) (VP (VBN reported)))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (JJ Concomitant) (NNS medications)) (VP (VBD were) (RB not) (VP (VBN reported)))) (. .)))</ParseTree></Sentence><Sentence id="6" offset="982:1052"><Text>The patient was not initially prescribed 100 mg dose of canagliflozin.</Text><Tokens Count="12"><Token POSTag="DT" globalID="173" id="0" offset="982:985"><Text>The</Text></Token><Token POSTag="NN" globalID="174" id="1" offset="986:993"><Text>patient</Text></Token><Token POSTag="VBD" globalID="175" id="2" offset="994:997"><Text>was</Text></Token><Token POSTag="RB" globalID="176" id="3" offset="998:1001"><Text>not</Text></Token><Token POSTag="RB" globalID="177" id="4" offset="1002:1011"><Text>initially</Text></Token><Token POSTag="VBN" globalID="178" id="5" offset="1012:1022"><Text>prescribed</Text></Token><Token POSTag="CD" globalID="179" id="6" offset="1023:1026"><Text>100</Text></Token><Token POSTag="NN" globalID="180" id="7" offset="1027:1029"><Text>mg</Text></Token><Token POSTag="NN" globalID="181" id="8" offset="1030:1034"><Text>dose</Text></Token><Token POSTag="IN" globalID="182" id="9" offset="1035:1037"><Text>of</Text></Token><Token POSTag="NN" globalID="183" id="10" offset="1038:1051"><Text>canagliflozin</Text></Token><Token POSTag="." globalID="184" id="11" offset="1051:1052"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD was) (RB not) (ADVP (RB initially)) (VP (VBN prescribed) (NP (NP (ADJP (CD 100) (NN mg)) (NN dose)) (PP (IN of) (NP (NN canagliflozin))))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD was) (RB not) (ADVP (RB initially)) (VP (VBN prescribed) (NP (NP (ADJP (CD 100) (NN mg)) (NN dose)) (PP (IN of) (NP (NN canagliflozin))))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD was) (RB not) (ADVP (RB initially)) (VP (VBN prescribed) (NP (NP (ADJP (CD 100) (NN mg)) (NN dose)) (PP (IN of) (NP (NN canagliflozin))))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD was) (RB not) (ADVP (RB initially)) (VP (VBN prescribed) (NP (NP (ADJP (CD 100) (NN mg)) (NN dose)) (PP (IN of) (NP (NN canagliflozin))))))) (. .)))</ParseTree></Sentence><Sentence id="7" offset="1054:1412"><Text>On 06-AUG-2014, the patient experienced "worsening of pre-existing abdominal belching" (coded as increased belching), "worsening of pre-existing abdominal pain" (coded as worsening of abdominal pain), "worsening of pre-existing abdominal gassiness" (coded as very gaseous), and "worsening of pre-existing abdominal bloating" (coded as worsening of bloating).</Text><Tokens Count="66"><Token POSTag="IN" globalID="185" id="0" offset="1054:1056"><Text>On</Text></Token><Token POSTag="NN" globalID="186" id="1" offset="1057:1068"><Text>06-AUG-2014</Text></Token><Token POSTag="," globalID="187" id="2" offset="1068:1069"><Text>,</Text></Token><Token POSTag="DT" globalID="188" id="3" offset="1070:1073"><Text>the</Text></Token><Token POSTag="NN" globalID="189" id="4" offset="1074:1081"><Text>patient</Text></Token><Token POSTag="VBN" globalID="190" id="5" offset="1082:1093"><Text>experienced</Text></Token><Token POSTag="JJ" globalID="191" id="6" offset="1094:1095"><Text>"</Text></Token><Token POSTag="NN" globalID="192" id="7" offset="1095:1104"><Text>worsening</Text></Token><Token POSTag="IN" globalID="193" id="8" offset="1105:1107"><Text>of</Text></Token><Token POSTag="JJ" globalID="194" id="9" offset="1108:1120"><Text>pre-existing</Text></Token><Token POSTag="JJ" globalID="195" id="10" offset="1121:1130"><Text>abdominal</Text></Token><Token POSTag="NN" globalID="196" id="11" offset="1131:1139"><Text>belching</Text></Token><Token POSTag="NN" globalID="197" id="12" offset="1139:1140"><Text>"</Text></Token><Token POSTag="-LRB-" globalID="198" id="13" offset="1141:1142"><Text>(</Text></Token><Token POSTag="VBN" globalID="199" id="14" offset="1142:1147"><Text>coded</Text></Token><Token POSTag="IN" globalID="200" id="15" offset="1148:1150"><Text>as</Text></Token><Token POSTag="VBN" globalID="201" id="16" offset="1151:1160"><Text>increased</Text></Token><Token POSTag="NN" globalID="202" id="17" offset="1161:1169"><Text>belching</Text></Token><Token POSTag="-RRB-" globalID="203" id="18" offset="1169:1170"><Text>)</Text></Token><Token POSTag="," globalID="204" id="19" offset="1170:1171"><Text>,</Text></Token><Token POSTag="JJ" globalID="205" id="20" offset="1172:1173"><Text>"</Text></Token><Token POSTag="NN" globalID="206" id="21" offset="1173:1182"><Text>worsening</Text></Token><Token POSTag="IN" globalID="207" id="22" offset="1183:1185"><Text>of</Text></Token><Token POSTag="JJ" globalID="208" id="23" offset="1186:1198"><Text>pre-existing</Text></Token><Token POSTag="JJ" globalID="209" id="24" offset="1199:1208"><Text>abdominal</Text></Token><Token POSTag="NN" globalID="210" id="25" offset="1209:1213"><Text>pain</Text></Token><Token POSTag="CD" globalID="211" id="26" offset="1213:1214"><Text>"</Text></Token><Token POSTag="-LRB-" globalID="212" id="27" offset="1215:1216"><Text>(</Text></Token><Token POSTag="VBN" globalID="213" id="28" offset="1216:1221"><Text>coded</Text></Token><Token POSTag="IN" globalID="214" id="29" offset="1222:1224"><Text>as</Text></Token><Token POSTag="NN" globalID="215" id="30" offset="1225:1234"><Text>worsening</Text></Token><Token POSTag="IN" globalID="216" id="31" offset="1235:1237"><Text>of</Text></Token><Token POSTag="JJ" globalID="217" id="32" offset="1238:1247"><Text>abdominal</Text></Token><Token POSTag="NN" globalID="218" id="33" offset="1248:1252"><Text>pain</Text></Token><Token POSTag="-RRB-" globalID="219" id="34" offset="1252:1253"><Text>)</Text></Token><Token POSTag="," globalID="220" id="35" offset="1253:1254"><Text>,</Text></Token><Token POSTag="JJ" globalID="221" id="36" offset="1255:1256"><Text>"</Text></Token><Token POSTag="NN" globalID="222" id="37" offset="1256:1265"><Text>worsening</Text></Token><Token POSTag="IN" globalID="223" id="38" offset="1266:1268"><Text>of</Text></Token><Token POSTag="JJ" globalID="224" id="39" offset="1269:1281"><Text>pre-existing</Text></Token><Token POSTag="JJ" globalID="225" id="40" offset="1282:1291"><Text>abdominal</Text></Token><Token POSTag="NN" globalID="226" id="41" offset="1292:1301"><Text>gassiness</Text></Token><Token POSTag="NN" globalID="227" id="42" offset="1301:1302"><Text>"</Text></Token><Token POSTag="-LRB-" globalID="228" id="43" offset="1303:1304"><Text>(</Text></Token><Token POSTag="VBN" globalID="229" id="44" offset="1304:1309"><Text>coded</Text></Token><Token POSTag="IN" globalID="230" id="45" offset="1310:1312"><Text>as</Text></Token><Token POSTag="RB" globalID="231" id="46" offset="1313:1317"><Text>very</Text></Token><Token POSTag="JJ" globalID="232" id="47" offset="1318:1325"><Text>gaseous</Text></Token><Token POSTag="-RRB-" globalID="233" id="48" offset="1325:1326"><Text>)</Text></Token><Token POSTag="," globalID="234" id="49" offset="1326:1327"><Text>,</Text></Token><Token POSTag="CC" globalID="235" id="50" offset="1328:1331"><Text>and</Text></Token><Token POSTag="JJ" globalID="236" id="51" offset="1332:1333"><Text>"</Text></Token><Token POSTag="NN" globalID="237" id="52" offset="1333:1342"><Text>worsening</Text></Token><Token POSTag="IN" globalID="238" id="53" offset="1343:1345"><Text>of</Text></Token><Token POSTag="JJ" globalID="239" id="54" offset="1346:1358"><Text>pre-existing</Text></Token><Token POSTag="JJ" globalID="240" id="55" offset="1359:1368"><Text>abdominal</Text></Token><Token POSTag="NN" globalID="241" id="56" offset="1369:1377"><Text>bloating</Text></Token><Token POSTag="NN" globalID="242" id="57" offset="1377:1378"><Text>"</Text></Token><Token POSTag="-LRB-" globalID="243" id="58" offset="1379:1380"><Text>(</Text></Token><Token POSTag="VBN" globalID="244" id="59" offset="1380:1385"><Text>coded</Text></Token><Token POSTag="IN" globalID="245" id="60" offset="1386:1388"><Text>as</Text></Token><Token POSTag="NN" globalID="246" id="61" offset="1389:1398"><Text>worsening</Text></Token><Token POSTag="IN" globalID="247" id="62" offset="1399:1401"><Text>of</Text></Token><Token POSTag="NN" globalID="248" id="63" offset="1402:1410"><Text>bloating</Text></Token><Token POSTag="-RRB-" globalID="249" id="64" offset="1410:1411"><Text>)</Text></Token><Token POSTag="." globalID="250" id="65" offset="1411:1412"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (PP (IN On) (NP (NN 06-AUG-2014))) (, ,) (NP (DT the) (NN patient)) (VP (VBN experienced) (NP (NP (NP (JJ ") (NN worsening)) (PP (IN of) (NP (NP (JJ pre-existing) (JJ abdominal) (NN belching) (NN ")) (PRN (-LRB- -LRB-) (VP (VBN coded) (PP (IN as) (NP (VBN increased) (NN belching)))) (-RRB- -RRB-))))) (, ,) (NP (NP (JJ ") (NN worsening)) (PP (IN of) (NP (NP (JJ pre-existing) (JJ abdominal) (NN pain) (CD ")) (PRN (-LRB- -LRB-) (VP (VBN coded) (PP (IN as) (NP (NP (NN worsening)) (PP (IN of) (NP (JJ abdominal) (NN pain)))))) (-RRB- -RRB-))))) (, ,) (NP (NP (JJ ") (NN worsening)) (PP (IN of) (NP (NP (JJ pre-existing) (JJ abdominal) (NN gassiness) (NN ")) (PRN (-LRB- -LRB-) (VP (VBN coded) (PP (IN as) (ADJP (RB very) (JJ gaseous)))) (-RRB- -RRB-))))) (, ,) (CC and) (NP (NP (JJ ") (NN worsening)) (PP (IN of) (NP (NP (JJ pre-existing) (JJ abdominal) (NN bloating) (NN ")) (PRN (-LRB- -LRB-) (VP (VBN coded) (PP (IN as) (NP (NP (NN worsening)) (PP (IN of) (NP (NN bloating)))))) (-RRB- -RRB-))))))) (. .)))</ParseTree><ParseTree>(S1 (S (PP (IN On) (NP (NN 06-AUG-2014))) (, ,) (NP (DT the) (NN patient)) (VP (VBN experienced) (NP (NP (NP (JJ ") (NN worsening)) (PP (IN of) (NP (NP (JJ pre-existing) (JJ abdominal) (NN belching) (NN ")) (PRN (-LRB- -LRB-) (VP (VBN coded) (PP (IN as) (NP (VBN increased) (NN belching)))) (-RRB- -RRB-))))) (, ,) (NP (NP (JJ ") (NN worsening)) (PP (IN of) (NP (NP (JJ pre-existing) (JJ abdominal) (NN pain) (CD ")) (PRN (-LRB- -LRB-) (VP (VBN coded) (PP (IN as) (NP (NP (NN worsening)) (PP (IN of) (NP (JJ abdominal) (NN pain)))))) (-RRB- -RRB-))))) (, ,) (NP (NP (JJ ") (NN worsening)) (PP (IN of) (NP (NP (JJ pre-existing) (JJ abdominal) (NN gassiness) (NN ")) (PRN (-LRB- -LRB-) (VP (VBN coded) (PP (IN as) (ADJP (RB very) (JJ gaseous)))) (-RRB- -RRB-))))) (, ,) (CC and) (NP (NP (JJ ") (NN worsening)) (PP (IN of) (NP (NP (JJ pre-existing) (JJ abdominal) (NN bloating) (NN ")) (PRN (-LRB- -LRB-) (VP (VBN coded) (PP (IN as) (NP (NP (NN worsening)) (PP (IN of) (NP (NN bloating)))))) (-RRB- -RRB-))))))) (. .)))</ParseTree><ParseTree>(S1 (S (PP (IN On) (NP (NN 06-AUG-2014))) (, ,) (NP (DT the) (NN patient)) (VP (VBN experienced) (NP (NP (NP (JJ ") (NN worsening)) (PP (IN of) (NP (NP (JJ pre-existing) (JJ abdominal) (NN belching) (NN ")) (PRN (-LRB- -LRB-) (VP (VBN coded) (PP (IN as) (NP (VBN increased) (NN belching)))) (-RRB- -RRB-))))) (, ,) (NP (NP (JJ ") (NN worsening)) (PP (IN of) (NP (NP (JJ pre-existing) (JJ abdominal) (NN pain) (CD ")) (PRN (-LRB- -LRB-) (VP (VBN coded) (PP (IN as) (NP (NP (NN worsening)) (PP (IN of) (NP (JJ abdominal) (NN pain)))))) (-RRB- -RRB-))))) (, ,) (NP (NP (JJ ") (NN worsening)) (PP (IN of) (NP (NP (JJ pre-existing) (JJ abdominal) (NN gassiness) (NN ")) (PRN (-LRB- -LRB-) (VP (VBN coded) (PP (IN as) (ADJP (RB very) (JJ gaseous)))) (-RRB- -RRB-))))) (, ,) (CC and) (NP (NP (JJ ") (NN worsening)) (PP (IN of) (NP (NP (JJ pre-existing) (JJ abdominal) (NN bloating) (NN ")) (PRN (-LRB- -LRB-) (VP (VBN coded) (PP (IN as) (NP (NP (NN worsening)) (PP (IN of) (NP (NN bloating)))))) (-RRB- -RRB-))))))) (. .)))</ParseTree><ParseTree>(S1 (S (PP (IN On) (NP (NN 06-AUG-2014))) (, ,) (NP (DT the) (NN patient)) (VP (VBN experienced) (NP (NP (NP (JJ ") (NN worsening)) (PP (IN of) (NP (NP (JJ pre-existing) (JJ abdominal) (NN belching) (NN ")) (PRN (-LRB- -LRB-) (VP (VBN coded) (PP (IN as) (NP (VBN increased) (NN belching)))) (-RRB- -RRB-))))) (, ,) (NP (NP (JJ ") (NN worsening)) (PP (IN of) (NP (NP (JJ pre-existing) (JJ abdominal) (NN pain) (CD ")) (PRN (-LRB- -LRB-) (VP (VBN coded) (PP (IN as) (NP (NP (NN worsening)) (PP (IN of) (NP (JJ abdominal) (NN pain)))))) (-RRB- -RRB-))))) (, ,) (NP (NP (JJ ") (NN worsening)) (PP (IN of) (NP (NP (JJ pre-existing) (JJ abdominal) (NN gassiness) (NN ")) (PRN (-LRB- -LRB-) (VP (VBN coded) (PP (IN as) (ADJP (RB very) (JJ gaseous)))) (-RRB- -RRB-))))) (, ,) (CC and) (NP (NP (JJ ") (NN worsening)) (PP (IN of) (NP (NP (JJ pre-existing) (JJ abdominal) (NN bloating) (NN ")) (PRN (-LRB- -LRB-) (VP (VBN coded) (PP (IN as) (NP (NP (NN worsening)) (PP (IN of) (NP (NN bloating)))))) (-RRB- -RRB-))))))) (. .)))</ParseTree></Sentence><Sentence id="8" offset="1414:1534"><Text>In AUG-2014, the patient contacted her physician about the events and was prescribed an increased dosage of domperidone.</Text><Tokens Count="20"><Token POSTag="IN" globalID="251" id="0" offset="1414:1416"><Text>In</Text></Token><Token POSTag="NN" globalID="252" id="1" offset="1417:1425"><Text>AUG-2014</Text></Token><Token POSTag="," globalID="253" id="2" offset="1425:1426"><Text>,</Text></Token><Token POSTag="DT" globalID="254" id="3" offset="1427:1430"><Text>the</Text></Token><Token POSTag="NN" globalID="255" id="4" offset="1431:1438"><Text>patient</Text></Token><Token POSTag="VBD" globalID="256" id="5" offset="1439:1448"><Text>contacted</Text></Token><Token POSTag="PRP$" globalID="257" id="6" offset="1449:1452"><Text>her</Text></Token><Token POSTag="NN" globalID="258" id="7" offset="1453:1462"><Text>physician</Text></Token><Token POSTag="IN" globalID="259" id="8" offset="1463:1468"><Text>about</Text></Token><Token POSTag="DT" globalID="260" id="9" offset="1469:1472"><Text>the</Text></Token><Token POSTag="NNS" globalID="261" id="10" offset="1473:1479"><Text>events</Text></Token><Token POSTag="CC" globalID="262" id="11" offset="1480:1483"><Text>and</Text></Token><Token POSTag="VBD" globalID="263" id="12" offset="1484:1487"><Text>was</Text></Token><Token POSTag="VBN" globalID="264" id="13" offset="1488:1498"><Text>prescribed</Text></Token><Token POSTag="DT" globalID="265" id="14" offset="1499:1501"><Text>an</Text></Token><Token POSTag="VBN" globalID="266" id="15" offset="1502:1511"><Text>increased</Text></Token><Token POSTag="NN" globalID="267" id="16" offset="1512:1518"><Text>dosage</Text></Token><Token POSTag="IN" globalID="268" id="17" offset="1519:1521"><Text>of</Text></Token><Token POSTag="NN" globalID="269" id="18" offset="1522:1533"><Text>domperidone</Text></Token><Token POSTag="." globalID="270" id="19" offset="1533:1534"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (PP (IN In) (NP (NN AUG-2014))) (, ,) (NP (DT the) (NN patient)) (VP (VP (VBD contacted) (NP (PRP$ her) (NN physician)) (PP (IN about) (NP (DT the) (NNS events)))) (CC and) (VP (VBD was) (VP (VBN prescribed) (NP (NP (DT an) (VBN increased) (NN dosage)) (PP (IN of) (NP (NN domperidone)))))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (PP (IN In) (NP (NN AUG-2014))) (, ,) (NP (DT the) (NN patient)) (VP (VP (VBD contacted) (NP (PRP$ her) (NN physician)) (PP (IN about) (NP (DT the) (NNS events)))) (CC and) (VP (VBD was) (VP (VBN prescribed) (NP (NP (DT an) (VBN increased) (NN dosage)) (PP (IN of) (NP (NN domperidone)))))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (PP (IN In) (NP (NN AUG-2014))) (, ,) (NP (DT the) (NN patient)) (VP (VP (VBD contacted) (NP (PRP$ her) (NN physician)) (PP (IN about) (NP (DT the) (NNS events)))) (CC and) (VP (VBD was) (VP (VBN prescribed) (NP (NP (DT an) (VBN increased) (NN dosage)) (PP (IN of) (NP (NN domperidone)))))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (PP (IN In) (NP (NN AUG-2014))) (, ,) (NP (DT the) (NN patient)) (VP (VP (VBD contacted) (NP (PRP$ her) (NN physician)) (PP (IN about) (NP (DT the) (NNS events)))) (CC and) (VP (VBD was) (VP (VBN prescribed) (NP (NP (DT an) (VBN increased) (NN dosage)) (PP (IN of) (NP (NN domperidone)))))))) (. .)))</ParseTree></Sentence><Sentence id="9" offset="1536:1631"><Text>The patient reported the increased dose of domperidone had not relieved her worsening symptoms.</Text><Tokens Count="15"><Token POSTag="DT" globalID="271" id="0" offset="1536:1539"><Text>The</Text></Token><Token POSTag="NN" globalID="272" id="1" offset="1540:1547"><Text>patient</Text></Token><Token POSTag="VBD" globalID="273" id="2" offset="1548:1556"><Text>reported</Text></Token><Token POSTag="DT" globalID="274" id="3" offset="1557:1560"><Text>the</Text></Token><Token POSTag="VBN" globalID="275" id="4" offset="1561:1570"><Text>increased</Text></Token><Token POSTag="NN" globalID="276" id="5" offset="1571:1575"><Text>dose</Text></Token><Token POSTag="IN" globalID="277" id="6" offset="1576:1578"><Text>of</Text></Token><Token POSTag="NN" globalID="278" id="7" offset="1579:1590"><Text>domperidone</Text></Token><Token POSTag="VBD" globalID="279" id="8" offset="1591:1594"><Text>had</Text></Token><Token POSTag="RB" globalID="280" id="9" offset="1595:1598"><Text>not</Text></Token><Token POSTag="VBN" globalID="281" id="10" offset="1599:1607"><Text>relieved</Text></Token><Token POSTag="PRP$" globalID="282" id="11" offset="1608:1611"><Text>her</Text></Token><Token POSTag="JJ" globalID="283" id="12" offset="1612:1621"><Text>worsening</Text></Token><Token POSTag="NNS" globalID="284" id="13" offset="1622:1630"><Text>symptoms</Text></Token><Token POSTag="." globalID="285" id="14" offset="1630:1631"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (NP (NP (DT The) (NN patient)) (VP (VBD reported) (NP (NP (DT the) (VBN increased) (NN dose)) (PP (IN of) (NP (NN domperidone)))))) (VP (VBD had) (RB not) (VP (VBN relieved) (NP (PRP$ her) (JJ worsening) (NNS symptoms))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (NP (DT The) (NN patient)) (VP (VBD reported) (NP (NP (DT the) (VBN increased) (NN dose)) (PP (IN of) (NP (NN domperidone)))))) (VP (VBD had) (RB not) (VP (VBN relieved) (NP (PRP$ her) (JJ worsening) (NNS symptoms))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (NP (DT The) (NN patient)) (VP (VBD reported) (NP (NP (DT the) (VBN increased) (NN dose)) (PP (IN of) (NP (NN domperidone)))))) (VP (VBD had) (RB not) (VP (VBN relieved) (NP (PRP$ her) (JJ worsening) (NNS symptoms))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (NP (DT The) (NN patient)) (VP (VBD reported) (NP (NP (DT the) (VBN increased) (NN dose)) (PP (IN of) (NP (NN domperidone)))))) (VP (VBD had) (RB not) (VP (VBN relieved) (NP (PRP$ her) (JJ worsening) (NNS symptoms))))) (. .)))</ParseTree></Sentence><Sentence id="10" offset="1633:1696"><Text>On 13-AUG-2014, the patient experienced not feeling well today.</Text><Tokens Count="11"><Token POSTag="IN" globalID="286" id="0" offset="1633:1635"><Text>On</Text></Token><Token POSTag="NN" globalID="287" id="1" offset="1636:1647"><Text>13-AUG-2014</Text></Token><Token POSTag="," globalID="288" id="2" offset="1647:1648"><Text>,</Text></Token><Token POSTag="DT" globalID="289" id="3" offset="1649:1652"><Text>the</Text></Token><Token POSTag="NN" globalID="290" id="4" offset="1653:1660"><Text>patient</Text></Token><Token POSTag="VBN" globalID="291" id="5" offset="1661:1672"><Text>experienced</Text></Token><Token POSTag="RB" globalID="292" id="6" offset="1673:1676"><Text>not</Text></Token><Token POSTag="NN" globalID="293" id="7" offset="1677:1684"><Text>feeling</Text></Token><Token POSTag="RB" globalID="294" id="8" offset="1685:1689"><Text>well</Text></Token><Token POSTag="RB" globalID="295" id="9" offset="1690:1695"><Text>today</Text></Token><Token POSTag="." globalID="296" id="10" offset="1695:1696"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (PP (IN On) (NP (NN 13-AUG-2014))) (, ,) (NP (DT the) (NN patient)) (VP (VBN experienced) (NP (RB not) (NN feeling)) (PP (RB well) (ADVP (RB today))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (PP (IN On) (NP (NN 13-AUG-2014))) (, ,) (NP (DT the) (NN patient)) (VP (VBN experienced) (NP (RB not) (NN feeling)) (PP (RB well) (ADVP (RB today))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (PP (IN On) (NP (NN 13-AUG-2014))) (, ,) (NP (DT the) (NN patient)) (VP (VBN experienced) (NP (RB not) (NN feeling)) (PP (RB well) (ADVP (RB today))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (PP (IN On) (NP (NN 13-AUG-2014))) (, ,) (NP (DT the) (NN patient)) (VP (VBN experienced) (NP (RB not) (NN feeling)) (PP (RB well) (ADVP (RB today))))) (. .)))</ParseTree></Sentence><Sentence id="11" offset="1698:1735"><Text>No laboratory findings were provided.</Text><Tokens Count="6"><Token POSTag="NN" globalID="297" id="0" offset="1698:1700"><Text>No</Text></Token><Token POSTag="NN" globalID="298" id="1" offset="1701:1711"><Text>laboratory</Text></Token><Token POSTag="NNS" globalID="299" id="2" offset="1712:1720"><Text>findings</Text></Token><Token POSTag="VBD" globalID="300" id="3" offset="1721:1725"><Text>were</Text></Token><Token POSTag="VBN" globalID="301" id="4" offset="1726:1734"><Text>provided</Text></Token><Token POSTag="." globalID="302" id="5" offset="1734:1735"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (NP (NN No) (NN laboratory) (NNS findings)) (VP (VBD were) (VP (VBN provided)))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (NN No) (NN laboratory) (NNS findings)) (VP (VBD were) (VP (VBN provided)))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (NN No) (NN laboratory) (NNS findings)) (VP (VBD were) (VP (VBN provided)))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (NN No) (NN laboratory) (NNS findings)) (VP (VBD were) (VP (VBN provided)))) (. .)))</ParseTree></Sentence><Sentence id="12" offset="1737:1821"><Text>The dose of domperidone was increased and the dose of canagliflozin was not changed.</Text><Tokens Count="15"><Token POSTag="DT" globalID="303" id="0" offset="1737:1740"><Text>The</Text></Token><Token POSTag="NN" globalID="304" id="1" offset="1741:1745"><Text>dose</Text></Token><Token POSTag="IN" globalID="305" id="2" offset="1746:1748"><Text>of</Text></Token><Token POSTag="NN" globalID="306" id="3" offset="1749:1760"><Text>domperidone</Text></Token><Token POSTag="VBD" globalID="307" id="4" offset="1761:1764"><Text>was</Text></Token><Token POSTag="VBN" globalID="308" id="5" offset="1765:1774"><Text>increased</Text></Token><Token POSTag="CC" globalID="309" id="6" offset="1775:1778"><Text>and</Text></Token><Token POSTag="DT" globalID="310" id="7" offset="1779:1782"><Text>the</Text></Token><Token POSTag="NN" globalID="311" id="8" offset="1783:1787"><Text>dose</Text></Token><Token POSTag="IN" globalID="312" id="9" offset="1788:1790"><Text>of</Text></Token><Token POSTag="NN" globalID="313" id="10" offset="1791:1804"><Text>canagliflozin</Text></Token><Token POSTag="VBD" globalID="314" id="11" offset="1805:1808"><Text>was</Text></Token><Token POSTag="RB" globalID="315" id="12" offset="1809:1812"><Text>not</Text></Token><Token POSTag="VBN" globalID="316" id="13" offset="1813:1820"><Text>changed</Text></Token><Token POSTag="." globalID="317" id="14" offset="1820:1821"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (S (NP (NP (DT The) (NN dose)) (PP (IN of) (NP (NN domperidone)))) (VP (VBD was) (VP (VBN increased)))) (CC and) (S (NP (NP (DT the) (NN dose)) (PP (IN of) (NP (NN canagliflozin)))) (VP (VBD was) (RB not) (VP (VBN changed))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (S (NP (NP (DT The) (NN dose)) (PP (IN of) (NP (NN domperidone)))) (VP (VBD was) (VP (VBN increased)))) (CC and) (S (NP (NP (DT the) (NN dose)) (PP (IN of) (NP (NN canagliflozin)))) (VP (VBD was) (RB not) (VP (VBN changed))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (S (NP (NP (DT The) (NN dose)) (PP (IN of) (NP (NN domperidone)))) (VP (VBD was) (VP (VBN increased)))) (CC and) (S (NP (NP (DT the) (NN dose)) (PP (IN of) (NP (NN canagliflozin)))) (VP (VBD was) (RB not) (VP (VBN changed))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (S (NP (NP (DT The) (NN dose)) (PP (IN of) (NP (NN domperidone)))) (VP (VBD was) (VP (VBN increased)))) (CC and) (S (NP (NP (DT the) (NN dose)) (PP (IN of) (NP (NN canagliflozin)))) (VP (VBD was) (RB not) (VP (VBN changed))))) (. .)))</ParseTree></Sentence><Sentence id="13" offset="1823:1972"><Text>The patient had not recovered from increased belching, worsening of abdominal pain, very gaseous, worsening of bloating, and not feeling well today. </Text><Tokens Count="27"><Token POSTag="DT" globalID="318" id="0" offset="1823:1826"><Text>The</Text></Token><Token POSTag="NN" globalID="319" id="1" offset="1827:1834"><Text>patient</Text></Token><Token POSTag="VBD" globalID="320" id="2" offset="1835:1838"><Text>had</Text></Token><Token POSTag="RB" globalID="321" id="3" offset="1839:1842"><Text>not</Text></Token><Token POSTag="VBN" globalID="322" id="4" offset="1843:1852"><Text>recovered</Text></Token><Token POSTag="IN" globalID="323" id="5" offset="1853:1857"><Text>from</Text></Token><Token POSTag="VBN" globalID="324" id="6" offset="1858:1867"><Text>increased</Text></Token><Token POSTag="JJ" globalID="325" id="7" offset="1868:1876"><Text>belching</Text></Token><Token POSTag="," globalID="326" id="8" offset="1876:1877"><Text>,</Text></Token><Token POSTag="NN" globalID="327" id="9" offset="1878:1887"><Text>worsening</Text></Token><Token POSTag="IN" globalID="328" id="10" offset="1888:1890"><Text>of</Text></Token><Token POSTag="JJ" globalID="329" id="11" offset="1891:1900"><Text>abdominal</Text></Token><Token POSTag="NN" globalID="330" id="12" offset="1901:1905"><Text>pain</Text></Token><Token POSTag="," globalID="331" id="13" offset="1905:1906"><Text>,</Text></Token><Token POSTag="RB" globalID="332" id="14" offset="1907:1911"><Text>very</Text></Token><Token POSTag="JJ" globalID="333" id="15" offset="1912:1919"><Text>gaseous</Text></Token><Token POSTag="," globalID="334" id="16" offset="1919:1920"><Text>,</Text></Token><Token POSTag="JJ" globalID="335" id="17" offset="1921:1930"><Text>worsening</Text></Token><Token POSTag="IN" globalID="336" id="18" offset="1931:1933"><Text>of</Text></Token><Token POSTag="NN" globalID="337" id="19" offset="1934:1942"><Text>bloating</Text></Token><Token POSTag="," globalID="338" id="20" offset="1942:1943"><Text>,</Text></Token><Token POSTag="CC" globalID="339" id="21" offset="1944:1947"><Text>and</Text></Token><Token POSTag="RB" globalID="340" id="22" offset="1948:1951"><Text>not</Text></Token><Token POSTag="JJ" globalID="341" id="23" offset="1952:1959"><Text>feeling</Text></Token><Token POSTag="NN" globalID="342" id="24" offset="1960:1964"><Text>well</Text></Token><Token POSTag="NN" globalID="343" id="25" offset="1965:1970"><Text>today</Text></Token><Token POSTag="." globalID="344" id="26" offset="1970:1971"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD had) (RB not) (VP (VBN recovered) (PP (IN from) (NP (VBN increased) (UCP (ADJP (JJ belching)) (, ,) (NP (NP (NN worsening)) (PP (IN of) (NP (JJ abdominal) (NN pain)))) (, ,) (ADJP (RB very) (JJ gaseous)) (, ,) (ADJP (JJ worsening) (PP (IN of) (NP (NN bloating)))) (, ,) (CC and) (ADJP (RB not) (JJ feeling))) (NN well) (NN today)))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD had) (RB not) (VP (VBN recovered) (PP (IN from) (NP (VBN increased) (UCP (ADJP (JJ belching)) (, ,) (NP (NP (NN worsening)) (PP (IN of) (NP (JJ abdominal) (NN pain)))) (, ,) (ADJP (RB very) (JJ gaseous)) (, ,) (ADJP (JJ worsening) (PP (IN of) (NP (NN bloating)))) (, ,) (CC and) (ADJP (RB not) (JJ feeling))) (NN well) (NN today)))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD had) (RB not) (VP (VBN recovered) (PP (IN from) (NP (VBN increased) (UCP (ADJP (JJ belching)) (, ,) (NP (NP (NN worsening)) (PP (IN of) (NP (JJ abdominal) (NN pain)))) (, ,) (ADJP (RB very) (JJ gaseous)) (, ,) (ADJP (JJ worsening) (PP (IN of) (NP (NN bloating)))) (, ,) (CC and) (ADJP (RB not) (JJ feeling))) (NN well) (NN today)))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD had) (RB not) (VP (VBN recovered) (PP (IN from) (NP (VBN increased) (UCP (ADJP (JJ belching)) (, ,) (NP (NP (NN worsening)) (PP (IN of) (NP (JJ abdominal) (NN pain)))) (, ,) (ADJP (RB very) (JJ gaseous)) (, ,) (ADJP (JJ worsening) (PP (IN of) (NP (NN bloating)))) (, ,) (CC and) (ADJP (RB not) (JJ feeling))) (NN well) (NN today)))))) (. .)))</ParseTree></Sentence></Sentences></Paragraph><Paragraph id="3"><Sentences Count="0" /></Paragraph><Paragraph id="4"><Sentences Count="1"><Sentence id="0" offset="1974:2087"><Text>This report was identified by the call center as a product quality complaint:  PQMS reference number 10000228235.</Text><Tokens Count="19"><Token POSTag="DT" globalID="345" id="0" offset="1974:1978"><Text>This</Text></Token><Token POSTag="NN" globalID="346" id="1" offset="1979:1985"><Text>report</Text></Token><Token POSTag="VBD" globalID="347" id="2" offset="1986:1989"><Text>was</Text></Token><Token POSTag="VBN" globalID="348" id="3" offset="1990:2000"><Text>identified</Text></Token><Token POSTag="IN" globalID="349" id="4" offset="2001:2003"><Text>by</Text></Token><Token POSTag="DT" globalID="350" id="5" offset="2004:2007"><Text>the</Text></Token><Token POSTag="NN" globalID="351" id="6" offset="2008:2012"><Text>call</Text></Token><Token POSTag="NN" globalID="352" id="7" offset="2013:2019"><Text>center</Text></Token><Token POSTag="IN" globalID="353" id="8" offset="2020:2022"><Text>as</Text></Token><Token POSTag="DT" globalID="354" id="9" offset="2020:2021"><Text>a</Text></Token><Token POSTag="NN" globalID="355" id="10" offset="2025:2032"><Text>product</Text></Token><Token POSTag="NN" globalID="356" id="11" offset="2033:2040"><Text>quality</Text></Token><Token POSTag="NN" globalID="357" id="12" offset="2041:2050"><Text>complaint</Text></Token><Token POSTag=":" globalID="358" id="13" offset="2050:2051"><Text>:</Text></Token><Token POSTag="NN" globalID="359" id="14" offset="2053:2057"><Text>PQMS</Text></Token><Token POSTag="NN" globalID="360" id="15" offset="2058:2067"><Text>reference</Text></Token><Token POSTag="NN" globalID="361" id="16" offset="2068:2074"><Text>number</Text></Token><Token POSTag="CD" globalID="362" id="17" offset="2075:2086"><Text>10000228235</Text></Token><Token POSTag="." globalID="363" id="18" offset="2086:2087"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (NP (DT This) (NN report)) (VP (VBD was) (VP (VBN identified) (PP (IN by) (NP (DT the) (NN call) (NN center))) (PP (IN as) (NP (NP (DT a) (NN product) (NN quality) (NN complaint)) (: :) (NP (NN PQMS) (NN reference) (NN number) (CD 10000228235))))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (DT This) (NN report)) (VP (VBD was) (VP (VBN identified) (PP (IN by) (NP (DT the) (NN call) (NN center))) (PP (IN as) (NP (NP (DT a) (NN product) (NN quality) (NN complaint)) (: :) (NP (NN PQMS) (NN reference) (NN number) (CD 10000228235))))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (DT This) (NN report)) (VP (VBD was) (VP (VBN identified) (PP (IN by) (NP (DT the) (NN call) (NN center))) (PP (IN as) (NP (NP (DT a) (NN product) (NN quality) (NN complaint)) (: :) (NP (NN PQMS) (NN reference) (NN number) (CD 10000228235))))))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (DT This) (NN report)) (VP (VBD was) (VP (VBN identified) (PP (IN by) (NP (DT the) (NN call) (NN center))) (PP (IN as) (NP (NP (DT a) (NN product) (NN quality) (NN complaint)) (: :) (NP (NN PQMS) (NN reference) (NN number) (CD 10000228235))))))) (. .)))</ParseTree></Sentence></Sentences></Paragraph><Paragraph id="5"><Sentences Count="0" /></Paragraph><Paragraph id="6"><Sentences Count="1"><Sentence id="0" offset="2089:2117"><Text>This report was not serious.</Text><Tokens Count="6"><Token POSTag="DT" globalID="364" id="0" offset="2089:2093"><Text>This</Text></Token><Token POSTag="NN" globalID="365" id="1" offset="2094:2100"><Text>report</Text></Token><Token POSTag="VBD" globalID="366" id="2" offset="2101:2104"><Text>was</Text></Token><Token POSTag="RB" globalID="367" id="3" offset="2105:2108"><Text>not</Text></Token><Token POSTag="JJ" globalID="368" id="4" offset="2109:2116"><Text>serious</Text></Token><Token POSTag="." globalID="369" id="5" offset="2116:2117"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (NP (DT This) (NN report)) (VP (VBD was) (RB not) (ADJP (JJ serious)))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (DT This) (NN report)) (VP (VBD was) (RB not) (ADJP (JJ serious)))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (DT This) (NN report)) (VP (VBD was) (RB not) (ADJP (JJ serious)))) (. .)))</ParseTree><ParseTree>(S1 (S (S (NP (DT This) (NN report)) (VP (VBD was) (RB not) (ADJP (JJ serious)))) (. .)))</ParseTree></Sentence></Sentences></Paragraph><Paragraph id="7"><Sentences Count="0" /></Paragraph></Paragraphs></StartOutput>
+<StartOutput>
+    <Paragraphs Count="8">
+        <Paragraph id="0">
+            <Sentences Count="1">
+                <Sentence id="0" offset="0:126">
+                    <Text>This spontaneous report from a patient concerns a 71-year-old Caucasian female from the United
+                        States: Local ID: 1-1878275180.
+                    </Text>
+                    <Tokens Count="21">
+                        <Token POSTag="DT" globalID="0" id="0" offset="0:4">
+                            <Text>This</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="1" id="1" offset="5:16">
+                            <Text>spontaneous</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="2" id="2" offset="17:23">
+                            <Text>report</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="3" id="3" offset="24:28">
+                            <Text>from</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="4" id="4" offset="29:30">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="5" id="5" offset="31:38">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="6" id="6" offset="39:47">
+                            <Text>concerns</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="7" id="7" offset="48:49">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="8" id="8" offset="50:61">
+                            <Text>71-year-old</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="9" id="9" offset="62:71">
+                            <Text>Caucasian</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="10" id="10" offset="72:78">
+                            <Text>female</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="11" id="11" offset="79:83">
+                            <Text>from</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="12" id="12" offset="84:87">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="13" id="13" offset="88:94">
+                            <Text>United</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="14" id="14" offset="95:101">
+                            <Text>States</Text>
+                        </Token>
+                        <Token POSTag=":" globalID="15" id="15" offset="101:102">
+                            <Text>:</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="16" id="16" offset="103:108">
+                            <Text>Local</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="17" id="17" offset="109:111">
+                            <Text>ID</Text>
+                        </Token>
+                        <Token POSTag=":" globalID="18" id="18" offset="111:112">
+                            <Text>:</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="19" id="19" offset="113:125">
+                            <Text>1-1878275180</Text>
+                        </Token>
+                        <Token POSTag="." globalID="20" id="20" offset="125:126">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (NP (NP (DT This) (JJ spontaneous) (NN report)) (PP (IN from) (NP (DT a) (NN
+                        patient)))) (VP (VBZ concerns) (NP (NP (DT a) (JJ 71-year-old) (NN Caucasian) (NN female)) (PP
+                        (IN from) (NP (NP (DT the) (JJ United) (NNS States)) (: :) (NP (JJ Local) (NN ID)) (: :) (NP (CD
+                        1-1878275180))))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (NP (DT This) (JJ spontaneous) (NN report)) (PP (IN from) (NP (DT a) (NN
+                        patient)))) (VP (VBZ concerns) (NP (NP (DT a) (JJ 71-year-old) (NN Caucasian) (NN female)) (PP
+                        (IN from) (NP (NP (DT the) (JJ United) (NNS States)) (: :) (NP (JJ Local) (NN ID)) (: :) (NP (CD
+                        1-1878275180))))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (NP (DT This) (JJ spontaneous) (NN report)) (PP (IN from) (NP (DT a) (NN
+                        patient)))) (VP (VBZ concerns) (NP (NP (DT a) (JJ 71-year-old) (NN Caucasian) (NN female)) (PP
+                        (IN from) (NP (NP (DT the) (JJ United) (NNS States)) (: :) (NP (JJ Local) (NN ID)) (: :) (NP (CD
+                        1-1878275180))))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (NP (DT This) (JJ spontaneous) (NN report)) (PP (IN from) (NP (DT a) (NN
+                        patient)))) (VP (VBZ concerns) (NP (NP (DT a) (JJ 71-year-old) (NN Caucasian) (NN female)) (PP
+                        (IN from) (NP (NP (DT the) (JJ United) (NNS States)) (: :) (NP (JJ Local) (NN ID)) (: :) (NP (CD
+                        1-1878275180))))))) (. .)))
+                    </ParseTree>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="1">
+            <Sentences Count="0"/>
+        </Paragraph>
+        <Paragraph id="2">
+            <Sentences Count="14">
+                <Sentence id="0" offset="128:191">
+                    <Text>The patient's weight was 160 pounds and height was 67.5 inches.</Text>
+                    <Tokens Count="12">
+                        <Token POSTag="DT" globalID="21" id="0" offset="128:131">
+                            <Text>The</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="22" id="1" offset="132:141">
+                            <Text>patient's</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="23" id="2" offset="142:148">
+                            <Text>weight</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="24" id="3" offset="149:152">
+                            <Text>was</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="25" id="4" offset="153:156">
+                            <Text>160</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="26" id="5" offset="157:163">
+                            <Text>pounds</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="27" id="6" offset="164:167">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="28" id="7" offset="168:174">
+                            <Text>height</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="29" id="8" offset="175:178">
+                            <Text>was</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="30" id="9" offset="179:183">
+                            <Text>67.5</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="31" id="10" offset="184:190">
+                            <Text>inches</Text>
+                        </Token>
+                        <Token POSTag="." globalID="32" id="11" offset="190:191">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (S (NP (DT The) (JJ patient's) (NN weight)) (VP (VBD was) (NP (CD 160) (NNS
+                        pounds)))) (CC and) (S (NP (NN height)) (VP (VBD was) (NP (CD 67.5) (NNS inches))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (S (NP (DT The) (JJ patient's) (NN weight)) (VP (VBD was) (NP (CD 160) (NNS
+                        pounds)))) (CC and) (S (NP (NN height)) (VP (VBD was) (NP (CD 67.5) (NNS inches))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (S (NP (DT The) (JJ patient's) (NN weight)) (VP (VBD was) (NP (CD 160) (NNS
+                        pounds)))) (CC and) (S (NP (NN height)) (VP (VBD was) (NP (CD 67.5) (NNS inches))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (S (NP (DT The) (JJ patient's) (NN weight)) (VP (VBD was) (NP (CD 160) (NNS
+                        pounds)))) (CC and) (S (NP (NN height)) (VP (VBD was) (NP (CD 67.5) (NNS inches))))) (. .)))
+                    </ParseTree>
+                </Sentence>
+                <Sentence id="1" offset="193:415">
+                    <Text>Concurrent conditions included abdominal bloating, abdominal gas, abdominal pain, allergy to
+                        trees, belching (abdominal), diabetic paresis (coded as diabetic gastroparesis), no alcohol use,
+                        no smoking, and type 2 diabetes.
+                    </Text>
+                    <Tokens Count="42">
+                        <Token POSTag="JJ" globalID="33" id="0" offset="193:203">
+                            <Text>Concurrent</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="34" id="1" offset="204:214">
+                            <Text>conditions</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="35" id="2" offset="215:223">
+                            <Text>included</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="36" id="3" offset="224:233">
+                            <Text>abdominal</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="37" id="4" offset="234:242">
+                            <Text>bloating</Text>
+                        </Token>
+                        <Token POSTag="," globalID="38" id="5" offset="242:243">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="39" id="6" offset="244:253">
+                            <Text>abdominal</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="40" id="7" offset="254:257">
+                            <Text>gas</Text>
+                        </Token>
+                        <Token POSTag="," globalID="41" id="8" offset="257:258">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="42" id="9" offset="259:268">
+                            <Text>abdominal</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="43" id="10" offset="269:273">
+                            <Text>pain</Text>
+                        </Token>
+                        <Token POSTag="," globalID="44" id="11" offset="273:274">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="45" id="12" offset="275:282">
+                            <Text>allergy</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="46" id="13" offset="283:285">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="47" id="14" offset="286:291">
+                            <Text>trees</Text>
+                        </Token>
+                        <Token POSTag="," globalID="48" id="15" offset="291:292">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="49" id="16" offset="293:301">
+                            <Text>belching</Text>
+                        </Token>
+                        <Token POSTag="-LRB-" globalID="50" id="17" offset="302:303">
+                            <Text>(</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="51" id="18" offset="303:312">
+                            <Text>abdominal</Text>
+                        </Token>
+                        <Token POSTag="-RRB-" globalID="52" id="19" offset="312:313">
+                            <Text>)</Text>
+                        </Token>
+                        <Token POSTag="," globalID="53" id="20" offset="313:314">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="54" id="21" offset="315:323">
+                            <Text>diabetic</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="55" id="22" offset="324:331">
+                            <Text>paresis</Text>
+                        </Token>
+                        <Token POSTag="-LRB-" globalID="56" id="23" offset="332:333">
+                            <Text>(</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="57" id="24" offset="333:338">
+                            <Text>coded</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="58" id="25" offset="339:341">
+                            <Text>as</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="59" id="26" offset="342:350">
+                            <Text>diabetic</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="60" id="27" offset="351:364">
+                            <Text>gastroparesis</Text>
+                        </Token>
+                        <Token POSTag="-RRB-" globalID="61" id="28" offset="364:365">
+                            <Text>)</Text>
+                        </Token>
+                        <Token POSTag="," globalID="62" id="29" offset="365:366">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="63" id="30" offset="367:369">
+                            <Text>no</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="64" id="31" offset="370:377">
+                            <Text>alcohol</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="65" id="32" offset="378:381">
+                            <Text>use</Text>
+                        </Token>
+                        <Token POSTag="," globalID="66" id="33" offset="381:382">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="67" id="34" offset="383:385">
+                            <Text>no</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="68" id="35" offset="386:393">
+                            <Text>smoking</Text>
+                        </Token>
+                        <Token POSTag="," globalID="69" id="36" offset="393:394">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="70" id="37" offset="395:398">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="71" id="38" offset="399:403">
+                            <Text>type</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="72" id="39" offset="404:405">
+                            <Text>2</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="73" id="40" offset="406:414">
+                            <Text>diabetes</Text>
+                        </Token>
+                        <Token POSTag="." globalID="74" id="41" offset="414:415">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (NP (JJ Concurrent) (NNS conditions)) (VP (VBD included) (NP (NP (JJ abdominal)
+                        (NN bloating)) (, ,) (NP (JJ abdominal) (NN gas)) (, ,) (NP (JJ abdominal) (NN pain)) (, ,) (NP
+                        (NP (NN allergy)) (PP (TO to) (NP (NNS trees)))) (, ,) (NP (NP (NN belching)) (PRN (-LRB- -LRB-)
+                        (NP (JJ abdominal)) (-RRB- -RRB-))) (, ,) (NP (NP (JJ diabetic) (NN paresis)) (PRN (-LRB- -LRB-)
+                        (VP (VBN coded) (PP (IN as) (NP (JJ diabetic) (NN gastroparesis)))) (-RRB- -RRB-))) (, ,) (NP
+                        (DT no) (NN alcohol) (NN use)) (, ,) (NP (NN no) (NN smoking)) (, ,) (CC and) (NP (NN type) (CD
+                        2) (NNS diabetes))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (JJ Concurrent) (NNS conditions)) (VP (VBD included) (NP (NP (JJ abdominal)
+                        (NN bloating)) (, ,) (NP (JJ abdominal) (NN gas)) (, ,) (NP (JJ abdominal) (NN pain)) (, ,) (NP
+                        (NP (NN allergy)) (PP (TO to) (NP (NNS trees)))) (, ,) (NP (NP (NN belching)) (PRN (-LRB- -LRB-)
+                        (NP (JJ abdominal)) (-RRB- -RRB-))) (, ,) (NP (NP (JJ diabetic) (NN paresis)) (PRN (-LRB- -LRB-)
+                        (VP (VBN coded) (PP (IN as) (NP (JJ diabetic) (NN gastroparesis)))) (-RRB- -RRB-))) (, ,) (NP
+                        (DT no) (NN alcohol) (NN use)) (, ,) (NP (NN no) (NN smoking)) (, ,) (CC and) (NP (NN type) (CD
+                        2) (NNS diabetes))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (JJ Concurrent) (NNS conditions)) (VP (VBD included) (NP (NP (JJ abdominal)
+                        (NN bloating)) (, ,) (NP (JJ abdominal) (NN gas)) (, ,) (NP (JJ abdominal) (NN pain)) (, ,) (NP
+                        (NP (NN allergy)) (PP (TO to) (NP (NNS trees)))) (, ,) (NP (NP (NN belching)) (PRN (-LRB- -LRB-)
+                        (NP (JJ abdominal)) (-RRB- -RRB-))) (, ,) (NP (NP (JJ diabetic) (NN paresis)) (PRN (-LRB- -LRB-)
+                        (VP (VBN coded) (PP (IN as) (NP (JJ diabetic) (NN gastroparesis)))) (-RRB- -RRB-))) (, ,) (NP
+                        (DT no) (NN alcohol) (NN use)) (, ,) (NP (NN no) (NN smoking)) (, ,) (CC and) (NP (NN type) (CD
+                        2) (NNS diabetes))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (JJ Concurrent) (NNS conditions)) (VP (VBD included) (NP (NP (JJ abdominal)
+                        (NN bloating)) (, ,) (NP (JJ abdominal) (NN gas)) (, ,) (NP (JJ abdominal) (NN pain)) (, ,) (NP
+                        (NP (NN allergy)) (PP (TO to) (NP (NNS trees)))) (, ,) (NP (NP (NN belching)) (PRN (-LRB- -LRB-)
+                        (NP (JJ abdominal)) (-RRB- -RRB-))) (, ,) (NP (NP (JJ diabetic) (NN paresis)) (PRN (-LRB- -LRB-)
+                        (VP (VBN coded) (PP (IN as) (NP (JJ diabetic) (NN gastroparesis)))) (-RRB- -RRB-))) (, ,) (NP
+                        (DT no) (NN alcohol) (NN use)) (, ,) (NP (NN no) (NN smoking)) (, ,) (CC and) (NP (NN type) (CD
+                        2) (NNS diabetes))))) (. .)))
+                    </ParseTree>
+                </Sentence>
+                <Sentence id="2" offset="417:490">
+                    <Text>Other medical history included no history of drug abuse/illicit drug use.</Text>
+                    <Tokens Count="12">
+                        <Token POSTag="JJ" globalID="75" id="0" offset="417:422">
+                            <Text>Other</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="76" id="1" offset="423:430">
+                            <Text>medical</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="77" id="2" offset="431:438">
+                            <Text>history</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="78" id="3" offset="439:447">
+                            <Text>included</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="79" id="4" offset="448:450">
+                            <Text>no</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="80" id="5" offset="451:458">
+                            <Text>history</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="81" id="6" offset="459:461">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="82" id="7" offset="462:466">
+                            <Text>drug</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="83" id="8" offset="467:480">
+                            <Text>abuse/illicit</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="84" id="9" offset="481:485">
+                            <Text>drug</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="85" id="10" offset="486:489">
+                            <Text>use</Text>
+                        </Token>
+                        <Token POSTag="." globalID="86" id="11" offset="489:490">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (NP (JJ Other) (JJ medical) (NN history)) (VP (VBD included) (NP (NP (DT no)
+                        (NN history)) (PP (IN of) (NP (NN drug) (NN abuse/illicit) (NN drug) (NN use)))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (JJ Other) (JJ medical) (NN history)) (VP (VBD included) (NP (NP (DT no)
+                        (NN history)) (PP (IN of) (NP (NN drug) (NN abuse/illicit) (NN drug) (NN use)))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (JJ Other) (JJ medical) (NN history)) (VP (VBD included) (NP (NP (DT no)
+                        (NN history)) (PP (IN of) (NP (NN drug) (NN abuse/illicit) (NN drug) (NN use)))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (JJ Other) (JJ medical) (NN history)) (VP (VBD included) (NP (NP (DT no)
+                        (NN history)) (PP (IN of) (NP (NN drug) (NN abuse/illicit) (NN drug) (NN use)))))) (. .)))
+                    </ParseTree>
+                </Sentence>
+                <Sentence id="3" offset="492:658">
+                    <Text>The patient had previously experienced allergy when taking mycins (not otherwise specified or
+                        NOS) (antibacterials for systemic use) and sulfa (sulfacetamide sodium).
+                    </Text>
+                    <Tokens Count="29">
+                        <Token POSTag="DT" globalID="87" id="0" offset="492:495">
+                            <Text>The</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="88" id="1" offset="496:503">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="89" id="2" offset="504:507">
+                            <Text>had</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="90" id="3" offset="508:518">
+                            <Text>previously</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="91" id="4" offset="519:530">
+                            <Text>experienced</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="92" id="5" offset="531:538">
+                            <Text>allergy</Text>
+                        </Token>
+                        <Token POSTag="WRB" globalID="93" id="6" offset="539:543">
+                            <Text>when</Text>
+                        </Token>
+                        <Token POSTag="VBG" globalID="94" id="7" offset="544:550">
+                            <Text>taking</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="95" id="8" offset="551:557">
+                            <Text>mycins</Text>
+                        </Token>
+                        <Token POSTag="-LRB-" globalID="96" id="9" offset="558:559">
+                            <Text>(</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="97" id="10" offset="559:562">
+                            <Text>not</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="98" id="11" offset="563:572">
+                            <Text>otherwise</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="99" id="12" offset="573:582">
+                            <Text>specified</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="100" id="13" offset="583:585">
+                            <Text>or</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="101" id="14" offset="586:589">
+                            <Text>NOS</Text>
+                        </Token>
+                        <Token POSTag="-RRB-" globalID="102" id="15" offset="589:590">
+                            <Text>)</Text>
+                        </Token>
+                        <Token POSTag="-LRB-" globalID="103" id="16" offset="591:592">
+                            <Text>(</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="104" id="17" offset="592:606">
+                            <Text>antibacterials</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="105" id="18" offset="607:610">
+                            <Text>for</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="106" id="19" offset="611:619">
+                            <Text>systemic</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="107" id="20" offset="620:623">
+                            <Text>use</Text>
+                        </Token>
+                        <Token POSTag="-RRB-" globalID="108" id="21" offset="623:624">
+                            <Text>)</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="109" id="22" offset="625:628">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="110" id="23" offset="629:634">
+                            <Text>sulfa</Text>
+                        </Token>
+                        <Token POSTag="-LRB-" globalID="111" id="24" offset="635:636">
+                            <Text>(</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="112" id="25" offset="636:649">
+                            <Text>sulfacetamide</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="113" id="26" offset="650:656">
+                            <Text>sodium</Text>
+                        </Token>
+                        <Token POSTag="-RRB-" globalID="114" id="27" offset="656:657">
+                            <Text>)</Text>
+                        </Token>
+                        <Token POSTag="." globalID="115" id="28" offset="657:658">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD had) (ADVP (RB previously)) (VP (VBN
+                        experienced) (NP (NN allergy))) (SBAR (WHADVP (WRB when)) (S (VP (VBG taking) (NP (NP (NP (NP
+                        (NNS mycins)) (PRN (-LRB- -LRB-) (NP (ADJP (ADVP (RB not) (RB otherwise)) (VBN specified)) (NN
+                        or) (NN NOS)) (-RRB- -RRB-))) (PRN (-LRB- -LRB-) (NP (NP (NNS antibacterials)) (PP (IN for) (NP
+                        (JJ systemic) (NN use)))) (-RRB- -RRB-))) (CC and) (NP (NP (NN sulfa)) (PRN (-LRB- -LRB-) (NP
+                        (NN sulfacetamide) (NN sodium)) (-RRB- -RRB-))))))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD had) (ADVP (RB previously)) (VP (VBN
+                        experienced) (NP (NN allergy))) (SBAR (WHADVP (WRB when)) (S (VP (VBG taking) (NP (NP (NP (NP
+                        (NNS mycins)) (PRN (-LRB- -LRB-) (NP (ADJP (ADVP (RB not) (RB otherwise)) (VBN specified)) (NN
+                        or) (NN NOS)) (-RRB- -RRB-))) (PRN (-LRB- -LRB-) (NP (NP (NNS antibacterials)) (PP (IN for) (NP
+                        (JJ systemic) (NN use)))) (-RRB- -RRB-))) (CC and) (NP (NP (NN sulfa)) (PRN (-LRB- -LRB-) (NP
+                        (NN sulfacetamide) (NN sodium)) (-RRB- -RRB-))))))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD had) (ADVP (RB previously)) (VP (VBN
+                        experienced) (NP (NN allergy))) (SBAR (WHADVP (WRB when)) (S (VP (VBG taking) (NP (NP (NP (NP
+                        (NNS mycins)) (PRN (-LRB- -LRB-) (NP (ADJP (ADVP (RB not) (RB otherwise)) (VBN specified)) (NN
+                        or) (NN NOS)) (-RRB- -RRB-))) (PRN (-LRB- -LRB-) (NP (NP (NNS antibacterials)) (PP (IN for) (NP
+                        (JJ systemic) (NN use)))) (-RRB- -RRB-))) (CC and) (NP (NP (NN sulfa)) (PRN (-LRB- -LRB-) (NP
+                        (NN sulfacetamide) (NN sodium)) (-RRB- -RRB-))))))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD had) (ADVP (RB previously)) (VP (VBN
+                        experienced) (NP (NN allergy))) (SBAR (WHADVP (WRB when)) (S (VP (VBG taking) (NP (NP (NP (NP
+                        (NNS mycins)) (PRN (-LRB- -LRB-) (NP (ADJP (ADVP (RB not) (RB otherwise)) (VBN specified)) (NN
+                        or) (NN NOS)) (-RRB- -RRB-))) (PRN (-LRB- -LRB-) (NP (NP (NNS antibacterials)) (PP (IN for) (NP
+                        (JJ systemic) (NN use)))) (-RRB- -RRB-))) (CC and) (NP (NP (NN sulfa)) (PRN (-LRB- -LRB-) (NP
+                        (NN sulfacetamide) (NN sodium)) (-RRB- -RRB-))))))))) (. .)))
+                    </ParseTree>
+                </Sentence>
+                <Sentence id="4" offset="660:936">
+                    <Text>The patient was treated with canagliflozin (tablet, oral, batch unknown) 300 mg once a day,
+                        initiated on 06-AUG-2014, for type 2 diabetes and domperidone (unspecified, batch unknown) dose
+                        and frequency unspecified, initiated on an unspecified date, for diabetic gastroparesis.
+                    </Text>
+                    <Tokens Count="51">
+                        <Token POSTag="DT" globalID="116" id="0" offset="660:663">
+                            <Text>The</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="117" id="1" offset="664:671">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="118" id="2" offset="672:675">
+                            <Text>was</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="119" id="3" offset="676:683">
+                            <Text>treated</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="120" id="4" offset="684:688">
+                            <Text>with</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="121" id="5" offset="689:702">
+                            <Text>canagliflozin</Text>
+                        </Token>
+                        <Token POSTag="-LRB-" globalID="122" id="6" offset="703:704">
+                            <Text>(</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="123" id="7" offset="704:710">
+                            <Text>tablet</Text>
+                        </Token>
+                        <Token POSTag="," globalID="124" id="8" offset="710:711">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="125" id="9" offset="712:716">
+                            <Text>oral</Text>
+                        </Token>
+                        <Token POSTag="," globalID="126" id="10" offset="716:717">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="127" id="11" offset="718:723">
+                            <Text>batch</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="128" id="12" offset="724:731">
+                            <Text>unknown</Text>
+                        </Token>
+                        <Token POSTag="-RRB-" globalID="129" id="13" offset="731:732">
+                            <Text>)</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="130" id="14" offset="733:736">
+                            <Text>300</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="131" id="15" offset="737:739">
+                            <Text>mg</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="132" id="16" offset="740:744">
+                            <Text>once</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="133" id="17" offset="745:746">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="134" id="18" offset="747:750">
+                            <Text>day</Text>
+                        </Token>
+                        <Token POSTag="," globalID="135" id="19" offset="750:751">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="136" id="20" offset="752:761">
+                            <Text>initiated</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="137" id="21" offset="762:764">
+                            <Text>on</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="138" id="22" offset="765:776">
+                            <Text>06-AUG-2014</Text>
+                        </Token>
+                        <Token POSTag="," globalID="139" id="23" offset="776:777">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="140" id="24" offset="778:781">
+                            <Text>for</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="141" id="25" offset="782:786">
+                            <Text>type</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="142" id="26" offset="787:788">
+                            <Text>2</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="143" id="27" offset="789:797">
+                            <Text>diabetes</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="144" id="28" offset="798:801">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="145" id="29" offset="802:813">
+                            <Text>domperidone</Text>
+                        </Token>
+                        <Token POSTag="-LRB-" globalID="146" id="30" offset="814:815">
+                            <Text>(</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="147" id="31" offset="815:826">
+                            <Text>unspecified</Text>
+                        </Token>
+                        <Token POSTag="," globalID="148" id="32" offset="826:827">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="149" id="33" offset="828:833">
+                            <Text>batch</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="150" id="34" offset="834:841">
+                            <Text>unknown</Text>
+                        </Token>
+                        <Token POSTag="-RRB-" globalID="151" id="35" offset="841:842">
+                            <Text>)</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="152" id="36" offset="843:847">
+                            <Text>dose</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="153" id="37" offset="848:851">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="154" id="38" offset="852:861">
+                            <Text>frequency</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="155" id="39" offset="862:873">
+                            <Text>unspecified</Text>
+                        </Token>
+                        <Token POSTag="," globalID="156" id="40" offset="873:874">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="157" id="41" offset="875:884">
+                            <Text>initiated</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="158" id="42" offset="885:887">
+                            <Text>on</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="159" id="43" offset="888:890">
+                            <Text>an</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="160" id="44" offset="891:902">
+                            <Text>unspecified</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="161" id="45" offset="903:907">
+                            <Text>date</Text>
+                        </Token>
+                        <Token POSTag="," globalID="162" id="46" offset="907:908">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="163" id="47" offset="909:912">
+                            <Text>for</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="164" id="48" offset="913:921">
+                            <Text>diabetic</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="165" id="49" offset="922:935">
+                            <Text>gastroparesis</Text>
+                        </Token>
+                        <Token POSTag="." globalID="166" id="50" offset="935:936">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD was) (VP (VBN treated) (PP (IN with) (NP
+                        (NP (NP (NP (NN canagliflozin)) (PRN (-LRB- -LRB-) (NP (NP (NN tablet)) (, ,) (NP (ADJP (JJ
+                        oral))) (, ,) (NP (JJ batch) (JJ unknown))) (-RRB- -RRB-))) (NP (NP (CD 300) (NN mg)) (PP (IN
+                        once) (NP (NP (DT a) (NN day)) (, ,) (VP (VBN initiated) (PP (IN on) (NP (NN 06-AUG-2014)))) (,
+                        ,))) (PP (IN for) (NP (NN type) (CD 2) (NNS diabetes))))) (CC and) (NP (NP (NN domperidone))
+                        (PRN (-LRB- -LRB-) (ADJP (ADJP (JJ unspecified)) (, ,) (ADJP (NN batch) (JJ unknown))) (-RRB-
+                        -RRB-)) (NP (NN dose) (CC and) (NN frequency) (NN unspecified)) (, ,) (VP (VBN initiated) (PP
+                        (IN on) (NP (DT an) (JJ unspecified) (NN date)))) (, ,)))) (PP (IN for) (NP (JJ diabetic) (NN
+                        gastroparesis)))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD was) (VP (VBN treated) (PP (IN with) (NP
+                        (NP (NP (NP (NN canagliflozin)) (PRN (-LRB- -LRB-) (NP (NP (NN tablet)) (, ,) (NP (ADJP (JJ
+                        oral))) (, ,) (NP (JJ batch) (JJ unknown))) (-RRB- -RRB-))) (NP (NP (CD 300) (NN mg)) (PP (IN
+                        once) (NP (NP (DT a) (NN day)) (, ,) (VP (VBN initiated) (PP (IN on) (NP (NN 06-AUG-2014)))) (,
+                        ,))) (PP (IN for) (NP (NN type) (CD 2) (NNS diabetes))))) (CC and) (NP (NP (NN domperidone))
+                        (PRN (-LRB- -LRB-) (ADJP (ADJP (JJ unspecified)) (, ,) (ADJP (NN batch) (JJ unknown))) (-RRB-
+                        -RRB-)) (NP (NN dose) (CC and) (NN frequency) (NN unspecified)) (, ,) (VP (VBN initiated) (PP
+                        (IN on) (NP (DT an) (JJ unspecified) (NN date)))) (, ,)))) (PP (IN for) (NP (JJ diabetic) (NN
+                        gastroparesis)))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD was) (VP (VBN treated) (PP (IN with) (NP
+                        (NP (NP (NP (NN canagliflozin)) (PRN (-LRB- -LRB-) (NP (NP (NN tablet)) (, ,) (NP (ADJP (JJ
+                        oral))) (, ,) (NP (JJ batch) (JJ unknown))) (-RRB- -RRB-))) (NP (NP (CD 300) (NN mg)) (PP (IN
+                        once) (NP (NP (DT a) (NN day)) (, ,) (VP (VBN initiated) (PP (IN on) (NP (NN 06-AUG-2014)))) (,
+                        ,))) (PP (IN for) (NP (NN type) (CD 2) (NNS diabetes))))) (CC and) (NP (NP (NN domperidone))
+                        (PRN (-LRB- -LRB-) (ADJP (ADJP (JJ unspecified)) (, ,) (ADJP (NN batch) (JJ unknown))) (-RRB-
+                        -RRB-)) (NP (NN dose) (CC and) (NN frequency) (NN unspecified)) (, ,) (VP (VBN initiated) (PP
+                        (IN on) (NP (DT an) (JJ unspecified) (NN date)))) (, ,)))) (PP (IN for) (NP (JJ diabetic) (NN
+                        gastroparesis)))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD was) (VP (VBN treated) (PP (IN with) (NP
+                        (NP (NP (NP (NN canagliflozin)) (PRN (-LRB- -LRB-) (NP (NP (NN tablet)) (, ,) (NP (ADJP (JJ
+                        oral))) (, ,) (NP (JJ batch) (JJ unknown))) (-RRB- -RRB-))) (NP (NP (CD 300) (NN mg)) (PP (IN
+                        once) (NP (NP (DT a) (NN day)) (, ,) (VP (VBN initiated) (PP (IN on) (NP (NN 06-AUG-2014)))) (,
+                        ,))) (PP (IN for) (NP (NN type) (CD 2) (NNS diabetes))))) (CC and) (NP (NP (NN domperidone))
+                        (PRN (-LRB- -LRB-) (ADJP (ADJP (JJ unspecified)) (, ,) (ADJP (NN batch) (JJ unknown))) (-RRB-
+                        -RRB-)) (NP (NN dose) (CC and) (NN frequency) (NN unspecified)) (, ,) (VP (VBN initiated) (PP
+                        (IN on) (NP (DT an) (JJ unspecified) (NN date)))) (, ,)))) (PP (IN for) (NP (JJ diabetic) (NN
+                        gastroparesis)))))) (. .)))
+                    </ParseTree>
+                </Sentence>
+                <Sentence id="5" offset="938:980">
+                    <Text>Concomitant medications were not reported.</Text>
+                    <Tokens Count="6">
+                        <Token POSTag="JJ" globalID="167" id="0" offset="938:949">
+                            <Text>Concomitant</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="168" id="1" offset="950:961">
+                            <Text>medications</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="169" id="2" offset="962:966">
+                            <Text>were</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="170" id="3" offset="967:970">
+                            <Text>not</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="171" id="4" offset="971:979">
+                            <Text>reported</Text>
+                        </Token>
+                        <Token POSTag="." globalID="172" id="5" offset="979:980">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (NP (JJ Concomitant) (NNS medications)) (VP (VBD were) (RB not) (VP (VBN
+                        reported)))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (JJ Concomitant) (NNS medications)) (VP (VBD were) (RB not) (VP (VBN
+                        reported)))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (JJ Concomitant) (NNS medications)) (VP (VBD were) (RB not) (VP (VBN
+                        reported)))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (JJ Concomitant) (NNS medications)) (VP (VBD were) (RB not) (VP (VBN
+                        reported)))) (. .)))
+                    </ParseTree>
+                </Sentence>
+                <Sentence id="6" offset="982:1052">
+                    <Text>The patient was not initially prescribed 100 mg dose of canagliflozin.</Text>
+                    <Tokens Count="12">
+                        <Token POSTag="DT" globalID="173" id="0" offset="982:985">
+                            <Text>The</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="174" id="1" offset="986:993">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="175" id="2" offset="994:997">
+                            <Text>was</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="176" id="3" offset="998:1001">
+                            <Text>not</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="177" id="4" offset="1002:1011">
+                            <Text>initially</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="178" id="5" offset="1012:1022">
+                            <Text>prescribed</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="179" id="6" offset="1023:1026">
+                            <Text>100</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="180" id="7" offset="1027:1029">
+                            <Text>mg</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="181" id="8" offset="1030:1034">
+                            <Text>dose</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="182" id="9" offset="1035:1037">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="183" id="10" offset="1038:1051">
+                            <Text>canagliflozin</Text>
+                        </Token>
+                        <Token POSTag="." globalID="184" id="11" offset="1051:1052">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD was) (RB not) (ADVP (RB initially)) (VP
+                        (VBN prescribed) (NP (NP (ADJP (CD 100) (NN mg)) (NN dose)) (PP (IN of) (NP (NN
+                        canagliflozin))))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD was) (RB not) (ADVP (RB initially)) (VP
+                        (VBN prescribed) (NP (NP (ADJP (CD 100) (NN mg)) (NN dose)) (PP (IN of) (NP (NN
+                        canagliflozin))))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD was) (RB not) (ADVP (RB initially)) (VP
+                        (VBN prescribed) (NP (NP (ADJP (CD 100) (NN mg)) (NN dose)) (PP (IN of) (NP (NN
+                        canagliflozin))))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD was) (RB not) (ADVP (RB initially)) (VP
+                        (VBN prescribed) (NP (NP (ADJP (CD 100) (NN mg)) (NN dose)) (PP (IN of) (NP (NN
+                        canagliflozin))))))) (. .)))
+                    </ParseTree>
+                </Sentence>
+                <Sentence id="7" offset="1054:1412">
+                    <Text>On 06-AUG-2014, the patient experienced "worsening of pre-existing abdominal belching" (coded
+                        as increased belching), "worsening of pre-existing abdominal pain" (coded as worsening of
+                        abdominal pain), "worsening of pre-existing abdominal gassiness" (coded as very gaseous), and
+                        "worsening of pre-existing abdominal bloating" (coded as worsening of bloating).
+                    </Text>
+                    <Tokens Count="66">
+                        <Token POSTag="IN" globalID="185" id="0" offset="1054:1056">
+                            <Text>On</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="186" id="1" offset="1057:1068">
+                            <Text>06-AUG-2014</Text>
+                        </Token>
+                        <Token POSTag="," globalID="187" id="2" offset="1068:1069">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="188" id="3" offset="1070:1073">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="189" id="4" offset="1074:1081">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="190" id="5" offset="1082:1093">
+                            <Text>experienced</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="191" id="6" offset="1094:1095">
+                            <Text>"</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="192" id="7" offset="1095:1104">
+                            <Text>worsening</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="193" id="8" offset="1105:1107">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="194" id="9" offset="1108:1120">
+                            <Text>pre-existing</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="195" id="10" offset="1121:1130">
+                            <Text>abdominal</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="196" id="11" offset="1131:1139">
+                            <Text>belching</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="197" id="12" offset="1139:1140">
+                            <Text>"</Text>
+                        </Token>
+                        <Token POSTag="-LRB-" globalID="198" id="13" offset="1141:1142">
+                            <Text>(</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="199" id="14" offset="1142:1147">
+                            <Text>coded</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="200" id="15" offset="1148:1150">
+                            <Text>as</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="201" id="16" offset="1151:1160">
+                            <Text>increased</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="202" id="17" offset="1161:1169">
+                            <Text>belching</Text>
+                        </Token>
+                        <Token POSTag="-RRB-" globalID="203" id="18" offset="1169:1170">
+                            <Text>)</Text>
+                        </Token>
+                        <Token POSTag="," globalID="204" id="19" offset="1170:1171">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="205" id="20" offset="1172:1173">
+                            <Text>"</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="206" id="21" offset="1173:1182">
+                            <Text>worsening</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="207" id="22" offset="1183:1185">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="208" id="23" offset="1186:1198">
+                            <Text>pre-existing</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="209" id="24" offset="1199:1208">
+                            <Text>abdominal</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="210" id="25" offset="1209:1213">
+                            <Text>pain</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="211" id="26" offset="1213:1214">
+                            <Text>"</Text>
+                        </Token>
+                        <Token POSTag="-LRB-" globalID="212" id="27" offset="1215:1216">
+                            <Text>(</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="213" id="28" offset="1216:1221">
+                            <Text>coded</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="214" id="29" offset="1222:1224">
+                            <Text>as</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="215" id="30" offset="1225:1234">
+                            <Text>worsening</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="216" id="31" offset="1235:1237">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="217" id="32" offset="1238:1247">
+                            <Text>abdominal</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="218" id="33" offset="1248:1252">
+                            <Text>pain</Text>
+                        </Token>
+                        <Token POSTag="-RRB-" globalID="219" id="34" offset="1252:1253">
+                            <Text>)</Text>
+                        </Token>
+                        <Token POSTag="," globalID="220" id="35" offset="1253:1254">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="221" id="36" offset="1255:1256">
+                            <Text>"</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="222" id="37" offset="1256:1265">
+                            <Text>worsening</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="223" id="38" offset="1266:1268">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="224" id="39" offset="1269:1281">
+                            <Text>pre-existing</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="225" id="40" offset="1282:1291">
+                            <Text>abdominal</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="226" id="41" offset="1292:1301">
+                            <Text>gassiness</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="227" id="42" offset="1301:1302">
+                            <Text>"</Text>
+                        </Token>
+                        <Token POSTag="-LRB-" globalID="228" id="43" offset="1303:1304">
+                            <Text>(</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="229" id="44" offset="1304:1309">
+                            <Text>coded</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="230" id="45" offset="1310:1312">
+                            <Text>as</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="231" id="46" offset="1313:1317">
+                            <Text>very</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="232" id="47" offset="1318:1325">
+                            <Text>gaseous</Text>
+                        </Token>
+                        <Token POSTag="-RRB-" globalID="233" id="48" offset="1325:1326">
+                            <Text>)</Text>
+                        </Token>
+                        <Token POSTag="," globalID="234" id="49" offset="1326:1327">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="235" id="50" offset="1328:1331">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="236" id="51" offset="1332:1333">
+                            <Text>"</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="237" id="52" offset="1333:1342">
+                            <Text>worsening</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="238" id="53" offset="1343:1345">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="239" id="54" offset="1346:1358">
+                            <Text>pre-existing</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="240" id="55" offset="1359:1368">
+                            <Text>abdominal</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="241" id="56" offset="1369:1377">
+                            <Text>bloating</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="242" id="57" offset="1377:1378">
+                            <Text>"</Text>
+                        </Token>
+                        <Token POSTag="-LRB-" globalID="243" id="58" offset="1379:1380">
+                            <Text>(</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="244" id="59" offset="1380:1385">
+                            <Text>coded</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="245" id="60" offset="1386:1388">
+                            <Text>as</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="246" id="61" offset="1389:1398">
+                            <Text>worsening</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="247" id="62" offset="1399:1401">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="248" id="63" offset="1402:1410">
+                            <Text>bloating</Text>
+                        </Token>
+                        <Token POSTag="-RRB-" globalID="249" id="64" offset="1410:1411">
+                            <Text>)</Text>
+                        </Token>
+                        <Token POSTag="." globalID="250" id="65" offset="1411:1412">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (PP (IN On) (NP (NN 06-AUG-2014))) (, ,) (NP (DT the) (NN patient)) (VP (VBN
+                        experienced) (NP (NP (NP (JJ ") (NN worsening)) (PP (IN of) (NP (NP (JJ pre-existing) (JJ
+                        abdominal) (NN belching) (NN ")) (PRN (-LRB- -LRB-) (VP (VBN coded) (PP (IN as) (NP (VBN
+                        increased) (NN belching)))) (-RRB- -RRB-))))) (, ,) (NP (NP (JJ ") (NN worsening)) (PP (IN of)
+                        (NP (NP (JJ pre-existing) (JJ abdominal) (NN pain) (CD ")) (PRN (-LRB- -LRB-) (VP (VBN coded)
+                        (PP (IN as) (NP (NP (NN worsening)) (PP (IN of) (NP (JJ abdominal) (NN pain)))))) (-RRB-
+                        -RRB-))))) (, ,) (NP (NP (JJ ") (NN worsening)) (PP (IN of) (NP (NP (JJ pre-existing) (JJ
+                        abdominal) (NN gassiness) (NN ")) (PRN (-LRB- -LRB-) (VP (VBN coded) (PP (IN as) (ADJP (RB very)
+                        (JJ gaseous)))) (-RRB- -RRB-))))) (, ,) (CC and) (NP (NP (JJ ") (NN worsening)) (PP (IN of) (NP
+                        (NP (JJ pre-existing) (JJ abdominal) (NN bloating) (NN ")) (PRN (-LRB- -LRB-) (VP (VBN coded)
+                        (PP (IN as) (NP (NP (NN worsening)) (PP (IN of) (NP (NN bloating)))))) (-RRB- -RRB-))))))) (.
+                        .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (PP (IN On) (NP (NN 06-AUG-2014))) (, ,) (NP (DT the) (NN patient)) (VP (VBN
+                        experienced) (NP (NP (NP (JJ ") (NN worsening)) (PP (IN of) (NP (NP (JJ pre-existing) (JJ
+                        abdominal) (NN belching) (NN ")) (PRN (-LRB- -LRB-) (VP (VBN coded) (PP (IN as) (NP (VBN
+                        increased) (NN belching)))) (-RRB- -RRB-))))) (, ,) (NP (NP (JJ ") (NN worsening)) (PP (IN of)
+                        (NP (NP (JJ pre-existing) (JJ abdominal) (NN pain) (CD ")) (PRN (-LRB- -LRB-) (VP (VBN coded)
+                        (PP (IN as) (NP (NP (NN worsening)) (PP (IN of) (NP (JJ abdominal) (NN pain)))))) (-RRB-
+                        -RRB-))))) (, ,) (NP (NP (JJ ") (NN worsening)) (PP (IN of) (NP (NP (JJ pre-existing) (JJ
+                        abdominal) (NN gassiness) (NN ")) (PRN (-LRB- -LRB-) (VP (VBN coded) (PP (IN as) (ADJP (RB very)
+                        (JJ gaseous)))) (-RRB- -RRB-))))) (, ,) (CC and) (NP (NP (JJ ") (NN worsening)) (PP (IN of) (NP
+                        (NP (JJ pre-existing) (JJ abdominal) (NN bloating) (NN ")) (PRN (-LRB- -LRB-) (VP (VBN coded)
+                        (PP (IN as) (NP (NP (NN worsening)) (PP (IN of) (NP (NN bloating)))))) (-RRB- -RRB-))))))) (.
+                        .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (PP (IN On) (NP (NN 06-AUG-2014))) (, ,) (NP (DT the) (NN patient)) (VP (VBN
+                        experienced) (NP (NP (NP (JJ ") (NN worsening)) (PP (IN of) (NP (NP (JJ pre-existing) (JJ
+                        abdominal) (NN belching) (NN ")) (PRN (-LRB- -LRB-) (VP (VBN coded) (PP (IN as) (NP (VBN
+                        increased) (NN belching)))) (-RRB- -RRB-))))) (, ,) (NP (NP (JJ ") (NN worsening)) (PP (IN of)
+                        (NP (NP (JJ pre-existing) (JJ abdominal) (NN pain) (CD ")) (PRN (-LRB- -LRB-) (VP (VBN coded)
+                        (PP (IN as) (NP (NP (NN worsening)) (PP (IN of) (NP (JJ abdominal) (NN pain)))))) (-RRB-
+                        -RRB-))))) (, ,) (NP (NP (JJ ") (NN worsening)) (PP (IN of) (NP (NP (JJ pre-existing) (JJ
+                        abdominal) (NN gassiness) (NN ")) (PRN (-LRB- -LRB-) (VP (VBN coded) (PP (IN as) (ADJP (RB very)
+                        (JJ gaseous)))) (-RRB- -RRB-))))) (, ,) (CC and) (NP (NP (JJ ") (NN worsening)) (PP (IN of) (NP
+                        (NP (JJ pre-existing) (JJ abdominal) (NN bloating) (NN ")) (PRN (-LRB- -LRB-) (VP (VBN coded)
+                        (PP (IN as) (NP (NP (NN worsening)) (PP (IN of) (NP (NN bloating)))))) (-RRB- -RRB-))))))) (.
+                        .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (PP (IN On) (NP (NN 06-AUG-2014))) (, ,) (NP (DT the) (NN patient)) (VP (VBN
+                        experienced) (NP (NP (NP (JJ ") (NN worsening)) (PP (IN of) (NP (NP (JJ pre-existing) (JJ
+                        abdominal) (NN belching) (NN ")) (PRN (-LRB- -LRB-) (VP (VBN coded) (PP (IN as) (NP (VBN
+                        increased) (NN belching)))) (-RRB- -RRB-))))) (, ,) (NP (NP (JJ ") (NN worsening)) (PP (IN of)
+                        (NP (NP (JJ pre-existing) (JJ abdominal) (NN pain) (CD ")) (PRN (-LRB- -LRB-) (VP (VBN coded)
+                        (PP (IN as) (NP (NP (NN worsening)) (PP (IN of) (NP (JJ abdominal) (NN pain)))))) (-RRB-
+                        -RRB-))))) (, ,) (NP (NP (JJ ") (NN worsening)) (PP (IN of) (NP (NP (JJ pre-existing) (JJ
+                        abdominal) (NN gassiness) (NN ")) (PRN (-LRB- -LRB-) (VP (VBN coded) (PP (IN as) (ADJP (RB very)
+                        (JJ gaseous)))) (-RRB- -RRB-))))) (, ,) (CC and) (NP (NP (JJ ") (NN worsening)) (PP (IN of) (NP
+                        (NP (JJ pre-existing) (JJ abdominal) (NN bloating) (NN ")) (PRN (-LRB- -LRB-) (VP (VBN coded)
+                        (PP (IN as) (NP (NP (NN worsening)) (PP (IN of) (NP (NN bloating)))))) (-RRB- -RRB-))))))) (.
+                        .)))
+                    </ParseTree>
+                </Sentence>
+                <Sentence id="8" offset="1414:1534">
+                    <Text>In AUG-2014, the patient contacted her physician about the events and was prescribed an
+                        increased dosage of domperidone.
+                    </Text>
+                    <Tokens Count="20">
+                        <Token POSTag="IN" globalID="251" id="0" offset="1414:1416">
+                            <Text>In</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="252" id="1" offset="1417:1425">
+                            <Text>AUG-2014</Text>
+                        </Token>
+                        <Token POSTag="," globalID="253" id="2" offset="1425:1426">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="254" id="3" offset="1427:1430">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="255" id="4" offset="1431:1438">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="256" id="5" offset="1439:1448">
+                            <Text>contacted</Text>
+                        </Token>
+                        <Token POSTag="PRP$" globalID="257" id="6" offset="1449:1452">
+                            <Text>her</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="258" id="7" offset="1453:1462">
+                            <Text>physician</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="259" id="8" offset="1463:1468">
+                            <Text>about</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="260" id="9" offset="1469:1472">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="261" id="10" offset="1473:1479">
+                            <Text>events</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="262" id="11" offset="1480:1483">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="263" id="12" offset="1484:1487">
+                            <Text>was</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="264" id="13" offset="1488:1498">
+                            <Text>prescribed</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="265" id="14" offset="1499:1501">
+                            <Text>an</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="266" id="15" offset="1502:1511">
+                            <Text>increased</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="267" id="16" offset="1512:1518">
+                            <Text>dosage</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="268" id="17" offset="1519:1521">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="269" id="18" offset="1522:1533">
+                            <Text>domperidone</Text>
+                        </Token>
+                        <Token POSTag="." globalID="270" id="19" offset="1533:1534">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (PP (IN In) (NP (NN AUG-2014))) (, ,) (NP (DT the) (NN patient)) (VP (VP (VBD
+                        contacted) (NP (PRP$ her) (NN physician)) (PP (IN about) (NP (DT the) (NNS events)))) (CC and)
+                        (VP (VBD was) (VP (VBN prescribed) (NP (NP (DT an) (VBN increased) (NN dosage)) (PP (IN of) (NP
+                        (NN domperidone)))))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (PP (IN In) (NP (NN AUG-2014))) (, ,) (NP (DT the) (NN patient)) (VP (VP (VBD
+                        contacted) (NP (PRP$ her) (NN physician)) (PP (IN about) (NP (DT the) (NNS events)))) (CC and)
+                        (VP (VBD was) (VP (VBN prescribed) (NP (NP (DT an) (VBN increased) (NN dosage)) (PP (IN of) (NP
+                        (NN domperidone)))))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (PP (IN In) (NP (NN AUG-2014))) (, ,) (NP (DT the) (NN patient)) (VP (VP (VBD
+                        contacted) (NP (PRP$ her) (NN physician)) (PP (IN about) (NP (DT the) (NNS events)))) (CC and)
+                        (VP (VBD was) (VP (VBN prescribed) (NP (NP (DT an) (VBN increased) (NN dosage)) (PP (IN of) (NP
+                        (NN domperidone)))))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (PP (IN In) (NP (NN AUG-2014))) (, ,) (NP (DT the) (NN patient)) (VP (VP (VBD
+                        contacted) (NP (PRP$ her) (NN physician)) (PP (IN about) (NP (DT the) (NNS events)))) (CC and)
+                        (VP (VBD was) (VP (VBN prescribed) (NP (NP (DT an) (VBN increased) (NN dosage)) (PP (IN of) (NP
+                        (NN domperidone)))))))) (. .)))
+                    </ParseTree>
+                </Sentence>
+                <Sentence id="9" offset="1536:1631">
+                    <Text>The patient reported the increased dose of domperidone had not relieved her worsening
+                        symptoms.
+                    </Text>
+                    <Tokens Count="15">
+                        <Token POSTag="DT" globalID="271" id="0" offset="1536:1539">
+                            <Text>The</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="272" id="1" offset="1540:1547">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="273" id="2" offset="1548:1556">
+                            <Text>reported</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="274" id="3" offset="1557:1560">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="275" id="4" offset="1561:1570">
+                            <Text>increased</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="276" id="5" offset="1571:1575">
+                            <Text>dose</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="277" id="6" offset="1576:1578">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="278" id="7" offset="1579:1590">
+                            <Text>domperidone</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="279" id="8" offset="1591:1594">
+                            <Text>had</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="280" id="9" offset="1595:1598">
+                            <Text>not</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="281" id="10" offset="1599:1607">
+                            <Text>relieved</Text>
+                        </Token>
+                        <Token POSTag="PRP$" globalID="282" id="11" offset="1608:1611">
+                            <Text>her</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="283" id="12" offset="1612:1621">
+                            <Text>worsening</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="284" id="13" offset="1622:1630">
+                            <Text>symptoms</Text>
+                        </Token>
+                        <Token POSTag="." globalID="285" id="14" offset="1630:1631">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (NP (NP (DT The) (NN patient)) (VP (VBD reported) (NP (NP (DT the) (VBN
+                        increased) (NN dose)) (PP (IN of) (NP (NN domperidone)))))) (VP (VBD had) (RB not) (VP (VBN
+                        relieved) (NP (PRP$ her) (JJ worsening) (NNS symptoms))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (NP (DT The) (NN patient)) (VP (VBD reported) (NP (NP (DT the) (VBN
+                        increased) (NN dose)) (PP (IN of) (NP (NN domperidone)))))) (VP (VBD had) (RB not) (VP (VBN
+                        relieved) (NP (PRP$ her) (JJ worsening) (NNS symptoms))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (NP (DT The) (NN patient)) (VP (VBD reported) (NP (NP (DT the) (VBN
+                        increased) (NN dose)) (PP (IN of) (NP (NN domperidone)))))) (VP (VBD had) (RB not) (VP (VBN
+                        relieved) (NP (PRP$ her) (JJ worsening) (NNS symptoms))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (NP (DT The) (NN patient)) (VP (VBD reported) (NP (NP (DT the) (VBN
+                        increased) (NN dose)) (PP (IN of) (NP (NN domperidone)))))) (VP (VBD had) (RB not) (VP (VBN
+                        relieved) (NP (PRP$ her) (JJ worsening) (NNS symptoms))))) (. .)))
+                    </ParseTree>
+                </Sentence>
+                <Sentence id="10" offset="1633:1696">
+                    <Text>On 13-AUG-2014, the patient experienced not feeling well today.</Text>
+                    <Tokens Count="11">
+                        <Token POSTag="IN" globalID="286" id="0" offset="1633:1635">
+                            <Text>On</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="287" id="1" offset="1636:1647">
+                            <Text>13-AUG-2014</Text>
+                        </Token>
+                        <Token POSTag="," globalID="288" id="2" offset="1647:1648">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="289" id="3" offset="1649:1652">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="290" id="4" offset="1653:1660">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="291" id="5" offset="1661:1672">
+                            <Text>experienced</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="292" id="6" offset="1673:1676">
+                            <Text>not</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="293" id="7" offset="1677:1684">
+                            <Text>feeling</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="294" id="8" offset="1685:1689">
+                            <Text>well</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="295" id="9" offset="1690:1695">
+                            <Text>today</Text>
+                        </Token>
+                        <Token POSTag="." globalID="296" id="10" offset="1695:1696">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (PP (IN On) (NP (NN 13-AUG-2014))) (, ,) (NP (DT the) (NN patient)) (VP (VBN
+                        experienced) (NP (RB not) (NN feeling)) (PP (RB well) (ADVP (RB today))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (PP (IN On) (NP (NN 13-AUG-2014))) (, ,) (NP (DT the) (NN patient)) (VP (VBN
+                        experienced) (NP (RB not) (NN feeling)) (PP (RB well) (ADVP (RB today))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (PP (IN On) (NP (NN 13-AUG-2014))) (, ,) (NP (DT the) (NN patient)) (VP (VBN
+                        experienced) (NP (RB not) (NN feeling)) (PP (RB well) (ADVP (RB today))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (PP (IN On) (NP (NN 13-AUG-2014))) (, ,) (NP (DT the) (NN patient)) (VP (VBN
+                        experienced) (NP (RB not) (NN feeling)) (PP (RB well) (ADVP (RB today))))) (. .)))
+                    </ParseTree>
+                </Sentence>
+                <Sentence id="11" offset="1698:1735">
+                    <Text>No laboratory findings were provided.</Text>
+                    <Tokens Count="6">
+                        <Token POSTag="NN" globalID="297" id="0" offset="1698:1700">
+                            <Text>No</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="298" id="1" offset="1701:1711">
+                            <Text>laboratory</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="299" id="2" offset="1712:1720">
+                            <Text>findings</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="300" id="3" offset="1721:1725">
+                            <Text>were</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="301" id="4" offset="1726:1734">
+                            <Text>provided</Text>
+                        </Token>
+                        <Token POSTag="." globalID="302" id="5" offset="1734:1735">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (NP (NN No) (NN laboratory) (NNS findings)) (VP (VBD were) (VP (VBN
+                        provided)))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (NN No) (NN laboratory) (NNS findings)) (VP (VBD were) (VP (VBN
+                        provided)))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (NN No) (NN laboratory) (NNS findings)) (VP (VBD were) (VP (VBN
+                        provided)))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (NN No) (NN laboratory) (NNS findings)) (VP (VBD were) (VP (VBN
+                        provided)))) (. .)))
+                    </ParseTree>
+                </Sentence>
+                <Sentence id="12" offset="1737:1821">
+                    <Text>The dose of domperidone was increased and the dose of canagliflozin was not changed.</Text>
+                    <Tokens Count="15">
+                        <Token POSTag="DT" globalID="303" id="0" offset="1737:1740">
+                            <Text>The</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="304" id="1" offset="1741:1745">
+                            <Text>dose</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="305" id="2" offset="1746:1748">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="306" id="3" offset="1749:1760">
+                            <Text>domperidone</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="307" id="4" offset="1761:1764">
+                            <Text>was</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="308" id="5" offset="1765:1774">
+                            <Text>increased</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="309" id="6" offset="1775:1778">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="310" id="7" offset="1779:1782">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="311" id="8" offset="1783:1787">
+                            <Text>dose</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="312" id="9" offset="1788:1790">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="313" id="10" offset="1791:1804">
+                            <Text>canagliflozin</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="314" id="11" offset="1805:1808">
+                            <Text>was</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="315" id="12" offset="1809:1812">
+                            <Text>not</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="316" id="13" offset="1813:1820">
+                            <Text>changed</Text>
+                        </Token>
+                        <Token POSTag="." globalID="317" id="14" offset="1820:1821">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (S (NP (NP (DT The) (NN dose)) (PP (IN of) (NP (NN domperidone)))) (VP (VBD
+                        was) (VP (VBN increased)))) (CC and) (S (NP (NP (DT the) (NN dose)) (PP (IN of) (NP (NN
+                        canagliflozin)))) (VP (VBD was) (RB not) (VP (VBN changed))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (S (NP (NP (DT The) (NN dose)) (PP (IN of) (NP (NN domperidone)))) (VP (VBD
+                        was) (VP (VBN increased)))) (CC and) (S (NP (NP (DT the) (NN dose)) (PP (IN of) (NP (NN
+                        canagliflozin)))) (VP (VBD was) (RB not) (VP (VBN changed))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (S (NP (NP (DT The) (NN dose)) (PP (IN of) (NP (NN domperidone)))) (VP (VBD
+                        was) (VP (VBN increased)))) (CC and) (S (NP (NP (DT the) (NN dose)) (PP (IN of) (NP (NN
+                        canagliflozin)))) (VP (VBD was) (RB not) (VP (VBN changed))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (S (NP (NP (DT The) (NN dose)) (PP (IN of) (NP (NN domperidone)))) (VP (VBD
+                        was) (VP (VBN increased)))) (CC and) (S (NP (NP (DT the) (NN dose)) (PP (IN of) (NP (NN
+                        canagliflozin)))) (VP (VBD was) (RB not) (VP (VBN changed))))) (. .)))
+                    </ParseTree>
+                </Sentence>
+                <Sentence id="13" offset="1823:1972">
+                    <Text>The patient had not recovered from increased belching, worsening of abdominal pain, very
+                        gaseous, worsening of bloating, and not feeling well today.
+                    </Text>
+                    <Tokens Count="27">
+                        <Token POSTag="DT" globalID="318" id="0" offset="1823:1826">
+                            <Text>The</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="319" id="1" offset="1827:1834">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="320" id="2" offset="1835:1838">
+                            <Text>had</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="321" id="3" offset="1839:1842">
+                            <Text>not</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="322" id="4" offset="1843:1852">
+                            <Text>recovered</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="323" id="5" offset="1853:1857">
+                            <Text>from</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="324" id="6" offset="1858:1867">
+                            <Text>increased</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="325" id="7" offset="1868:1876">
+                            <Text>belching</Text>
+                        </Token>
+                        <Token POSTag="," globalID="326" id="8" offset="1876:1877">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="327" id="9" offset="1878:1887">
+                            <Text>worsening</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="328" id="10" offset="1888:1890">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="329" id="11" offset="1891:1900">
+                            <Text>abdominal</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="330" id="12" offset="1901:1905">
+                            <Text>pain</Text>
+                        </Token>
+                        <Token POSTag="," globalID="331" id="13" offset="1905:1906">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="332" id="14" offset="1907:1911">
+                            <Text>very</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="333" id="15" offset="1912:1919">
+                            <Text>gaseous</Text>
+                        </Token>
+                        <Token POSTag="," globalID="334" id="16" offset="1919:1920">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="335" id="17" offset="1921:1930">
+                            <Text>worsening</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="336" id="18" offset="1931:1933">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="337" id="19" offset="1934:1942">
+                            <Text>bloating</Text>
+                        </Token>
+                        <Token POSTag="," globalID="338" id="20" offset="1942:1943">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="339" id="21" offset="1944:1947">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="340" id="22" offset="1948:1951">
+                            <Text>not</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="341" id="23" offset="1952:1959">
+                            <Text>feeling</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="342" id="24" offset="1960:1964">
+                            <Text>well</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="343" id="25" offset="1965:1970">
+                            <Text>today</Text>
+                        </Token>
+                        <Token POSTag="." globalID="344" id="26" offset="1970:1971">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD had) (RB not) (VP (VBN recovered) (PP (IN
+                        from) (NP (VBN increased) (UCP (ADJP (JJ belching)) (, ,) (NP (NP (NN worsening)) (PP (IN of)
+                        (NP (JJ abdominal) (NN pain)))) (, ,) (ADJP (RB very) (JJ gaseous)) (, ,) (ADJP (JJ worsening)
+                        (PP (IN of) (NP (NN bloating)))) (, ,) (CC and) (ADJP (RB not) (JJ feeling))) (NN well) (NN
+                        today)))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD had) (RB not) (VP (VBN recovered) (PP (IN
+                        from) (NP (VBN increased) (UCP (ADJP (JJ belching)) (, ,) (NP (NP (NN worsening)) (PP (IN of)
+                        (NP (JJ abdominal) (NN pain)))) (, ,) (ADJP (RB very) (JJ gaseous)) (, ,) (ADJP (JJ worsening)
+                        (PP (IN of) (NP (NN bloating)))) (, ,) (CC and) (ADJP (RB not) (JJ feeling))) (NN well) (NN
+                        today)))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD had) (RB not) (VP (VBN recovered) (PP (IN
+                        from) (NP (VBN increased) (UCP (ADJP (JJ belching)) (, ,) (NP (NP (NN worsening)) (PP (IN of)
+                        (NP (JJ abdominal) (NN pain)))) (, ,) (ADJP (RB very) (JJ gaseous)) (, ,) (ADJP (JJ worsening)
+                        (PP (IN of) (NP (NN bloating)))) (, ,) (CC and) (ADJP (RB not) (JJ feeling))) (NN well) (NN
+                        today)))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD had) (RB not) (VP (VBN recovered) (PP (IN
+                        from) (NP (VBN increased) (UCP (ADJP (JJ belching)) (, ,) (NP (NP (NN worsening)) (PP (IN of)
+                        (NP (JJ abdominal) (NN pain)))) (, ,) (ADJP (RB very) (JJ gaseous)) (, ,) (ADJP (JJ worsening)
+                        (PP (IN of) (NP (NN bloating)))) (, ,) (CC and) (ADJP (RB not) (JJ feeling))) (NN well) (NN
+                        today)))))) (. .)))
+                    </ParseTree>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="3">
+            <Sentences Count="0"/>
+        </Paragraph>
+        <Paragraph id="4">
+            <Sentences Count="1">
+                <Sentence id="0" offset="1974:2087">
+                    <Text>This report was identified by the call center as a product quality complaint: PQMS reference
+                        number 10000228235.
+                    </Text>
+                    <Tokens Count="19">
+                        <Token POSTag="DT" globalID="345" id="0" offset="1974:1978">
+                            <Text>This</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="346" id="1" offset="1979:1985">
+                            <Text>report</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="347" id="2" offset="1986:1989">
+                            <Text>was</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="348" id="3" offset="1990:2000">
+                            <Text>identified</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="349" id="4" offset="2001:2003">
+                            <Text>by</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="350" id="5" offset="2004:2007">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="351" id="6" offset="2008:2012">
+                            <Text>call</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="352" id="7" offset="2013:2019">
+                            <Text>center</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="353" id="8" offset="2020:2022">
+                            <Text>as</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="354" id="9" offset="2020:2021">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="355" id="10" offset="2025:2032">
+                            <Text>product</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="356" id="11" offset="2033:2040">
+                            <Text>quality</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="357" id="12" offset="2041:2050">
+                            <Text>complaint</Text>
+                        </Token>
+                        <Token POSTag=":" globalID="358" id="13" offset="2050:2051">
+                            <Text>:</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="359" id="14" offset="2053:2057">
+                            <Text>PQMS</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="360" id="15" offset="2058:2067">
+                            <Text>reference</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="361" id="16" offset="2068:2074">
+                            <Text>number</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="362" id="17" offset="2075:2086">
+                            <Text>10000228235</Text>
+                        </Token>
+                        <Token POSTag="." globalID="363" id="18" offset="2086:2087">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (NP (DT This) (NN report)) (VP (VBD was) (VP (VBN identified) (PP (IN by) (NP
+                        (DT the) (NN call) (NN center))) (PP (IN as) (NP (NP (DT a) (NN product) (NN quality) (NN
+                        complaint)) (: :) (NP (NN PQMS) (NN reference) (NN number) (CD 10000228235))))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (DT This) (NN report)) (VP (VBD was) (VP (VBN identified) (PP (IN by) (NP
+                        (DT the) (NN call) (NN center))) (PP (IN as) (NP (NP (DT a) (NN product) (NN quality) (NN
+                        complaint)) (: :) (NP (NN PQMS) (NN reference) (NN number) (CD 10000228235))))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (DT This) (NN report)) (VP (VBD was) (VP (VBN identified) (PP (IN by) (NP
+                        (DT the) (NN call) (NN center))) (PP (IN as) (NP (NP (DT a) (NN product) (NN quality) (NN
+                        complaint)) (: :) (NP (NN PQMS) (NN reference) (NN number) (CD 10000228235))))))) (. .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (DT This) (NN report)) (VP (VBD was) (VP (VBN identified) (PP (IN by) (NP
+                        (DT the) (NN call) (NN center))) (PP (IN as) (NP (NP (DT a) (NN product) (NN quality) (NN
+                        complaint)) (: :) (NP (NN PQMS) (NN reference) (NN number) (CD 10000228235))))))) (. .)))
+                    </ParseTree>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="5">
+            <Sentences Count="0"/>
+        </Paragraph>
+        <Paragraph id="6">
+            <Sentences Count="1">
+                <Sentence id="0" offset="2089:2117">
+                    <Text>This report was not serious.</Text>
+                    <Tokens Count="6">
+                        <Token POSTag="DT" globalID="364" id="0" offset="2089:2093">
+                            <Text>This</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="365" id="1" offset="2094:2100">
+                            <Text>report</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="366" id="2" offset="2101:2104">
+                            <Text>was</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="367" id="3" offset="2105:2108">
+                            <Text>not</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="368" id="4" offset="2109:2116">
+                            <Text>serious</Text>
+                        </Token>
+                        <Token POSTag="." globalID="369" id="5" offset="2116:2117">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (NP (DT This) (NN report)) (VP (VBD was) (RB not) (ADJP (JJ serious)))) (.
+                        .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (DT This) (NN report)) (VP (VBD was) (RB not) (ADJP (JJ serious)))) (.
+                        .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (DT This) (NN report)) (VP (VBD was) (RB not) (ADJP (JJ serious)))) (.
+                        .)))
+                    </ParseTree>
+                    <ParseTree>(S1 (S (S (NP (DT This) (NN report)) (VP (VBD was) (RB not) (ADJP (JJ serious)))) (.
+                        .)))
+                    </ParseTree>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="7">
+            <Sentences Count="0"/>
+        </Paragraph>
+    </Paragraphs>
+</StartOutput>

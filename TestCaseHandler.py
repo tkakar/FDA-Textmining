@@ -1,25 +1,27 @@
 import os, glob
+import timeit
 import ProjectAERIS
 
+cwd = os.getcwd()
 
-inputPath = '/work/swunnava/git-repos/TSIntegration1/FDA-Textmining/Test_Suite/Test_Cases/'
+inputPath = cwd + '/Test_Suite/Test_Cases/gen012.txt'
 
-outputPath = '/work/swunnava/git-repos/TSIntegration1/FDA-Textmining/Postprocessing/Intermediate4'
+outputPath = cwd + '/Postprocessing/Intermediate4'
 
-configFilePath = '/work/swunnava/git-repos/TSIntegration1/FDA-Textmining/Resources/config_with_age.json'
+configFilePath = cwd + '/Resources/config.json'
 
 def main():
-    count = 0
+    # count = 0
     for filename in glob.glob(os.path.join(inputPath, '*.txt')):
-#        if count > 4: break
-        
+        # if count == 5: break
+        # count += 1
+
         lastFolderIdx = filename.rfind(r'/')
         outputFileName = filename[lastFolderIdx + 1:-4]
-        print 'outputFileName', outputPath+r'/'+outputFileName+'.xml'
-        print 'filename: ', filename, 'outputpath: ', outputPath+r'/'+outputFileName+'_Intermediate.xml', 'configpath: ', configFilePath
-        ProjectAERIS.main(filename, outputPath+r'/'+outputFileName+'_Intermediate.xml', configFilePath)
+        print 'outputFileName', outputPath + r'/' + outputFileName + '.xml'
+        print 'filename: ', filename, 'outputpath: ', outputPath + r'/' + outputFileName + '_Intermediate.xml', 'configpath: ', configFilePath
+        ProjectAERIS.main(filename, outputPath + r'/' + outputFileName + '_Intermediate.xml', configFilePath)
 
-#        count += 1
 
 if __name__ == '__main__':
     main()

@@ -1,4 +1,4 @@
-#-------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------
 # Name:        Information extraction with NLTK Part-Of-Speech Tagging
 # Purpose:      Textmining on FDA report narratives.
 #               Extract age, height, weight and dates mentioned in the report
@@ -8,7 +8,7 @@
 # Created:     28/03/2016
 # Copyright:   (c) susmi 2016
 # Licence:     <your licence>
-#-------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------
 import re
 import nltk
 from nltk.tokenize import sent_tokenize, word_tokenize
@@ -19,7 +19,7 @@ sentences = sent_tokenize(content)
 
 filtered_sentences = []
 for s in sentences:
-    s=re.sub('-', ' ', s)   ## Replace "-" with " " in the sentences, especially useful for extracting age
+    s = re.sub('-', ' ', s)  ## Replace "-" with " " in the sentences, especially useful for extracting age
     filtered_sentences.append(s)
 
 ## Word Tokenization
@@ -30,28 +30,28 @@ year = []
 
 for i in tokenized:
 
-    #words = nltk.word_tokenize(i)
+    # words = nltk.word_tokenize(i)
     tagged = nltk.pos_tag(i)
 
     ##Assumption: Various input formats considered for age:71 year old, 39 years old, 50-year-old, 7 years, 1 year, 3-years
     chunkGram = r"""numberChunks: {<CD><NN.?><JJ>?<CD>?}"""
     chunkParser = nltk.RegexpParser(chunkGram)
     chunked = chunkParser.parse(tagged)
-##            print("chunked:")
-##            print(chunked)
-##            chunked.draw()
+    ##            print("chunked:")
+    ##            print(chunked)
+    ##            chunked.draw()
 
     for n in chunked:
         if isinstance(n, nltk.tree.Tree):
             if n.label() == 'numberChunks':
                 if len(n) == 3:
                     if n[2][1] == 'CD':
-                        tag = n[0][0]+" "+n[1][0]+" "+n[2][0]
+                        tag = n[0][0] + " " + n[1][0] + " " + n[2][0]
                         year.append(tag)
                     else:
-                        tag = n[0][0]+" "+n[1][0]
+                        tag = n[0][0] + " " + n[1][0]
                 else:
-                    tag = n[0][0]+" "+n[1][0]
+                    tag = n[0][0] + " " + n[1][0]
                 final_tags.append(tag)
 ##                else:
 ##                    print(2)

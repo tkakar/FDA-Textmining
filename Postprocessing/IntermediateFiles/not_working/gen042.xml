@@ -1,1 +1,586 @@
-<StartOutput><Paragraphs Count="15"><Paragraph id="0"><Sentences Count="1"><Sentence id="0" offset="0:42"><Text>CHIEF COMPLAINT: Leaking nephrostomy tube.</Text><Tokens Count="7"><Token globalID="0" id="0" offset="0:5"><Text>CHIEF</Text></Token><Token globalID="1" id="1" offset="6:15"><Text>COMPLAINT</Text></Token><Token globalID="2" id="2" offset="15:16"><Text>:</Text></Token><Token globalID="3" id="3" offset="17:24"><Text>Leaking</Text></Token><Token globalID="4" id="4" offset="25:36"><Text>nephrostomy</Text></Token><Token globalID="5" id="5" offset="37:41"><Text>tube</Text></Token><Token globalID="6" id="6" offset="41:42"><Text>.</Text></Token></Tokens></Sentence></Sentences></Paragraph><Paragraph id="1"><Sentences Count="8"><Sentence id="0" offset="44:209"><Text>HISTORY OF PRESENT ILLNESS: This 61-year-old male was referred in today secondary to having urine leaked around the ostomy site for his right sided nephrostomy tube.</Text><Tokens Count="28"><Token globalID="7" id="0" offset="44:51"><Text>HISTORY</Text></Token><Token globalID="8" id="1" offset="52:54"><Text>OF</Text></Token><Token globalID="9" id="2" offset="55:62"><Text>PRESENT</Text></Token><Token globalID="10" id="3" offset="63:70"><Text>ILLNESS</Text></Token><Token globalID="11" id="4" offset="70:71"><Text>:</Text></Token><Token globalID="12" id="5" offset="72:76"><Text>This</Text></Token><Token globalID="13" id="6" offset="77:88"><Text>61-year-old</Text></Token><Token globalID="14" id="7" offset="89:93"><Text>male</Text></Token><Token globalID="15" id="8" offset="94:97"><Text>was</Text></Token><Token globalID="16" id="9" offset="98:106"><Text>referred</Text></Token><Token globalID="17" id="10" offset="107:109"><Text>in</Text></Token><Token globalID="18" id="11" offset="110:115"><Text>today</Text></Token><Token globalID="19" id="12" offset="116:125"><Text>secondary</Text></Token><Token globalID="20" id="13" offset="126:128"><Text>to</Text></Token><Token globalID="21" id="14" offset="129:135"><Text>having</Text></Token><Token globalID="22" id="15" offset="136:141"><Text>urine</Text></Token><Token globalID="23" id="16" offset="142:148"><Text>leaked</Text></Token><Token globalID="24" id="17" offset="149:155"><Text>around</Text></Token><Token globalID="25" id="18" offset="156:159"><Text>the</Text></Token><Token globalID="26" id="19" offset="160:166"><Text>ostomy</Text></Token><Token globalID="27" id="20" offset="167:171"><Text>site</Text></Token><Token globalID="28" id="21" offset="172:175"><Text>for</Text></Token><Token globalID="29" id="22" offset="176:179"><Text>his</Text></Token><Token globalID="30" id="23" offset="180:185"><Text>right</Text></Token><Token globalID="31" id="24" offset="186:191"><Text>sided</Text></Token><Token globalID="32" id="25" offset="192:203"><Text>nephrostomy</Text></Token><Token globalID="33" id="26" offset="204:208"><Text>tube</Text></Token><Token globalID="34" id="27" offset="208:209"><Text>.</Text></Token></Tokens></Sentence><Sentence id="1" offset="210:237"><Text>The leaking began this a.m.</Text><Tokens Count="6"><Token globalID="35" id="0" offset="210:213"><Text>The</Text></Token><Token globalID="36" id="1" offset="214:221"><Text>leaking</Text></Token><Token globalID="37" id="2" offset="222:227"><Text>began</Text></Token><Token globalID="38" id="3" offset="228:232"><Text>this</Text></Token><Token globalID="39" id="4" offset="233:236"><Text>a.m</Text></Token><Token globalID="40" id="5" offset="234:235"><Text>.</Text></Token></Tokens></Sentence><Sentence id="2" offset="238:327"><Text>The patient denies any pain, does not have fever and has no other problems or complaints.</Text><Tokens Count="18"><Token globalID="41" id="0" offset="238:241"><Text>The</Text></Token><Token globalID="42" id="1" offset="242:249"><Text>patient</Text></Token><Token globalID="43" id="2" offset="250:256"><Text>denies</Text></Token><Token globalID="44" id="3" offset="257:260"><Text>any</Text></Token><Token globalID="45" id="4" offset="261:265"><Text>pain</Text></Token><Token globalID="46" id="5" offset="265:266"><Text>,</Text></Token><Token globalID="47" id="6" offset="267:271"><Text>does</Text></Token><Token globalID="48" id="7" offset="272:275"><Text>not</Text></Token><Token globalID="49" id="8" offset="276:280"><Text>have</Text></Token><Token globalID="50" id="9" offset="281:286"><Text>fever</Text></Token><Token globalID="51" id="10" offset="287:290"><Text>and</Text></Token><Token globalID="52" id="11" offset="291:294"><Text>has</Text></Token><Token globalID="53" id="12" offset="295:297"><Text>no</Text></Token><Token globalID="54" id="13" offset="298:303"><Text>other</Text></Token><Token globalID="55" id="14" offset="304:312"><Text>problems</Text></Token><Token globalID="56" id="15" offset="313:315"><Text>or</Text></Token><Token globalID="57" id="16" offset="316:326"><Text>complaints</Text></Token><Token globalID="58" id="17" offset="326:327"><Text>.</Text></Token></Tokens></Sentence><Sentence id="3" offset="328:537"><Text>The patient had bilateral nephrostomy tubes placed one month ago secondary to his prostate cancer metastasizing and causing bilateral ureteral obstructions that were severe enough to cause acute renal failure.</Text><Tokens Count="31"><Token globalID="59" id="0" offset="328:331"><Text>The</Text></Token><Token globalID="60" id="1" offset="332:339"><Text>patient</Text></Token><Token globalID="61" id="2" offset="340:343"><Text>had</Text></Token><Token globalID="62" id="3" offset="344:353"><Text>bilateral</Text></Token><Token globalID="63" id="4" offset="354:365"><Text>nephrostomy</Text></Token><Token globalID="64" id="5" offset="366:371"><Text>tubes</Text></Token><Token globalID="65" id="6" offset="372:378"><Text>placed</Text></Token><Token globalID="66" id="7" offset="379:382"><Text>one</Text></Token><Token globalID="67" id="8" offset="383:388"><Text>month</Text></Token><Token globalID="68" id="9" offset="389:392"><Text>ago</Text></Token><Token globalID="69" id="10" offset="393:402"><Text>secondary</Text></Token><Token globalID="70" id="11" offset="403:405"><Text>to</Text></Token><Token globalID="71" id="12" offset="406:409"><Text>his</Text></Token><Token globalID="72" id="13" offset="410:418"><Text>prostate</Text></Token><Token globalID="73" id="14" offset="419:425"><Text>cancer</Text></Token><Token globalID="74" id="15" offset="426:439"><Text>metastasizing</Text></Token><Token globalID="75" id="16" offset="440:443"><Text>and</Text></Token><Token globalID="76" id="17" offset="444:451"><Text>causing</Text></Token><Token globalID="77" id="18" offset="452:461"><Text>bilateral</Text></Token><Token globalID="78" id="19" offset="462:470"><Text>ureteral</Text></Token><Token globalID="79" id="20" offset="471:483"><Text>obstructions</Text></Token><Token globalID="80" id="21" offset="484:488"><Text>that</Text></Token><Token globalID="81" id="22" offset="489:493"><Text>were</Text></Token><Token globalID="82" id="23" offset="494:500"><Text>severe</Text></Token><Token globalID="83" id="24" offset="501:507"><Text>enough</Text></Token><Token globalID="84" id="25" offset="508:510"><Text>to</Text></Token><Token globalID="85" id="26" offset="511:516"><Text>cause</Text></Token><Token globalID="86" id="27" offset="517:522"><Text>acute</Text></Token><Token globalID="87" id="28" offset="523:528"><Text>renal</Text></Token><Token globalID="88" id="29" offset="529:536"><Text>failure</Text></Token><Token globalID="89" id="30" offset="536:537"><Text>.</Text></Token></Tokens></Sentence><Sentence id="4" offset="538:624"><Text>The patient states he feels like his usual self and has no other problems or concerns.</Text><Tokens Count="17"><Token globalID="90" id="0" offset="538:541"><Text>The</Text></Token><Token globalID="91" id="1" offset="542:549"><Text>patient</Text></Token><Token globalID="92" id="2" offset="550:556"><Text>states</Text></Token><Token globalID="93" id="3" offset="557:559"><Text>he</Text></Token><Token globalID="94" id="4" offset="560:565"><Text>feels</Text></Token><Token globalID="95" id="5" offset="566:570"><Text>like</Text></Token><Token globalID="96" id="6" offset="571:574"><Text>his</Text></Token><Token globalID="97" id="7" offset="575:580"><Text>usual</Text></Token><Token globalID="98" id="8" offset="581:585"><Text>self</Text></Token><Token globalID="99" id="9" offset="586:589"><Text>and</Text></Token><Token globalID="100" id="10" offset="590:593"><Text>has</Text></Token><Token globalID="101" id="11" offset="594:596"><Text>no</Text></Token><Token globalID="102" id="12" offset="597:602"><Text>other</Text></Token><Token globalID="103" id="13" offset="603:611"><Text>problems</Text></Token><Token globalID="104" id="14" offset="612:614"><Text>or</Text></Token><Token globalID="105" id="15" offset="615:623"><Text>concerns</Text></Token><Token globalID="106" id="16" offset="623:624"><Text>.</Text></Token></Tokens></Sentence><Sentence id="5" offset="625:664"><Text>The patient denies any fever or chills.</Text><Tokens Count="8"><Token globalID="107" id="0" offset="625:628"><Text>The</Text></Token><Token globalID="108" id="1" offset="629:636"><Text>patient</Text></Token><Token globalID="109" id="2" offset="637:643"><Text>denies</Text></Token><Token globalID="110" id="3" offset="644:647"><Text>any</Text></Token><Token globalID="111" id="4" offset="648:653"><Text>fever</Text></Token><Token globalID="112" id="5" offset="654:656"><Text>or</Text></Token><Token globalID="113" id="6" offset="657:663"><Text>chills</Text></Token><Token globalID="114" id="7" offset="663:664"><Text>.</Text></Token></Tokens></Sentence><Sentence id="6" offset="665:687"><Text>No nausea or vomiting.</Text><Tokens Count="5"><Token globalID="115" id="0" offset="665:667"><Text>No</Text></Token><Token globalID="116" id="1" offset="668:674"><Text>nausea</Text></Token><Token globalID="117" id="2" offset="675:677"><Text>or</Text></Token><Token globalID="118" id="3" offset="678:686"><Text>vomiting</Text></Token><Token globalID="119" id="4" offset="686:687"><Text>.</Text></Token></Tokens></Sentence><Sentence id="7" offset="688:785"><Text>No flank pain, no abdominal pain, no chest pain, no shortness of breath, no swelling to the legs.</Text><Tokens Count="23"><Token globalID="120" id="0" offset="688:690"><Text>No</Text></Token><Token globalID="121" id="1" offset="691:696"><Text>flank</Text></Token><Token globalID="122" id="2" offset="697:701"><Text>pain</Text></Token><Token globalID="123" id="3" offset="701:702"><Text>,</Text></Token><Token globalID="124" id="4" offset="703:705"><Text>no</Text></Token><Token globalID="125" id="5" offset="706:715"><Text>abdominal</Text></Token><Token globalID="126" id="6" offset="716:720"><Text>pain</Text></Token><Token globalID="127" id="7" offset="720:721"><Text>,</Text></Token><Token globalID="128" id="8" offset="722:724"><Text>no</Text></Token><Token globalID="129" id="9" offset="725:730"><Text>chest</Text></Token><Token globalID="130" id="10" offset="731:735"><Text>pain</Text></Token><Token globalID="131" id="11" offset="735:736"><Text>,</Text></Token><Token globalID="132" id="12" offset="737:739"><Text>no</Text></Token><Token globalID="133" id="13" offset="740:749"><Text>shortness</Text></Token><Token globalID="134" id="14" offset="750:752"><Text>of</Text></Token><Token globalID="135" id="15" offset="753:759"><Text>breath</Text></Token><Token globalID="136" id="16" offset="759:760"><Text>,</Text></Token><Token globalID="137" id="17" offset="761:763"><Text>no</Text></Token><Token globalID="138" id="18" offset="764:772"><Text>swelling</Text></Token><Token globalID="139" id="19" offset="773:775"><Text>to</Text></Token><Token globalID="140" id="20" offset="776:779"><Text>the</Text></Token><Token globalID="141" id="21" offset="780:784"><Text>legs</Text></Token><Token globalID="142" id="22" offset="784:785"><Text>.</Text></Token></Tokens></Sentence></Sentences></Paragraph><Paragraph id="2"><Sentences Count="1"><Sentence id="0" offset="787:863"><Text>REVIEW OF SYSTEMS: Review of systems otherwise negative and noncontributory.</Text><Tokens Count="12"><Token globalID="143" id="0" offset="787:793"><Text>REVIEW</Text></Token><Token globalID="144" id="1" offset="794:796"><Text>OF</Text></Token><Token globalID="145" id="2" offset="797:804"><Text>SYSTEMS</Text></Token><Token globalID="146" id="3" offset="804:805"><Text>:</Text></Token><Token globalID="147" id="4" offset="806:812"><Text>Review</Text></Token><Token globalID="148" id="5" offset="813:815"><Text>of</Text></Token><Token globalID="149" id="6" offset="816:823"><Text>systems</Text></Token><Token globalID="150" id="7" offset="824:833"><Text>otherwise</Text></Token><Token globalID="151" id="8" offset="834:842"><Text>negative</Text></Token><Token globalID="152" id="9" offset="843:846"><Text>and</Text></Token><Token globalID="153" id="10" offset="847:862"><Text>noncontributory</Text></Token><Token globalID="154" id="11" offset="862:863"><Text>.</Text></Token></Tokens></Sentence></Sentences></Paragraph><Paragraph id="3"><Sentences Count="1"><Sentence id="0" offset="865:936"><Text>PAST MEDICAL HISTORY: Metastatic prostate cancer, anemia, hypertension.</Text><Tokens Count="12"><Token globalID="155" id="0" offset="865:869"><Text>PAST</Text></Token><Token globalID="156" id="1" offset="870:877"><Text>MEDICAL</Text></Token><Token globalID="157" id="2" offset="878:885"><Text>HISTORY</Text></Token><Token globalID="158" id="3" offset="885:886"><Text>:</Text></Token><Token globalID="159" id="4" offset="887:897"><Text>Metastatic</Text></Token><Token globalID="160" id="5" offset="898:906"><Text>prostate</Text></Token><Token globalID="161" id="6" offset="907:913"><Text>cancer</Text></Token><Token globalID="162" id="7" offset="913:914"><Text>,</Text></Token><Token globalID="163" id="8" offset="915:921"><Text>anemia</Text></Token><Token globalID="164" id="9" offset="921:922"><Text>,</Text></Token><Token globalID="165" id="10" offset="923:935"><Text>hypertension</Text></Token><Token globalID="166" id="11" offset="935:936"><Text>.</Text></Token></Tokens></Sentence></Sentences></Paragraph><Paragraph id="4"><Sentences Count="1"><Sentence id="0" offset="938:1023"><Text>
+<StartOutput>
+    <Paragraphs Count="15">
+        <Paragraph id="0">
+            <Sentences Count="1">
+                <Sentence id="0" offset="0:42">
+                    <Text>CHIEF COMPLAINT: Leaking nephrostomy tube.</Text>
+                    <Tokens Count="7">
+                        <Token globalID="0" id="0" offset="0:5">
+                            <Text>CHIEF</Text>
+                        </Token>
+                        <Token globalID="1" id="1" offset="6:15">
+                            <Text>COMPLAINT</Text>
+                        </Token>
+                        <Token globalID="2" id="2" offset="15:16">
+                            <Text>:</Text>
+                        </Token>
+                        <Token globalID="3" id="3" offset="17:24">
+                            <Text>Leaking</Text>
+                        </Token>
+                        <Token globalID="4" id="4" offset="25:36">
+                            <Text>nephrostomy</Text>
+                        </Token>
+                        <Token globalID="5" id="5" offset="37:41">
+                            <Text>tube</Text>
+                        </Token>
+                        <Token globalID="6" id="6" offset="41:42">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="1">
+            <Sentences Count="8">
+                <Sentence id="0" offset="44:209">
+                    <Text>HISTORY OF PRESENT ILLNESS: This 61-year-old male was referred in today secondary to having
+                        urine leaked around the ostomy site for his right sided nephrostomy tube.
+                    </Text>
+                    <Tokens Count="28">
+                        <Token globalID="7" id="0" offset="44:51">
+                            <Text>HISTORY</Text>
+                        </Token>
+                        <Token globalID="8" id="1" offset="52:54">
+                            <Text>OF</Text>
+                        </Token>
+                        <Token globalID="9" id="2" offset="55:62">
+                            <Text>PRESENT</Text>
+                        </Token>
+                        <Token globalID="10" id="3" offset="63:70">
+                            <Text>ILLNESS</Text>
+                        </Token>
+                        <Token globalID="11" id="4" offset="70:71">
+                            <Text>:</Text>
+                        </Token>
+                        <Token globalID="12" id="5" offset="72:76">
+                            <Text>This</Text>
+                        </Token>
+                        <Token globalID="13" id="6" offset="77:88">
+                            <Text>61-year-old</Text>
+                        </Token>
+                        <Token globalID="14" id="7" offset="89:93">
+                            <Text>male</Text>
+                        </Token>
+                        <Token globalID="15" id="8" offset="94:97">
+                            <Text>was</Text>
+                        </Token>
+                        <Token globalID="16" id="9" offset="98:106">
+                            <Text>referred</Text>
+                        </Token>
+                        <Token globalID="17" id="10" offset="107:109">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="18" id="11" offset="110:115">
+                            <Text>today</Text>
+                        </Token>
+                        <Token globalID="19" id="12" offset="116:125">
+                            <Text>secondary</Text>
+                        </Token>
+                        <Token globalID="20" id="13" offset="126:128">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="21" id="14" offset="129:135">
+                            <Text>having</Text>
+                        </Token>
+                        <Token globalID="22" id="15" offset="136:141">
+                            <Text>urine</Text>
+                        </Token>
+                        <Token globalID="23" id="16" offset="142:148">
+                            <Text>leaked</Text>
+                        </Token>
+                        <Token globalID="24" id="17" offset="149:155">
+                            <Text>around</Text>
+                        </Token>
+                        <Token globalID="25" id="18" offset="156:159">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="26" id="19" offset="160:166">
+                            <Text>ostomy</Text>
+                        </Token>
+                        <Token globalID="27" id="20" offset="167:171">
+                            <Text>site</Text>
+                        </Token>
+                        <Token globalID="28" id="21" offset="172:175">
+                            <Text>for</Text>
+                        </Token>
+                        <Token globalID="29" id="22" offset="176:179">
+                            <Text>his</Text>
+                        </Token>
+                        <Token globalID="30" id="23" offset="180:185">
+                            <Text>right</Text>
+                        </Token>
+                        <Token globalID="31" id="24" offset="186:191">
+                            <Text>sided</Text>
+                        </Token>
+                        <Token globalID="32" id="25" offset="192:203">
+                            <Text>nephrostomy</Text>
+                        </Token>
+                        <Token globalID="33" id="26" offset="204:208">
+                            <Text>tube</Text>
+                        </Token>
+                        <Token globalID="34" id="27" offset="208:209">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+                <Sentence id="1" offset="210:237">
+                    <Text>The leaking began this a.m.</Text>
+                    <Tokens Count="6">
+                        <Token globalID="35" id="0" offset="210:213">
+                            <Text>The</Text>
+                        </Token>
+                        <Token globalID="36" id="1" offset="214:221">
+                            <Text>leaking</Text>
+                        </Token>
+                        <Token globalID="37" id="2" offset="222:227">
+                            <Text>began</Text>
+                        </Token>
+                        <Token globalID="38" id="3" offset="228:232">
+                            <Text>this</Text>
+                        </Token>
+                        <Token globalID="39" id="4" offset="233:236">
+                            <Text>a.m</Text>
+                        </Token>
+                        <Token globalID="40" id="5" offset="234:235">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+                <Sentence id="2" offset="238:327">
+                    <Text>The patient denies any pain, does not have fever and has no other problems or complaints.
+                    </Text>
+                    <Tokens Count="18">
+                        <Token globalID="41" id="0" offset="238:241">
+                            <Text>The</Text>
+                        </Token>
+                        <Token globalID="42" id="1" offset="242:249">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token globalID="43" id="2" offset="250:256">
+                            <Text>denies</Text>
+                        </Token>
+                        <Token globalID="44" id="3" offset="257:260">
+                            <Text>any</Text>
+                        </Token>
+                        <Token globalID="45" id="4" offset="261:265">
+                            <Text>pain</Text>
+                        </Token>
+                        <Token globalID="46" id="5" offset="265:266">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="47" id="6" offset="267:271">
+                            <Text>does</Text>
+                        </Token>
+                        <Token globalID="48" id="7" offset="272:275">
+                            <Text>not</Text>
+                        </Token>
+                        <Token globalID="49" id="8" offset="276:280">
+                            <Text>have</Text>
+                        </Token>
+                        <Token globalID="50" id="9" offset="281:286">
+                            <Text>fever</Text>
+                        </Token>
+                        <Token globalID="51" id="10" offset="287:290">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="52" id="11" offset="291:294">
+                            <Text>has</Text>
+                        </Token>
+                        <Token globalID="53" id="12" offset="295:297">
+                            <Text>no</Text>
+                        </Token>
+                        <Token globalID="54" id="13" offset="298:303">
+                            <Text>other</Text>
+                        </Token>
+                        <Token globalID="55" id="14" offset="304:312">
+                            <Text>problems</Text>
+                        </Token>
+                        <Token globalID="56" id="15" offset="313:315">
+                            <Text>or</Text>
+                        </Token>
+                        <Token globalID="57" id="16" offset="316:326">
+                            <Text>complaints</Text>
+                        </Token>
+                        <Token globalID="58" id="17" offset="326:327">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+                <Sentence id="3" offset="328:537">
+                    <Text>The patient had bilateral nephrostomy tubes placed one month ago secondary to his prostate
+                        cancer metastasizing and causing bilateral ureteral obstructions that were severe enough to
+                        cause acute renal failure.
+                    </Text>
+                    <Tokens Count="31">
+                        <Token globalID="59" id="0" offset="328:331">
+                            <Text>The</Text>
+                        </Token>
+                        <Token globalID="60" id="1" offset="332:339">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token globalID="61" id="2" offset="340:343">
+                            <Text>had</Text>
+                        </Token>
+                        <Token globalID="62" id="3" offset="344:353">
+                            <Text>bilateral</Text>
+                        </Token>
+                        <Token globalID="63" id="4" offset="354:365">
+                            <Text>nephrostomy</Text>
+                        </Token>
+                        <Token globalID="64" id="5" offset="366:371">
+                            <Text>tubes</Text>
+                        </Token>
+                        <Token globalID="65" id="6" offset="372:378">
+                            <Text>placed</Text>
+                        </Token>
+                        <Token globalID="66" id="7" offset="379:382">
+                            <Text>one</Text>
+                        </Token>
+                        <Token globalID="67" id="8" offset="383:388">
+                            <Text>month</Text>
+                        </Token>
+                        <Token globalID="68" id="9" offset="389:392">
+                            <Text>ago</Text>
+                        </Token>
+                        <Token globalID="69" id="10" offset="393:402">
+                            <Text>secondary</Text>
+                        </Token>
+                        <Token globalID="70" id="11" offset="403:405">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="71" id="12" offset="406:409">
+                            <Text>his</Text>
+                        </Token>
+                        <Token globalID="72" id="13" offset="410:418">
+                            <Text>prostate</Text>
+                        </Token>
+                        <Token globalID="73" id="14" offset="419:425">
+                            <Text>cancer</Text>
+                        </Token>
+                        <Token globalID="74" id="15" offset="426:439">
+                            <Text>metastasizing</Text>
+                        </Token>
+                        <Token globalID="75" id="16" offset="440:443">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="76" id="17" offset="444:451">
+                            <Text>causing</Text>
+                        </Token>
+                        <Token globalID="77" id="18" offset="452:461">
+                            <Text>bilateral</Text>
+                        </Token>
+                        <Token globalID="78" id="19" offset="462:470">
+                            <Text>ureteral</Text>
+                        </Token>
+                        <Token globalID="79" id="20" offset="471:483">
+                            <Text>obstructions</Text>
+                        </Token>
+                        <Token globalID="80" id="21" offset="484:488">
+                            <Text>that</Text>
+                        </Token>
+                        <Token globalID="81" id="22" offset="489:493">
+                            <Text>were</Text>
+                        </Token>
+                        <Token globalID="82" id="23" offset="494:500">
+                            <Text>severe</Text>
+                        </Token>
+                        <Token globalID="83" id="24" offset="501:507">
+                            <Text>enough</Text>
+                        </Token>
+                        <Token globalID="84" id="25" offset="508:510">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="85" id="26" offset="511:516">
+                            <Text>cause</Text>
+                        </Token>
+                        <Token globalID="86" id="27" offset="517:522">
+                            <Text>acute</Text>
+                        </Token>
+                        <Token globalID="87" id="28" offset="523:528">
+                            <Text>renal</Text>
+                        </Token>
+                        <Token globalID="88" id="29" offset="529:536">
+                            <Text>failure</Text>
+                        </Token>
+                        <Token globalID="89" id="30" offset="536:537">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+                <Sentence id="4" offset="538:624">
+                    <Text>The patient states he feels like his usual self and has no other problems or concerns.</Text>
+                    <Tokens Count="17">
+                        <Token globalID="90" id="0" offset="538:541">
+                            <Text>The</Text>
+                        </Token>
+                        <Token globalID="91" id="1" offset="542:549">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token globalID="92" id="2" offset="550:556">
+                            <Text>states</Text>
+                        </Token>
+                        <Token globalID="93" id="3" offset="557:559">
+                            <Text>he</Text>
+                        </Token>
+                        <Token globalID="94" id="4" offset="560:565">
+                            <Text>feels</Text>
+                        </Token>
+                        <Token globalID="95" id="5" offset="566:570">
+                            <Text>like</Text>
+                        </Token>
+                        <Token globalID="96" id="6" offset="571:574">
+                            <Text>his</Text>
+                        </Token>
+                        <Token globalID="97" id="7" offset="575:580">
+                            <Text>usual</Text>
+                        </Token>
+                        <Token globalID="98" id="8" offset="581:585">
+                            <Text>self</Text>
+                        </Token>
+                        <Token globalID="99" id="9" offset="586:589">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="100" id="10" offset="590:593">
+                            <Text>has</Text>
+                        </Token>
+                        <Token globalID="101" id="11" offset="594:596">
+                            <Text>no</Text>
+                        </Token>
+                        <Token globalID="102" id="12" offset="597:602">
+                            <Text>other</Text>
+                        </Token>
+                        <Token globalID="103" id="13" offset="603:611">
+                            <Text>problems</Text>
+                        </Token>
+                        <Token globalID="104" id="14" offset="612:614">
+                            <Text>or</Text>
+                        </Token>
+                        <Token globalID="105" id="15" offset="615:623">
+                            <Text>concerns</Text>
+                        </Token>
+                        <Token globalID="106" id="16" offset="623:624">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+                <Sentence id="5" offset="625:664">
+                    <Text>The patient denies any fever or chills.</Text>
+                    <Tokens Count="8">
+                        <Token globalID="107" id="0" offset="625:628">
+                            <Text>The</Text>
+                        </Token>
+                        <Token globalID="108" id="1" offset="629:636">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token globalID="109" id="2" offset="637:643">
+                            <Text>denies</Text>
+                        </Token>
+                        <Token globalID="110" id="3" offset="644:647">
+                            <Text>any</Text>
+                        </Token>
+                        <Token globalID="111" id="4" offset="648:653">
+                            <Text>fever</Text>
+                        </Token>
+                        <Token globalID="112" id="5" offset="654:656">
+                            <Text>or</Text>
+                        </Token>
+                        <Token globalID="113" id="6" offset="657:663">
+                            <Text>chills</Text>
+                        </Token>
+                        <Token globalID="114" id="7" offset="663:664">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+                <Sentence id="6" offset="665:687">
+                    <Text>No nausea or vomiting.</Text>
+                    <Tokens Count="5">
+                        <Token globalID="115" id="0" offset="665:667">
+                            <Text>No</Text>
+                        </Token>
+                        <Token globalID="116" id="1" offset="668:674">
+                            <Text>nausea</Text>
+                        </Token>
+                        <Token globalID="117" id="2" offset="675:677">
+                            <Text>or</Text>
+                        </Token>
+                        <Token globalID="118" id="3" offset="678:686">
+                            <Text>vomiting</Text>
+                        </Token>
+                        <Token globalID="119" id="4" offset="686:687">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+                <Sentence id="7" offset="688:785">
+                    <Text>No flank pain, no abdominal pain, no chest pain, no shortness of breath, no swelling to the
+                        legs.
+                    </Text>
+                    <Tokens Count="23">
+                        <Token globalID="120" id="0" offset="688:690">
+                            <Text>No</Text>
+                        </Token>
+                        <Token globalID="121" id="1" offset="691:696">
+                            <Text>flank</Text>
+                        </Token>
+                        <Token globalID="122" id="2" offset="697:701">
+                            <Text>pain</Text>
+                        </Token>
+                        <Token globalID="123" id="3" offset="701:702">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="124" id="4" offset="703:705">
+                            <Text>no</Text>
+                        </Token>
+                        <Token globalID="125" id="5" offset="706:715">
+                            <Text>abdominal</Text>
+                        </Token>
+                        <Token globalID="126" id="6" offset="716:720">
+                            <Text>pain</Text>
+                        </Token>
+                        <Token globalID="127" id="7" offset="720:721">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="128" id="8" offset="722:724">
+                            <Text>no</Text>
+                        </Token>
+                        <Token globalID="129" id="9" offset="725:730">
+                            <Text>chest</Text>
+                        </Token>
+                        <Token globalID="130" id="10" offset="731:735">
+                            <Text>pain</Text>
+                        </Token>
+                        <Token globalID="131" id="11" offset="735:736">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="132" id="12" offset="737:739">
+                            <Text>no</Text>
+                        </Token>
+                        <Token globalID="133" id="13" offset="740:749">
+                            <Text>shortness</Text>
+                        </Token>
+                        <Token globalID="134" id="14" offset="750:752">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="135" id="15" offset="753:759">
+                            <Text>breath</Text>
+                        </Token>
+                        <Token globalID="136" id="16" offset="759:760">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="137" id="17" offset="761:763">
+                            <Text>no</Text>
+                        </Token>
+                        <Token globalID="138" id="18" offset="764:772">
+                            <Text>swelling</Text>
+                        </Token>
+                        <Token globalID="139" id="19" offset="773:775">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="140" id="20" offset="776:779">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="141" id="21" offset="780:784">
+                            <Text>legs</Text>
+                        </Token>
+                        <Token globalID="142" id="22" offset="784:785">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="2">
+            <Sentences Count="1">
+                <Sentence id="0" offset="787:863">
+                    <Text>REVIEW OF SYSTEMS: Review of systems otherwise negative and noncontributory.</Text>
+                    <Tokens Count="12">
+                        <Token globalID="143" id="0" offset="787:793">
+                            <Text>REVIEW</Text>
+                        </Token>
+                        <Token globalID="144" id="1" offset="794:796">
+                            <Text>OF</Text>
+                        </Token>
+                        <Token globalID="145" id="2" offset="797:804">
+                            <Text>SYSTEMS</Text>
+                        </Token>
+                        <Token globalID="146" id="3" offset="804:805">
+                            <Text>:</Text>
+                        </Token>
+                        <Token globalID="147" id="4" offset="806:812">
+                            <Text>Review</Text>
+                        </Token>
+                        <Token globalID="148" id="5" offset="813:815">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="149" id="6" offset="816:823">
+                            <Text>systems</Text>
+                        </Token>
+                        <Token globalID="150" id="7" offset="824:833">
+                            <Text>otherwise</Text>
+                        </Token>
+                        <Token globalID="151" id="8" offset="834:842">
+                            <Text>negative</Text>
+                        </Token>
+                        <Token globalID="152" id="9" offset="843:846">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="153" id="10" offset="847:862">
+                            <Text>noncontributory</Text>
+                        </Token>
+                        <Token globalID="154" id="11" offset="862:863">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="3">
+            <Sentences Count="1">
+                <Sentence id="0" offset="865:936">
+                    <Text>PAST MEDICAL HISTORY: Metastatic prostate cancer, anemia, hypertension.</Text>
+                    <Tokens Count="12">
+                        <Token globalID="155" id="0" offset="865:869">
+                            <Text>PAST</Text>
+                        </Token>
+                        <Token globalID="156" id="1" offset="870:877">
+                            <Text>MEDICAL</Text>
+                        </Token>
+                        <Token globalID="157" id="2" offset="878:885">
+                            <Text>HISTORY</Text>
+                        </Token>
+                        <Token globalID="158" id="3" offset="885:886">
+                            <Text>:</Text>
+                        </Token>
+                        <Token globalID="159" id="4" offset="887:897">
+                            <Text>Metastatic</Text>
+                        </Token>
+                        <Token globalID="160" id="5" offset="898:906">
+                            <Text>prostate</Text>
+                        </Token>
+                        <Token globalID="161" id="6" offset="907:913">
+                            <Text>cancer</Text>
+                        </Token>
+                        <Token globalID="162" id="7" offset="913:914">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="163" id="8" offset="915:921">
+                            <Text>anemia</Text>
+                        </Token>
+                        <Token globalID="164" id="9" offset="921:922">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="165" id="10" offset="923:935">
+                            <Text>hypertension</Text>
+                        </Token>
+                        <Token globalID="166" id="11" offset="935:936">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="4">
+            <Sentences Count="1">
+                <Sentence id="0" offset="938:1023">
+                    <Text>

@@ -9,10 +9,11 @@ Todo:
 from Extractors.Reaction.SVMv1ReactionExtractor import SVMv1ReactionExtractor
 from Assemblers.EntityAssembler import EntityAssembler
 import xml.etree.ElementTree as ET
-from test import Compare
+
+
+# from test import Compare
 
 class ReactionAssembler(EntityAssembler):
-    
     def __init__(self, rawTextFileName, intermediateXMLFileName, anExtractorList=[]):
         """
         Initializes the EventDateAssembler and returns it. All Extractors for the Event Date DataElement must be specified in the list below. 
@@ -25,13 +26,11 @@ class ReactionAssembler(EntityAssembler):
         """
         super(ReactionAssembler, self).__init__(rawTextFileName, intermediateXMLFileName, anExtractorList=[])
 
-        self.AllPossibleExtractorList = {"SVMv1ReactionExtractor":SVMv1ReactionExtractor(rawTextFileName, intermediateXMLFileName)}
+        self.AllPossibleExtractorList = {
+            "SVMv1ReactionExtractor": SVMv1ReactionExtractor(rawTextFileName, intermediateXMLFileName)}
         self.entityName = 'PT'
         self.filename = rawTextFileName
         self.testCaseName = self.filename[self.filename.rfind(r'/') + 1:self.filename.rfind(r'.txt')]
 
-    
-    
-    
 # def main():
 #     extractorHandler = EventDateExtractorHandler('../test_cases/fda001.txt')

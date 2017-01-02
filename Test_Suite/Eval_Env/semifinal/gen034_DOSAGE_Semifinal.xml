@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/Users/wutianyu/ISP2016/Test_Suite/Test_Cases/gen034">
+    <EVENT_DT end="" start="" />
+    <DEMOGRAPHICS>
+        <AGE_SET>
+            <AGE end="" start="" />
+            <AGE_COD end="" start="" />
+        </AGE_SET>
+        <WT_SET>
+            <WT end="" start="" />
+            <WT_COD end="" start="" />
+        </WT_SET>
+        <SEX end="" start="" />
+    </DEMOGRAPHICS>
+    <DRUG_FILE>
+        
+        <INSTANCE id="" primary="" timePeriod="">
+            
+            <DRUGNAME end="" start="" />
+            <COREF end="" start="" />
+            <ROUTE end="" start="" />
+            <DECHAL end="" start="" />
+            <RECHAL end="" start="" />
+            <DOSE_AMT end="" start="" />
+            <DOSE_UNIT end="" start="" />
+            <DOSE_FORM end="" start="" />
+            <DOSE_FREQ end="" start="" />
+            <REACTIONS_IDS />
+            
+            <INDICATION_IDS />
+        </INSTANCE>
+    <INSTANCE><DOSE_AMT end="2055" extractor="DosageRegExtractor" start="2054">2</DOSE_AMT></INSTANCE><INSTANCE><DOSE_FREQ end="2069" extractor="DosageRegExtractor" start="2059">once a day</DOSE_FREQ></INSTANCE><INSTANCE><DOSE_UNIT end="2058" extractor="DosageRegExtractor" start="2056">mg</DOSE_UNIT></INSTANCE><INSTANCE><DOSE_AMT end="2094" extractor="DosageRegExtractor" start="2092">20</DOSE_AMT></INSTANCE><INSTANCE><DOSE_FREQ end="2108" extractor="DosageRegExtractor" start="2098">once a day</DOSE_FREQ></INSTANCE><INSTANCE><DOSE_UNIT end="2097" extractor="DosageRegExtractor" start="2095">mg</DOSE_UNIT></INSTANCE><INSTANCE><DOSE_AMT end="2132" extractor="DosageRegExtractor" start="2129">400</DOSE_AMT></INSTANCE><INSTANCE><DOSE_FREQ end="2146" extractor="DosageRegExtractor" start="2136">once a day</DOSE_FREQ></INSTANCE><INSTANCE><DOSE_UNIT end="2135" extractor="DosageRegExtractor" start="2133">mg</DOSE_UNIT></INSTANCE><INSTANCE><DOSE_AMT end="2254" extractor="DosageRegExtractor" start="2252">25</DOSE_AMT></INSTANCE><INSTANCE><DOSE_FREQ end="2268" extractor="DosageRegExtractor" start="2258">once a day</DOSE_FREQ></INSTANCE><INSTANCE><DOSE_UNIT end="2257" extractor="DosageRegExtractor" start="2255">mg</DOSE_UNIT></INSTANCE><INSTANCE><DOSE_AMT end="2366" extractor="DosageRegExtractor" start="2363">325</DOSE_AMT></INSTANCE><INSTANCE><DOSE_FREQ end="2380" extractor="DosageRegExtractor" start="2370">once a day</DOSE_FREQ></INSTANCE><INSTANCE><DOSE_UNIT end="2369" extractor="DosageRegExtractor" start="2367">mg</DOSE_UNIT></INSTANCE><INSTANCE><DOSE_AMT end="2394" extractor="DosageRegExtractor" start="2392">75</DOSE_AMT></INSTANCE><INSTANCE><DOSE_FREQ end="2408" extractor="DosageRegExtractor" start="2398">once a day</DOSE_FREQ></INSTANCE><INSTANCE><DOSE_UNIT end="2397" extractor="DosageRegExtractor" start="2395">mg</DOSE_UNIT></INSTANCE><INSTANCE><DOSE_AMT end="2423" extractor="DosageRegExtractor" start="2420">160</DOSE_AMT></INSTANCE><INSTANCE><DOSE_FREQ end="2437" extractor="DosageRegExtractor" start="2427">once a day</DOSE_FREQ></INSTANCE><INSTANCE><DOSE_UNIT end="2426" extractor="DosageRegExtractor" start="2424">mg</DOSE_UNIT></INSTANCE><INSTANCE><DOSE_AMT end="2454" extractor="DosageRegExtractor" start="2452">10</DOSE_AMT></INSTANCE><INSTANCE><DOSE_FREQ end="2468" extractor="DosageRegExtractor" start="2458">once a day</DOSE_FREQ></INSTANCE><INSTANCE><DOSE_UNIT end="2457" extractor="DosageRegExtractor" start="2455">mg</DOSE_UNIT></INSTANCE><INSTANCE><DOSE_AMT end="2505" extractor="DosageRegExtractor" start="2504">5</DOSE_AMT></INSTANCE><INSTANCE><DOSE_FREQ end="2519" extractor="DosageRegExtractor" start="2509">once a day</DOSE_FREQ></INSTANCE><INSTANCE><DOSE_UNIT end="2508" extractor="DosageRegExtractor" start="2506">mg</DOSE_UNIT></INSTANCE><INSTANCE><DOSE_AMT end="2534" extractor="DosageRegExtractor" start="2533">5</DOSE_AMT></INSTANCE><INSTANCE><DOSE_FREQ end="2548" extractor="DosageRegExtractor" start="2538">once a day</DOSE_FREQ></INSTANCE><INSTANCE><DOSE_UNIT end="2537" extractor="DosageRegExtractor" start="2535">mg</DOSE_UNIT></INSTANCE><INSTANCE><DOSE_AMT end="2563" extractor="DosageRegExtractor" start="2561">60</DOSE_AMT></INSTANCE><INSTANCE><DOSE_FREQ end="2577" extractor="DosageRegExtractor" start="2567">once a day</DOSE_FREQ></INSTANCE><INSTANCE><DOSE_UNIT end="2566" extractor="DosageRegExtractor" start="2564">mg</DOSE_UNIT></INSTANCE></DRUG_FILE>
+    <REACTION_FILE>
+        <INSTANCE>
+            <PT end="" id="" start="" />
+            <COREF end="" start="" />
+        </INSTANCE>
+    </REACTION_FILE>
+    <INDICATION_FILE>
+        <INSTANCE>
+            <INDI_PT end="" id="" start="" />
+            <COREF end="" start="" />
+        </INSTANCE>
+    </INDICATION_FILE>
+    <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

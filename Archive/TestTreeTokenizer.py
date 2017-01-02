@@ -20,6 +20,7 @@ import re
 from nltk.tokenize.api import TokenizerI
 from itertools import groupby
 
+
 class TreebankWordTokenizer(TokenizerI):
     """
     The Treebank tokenizer uses regular expressions to tokenize text as in Penn Treebank.
@@ -45,14 +46,14 @@ class TreebankWordTokenizer(TokenizerI):
         ['hi', ',', 'my', 'name', 'ca', "n't", 'hello', ',']
     """
 
-    #starting quotes
+    # starting quotes
     STARTING_QUOTES = [
         (re.compile(r'^\"'), r'``'),
         (re.compile(r'(``)'), r' \1 '),
         (re.compile(r'([ (\[{<])"'), r'\1 `` '),
     ]
 
-    #punctuation
+    # punctuation
     PUNCTUATION = [
         (re.compile(r'([:,])([^\d])'), r' \1 \2'),
         (re.compile(r'([:,])$'), r' \1 '),
@@ -64,13 +65,13 @@ class TreebankWordTokenizer(TokenizerI):
         (re.compile(r"([^'])' "), r"\1 ' "),
     ]
 
-    #parens, brackets, etc.
+    # parens, brackets, etc.
     PARENS_BRACKETS = [
         (re.compile(r'[\]\[\(\)\{\}\<\>]'), r' \g<0> '),
         (re.compile(r'--'), r' -- '),
     ]
 
-    #ending quotes
+    # ending quotes
     ENDING_QUOTES = [
         (re.compile(r'"'), " '' "),
         (re.compile(r'(\S)(\'\')'), r'\1 \2 '),
@@ -103,8 +104,8 @@ class TreebankWordTokenizer(TokenizerI):
         for regexp, substitution in self.PARENS_BRACKETS:
             text = regexp.sub(substitution, text)
 
-        #add extra space to make things eas
-     #add extra space to make things easier
+            # add extra space to make things eas
+            # add extra space to make things easier
         text = " " + text + " "
 
         for regexp, substitution in self.ENDING_QUOTES:
@@ -123,7 +124,7 @@ class TreebankWordTokenizer(TokenizerI):
         print 'word tokenized:\n', text
         return text.split()
 
-    def span_tokenize(self,text):
+    def span_tokenize(self, text):
         for regexp, substitution in self.STARTING_QUOTES:
             text = regexp.sub(substitution, text)
 
@@ -133,8 +134,8 @@ class TreebankWordTokenizer(TokenizerI):
         for regexp, substitution in self.PARENS_BRACKETS:
             text = regexp.sub(substitution, text)
 
-        #add extra space to make things easier
-#        text = " " + text + " "
+            # add extra space to make things easier
+        #        text = " " + text + " "
 
         for regexp, substitution in self.ENDING_QUOTES:
             text = regexp.sub(substitution, text)
@@ -145,45 +146,45 @@ class TreebankWordTokenizer(TokenizerI):
             text = regexp.sub(r' \1 \2 ', text)
 
         pattern = re.compile('\s+')
-#        print text
-        return list(self.splitWithIndices(text, lambda x:pattern.match(x)))
+        #        print text
+        return list(self.splitWithIndices(text, lambda x: pattern.match(x)))
 
     def splitWithIndices(self, s, func):
         p = 0
         for k, g in groupby(s, func):
-            #print k, '       ', g
+            # print k, '       ', g
             q = p + sum(1 for i in g)
             if not k:
-                yield p, q # or p, q-1 if you are really sure you want that
+                yield p, q  # or p, q-1 if you are really sure you want that
             p = q
 
+
 def main():
-     test = TreebankWordTokenizer()
-     s1 = 'Good muffins cost $3.88\\nin New York.  Please buy me\\ntwo of them.\\nThanks.'
+    test = TreebankWordTokenizer()
+    s1 = 'Good muffins cost $3.88\\nin New York.  Please buy me\\ntwo of them.\\nThanks.'
 
-     print s1, '\n'
+    print s1, '\n'
 
-     print test.tokenize('Good muffins cost $3.88\\nin New York.  Please buy me\\ntwo of them.\\nThanks.')
+    print test.tokenize('Good muffins cost $3.88\\nin New York.  Please buy me\\ntwo of them.\\nThanks.')
 
-     indices = test.span_tokenize('Good muffins cost $3.88\\nin New York.  Please buy me\\ntwo of them.\\nThanks.')
+    indices = test.span_tokenize('Good muffins cost $3.88\\nin New York.  Please buy me\\ntwo of them.\\nThanks.')
 
-     print [s1[start: end] for start, end in indices], '\n'
+    print [s1[start: end] for start, end in indices], '\n'
 
-     print test.span_tokenize('Good muffins cost $3.88\\nin New York.  Please buy me\\ntwo of them.\\nThanks.')
+    print test.span_tokenize('Good muffins cost $3.88\\nin New York.  Please buy me\\ntwo of them.\\nThanks.')
 
 
-
-#s2 = "They'll save and invest more."
-#print test.tokenize()
-#print test.span_tokenize("They'll save and invest more.")
-
+# s2 = "They'll save and invest more."
+# print test.tokenize()
+# print test.span_tokenize("They'll save and invest more.")
 
 
 
 
-#s3 = "hi, my name can't hello,"
-#print test.tokenize()
-#print test.span_tokenize("hi, my name can't hello,")
+
+# s3 = "hi, my name can't hello,"
+# print test.tokenize()
+# print test.span_tokenize("hi, my name can't hello,")
 
 if __name__ == '__main__':
     main()

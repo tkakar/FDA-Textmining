@@ -6,8 +6,8 @@ The following class extends the DataElement class, and includes any additional f
 
 from DataElement import DataElement
 
-class AgeCodeElement(DataElement):
 
+class AgeCodeElement(DataElement):
     def __init__(self, *args, **kwargs):
         """Calls the super"""
         super(AgeCodeElement, self).__init__(*args, **kwargs)

@@ -1,1 +1,1480 @@
-<StartOutput><Paragraphs Count="6"><Paragraph id="0"><Sentences Count="7"><Sentence id="0" offset="0:140"><Text>Patient BV is a 67-year-old woman who had been in good health when routine mammography in October of 1991 revealed a suspicious breast mass.</Text><Tokens Count="25"><Token globalID="0" id="0" offset="0:7"><Text>Patient</Text></Token><Token globalID="1" id="1" offset="8:10"><Text>BV</Text></Token><Token globalID="2" id="2" offset="11:13"><Text>is</Text></Token><Token globalID="3" id="3" offset="14:15"><Text>a</Text></Token><Token globalID="4" id="4" offset="16:27"><Text>67-year-old</Text></Token><Token globalID="5" id="5" offset="28:33"><Text>woman</Text></Token><Token globalID="6" id="6" offset="34:37"><Text>who</Text></Token><Token globalID="7" id="7" offset="38:41"><Text>had</Text></Token><Token globalID="8" id="8" offset="42:46"><Text>been</Text></Token><Token globalID="9" id="9" offset="47:49"><Text>in</Text></Token><Token globalID="10" id="10" offset="50:54"><Text>good</Text></Token><Token globalID="11" id="11" offset="55:61"><Text>health</Text></Token><Token globalID="12" id="12" offset="62:66"><Text>when</Text></Token><Token globalID="13" id="13" offset="67:74"><Text>routine</Text></Token><Token globalID="14" id="14" offset="75:86"><Text>mammography</Text></Token><Token globalID="15" id="15" offset="87:89"><Text>in</Text></Token><Token globalID="16" id="16" offset="90:97"><Text>October</Text></Token><Token globalID="17" id="17" offset="98:100"><Text>of</Text></Token><Token globalID="18" id="18" offset="101:105"><Text>1991</Text></Token><Token globalID="19" id="19" offset="106:114"><Text>revealed</Text></Token><Token globalID="20" id="20" offset="110:111"><Text>a</Text></Token><Token globalID="21" id="21" offset="117:127"><Text>suspicious</Text></Token><Token globalID="22" id="22" offset="128:134"><Text>breast</Text></Token><Token globalID="23" id="23" offset="135:139"><Text>mass</Text></Token><Token globalID="24" id="24" offset="139:140"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="141:216"><Text>In late 1991 she underwent biopsy and lumpectomy, with removal of a 2.1 cm.</Text><Tokens Count="16"><Token globalID="25" id="0" offset="141:143"><Text>In</Text></Token><Token globalID="26" id="1" offset="144:148"><Text>late</Text></Token><Token globalID="27" id="2" offset="149:153"><Text>1991</Text></Token><Token globalID="28" id="3" offset="154:157"><Text>she</Text></Token><Token globalID="29" id="4" offset="158:167"><Text>underwent</Text></Token><Token globalID="30" id="5" offset="168:174"><Text>biopsy</Text></Token><Token globalID="31" id="6" offset="175:178"><Text>and</Text></Token><Token globalID="32" id="7" offset="179:189"><Text>lumpectomy</Text></Token><Token globalID="33" id="8" offset="189:190"><Text>,</Text></Token><Token globalID="34" id="9" offset="191:195"><Text>with</Text></Token><Token globalID="35" id="10" offset="196:203"><Text>removal</Text></Token><Token globalID="36" id="11" offset="204:206"><Text>of</Text></Token><Token globalID="37" id="12" offset="207:208"><Text>a</Text></Token><Token globalID="38" id="13" offset="209:212"><Text>2.1</Text></Token><Token globalID="39" id="14" offset="213:215"><Text>cm</Text></Token><Token globalID="40" id="15" offset="215:216"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="217:278"><Text>tumor confirmed as in situ and infiltrating ductal carcinoma.</Text><Tokens Count="10"><Token globalID="41" id="0" offset="217:222"><Text>tumor</Text></Token><Token globalID="42" id="1" offset="223:232"><Text>confirmed</Text></Token><Token globalID="43" id="2" offset="233:235"><Text>as</Text></Token><Token globalID="44" id="3" offset="236:238"><Text>in</Text></Token><Token globalID="45" id="4" offset="239:243"><Text>situ</Text></Token><Token globalID="46" id="5" offset="244:247"><Text>and</Text></Token><Token globalID="47" id="6" offset="248:260"><Text>infiltrating</Text></Token><Token globalID="48" id="7" offset="261:267"><Text>ductal</Text></Token><Token globalID="49" id="8" offset="268:277"><Text>carcinoma</Text></Token><Token globalID="50" id="9" offset="277:278"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="3" offset="279:433"><Text>Though no nodes were sampled, a bone scan in December 1991 as part of routine follow-up testing demonstrated increased uptake in the right proximal femur.</Text><Tokens Count="27"><Token globalID="51" id="0" offset="279:285"><Text>Though</Text></Token><Token globalID="52" id="1" offset="286:288"><Text>no</Text></Token><Token globalID="53" id="2" offset="289:294"><Text>nodes</Text></Token><Token globalID="54" id="3" offset="295:299"><Text>were</Text></Token><Token globalID="55" id="4" offset="300:307"><Text>sampled</Text></Token><Token globalID="56" id="5" offset="307:308"><Text>,</Text></Token><Token globalID="57" id="6" offset="309:310"><Text>a</Text></Token><Token globalID="58" id="7" offset="311:315"><Text>bone</Text></Token><Token globalID="59" id="8" offset="316:320"><Text>scan</Text></Token><Token globalID="60" id="9" offset="321:323"><Text>in</Text></Token><Token globalID="61" id="10" offset="324:332"><Text>December</Text></Token><Token globalID="62" id="11" offset="333:337"><Text>1991</Text></Token><Token globalID="63" id="12" offset="338:340"><Text>as</Text></Token><Token globalID="64" id="13" offset="341:345"><Text>part</Text></Token><Token globalID="65" id="14" offset="346:348"><Text>of</Text></Token><Token globalID="66" id="15" offset="349:356"><Text>routine</Text></Token><Token globalID="67" id="16" offset="357:366"><Text>follow-up</Text></Token><Token globalID="68" id="17" offset="367:374"><Text>testing</Text></Token><Token globalID="69" id="18" offset="375:387"><Text>demonstrated</Text></Token><Token globalID="70" id="19" offset="388:397"><Text>increased</Text></Token><Token globalID="71" id="20" offset="398:404"><Text>uptake</Text></Token><Token globalID="72" id="21" offset="405:407"><Text>in</Text></Token><Token globalID="73" id="22" offset="408:411"><Text>the</Text></Token><Token globalID="74" id="23" offset="412:417"><Text>right</Text></Token><Token globalID="75" id="24" offset="418:426"><Text>proximal</Text></Token><Token globalID="76" id="25" offset="427:432"><Text>femur</Text></Token><Token globalID="77" id="26" offset="432:433"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="4" offset="434:544"><Text>An MRI in January 1992 documented a lesion on the right greater trochanter consistent with metastatic disease.</Text><Tokens Count="18"><Token globalID="78" id="0" offset="434:436"><Text>An</Text></Token><Token globalID="79" id="1" offset="437:440"><Text>MRI</Text></Token><Token globalID="80" id="2" offset="441:443"><Text>in</Text></Token><Token globalID="81" id="3" offset="444:451"><Text>January</Text></Token><Token globalID="82" id="4" offset="452:456"><Text>1992</Text></Token><Token globalID="83" id="5" offset="457:467"><Text>documented</Text></Token><Token globalID="84" id="6" offset="468:469"><Text>a</Text></Token><Token globalID="85" id="7" offset="470:476"><Text>lesion</Text></Token><Token globalID="86" id="8" offset="474:476"><Text>on</Text></Token><Token globalID="87" id="9" offset="480:483"><Text>the</Text></Token><Token globalID="88" id="10" offset="484:489"><Text>right</Text></Token><Token globalID="89" id="11" offset="490:497"><Text>greater</Text></Token><Token globalID="90" id="12" offset="498:508"><Text>trochanter</Text></Token><Token globalID="91" id="13" offset="509:519"><Text>consistent</Text></Token><Token globalID="92" id="14" offset="520:524"><Text>with</Text></Token><Token globalID="93" id="15" offset="525:535"><Text>metastatic</Text></Token><Token globalID="94" id="16" offset="536:543"><Text>disease</Text></Token><Token globalID="95" id="17" offset="543:544"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="5" offset="545:571"><Text>The official report reads.</Text><Tokens Count="5"><Token globalID="96" id="0" offset="545:548"><Text>The</Text></Token><Token globalID="97" id="1" offset="549:557"><Text>official</Text></Token><Token globalID="98" id="2" offset="558:564"><Text>report</Text></Token><Token globalID="99" id="3" offset="565:570"><Text>reads</Text></Token><Token globalID="100" id="4" offset="570:571"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="6" offset="572:688"><Text>A solitary lesion is noted distal to the right greater trochanter&#226;&#65533;&#166;most likely representing a metastatic lesion</Text><Tokens Count="16"><Token globalID="101" id="0" offset="572:573"><Text>A</Text></Token><Token globalID="102" id="1" offset="574:582"><Text>solitary</Text></Token><Token globalID="103" id="2" offset="583:589"><Text>lesion</Text></Token><Token globalID="104" id="3" offset="590:592"><Text>is</Text></Token><Token globalID="105" id="4" offset="593:598"><Text>noted</Text></Token><Token globalID="106" id="5" offset="599:605"><Text>distal</Text></Token><Token globalID="107" id="6" offset="606:608"><Text>to</Text></Token><Token globalID="108" id="7" offset="609:612"><Text>the</Text></Token><Token globalID="109" id="8" offset="613:618"><Text>right</Text></Token><Token globalID="110" id="9" offset="619:626"><Text>greater</Text></Token><Token globalID="111" id="10" offset="627:648"><Text>trochanter&#226;&#65533;&#166;most</Text></Token><Token globalID="112" id="11" offset="649:655"><Text>likely</Text></Token><Token globalID="113" id="12" offset="656:668"><Text>representing</Text></Token><Token globalID="114" id="13" offset="669:670"><Text>a</Text></Token><Token globalID="115" id="14" offset="671:681"><Text>metastatic</Text></Token><Token globalID="116" id="15" offset="682:688"><Text>lesion</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="1"><Sentences Count="3"><Sentence id="0" offset="689:836"><Text>The patient did meet with an orthopedic surgeon who suggested a course of aggressive surgery with hip replacement followed by radiation to the hip.</Text><Tokens Count="25"><Token globalID="117" id="0" offset="689:692"><Text>The</Text></Token><Token globalID="118" id="1" offset="693:700"><Text>patient</Text></Token><Token globalID="119" id="2" offset="701:704"><Text>did</Text></Token><Token globalID="120" id="3" offset="705:709"><Text>meet</Text></Token><Token globalID="121" id="4" offset="710:714"><Text>with</Text></Token><Token globalID="122" id="5" offset="715:717"><Text>an</Text></Token><Token globalID="123" id="6" offset="718:728"><Text>orthopedic</Text></Token><Token globalID="124" id="7" offset="729:736"><Text>surgeon</Text></Token><Token globalID="125" id="8" offset="737:740"><Text>who</Text></Token><Token globalID="126" id="9" offset="741:750"><Text>suggested</Text></Token><Token globalID="127" id="10" offset="751:752"><Text>a</Text></Token><Token globalID="128" id="11" offset="753:759"><Text>course</Text></Token><Token globalID="129" id="12" offset="760:762"><Text>of</Text></Token><Token globalID="130" id="13" offset="763:773"><Text>aggressive</Text></Token><Token globalID="131" id="14" offset="774:781"><Text>surgery</Text></Token><Token globalID="132" id="15" offset="782:786"><Text>with</Text></Token><Token globalID="133" id="16" offset="787:790"><Text>hip</Text></Token><Token globalID="134" id="17" offset="791:802"><Text>replacement</Text></Token><Token globalID="135" id="18" offset="803:811"><Text>followed</Text></Token><Token globalID="136" id="19" offset="812:814"><Text>by</Text></Token><Token globalID="137" id="20" offset="815:824"><Text>radiation</Text></Token><Token globalID="138" id="21" offset="825:827"><Text>to</Text></Token><Token globalID="139" id="22" offset="828:831"><Text>the</Text></Token><Token globalID="140" id="23" offset="832:835"><Text>hip</Text></Token><Token globalID="141" id="24" offset="835:836"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="837:935"><Text>Her breast surgeon insisted BV proceed with mastectomy and subsequent radiation to the chest wall.</Text><Tokens Count="16"><Token globalID="142" id="0" offset="837:840"><Text>Her</Text></Token><Token globalID="143" id="1" offset="841:847"><Text>breast</Text></Token><Token globalID="144" id="2" offset="848:855"><Text>surgeon</Text></Token><Token globalID="145" id="3" offset="856:864"><Text>insisted</Text></Token><Token globalID="146" id="4" offset="865:867"><Text>BV</Text></Token><Token globalID="147" id="5" offset="868:875"><Text>proceed</Text></Token><Token globalID="148" id="6" offset="876:880"><Text>with</Text></Token><Token globalID="149" id="7" offset="881:891"><Text>mastectomy</Text></Token><Token globalID="150" id="8" offset="892:895"><Text>and</Text></Token><Token globalID="151" id="9" offset="896:906"><Text>subsequent</Text></Token><Token globalID="152" id="10" offset="907:916"><Text>radiation</Text></Token><Token globalID="153" id="11" offset="917:919"><Text>to</Text></Token><Token globalID="154" id="12" offset="920:923"><Text>the</Text></Token><Token globalID="155" id="13" offset="924:929"><Text>chest</Text></Token><Token globalID="156" id="14" offset="930:934"><Text>wall</Text></Token><Token globalID="157" id="15" offset="934:935"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="936:1074"><Text>However, after learning of our approach, BV refused all further conventional interventions, instead choosing to proceed with my treatment.</Text><Tokens Count="23"><Token globalID="158" id="0" offset="936:943"><Text>However</Text></Token><Token globalID="159" id="1" offset="943:944"><Text>,</Text></Token><Token globalID="160" id="2" offset="945:950"><Text>after</Text></Token><Token globalID="161" id="3" offset="951:959"><Text>learning</Text></Token><Token globalID="162" id="4" offset="960:962"><Text>of</Text></Token><Token globalID="163" id="5" offset="963:966"><Text>our</Text></Token><Token globalID="164" id="6" offset="967:975"><Text>approach</Text></Token><Token globalID="165" id="7" offset="975:976"><Text>,</Text></Token><Token globalID="166" id="8" offset="977:979"><Text>BV</Text></Token><Token globalID="167" id="9" offset="980:987"><Text>refused</Text></Token><Token globalID="168" id="10" offset="988:991"><Text>all</Text></Token><Token globalID="169" id="11" offset="992:999"><Text>further</Text></Token><Token globalID="170" id="12" offset="1000:1012"><Text>conventional</Text></Token><Token globalID="171" id="13" offset="1013:1026"><Text>interventions</Text></Token><Token globalID="172" id="14" offset="1026:1027"><Text>,</Text></Token><Token globalID="173" id="15" offset="1028:1035"><Text>instead</Text></Token><Token globalID="174" id="16" offset="1036:1044"><Text>choosing</Text></Token><Token globalID="175" id="17" offset="1045:1047"><Text>to</Text></Token><Token globalID="176" id="18" offset="1048:1055"><Text>proceed</Text></Token><Token globalID="177" id="19" offset="1056:1060"><Text>with</Text></Token><Token globalID="178" id="20" offset="1061:1063"><Text>my</Text></Token><Token globalID="179" id="21" offset="1064:1073"><Text>treatment</Text></Token><Token globalID="180" id="22" offset="1073:1074"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="2"><Sentences Count="4"><Sentence id="0" offset="1075:1225"><Text>When I first saw BV in early 1992, she reported severe fatigue and chronic right hip pain, severe enough that she had gone on disability from her job.</Text><Tokens Count="31"><Token globalID="181" id="0" offset="1075:1079"><Text>When</Text></Token><Token globalID="182" id="1" offset="1080:1081"><Text>I</Text></Token><Token globalID="183" id="2" offset="1082:1087"><Text>first</Text></Token><Token globalID="184" id="3" offset="1088:1091"><Text>saw</Text></Token><Token globalID="185" id="4" offset="1092:1094"><Text>BV</Text></Token><Token globalID="186" id="5" offset="1095:1097"><Text>in</Text></Token><Token globalID="187" id="6" offset="1098:1103"><Text>early</Text></Token><Token globalID="188" id="7" offset="1104:1108"><Text>1992</Text></Token><Token globalID="189" id="8" offset="1108:1109"><Text>,</Text></Token><Token globalID="190" id="9" offset="1110:1113"><Text>she</Text></Token><Token globalID="191" id="10" offset="1114:1122"><Text>reported</Text></Token><Token globalID="192" id="11" offset="1123:1129"><Text>severe</Text></Token><Token globalID="193" id="12" offset="1130:1137"><Text>fatigue</Text></Token><Token globalID="194" id="13" offset="1138:1141"><Text>and</Text></Token><Token globalID="195" id="14" offset="1142:1149"><Text>chronic</Text></Token><Token globalID="196" id="15" offset="1150:1155"><Text>right</Text></Token><Token globalID="197" id="16" offset="1156:1159"><Text>hip</Text></Token><Token globalID="198" id="17" offset="1160:1164"><Text>pain</Text></Token><Token globalID="199" id="18" offset="1164:1165"><Text>,</Text></Token><Token globalID="200" id="19" offset="1166:1172"><Text>severe</Text></Token><Token globalID="201" id="20" offset="1173:1179"><Text>enough</Text></Token><Token globalID="202" id="21" offset="1180:1184"><Text>that</Text></Token><Token globalID="203" id="22" offset="1185:1188"><Text>she</Text></Token><Token globalID="204" id="23" offset="1189:1192"><Text>had</Text></Token><Token globalID="205" id="24" offset="1193:1197"><Text>gone</Text></Token><Token globalID="206" id="25" offset="1194:1196"><Text>on</Text></Token><Token globalID="207" id="26" offset="1201:1211"><Text>disability</Text></Token><Token globalID="208" id="27" offset="1212:1216"><Text>from</Text></Token><Token globalID="209" id="28" offset="1217:1220"><Text>her</Text></Token><Token globalID="210" id="29" offset="1221:1224"><Text>job</Text></Token><Token globalID="211" id="30" offset="1224:1225"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="1226:1321"><Text>After beginning her nutritional regimen, she proved to be a very determined, compliant patient.</Text><Tokens Count="17"><Token globalID="212" id="0" offset="1226:1231"><Text>After</Text></Token><Token globalID="213" id="1" offset="1232:1241"><Text>beginning</Text></Token><Token globalID="214" id="2" offset="1242:1245"><Text>her</Text></Token><Token globalID="215" id="3" offset="1246:1257"><Text>nutritional</Text></Token><Token globalID="216" id="4" offset="1258:1265"><Text>regimen</Text></Token><Token globalID="217" id="5" offset="1265:1266"><Text>,</Text></Token><Token globalID="218" id="6" offset="1267:1270"><Text>she</Text></Token><Token globalID="219" id="7" offset="1271:1277"><Text>proved</Text></Token><Token globalID="220" id="8" offset="1278:1280"><Text>to</Text></Token><Token globalID="221" id="9" offset="1281:1283"><Text>be</Text></Token><Token globalID="222" id="10" offset="1284:1285"><Text>a</Text></Token><Token globalID="223" id="11" offset="1286:1290"><Text>very</Text></Token><Token globalID="224" id="12" offset="1291:1301"><Text>determined</Text></Token><Token globalID="225" id="13" offset="1301:1302"><Text>,</Text></Token><Token globalID="226" id="14" offset="1303:1312"><Text>compliant</Text></Token><Token globalID="227" id="15" offset="1313:1320"><Text>patient</Text></Token><Token globalID="228" id="16" offset="1320:1321"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="1322:1478"><Text>During her first months on therapy, she suffered migratory aches and pains, particularly severe in the right shoulder and hip, but these gradually resolved.</Text><Tokens Count="28"><Token globalID="229" id="0" offset="1322:1328"><Text>During</Text></Token><Token globalID="230" id="1" offset="1329:1332"><Text>her</Text></Token><Token globalID="231" id="2" offset="1333:1338"><Text>first</Text></Token><Token globalID="232" id="3" offset="1339:1345"><Text>months</Text></Token><Token globalID="233" id="4" offset="1340:1342"><Text>on</Text></Token><Token globalID="234" id="5" offset="1349:1356"><Text>therapy</Text></Token><Token globalID="235" id="6" offset="1356:1357"><Text>,</Text></Token><Token globalID="236" id="7" offset="1358:1361"><Text>she</Text></Token><Token globalID="237" id="8" offset="1362:1370"><Text>suffered</Text></Token><Token globalID="238" id="9" offset="1371:1380"><Text>migratory</Text></Token><Token globalID="239" id="10" offset="1381:1386"><Text>aches</Text></Token><Token globalID="240" id="11" offset="1387:1390"><Text>and</Text></Token><Token globalID="241" id="12" offset="1391:1396"><Text>pains</Text></Token><Token globalID="242" id="13" offset="1396:1397"><Text>,</Text></Token><Token globalID="243" id="14" offset="1398:1410"><Text>particularly</Text></Token><Token globalID="244" id="15" offset="1411:1417"><Text>severe</Text></Token><Token globalID="245" id="16" offset="1418:1420"><Text>in</Text></Token><Token globalID="246" id="17" offset="1421:1424"><Text>the</Text></Token><Token globalID="247" id="18" offset="1425:1430"><Text>right</Text></Token><Token globalID="248" id="19" offset="1431:1439"><Text>shoulder</Text></Token><Token globalID="249" id="20" offset="1440:1443"><Text>and</Text></Token><Token globalID="250" id="21" offset="1444:1447"><Text>hip</Text></Token><Token globalID="251" id="22" offset="1447:1448"><Text>,</Text></Token><Token globalID="252" id="23" offset="1449:1452"><Text>but</Text></Token><Token globalID="253" id="24" offset="1453:1458"><Text>these</Text></Token><Token globalID="254" id="25" offset="1459:1468"><Text>gradually</Text></Token><Token globalID="255" id="26" offset="1469:1477"><Text>resolved</Text></Token><Token globalID="256" id="27" offset="1477:1478"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="3" offset="1479:1566"><Text>In fact, after a period of some months she felt so well she returned to work full time.</Text><Tokens Count="20"><Token globalID="257" id="0" offset="1479:1481"><Text>In</Text></Token><Token globalID="258" id="1" offset="1482:1486"><Text>fact</Text></Token><Token globalID="259" id="2" offset="1486:1487"><Text>,</Text></Token><Token globalID="260" id="3" offset="1488:1493"><Text>after</Text></Token><Token globalID="261" id="4" offset="1488:1489"><Text>a</Text></Token><Token globalID="262" id="5" offset="1496:1502"><Text>period</Text></Token><Token globalID="263" id="6" offset="1503:1505"><Text>of</Text></Token><Token globalID="264" id="7" offset="1506:1510"><Text>some</Text></Token><Token globalID="265" id="8" offset="1511:1517"><Text>months</Text></Token><Token globalID="266" id="9" offset="1518:1521"><Text>she</Text></Token><Token globalID="267" id="10" offset="1522:1526"><Text>felt</Text></Token><Token globalID="268" id="11" offset="1527:1529"><Text>so</Text></Token><Token globalID="269" id="12" offset="1530:1534"><Text>well</Text></Token><Token globalID="270" id="13" offset="1535:1538"><Text>she</Text></Token><Token globalID="271" id="14" offset="1539:1547"><Text>returned</Text></Token><Token globalID="272" id="15" offset="1548:1550"><Text>to</Text></Token><Token globalID="273" id="16" offset="1551:1555"><Text>work</Text></Token><Token globalID="274" id="17" offset="1556:1560"><Text>full</Text></Token><Token globalID="275" id="18" offset="1561:1565"><Text>time</Text></Token><Token globalID="276" id="19" offset="1565:1566"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="3"><Sentences Count="2"><Sentence id="0" offset="1567:1722"><Text>Repeat bone scans in May 1992 five months after BV began her treatment with me showed, according to the report, No definite evidence of metastatic disease.</Text><Tokens Count="29"><Token globalID="277" id="0" offset="1567:1573"><Text>Repeat</Text></Token><Token globalID="278" id="1" offset="1574:1578"><Text>bone</Text></Token><Token globalID="279" id="2" offset="1579:1584"><Text>scans</Text></Token><Token globalID="280" id="3" offset="1585:1587"><Text>in</Text></Token><Token globalID="281" id="4" offset="1588:1591"><Text>May</Text></Token><Token globalID="282" id="5" offset="1592:1596"><Text>1992</Text></Token><Token globalID="283" id="6" offset="1597:1601"><Text>five</Text></Token><Token globalID="284" id="7" offset="1602:1608"><Text>months</Text></Token><Token globalID="285" id="8" offset="1609:1614"><Text>after</Text></Token><Token globalID="286" id="9" offset="1615:1617"><Text>BV</Text></Token><Token globalID="287" id="10" offset="1618:1623"><Text>began</Text></Token><Token globalID="288" id="11" offset="1624:1627"><Text>her</Text></Token><Token globalID="289" id="12" offset="1628:1637"><Text>treatment</Text></Token><Token globalID="290" id="13" offset="1638:1642"><Text>with</Text></Token><Token globalID="291" id="14" offset="1643:1645"><Text>me</Text></Token><Token globalID="292" id="15" offset="1646:1652"><Text>showed</Text></Token><Token globalID="293" id="16" offset="1652:1653"><Text>,</Text></Token><Token globalID="294" id="17" offset="1654:1663"><Text>according</Text></Token><Token globalID="295" id="18" offset="1664:1666"><Text>to</Text></Token><Token globalID="296" id="19" offset="1667:1670"><Text>the</Text></Token><Token globalID="297" id="20" offset="1671:1677"><Text>report</Text></Token><Token globalID="298" id="21" offset="1677:1678"><Text>,</Text></Token><Token globalID="299" id="22" offset="1679:1681"><Text>No</Text></Token><Token globalID="300" id="23" offset="1682:1690"><Text>definite</Text></Token><Token globalID="301" id="24" offset="1691:1699"><Text>evidence</Text></Token><Token globalID="302" id="25" offset="1700:1702"><Text>of</Text></Token><Token globalID="303" id="26" offset="1703:1713"><Text>metastatic</Text></Token><Token globalID="304" id="27" offset="1714:1721"><Text>disease</Text></Token><Token globalID="305" id="28" offset="1721:1722"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="1723:1888"><Text>A follow-up scan in June 1993 was again clear, and today, nearly 15 years after she first consulted me, BV remains compliant with her full regimen, and disease free.</Text><Tokens Count="34"><Token globalID="306" id="0" offset="1723:1724"><Text>A</Text></Token><Token globalID="307" id="1" offset="1725:1734"><Text>follow-up</Text></Token><Token globalID="308" id="2" offset="1735:1739"><Text>scan</Text></Token><Token globalID="309" id="3" offset="1740:1742"><Text>in</Text></Token><Token globalID="310" id="4" offset="1743:1747"><Text>June</Text></Token><Token globalID="311" id="5" offset="1748:1752"><Text>1993</Text></Token><Token globalID="312" id="6" offset="1753:1756"><Text>was</Text></Token><Token globalID="313" id="7" offset="1757:1762"><Text>again</Text></Token><Token globalID="314" id="8" offset="1763:1768"><Text>clear</Text></Token><Token globalID="315" id="9" offset="1768:1769"><Text>,</Text></Token><Token globalID="316" id="10" offset="1770:1773"><Text>and</Text></Token><Token globalID="317" id="11" offset="1774:1779"><Text>today</Text></Token><Token globalID="318" id="12" offset="1779:1780"><Text>,</Text></Token><Token globalID="319" id="13" offset="1781:1787"><Text>nearly</Text></Token><Token globalID="320" id="14" offset="1788:1790"><Text>15</Text></Token><Token globalID="321" id="15" offset="1791:1796"><Text>years</Text></Token><Token globalID="322" id="16" offset="1797:1802"><Text>after</Text></Token><Token globalID="323" id="17" offset="1803:1806"><Text>she</Text></Token><Token globalID="324" id="18" offset="1807:1812"><Text>first</Text></Token><Token globalID="325" id="19" offset="1813:1822"><Text>consulted</Text></Token><Token globalID="326" id="20" offset="1823:1825"><Text>me</Text></Token><Token globalID="327" id="21" offset="1825:1826"><Text>,</Text></Token><Token globalID="328" id="22" offset="1827:1829"><Text>BV</Text></Token><Token globalID="329" id="23" offset="1830:1837"><Text>remains</Text></Token><Token globalID="330" id="24" offset="1838:1847"><Text>compliant</Text></Token><Token globalID="331" id="25" offset="1848:1852"><Text>with</Text></Token><Token globalID="332" id="26" offset="1853:1856"><Text>her</Text></Token><Token globalID="333" id="27" offset="1857:1861"><Text>full</Text></Token><Token globalID="334" id="28" offset="1862:1869"><Text>regimen</Text></Token><Token globalID="335" id="29" offset="1869:1870"><Text>,</Text></Token><Token globalID="336" id="30" offset="1871:1874"><Text>and</Text></Token><Token globalID="337" id="31" offset="1875:1882"><Text>disease</Text></Token><Token globalID="338" id="32" offset="1883:1887"><Text>free</Text></Token><Token globalID="339" id="33" offset="1887:1888"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="4"><Sentences Count="2"><Sentence id="0" offset="1889:1922"><Text>Her case is very straightforward.</Text><Tokens Count="6"><Token globalID="340" id="0" offset="1889:1892"><Text>Her</Text></Token><Token globalID="341" id="1" offset="1893:1897"><Text>case</Text></Token><Token globalID="342" id="2" offset="1898:1900"><Text>is</Text></Token><Token globalID="343" id="3" offset="1901:1905"><Text>very</Text></Token><Token globalID="344" id="4" offset="1906:1921"><Text>straightforward</Text></Token><Token globalID="345" id="5" offset="1921:1922"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="1923:2068"><Text>At the time of diagnosis, a bone scan and MRI documented a large tumor in her hip that regressed while she followed only her nutritional program.</Text><Tokens Count="28"><Token globalID="346" id="0" offset="1923:1925"><Text>At</Text></Token><Token globalID="347" id="1" offset="1926:1929"><Text>the</Text></Token><Token globalID="348" id="2" offset="1930:1934"><Text>time</Text></Token><Token globalID="349" id="3" offset="1935:1937"><Text>of</Text></Token><Token globalID="350" id="4" offset="1938:1947"><Text>diagnosis</Text></Token><Token globalID="351" id="5" offset="1947:1948"><Text>,</Text></Token><Token globalID="352" id="6" offset="1949:1950"><Text>a</Text></Token><Token globalID="353" id="7" offset="1951:1955"><Text>bone</Text></Token><Token globalID="354" id="8" offset="1956:1960"><Text>scan</Text></Token><Token globalID="355" id="9" offset="1961:1964"><Text>and</Text></Token><Token globalID="356" id="10" offset="1965:1968"><Text>MRI</Text></Token><Token globalID="357" id="11" offset="1969:1979"><Text>documented</Text></Token><Token globalID="358" id="12" offset="1980:1981"><Text>a</Text></Token><Token globalID="359" id="13" offset="1982:1987"><Text>large</Text></Token><Token globalID="360" id="14" offset="1988:1993"><Text>tumor</Text></Token><Token globalID="361" id="15" offset="1994:1996"><Text>in</Text></Token><Token globalID="362" id="16" offset="1997:2000"><Text>her</Text></Token><Token globalID="363" id="17" offset="2001:2004"><Text>hip</Text></Token><Token globalID="364" id="18" offset="2005:2009"><Text>that</Text></Token><Token globalID="365" id="19" offset="2010:2019"><Text>regressed</Text></Token><Token globalID="366" id="20" offset="2020:2025"><Text>while</Text></Token><Token globalID="367" id="21" offset="2026:2029"><Text>she</Text></Token><Token globalID="368" id="22" offset="2030:2038"><Text>followed</Text></Token><Token globalID="369" id="23" offset="2039:2043"><Text>only</Text></Token><Token globalID="370" id="24" offset="2044:2047"><Text>her</Text></Token><Token globalID="371" id="25" offset="2048:2059"><Text>nutritional</Text></Token><Token globalID="372" id="26" offset="2060:2067"><Text>program</Text></Token><Token globalID="373" id="27" offset="2067:2068"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="5"><Sentences Count="2"><Sentence id="0" offset="2069:2255"><Text>Elder et al report a median survival of 2.4 years for women with breast cancer metastatic to bone (3), somewhat better statistics than for those diagnosed with brain or liver metastases.</Text><Tokens Count="35"><Token globalID="374" id="0" offset="2069:2074"><Text>Elder</Text></Token><Token globalID="375" id="1" offset="2075:2077"><Text>et</Text></Token><Token globalID="376" id="2" offset="2078:2080"><Text>al</Text></Token><Token globalID="377" id="3" offset="2081:2087"><Text>report</Text></Token><Token globalID="378" id="4" offset="2088:2089"><Text>a</Text></Token><Token globalID="379" id="5" offset="2090:2096"><Text>median</Text></Token><Token globalID="380" id="6" offset="2097:2105"><Text>survival</Text></Token><Token globalID="381" id="7" offset="2106:2108"><Text>of</Text></Token><Token globalID="382" id="8" offset="2109:2112"><Text>2.4</Text></Token><Token globalID="383" id="9" offset="2113:2118"><Text>years</Text></Token><Token globalID="384" id="10" offset="2119:2122"><Text>for</Text></Token><Token globalID="385" id="11" offset="2123:2128"><Text>women</Text></Token><Token globalID="386" id="12" offset="2129:2133"><Text>with</Text></Token><Token globalID="387" id="13" offset="2134:2140"><Text>breast</Text></Token><Token globalID="388" id="14" offset="2141:2147"><Text>cancer</Text></Token><Token globalID="389" id="15" offset="2148:2158"><Text>metastatic</Text></Token><Token globalID="390" id="16" offset="2159:2161"><Text>to</Text></Token><Token globalID="391" id="17" offset="2162:2166"><Text>bone</Text></Token><Token globalID="392" id="18" offset="2167:2168"><Text>(</Text></Token><Token globalID="393" id="19" offset="2168:2169"><Text>3</Text></Token><Token globalID="394" id="20" offset="2169:2170"><Text>)</Text></Token><Token globalID="395" id="21" offset="2170:2171"><Text>,</Text></Token><Token globalID="396" id="22" offset="2172:2180"><Text>somewhat</Text></Token><Token globalID="397" id="23" offset="2181:2187"><Text>better</Text></Token><Token globalID="398" id="24" offset="2188:2198"><Text>statistics</Text></Token><Token globalID="399" id="25" offset="2199:2203"><Text>than</Text></Token><Token globalID="400" id="26" offset="2204:2207"><Text>for</Text></Token><Token globalID="401" id="27" offset="2208:2213"><Text>those</Text></Token><Token globalID="402" id="28" offset="2214:2223"><Text>diagnosed</Text></Token><Token globalID="403" id="29" offset="2224:2228"><Text>with</Text></Token><Token globalID="404" id="30" offset="2229:2234"><Text>brain</Text></Token><Token globalID="405" id="31" offset="2235:2237"><Text>or</Text></Token><Token globalID="406" id="32" offset="2238:2243"><Text>liver</Text></Token><Token globalID="407" id="33" offset="2244:2254"><Text>metastases</Text></Token><Token globalID="408" id="34" offset="2254:2255"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="2256:2417"><Text>However, these numbers reference patients aggressively treated with conventional modalities such as surgery, chemotherapy and radiation, all of which BV refused.</Text><Tokens Count="25"><Token globalID="409" id="0" offset="2256:2263"><Text>However</Text></Token><Token globalID="410" id="1" offset="2263:2264"><Text>,</Text></Token><Token globalID="411" id="2" offset="2265:2270"><Text>these</Text></Token><Token globalID="412" id="3" offset="2271:2278"><Text>numbers</Text></Token><Token globalID="413" id="4" offset="2279:2288"><Text>reference</Text></Token><Token globalID="414" id="5" offset="2289:2297"><Text>patients</Text></Token><Token globalID="415" id="6" offset="2298:2310"><Text>aggressively</Text></Token><Token globalID="416" id="7" offset="2311:2318"><Text>treated</Text></Token><Token globalID="417" id="8" offset="2319:2323"><Text>with</Text></Token><Token globalID="418" id="9" offset="2324:2336"><Text>conventional</Text></Token><Token globalID="419" id="10" offset="2337:2347"><Text>modalities</Text></Token><Token globalID="420" id="11" offset="2348:2352"><Text>such</Text></Token><Token globalID="421" id="12" offset="2353:2355"><Text>as</Text></Token><Token globalID="422" id="13" offset="2356:2363"><Text>surgery</Text></Token><Token globalID="423" id="14" offset="2363:2364"><Text>,</Text></Token><Token globalID="424" id="15" offset="2365:2377"><Text>chemotherapy</Text></Token><Token globalID="425" id="16" offset="2378:2381"><Text>and</Text></Token><Token globalID="426" id="17" offset="2382:2391"><Text>radiation</Text></Token><Token globalID="427" id="18" offset="2391:2392"><Text>,</Text></Token><Token globalID="428" id="19" offset="2393:2396"><Text>all</Text></Token><Token globalID="429" id="20" offset="2397:2399"><Text>of</Text></Token><Token globalID="430" id="21" offset="2400:2405"><Text>which</Text></Token><Token globalID="431" id="22" offset="2406:2408"><Text>BV</Text></Token><Token globalID="432" id="23" offset="2409:2416"><Text>refused</Text></Token><Token globalID="433" id="24" offset="2416:2417"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph></Paragraphs></StartOutput>
+<StartOutput>
+    <Paragraphs Count="6">
+        <Paragraph id="0">
+            <Sentences Count="7">
+                <Sentence id="0" offset="0:140">
+                    <Text>Patient BV is a 67-year-old woman who had been in good health when routine mammography in
+                        October of 1991 revealed a suspicious breast mass.
+                    </Text>
+                    <Tokens Count="25">
+                        <Token globalID="0" id="0" offset="0:7">
+                            <Text>Patient</Text>
+                        </Token>
+                        <Token globalID="1" id="1" offset="8:10">
+                            <Text>BV</Text>
+                        </Token>
+                        <Token globalID="2" id="2" offset="11:13">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="3" id="3" offset="14:15">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="4" id="4" offset="16:27">
+                            <Text>67-year-old</Text>
+                        </Token>
+                        <Token globalID="5" id="5" offset="28:33">
+                            <Text>woman</Text>
+                        </Token>
+                        <Token globalID="6" id="6" offset="34:37">
+                            <Text>who</Text>
+                        </Token>
+                        <Token globalID="7" id="7" offset="38:41">
+                            <Text>had</Text>
+                        </Token>
+                        <Token globalID="8" id="8" offset="42:46">
+                            <Text>been</Text>
+                        </Token>
+                        <Token globalID="9" id="9" offset="47:49">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="10" id="10" offset="50:54">
+                            <Text>good</Text>
+                        </Token>
+                        <Token globalID="11" id="11" offset="55:61">
+                            <Text>health</Text>
+                        </Token>
+                        <Token globalID="12" id="12" offset="62:66">
+                            <Text>when</Text>
+                        </Token>
+                        <Token globalID="13" id="13" offset="67:74">
+                            <Text>routine</Text>
+                        </Token>
+                        <Token globalID="14" id="14" offset="75:86">
+                            <Text>mammography</Text>
+                        </Token>
+                        <Token globalID="15" id="15" offset="87:89">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="16" id="16" offset="90:97">
+                            <Text>October</Text>
+                        </Token>
+                        <Token globalID="17" id="17" offset="98:100">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="18" id="18" offset="101:105">
+                            <Text>1991</Text>
+                        </Token>
+                        <Token globalID="19" id="19" offset="106:114">
+                            <Text>revealed</Text>
+                        </Token>
+                        <Token globalID="20" id="20" offset="110:111">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="21" id="21" offset="117:127">
+                            <Text>suspicious</Text>
+                        </Token>
+                        <Token globalID="22" id="22" offset="128:134">
+                            <Text>breast</Text>
+                        </Token>
+                        <Token globalID="23" id="23" offset="135:139">
+                            <Text>mass</Text>
+                        </Token>
+                        <Token globalID="24" id="24" offset="139:140">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="141:216">
+                    <Text>In late 1991 she underwent biopsy and lumpectomy, with removal of a 2.1 cm.</Text>
+                    <Tokens Count="16">
+                        <Token globalID="25" id="0" offset="141:143">
+                            <Text>In</Text>
+                        </Token>
+                        <Token globalID="26" id="1" offset="144:148">
+                            <Text>late</Text>
+                        </Token>
+                        <Token globalID="27" id="2" offset="149:153">
+                            <Text>1991</Text>
+                        </Token>
+                        <Token globalID="28" id="3" offset="154:157">
+                            <Text>she</Text>
+                        </Token>
+                        <Token globalID="29" id="4" offset="158:167">
+                            <Text>underwent</Text>
+                        </Token>
+                        <Token globalID="30" id="5" offset="168:174">
+                            <Text>biopsy</Text>
+                        </Token>
+                        <Token globalID="31" id="6" offset="175:178">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="32" id="7" offset="179:189">
+                            <Text>lumpectomy</Text>
+                        </Token>
+                        <Token globalID="33" id="8" offset="189:190">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="34" id="9" offset="191:195">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="35" id="10" offset="196:203">
+                            <Text>removal</Text>
+                        </Token>
+                        <Token globalID="36" id="11" offset="204:206">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="37" id="12" offset="207:208">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="38" id="13" offset="209:212">
+                            <Text>2.1</Text>
+                        </Token>
+                        <Token globalID="39" id="14" offset="213:215">
+                            <Text>cm</Text>
+                        </Token>
+                        <Token globalID="40" id="15" offset="215:216">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="217:278">
+                    <Text>tumor confirmed as in situ and infiltrating ductal carcinoma.</Text>
+                    <Tokens Count="10">
+                        <Token globalID="41" id="0" offset="217:222">
+                            <Text>tumor</Text>
+                        </Token>
+                        <Token globalID="42" id="1" offset="223:232">
+                            <Text>confirmed</Text>
+                        </Token>
+                        <Token globalID="43" id="2" offset="233:235">
+                            <Text>as</Text>
+                        </Token>
+                        <Token globalID="44" id="3" offset="236:238">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="45" id="4" offset="239:243">
+                            <Text>situ</Text>
+                        </Token>
+                        <Token globalID="46" id="5" offset="244:247">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="47" id="6" offset="248:260">
+                            <Text>infiltrating</Text>
+                        </Token>
+                        <Token globalID="48" id="7" offset="261:267">
+                            <Text>ductal</Text>
+                        </Token>
+                        <Token globalID="49" id="8" offset="268:277">
+                            <Text>carcinoma</Text>
+                        </Token>
+                        <Token globalID="50" id="9" offset="277:278">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="3" offset="279:433">
+                    <Text>Though no nodes were sampled, a bone scan in December 1991 as part of routine follow-up
+                        testing demonstrated increased uptake in the right proximal femur.
+                    </Text>
+                    <Tokens Count="27">
+                        <Token globalID="51" id="0" offset="279:285">
+                            <Text>Though</Text>
+                        </Token>
+                        <Token globalID="52" id="1" offset="286:288">
+                            <Text>no</Text>
+                        </Token>
+                        <Token globalID="53" id="2" offset="289:294">
+                            <Text>nodes</Text>
+                        </Token>
+                        <Token globalID="54" id="3" offset="295:299">
+                            <Text>were</Text>
+                        </Token>
+                        <Token globalID="55" id="4" offset="300:307">
+                            <Text>sampled</Text>
+                        </Token>
+                        <Token globalID="56" id="5" offset="307:308">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="57" id="6" offset="309:310">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="58" id="7" offset="311:315">
+                            <Text>bone</Text>
+                        </Token>
+                        <Token globalID="59" id="8" offset="316:320">
+                            <Text>scan</Text>
+                        </Token>
+                        <Token globalID="60" id="9" offset="321:323">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="61" id="10" offset="324:332">
+                            <Text>December</Text>
+                        </Token>
+                        <Token globalID="62" id="11" offset="333:337">
+                            <Text>1991</Text>
+                        </Token>
+                        <Token globalID="63" id="12" offset="338:340">
+                            <Text>as</Text>
+                        </Token>
+                        <Token globalID="64" id="13" offset="341:345">
+                            <Text>part</Text>
+                        </Token>
+                        <Token globalID="65" id="14" offset="346:348">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="66" id="15" offset="349:356">
+                            <Text>routine</Text>
+                        </Token>
+                        <Token globalID="67" id="16" offset="357:366">
+                            <Text>follow-up</Text>
+                        </Token>
+                        <Token globalID="68" id="17" offset="367:374">
+                            <Text>testing</Text>
+                        </Token>
+                        <Token globalID="69" id="18" offset="375:387">
+                            <Text>demonstrated</Text>
+                        </Token>
+                        <Token globalID="70" id="19" offset="388:397">
+                            <Text>increased</Text>
+                        </Token>
+                        <Token globalID="71" id="20" offset="398:404">
+                            <Text>uptake</Text>
+                        </Token>
+                        <Token globalID="72" id="21" offset="405:407">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="73" id="22" offset="408:411">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="74" id="23" offset="412:417">
+                            <Text>right</Text>
+                        </Token>
+                        <Token globalID="75" id="24" offset="418:426">
+                            <Text>proximal</Text>
+                        </Token>
+                        <Token globalID="76" id="25" offset="427:432">
+                            <Text>femur</Text>
+                        </Token>
+                        <Token globalID="77" id="26" offset="432:433">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="4" offset="434:544">
+                    <Text>An MRI in January 1992 documented a lesion on the right greater trochanter consistent with
+                        metastatic disease.
+                    </Text>
+                    <Tokens Count="18">
+                        <Token globalID="78" id="0" offset="434:436">
+                            <Text>An</Text>
+                        </Token>
+                        <Token globalID="79" id="1" offset="437:440">
+                            <Text>MRI</Text>
+                        </Token>
+                        <Token globalID="80" id="2" offset="441:443">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="81" id="3" offset="444:451">
+                            <Text>January</Text>
+                        </Token>
+                        <Token globalID="82" id="4" offset="452:456">
+                            <Text>1992</Text>
+                        </Token>
+                        <Token globalID="83" id="5" offset="457:467">
+                            <Text>documented</Text>
+                        </Token>
+                        <Token globalID="84" id="6" offset="468:469">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="85" id="7" offset="470:476">
+                            <Text>lesion</Text>
+                        </Token>
+                        <Token globalID="86" id="8" offset="474:476">
+                            <Text>on</Text>
+                        </Token>
+                        <Token globalID="87" id="9" offset="480:483">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="88" id="10" offset="484:489">
+                            <Text>right</Text>
+                        </Token>
+                        <Token globalID="89" id="11" offset="490:497">
+                            <Text>greater</Text>
+                        </Token>
+                        <Token globalID="90" id="12" offset="498:508">
+                            <Text>trochanter</Text>
+                        </Token>
+                        <Token globalID="91" id="13" offset="509:519">
+                            <Text>consistent</Text>
+                        </Token>
+                        <Token globalID="92" id="14" offset="520:524">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="93" id="15" offset="525:535">
+                            <Text>metastatic</Text>
+                        </Token>
+                        <Token globalID="94" id="16" offset="536:543">
+                            <Text>disease</Text>
+                        </Token>
+                        <Token globalID="95" id="17" offset="543:544">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="5" offset="545:571">
+                    <Text>The official report reads.</Text>
+                    <Tokens Count="5">
+                        <Token globalID="96" id="0" offset="545:548">
+                            <Text>The</Text>
+                        </Token>
+                        <Token globalID="97" id="1" offset="549:557">
+                            <Text>official</Text>
+                        </Token>
+                        <Token globalID="98" id="2" offset="558:564">
+                            <Text>report</Text>
+                        </Token>
+                        <Token globalID="99" id="3" offset="565:570">
+                            <Text>reads</Text>
+                        </Token>
+                        <Token globalID="100" id="4" offset="570:571">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="6" offset="572:688">
+                    <Text>A solitary lesion is noted distal to the right greater trochanter&#226;&#65533;&#166;most
+                        likely representing a metastatic lesion
+                    </Text>
+                    <Tokens Count="16">
+                        <Token globalID="101" id="0" offset="572:573">
+                            <Text>A</Text>
+                        </Token>
+                        <Token globalID="102" id="1" offset="574:582">
+                            <Text>solitary</Text>
+                        </Token>
+                        <Token globalID="103" id="2" offset="583:589">
+                            <Text>lesion</Text>
+                        </Token>
+                        <Token globalID="104" id="3" offset="590:592">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="105" id="4" offset="593:598">
+                            <Text>noted</Text>
+                        </Token>
+                        <Token globalID="106" id="5" offset="599:605">
+                            <Text>distal</Text>
+                        </Token>
+                        <Token globalID="107" id="6" offset="606:608">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="108" id="7" offset="609:612">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="109" id="8" offset="613:618">
+                            <Text>right</Text>
+                        </Token>
+                        <Token globalID="110" id="9" offset="619:626">
+                            <Text>greater</Text>
+                        </Token>
+                        <Token globalID="111" id="10" offset="627:648">
+                            <Text>trochanter&#226;&#65533;&#166;most</Text>
+                        </Token>
+                        <Token globalID="112" id="11" offset="649:655">
+                            <Text>likely</Text>
+                        </Token>
+                        <Token globalID="113" id="12" offset="656:668">
+                            <Text>representing</Text>
+                        </Token>
+                        <Token globalID="114" id="13" offset="669:670">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="115" id="14" offset="671:681">
+                            <Text>metastatic</Text>
+                        </Token>
+                        <Token globalID="116" id="15" offset="682:688">
+                            <Text>lesion</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="1">
+            <Sentences Count="3">
+                <Sentence id="0" offset="689:836">
+                    <Text>The patient did meet with an orthopedic surgeon who suggested a course of aggressive surgery
+                        with hip replacement followed by radiation to the hip.
+                    </Text>
+                    <Tokens Count="25">
+                        <Token globalID="117" id="0" offset="689:692">
+                            <Text>The</Text>
+                        </Token>
+                        <Token globalID="118" id="1" offset="693:700">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token globalID="119" id="2" offset="701:704">
+                            <Text>did</Text>
+                        </Token>
+                        <Token globalID="120" id="3" offset="705:709">
+                            <Text>meet</Text>
+                        </Token>
+                        <Token globalID="121" id="4" offset="710:714">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="122" id="5" offset="715:717">
+                            <Text>an</Text>
+                        </Token>
+                        <Token globalID="123" id="6" offset="718:728">
+                            <Text>orthopedic</Text>
+                        </Token>
+                        <Token globalID="124" id="7" offset="729:736">
+                            <Text>surgeon</Text>
+                        </Token>
+                        <Token globalID="125" id="8" offset="737:740">
+                            <Text>who</Text>
+                        </Token>
+                        <Token globalID="126" id="9" offset="741:750">
+                            <Text>suggested</Text>
+                        </Token>
+                        <Token globalID="127" id="10" offset="751:752">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="128" id="11" offset="753:759">
+                            <Text>course</Text>
+                        </Token>
+                        <Token globalID="129" id="12" offset="760:762">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="130" id="13" offset="763:773">
+                            <Text>aggressive</Text>
+                        </Token>
+                        <Token globalID="131" id="14" offset="774:781">
+                            <Text>surgery</Text>
+                        </Token>
+                        <Token globalID="132" id="15" offset="782:786">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="133" id="16" offset="787:790">
+                            <Text>hip</Text>
+                        </Token>
+                        <Token globalID="134" id="17" offset="791:802">
+                            <Text>replacement</Text>
+                        </Token>
+                        <Token globalID="135" id="18" offset="803:811">
+                            <Text>followed</Text>
+                        </Token>
+                        <Token globalID="136" id="19" offset="812:814">
+                            <Text>by</Text>
+                        </Token>
+                        <Token globalID="137" id="20" offset="815:824">
+                            <Text>radiation</Text>
+                        </Token>
+                        <Token globalID="138" id="21" offset="825:827">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="139" id="22" offset="828:831">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="140" id="23" offset="832:835">
+                            <Text>hip</Text>
+                        </Token>
+                        <Token globalID="141" id="24" offset="835:836">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="837:935">
+                    <Text>Her breast surgeon insisted BV proceed with mastectomy and subsequent radiation to the chest
+                        wall.
+                    </Text>
+                    <Tokens Count="16">
+                        <Token globalID="142" id="0" offset="837:840">
+                            <Text>Her</Text>
+                        </Token>
+                        <Token globalID="143" id="1" offset="841:847">
+                            <Text>breast</Text>
+                        </Token>
+                        <Token globalID="144" id="2" offset="848:855">
+                            <Text>surgeon</Text>
+                        </Token>
+                        <Token globalID="145" id="3" offset="856:864">
+                            <Text>insisted</Text>
+                        </Token>
+                        <Token globalID="146" id="4" offset="865:867">
+                            <Text>BV</Text>
+                        </Token>
+                        <Token globalID="147" id="5" offset="868:875">
+                            <Text>proceed</Text>
+                        </Token>
+                        <Token globalID="148" id="6" offset="876:880">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="149" id="7" offset="881:891">
+                            <Text>mastectomy</Text>
+                        </Token>
+                        <Token globalID="150" id="8" offset="892:895">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="151" id="9" offset="896:906">
+                            <Text>subsequent</Text>
+                        </Token>
+                        <Token globalID="152" id="10" offset="907:916">
+                            <Text>radiation</Text>
+                        </Token>
+                        <Token globalID="153" id="11" offset="917:919">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="154" id="12" offset="920:923">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="155" id="13" offset="924:929">
+                            <Text>chest</Text>
+                        </Token>
+                        <Token globalID="156" id="14" offset="930:934">
+                            <Text>wall</Text>
+                        </Token>
+                        <Token globalID="157" id="15" offset="934:935">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="936:1074">
+                    <Text>However, after learning of our approach, BV refused all further conventional interventions,
+                        instead choosing to proceed with my treatment.
+                    </Text>
+                    <Tokens Count="23">
+                        <Token globalID="158" id="0" offset="936:943">
+                            <Text>However</Text>
+                        </Token>
+                        <Token globalID="159" id="1" offset="943:944">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="160" id="2" offset="945:950">
+                            <Text>after</Text>
+                        </Token>
+                        <Token globalID="161" id="3" offset="951:959">
+                            <Text>learning</Text>
+                        </Token>
+                        <Token globalID="162" id="4" offset="960:962">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="163" id="5" offset="963:966">
+                            <Text>our</Text>
+                        </Token>
+                        <Token globalID="164" id="6" offset="967:975">
+                            <Text>approach</Text>
+                        </Token>
+                        <Token globalID="165" id="7" offset="975:976">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="166" id="8" offset="977:979">
+                            <Text>BV</Text>
+                        </Token>
+                        <Token globalID="167" id="9" offset="980:987">
+                            <Text>refused</Text>
+                        </Token>
+                        <Token globalID="168" id="10" offset="988:991">
+                            <Text>all</Text>
+                        </Token>
+                        <Token globalID="169" id="11" offset="992:999">
+                            <Text>further</Text>
+                        </Token>
+                        <Token globalID="170" id="12" offset="1000:1012">
+                            <Text>conventional</Text>
+                        </Token>
+                        <Token globalID="171" id="13" offset="1013:1026">
+                            <Text>interventions</Text>
+                        </Token>
+                        <Token globalID="172" id="14" offset="1026:1027">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="173" id="15" offset="1028:1035">
+                            <Text>instead</Text>
+                        </Token>
+                        <Token globalID="174" id="16" offset="1036:1044">
+                            <Text>choosing</Text>
+                        </Token>
+                        <Token globalID="175" id="17" offset="1045:1047">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="176" id="18" offset="1048:1055">
+                            <Text>proceed</Text>
+                        </Token>
+                        <Token globalID="177" id="19" offset="1056:1060">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="178" id="20" offset="1061:1063">
+                            <Text>my</Text>
+                        </Token>
+                        <Token globalID="179" id="21" offset="1064:1073">
+                            <Text>treatment</Text>
+                        </Token>
+                        <Token globalID="180" id="22" offset="1073:1074">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="2">
+            <Sentences Count="4">
+                <Sentence id="0" offset="1075:1225">
+                    <Text>When I first saw BV in early 1992, she reported severe fatigue and chronic right hip pain,
+                        severe enough that she had gone on disability from her job.
+                    </Text>
+                    <Tokens Count="31">
+                        <Token globalID="181" id="0" offset="1075:1079">
+                            <Text>When</Text>
+                        </Token>
+                        <Token globalID="182" id="1" offset="1080:1081">
+                            <Text>I</Text>
+                        </Token>
+                        <Token globalID="183" id="2" offset="1082:1087">
+                            <Text>first</Text>
+                        </Token>
+                        <Token globalID="184" id="3" offset="1088:1091">
+                            <Text>saw</Text>
+                        </Token>
+                        <Token globalID="185" id="4" offset="1092:1094">
+                            <Text>BV</Text>
+                        </Token>
+                        <Token globalID="186" id="5" offset="1095:1097">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="187" id="6" offset="1098:1103">
+                            <Text>early</Text>
+                        </Token>
+                        <Token globalID="188" id="7" offset="1104:1108">
+                            <Text>1992</Text>
+                        </Token>
+                        <Token globalID="189" id="8" offset="1108:1109">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="190" id="9" offset="1110:1113">
+                            <Text>she</Text>
+                        </Token>
+                        <Token globalID="191" id="10" offset="1114:1122">
+                            <Text>reported</Text>
+                        </Token>
+                        <Token globalID="192" id="11" offset="1123:1129">
+                            <Text>severe</Text>
+                        </Token>
+                        <Token globalID="193" id="12" offset="1130:1137">
+                            <Text>fatigue</Text>
+                        </Token>
+                        <Token globalID="194" id="13" offset="1138:1141">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="195" id="14" offset="1142:1149">
+                            <Text>chronic</Text>
+                        </Token>
+                        <Token globalID="196" id="15" offset="1150:1155">
+                            <Text>right</Text>
+                        </Token>
+                        <Token globalID="197" id="16" offset="1156:1159">
+                            <Text>hip</Text>
+                        </Token>
+                        <Token globalID="198" id="17" offset="1160:1164">
+                            <Text>pain</Text>
+                        </Token>
+                        <Token globalID="199" id="18" offset="1164:1165">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="200" id="19" offset="1166:1172">
+                            <Text>severe</Text>
+                        </Token>
+                        <Token globalID="201" id="20" offset="1173:1179">
+                            <Text>enough</Text>
+                        </Token>
+                        <Token globalID="202" id="21" offset="1180:1184">
+                            <Text>that</Text>
+                        </Token>
+                        <Token globalID="203" id="22" offset="1185:1188">
+                            <Text>she</Text>
+                        </Token>
+                        <Token globalID="204" id="23" offset="1189:1192">
+                            <Text>had</Text>
+                        </Token>
+                        <Token globalID="205" id="24" offset="1193:1197">
+                            <Text>gone</Text>
+                        </Token>
+                        <Token globalID="206" id="25" offset="1194:1196">
+                            <Text>on</Text>
+                        </Token>
+                        <Token globalID="207" id="26" offset="1201:1211">
+                            <Text>disability</Text>
+                        </Token>
+                        <Token globalID="208" id="27" offset="1212:1216">
+                            <Text>from</Text>
+                        </Token>
+                        <Token globalID="209" id="28" offset="1217:1220">
+                            <Text>her</Text>
+                        </Token>
+                        <Token globalID="210" id="29" offset="1221:1224">
+                            <Text>job</Text>
+                        </Token>
+                        <Token globalID="211" id="30" offset="1224:1225">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="1226:1321">
+                    <Text>After beginning her nutritional regimen, she proved to be a very determined, compliant
+                        patient.
+                    </Text>
+                    <Tokens Count="17">
+                        <Token globalID="212" id="0" offset="1226:1231">
+                            <Text>After</Text>
+                        </Token>
+                        <Token globalID="213" id="1" offset="1232:1241">
+                            <Text>beginning</Text>
+                        </Token>
+                        <Token globalID="214" id="2" offset="1242:1245">
+                            <Text>her</Text>
+                        </Token>
+                        <Token globalID="215" id="3" offset="1246:1257">
+                            <Text>nutritional</Text>
+                        </Token>
+                        <Token globalID="216" id="4" offset="1258:1265">
+                            <Text>regimen</Text>
+                        </Token>
+                        <Token globalID="217" id="5" offset="1265:1266">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="218" id="6" offset="1267:1270">
+                            <Text>she</Text>
+                        </Token>
+                        <Token globalID="219" id="7" offset="1271:1277">
+                            <Text>proved</Text>
+                        </Token>
+                        <Token globalID="220" id="8" offset="1278:1280">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="221" id="9" offset="1281:1283">
+                            <Text>be</Text>
+                        </Token>
+                        <Token globalID="222" id="10" offset="1284:1285">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="223" id="11" offset="1286:1290">
+                            <Text>very</Text>
+                        </Token>
+                        <Token globalID="224" id="12" offset="1291:1301">
+                            <Text>determined</Text>
+                        </Token>
+                        <Token globalID="225" id="13" offset="1301:1302">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="226" id="14" offset="1303:1312">
+                            <Text>compliant</Text>
+                        </Token>
+                        <Token globalID="227" id="15" offset="1313:1320">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token globalID="228" id="16" offset="1320:1321">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="1322:1478">
+                    <Text>During her first months on therapy, she suffered migratory aches and pains, particularly
+                        severe in the right shoulder and hip, but these gradually resolved.
+                    </Text>
+                    <Tokens Count="28">
+                        <Token globalID="229" id="0" offset="1322:1328">
+                            <Text>During</Text>
+                        </Token>
+                        <Token globalID="230" id="1" offset="1329:1332">
+                            <Text>her</Text>
+                        </Token>
+                        <Token globalID="231" id="2" offset="1333:1338">
+                            <Text>first</Text>
+                        </Token>
+                        <Token globalID="232" id="3" offset="1339:1345">
+                            <Text>months</Text>
+                        </Token>
+                        <Token globalID="233" id="4" offset="1340:1342">
+                            <Text>on</Text>
+                        </Token>
+                        <Token globalID="234" id="5" offset="1349:1356">
+                            <Text>therapy</Text>
+                        </Token>
+                        <Token globalID="235" id="6" offset="1356:1357">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="236" id="7" offset="1358:1361">
+                            <Text>she</Text>
+                        </Token>
+                        <Token globalID="237" id="8" offset="1362:1370">
+                            <Text>suffered</Text>
+                        </Token>
+                        <Token globalID="238" id="9" offset="1371:1380">
+                            <Text>migratory</Text>
+                        </Token>
+                        <Token globalID="239" id="10" offset="1381:1386">
+                            <Text>aches</Text>
+                        </Token>
+                        <Token globalID="240" id="11" offset="1387:1390">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="241" id="12" offset="1391:1396">
+                            <Text>pains</Text>
+                        </Token>
+                        <Token globalID="242" id="13" offset="1396:1397">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="243" id="14" offset="1398:1410">
+                            <Text>particularly</Text>
+                        </Token>
+                        <Token globalID="244" id="15" offset="1411:1417">
+                            <Text>severe</Text>
+                        </Token>
+                        <Token globalID="245" id="16" offset="1418:1420">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="246" id="17" offset="1421:1424">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="247" id="18" offset="1425:1430">
+                            <Text>right</Text>
+                        </Token>
+                        <Token globalID="248" id="19" offset="1431:1439">
+                            <Text>shoulder</Text>
+                        </Token>
+                        <Token globalID="249" id="20" offset="1440:1443">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="250" id="21" offset="1444:1447">
+                            <Text>hip</Text>
+                        </Token>
+                        <Token globalID="251" id="22" offset="1447:1448">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="252" id="23" offset="1449:1452">
+                            <Text>but</Text>
+                        </Token>
+                        <Token globalID="253" id="24" offset="1453:1458">
+                            <Text>these</Text>
+                        </Token>
+                        <Token globalID="254" id="25" offset="1459:1468">
+                            <Text>gradually</Text>
+                        </Token>
+                        <Token globalID="255" id="26" offset="1469:1477">
+                            <Text>resolved</Text>
+                        </Token>
+                        <Token globalID="256" id="27" offset="1477:1478">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="3" offset="1479:1566">
+                    <Text>In fact, after a period of some months she felt so well she returned to work full time.</Text>
+                    <Tokens Count="20">
+                        <Token globalID="257" id="0" offset="1479:1481">
+                            <Text>In</Text>
+                        </Token>
+                        <Token globalID="258" id="1" offset="1482:1486">
+                            <Text>fact</Text>
+                        </Token>
+                        <Token globalID="259" id="2" offset="1486:1487">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="260" id="3" offset="1488:1493">
+                            <Text>after</Text>
+                        </Token>
+                        <Token globalID="261" id="4" offset="1488:1489">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="262" id="5" offset="1496:1502">
+                            <Text>period</Text>
+                        </Token>
+                        <Token globalID="263" id="6" offset="1503:1505">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="264" id="7" offset="1506:1510">
+                            <Text>some</Text>
+                        </Token>
+                        <Token globalID="265" id="8" offset="1511:1517">
+                            <Text>months</Text>
+                        </Token>
+                        <Token globalID="266" id="9" offset="1518:1521">
+                            <Text>she</Text>
+                        </Token>
+                        <Token globalID="267" id="10" offset="1522:1526">
+                            <Text>felt</Text>
+                        </Token>
+                        <Token globalID="268" id="11" offset="1527:1529">
+                            <Text>so</Text>
+                        </Token>
+                        <Token globalID="269" id="12" offset="1530:1534">
+                            <Text>well</Text>
+                        </Token>
+                        <Token globalID="270" id="13" offset="1535:1538">
+                            <Text>she</Text>
+                        </Token>
+                        <Token globalID="271" id="14" offset="1539:1547">
+                            <Text>returned</Text>
+                        </Token>
+                        <Token globalID="272" id="15" offset="1548:1550">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="273" id="16" offset="1551:1555">
+                            <Text>work</Text>
+                        </Token>
+                        <Token globalID="274" id="17" offset="1556:1560">
+                            <Text>full</Text>
+                        </Token>
+                        <Token globalID="275" id="18" offset="1561:1565">
+                            <Text>time</Text>
+                        </Token>
+                        <Token globalID="276" id="19" offset="1565:1566">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="3">
+            <Sentences Count="2">
+                <Sentence id="0" offset="1567:1722">
+                    <Text>Repeat bone scans in May 1992 five months after BV began her treatment with me showed,
+                        according to the report, No definite evidence of metastatic disease.
+                    </Text>
+                    <Tokens Count="29">
+                        <Token globalID="277" id="0" offset="1567:1573">
+                            <Text>Repeat</Text>
+                        </Token>
+                        <Token globalID="278" id="1" offset="1574:1578">
+                            <Text>bone</Text>
+                        </Token>
+                        <Token globalID="279" id="2" offset="1579:1584">
+                            <Text>scans</Text>
+                        </Token>
+                        <Token globalID="280" id="3" offset="1585:1587">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="281" id="4" offset="1588:1591">
+                            <Text>May</Text>
+                        </Token>
+                        <Token globalID="282" id="5" offset="1592:1596">
+                            <Text>1992</Text>
+                        </Token>
+                        <Token globalID="283" id="6" offset="1597:1601">
+                            <Text>five</Text>
+                        </Token>
+                        <Token globalID="284" id="7" offset="1602:1608">
+                            <Text>months</Text>
+                        </Token>
+                        <Token globalID="285" id="8" offset="1609:1614">
+                            <Text>after</Text>
+                        </Token>
+                        <Token globalID="286" id="9" offset="1615:1617">
+                            <Text>BV</Text>
+                        </Token>
+                        <Token globalID="287" id="10" offset="1618:1623">
+                            <Text>began</Text>
+                        </Token>
+                        <Token globalID="288" id="11" offset="1624:1627">
+                            <Text>her</Text>
+                        </Token>
+                        <Token globalID="289" id="12" offset="1628:1637">
+                            <Text>treatment</Text>
+                        </Token>
+                        <Token globalID="290" id="13" offset="1638:1642">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="291" id="14" offset="1643:1645">
+                            <Text>me</Text>
+                        </Token>
+                        <Token globalID="292" id="15" offset="1646:1652">
+                            <Text>showed</Text>
+                        </Token>
+                        <Token globalID="293" id="16" offset="1652:1653">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="294" id="17" offset="1654:1663">
+                            <Text>according</Text>
+                        </Token>
+                        <Token globalID="295" id="18" offset="1664:1666">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="296" id="19" offset="1667:1670">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="297" id="20" offset="1671:1677">
+                            <Text>report</Text>
+                        </Token>
+                        <Token globalID="298" id="21" offset="1677:1678">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="299" id="22" offset="1679:1681">
+                            <Text>No</Text>
+                        </Token>
+                        <Token globalID="300" id="23" offset="1682:1690">
+                            <Text>definite</Text>
+                        </Token>
+                        <Token globalID="301" id="24" offset="1691:1699">
+                            <Text>evidence</Text>
+                        </Token>
+                        <Token globalID="302" id="25" offset="1700:1702">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="303" id="26" offset="1703:1713">
+                            <Text>metastatic</Text>
+                        </Token>
+                        <Token globalID="304" id="27" offset="1714:1721">
+                            <Text>disease</Text>
+                        </Token>
+                        <Token globalID="305" id="28" offset="1721:1722">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="1723:1888">
+                    <Text>A follow-up scan in June 1993 was again clear, and today, nearly 15 years after she first
+                        consulted me, BV remains compliant with her full regimen, and disease free.
+                    </Text>
+                    <Tokens Count="34">
+                        <Token globalID="306" id="0" offset="1723:1724">
+                            <Text>A</Text>
+                        </Token>
+                        <Token globalID="307" id="1" offset="1725:1734">
+                            <Text>follow-up</Text>
+                        </Token>
+                        <Token globalID="308" id="2" offset="1735:1739">
+                            <Text>scan</Text>
+                        </Token>
+                        <Token globalID="309" id="3" offset="1740:1742">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="310" id="4" offset="1743:1747">
+                            <Text>June</Text>
+                        </Token>
+                        <Token globalID="311" id="5" offset="1748:1752">
+                            <Text>1993</Text>
+                        </Token>
+                        <Token globalID="312" id="6" offset="1753:1756">
+                            <Text>was</Text>
+                        </Token>
+                        <Token globalID="313" id="7" offset="1757:1762">
+                            <Text>again</Text>
+                        </Token>
+                        <Token globalID="314" id="8" offset="1763:1768">
+                            <Text>clear</Text>
+                        </Token>
+                        <Token globalID="315" id="9" offset="1768:1769">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="316" id="10" offset="1770:1773">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="317" id="11" offset="1774:1779">
+                            <Text>today</Text>
+                        </Token>
+                        <Token globalID="318" id="12" offset="1779:1780">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="319" id="13" offset="1781:1787">
+                            <Text>nearly</Text>
+                        </Token>
+                        <Token globalID="320" id="14" offset="1788:1790">
+                            <Text>15</Text>
+                        </Token>
+                        <Token globalID="321" id="15" offset="1791:1796">
+                            <Text>years</Text>
+                        </Token>
+                        <Token globalID="322" id="16" offset="1797:1802">
+                            <Text>after</Text>
+                        </Token>
+                        <Token globalID="323" id="17" offset="1803:1806">
+                            <Text>she</Text>
+                        </Token>
+                        <Token globalID="324" id="18" offset="1807:1812">
+                            <Text>first</Text>
+                        </Token>
+                        <Token globalID="325" id="19" offset="1813:1822">
+                            <Text>consulted</Text>
+                        </Token>
+                        <Token globalID="326" id="20" offset="1823:1825">
+                            <Text>me</Text>
+                        </Token>
+                        <Token globalID="327" id="21" offset="1825:1826">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="328" id="22" offset="1827:1829">
+                            <Text>BV</Text>
+                        </Token>
+                        <Token globalID="329" id="23" offset="1830:1837">
+                            <Text>remains</Text>
+                        </Token>
+                        <Token globalID="330" id="24" offset="1838:1847">
+                            <Text>compliant</Text>
+                        </Token>
+                        <Token globalID="331" id="25" offset="1848:1852">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="332" id="26" offset="1853:1856">
+                            <Text>her</Text>
+                        </Token>
+                        <Token globalID="333" id="27" offset="1857:1861">
+                            <Text>full</Text>
+                        </Token>
+                        <Token globalID="334" id="28" offset="1862:1869">
+                            <Text>regimen</Text>
+                        </Token>
+                        <Token globalID="335" id="29" offset="1869:1870">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="336" id="30" offset="1871:1874">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="337" id="31" offset="1875:1882">
+                            <Text>disease</Text>
+                        </Token>
+                        <Token globalID="338" id="32" offset="1883:1887">
+                            <Text>free</Text>
+                        </Token>
+                        <Token globalID="339" id="33" offset="1887:1888">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="4">
+            <Sentences Count="2">
+                <Sentence id="0" offset="1889:1922">
+                    <Text>Her case is very straightforward.</Text>
+                    <Tokens Count="6">
+                        <Token globalID="340" id="0" offset="1889:1892">
+                            <Text>Her</Text>
+                        </Token>
+                        <Token globalID="341" id="1" offset="1893:1897">
+                            <Text>case</Text>
+                        </Token>
+                        <Token globalID="342" id="2" offset="1898:1900">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="343" id="3" offset="1901:1905">
+                            <Text>very</Text>
+                        </Token>
+                        <Token globalID="344" id="4" offset="1906:1921">
+                            <Text>straightforward</Text>
+                        </Token>
+                        <Token globalID="345" id="5" offset="1921:1922">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="1923:2068">
+                    <Text>At the time of diagnosis, a bone scan and MRI documented a large tumor in her hip that
+                        regressed while she followed only her nutritional program.
+                    </Text>
+                    <Tokens Count="28">
+                        <Token globalID="346" id="0" offset="1923:1925">
+                            <Text>At</Text>
+                        </Token>
+                        <Token globalID="347" id="1" offset="1926:1929">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="348" id="2" offset="1930:1934">
+                            <Text>time</Text>
+                        </Token>
+                        <Token globalID="349" id="3" offset="1935:1937">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="350" id="4" offset="1938:1947">
+                            <Text>diagnosis</Text>
+                        </Token>
+                        <Token globalID="351" id="5" offset="1947:1948">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="352" id="6" offset="1949:1950">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="353" id="7" offset="1951:1955">
+                            <Text>bone</Text>
+                        </Token>
+                        <Token globalID="354" id="8" offset="1956:1960">
+                            <Text>scan</Text>
+                        </Token>
+                        <Token globalID="355" id="9" offset="1961:1964">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="356" id="10" offset="1965:1968">
+                            <Text>MRI</Text>
+                        </Token>
+                        <Token globalID="357" id="11" offset="1969:1979">
+                            <Text>documented</Text>
+                        </Token>
+                        <Token globalID="358" id="12" offset="1980:1981">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="359" id="13" offset="1982:1987">
+                            <Text>large</Text>
+                        </Token>
+                        <Token globalID="360" id="14" offset="1988:1993">
+                            <Text>tumor</Text>
+                        </Token>
+                        <Token globalID="361" id="15" offset="1994:1996">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="362" id="16" offset="1997:2000">
+                            <Text>her</Text>
+                        </Token>
+                        <Token globalID="363" id="17" offset="2001:2004">
+                            <Text>hip</Text>
+                        </Token>
+                        <Token globalID="364" id="18" offset="2005:2009">
+                            <Text>that</Text>
+                        </Token>
+                        <Token globalID="365" id="19" offset="2010:2019">
+                            <Text>regressed</Text>
+                        </Token>
+                        <Token globalID="366" id="20" offset="2020:2025">
+                            <Text>while</Text>
+                        </Token>
+                        <Token globalID="367" id="21" offset="2026:2029">
+                            <Text>she</Text>
+                        </Token>
+                        <Token globalID="368" id="22" offset="2030:2038">
+                            <Text>followed</Text>
+                        </Token>
+                        <Token globalID="369" id="23" offset="2039:2043">
+                            <Text>only</Text>
+                        </Token>
+                        <Token globalID="370" id="24" offset="2044:2047">
+                            <Text>her</Text>
+                        </Token>
+                        <Token globalID="371" id="25" offset="2048:2059">
+                            <Text>nutritional</Text>
+                        </Token>
+                        <Token globalID="372" id="26" offset="2060:2067">
+                            <Text>program</Text>
+                        </Token>
+                        <Token globalID="373" id="27" offset="2067:2068">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="5">
+            <Sentences Count="2">
+                <Sentence id="0" offset="2069:2255">
+                    <Text>Elder et al report a median survival of 2.4 years for women with breast cancer metastatic to
+                        bone (3), somewhat better statistics than for those diagnosed with brain or liver metastases.
+                    </Text>
+                    <Tokens Count="35">
+                        <Token globalID="374" id="0" offset="2069:2074">
+                            <Text>Elder</Text>
+                        </Token>
+                        <Token globalID="375" id="1" offset="2075:2077">
+                            <Text>et</Text>
+                        </Token>
+                        <Token globalID="376" id="2" offset="2078:2080">
+                            <Text>al</Text>
+                        </Token>
+                        <Token globalID="377" id="3" offset="2081:2087">
+                            <Text>report</Text>
+                        </Token>
+                        <Token globalID="378" id="4" offset="2088:2089">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="379" id="5" offset="2090:2096">
+                            <Text>median</Text>
+                        </Token>
+                        <Token globalID="380" id="6" offset="2097:2105">
+                            <Text>survival</Text>
+                        </Token>
+                        <Token globalID="381" id="7" offset="2106:2108">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="382" id="8" offset="2109:2112">
+                            <Text>2.4</Text>
+                        </Token>
+                        <Token globalID="383" id="9" offset="2113:2118">
+                            <Text>years</Text>
+                        </Token>
+                        <Token globalID="384" id="10" offset="2119:2122">
+                            <Text>for</Text>
+                        </Token>
+                        <Token globalID="385" id="11" offset="2123:2128">
+                            <Text>women</Text>
+                        </Token>
+                        <Token globalID="386" id="12" offset="2129:2133">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="387" id="13" offset="2134:2140">
+                            <Text>breast</Text>
+                        </Token>
+                        <Token globalID="388" id="14" offset="2141:2147">
+                            <Text>cancer</Text>
+                        </Token>
+                        <Token globalID="389" id="15" offset="2148:2158">
+                            <Text>metastatic</Text>
+                        </Token>
+                        <Token globalID="390" id="16" offset="2159:2161">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="391" id="17" offset="2162:2166">
+                            <Text>bone</Text>
+                        </Token>
+                        <Token globalID="392" id="18" offset="2167:2168">
+                            <Text>(</Text>
+                        </Token>
+                        <Token globalID="393" id="19" offset="2168:2169">
+                            <Text>3</Text>
+                        </Token>
+                        <Token globalID="394" id="20" offset="2169:2170">
+                            <Text>)</Text>
+                        </Token>
+                        <Token globalID="395" id="21" offset="2170:2171">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="396" id="22" offset="2172:2180">
+                            <Text>somewhat</Text>
+                        </Token>
+                        <Token globalID="397" id="23" offset="2181:2187">
+                            <Text>better</Text>
+                        </Token>
+                        <Token globalID="398" id="24" offset="2188:2198">
+                            <Text>statistics</Text>
+                        </Token>
+                        <Token globalID="399" id="25" offset="2199:2203">
+                            <Text>than</Text>
+                        </Token>
+                        <Token globalID="400" id="26" offset="2204:2207">
+                            <Text>for</Text>
+                        </Token>
+                        <Token globalID="401" id="27" offset="2208:2213">
+                            <Text>those</Text>
+                        </Token>
+                        <Token globalID="402" id="28" offset="2214:2223">
+                            <Text>diagnosed</Text>
+                        </Token>
+                        <Token globalID="403" id="29" offset="2224:2228">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="404" id="30" offset="2229:2234">
+                            <Text>brain</Text>
+                        </Token>
+                        <Token globalID="405" id="31" offset="2235:2237">
+                            <Text>or</Text>
+                        </Token>
+                        <Token globalID="406" id="32" offset="2238:2243">
+                            <Text>liver</Text>
+                        </Token>
+                        <Token globalID="407" id="33" offset="2244:2254">
+                            <Text>metastases</Text>
+                        </Token>
+                        <Token globalID="408" id="34" offset="2254:2255">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="2256:2417">
+                    <Text>However, these numbers reference patients aggressively treated with conventional modalities
+                        such as surgery, chemotherapy and radiation, all of which BV refused.
+                    </Text>
+                    <Tokens Count="25">
+                        <Token globalID="409" id="0" offset="2256:2263">
+                            <Text>However</Text>
+                        </Token>
+                        <Token globalID="410" id="1" offset="2263:2264">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="411" id="2" offset="2265:2270">
+                            <Text>these</Text>
+                        </Token>
+                        <Token globalID="412" id="3" offset="2271:2278">
+                            <Text>numbers</Text>
+                        </Token>
+                        <Token globalID="413" id="4" offset="2279:2288">
+                            <Text>reference</Text>
+                        </Token>
+                        <Token globalID="414" id="5" offset="2289:2297">
+                            <Text>patients</Text>
+                        </Token>
+                        <Token globalID="415" id="6" offset="2298:2310">
+                            <Text>aggressively</Text>
+                        </Token>
+                        <Token globalID="416" id="7" offset="2311:2318">
+                            <Text>treated</Text>
+                        </Token>
+                        <Token globalID="417" id="8" offset="2319:2323">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="418" id="9" offset="2324:2336">
+                            <Text>conventional</Text>
+                        </Token>
+                        <Token globalID="419" id="10" offset="2337:2347">
+                            <Text>modalities</Text>
+                        </Token>
+                        <Token globalID="420" id="11" offset="2348:2352">
+                            <Text>such</Text>
+                        </Token>
+                        <Token globalID="421" id="12" offset="2353:2355">
+                            <Text>as</Text>
+                        </Token>
+                        <Token globalID="422" id="13" offset="2356:2363">
+                            <Text>surgery</Text>
+                        </Token>
+                        <Token globalID="423" id="14" offset="2363:2364">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="424" id="15" offset="2365:2377">
+                            <Text>chemotherapy</Text>
+                        </Token>
+                        <Token globalID="425" id="16" offset="2378:2381">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="426" id="17" offset="2382:2391">
+                            <Text>radiation</Text>
+                        </Token>
+                        <Token globalID="427" id="18" offset="2391:2392">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="428" id="19" offset="2393:2396">
+                            <Text>all</Text>
+                        </Token>
+                        <Token globalID="429" id="20" offset="2397:2399">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="430" id="21" offset="2400:2405">
+                            <Text>which</Text>
+                        </Token>
+                        <Token globalID="431" id="22" offset="2406:2408">
+                            <Text>BV</Text>
+                        </Token>
+                        <Token globalID="432" id="23" offset="2409:2416">
+                            <Text>refused</Text>
+                        </Token>
+                        <Token globalID="433" id="24" offset="2416:2417">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+    </Paragraphs>
+</StartOutput>

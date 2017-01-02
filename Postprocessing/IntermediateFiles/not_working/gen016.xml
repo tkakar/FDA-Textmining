@@ -1,1 +1,51 @@
-<StartOutput><Paragraphs Count="57"><Paragraph id="0"><Sentences Count="1"><Sentence id="0" offset="0:28"><Text>Patient Name: Rogers, Pamela</Text><Tokens Count="6"><Token globalID="0" id="0" offset="0:7"><Text>Patient</Text></Token><Token globalID="1" id="1" offset="8:12"><Text>Name</Text></Token><Token globalID="2" id="2" offset="12:13"><Text>:</Text></Token><Token globalID="3" id="3" offset="14:20"><Text>Rogers</Text></Token><Token globalID="4" id="4" offset="20:21"><Text>,</Text></Token><Token globalID="5" id="5" offset="22:28"><Text>Pamela</Text></Token></Tokens></Sentence></Sentences></Paragraph><Paragraph id="1"><Sentences Count="1"><Sentence id="0" offset="29:42"><Text>Date: 6/2/04 </Text><Tokens Count="3"><Token globalID="6" id="0" offset="29:33"><Text>Date</Text></Token><Token globalID="7" id="1" offset="33:34"><Text>:</Text></Token><Token globalID="8" id="2" offset="35:41"><Text>6/2/04</Text></Token></Tokens></Sentence></Sentences></Paragraph><Paragraph id="2"><Sentences Count="1"><Sentence id="0" offset="43:150"><Text>
+<StartOutput>
+    <Paragraphs Count="57">
+        <Paragraph id="0">
+            <Sentences Count="1">
+                <Sentence id="0" offset="0:28">
+                    <Text>Patient Name: Rogers, Pamela</Text>
+                    <Tokens Count="6">
+                        <Token globalID="0" id="0" offset="0:7">
+                            <Text>Patient</Text>
+                        </Token>
+                        <Token globalID="1" id="1" offset="8:12">
+                            <Text>Name</Text>
+                        </Token>
+                        <Token globalID="2" id="2" offset="12:13">
+                            <Text>:</Text>
+                        </Token>
+                        <Token globalID="3" id="3" offset="14:20">
+                            <Text>Rogers</Text>
+                        </Token>
+                        <Token globalID="4" id="4" offset="20:21">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="5" id="5" offset="22:28">
+                            <Text>Pamela</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="1">
+            <Sentences Count="1">
+                <Sentence id="0" offset="29:42">
+                    <Text>Date: 6/2/04</Text>
+                    <Tokens Count="3">
+                        <Token globalID="6" id="0" offset="29:33">
+                            <Text>Date</Text>
+                        </Token>
+                        <Token globalID="7" id="1" offset="33:34">
+                            <Text>:</Text>
+                        </Token>
+                        <Token globalID="8" id="2" offset="35:41">
+                            <Text>6/2/04</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="2">
+            <Sentences Count="1">
+                <Sentence id="0" offset="43:150">
+                    <Text>

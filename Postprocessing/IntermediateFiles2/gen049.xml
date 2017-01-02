@@ -1,1 +1,380 @@
-<StartOutput><Paragraphs Count="5"><Paragraph id="0"><Sentences Count="1"><Sentence id="0" offset="0:214"><Text>Patient is a 55-year-old female with a history of I-131-induced hypothyroidism years ago who presents with increased weight and edema over the last few weeks with a 25-pound weight gain, putting her at 192 pounds. </Text><Tokens Count="37"><Token POSTag="NN" globalID="0" id="0" offset="0:7"><Text>Patient</Text></Token><Token POSTag="VBZ" globalID="1" id="1" offset="8:10"><Text>is</Text></Token><Token POSTag="DT" globalID="2" id="2" offset="11:12"><Text>a</Text></Token><Token POSTag="JJ" globalID="3" id="3" offset="13:24"><Text>55-year-old</Text></Token><Token POSTag="NN" globalID="4" id="4" offset="25:31"><Text>female</Text></Token><Token POSTag="IN" globalID="5" id="5" offset="32:36"><Text>with</Text></Token><Token POSTag="DT" globalID="6" id="6" offset="37:38"><Text>a</Text></Token><Token POSTag="NN" globalID="7" id="7" offset="39:46"><Text>history</Text></Token><Token POSTag="IN" globalID="8" id="8" offset="47:49"><Text>of</Text></Token><Token POSTag="JJ" globalID="9" id="9" offset="50:63"><Text>I-131-induced</Text></Token><Token POSTag="NN" globalID="10" id="10" offset="64:78"><Text>hypothyroidism</Text></Token><Token POSTag="NNS" globalID="11" id="11" offset="79:84"><Text>years</Text></Token><Token POSTag="RB" globalID="12" id="12" offset="85:88"><Text>ago</Text></Token><Token POSTag="WP" globalID="13" id="13" offset="89:92"><Text>who</Text></Token><Token POSTag="VBZ" globalID="14" id="14" offset="93:101"><Text>presents</Text></Token><Token POSTag="IN" globalID="15" id="15" offset="102:106"><Text>with</Text></Token><Token POSTag="VBN" globalID="16" id="16" offset="107:116"><Text>increased</Text></Token><Token POSTag="NN" globalID="17" id="17" offset="117:123"><Text>weight</Text></Token><Token POSTag="CC" globalID="18" id="18" offset="124:127"><Text>and</Text></Token><Token POSTag="NN" globalID="19" id="19" offset="128:133"><Text>edema</Text></Token><Token POSTag="IN" globalID="20" id="20" offset="134:138"><Text>over</Text></Token><Token POSTag="DT" globalID="21" id="21" offset="139:142"><Text>the</Text></Token><Token POSTag="JJ" globalID="22" id="22" offset="143:147"><Text>last</Text></Token><Token POSTag="JJ" globalID="23" id="23" offset="148:151"><Text>few</Text></Token><Token POSTag="NNS" globalID="24" id="24" offset="152:157"><Text>weeks</Text></Token><Token POSTag="IN" globalID="25" id="25" offset="158:162"><Text>with</Text></Token><Token POSTag="DT" globalID="26" id="26" offset="163:164"><Text>a</Text></Token><Token POSTag="JJ" globalID="27" id="27" offset="165:173"><Text>25-pound</Text></Token><Token POSTag="NN" globalID="28" id="28" offset="174:180"><Text>weight</Text></Token><Token POSTag="NN" globalID="29" id="29" offset="181:185"><Text>gain</Text></Token><Token POSTag="," globalID="30" id="30" offset="185:186"><Text>,</Text></Token><Token POSTag="VBG" globalID="31" id="31" offset="187:194"><Text>putting</Text></Token><Token POSTag="PRP$" globalID="32" id="32" offset="195:198"><Text>her</Text></Token><Token POSTag="IN" globalID="33" id="33" offset="199:201"><Text>at</Text></Token><Token POSTag="CD" globalID="34" id="34" offset="202:205"><Text>192</Text></Token><Token POSTag="NNS" globalID="35" id="35" offset="206:212"><Text>pounds</Text></Token><Token POSTag="." globalID="36" id="36" offset="212:213"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="1"><Sentences Count="0" /></Paragraph><Paragraph id="2"><Sentences Count="1"><Sentence id="0" offset="216:280"><Text>MEDICATIONS: Include levothyroxine 300 mcg daily, since 4/6/2015</Text><Tokens Count="10"><Token POSTag="NNS" globalID="37" id="0" offset="216:227"><Text>MEDICATIONS</Text></Token><Token POSTag=":" globalID="38" id="1" offset="227:228"><Text>:</Text></Token><Token POSTag="VBP" globalID="39" id="2" offset="229:236"><Text>Include</Text></Token><Token POSTag="NN" globalID="40" id="3" offset="237:250"><Text>levothyroxine</Text></Token><Token POSTag="CD" globalID="41" id="4" offset="251:254"><Text>300</Text></Token><Token POSTag="NN" globalID="42" id="5" offset="255:258"><Text>mcg</Text></Token><Token POSTag="RB" globalID="43" id="6" offset="259:264"><Text>daily</Text></Token><Token POSTag="," globalID="44" id="7" offset="264:265"><Text>,</Text></Token><Token POSTag="IN" globalID="45" id="8" offset="266:271"><Text>since</Text></Token><Token POSTag="NN" globalID="46" id="9" offset="272:280"><Text>4/6/2015</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="3"><Sentences Count="0" /></Paragraph><Paragraph id="4"><Sentences Count="3"><Sentence id="0" offset="282:408"><Text>A few weeks ago, around the start of the levothyoxine, significant weight gain started occuring (more weight gain than usual).</Text><Tokens Count="25"><Token POSTag="DT" globalID="47" id="0" offset="282:283"><Text>A</Text></Token><Token POSTag="JJ" globalID="48" id="1" offset="284:287"><Text>few</Text></Token><Token POSTag="NNS" globalID="49" id="2" offset="288:293"><Text>weeks</Text></Token><Token POSTag="RB" globalID="50" id="3" offset="294:297"><Text>ago</Text></Token><Token POSTag="," globalID="51" id="4" offset="297:298"><Text>,</Text></Token><Token POSTag="IN" globalID="52" id="5" offset="299:305"><Text>around</Text></Token><Token POSTag="DT" globalID="53" id="6" offset="306:309"><Text>the</Text></Token><Token POSTag="NN" globalID="54" id="7" offset="310:315"><Text>start</Text></Token><Token POSTag="IN" globalID="55" id="8" offset="316:318"><Text>of</Text></Token><Token POSTag="DT" globalID="56" id="9" offset="319:322"><Text>the</Text></Token><Token POSTag="NN" globalID="57" id="10" offset="323:335"><Text>levothyoxine</Text></Token><Token POSTag="," globalID="58" id="11" offset="335:336"><Text>,</Text></Token><Token POSTag="JJ" globalID="59" id="12" offset="337:348"><Text>significant</Text></Token><Token POSTag="NN" globalID="60" id="13" offset="349:355"><Text>weight</Text></Token><Token POSTag="NN" globalID="61" id="14" offset="356:360"><Text>gain</Text></Token><Token POSTag="VBD" globalID="62" id="15" offset="361:368"><Text>started</Text></Token><Token POSTag="VBG" globalID="63" id="16" offset="369:377"><Text>occuring</Text></Token><Token POSTag="-LRB-" globalID="64" id="17" offset="378:379"><Text>(</Text></Token><Token POSTag="JJR" globalID="65" id="18" offset="379:383"><Text>more</Text></Token><Token POSTag="NN" globalID="66" id="19" offset="384:390"><Text>weight</Text></Token><Token POSTag="NN" globalID="67" id="20" offset="391:395"><Text>gain</Text></Token><Token POSTag="IN" globalID="68" id="21" offset="396:400"><Text>than</Text></Token><Token POSTag="JJ" globalID="69" id="22" offset="401:406"><Text>usual</Text></Token><Token POSTag="-RRB-" globalID="70" id="23" offset="406:407"><Text>)</Text></Token><Token POSTag="." globalID="71" id="24" offset="407:408"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="409:532"><Text>The levothyroxine was replaced with Synthroid 80 mcg daily, and after a few days the weight started leveling out at 178lbs.</Text><Tokens Count="23"><Token POSTag="DT" globalID="72" id="0" offset="409:412"><Text>The</Text></Token><Token POSTag="NN" globalID="73" id="1" offset="413:426"><Text>levothyroxine</Text></Token><Token POSTag="VBD" globalID="74" id="2" offset="427:430"><Text>was</Text></Token><Token POSTag="VBN" globalID="75" id="3" offset="431:439"><Text>replaced</Text></Token><Token POSTag="IN" globalID="76" id="4" offset="440:444"><Text>with</Text></Token><Token POSTag="NN" globalID="77" id="5" offset="445:454"><Text>Synthroid</Text></Token><Token POSTag="CD" globalID="78" id="6" offset="455:457"><Text>80</Text></Token><Token POSTag="NN" globalID="79" id="7" offset="458:461"><Text>mcg</Text></Token><Token POSTag="RB" globalID="80" id="8" offset="462:467"><Text>daily</Text></Token><Token POSTag="," globalID="81" id="9" offset="467:468"><Text>,</Text></Token><Token POSTag="CC" globalID="82" id="10" offset="469:472"><Text>and</Text></Token><Token POSTag="IN" globalID="83" id="11" offset="473:478"><Text>after</Text></Token><Token POSTag="DT" globalID="84" id="12" offset="473:474"><Text>a</Text></Token><Token POSTag="JJ" globalID="85" id="13" offset="481:484"><Text>few</Text></Token><Token POSTag="NNS" globalID="86" id="14" offset="485:489"><Text>days</Text></Token><Token POSTag="DT" globalID="87" id="15" offset="490:493"><Text>the</Text></Token><Token POSTag="NN" globalID="88" id="16" offset="494:500"><Text>weight</Text></Token><Token POSTag="VBD" globalID="89" id="17" offset="501:508"><Text>started</Text></Token><Token POSTag="VBG" globalID="90" id="18" offset="509:517"><Text>leveling</Text></Token><Token POSTag="RP" globalID="91" id="19" offset="518:521"><Text>out</Text></Token><Token POSTag="IN" globalID="92" id="20" offset="522:524"><Text>at</Text></Token><Token POSTag="NNS" globalID="93" id="21" offset="525:531"><Text>178lbs</Text></Token><Token POSTag="." globalID="94" id="22" offset="531:532"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="533:596"><Text>There are no plans for the patient to return to levothyroxine. </Text><Tokens Count="12"><Token POSTag="EX" globalID="95" id="0" offset="533:538"><Text>There</Text></Token><Token POSTag="VBP" globalID="96" id="1" offset="539:542"><Text>are</Text></Token><Token POSTag="DT" globalID="97" id="2" offset="543:545"><Text>no</Text></Token><Token POSTag="NNS" globalID="98" id="3" offset="546:551"><Text>plans</Text></Token><Token POSTag="IN" globalID="99" id="4" offset="552:555"><Text>for</Text></Token><Token POSTag="DT" globalID="100" id="5" offset="556:559"><Text>the</Text></Token><Token POSTag="NN" globalID="101" id="6" offset="560:567"><Text>patient</Text></Token><Token POSTag="TO" globalID="102" id="7" offset="568:570"><Text>to</Text></Token><Token POSTag="NN" globalID="103" id="8" offset="571:577"><Text>return</Text></Token><Token POSTag="TO" globalID="104" id="9" offset="578:580"><Text>to</Text></Token><Token POSTag="NN" globalID="105" id="10" offset="581:594"><Text>levothyroxine</Text></Token><Token POSTag="." globalID="106" id="11" offset="594:595"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph></Paragraphs></StartOutput>
+<StartOutput>
+    <Paragraphs Count="5">
+        <Paragraph id="0">
+            <Sentences Count="1">
+                <Sentence id="0" offset="0:214">
+                    <Text>Patient is a 55-year-old female with a history of I-131-induced hypothyroidism years ago who
+                        presents with increased weight and edema over the last few weeks with a 25-pound weight gain,
+                        putting her at 192 pounds.
+                    </Text>
+                    <Tokens Count="37">
+                        <Token POSTag="NN" globalID="0" id="0" offset="0:7">
+                            <Text>Patient</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="1" id="1" offset="8:10">
+                            <Text>is</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="2" id="2" offset="11:12">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="3" id="3" offset="13:24">
+                            <Text>55-year-old</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="4" id="4" offset="25:31">
+                            <Text>female</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="5" id="5" offset="32:36">
+                            <Text>with</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="6" id="6" offset="37:38">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="7" id="7" offset="39:46">
+                            <Text>history</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="8" id="8" offset="47:49">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="9" id="9" offset="50:63">
+                            <Text>I-131-induced</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="10" id="10" offset="64:78">
+                            <Text>hypothyroidism</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="11" id="11" offset="79:84">
+                            <Text>years</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="12" id="12" offset="85:88">
+                            <Text>ago</Text>
+                        </Token>
+                        <Token POSTag="WP" globalID="13" id="13" offset="89:92">
+                            <Text>who</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="14" id="14" offset="93:101">
+                            <Text>presents</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="15" id="15" offset="102:106">
+                            <Text>with</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="16" id="16" offset="107:116">
+                            <Text>increased</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="17" id="17" offset="117:123">
+                            <Text>weight</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="18" id="18" offset="124:127">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="19" id="19" offset="128:133">
+                            <Text>edema</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="20" id="20" offset="134:138">
+                            <Text>over</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="21" id="21" offset="139:142">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="22" id="22" offset="143:147">
+                            <Text>last</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="23" id="23" offset="148:151">
+                            <Text>few</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="24" id="24" offset="152:157">
+                            <Text>weeks</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="25" id="25" offset="158:162">
+                            <Text>with</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="26" id="26" offset="163:164">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="27" id="27" offset="165:173">
+                            <Text>25-pound</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="28" id="28" offset="174:180">
+                            <Text>weight</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="29" id="29" offset="181:185">
+                            <Text>gain</Text>
+                        </Token>
+                        <Token POSTag="," globalID="30" id="30" offset="185:186">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="VBG" globalID="31" id="31" offset="187:194">
+                            <Text>putting</Text>
+                        </Token>
+                        <Token POSTag="PRP$" globalID="32" id="32" offset="195:198">
+                            <Text>her</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="33" id="33" offset="199:201">
+                            <Text>at</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="34" id="34" offset="202:205">
+                            <Text>192</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="35" id="35" offset="206:212">
+                            <Text>pounds</Text>
+                        </Token>
+                        <Token POSTag="." globalID="36" id="36" offset="212:213">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="1">
+            <Sentences Count="0"/>
+        </Paragraph>
+        <Paragraph id="2">
+            <Sentences Count="1">
+                <Sentence id="0" offset="216:280">
+                    <Text>MEDICATIONS: Include levothyroxine 300 mcg daily, since 4/6/2015</Text>
+                    <Tokens Count="10">
+                        <Token POSTag="NNS" globalID="37" id="0" offset="216:227">
+                            <Text>MEDICATIONS</Text>
+                        </Token>
+                        <Token POSTag=":" globalID="38" id="1" offset="227:228">
+                            <Text>:</Text>
+                        </Token>
+                        <Token POSTag="VBP" globalID="39" id="2" offset="229:236">
+                            <Text>Include</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="40" id="3" offset="237:250">
+                            <Text>levothyroxine</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="41" id="4" offset="251:254">
+                            <Text>300</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="42" id="5" offset="255:258">
+                            <Text>mcg</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="43" id="6" offset="259:264">
+                            <Text>daily</Text>
+                        </Token>
+                        <Token POSTag="," globalID="44" id="7" offset="264:265">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="45" id="8" offset="266:271">
+                            <Text>since</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="46" id="9" offset="272:280">
+                            <Text>4/6/2015</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="3">
+            <Sentences Count="0"/>
+        </Paragraph>
+        <Paragraph id="4">
+            <Sentences Count="3">
+                <Sentence id="0" offset="282:408">
+                    <Text>A few weeks ago, around the start of the levothyoxine, significant weight gain started
+                        occuring (more weight gain than usual).
+                    </Text>
+                    <Tokens Count="25">
+                        <Token POSTag="DT" globalID="47" id="0" offset="282:283">
+                            <Text>A</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="48" id="1" offset="284:287">
+                            <Text>few</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="49" id="2" offset="288:293">
+                            <Text>weeks</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="50" id="3" offset="294:297">
+                            <Text>ago</Text>
+                        </Token>
+                        <Token POSTag="," globalID="51" id="4" offset="297:298">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="52" id="5" offset="299:305">
+                            <Text>around</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="53" id="6" offset="306:309">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="54" id="7" offset="310:315">
+                            <Text>start</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="55" id="8" offset="316:318">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="56" id="9" offset="319:322">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="57" id="10" offset="323:335">
+                            <Text>levothyoxine</Text>
+                        </Token>
+                        <Token POSTag="," globalID="58" id="11" offset="335:336">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="59" id="12" offset="337:348">
+                            <Text>significant</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="60" id="13" offset="349:355">
+                            <Text>weight</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="61" id="14" offset="356:360">
+                            <Text>gain</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="62" id="15" offset="361:368">
+                            <Text>started</Text>
+                        </Token>
+                        <Token POSTag="VBG" globalID="63" id="16" offset="369:377">
+                            <Text>occuring</Text>
+                        </Token>
+                        <Token POSTag="-LRB-" globalID="64" id="17" offset="378:379">
+                            <Text>(</Text>
+                        </Token>
+                        <Token POSTag="JJR" globalID="65" id="18" offset="379:383">
+                            <Text>more</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="66" id="19" offset="384:390">
+                            <Text>weight</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="67" id="20" offset="391:395">
+                            <Text>gain</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="68" id="21" offset="396:400">
+                            <Text>than</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="69" id="22" offset="401:406">
+                            <Text>usual</Text>
+                        </Token>
+                        <Token POSTag="-RRB-" globalID="70" id="23" offset="406:407">
+                            <Text>)</Text>
+                        </Token>
+                        <Token POSTag="." globalID="71" id="24" offset="407:408">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="409:532">
+                    <Text>The levothyroxine was replaced with Synthroid 80 mcg daily, and after a few days the weight
+                        started leveling out at 178lbs.
+                    </Text>
+                    <Tokens Count="23">
+                        <Token POSTag="DT" globalID="72" id="0" offset="409:412">
+                            <Text>The</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="73" id="1" offset="413:426">
+                            <Text>levothyroxine</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="74" id="2" offset="427:430">
+                            <Text>was</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="75" id="3" offset="431:439">
+                            <Text>replaced</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="76" id="4" offset="440:444">
+                            <Text>with</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="77" id="5" offset="445:454">
+                            <Text>Synthroid</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="78" id="6" offset="455:457">
+                            <Text>80</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="79" id="7" offset="458:461">
+                            <Text>mcg</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="80" id="8" offset="462:467">
+                            <Text>daily</Text>
+                        </Token>
+                        <Token POSTag="," globalID="81" id="9" offset="467:468">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="82" id="10" offset="469:472">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="83" id="11" offset="473:478">
+                            <Text>after</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="84" id="12" offset="473:474">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="85" id="13" offset="481:484">
+                            <Text>few</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="86" id="14" offset="485:489">
+                            <Text>days</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="87" id="15" offset="490:493">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="88" id="16" offset="494:500">
+                            <Text>weight</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="89" id="17" offset="501:508">
+                            <Text>started</Text>
+                        </Token>
+                        <Token POSTag="VBG" globalID="90" id="18" offset="509:517">
+                            <Text>leveling</Text>
+                        </Token>
+                        <Token POSTag="RP" globalID="91" id="19" offset="518:521">
+                            <Text>out</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="92" id="20" offset="522:524">
+                            <Text>at</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="93" id="21" offset="525:531">
+                            <Text>178lbs</Text>
+                        </Token>
+                        <Token POSTag="." globalID="94" id="22" offset="531:532">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="533:596">
+                    <Text>There are no plans for the patient to return to levothyroxine.</Text>
+                    <Tokens Count="12">
+                        <Token POSTag="EX" globalID="95" id="0" offset="533:538">
+                            <Text>There</Text>
+                        </Token>
+                        <Token POSTag="VBP" globalID="96" id="1" offset="539:542">
+                            <Text>are</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="97" id="2" offset="543:545">
+                            <Text>no</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="98" id="3" offset="546:551">
+                            <Text>plans</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="99" id="4" offset="552:555">
+                            <Text>for</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="100" id="5" offset="556:559">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="101" id="6" offset="560:567">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="102" id="7" offset="568:570">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="103" id="8" offset="571:577">
+                            <Text>return</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="104" id="9" offset="578:580">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="105" id="10" offset="581:594">
+                            <Text>levothyroxine</Text>
+                        </Token>
+                        <Token POSTag="." globalID="106" id="11" offset="594:595">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+    </Paragraphs>
+</StartOutput>

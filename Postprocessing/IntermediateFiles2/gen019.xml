@@ -1,1 +1,2365 @@
-<StartOutput><Paragraphs Count="29"><Paragraph id="0"><Sentences Count="2"><Sentence id="0" offset="0:75"><Text>Client is 27 year old single female, A/O x3 self directing Wt: 100-150 lbs.</Text><Tokens Count="17"><Token POSTag="NN" globalID="0" id="0" offset="0:6"><Text>Client</Text></Token><Token POSTag="VBZ" globalID="1" id="1" offset="7:9"><Text>is</Text></Token><Token POSTag="CD" globalID="2" id="2" offset="10:12"><Text>27</Text></Token><Token POSTag="NN" globalID="3" id="3" offset="13:17"><Text>year</Text></Token><Token POSTag="JJ" globalID="4" id="4" offset="18:21"><Text>old</Text></Token><Token POSTag="JJ" globalID="5" id="5" offset="22:28"><Text>single</Text></Token><Token POSTag="NN" globalID="6" id="6" offset="29:35"><Text>female</Text></Token><Token POSTag="," globalID="7" id="7" offset="35:36"><Text>,</Text></Token><Token POSTag="NN" globalID="8" id="8" offset="37:40"><Text>A/O</Text></Token><Token POSTag="NN" globalID="9" id="9" offset="41:43"><Text>x3</Text></Token><Token POSTag="NN" globalID="10" id="10" offset="44:48"><Text>self</Text></Token><Token POSTag="VBG" globalID="11" id="11" offset="49:58"><Text>directing</Text></Token><Token POSTag="NN" globalID="12" id="12" offset="59:61"><Text>Wt</Text></Token><Token POSTag=":" globalID="13" id="13" offset="61:62"><Text>:</Text></Token><Token POSTag="CD" globalID="14" id="14" offset="63:70"><Text>100-150</Text></Token><Token POSTag="NNS" globalID="15" id="15" offset="71:74"><Text>lbs</Text></Token><Token POSTag="." globalID="16" id="16" offset="74:75"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="76:116"><Text>Ht: 5'4" vision, speech, and hearing ok.</Text><Tokens Count="12"><Token POSTag="NN" globalID="17" id="0" offset="76:78"><Text>Ht</Text></Token><Token POSTag=":" globalID="18" id="1" offset="78:79"><Text>:</Text></Token><Token POSTag="NN" globalID="19" id="2" offset="80:83"><Text>5'4</Text></Token><Token POSTag="NNS" globalID="20" id="3" offset="-1:1"><Text>''</Text></Token><Token POSTag="NN" globalID="21" id="4" offset="-1:5"><Text>vision</Text></Token><Token POSTag="," globalID="22" id="5" offset="-1:0"><Text>,</Text></Token><Token POSTag="NN" globalID="23" id="6" offset="-1:5"><Text>speech</Text></Token><Token POSTag="," globalID="24" id="7" offset="-1:0"><Text>,</Text></Token><Token POSTag="CC" globalID="25" id="8" offset="-1:2"><Text>and</Text></Token><Token POSTag="NN" globalID="26" id="9" offset="-1:6"><Text>hearing</Text></Token><Token POSTag="NN" globalID="27" id="10" offset="-1:1"><Text>ok</Text></Token><Token POSTag="." globalID="28" id="11" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="1"><Sentences Count="2"><Sentence id="0" offset="117:200"><Text>Due to a spinal cord injury/quad client requires total care in all ADL's and IADLs.</Text><Tokens Count="17"><Token POSTag="JJ" globalID="29" id="0" offset="-1:2"><Text>Due</Text></Token><Token POSTag="TO" globalID="30" id="1" offset="-1:1"><Text>to</Text></Token><Token POSTag="DT" globalID="31" id="2" offset="-1:0"><Text>a</Text></Token><Token POSTag="JJ" globalID="32" id="3" offset="-1:5"><Text>spinal</Text></Token><Token POSTag="NN" globalID="33" id="4" offset="-1:3"><Text>cord</Text></Token><Token POSTag="NN" globalID="34" id="5" offset="-1:10"><Text>injury/quad</Text></Token><Token POSTag="NN" globalID="35" id="6" offset="-1:5"><Text>client</Text></Token><Token POSTag="VBZ" globalID="36" id="7" offset="-1:7"><Text>requires</Text></Token><Token POSTag="JJ" globalID="37" id="8" offset="-1:4"><Text>total</Text></Token><Token POSTag="NN" globalID="38" id="9" offset="-1:3"><Text>care</Text></Token><Token POSTag="IN" globalID="39" id="10" offset="-1:1"><Text>in</Text></Token><Token POSTag="DT" globalID="40" id="11" offset="-1:2"><Text>all</Text></Token><Token POSTag="NN" globalID="41" id="12" offset="-1:2"><Text>ADL</Text></Token><Token POSTag="POS" globalID="42" id="13" offset="-1:1"><Text>'s</Text></Token><Token POSTag="CC" globalID="43" id="14" offset="-1:2"><Text>and</Text></Token><Token POSTag="NNS" globalID="44" id="15" offset="-1:4"><Text>IADLs</Text></Token><Token POSTag="." globalID="45" id="16" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="201:232"><Text>Client resides in single family</Text><Tokens Count="5"><Token POSTag="NN" globalID="46" id="0" offset="-1:5"><Text>Client</Text></Token><Token POSTag="VBZ" globalID="47" id="1" offset="-1:6"><Text>resides</Text></Token><Token POSTag="IN" globalID="48" id="2" offset="-1:1"><Text>in</Text></Token><Token POSTag="JJ" globalID="49" id="3" offset="-1:5"><Text>single</Text></Token><Token POSTag="NN" globalID="50" id="4" offset="-1:5"><Text>family</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="2"><Sentences Count="2"><Sentence id="0" offset="233:323"><Text>home with 50 year old mother, 52 year old father, 29 year old sister and a dog and 2 cats.</Text><Tokens Count="23"><Token POSTag="JJ" globalID="51" id="0" offset="-1:3"><Text>home</Text></Token><Token POSTag="IN" globalID="52" id="1" offset="-1:3"><Text>with</Text></Token><Token POSTag="CD" globalID="53" id="2" offset="-1:1"><Text>50</Text></Token><Token POSTag="NN" globalID="54" id="3" offset="-1:3"><Text>year</Text></Token><Token POSTag="JJ" globalID="55" id="4" offset="-1:2"><Text>old</Text></Token><Token POSTag="NN" globalID="56" id="5" offset="-1:5"><Text>mother</Text></Token><Token POSTag="," globalID="57" id="6" offset="-1:0"><Text>,</Text></Token><Token POSTag="CD" globalID="58" id="7" offset="-1:1"><Text>52</Text></Token><Token POSTag="NN" globalID="59" id="8" offset="-1:3"><Text>year</Text></Token><Token POSTag="JJ" globalID="60" id="9" offset="-1:2"><Text>old</Text></Token><Token POSTag="NN" globalID="61" id="10" offset="-1:5"><Text>father</Text></Token><Token POSTag="," globalID="62" id="11" offset="-1:0"><Text>,</Text></Token><Token POSTag="CD" globalID="63" id="12" offset="-1:1"><Text>29</Text></Token><Token POSTag="NN" globalID="64" id="13" offset="-1:3"><Text>year</Text></Token><Token POSTag="JJ" globalID="65" id="14" offset="-1:2"><Text>old</Text></Token><Token POSTag="NN" globalID="66" id="15" offset="-1:5"><Text>sister</Text></Token><Token POSTag="CC" globalID="67" id="16" offset="-1:2"><Text>and</Text></Token><Token POSTag="DT" globalID="68" id="17" offset="-1:0"><Text>a</Text></Token><Token POSTag="NN" globalID="69" id="18" offset="-1:2"><Text>dog</Text></Token><Token POSTag="CC" globalID="70" id="19" offset="-1:2"><Text>and</Text></Token><Token POSTag="CD" globalID="71" id="20" offset="-1:0"><Text>2</Text></Token><Token POSTag="NN" globalID="72" id="21" offset="-1:3"><Text>cats</Text></Token><Token POSTag="." globalID="73" id="22" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="324:344"><Text>Both parents are the</Text><Tokens Count="4"><Token POSTag="DT" globalID="74" id="0" offset="-1:3"><Text>Both</Text></Token><Token POSTag="NNS" globalID="75" id="1" offset="-1:6"><Text>parents</Text></Token><Token POSTag="VBP" globalID="76" id="2" offset="-1:2"><Text>are</Text></Token><Token POSTag="DT" globalID="77" id="3" offset="-1:2"><Text>the</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="3"><Sentences Count="3"><Sentence id="0" offset="345:392"><Text>primary caregivers and have joint guardianship.</Text><Tokens Count="7"><Token POSTag="JJ" globalID="78" id="0" offset="-1:6"><Text>primary</Text></Token><Token POSTag="NNS" globalID="79" id="1" offset="-1:9"><Text>caregivers</Text></Token><Token POSTag="CC" globalID="80" id="2" offset="-1:2"><Text>and</Text></Token><Token POSTag="VBP" globalID="81" id="3" offset="-1:3"><Text>have</Text></Token><Token POSTag="NN" globalID="82" id="4" offset="-1:4"><Text>joint</Text></Token><Token POSTag="NN" globalID="83" id="5" offset="-1:11"><Text>guardianship</Text></Token><Token POSTag="." globalID="84" id="6" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="393:433"><Text>Client's aunt is the secondary guardian.</Text><Tokens Count="8"><Token POSTag="NN" globalID="85" id="0" offset="-1:5"><Text>Client</Text></Token><Token POSTag="POS" globalID="86" id="1" offset="-1:1"><Text>'s</Text></Token><Token POSTag="NN" globalID="87" id="2" offset="-1:3"><Text>aunt</Text></Token><Token POSTag="VBZ" globalID="88" id="3" offset="-1:1"><Text>is</Text></Token><Token POSTag="DT" globalID="89" id="4" offset="-1:2"><Text>the</Text></Token><Token POSTag="JJ" globalID="90" id="5" offset="-1:8"><Text>secondary</Text></Token><Token POSTag="NN" globalID="91" id="6" offset="-1:7"><Text>guardian</Text></Token><Token POSTag="." globalID="92" id="7" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="434:457"><Text>Client's sister teaches</Text><Tokens Count="4"><Token POSTag="NN" globalID="93" id="0" offset="-1:5"><Text>Client</Text></Token><Token POSTag="POS" globalID="94" id="1" offset="-1:1"><Text>'s</Text></Token><Token POSTag="NN" globalID="95" id="2" offset="-1:5"><Text>sister</Text></Token><Token POSTag="VBZ" globalID="96" id="3" offset="-1:6"><Text>teaches</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="4"><Sentences Count="2"><Sentence id="0" offset="458:493"><Text>and works during the summer months.</Text><Tokens Count="7"><Token POSTag="CC" globalID="97" id="0" offset="-1:2"><Text>and</Text></Token><Token POSTag="VBZ" globalID="98" id="1" offset="-1:4"><Text>works</Text></Token><Token POSTag="IN" globalID="99" id="2" offset="-1:5"><Text>during</Text></Token><Token POSTag="DT" globalID="100" id="3" offset="-1:2"><Text>the</Text></Token><Token POSTag="JJ" globalID="101" id="4" offset="-1:5"><Text>summer</Text></Token><Token POSTag="NNS" globalID="102" id="5" offset="-1:5"><Text>months</Text></Token><Token POSTag="." globalID="103" id="6" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="494:567"><Text>Per client and mom, sister is not reliable but does assist in some of the</Text><Tokens Count="16"><Token POSTag="IN" globalID="104" id="0" offset="-1:2"><Text>Per</Text></Token><Token POSTag="NN" globalID="105" id="1" offset="-1:5"><Text>client</Text></Token><Token POSTag="CC" globalID="106" id="2" offset="-1:2"><Text>and</Text></Token><Token POSTag="NN" globalID="107" id="3" offset="-1:2"><Text>mom</Text></Token><Token POSTag="," globalID="108" id="4" offset="-1:0"><Text>,</Text></Token><Token POSTag="NN" globalID="109" id="5" offset="-1:5"><Text>sister</Text></Token><Token POSTag="VBZ" globalID="110" id="6" offset="-1:1"><Text>is</Text></Token><Token POSTag="RB" globalID="111" id="7" offset="-1:2"><Text>not</Text></Token><Token POSTag="JJ" globalID="112" id="8" offset="-1:7"><Text>reliable</Text></Token><Token POSTag="CC" globalID="113" id="9" offset="-1:2"><Text>but</Text></Token><Token POSTag="VBZ" globalID="114" id="10" offset="-1:3"><Text>does</Text></Token><Token POSTag="VBP" globalID="115" id="11" offset="-1:5"><Text>assist</Text></Token><Token POSTag="IN" globalID="116" id="12" offset="-1:1"><Text>in</Text></Token><Token POSTag="DT" globalID="117" id="13" offset="-1:3"><Text>some</Text></Token><Token POSTag="IN" globalID="118" id="14" offset="-1:1"><Text>of</Text></Token><Token POSTag="DT" globalID="119" id="15" offset="-1:2"><Text>the</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="5"><Sentences Count="2"><Sentence id="0" offset="568:582"><Text>client's care.</Text><Tokens Count="4"><Token POSTag="NN" globalID="120" id="0" offset="-1:5"><Text>client</Text></Token><Token POSTag="POS" globalID="121" id="1" offset="-1:1"><Text>'s</Text></Token><Token POSTag="NN" globalID="122" id="2" offset="-1:3"><Text>care</Text></Token><Token POSTag="." globalID="123" id="3" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="583:673"><Text>Client's mom is a nurse works 3dpw (varies) 11a-11p shifts (leaves 10:15p and returns home</Text><Tokens Count="19"><Token POSTag="NN" globalID="124" id="0" offset="-1:5"><Text>Client</Text></Token><Token POSTag="POS" globalID="125" id="1" offset="-1:1"><Text>'s</Text></Token><Token POSTag="NN" globalID="126" id="2" offset="-1:2"><Text>mom</Text></Token><Token POSTag="VBZ" globalID="127" id="3" offset="-1:1"><Text>is</Text></Token><Token POSTag="DT" globalID="128" id="4" offset="-1:0"><Text>a</Text></Token><Token POSTag="NN" globalID="129" id="5" offset="-1:4"><Text>nurse</Text></Token><Token POSTag="VBZ" globalID="130" id="6" offset="-1:4"><Text>works</Text></Token><Token POSTag="NN" globalID="131" id="7" offset="-1:3"><Text>3dpw</Text></Token><Token POSTag="-LRB-" globalID="132" id="8" offset="-1:0"><Text>(</Text></Token><Token POSTag="VBZ" globalID="133" id="9" offset="-1:5"><Text>varies</Text></Token><Token POSTag="-RRB-" globalID="134" id="10" offset="-1:0"><Text>)</Text></Token><Token POSTag="NN" globalID="135" id="11" offset="-1:6"><Text>11a-11p</Text></Token><Token POSTag="VBZ" globalID="136" id="12" offset="-1:5"><Text>shifts</Text></Token><Token POSTag="-LRB-" globalID="137" id="13" offset="-1:0"><Text>(</Text></Token><Token POSTag="VBZ" globalID="138" id="14" offset="-1:5"><Text>leaves</Text></Token><Token POSTag="NN" globalID="139" id="15" offset="-1:5"><Text>10:15p</Text></Token><Token POSTag="CC" globalID="140" id="16" offset="-1:2"><Text>and</Text></Token><Token POSTag="VBZ" globalID="141" id="17" offset="-1:6"><Text>returns</Text></Token><Token POSTag="NN" globalID="142" id="18" offset="-1:3"><Text>home</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="6"><Sentences Count="2"><Sentence id="0" offset="674:745"><Text>anywhere between 12:30a-3:00a in addition to working a lot of overtime.</Text><Tokens Count="12"><Token POSTag="NN" globalID="143" id="0" offset="-1:7"><Text>anywhere</Text></Token><Token POSTag="IN" globalID="144" id="1" offset="-1:6"><Text>between</Text></Token><Token POSTag="NN" globalID="145" id="2" offset="-1:11"><Text>12:30a-3:00a</Text></Token><Token POSTag="IN" globalID="146" id="3" offset="-1:1"><Text>in</Text></Token><Token POSTag="NN" globalID="147" id="4" offset="-1:7"><Text>addition</Text></Token><Token POSTag="TO" globalID="148" id="5" offset="-1:1"><Text>to</Text></Token><Token POSTag="NNP" globalID="149" id="6" offset="-1:6"><Text>working</Text></Token><Token POSTag="DT" globalID="150" id="7" offset="-1:0"><Text>a</Text></Token><Token POSTag="NN" globalID="151" id="8" offset="-1:2"><Text>lot</Text></Token><Token POSTag="IN" globalID="152" id="9" offset="-1:1"><Text>of</Text></Token><Token POSTag="NN" globalID="153" id="10" offset="-1:7"><Text>overtime</Text></Token><Token POSTag="." globalID="154" id="11" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="746:784"><Text>Dad is an accountant and works monfri;</Text><Tokens Count="8"><Token POSTag="NN" globalID="155" id="0" offset="-1:2"><Text>Dad</Text></Token><Token POSTag="VBZ" globalID="156" id="1" offset="-1:1"><Text>is</Text></Token><Token POSTag="DT" globalID="157" id="2" offset="-1:1"><Text>an</Text></Token><Token POSTag="NN" globalID="158" id="3" offset="-1:9"><Text>accountant</Text></Token><Token POSTag="CC" globalID="159" id="4" offset="-1:2"><Text>and</Text></Token><Token POSTag="VBZ" globalID="160" id="5" offset="-1:4"><Text>works</Text></Token><Token POSTag="NN" globalID="161" id="6" offset="-1:5"><Text>monfri</Text></Token><Token POSTag=":" globalID="162" id="7" offset="-1:0"><Text>;</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="7"><Sentences Count="2"><Sentence id="0" offset="785:845"><Text>up at 5:30a and out of the house by 6:30a-home around 5:00p.</Text><Tokens Count="13"><Token POSTag="RB" globalID="163" id="0" offset="-1:1"><Text>up</Text></Token><Token POSTag="IN" globalID="164" id="1" offset="-1:1"><Text>at</Text></Token><Token POSTag="NN" globalID="165" id="2" offset="-1:4"><Text>5:30a</Text></Token><Token POSTag="CC" globalID="166" id="3" offset="-1:2"><Text>and</Text></Token><Token POSTag="RB" globalID="167" id="4" offset="-1:2"><Text>out</Text></Token><Token POSTag="IN" globalID="168" id="5" offset="-1:1"><Text>of</Text></Token><Token POSTag="DT" globalID="169" id="6" offset="-1:2"><Text>the</Text></Token><Token POSTag="NN" globalID="170" id="7" offset="-1:4"><Text>house</Text></Token><Token POSTag="IN" globalID="171" id="8" offset="-1:1"><Text>by</Text></Token><Token POSTag="NN" globalID="172" id="9" offset="-1:9"><Text>6:30a-home</Text></Token><Token POSTag="IN" globalID="173" id="10" offset="-1:5"><Text>around</Text></Token><Token POSTag="NN" globalID="174" id="11" offset="-1:4"><Text>5:00p</Text></Token><Token POSTag="." globalID="175" id="12" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="846:889"><Text>Dad is also gone a lot in the evenings with</Text><Tokens Count="10"><Token POSTag="NN" globalID="176" id="0" offset="-1:2"><Text>Dad</Text></Token><Token POSTag="VBZ" globalID="177" id="1" offset="-1:1"><Text>is</Text></Token><Token POSTag="RB" globalID="178" id="2" offset="-1:3"><Text>also</Text></Token><Token POSTag="VBN" globalID="179" id="3" offset="-1:3"><Text>gone</Text></Token><Token POSTag="DT" globalID="180" id="4" offset="-1:0"><Text>a</Text></Token><Token POSTag="NN" globalID="181" id="5" offset="-1:2"><Text>lot</Text></Token><Token POSTag="IN" globalID="182" id="6" offset="-1:1"><Text>in</Text></Token><Token POSTag="DT" globalID="183" id="7" offset="-1:2"><Text>the</Text></Token><Token POSTag="NNS" globalID="184" id="8" offset="-1:7"><Text>evenings</Text></Token><Token POSTag="IN" globalID="185" id="9" offset="-1:3"><Text>with</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="8"><Sentences Count="3"><Sentence id="0" offset="890:916"><Text>various social activities.</Text><Tokens Count="4"><Token POSTag="JJ" globalID="186" id="0" offset="-1:6"><Text>various</Text></Token><Token POSTag="JJ" globalID="187" id="1" offset="-1:5"><Text>social</Text></Token><Token POSTag="NNS" globalID="188" id="2" offset="-1:9"><Text>activities</Text></Token><Token POSTag="." globalID="189" id="3" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="917:966"><Text>Client transfers with stand pivot and one assist.</Text><Tokens Count="9"><Token POSTag="JJ" globalID="190" id="0" offset="-1:5"><Text>Client</Text></Token><Token POSTag="NNS" globalID="191" id="1" offset="-1:8"><Text>transfers</Text></Token><Token POSTag="IN" globalID="192" id="2" offset="-1:3"><Text>with</Text></Token><Token POSTag="JJ" globalID="193" id="3" offset="-1:4"><Text>stand</Text></Token><Token POSTag="NN" globalID="194" id="4" offset="-1:4"><Text>pivot</Text></Token><Token POSTag="CC" globalID="195" id="5" offset="-1:2"><Text>and</Text></Token><Token POSTag="NN" globalID="196" id="6" offset="-1:2"><Text>one</Text></Token><Token POSTag="VBP" globalID="197" id="7" offset="-1:5"><Text>assist</Text></Token><Token POSTag="." globalID="198" id="8" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="967:1007"><Text>Non ambulatory uses electric w/c (client</Text><Tokens Count="7"><Token POSTag="JJ" globalID="199" id="0" offset="-1:2"><Text>Non</Text></Token><Token POSTag="NN" globalID="200" id="1" offset="-1:9"><Text>ambulatory</Text></Token><Token POSTag="VBZ" globalID="201" id="2" offset="-1:3"><Text>uses</Text></Token><Token POSTag="JJ" globalID="202" id="3" offset="-1:7"><Text>electric</Text></Token><Token POSTag="NN" globalID="203" id="4" offset="-1:2"><Text>w/c</Text></Token><Token POSTag="-LRB-" globalID="204" id="5" offset="-1:0"><Text>(</Text></Token><Token POSTag="NN" globalID="205" id="6" offset="-1:5"><Text>client</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="9"><Sentences Count="3"><Sentence id="0" offset="1008:1039"><Text>operates herself) for mobility.</Text><Tokens Count="6"><Token POSTag="VBZ" globalID="206" id="0" offset="-1:7"><Text>operates</Text></Token><Token POSTag="PRP" globalID="207" id="1" offset="-1:6"><Text>herself</Text></Token><Token POSTag="-RRB-" globalID="208" id="2" offset="-1:0"><Text>)</Text></Token><Token POSTag="IN" globalID="209" id="3" offset="-1:2"><Text>for</Text></Token><Token POSTag="NN" globalID="210" id="4" offset="-1:7"><Text>mobility</Text></Token><Token POSTag="." globalID="211" id="5" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="1040:1092"><Text>Client needs to be wheeled in the manual wheelchair.</Text><Tokens Count="10"><Token POSTag="NN" globalID="212" id="0" offset="-1:5"><Text>Client</Text></Token><Token POSTag="VBZ" globalID="213" id="1" offset="-1:4"><Text>needs</Text></Token><Token POSTag="TO" globalID="214" id="2" offset="-1:1"><Text>to</Text></Token><Token POSTag="VB" globalID="215" id="3" offset="-1:1"><Text>be</Text></Token><Token POSTag="VBN" globalID="216" id="4" offset="-1:6"><Text>wheeled</Text></Token><Token POSTag="IN" globalID="217" id="5" offset="-1:1"><Text>in</Text></Token><Token POSTag="DT" globalID="218" id="6" offset="-1:2"><Text>the</Text></Token><Token POSTag="JJ" globalID="219" id="7" offset="-1:5"><Text>manual</Text></Token><Token POSTag="NN" globalID="220" id="8" offset="-1:9"><Text>wheelchair</Text></Token><Token POSTag="." globalID="221" id="9" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="1093:1121"><Text>Client is a professional and</Text><Tokens Count="5"><Token POSTag="NN" globalID="222" id="0" offset="-1:5"><Text>Client</Text></Token><Token POSTag="VBZ" globalID="223" id="1" offset="-1:1"><Text>is</Text></Token><Token POSTag="DT" globalID="224" id="2" offset="-1:0"><Text>a</Text></Token><Token POSTag="JJ" globalID="225" id="3" offset="-1:11"><Text>professional</Text></Token><Token POSTag="CC" globalID="226" id="4" offset="-1:2"><Text>and</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="10"><Sentences Count="2"><Sentence id="0" offset="1122:1166"><Text>works full-time days and part-time evenings.</Text><Tokens Count="7"><Token POSTag="VBZ" globalID="227" id="0" offset="-1:4"><Text>works</Text></Token><Token POSTag="JJ" globalID="228" id="1" offset="-1:8"><Text>full-time</Text></Token><Token POSTag="NNS" globalID="229" id="2" offset="-1:3"><Text>days</Text></Token><Token POSTag="CC" globalID="230" id="3" offset="-1:2"><Text>and</Text></Token><Token POSTag="JJ" globalID="231" id="4" offset="-1:8"><Text>part-time</Text></Token><Token POSTag="NNS" globalID="232" id="5" offset="-1:7"><Text>evenings</Text></Token><Token POSTag="." globalID="233" id="6" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="1167:1230"><Text>Regular Mon-Fri hours are 8:30a-4:30p however actual hours vary</Text><Tokens Count="9"><Token POSTag="JJ" globalID="234" id="0" offset="-1:6"><Text>Regular</Text></Token><Token POSTag="NN" globalID="235" id="1" offset="-1:6"><Text>Mon-Fri</Text></Token><Token POSTag="NNS" globalID="236" id="2" offset="-1:4"><Text>hours</Text></Token><Token POSTag="VBP" globalID="237" id="3" offset="-1:2"><Text>are</Text></Token><Token POSTag="NN" globalID="238" id="4" offset="-1:10"><Text>8:30a-4:30p</Text></Token><Token POSTag="RB" globalID="239" id="5" offset="-1:6"><Text>however</Text></Token><Token POSTag="JJ" globalID="240" id="6" offset="-1:5"><Text>actual</Text></Token><Token POSTag="NNS" globalID="241" id="7" offset="-1:4"><Text>hours</Text></Token><Token POSTag="VBP" globalID="242" id="8" offset="-1:3"><Text>vary</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="11"><Sentences Count="2"><Sentence id="0" offset="1231:1314"><Text>so much due to overtime, work schedules and mandatory continuing education classes.</Text><Tokens Count="14"><Token POSTag="RB" globalID="243" id="0" offset="-1:1"><Text>so</Text></Token><Token POSTag="RB" globalID="244" id="1" offset="-1:3"><Text>much</Text></Token><Token POSTag="JJ" globalID="245" id="2" offset="-1:2"><Text>due</Text></Token><Token POSTag="TO" globalID="246" id="3" offset="-1:1"><Text>to</Text></Token><Token POSTag="NN" globalID="247" id="4" offset="-1:7"><Text>overtime</Text></Token><Token POSTag="," globalID="248" id="5" offset="-1:0"><Text>,</Text></Token><Token POSTag="VBP" globalID="249" id="6" offset="-1:3"><Text>work</Text></Token><Token POSTag="NNS" globalID="250" id="7" offset="-1:8"><Text>schedules</Text></Token><Token POSTag="CC" globalID="251" id="8" offset="-1:2"><Text>and</Text></Token><Token POSTag="JJ" globalID="252" id="9" offset="-1:8"><Text>mandatory</Text></Token><Token POSTag="VBG" globalID="253" id="10" offset="-1:9"><Text>continuing</Text></Token><Token POSTag="NN" globalID="254" id="11" offset="-1:8"><Text>education</Text></Token><Token POSTag="NNS" globalID="255" id="12" offset="-1:6"><Text>classes</Text></Token><Token POSTag="." globalID="256" id="13" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="1315:1344"><Text>Client has a private w/c lift</Text><Tokens Count="6"><Token POSTag="NN" globalID="257" id="0" offset="-1:5"><Text>Client</Text></Token><Token POSTag="VBZ" globalID="258" id="1" offset="-1:2"><Text>has</Text></Token><Token POSTag="DT" globalID="259" id="2" offset="-1:0"><Text>a</Text></Token><Token POSTag="JJ" globalID="260" id="3" offset="-1:6"><Text>private</Text></Token><Token POSTag="NN" globalID="261" id="4" offset="-1:2"><Text>w/c</Text></Token><Token POSTag="NN" globalID="262" id="5" offset="-1:3"><Text>lift</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="12"><Sentences Count="2"><Sentence id="0" offset="1345:1399"><Text>van for medical appt., work and social transportation.</Text><Tokens Count="10"><Token POSTag="JJ" globalID="263" id="0" offset="-1:2"><Text>van</Text></Token><Token POSTag="IN" globalID="264" id="1" offset="-1:2"><Text>for</Text></Token><Token POSTag="JJ" globalID="265" id="2" offset="-1:6"><Text>medical</Text></Token><Token POSTag="NN" globalID="266" id="3" offset="-1:4"><Text>appt.</Text></Token><Token POSTag="," globalID="267" id="4" offset="-1:0"><Text>,</Text></Token><Token POSTag="NN" globalID="268" id="5" offset="-1:3"><Text>work</Text></Token><Token POSTag="CC" globalID="269" id="6" offset="-1:2"><Text>and</Text></Token><Token POSTag="JJ" globalID="270" id="7" offset="-1:5"><Text>social</Text></Token><Token POSTag="NN" globalID="271" id="8" offset="-1:13"><Text>transportation</Text></Token><Token POSTag="." globalID="272" id="9" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="1400:1459"><Text>Client very well aware that transportation is not a medical</Text><Tokens Count="10"><Token POSTag="NN" globalID="273" id="0" offset="-1:5"><Text>Client</Text></Token><Token POSTag="RB" globalID="274" id="1" offset="-1:3"><Text>very</Text></Token><Token POSTag="RB" globalID="275" id="2" offset="-1:3"><Text>well</Text></Token><Token POSTag="VB" globalID="276" id="3" offset="-1:4"><Text>aware</Text></Token><Token POSTag="IN" globalID="277" id="4" offset="-1:3"><Text>that</Text></Token><Token POSTag="NN" globalID="278" id="5" offset="-1:13"><Text>transportation</Text></Token><Token POSTag="VBZ" globalID="279" id="6" offset="-1:1"><Text>is</Text></Token><Token POSTag="RB" globalID="280" id="7" offset="-1:2"><Text>not</Text></Token><Token POSTag="DT" globalID="281" id="8" offset="-1:0"><Text>a</Text></Token><Token POSTag="JJ" globalID="282" id="9" offset="-1:6"><Text>medical</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="13"><Sentences Count="2"><Sentence id="0" offset="1460:1555"><Text>task and is not part of the care plan and that the attendant is not allowed to drive/transport.</Text><Tokens Count="19"><Token POSTag="NN" globalID="283" id="0" offset="-1:3"><Text>task</Text></Token><Token POSTag="CC" globalID="284" id="1" offset="-1:2"><Text>and</Text></Token><Token POSTag="VBZ" globalID="285" id="2" offset="-1:1"><Text>is</Text></Token><Token POSTag="RB" globalID="286" id="3" offset="-1:2"><Text>not</Text></Token><Token POSTag="NN" globalID="287" id="4" offset="-1:3"><Text>part</Text></Token><Token POSTag="IN" globalID="288" id="5" offset="-1:1"><Text>of</Text></Token><Token POSTag="DT" globalID="289" id="6" offset="-1:2"><Text>the</Text></Token><Token POSTag="NN" globalID="290" id="7" offset="-1:3"><Text>care</Text></Token><Token POSTag="NN" globalID="291" id="8" offset="-1:3"><Text>plan</Text></Token><Token POSTag="CC" globalID="292" id="9" offset="-1:2"><Text>and</Text></Token><Token POSTag="IN" globalID="293" id="10" offset="-1:3"><Text>that</Text></Token><Token POSTag="DT" globalID="294" id="11" offset="-1:2"><Text>the</Text></Token><Token POSTag="JJ" globalID="295" id="12" offset="-1:8"><Text>attendant</Text></Token><Token POSTag="VBZ" globalID="296" id="13" offset="-1:1"><Text>is</Text></Token><Token POSTag="RB" globalID="297" id="14" offset="-1:2"><Text>not</Text></Token><Token POSTag="VBN" globalID="298" id="15" offset="-1:6"><Text>allowed</Text></Token><Token POSTag="TO" globalID="299" id="16" offset="-1:1"><Text>to</Text></Token><Token POSTag="VB" globalID="300" id="17" offset="-1:14"><Text>drive/transport</Text></Token><Token POSTag="." globalID="301" id="18" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="1556:1578"><Text>Client pays the people</Text><Tokens Count="4"><Token POSTag="NN" globalID="302" id="0" offset="-1:5"><Text>Client</Text></Token><Token POSTag="VBZ" globalID="303" id="1" offset="-1:3"><Text>pays</Text></Token><Token POSTag="DT" globalID="304" id="2" offset="-1:2"><Text>the</Text></Token><Token POSTag="NN" globalID="305" id="3" offset="-1:5"><Text>people</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="14"><Sentences Count="2"><Sentence id="0" offset="1579:1607"><Text>who drive the van privately.</Text><Tokens Count="6"><Token POSTag="WP" globalID="306" id="0" offset="-1:2"><Text>who</Text></Token><Token POSTag="VBP" globalID="307" id="1" offset="-1:4"><Text>drive</Text></Token><Token POSTag="DT" globalID="308" id="2" offset="-1:2"><Text>the</Text></Token><Token POSTag="NN" globalID="309" id="3" offset="-1:2"><Text>van</Text></Token><Token POSTag="RB" globalID="310" id="4" offset="-1:8"><Text>privately</Text></Token><Token POSTag="." globalID="311" id="5" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="1608:1695"><Text>Client needs to have the attendant with her during all work hours since client requires</Text><Tokens Count="15"><Token POSTag="NN" globalID="312" id="0" offset="-1:5"><Text>Client</Text></Token><Token POSTag="VBZ" globalID="313" id="1" offset="-1:4"><Text>needs</Text></Token><Token POSTag="TO" globalID="314" id="2" offset="-1:1"><Text>to</Text></Token><Token POSTag="VB" globalID="315" id="3" offset="-1:3"><Text>have</Text></Token><Token POSTag="DT" globalID="316" id="4" offset="-1:2"><Text>the</Text></Token><Token POSTag="JJ" globalID="317" id="5" offset="-1:8"><Text>attendant</Text></Token><Token POSTag="IN" globalID="318" id="6" offset="-1:3"><Text>with</Text></Token><Token POSTag="PRP$" globalID="319" id="7" offset="-1:2"><Text>her</Text></Token><Token POSTag="IN" globalID="320" id="8" offset="-1:5"><Text>during</Text></Token><Token POSTag="DT" globalID="321" id="9" offset="-1:2"><Text>all</Text></Token><Token POSTag="NN" globalID="322" id="10" offset="-1:3"><Text>work</Text></Token><Token POSTag="NNS" globalID="323" id="11" offset="-1:4"><Text>hours</Text></Token><Token POSTag="IN" globalID="324" id="12" offset="-1:4"><Text>since</Text></Token><Token POSTag="NN" globalID="325" id="13" offset="-1:5"><Text>client</Text></Token><Token POSTag="VBZ" globalID="326" id="14" offset="-1:7"><Text>requires</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="15"><Sentences Count="1"><Sentence id="0" offset="1696:1810"><Text>total assistance with everything; taking off coat, feeding, toileting (st cath every2-4 hrs), stands client during</Text><Tokens Count="22"><Token POSTag="JJ" globalID="327" id="0" offset="-1:4"><Text>total</Text></Token><Token POSTag="NN" globalID="328" id="1" offset="-1:9"><Text>assistance</Text></Token><Token POSTag="IN" globalID="329" id="2" offset="-1:3"><Text>with</Text></Token><Token POSTag="NN" globalID="330" id="3" offset="-1:9"><Text>everything</Text></Token><Token POSTag=":" globalID="331" id="4" offset="-1:0"><Text>;</Text></Token><Token POSTag="VBG" globalID="332" id="5" offset="-1:5"><Text>taking</Text></Token><Token POSTag="RP" globalID="333" id="6" offset="-1:2"><Text>off</Text></Token><Token POSTag="NN" globalID="334" id="7" offset="-1:3"><Text>coat</Text></Token><Token POSTag="," globalID="335" id="8" offset="-1:0"><Text>,</Text></Token><Token POSTag="NN" globalID="336" id="9" offset="-1:6"><Text>feeding</Text></Token><Token POSTag="," globalID="337" id="10" offset="-1:0"><Text>,</Text></Token><Token POSTag="NN" globalID="338" id="11" offset="-1:8"><Text>toileting</Text></Token><Token POSTag="-LRB-" globalID="339" id="12" offset="-1:0"><Text>(</Text></Token><Token POSTag="JJ" globalID="340" id="13" offset="-1:1"><Text>st</Text></Token><Token POSTag="NN" globalID="341" id="14" offset="-1:3"><Text>cath</Text></Token><Token POSTag="NN" globalID="342" id="15" offset="-1:7"><Text>every2-4</Text></Token><Token POSTag="NNS" globalID="343" id="16" offset="-1:2"><Text>hrs</Text></Token><Token POSTag="-RRB-" globalID="344" id="17" offset="-1:0"><Text>)</Text></Token><Token POSTag="," globalID="345" id="18" offset="-1:0"><Text>,</Text></Token><Token POSTag="VBZ" globalID="346" id="19" offset="-1:5"><Text>stands</Text></Token><Token POSTag="JJ" globalID="347" id="20" offset="-1:5"><Text>client</Text></Token><Token POSTag="IN" globalID="348" id="21" offset="-1:5"><Text>during</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="16"><Sentences Count="3"><Sentence id="0" offset="1811:1837"><Text>breaks taking notes etc...</Text><Tokens Count="5"><Token POSTag="NNS" globalID="349" id="0" offset="-1:5"><Text>breaks</Text></Token><Token POSTag="VBG" globalID="350" id="1" offset="-1:5"><Text>taking</Text></Token><Token POSTag="NNS" globalID="351" id="2" offset="-1:4"><Text>notes</Text></Token><Token POSTag="NN" globalID="352" id="3" offset="-1:2"><Text>etc</Text></Token><Token POSTag=":" globalID="353" id="4" offset="-1:2"><Text>...</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="1838:1911"><Text>Client goes to hospital every 3 months to have her Baclofen pump changed.</Text><Tokens Count="14"><Token POSTag="NN" globalID="354" id="0" offset="-1:5"><Text>Client</Text></Token><Token POSTag="VBZ" globalID="355" id="1" offset="-1:3"><Text>goes</Text></Token><Token POSTag="TO" globalID="356" id="2" offset="-1:1"><Text>to</Text></Token><Token POSTag="NN" globalID="357" id="3" offset="-1:7"><Text>hospital</Text></Token><Token POSTag="DT" globalID="358" id="4" offset="-1:4"><Text>every</Text></Token><Token POSTag="CD" globalID="359" id="5" offset="-1:0"><Text>3</Text></Token><Token POSTag="NNS" globalID="360" id="6" offset="-1:5"><Text>months</Text></Token><Token POSTag="TO" globalID="361" id="7" offset="-1:1"><Text>to</Text></Token><Token POSTag="VB" globalID="362" id="8" offset="-1:3"><Text>have</Text></Token><Token POSTag="PRP$" globalID="363" id="9" offset="-1:2"><Text>her</Text></Token><Token POSTag="NN" globalID="364" id="10" offset="-1:7"><Text>Baclofen</Text></Token><Token POSTag="NN" globalID="365" id="11" offset="-1:3"><Text>pump</Text></Token><Token POSTag="VBN" globalID="366" id="12" offset="-1:6"><Text>changed</Text></Token><Token POSTag="." globalID="367" id="13" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="1912:1924"><Text>Parents pick</Text><Tokens Count="2"><Token POSTag="NNS" globalID="368" id="0" offset="-1:6"><Text>Parents</Text></Token><Token POSTag="RB" globalID="369" id="1" offset="-1:3"><Text>pick</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="17"><Sentences Count="3"><Sentence id="0" offset="1925:1963"><Text>up/oversees medication administration.</Text><Tokens Count="4"><Token POSTag="VBZ" globalID="370" id="0" offset="-1:10"><Text>up/oversees</Text></Token><Token POSTag="NN" globalID="371" id="1" offset="-1:9"><Text>medication</Text></Token><Token POSTag="NN" globalID="372" id="2" offset="-1:13"><Text>administration</Text></Token><Token POSTag="." globalID="373" id="3" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="1964:1987"><Text>Client needs to be fed.</Text><Tokens Count="6"><Token POSTag="NN" globalID="374" id="0" offset="-1:5"><Text>Client</Text></Token><Token POSTag="VBZ" globalID="375" id="1" offset="-1:4"><Text>needs</Text></Token><Token POSTag="TO" globalID="376" id="2" offset="-1:1"><Text>to</Text></Token><Token POSTag="VB" globalID="377" id="3" offset="-1:1"><Text>be</Text></Token><Token POSTag="VBN" globalID="378" id="4" offset="-1:2"><Text>fed</Text></Token><Token POSTag="." globalID="379" id="5" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="1988:2036"><Text>Client's bathroom is w/c accessible with roll in</Text><Tokens Count="9"><Token POSTag="NN" globalID="380" id="0" offset="-1:5"><Text>Client</Text></Token><Token POSTag="POS" globalID="381" id="1" offset="-1:1"><Text>'s</Text></Token><Token POSTag="NN" globalID="382" id="2" offset="-1:7"><Text>bathroom</Text></Token><Token POSTag="VBZ" globalID="383" id="3" offset="-1:1"><Text>is</Text></Token><Token POSTag="NN" globalID="384" id="4" offset="-1:2"><Text>w/c</Text></Token><Token POSTag="JJ" globalID="385" id="5" offset="-1:9"><Text>accessible</Text></Token><Token POSTag="IN" globalID="386" id="6" offset="-1:3"><Text>with</Text></Token><Token POSTag="NN" globalID="387" id="7" offset="-1:3"><Text>roll</Text></Token><Token POSTag="FW" globalID="388" id="8" offset="-1:1"><Text>in</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="18"><Sentences Count="3"><Sentence id="0" offset="2037:2044"><Text>shower.</Text><Tokens Count="2"><Token POSTag="NN" globalID="389" id="0" offset="-1:5"><Text>shower</Text></Token><Token POSTag="." globalID="390" id="1" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (NP (NP (NN shower)) (. .))))</ParseTree></Sentence><Sentence id="1" offset="2045:2118"><Text>Landline phone in client's bedroom is the only one client is able to use.</Text><Tokens Count="16"><Token POSTag="NN" globalID="391" id="0" offset="-1:7"><Text>Landline</Text></Token><Token POSTag="NN" globalID="392" id="1" offset="-1:4"><Text>phone</Text></Token><Token POSTag="IN" globalID="393" id="2" offset="-1:1"><Text>in</Text></Token><Token POSTag="NN" globalID="394" id="3" offset="-1:5"><Text>client</Text></Token><Token POSTag="POS" globalID="395" id="4" offset="-1:1"><Text>'s</Text></Token><Token POSTag="NN" globalID="396" id="5" offset="-1:6"><Text>bedroom</Text></Token><Token POSTag="VBZ" globalID="397" id="6" offset="-1:1"><Text>is</Text></Token><Token POSTag="DT" globalID="398" id="7" offset="-1:2"><Text>the</Text></Token><Token POSTag="RB" globalID="399" id="8" offset="-1:3"><Text>only</Text></Token><Token POSTag="CD" globalID="400" id="9" offset="-1:2"><Text>one</Text></Token><Token POSTag="NN" globalID="401" id="10" offset="-1:5"><Text>client</Text></Token><Token POSTag="VBZ" globalID="402" id="11" offset="-1:1"><Text>is</Text></Token><Token POSTag="JJ" globalID="403" id="12" offset="-1:3"><Text>able</Text></Token><Token POSTag="TO" globalID="404" id="13" offset="-1:1"><Text>to</Text></Token><Token POSTag="NN" globalID="405" id="14" offset="-1:2"><Text>use</Text></Token><Token POSTag="." globalID="406" id="15" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="2119:2150"><Text>Client can push buttons to dial</Text><Tokens Count="6"><Token POSTag="NN" globalID="407" id="0" offset="-1:5"><Text>Client</Text></Token><Token POSTag="MD" globalID="408" id="1" offset="-1:2"><Text>can</Text></Token><Token POSTag="VBP" globalID="409" id="2" offset="-1:3"><Text>push</Text></Token><Token POSTag="NNS" globalID="410" id="3" offset="-1:6"><Text>buttons</Text></Token><Token POSTag="TO" globalID="411" id="4" offset="-1:1"><Text>to</Text></Token><Token POSTag="NN" globalID="412" id="5" offset="-1:3"><Text>dial</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="19"><Sentences Count="3"><Sentence id="0" offset="2151:2175"><Text>out using speaker phone.</Text><Tokens Count="5"><Token POSTag="IN" globalID="413" id="0" offset="-1:2"><Text>out</Text></Token><Token POSTag="VBG" globalID="414" id="1" offset="-1:4"><Text>using</Text></Token><Token POSTag="NN" globalID="415" id="2" offset="-1:6"><Text>speaker</Text></Token><Token POSTag="NN" globalID="416" id="3" offset="-1:4"><Text>phone</Text></Token><Token POSTag="." globalID="417" id="4" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="2176:2214"><Text>Client needs help with her cell phone.</Text><Tokens Count="8"><Token POSTag="NN" globalID="418" id="0" offset="-1:5"><Text>Client</Text></Token><Token POSTag="VBZ" globalID="419" id="1" offset="-1:4"><Text>needs</Text></Token><Token POSTag="VB" globalID="420" id="2" offset="-1:3"><Text>help</Text></Token><Token POSTag="IN" globalID="421" id="3" offset="-1:3"><Text>with</Text></Token><Token POSTag="PRP$" globalID="422" id="4" offset="-1:2"><Text>her</Text></Token><Token POSTag="NN" globalID="423" id="5" offset="-1:3"><Text>cell</Text></Token><Token POSTag="NN" globalID="424" id="6" offset="-1:4"><Text>phone</Text></Token><Token POSTag="." globalID="425" id="7" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="2215:2267"><Text>Client left alone for short periods of time a couple</Text><Tokens Count="10"><Token POSTag="NN" globalID="426" id="0" offset="-1:5"><Text>Client</Text></Token><Token POSTag="JJ" globalID="427" id="1" offset="-1:3"><Text>left</Text></Token><Token POSTag="RB" globalID="428" id="2" offset="-1:4"><Text>alone</Text></Token><Token POSTag="IN" globalID="429" id="3" offset="-1:2"><Text>for</Text></Token><Token POSTag="JJ" globalID="430" id="4" offset="-1:4"><Text>short</Text></Token><Token POSTag="NNS" globalID="431" id="5" offset="-1:6"><Text>periods</Text></Token><Token POSTag="IN" globalID="432" id="6" offset="-1:1"><Text>of</Text></Token><Token POSTag="NN" globalID="433" id="7" offset="-1:3"><Text>time</Text></Token><Token POSTag="NN" globalID="434" id="8" offset="-1:0"><Text>a</Text></Token><Token POSTag="VB" globalID="435" id="9" offset="-1:5"><Text>couple</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="20"><Sentences Count="2"><Sentence id="0" offset="2268:2310"><Text>hours at a time with no apparent problems.</Text><Tokens Count="9"><Token POSTag="NNS" globalID="436" id="0" offset="-1:4"><Text>hours</Text></Token><Token POSTag="IN" globalID="437" id="1" offset="-1:1"><Text>at</Text></Token><Token POSTag="DT" globalID="438" id="2" offset="-1:0"><Text>a</Text></Token><Token POSTag="NN" globalID="439" id="3" offset="-1:3"><Text>time</Text></Token><Token POSTag="IN" globalID="440" id="4" offset="-1:3"><Text>with</Text></Token><Token POSTag="DT" globalID="441" id="5" offset="-1:1"><Text>no</Text></Token><Token POSTag="JJ" globalID="442" id="6" offset="-1:7"><Text>apparent</Text></Token><Token POSTag="NNS" globalID="443" id="7" offset="-1:7"><Text>problems</Text></Token><Token POSTag="." globalID="444" id="8" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="2311:2380"><Text>House is all on one level so it is easy for client to get around with</Text><Tokens Count="16"><Token POSTag="NN" globalID="445" id="0" offset="-1:4"><Text>House</Text></Token><Token POSTag="VBZ" globalID="446" id="1" offset="-1:1"><Text>is</Text></Token><Token POSTag="DT" globalID="447" id="2" offset="-1:2"><Text>all</Text></Token><Token POSTag="IN" globalID="448" id="3" offset="-1:1"><Text>on</Text></Token><Token POSTag="CD" globalID="449" id="4" offset="-1:2"><Text>one</Text></Token><Token POSTag="NN" globalID="450" id="5" offset="-1:4"><Text>level</Text></Token><Token POSTag="IN" globalID="451" id="6" offset="-1:1"><Text>so</Text></Token><Token POSTag="PRP" globalID="452" id="7" offset="-1:1"><Text>it</Text></Token><Token POSTag="VBZ" globalID="453" id="8" offset="-1:1"><Text>is</Text></Token><Token POSTag="JJ" globalID="454" id="9" offset="-1:3"><Text>easy</Text></Token><Token POSTag="IN" globalID="455" id="10" offset="-1:2"><Text>for</Text></Token><Token POSTag="NN" globalID="456" id="11" offset="-1:5"><Text>client</Text></Token><Token POSTag="TO" globalID="457" id="12" offset="-1:1"><Text>to</Text></Token><Token POSTag="VB" globalID="458" id="13" offset="-1:2"><Text>get</Text></Token><Token POSTag="IN" globalID="459" id="14" offset="-1:5"><Text>around</Text></Token><Token POSTag="IN" globalID="460" id="15" offset="-1:3"><Text>with</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="21"><Sentences Count="2"><Sentence id="0" offset="2381:2456"><Text>power w/c going out the front door with a small ramp incline to get in/out.</Text><Tokens Count="16"><Token POSTag="NN" globalID="461" id="0" offset="-1:4"><Text>power</Text></Token><Token POSTag="NN" globalID="462" id="1" offset="-1:2"><Text>w/c</Text></Token><Token POSTag="VBG" globalID="463" id="2" offset="-1:4"><Text>going</Text></Token><Token POSTag="RP" globalID="464" id="3" offset="-1:2"><Text>out</Text></Token><Token POSTag="DT" globalID="465" id="4" offset="-1:2"><Text>the</Text></Token><Token POSTag="NN" globalID="466" id="5" offset="-1:4"><Text>front</Text></Token><Token POSTag="NN" globalID="467" id="6" offset="-1:3"><Text>door</Text></Token><Token POSTag="IN" globalID="468" id="7" offset="-1:3"><Text>with</Text></Token><Token POSTag="DT" globalID="469" id="8" offset="-1:0"><Text>a</Text></Token><Token POSTag="JJ" globalID="470" id="9" offset="-1:4"><Text>small</Text></Token><Token POSTag="NN" globalID="471" id="10" offset="-1:3"><Text>ramp</Text></Token><Token POSTag="NN" globalID="472" id="11" offset="-1:6"><Text>incline</Text></Token><Token POSTag="TO" globalID="473" id="12" offset="-1:1"><Text>to</Text></Token><Token POSTag="VB" globalID="474" id="13" offset="-1:2"><Text>get</Text></Token><Token POSTag="NN" globalID="475" id="14" offset="-1:5"><Text>in/out</Text></Token><Token POSTag="." globalID="476" id="15" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="2457:2491"><Text>Client needs help with opening the</Text><Tokens Count="6"><Token POSTag="JJ" globalID="477" id="0" offset="-1:5"><Text>Client</Text></Token><Token POSTag="VBZ" globalID="478" id="1" offset="-1:4"><Text>needs</Text></Token><Token POSTag="VB" globalID="479" id="2" offset="-1:3"><Text>help</Text></Token><Token POSTag="IN" globalID="480" id="3" offset="-1:3"><Text>with</Text></Token><Token POSTag="NN" globalID="481" id="4" offset="-1:6"><Text>opening</Text></Token><Token POSTag="DT" globalID="482" id="5" offset="-1:2"><Text>the</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="22"><Sentences Count="4"><Sentence id="0" offset="2492:2497"><Text>door.</Text><Tokens Count="2"><Token POSTag="NN" globalID="483" id="0" offset="-1:3"><Text>door</Text></Token><Token POSTag="." globalID="484" id="1" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (NP (NP (NN door)) (. .))))</ParseTree></Sentence><Sentence id="1" offset="2498:2550"><Text>Washer/dryer off kitchen; electric stove, microwave.</Text><Tokens Count="9"><Token POSTag="VBP" globalID="485" id="0" offset="-1:11"><Text>Washer/dryer</Text></Token><Token POSTag="RP" globalID="486" id="1" offset="-1:2"><Text>off</Text></Token><Token POSTag="NN" globalID="487" id="2" offset="-1:6"><Text>kitchen</Text></Token><Token POSTag=":" globalID="488" id="3" offset="-1:0"><Text>;</Text></Token><Token POSTag="JJ" globalID="489" id="4" offset="-1:7"><Text>electric</Text></Token><Token POSTag="JJ" globalID="490" id="5" offset="-1:4"><Text>stove</Text></Token><Token POSTag="," globalID="491" id="6" offset="-1:0"><Text>,</Text></Token><Token POSTag="NN" globalID="492" id="7" offset="-1:8"><Text>microwave</Text></Token><Token POSTag="." globalID="493" id="8" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="2551:2595"><Text>Client handles own finances on the computer.</Text><Tokens Count="8"><Token POSTag="NN" globalID="494" id="0" offset="-1:5"><Text>Client</Text></Token><Token POSTag="VBZ" globalID="495" id="1" offset="-1:6"><Text>handles</Text></Token><Token POSTag="JJ" globalID="496" id="2" offset="-1:2"><Text>own</Text></Token><Token POSTag="NNS" globalID="497" id="3" offset="-1:7"><Text>finances</Text></Token><Token POSTag="IN" globalID="498" id="4" offset="-1:1"><Text>on</Text></Token><Token POSTag="DT" globalID="499" id="5" offset="-1:2"><Text>the</Text></Token><Token POSTag="NN" globalID="500" id="6" offset="-1:7"><Text>computer</Text></Token><Token POSTag="." globalID="501" id="7" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="3" offset="2551:2557"><Text>Client</Text><Tokens Count="1"><Token POSTag="NN" globalID="502" id="0" offset="-1:5"><Text>Client</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="23"><Sentences Count="3"><Sentence id="0" offset="2603:2633"><Text>able to push keyboard buttons.</Text><Tokens Count="6"><Token POSTag="JJ" globalID="503" id="0" offset="-1:3"><Text>able</Text></Token><Token POSTag="TO" globalID="504" id="1" offset="-1:1"><Text>to</Text></Token><Token POSTag="NN" globalID="505" id="2" offset="-1:3"><Text>push</Text></Token><Token POSTag="NN" globalID="506" id="3" offset="-1:7"><Text>keyboard</Text></Token><Token POSTag="NNS" globalID="507" id="4" offset="-1:6"><Text>buttons</Text></Token><Token POSTag="." globalID="508" id="5" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="2634:2684"><Text>Parents both have POA and assist client as needed.</Text><Tokens Count="10"><Token POSTag="NNS" globalID="509" id="0" offset="-1:6"><Text>Parents</Text></Token><Token POSTag="DT" globalID="510" id="1" offset="-1:3"><Text>both</Text></Token><Token POSTag="VBP" globalID="511" id="2" offset="-1:3"><Text>have</Text></Token><Token POSTag="NN" globalID="512" id="3" offset="-1:2"><Text>POA</Text></Token><Token POSTag="CC" globalID="513" id="4" offset="-1:2"><Text>and</Text></Token><Token POSTag="VBP" globalID="514" id="5" offset="-1:5"><Text>assist</Text></Token><Token POSTag="NN" globalID="515" id="6" offset="-1:5"><Text>client</Text></Token><Token POSTag="IN" globalID="516" id="7" offset="-1:1"><Text>as</Text></Token><Token POSTag="VBN" globalID="517" id="8" offset="-1:5"><Text>needed</Text></Token><Token POSTag="." globalID="518" id="9" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="2685:2707"><Text>Parents continue to be</Text><Tokens Count="4"><Token POSTag="NNS" globalID="519" id="0" offset="-1:6"><Text>Parents</Text></Token><Token POSTag="VBP" globalID="520" id="1" offset="-1:7"><Text>continue</Text></Token><Token POSTag="TO" globalID="521" id="2" offset="-1:1"><Text>to</Text></Token><Token POSTag="VB" globalID="522" id="3" offset="-1:1"><Text>be</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="24"><Sentences Count="1"><Sentence id="0" offset="2708:2818"><Text>responsible for major grocery shopping, laundry, meals, cath care/bowel regime and all care during non-service</Text><Tokens Count="18"><Token POSTag="JJ" globalID="523" id="0" offset="-1:10"><Text>responsible</Text></Token><Token POSTag="IN" globalID="524" id="1" offset="-1:2"><Text>for</Text></Token><Token POSTag="JJ" globalID="525" id="2" offset="-1:4"><Text>major</Text></Token><Token POSTag="JJ" globalID="526" id="3" offset="-1:6"><Text>grocery</Text></Token><Token POSTag="NN" globalID="527" id="4" offset="-1:7"><Text>shopping</Text></Token><Token POSTag="," globalID="528" id="5" offset="-1:0"><Text>,</Text></Token><Token POSTag="NN" globalID="529" id="6" offset="-1:6"><Text>laundry</Text></Token><Token POSTag="," globalID="530" id="7" offset="-1:0"><Text>,</Text></Token><Token POSTag="NN" globalID="531" id="8" offset="-1:4"><Text>meals</Text></Token><Token POSTag="," globalID="532" id="9" offset="-1:0"><Text>,</Text></Token><Token POSTag="NN" globalID="533" id="10" offset="-1:3"><Text>cath</Text></Token><Token POSTag="NN" globalID="534" id="11" offset="-1:9"><Text>care/bowel</Text></Token><Token POSTag="NN" globalID="535" id="12" offset="-1:5"><Text>regime</Text></Token><Token POSTag="CC" globalID="536" id="13" offset="-1:2"><Text>and</Text></Token><Token POSTag="DT" globalID="537" id="14" offset="-1:2"><Text>all</Text></Token><Token POSTag="NN" globalID="538" id="15" offset="-1:3"><Text>care</Text></Token><Token POSTag="IN" globalID="539" id="16" offset="-1:5"><Text>during</Text></Token><Token POSTag="NN" globalID="540" id="17" offset="-1:10"><Text>non-service</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="25"><Sentences Count="3"><Sentence id="0" offset="2819:2825"><Text>hours.</Text><Tokens Count="2"><Token POSTag="NNS" globalID="541" id="0" offset="-1:4"><Text>hours</Text></Token><Token POSTag="." globalID="542" id="1" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (NP (NP (NNS hours)) (. .))))</ParseTree></Sentence><Sentence id="1" offset="2826:2857"><Text>Parents provide all night care.</Text><Tokens Count="6"><Token POSTag="NNS" globalID="543" id="0" offset="-1:6"><Text>Parents</Text></Token><Token POSTag="VBP" globalID="544" id="1" offset="-1:6"><Text>provide</Text></Token><Token POSTag="DT" globalID="545" id="2" offset="-1:2"><Text>all</Text></Token><Token POSTag="NN" globalID="546" id="3" offset="-1:4"><Text>night</Text></Token><Token POSTag="NN" globalID="547" id="4" offset="-1:3"><Text>care</Text></Token><Token POSTag="." globalID="548" id="5" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="2858:2931"><Text>Client has to be turned and positioned and toilet needs attended 2-3x per</Text><Tokens Count="13"><Token POSTag="NN" globalID="549" id="0" offset="-1:5"><Text>Client</Text></Token><Token POSTag="VBZ" globalID="550" id="1" offset="-1:2"><Text>has</Text></Token><Token POSTag="TO" globalID="551" id="2" offset="-1:1"><Text>to</Text></Token><Token POSTag="VB" globalID="552" id="3" offset="-1:1"><Text>be</Text></Token><Token POSTag="VBD" globalID="553" id="4" offset="-1:5"><Text>turned</Text></Token><Token POSTag="CC" globalID="554" id="5" offset="-1:2"><Text>and</Text></Token><Token POSTag="VBN" globalID="555" id="6" offset="-1:9"><Text>positioned</Text></Token><Token POSTag="CC" globalID="556" id="7" offset="-1:2"><Text>and</Text></Token><Token POSTag="NN" globalID="557" id="8" offset="-1:5"><Text>toilet</Text></Token><Token POSTag="VBZ" globalID="558" id="9" offset="-1:4"><Text>needs</Text></Token><Token POSTag="JJ" globalID="559" id="10" offset="-1:7"><Text>attended</Text></Token><Token POSTag="NN" globalID="560" id="11" offset="-1:3"><Text>2-3x</Text></Token><Token POSTag="IN" globalID="561" id="12" offset="-1:2"><Text>per</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="26"><Sentences Count="3"><Sentence id="0" offset="2932:2938"><Text>night.</Text><Tokens Count="2"><Token POSTag="NN" globalID="562" id="0" offset="-1:4"><Text>night</Text></Token><Token POSTag="." globalID="563" id="1" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (NP (NP (NN night)) (. .))))</ParseTree></Sentence><Sentence id="1" offset="2939:2981"><Text>All family members have keys to the house.</Text><Tokens Count="9"><Token POSTag="DT" globalID="564" id="0" offset="-1:2"><Text>All</Text></Token><Token POSTag="NN" globalID="565" id="1" offset="-1:5"><Text>family</Text></Token><Token POSTag="NNS" globalID="566" id="2" offset="-1:6"><Text>members</Text></Token><Token POSTag="VBP" globalID="567" id="3" offset="-1:3"><Text>have</Text></Token><Token POSTag="NNS" globalID="568" id="4" offset="-1:3"><Text>keys</Text></Token><Token POSTag="TO" globalID="569" id="5" offset="-1:1"><Text>to</Text></Token><Token POSTag="DT" globalID="570" id="6" offset="-1:2"><Text>the</Text></Token><Token POSTag="NN" globalID="571" id="7" offset="-1:4"><Text>house</Text></Token><Token POSTag="." globalID="572" id="8" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="2982:3034"><Text>CDPAP assistants assist with all AM/PM personal care</Text><Tokens Count="8"><Token POSTag="NN" globalID="573" id="0" offset="-1:4"><Text>CDPAP</Text></Token><Token POSTag="NNS" globalID="574" id="1" offset="-1:9"><Text>assistants</Text></Token><Token POSTag="VBP" globalID="575" id="2" offset="-1:5"><Text>assist</Text></Token><Token POSTag="IN" globalID="576" id="3" offset="-1:3"><Text>with</Text></Token><Token POSTag="DT" globalID="577" id="4" offset="-1:2"><Text>all</Text></Token><Token POSTag="JJ" globalID="578" id="5" offset="-1:4"><Text>AM/PM</Text></Token><Token POSTag="JJ" globalID="579" id="6" offset="-1:7"><Text>personal</Text></Token><Token POSTag="NN" globalID="580" id="7" offset="-1:3"><Text>care</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="27"><Sentences Count="1"><Sentence id="0" offset="3035:3135"><Text>(bathing, shampoo, dressing and undressing), meds, meals (must be fed), catheterization/bowel regime</Text><Tokens Count="21"><Token POSTag="-LRB-" globalID="581" id="0" offset="-1:0"><Text>(</Text></Token><Token POSTag="NN" globalID="582" id="1" offset="-1:6"><Text>bathing</Text></Token><Token POSTag="," globalID="583" id="2" offset="-1:0"><Text>,</Text></Token><Token POSTag="NN" globalID="584" id="3" offset="-1:6"><Text>shampoo</Text></Token><Token POSTag="," globalID="585" id="4" offset="-1:0"><Text>,</Text></Token><Token POSTag="NN" globalID="586" id="5" offset="-1:7"><Text>dressing</Text></Token><Token POSTag="CC" globalID="587" id="6" offset="-1:2"><Text>and</Text></Token><Token POSTag="NN" globalID="588" id="7" offset="-1:9"><Text>undressing</Text></Token><Token POSTag="-RRB-" globalID="589" id="8" offset="-1:0"><Text>)</Text></Token><Token POSTag="," globalID="590" id="9" offset="-1:0"><Text>,</Text></Token><Token POSTag="NNS" globalID="591" id="10" offset="-1:3"><Text>meds</Text></Token><Token POSTag="," globalID="592" id="11" offset="-1:0"><Text>,</Text></Token><Token POSTag="NNS" globalID="593" id="12" offset="-1:4"><Text>meals</Text></Token><Token POSTag="-LRB-" globalID="594" id="13" offset="-1:0"><Text>(</Text></Token><Token POSTag="MD" globalID="595" id="14" offset="-1:3"><Text>must</Text></Token><Token POSTag="VB" globalID="596" id="15" offset="-1:1"><Text>be</Text></Token><Token POSTag="VBN" globalID="597" id="16" offset="-1:2"><Text>fed</Text></Token><Token POSTag="-RRB-" globalID="598" id="17" offset="-1:0"><Text>)</Text></Token><Token POSTag="," globalID="599" id="18" offset="-1:0"><Text>,</Text></Token><Token POSTag="NN" globalID="600" id="19" offset="-1:20"><Text>catheterization/bowel</Text></Token><Token POSTag="NN" globalID="601" id="20" offset="-1:5"><Text>regime</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="28"><Sentences Count="1"><Sentence id="0" offset="3136:3207"><Text>ROM/exercises, minor groceries, personal laundry and household chores. </Text><Tokens Count="11"><Token POSTag="NN" globalID="602" id="0" offset="-1:12"><Text>ROM/exercises</Text></Token><Token POSTag="," globalID="603" id="1" offset="-1:0"><Text>,</Text></Token><Token POSTag="JJ" globalID="604" id="2" offset="-1:4"><Text>minor</Text></Token><Token POSTag="NN" globalID="605" id="3" offset="-1:8"><Text>groceries</Text></Token><Token POSTag="," globalID="606" id="4" offset="-1:0"><Text>,</Text></Token><Token POSTag="JJ" globalID="607" id="5" offset="-1:7"><Text>personal</Text></Token><Token POSTag="NN" globalID="608" id="6" offset="-1:6"><Text>laundry</Text></Token><Token POSTag="CC" globalID="609" id="7" offset="-1:2"><Text>and</Text></Token><Token POSTag="JJ" globalID="610" id="8" offset="-1:8"><Text>household</Text></Token><Token POSTag="NNS" globalID="611" id="9" offset="-1:5"><Text>chores</Text></Token><Token POSTag="." globalID="612" id="10" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph></Paragraphs></StartOutput>
+<StartOutput>
+    <Paragraphs Count="29">
+        <Paragraph id="0">
+            <Sentences Count="2">
+                <Sentence id="0" offset="0:75">
+                    <Text>Client is 27 year old single female, A/O x3 self directing Wt: 100-150 lbs.</Text>
+                    <Tokens Count="17">
+                        <Token POSTag="NN" globalID="0" id="0" offset="0:6">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="1" id="1" offset="7:9">
+                            <Text>is</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="2" id="2" offset="10:12">
+                            <Text>27</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="3" id="3" offset="13:17">
+                            <Text>year</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="4" id="4" offset="18:21">
+                            <Text>old</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="5" id="5" offset="22:28">
+                            <Text>single</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="6" id="6" offset="29:35">
+                            <Text>female</Text>
+                        </Token>
+                        <Token POSTag="," globalID="7" id="7" offset="35:36">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="8" id="8" offset="37:40">
+                            <Text>A/O</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="9" id="9" offset="41:43">
+                            <Text>x3</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="10" id="10" offset="44:48">
+                            <Text>self</Text>
+                        </Token>
+                        <Token POSTag="VBG" globalID="11" id="11" offset="49:58">
+                            <Text>directing</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="12" id="12" offset="59:61">
+                            <Text>Wt</Text>
+                        </Token>
+                        <Token POSTag=":" globalID="13" id="13" offset="61:62">
+                            <Text>:</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="14" id="14" offset="63:70">
+                            <Text>100-150</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="15" id="15" offset="71:74">
+                            <Text>lbs</Text>
+                        </Token>
+                        <Token POSTag="." globalID="16" id="16" offset="74:75">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="76:116">
+                    <Text>Ht: 5'4" vision, speech, and hearing ok.</Text>
+                    <Tokens Count="12">
+                        <Token POSTag="NN" globalID="17" id="0" offset="76:78">
+                            <Text>Ht</Text>
+                        </Token>
+                        <Token POSTag=":" globalID="18" id="1" offset="78:79">
+                            <Text>:</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="19" id="2" offset="80:83">
+                            <Text>5'4</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="20" id="3" offset="-1:1">
+                            <Text>''</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="21" id="4" offset="-1:5">
+                            <Text>vision</Text>
+                        </Token>
+                        <Token POSTag="," globalID="22" id="5" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="23" id="6" offset="-1:5">
+                            <Text>speech</Text>
+                        </Token>
+                        <Token POSTag="," globalID="24" id="7" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="25" id="8" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="26" id="9" offset="-1:6">
+                            <Text>hearing</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="27" id="10" offset="-1:1">
+                            <Text>ok</Text>
+                        </Token>
+                        <Token POSTag="." globalID="28" id="11" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="1">
+            <Sentences Count="2">
+                <Sentence id="0" offset="117:200">
+                    <Text>Due to a spinal cord injury/quad client requires total care in all ADL's and IADLs.</Text>
+                    <Tokens Count="17">
+                        <Token POSTag="JJ" globalID="29" id="0" offset="-1:2">
+                            <Text>Due</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="30" id="1" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="31" id="2" offset="-1:0">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="32" id="3" offset="-1:5">
+                            <Text>spinal</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="33" id="4" offset="-1:3">
+                            <Text>cord</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="34" id="5" offset="-1:10">
+                            <Text>injury/quad</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="35" id="6" offset="-1:5">
+                            <Text>client</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="36" id="7" offset="-1:7">
+                            <Text>requires</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="37" id="8" offset="-1:4">
+                            <Text>total</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="38" id="9" offset="-1:3">
+                            <Text>care</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="39" id="10" offset="-1:1">
+                            <Text>in</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="40" id="11" offset="-1:2">
+                            <Text>all</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="41" id="12" offset="-1:2">
+                            <Text>ADL</Text>
+                        </Token>
+                        <Token POSTag="POS" globalID="42" id="13" offset="-1:1">
+                            <Text>'s</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="43" id="14" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="44" id="15" offset="-1:4">
+                            <Text>IADLs</Text>
+                        </Token>
+                        <Token POSTag="." globalID="45" id="16" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="201:232">
+                    <Text>Client resides in single family</Text>
+                    <Tokens Count="5">
+                        <Token POSTag="NN" globalID="46" id="0" offset="-1:5">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="47" id="1" offset="-1:6">
+                            <Text>resides</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="48" id="2" offset="-1:1">
+                            <Text>in</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="49" id="3" offset="-1:5">
+                            <Text>single</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="50" id="4" offset="-1:5">
+                            <Text>family</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="2">
+            <Sentences Count="2">
+                <Sentence id="0" offset="233:323">
+                    <Text>home with 50 year old mother, 52 year old father, 29 year old sister and a dog and 2 cats.
+                    </Text>
+                    <Tokens Count="23">
+                        <Token POSTag="JJ" globalID="51" id="0" offset="-1:3">
+                            <Text>home</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="52" id="1" offset="-1:3">
+                            <Text>with</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="53" id="2" offset="-1:1">
+                            <Text>50</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="54" id="3" offset="-1:3">
+                            <Text>year</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="55" id="4" offset="-1:2">
+                            <Text>old</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="56" id="5" offset="-1:5">
+                            <Text>mother</Text>
+                        </Token>
+                        <Token POSTag="," globalID="57" id="6" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="58" id="7" offset="-1:1">
+                            <Text>52</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="59" id="8" offset="-1:3">
+                            <Text>year</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="60" id="9" offset="-1:2">
+                            <Text>old</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="61" id="10" offset="-1:5">
+                            <Text>father</Text>
+                        </Token>
+                        <Token POSTag="," globalID="62" id="11" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="63" id="12" offset="-1:1">
+                            <Text>29</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="64" id="13" offset="-1:3">
+                            <Text>year</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="65" id="14" offset="-1:2">
+                            <Text>old</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="66" id="15" offset="-1:5">
+                            <Text>sister</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="67" id="16" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="68" id="17" offset="-1:0">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="69" id="18" offset="-1:2">
+                            <Text>dog</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="70" id="19" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="71" id="20" offset="-1:0">
+                            <Text>2</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="72" id="21" offset="-1:3">
+                            <Text>cats</Text>
+                        </Token>
+                        <Token POSTag="." globalID="73" id="22" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="324:344">
+                    <Text>Both parents are the</Text>
+                    <Tokens Count="4">
+                        <Token POSTag="DT" globalID="74" id="0" offset="-1:3">
+                            <Text>Both</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="75" id="1" offset="-1:6">
+                            <Text>parents</Text>
+                        </Token>
+                        <Token POSTag="VBP" globalID="76" id="2" offset="-1:2">
+                            <Text>are</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="77" id="3" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="3">
+            <Sentences Count="3">
+                <Sentence id="0" offset="345:392">
+                    <Text>primary caregivers and have joint guardianship.</Text>
+                    <Tokens Count="7">
+                        <Token POSTag="JJ" globalID="78" id="0" offset="-1:6">
+                            <Text>primary</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="79" id="1" offset="-1:9">
+                            <Text>caregivers</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="80" id="2" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="VBP" globalID="81" id="3" offset="-1:3">
+                            <Text>have</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="82" id="4" offset="-1:4">
+                            <Text>joint</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="83" id="5" offset="-1:11">
+                            <Text>guardianship</Text>
+                        </Token>
+                        <Token POSTag="." globalID="84" id="6" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="393:433">
+                    <Text>Client's aunt is the secondary guardian.</Text>
+                    <Tokens Count="8">
+                        <Token POSTag="NN" globalID="85" id="0" offset="-1:5">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token POSTag="POS" globalID="86" id="1" offset="-1:1">
+                            <Text>'s</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="87" id="2" offset="-1:3">
+                            <Text>aunt</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="88" id="3" offset="-1:1">
+                            <Text>is</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="89" id="4" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="90" id="5" offset="-1:8">
+                            <Text>secondary</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="91" id="6" offset="-1:7">
+                            <Text>guardian</Text>
+                        </Token>
+                        <Token POSTag="." globalID="92" id="7" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="434:457">
+                    <Text>Client's sister teaches</Text>
+                    <Tokens Count="4">
+                        <Token POSTag="NN" globalID="93" id="0" offset="-1:5">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token POSTag="POS" globalID="94" id="1" offset="-1:1">
+                            <Text>'s</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="95" id="2" offset="-1:5">
+                            <Text>sister</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="96" id="3" offset="-1:6">
+                            <Text>teaches</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="4">
+            <Sentences Count="2">
+                <Sentence id="0" offset="458:493">
+                    <Text>and works during the summer months.</Text>
+                    <Tokens Count="7">
+                        <Token POSTag="CC" globalID="97" id="0" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="98" id="1" offset="-1:4">
+                            <Text>works</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="99" id="2" offset="-1:5">
+                            <Text>during</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="100" id="3" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="101" id="4" offset="-1:5">
+                            <Text>summer</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="102" id="5" offset="-1:5">
+                            <Text>months</Text>
+                        </Token>
+                        <Token POSTag="." globalID="103" id="6" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="494:567">
+                    <Text>Per client and mom, sister is not reliable but does assist in some of the</Text>
+                    <Tokens Count="16">
+                        <Token POSTag="IN" globalID="104" id="0" offset="-1:2">
+                            <Text>Per</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="105" id="1" offset="-1:5">
+                            <Text>client</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="106" id="2" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="107" id="3" offset="-1:2">
+                            <Text>mom</Text>
+                        </Token>
+                        <Token POSTag="," globalID="108" id="4" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="109" id="5" offset="-1:5">
+                            <Text>sister</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="110" id="6" offset="-1:1">
+                            <Text>is</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="111" id="7" offset="-1:2">
+                            <Text>not</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="112" id="8" offset="-1:7">
+                            <Text>reliable</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="113" id="9" offset="-1:2">
+                            <Text>but</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="114" id="10" offset="-1:3">
+                            <Text>does</Text>
+                        </Token>
+                        <Token POSTag="VBP" globalID="115" id="11" offset="-1:5">
+                            <Text>assist</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="116" id="12" offset="-1:1">
+                            <Text>in</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="117" id="13" offset="-1:3">
+                            <Text>some</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="118" id="14" offset="-1:1">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="119" id="15" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="5">
+            <Sentences Count="2">
+                <Sentence id="0" offset="568:582">
+                    <Text>client's care.</Text>
+                    <Tokens Count="4">
+                        <Token POSTag="NN" globalID="120" id="0" offset="-1:5">
+                            <Text>client</Text>
+                        </Token>
+                        <Token POSTag="POS" globalID="121" id="1" offset="-1:1">
+                            <Text>'s</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="122" id="2" offset="-1:3">
+                            <Text>care</Text>
+                        </Token>
+                        <Token POSTag="." globalID="123" id="3" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="583:673">
+                    <Text>Client's mom is a nurse works 3dpw (varies) 11a-11p shifts (leaves 10:15p and returns home
+                    </Text>
+                    <Tokens Count="19">
+                        <Token POSTag="NN" globalID="124" id="0" offset="-1:5">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token POSTag="POS" globalID="125" id="1" offset="-1:1">
+                            <Text>'s</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="126" id="2" offset="-1:2">
+                            <Text>mom</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="127" id="3" offset="-1:1">
+                            <Text>is</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="128" id="4" offset="-1:0">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="129" id="5" offset="-1:4">
+                            <Text>nurse</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="130" id="6" offset="-1:4">
+                            <Text>works</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="131" id="7" offset="-1:3">
+                            <Text>3dpw</Text>
+                        </Token>
+                        <Token POSTag="-LRB-" globalID="132" id="8" offset="-1:0">
+                            <Text>(</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="133" id="9" offset="-1:5">
+                            <Text>varies</Text>
+                        </Token>
+                        <Token POSTag="-RRB-" globalID="134" id="10" offset="-1:0">
+                            <Text>)</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="135" id="11" offset="-1:6">
+                            <Text>11a-11p</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="136" id="12" offset="-1:5">
+                            <Text>shifts</Text>
+                        </Token>
+                        <Token POSTag="-LRB-" globalID="137" id="13" offset="-1:0">
+                            <Text>(</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="138" id="14" offset="-1:5">
+                            <Text>leaves</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="139" id="15" offset="-1:5">
+                            <Text>10:15p</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="140" id="16" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="141" id="17" offset="-1:6">
+                            <Text>returns</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="142" id="18" offset="-1:3">
+                            <Text>home</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="6">
+            <Sentences Count="2">
+                <Sentence id="0" offset="674:745">
+                    <Text>anywhere between 12:30a-3:00a in addition to working a lot of overtime.</Text>
+                    <Tokens Count="12">
+                        <Token POSTag="NN" globalID="143" id="0" offset="-1:7">
+                            <Text>anywhere</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="144" id="1" offset="-1:6">
+                            <Text>between</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="145" id="2" offset="-1:11">
+                            <Text>12:30a-3:00a</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="146" id="3" offset="-1:1">
+                            <Text>in</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="147" id="4" offset="-1:7">
+                            <Text>addition</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="148" id="5" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="NNP" globalID="149" id="6" offset="-1:6">
+                            <Text>working</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="150" id="7" offset="-1:0">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="151" id="8" offset="-1:2">
+                            <Text>lot</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="152" id="9" offset="-1:1">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="153" id="10" offset="-1:7">
+                            <Text>overtime</Text>
+                        </Token>
+                        <Token POSTag="." globalID="154" id="11" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="746:784">
+                    <Text>Dad is an accountant and works monfri;</Text>
+                    <Tokens Count="8">
+                        <Token POSTag="NN" globalID="155" id="0" offset="-1:2">
+                            <Text>Dad</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="156" id="1" offset="-1:1">
+                            <Text>is</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="157" id="2" offset="-1:1">
+                            <Text>an</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="158" id="3" offset="-1:9">
+                            <Text>accountant</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="159" id="4" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="160" id="5" offset="-1:4">
+                            <Text>works</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="161" id="6" offset="-1:5">
+                            <Text>monfri</Text>
+                        </Token>
+                        <Token POSTag=":" globalID="162" id="7" offset="-1:0">
+                            <Text>;</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="7">
+            <Sentences Count="2">
+                <Sentence id="0" offset="785:845">
+                    <Text>up at 5:30a and out of the house by 6:30a-home around 5:00p.</Text>
+                    <Tokens Count="13">
+                        <Token POSTag="RB" globalID="163" id="0" offset="-1:1">
+                            <Text>up</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="164" id="1" offset="-1:1">
+                            <Text>at</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="165" id="2" offset="-1:4">
+                            <Text>5:30a</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="166" id="3" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="167" id="4" offset="-1:2">
+                            <Text>out</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="168" id="5" offset="-1:1">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="169" id="6" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="170" id="7" offset="-1:4">
+                            <Text>house</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="171" id="8" offset="-1:1">
+                            <Text>by</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="172" id="9" offset="-1:9">
+                            <Text>6:30a-home</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="173" id="10" offset="-1:5">
+                            <Text>around</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="174" id="11" offset="-1:4">
+                            <Text>5:00p</Text>
+                        </Token>
+                        <Token POSTag="." globalID="175" id="12" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="846:889">
+                    <Text>Dad is also gone a lot in the evenings with</Text>
+                    <Tokens Count="10">
+                        <Token POSTag="NN" globalID="176" id="0" offset="-1:2">
+                            <Text>Dad</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="177" id="1" offset="-1:1">
+                            <Text>is</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="178" id="2" offset="-1:3">
+                            <Text>also</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="179" id="3" offset="-1:3">
+                            <Text>gone</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="180" id="4" offset="-1:0">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="181" id="5" offset="-1:2">
+                            <Text>lot</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="182" id="6" offset="-1:1">
+                            <Text>in</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="183" id="7" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="184" id="8" offset="-1:7">
+                            <Text>evenings</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="185" id="9" offset="-1:3">
+                            <Text>with</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="8">
+            <Sentences Count="3">
+                <Sentence id="0" offset="890:916">
+                    <Text>various social activities.</Text>
+                    <Tokens Count="4">
+                        <Token POSTag="JJ" globalID="186" id="0" offset="-1:6">
+                            <Text>various</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="187" id="1" offset="-1:5">
+                            <Text>social</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="188" id="2" offset="-1:9">
+                            <Text>activities</Text>
+                        </Token>
+                        <Token POSTag="." globalID="189" id="3" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="917:966">
+                    <Text>Client transfers with stand pivot and one assist.</Text>
+                    <Tokens Count="9">
+                        <Token POSTag="JJ" globalID="190" id="0" offset="-1:5">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="191" id="1" offset="-1:8">
+                            <Text>transfers</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="192" id="2" offset="-1:3">
+                            <Text>with</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="193" id="3" offset="-1:4">
+                            <Text>stand</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="194" id="4" offset="-1:4">
+                            <Text>pivot</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="195" id="5" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="196" id="6" offset="-1:2">
+                            <Text>one</Text>
+                        </Token>
+                        <Token POSTag="VBP" globalID="197" id="7" offset="-1:5">
+                            <Text>assist</Text>
+                        </Token>
+                        <Token POSTag="." globalID="198" id="8" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="967:1007">
+                    <Text>Non ambulatory uses electric w/c (client</Text>
+                    <Tokens Count="7">
+                        <Token POSTag="JJ" globalID="199" id="0" offset="-1:2">
+                            <Text>Non</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="200" id="1" offset="-1:9">
+                            <Text>ambulatory</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="201" id="2" offset="-1:3">
+                            <Text>uses</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="202" id="3" offset="-1:7">
+                            <Text>electric</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="203" id="4" offset="-1:2">
+                            <Text>w/c</Text>
+                        </Token>
+                        <Token POSTag="-LRB-" globalID="204" id="5" offset="-1:0">
+                            <Text>(</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="205" id="6" offset="-1:5">
+                            <Text>client</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="9">
+            <Sentences Count="3">
+                <Sentence id="0" offset="1008:1039">
+                    <Text>operates herself) for mobility.</Text>
+                    <Tokens Count="6">
+                        <Token POSTag="VBZ" globalID="206" id="0" offset="-1:7">
+                            <Text>operates</Text>
+                        </Token>
+                        <Token POSTag="PRP" globalID="207" id="1" offset="-1:6">
+                            <Text>herself</Text>
+                        </Token>
+                        <Token POSTag="-RRB-" globalID="208" id="2" offset="-1:0">
+                            <Text>)</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="209" id="3" offset="-1:2">
+                            <Text>for</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="210" id="4" offset="-1:7">
+                            <Text>mobility</Text>
+                        </Token>
+                        <Token POSTag="." globalID="211" id="5" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="1040:1092">
+                    <Text>Client needs to be wheeled in the manual wheelchair.</Text>
+                    <Tokens Count="10">
+                        <Token POSTag="NN" globalID="212" id="0" offset="-1:5">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="213" id="1" offset="-1:4">
+                            <Text>needs</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="214" id="2" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="VB" globalID="215" id="3" offset="-1:1">
+                            <Text>be</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="216" id="4" offset="-1:6">
+                            <Text>wheeled</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="217" id="5" offset="-1:1">
+                            <Text>in</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="218" id="6" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="219" id="7" offset="-1:5">
+                            <Text>manual</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="220" id="8" offset="-1:9">
+                            <Text>wheelchair</Text>
+                        </Token>
+                        <Token POSTag="." globalID="221" id="9" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="1093:1121">
+                    <Text>Client is a professional and</Text>
+                    <Tokens Count="5">
+                        <Token POSTag="NN" globalID="222" id="0" offset="-1:5">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="223" id="1" offset="-1:1">
+                            <Text>is</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="224" id="2" offset="-1:0">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="225" id="3" offset="-1:11">
+                            <Text>professional</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="226" id="4" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="10">
+            <Sentences Count="2">
+                <Sentence id="0" offset="1122:1166">
+                    <Text>works full-time days and part-time evenings.</Text>
+                    <Tokens Count="7">
+                        <Token POSTag="VBZ" globalID="227" id="0" offset="-1:4">
+                            <Text>works</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="228" id="1" offset="-1:8">
+                            <Text>full-time</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="229" id="2" offset="-1:3">
+                            <Text>days</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="230" id="3" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="231" id="4" offset="-1:8">
+                            <Text>part-time</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="232" id="5" offset="-1:7">
+                            <Text>evenings</Text>
+                        </Token>
+                        <Token POSTag="." globalID="233" id="6" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="1167:1230">
+                    <Text>Regular Mon-Fri hours are 8:30a-4:30p however actual hours vary</Text>
+                    <Tokens Count="9">
+                        <Token POSTag="JJ" globalID="234" id="0" offset="-1:6">
+                            <Text>Regular</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="235" id="1" offset="-1:6">
+                            <Text>Mon-Fri</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="236" id="2" offset="-1:4">
+                            <Text>hours</Text>
+                        </Token>
+                        <Token POSTag="VBP" globalID="237" id="3" offset="-1:2">
+                            <Text>are</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="238" id="4" offset="-1:10">
+                            <Text>8:30a-4:30p</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="239" id="5" offset="-1:6">
+                            <Text>however</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="240" id="6" offset="-1:5">
+                            <Text>actual</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="241" id="7" offset="-1:4">
+                            <Text>hours</Text>
+                        </Token>
+                        <Token POSTag="VBP" globalID="242" id="8" offset="-1:3">
+                            <Text>vary</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="11">
+            <Sentences Count="2">
+                <Sentence id="0" offset="1231:1314">
+                    <Text>so much due to overtime, work schedules and mandatory continuing education classes.</Text>
+                    <Tokens Count="14">
+                        <Token POSTag="RB" globalID="243" id="0" offset="-1:1">
+                            <Text>so</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="244" id="1" offset="-1:3">
+                            <Text>much</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="245" id="2" offset="-1:2">
+                            <Text>due</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="246" id="3" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="247" id="4" offset="-1:7">
+                            <Text>overtime</Text>
+                        </Token>
+                        <Token POSTag="," globalID="248" id="5" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="VBP" globalID="249" id="6" offset="-1:3">
+                            <Text>work</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="250" id="7" offset="-1:8">
+                            <Text>schedules</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="251" id="8" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="252" id="9" offset="-1:8">
+                            <Text>mandatory</Text>
+                        </Token>
+                        <Token POSTag="VBG" globalID="253" id="10" offset="-1:9">
+                            <Text>continuing</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="254" id="11" offset="-1:8">
+                            <Text>education</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="255" id="12" offset="-1:6">
+                            <Text>classes</Text>
+                        </Token>
+                        <Token POSTag="." globalID="256" id="13" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="1315:1344">
+                    <Text>Client has a private w/c lift</Text>
+                    <Tokens Count="6">
+                        <Token POSTag="NN" globalID="257" id="0" offset="-1:5">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="258" id="1" offset="-1:2">
+                            <Text>has</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="259" id="2" offset="-1:0">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="260" id="3" offset="-1:6">
+                            <Text>private</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="261" id="4" offset="-1:2">
+                            <Text>w/c</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="262" id="5" offset="-1:3">
+                            <Text>lift</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="12">
+            <Sentences Count="2">
+                <Sentence id="0" offset="1345:1399">
+                    <Text>van for medical appt., work and social transportation.</Text>
+                    <Tokens Count="10">
+                        <Token POSTag="JJ" globalID="263" id="0" offset="-1:2">
+                            <Text>van</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="264" id="1" offset="-1:2">
+                            <Text>for</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="265" id="2" offset="-1:6">
+                            <Text>medical</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="266" id="3" offset="-1:4">
+                            <Text>appt.</Text>
+                        </Token>
+                        <Token POSTag="," globalID="267" id="4" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="268" id="5" offset="-1:3">
+                            <Text>work</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="269" id="6" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="270" id="7" offset="-1:5">
+                            <Text>social</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="271" id="8" offset="-1:13">
+                            <Text>transportation</Text>
+                        </Token>
+                        <Token POSTag="." globalID="272" id="9" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="1400:1459">
+                    <Text>Client very well aware that transportation is not a medical</Text>
+                    <Tokens Count="10">
+                        <Token POSTag="NN" globalID="273" id="0" offset="-1:5">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="274" id="1" offset="-1:3">
+                            <Text>very</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="275" id="2" offset="-1:3">
+                            <Text>well</Text>
+                        </Token>
+                        <Token POSTag="VB" globalID="276" id="3" offset="-1:4">
+                            <Text>aware</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="277" id="4" offset="-1:3">
+                            <Text>that</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="278" id="5" offset="-1:13">
+                            <Text>transportation</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="279" id="6" offset="-1:1">
+                            <Text>is</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="280" id="7" offset="-1:2">
+                            <Text>not</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="281" id="8" offset="-1:0">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="282" id="9" offset="-1:6">
+                            <Text>medical</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="13">
+            <Sentences Count="2">
+                <Sentence id="0" offset="1460:1555">
+                    <Text>task and is not part of the care plan and that the attendant is not allowed to
+                        drive/transport.
+                    </Text>
+                    <Tokens Count="19">
+                        <Token POSTag="NN" globalID="283" id="0" offset="-1:3">
+                            <Text>task</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="284" id="1" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="285" id="2" offset="-1:1">
+                            <Text>is</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="286" id="3" offset="-1:2">
+                            <Text>not</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="287" id="4" offset="-1:3">
+                            <Text>part</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="288" id="5" offset="-1:1">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="289" id="6" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="290" id="7" offset="-1:3">
+                            <Text>care</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="291" id="8" offset="-1:3">
+                            <Text>plan</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="292" id="9" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="293" id="10" offset="-1:3">
+                            <Text>that</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="294" id="11" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="295" id="12" offset="-1:8">
+                            <Text>attendant</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="296" id="13" offset="-1:1">
+                            <Text>is</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="297" id="14" offset="-1:2">
+                            <Text>not</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="298" id="15" offset="-1:6">
+                            <Text>allowed</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="299" id="16" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="VB" globalID="300" id="17" offset="-1:14">
+                            <Text>drive/transport</Text>
+                        </Token>
+                        <Token POSTag="." globalID="301" id="18" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="1556:1578">
+                    <Text>Client pays the people</Text>
+                    <Tokens Count="4">
+                        <Token POSTag="NN" globalID="302" id="0" offset="-1:5">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="303" id="1" offset="-1:3">
+                            <Text>pays</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="304" id="2" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="305" id="3" offset="-1:5">
+                            <Text>people</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="14">
+            <Sentences Count="2">
+                <Sentence id="0" offset="1579:1607">
+                    <Text>who drive the van privately.</Text>
+                    <Tokens Count="6">
+                        <Token POSTag="WP" globalID="306" id="0" offset="-1:2">
+                            <Text>who</Text>
+                        </Token>
+                        <Token POSTag="VBP" globalID="307" id="1" offset="-1:4">
+                            <Text>drive</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="308" id="2" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="309" id="3" offset="-1:2">
+                            <Text>van</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="310" id="4" offset="-1:8">
+                            <Text>privately</Text>
+                        </Token>
+                        <Token POSTag="." globalID="311" id="5" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="1608:1695">
+                    <Text>Client needs to have the attendant with her during all work hours since client requires</Text>
+                    <Tokens Count="15">
+                        <Token POSTag="NN" globalID="312" id="0" offset="-1:5">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="313" id="1" offset="-1:4">
+                            <Text>needs</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="314" id="2" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="VB" globalID="315" id="3" offset="-1:3">
+                            <Text>have</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="316" id="4" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="317" id="5" offset="-1:8">
+                            <Text>attendant</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="318" id="6" offset="-1:3">
+                            <Text>with</Text>
+                        </Token>
+                        <Token POSTag="PRP$" globalID="319" id="7" offset="-1:2">
+                            <Text>her</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="320" id="8" offset="-1:5">
+                            <Text>during</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="321" id="9" offset="-1:2">
+                            <Text>all</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="322" id="10" offset="-1:3">
+                            <Text>work</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="323" id="11" offset="-1:4">
+                            <Text>hours</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="324" id="12" offset="-1:4">
+                            <Text>since</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="325" id="13" offset="-1:5">
+                            <Text>client</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="326" id="14" offset="-1:7">
+                            <Text>requires</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="15">
+            <Sentences Count="1">
+                <Sentence id="0" offset="1696:1810">
+                    <Text>total assistance with everything; taking off coat, feeding, toileting (st cath every2-4 hrs),
+                        stands client during
+                    </Text>
+                    <Tokens Count="22">
+                        <Token POSTag="JJ" globalID="327" id="0" offset="-1:4">
+                            <Text>total</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="328" id="1" offset="-1:9">
+                            <Text>assistance</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="329" id="2" offset="-1:3">
+                            <Text>with</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="330" id="3" offset="-1:9">
+                            <Text>everything</Text>
+                        </Token>
+                        <Token POSTag=":" globalID="331" id="4" offset="-1:0">
+                            <Text>;</Text>
+                        </Token>
+                        <Token POSTag="VBG" globalID="332" id="5" offset="-1:5">
+                            <Text>taking</Text>
+                        </Token>
+                        <Token POSTag="RP" globalID="333" id="6" offset="-1:2">
+                            <Text>off</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="334" id="7" offset="-1:3">
+                            <Text>coat</Text>
+                        </Token>
+                        <Token POSTag="," globalID="335" id="8" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="336" id="9" offset="-1:6">
+                            <Text>feeding</Text>
+                        </Token>
+                        <Token POSTag="," globalID="337" id="10" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="338" id="11" offset="-1:8">
+                            <Text>toileting</Text>
+                        </Token>
+                        <Token POSTag="-LRB-" globalID="339" id="12" offset="-1:0">
+                            <Text>(</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="340" id="13" offset="-1:1">
+                            <Text>st</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="341" id="14" offset="-1:3">
+                            <Text>cath</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="342" id="15" offset="-1:7">
+                            <Text>every2-4</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="343" id="16" offset="-1:2">
+                            <Text>hrs</Text>
+                        </Token>
+                        <Token POSTag="-RRB-" globalID="344" id="17" offset="-1:0">
+                            <Text>)</Text>
+                        </Token>
+                        <Token POSTag="," globalID="345" id="18" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="346" id="19" offset="-1:5">
+                            <Text>stands</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="347" id="20" offset="-1:5">
+                            <Text>client</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="348" id="21" offset="-1:5">
+                            <Text>during</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="16">
+            <Sentences Count="3">
+                <Sentence id="0" offset="1811:1837">
+                    <Text>breaks taking notes etc...</Text>
+                    <Tokens Count="5">
+                        <Token POSTag="NNS" globalID="349" id="0" offset="-1:5">
+                            <Text>breaks</Text>
+                        </Token>
+                        <Token POSTag="VBG" globalID="350" id="1" offset="-1:5">
+                            <Text>taking</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="351" id="2" offset="-1:4">
+                            <Text>notes</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="352" id="3" offset="-1:2">
+                            <Text>etc</Text>
+                        </Token>
+                        <Token POSTag=":" globalID="353" id="4" offset="-1:2">
+                            <Text>...</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="1838:1911">
+                    <Text>Client goes to hospital every 3 months to have her Baclofen pump changed.</Text>
+                    <Tokens Count="14">
+                        <Token POSTag="NN" globalID="354" id="0" offset="-1:5">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="355" id="1" offset="-1:3">
+                            <Text>goes</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="356" id="2" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="357" id="3" offset="-1:7">
+                            <Text>hospital</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="358" id="4" offset="-1:4">
+                            <Text>every</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="359" id="5" offset="-1:0">
+                            <Text>3</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="360" id="6" offset="-1:5">
+                            <Text>months</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="361" id="7" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="VB" globalID="362" id="8" offset="-1:3">
+                            <Text>have</Text>
+                        </Token>
+                        <Token POSTag="PRP$" globalID="363" id="9" offset="-1:2">
+                            <Text>her</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="364" id="10" offset="-1:7">
+                            <Text>Baclofen</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="365" id="11" offset="-1:3">
+                            <Text>pump</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="366" id="12" offset="-1:6">
+                            <Text>changed</Text>
+                        </Token>
+                        <Token POSTag="." globalID="367" id="13" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="1912:1924">
+                    <Text>Parents pick</Text>
+                    <Tokens Count="2">
+                        <Token POSTag="NNS" globalID="368" id="0" offset="-1:6">
+                            <Text>Parents</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="369" id="1" offset="-1:3">
+                            <Text>pick</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="17">
+            <Sentences Count="3">
+                <Sentence id="0" offset="1925:1963">
+                    <Text>up/oversees medication administration.</Text>
+                    <Tokens Count="4">
+                        <Token POSTag="VBZ" globalID="370" id="0" offset="-1:10">
+                            <Text>up/oversees</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="371" id="1" offset="-1:9">
+                            <Text>medication</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="372" id="2" offset="-1:13">
+                            <Text>administration</Text>
+                        </Token>
+                        <Token POSTag="." globalID="373" id="3" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="1964:1987">
+                    <Text>Client needs to be fed.</Text>
+                    <Tokens Count="6">
+                        <Token POSTag="NN" globalID="374" id="0" offset="-1:5">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="375" id="1" offset="-1:4">
+                            <Text>needs</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="376" id="2" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="VB" globalID="377" id="3" offset="-1:1">
+                            <Text>be</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="378" id="4" offset="-1:2">
+                            <Text>fed</Text>
+                        </Token>
+                        <Token POSTag="." globalID="379" id="5" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="1988:2036">
+                    <Text>Client's bathroom is w/c accessible with roll in</Text>
+                    <Tokens Count="9">
+                        <Token POSTag="NN" globalID="380" id="0" offset="-1:5">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token POSTag="POS" globalID="381" id="1" offset="-1:1">
+                            <Text>'s</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="382" id="2" offset="-1:7">
+                            <Text>bathroom</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="383" id="3" offset="-1:1">
+                            <Text>is</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="384" id="4" offset="-1:2">
+                            <Text>w/c</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="385" id="5" offset="-1:9">
+                            <Text>accessible</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="386" id="6" offset="-1:3">
+                            <Text>with</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="387" id="7" offset="-1:3">
+                            <Text>roll</Text>
+                        </Token>
+                        <Token POSTag="FW" globalID="388" id="8" offset="-1:1">
+                            <Text>in</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="18">
+            <Sentences Count="3">
+                <Sentence id="0" offset="2037:2044">
+                    <Text>shower.</Text>
+                    <Tokens Count="2">
+                        <Token POSTag="NN" globalID="389" id="0" offset="-1:5">
+                            <Text>shower</Text>
+                        </Token>
+                        <Token POSTag="." globalID="390" id="1" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (NP (NP (NN shower)) (. .))))</ParseTree>
+                </Sentence>
+                <Sentence id="1" offset="2045:2118">
+                    <Text>Landline phone in client's bedroom is the only one client is able to use.</Text>
+                    <Tokens Count="16">
+                        <Token POSTag="NN" globalID="391" id="0" offset="-1:7">
+                            <Text>Landline</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="392" id="1" offset="-1:4">
+                            <Text>phone</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="393" id="2" offset="-1:1">
+                            <Text>in</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="394" id="3" offset="-1:5">
+                            <Text>client</Text>
+                        </Token>
+                        <Token POSTag="POS" globalID="395" id="4" offset="-1:1">
+                            <Text>'s</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="396" id="5" offset="-1:6">
+                            <Text>bedroom</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="397" id="6" offset="-1:1">
+                            <Text>is</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="398" id="7" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="399" id="8" offset="-1:3">
+                            <Text>only</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="400" id="9" offset="-1:2">
+                            <Text>one</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="401" id="10" offset="-1:5">
+                            <Text>client</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="402" id="11" offset="-1:1">
+                            <Text>is</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="403" id="12" offset="-1:3">
+                            <Text>able</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="404" id="13" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="405" id="14" offset="-1:2">
+                            <Text>use</Text>
+                        </Token>
+                        <Token POSTag="." globalID="406" id="15" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="2119:2150">
+                    <Text>Client can push buttons to dial</Text>
+                    <Tokens Count="6">
+                        <Token POSTag="NN" globalID="407" id="0" offset="-1:5">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token POSTag="MD" globalID="408" id="1" offset="-1:2">
+                            <Text>can</Text>
+                        </Token>
+                        <Token POSTag="VBP" globalID="409" id="2" offset="-1:3">
+                            <Text>push</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="410" id="3" offset="-1:6">
+                            <Text>buttons</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="411" id="4" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="412" id="5" offset="-1:3">
+                            <Text>dial</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="19">
+            <Sentences Count="3">
+                <Sentence id="0" offset="2151:2175">
+                    <Text>out using speaker phone.</Text>
+                    <Tokens Count="5">
+                        <Token POSTag="IN" globalID="413" id="0" offset="-1:2">
+                            <Text>out</Text>
+                        </Token>
+                        <Token POSTag="VBG" globalID="414" id="1" offset="-1:4">
+                            <Text>using</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="415" id="2" offset="-1:6">
+                            <Text>speaker</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="416" id="3" offset="-1:4">
+                            <Text>phone</Text>
+                        </Token>
+                        <Token POSTag="." globalID="417" id="4" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="2176:2214">
+                    <Text>Client needs help with her cell phone.</Text>
+                    <Tokens Count="8">
+                        <Token POSTag="NN" globalID="418" id="0" offset="-1:5">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="419" id="1" offset="-1:4">
+                            <Text>needs</Text>
+                        </Token>
+                        <Token POSTag="VB" globalID="420" id="2" offset="-1:3">
+                            <Text>help</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="421" id="3" offset="-1:3">
+                            <Text>with</Text>
+                        </Token>
+                        <Token POSTag="PRP$" globalID="422" id="4" offset="-1:2">
+                            <Text>her</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="423" id="5" offset="-1:3">
+                            <Text>cell</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="424" id="6" offset="-1:4">
+                            <Text>phone</Text>
+                        </Token>
+                        <Token POSTag="." globalID="425" id="7" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="2215:2267">
+                    <Text>Client left alone for short periods of time a couple</Text>
+                    <Tokens Count="10">
+                        <Token POSTag="NN" globalID="426" id="0" offset="-1:5">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="427" id="1" offset="-1:3">
+                            <Text>left</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="428" id="2" offset="-1:4">
+                            <Text>alone</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="429" id="3" offset="-1:2">
+                            <Text>for</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="430" id="4" offset="-1:4">
+                            <Text>short</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="431" id="5" offset="-1:6">
+                            <Text>periods</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="432" id="6" offset="-1:1">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="433" id="7" offset="-1:3">
+                            <Text>time</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="434" id="8" offset="-1:0">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="VB" globalID="435" id="9" offset="-1:5">
+                            <Text>couple</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="20">
+            <Sentences Count="2">
+                <Sentence id="0" offset="2268:2310">
+                    <Text>hours at a time with no apparent problems.</Text>
+                    <Tokens Count="9">
+                        <Token POSTag="NNS" globalID="436" id="0" offset="-1:4">
+                            <Text>hours</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="437" id="1" offset="-1:1">
+                            <Text>at</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="438" id="2" offset="-1:0">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="439" id="3" offset="-1:3">
+                            <Text>time</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="440" id="4" offset="-1:3">
+                            <Text>with</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="441" id="5" offset="-1:1">
+                            <Text>no</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="442" id="6" offset="-1:7">
+                            <Text>apparent</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="443" id="7" offset="-1:7">
+                            <Text>problems</Text>
+                        </Token>
+                        <Token POSTag="." globalID="444" id="8" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="2311:2380">
+                    <Text>House is all on one level so it is easy for client to get around with</Text>
+                    <Tokens Count="16">
+                        <Token POSTag="NN" globalID="445" id="0" offset="-1:4">
+                            <Text>House</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="446" id="1" offset="-1:1">
+                            <Text>is</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="447" id="2" offset="-1:2">
+                            <Text>all</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="448" id="3" offset="-1:1">
+                            <Text>on</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="449" id="4" offset="-1:2">
+                            <Text>one</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="450" id="5" offset="-1:4">
+                            <Text>level</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="451" id="6" offset="-1:1">
+                            <Text>so</Text>
+                        </Token>
+                        <Token POSTag="PRP" globalID="452" id="7" offset="-1:1">
+                            <Text>it</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="453" id="8" offset="-1:1">
+                            <Text>is</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="454" id="9" offset="-1:3">
+                            <Text>easy</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="455" id="10" offset="-1:2">
+                            <Text>for</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="456" id="11" offset="-1:5">
+                            <Text>client</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="457" id="12" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="VB" globalID="458" id="13" offset="-1:2">
+                            <Text>get</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="459" id="14" offset="-1:5">
+                            <Text>around</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="460" id="15" offset="-1:3">
+                            <Text>with</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="21">
+            <Sentences Count="2">
+                <Sentence id="0" offset="2381:2456">
+                    <Text>power w/c going out the front door with a small ramp incline to get in/out.</Text>
+                    <Tokens Count="16">
+                        <Token POSTag="NN" globalID="461" id="0" offset="-1:4">
+                            <Text>power</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="462" id="1" offset="-1:2">
+                            <Text>w/c</Text>
+                        </Token>
+                        <Token POSTag="VBG" globalID="463" id="2" offset="-1:4">
+                            <Text>going</Text>
+                        </Token>
+                        <Token POSTag="RP" globalID="464" id="3" offset="-1:2">
+                            <Text>out</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="465" id="4" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="466" id="5" offset="-1:4">
+                            <Text>front</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="467" id="6" offset="-1:3">
+                            <Text>door</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="468" id="7" offset="-1:3">
+                            <Text>with</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="469" id="8" offset="-1:0">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="470" id="9" offset="-1:4">
+                            <Text>small</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="471" id="10" offset="-1:3">
+                            <Text>ramp</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="472" id="11" offset="-1:6">
+                            <Text>incline</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="473" id="12" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="VB" globalID="474" id="13" offset="-1:2">
+                            <Text>get</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="475" id="14" offset="-1:5">
+                            <Text>in/out</Text>
+                        </Token>
+                        <Token POSTag="." globalID="476" id="15" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="2457:2491">
+                    <Text>Client needs help with opening the</Text>
+                    <Tokens Count="6">
+                        <Token POSTag="JJ" globalID="477" id="0" offset="-1:5">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="478" id="1" offset="-1:4">
+                            <Text>needs</Text>
+                        </Token>
+                        <Token POSTag="VB" globalID="479" id="2" offset="-1:3">
+                            <Text>help</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="480" id="3" offset="-1:3">
+                            <Text>with</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="481" id="4" offset="-1:6">
+                            <Text>opening</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="482" id="5" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="22">
+            <Sentences Count="4">
+                <Sentence id="0" offset="2492:2497">
+                    <Text>door.</Text>
+                    <Tokens Count="2">
+                        <Token POSTag="NN" globalID="483" id="0" offset="-1:3">
+                            <Text>door</Text>
+                        </Token>
+                        <Token POSTag="." globalID="484" id="1" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (NP (NP (NN door)) (. .))))</ParseTree>
+                </Sentence>
+                <Sentence id="1" offset="2498:2550">
+                    <Text>Washer/dryer off kitchen; electric stove, microwave.</Text>
+                    <Tokens Count="9">
+                        <Token POSTag="VBP" globalID="485" id="0" offset="-1:11">
+                            <Text>Washer/dryer</Text>
+                        </Token>
+                        <Token POSTag="RP" globalID="486" id="1" offset="-1:2">
+                            <Text>off</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="487" id="2" offset="-1:6">
+                            <Text>kitchen</Text>
+                        </Token>
+                        <Token POSTag=":" globalID="488" id="3" offset="-1:0">
+                            <Text>;</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="489" id="4" offset="-1:7">
+                            <Text>electric</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="490" id="5" offset="-1:4">
+                            <Text>stove</Text>
+                        </Token>
+                        <Token POSTag="," globalID="491" id="6" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="492" id="7" offset="-1:8">
+                            <Text>microwave</Text>
+                        </Token>
+                        <Token POSTag="." globalID="493" id="8" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="2551:2595">
+                    <Text>Client handles own finances on the computer.</Text>
+                    <Tokens Count="8">
+                        <Token POSTag="NN" globalID="494" id="0" offset="-1:5">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="495" id="1" offset="-1:6">
+                            <Text>handles</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="496" id="2" offset="-1:2">
+                            <Text>own</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="497" id="3" offset="-1:7">
+                            <Text>finances</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="498" id="4" offset="-1:1">
+                            <Text>on</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="499" id="5" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="500" id="6" offset="-1:7">
+                            <Text>computer</Text>
+                        </Token>
+                        <Token POSTag="." globalID="501" id="7" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="3" offset="2551:2557">
+                    <Text>Client</Text>
+                    <Tokens Count="1">
+                        <Token POSTag="NN" globalID="502" id="0" offset="-1:5">
+                            <Text>Client</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="23">
+            <Sentences Count="3">
+                <Sentence id="0" offset="2603:2633">
+                    <Text>able to push keyboard buttons.</Text>
+                    <Tokens Count="6">
+                        <Token POSTag="JJ" globalID="503" id="0" offset="-1:3">
+                            <Text>able</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="504" id="1" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="505" id="2" offset="-1:3">
+                            <Text>push</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="506" id="3" offset="-1:7">
+                            <Text>keyboard</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="507" id="4" offset="-1:6">
+                            <Text>buttons</Text>
+                        </Token>
+                        <Token POSTag="." globalID="508" id="5" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="2634:2684">
+                    <Text>Parents both have POA and assist client as needed.</Text>
+                    <Tokens Count="10">
+                        <Token POSTag="NNS" globalID="509" id="0" offset="-1:6">
+                            <Text>Parents</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="510" id="1" offset="-1:3">
+                            <Text>both</Text>
+                        </Token>
+                        <Token POSTag="VBP" globalID="511" id="2" offset="-1:3">
+                            <Text>have</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="512" id="3" offset="-1:2">
+                            <Text>POA</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="513" id="4" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="VBP" globalID="514" id="5" offset="-1:5">
+                            <Text>assist</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="515" id="6" offset="-1:5">
+                            <Text>client</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="516" id="7" offset="-1:1">
+                            <Text>as</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="517" id="8" offset="-1:5">
+                            <Text>needed</Text>
+                        </Token>
+                        <Token POSTag="." globalID="518" id="9" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="2685:2707">
+                    <Text>Parents continue to be</Text>
+                    <Tokens Count="4">
+                        <Token POSTag="NNS" globalID="519" id="0" offset="-1:6">
+                            <Text>Parents</Text>
+                        </Token>
+                        <Token POSTag="VBP" globalID="520" id="1" offset="-1:7">
+                            <Text>continue</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="521" id="2" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="VB" globalID="522" id="3" offset="-1:1">
+                            <Text>be</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="24">
+            <Sentences Count="1">
+                <Sentence id="0" offset="2708:2818">
+                    <Text>responsible for major grocery shopping, laundry, meals, cath care/bowel regime and all care
+                        during non-service
+                    </Text>
+                    <Tokens Count="18">
+                        <Token POSTag="JJ" globalID="523" id="0" offset="-1:10">
+                            <Text>responsible</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="524" id="1" offset="-1:2">
+                            <Text>for</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="525" id="2" offset="-1:4">
+                            <Text>major</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="526" id="3" offset="-1:6">
+                            <Text>grocery</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="527" id="4" offset="-1:7">
+                            <Text>shopping</Text>
+                        </Token>
+                        <Token POSTag="," globalID="528" id="5" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="529" id="6" offset="-1:6">
+                            <Text>laundry</Text>
+                        </Token>
+                        <Token POSTag="," globalID="530" id="7" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="531" id="8" offset="-1:4">
+                            <Text>meals</Text>
+                        </Token>
+                        <Token POSTag="," globalID="532" id="9" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="533" id="10" offset="-1:3">
+                            <Text>cath</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="534" id="11" offset="-1:9">
+                            <Text>care/bowel</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="535" id="12" offset="-1:5">
+                            <Text>regime</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="536" id="13" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="537" id="14" offset="-1:2">
+                            <Text>all</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="538" id="15" offset="-1:3">
+                            <Text>care</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="539" id="16" offset="-1:5">
+                            <Text>during</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="540" id="17" offset="-1:10">
+                            <Text>non-service</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="25">
+            <Sentences Count="3">
+                <Sentence id="0" offset="2819:2825">
+                    <Text>hours.</Text>
+                    <Tokens Count="2">
+                        <Token POSTag="NNS" globalID="541" id="0" offset="-1:4">
+                            <Text>hours</Text>
+                        </Token>
+                        <Token POSTag="." globalID="542" id="1" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (NP (NP (NNS hours)) (. .))))</ParseTree>
+                </Sentence>
+                <Sentence id="1" offset="2826:2857">
+                    <Text>Parents provide all night care.</Text>
+                    <Tokens Count="6">
+                        <Token POSTag="NNS" globalID="543" id="0" offset="-1:6">
+                            <Text>Parents</Text>
+                        </Token>
+                        <Token POSTag="VBP" globalID="544" id="1" offset="-1:6">
+                            <Text>provide</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="545" id="2" offset="-1:2">
+                            <Text>all</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="546" id="3" offset="-1:4">
+                            <Text>night</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="547" id="4" offset="-1:3">
+                            <Text>care</Text>
+                        </Token>
+                        <Token POSTag="." globalID="548" id="5" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="2858:2931">
+                    <Text>Client has to be turned and positioned and toilet needs attended 2-3x per</Text>
+                    <Tokens Count="13">
+                        <Token POSTag="NN" globalID="549" id="0" offset="-1:5">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="550" id="1" offset="-1:2">
+                            <Text>has</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="551" id="2" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="VB" globalID="552" id="3" offset="-1:1">
+                            <Text>be</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="553" id="4" offset="-1:5">
+                            <Text>turned</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="554" id="5" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="555" id="6" offset="-1:9">
+                            <Text>positioned</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="556" id="7" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="557" id="8" offset="-1:5">
+                            <Text>toilet</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="558" id="9" offset="-1:4">
+                            <Text>needs</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="559" id="10" offset="-1:7">
+                            <Text>attended</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="560" id="11" offset="-1:3">
+                            <Text>2-3x</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="561" id="12" offset="-1:2">
+                            <Text>per</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="26">
+            <Sentences Count="3">
+                <Sentence id="0" offset="2932:2938">
+                    <Text>night.</Text>
+                    <Tokens Count="2">
+                        <Token POSTag="NN" globalID="562" id="0" offset="-1:4">
+                            <Text>night</Text>
+                        </Token>
+                        <Token POSTag="." globalID="563" id="1" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (NP (NP (NN night)) (. .))))</ParseTree>
+                </Sentence>
+                <Sentence id="1" offset="2939:2981">
+                    <Text>All family members have keys to the house.</Text>
+                    <Tokens Count="9">
+                        <Token POSTag="DT" globalID="564" id="0" offset="-1:2">
+                            <Text>All</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="565" id="1" offset="-1:5">
+                            <Text>family</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="566" id="2" offset="-1:6">
+                            <Text>members</Text>
+                        </Token>
+                        <Token POSTag="VBP" globalID="567" id="3" offset="-1:3">
+                            <Text>have</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="568" id="4" offset="-1:3">
+                            <Text>keys</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="569" id="5" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="570" id="6" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="571" id="7" offset="-1:4">
+                            <Text>house</Text>
+                        </Token>
+                        <Token POSTag="." globalID="572" id="8" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="2982:3034">
+                    <Text>CDPAP assistants assist with all AM/PM personal care</Text>
+                    <Tokens Count="8">
+                        <Token POSTag="NN" globalID="573" id="0" offset="-1:4">
+                            <Text>CDPAP</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="574" id="1" offset="-1:9">
+                            <Text>assistants</Text>
+                        </Token>
+                        <Token POSTag="VBP" globalID="575" id="2" offset="-1:5">
+                            <Text>assist</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="576" id="3" offset="-1:3">
+                            <Text>with</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="577" id="4" offset="-1:2">
+                            <Text>all</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="578" id="5" offset="-1:4">
+                            <Text>AM/PM</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="579" id="6" offset="-1:7">
+                            <Text>personal</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="580" id="7" offset="-1:3">
+                            <Text>care</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="27">
+            <Sentences Count="1">
+                <Sentence id="0" offset="3035:3135">
+                    <Text>(bathing, shampoo, dressing and undressing), meds, meals (must be fed), catheterization/bowel
+                        regime
+                    </Text>
+                    <Tokens Count="21">
+                        <Token POSTag="-LRB-" globalID="581" id="0" offset="-1:0">
+                            <Text>(</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="582" id="1" offset="-1:6">
+                            <Text>bathing</Text>
+                        </Token>
+                        <Token POSTag="," globalID="583" id="2" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="584" id="3" offset="-1:6">
+                            <Text>shampoo</Text>
+                        </Token>
+                        <Token POSTag="," globalID="585" id="4" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="586" id="5" offset="-1:7">
+                            <Text>dressing</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="587" id="6" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="588" id="7" offset="-1:9">
+                            <Text>undressing</Text>
+                        </Token>
+                        <Token POSTag="-RRB-" globalID="589" id="8" offset="-1:0">
+                            <Text>)</Text>
+                        </Token>
+                        <Token POSTag="," globalID="590" id="9" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="591" id="10" offset="-1:3">
+                            <Text>meds</Text>
+                        </Token>
+                        <Token POSTag="," globalID="592" id="11" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="593" id="12" offset="-1:4">
+                            <Text>meals</Text>
+                        </Token>
+                        <Token POSTag="-LRB-" globalID="594" id="13" offset="-1:0">
+                            <Text>(</Text>
+                        </Token>
+                        <Token POSTag="MD" globalID="595" id="14" offset="-1:3">
+                            <Text>must</Text>
+                        </Token>
+                        <Token POSTag="VB" globalID="596" id="15" offset="-1:1">
+                            <Text>be</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="597" id="16" offset="-1:2">
+                            <Text>fed</Text>
+                        </Token>
+                        <Token POSTag="-RRB-" globalID="598" id="17" offset="-1:0">
+                            <Text>)</Text>
+                        </Token>
+                        <Token POSTag="," globalID="599" id="18" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="600" id="19" offset="-1:20">
+                            <Text>catheterization/bowel</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="601" id="20" offset="-1:5">
+                            <Text>regime</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="28">
+            <Sentences Count="1">
+                <Sentence id="0" offset="3136:3207">
+                    <Text>ROM/exercises, minor groceries, personal laundry and household chores.</Text>
+                    <Tokens Count="11">
+                        <Token POSTag="NN" globalID="602" id="0" offset="-1:12">
+                            <Text>ROM/exercises</Text>
+                        </Token>
+                        <Token POSTag="," globalID="603" id="1" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="604" id="2" offset="-1:4">
+                            <Text>minor</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="605" id="3" offset="-1:8">
+                            <Text>groceries</Text>
+                        </Token>
+                        <Token POSTag="," globalID="606" id="4" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="607" id="5" offset="-1:7">
+                            <Text>personal</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="608" id="6" offset="-1:6">
+                            <Text>laundry</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="609" id="7" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="610" id="8" offset="-1:8">
+                            <Text>household</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="611" id="9" offset="-1:5">
+                            <Text>chores</Text>
+                        </Token>
+                        <Token POSTag="." globalID="612" id="10" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+    </Paragraphs>
+</StartOutput>

@@ -1,1 +1,2021 @@
-<StartOutput><Paragraphs Count="17"><Paragraph id="0"><Sentences Count="2"><Sentence id="0" offset="0:115"><Text>REASON FOR VISIT: Mr. ABC is a 30-year-old man who returns in followup of his still moderate-to-severe sleep apnea.</Text><Tokens Count="21"><Token globalID="0" id="0" offset="0:6"><Text>REASON</Text></Token><Token globalID="1" id="1" offset="7:10"><Text>FOR</Text></Token><Token globalID="2" id="2" offset="11:16"><Text>VISIT</Text></Token><Token globalID="3" id="3" offset="16:17"><Text>:</Text></Token><Token globalID="4" id="4" offset="18:21"><Text>Mr.</Text></Token><Token globalID="5" id="5" offset="22:25"><Text>ABC</Text></Token><Token globalID="6" id="6" offset="26:28"><Text>is</Text></Token><Token globalID="7" id="7" offset="29:30"><Text>a</Text></Token><Token globalID="8" id="8" offset="31:42"><Text>30-year-old</Text></Token><Token globalID="9" id="9" offset="43:46"><Text>man</Text></Token><Token globalID="10" id="10" offset="47:50"><Text>who</Text></Token><Token globalID="11" id="11" offset="51:58"><Text>returns</Text></Token><Token globalID="12" id="12" offset="59:61"><Text>in</Text></Token><Token globalID="13" id="13" offset="62:70"><Text>followup</Text></Token><Token globalID="14" id="14" offset="71:73"><Text>of</Text></Token><Token globalID="15" id="15" offset="74:77"><Text>his</Text></Token><Token globalID="16" id="16" offset="78:83"><Text>still</Text></Token><Token globalID="17" id="17" offset="84:102"><Text>moderate-to-severe</Text></Token><Token globalID="18" id="18" offset="103:108"><Text>sleep</Text></Token><Token globalID="19" id="19" offset="109:114"><Text>apnea</Text></Token><Token globalID="20" id="20" offset="114:115"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="116:164"><Text>He returns today to review his response to CPAP.</Text><Tokens Count="10"><Token globalID="21" id="0" offset="116:118"><Text>He</Text></Token><Token globalID="22" id="1" offset="119:126"><Text>returns</Text></Token><Token globalID="23" id="2" offset="127:132"><Text>today</Text></Token><Token globalID="24" id="3" offset="127:129"><Text>to</Text></Token><Token globalID="25" id="4" offset="136:142"><Text>review</Text></Token><Token globalID="26" id="5" offset="143:146"><Text>his</Text></Token><Token globalID="27" id="6" offset="147:155"><Text>response</Text></Token><Token globalID="28" id="7" offset="156:158"><Text>to</Text></Token><Token globalID="29" id="8" offset="159:163"><Text>CPAP</Text></Token><Token globalID="30" id="9" offset="163:164"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="1"><Sentences Count="3"><Sentence id="0" offset="166:298"><Text>HISTORY OF PRESENT ILLNESS: The patient initially presented with loud obnoxious snoring that disrupted the sleep of his bed partner.</Text><Tokens Count="22"><Token globalID="31" id="0" offset="166:173"><Text>HISTORY</Text></Token><Token globalID="32" id="1" offset="174:176"><Text>OF</Text></Token><Token globalID="33" id="2" offset="177:184"><Text>PRESENT</Text></Token><Token globalID="34" id="3" offset="185:192"><Text>ILLNESS</Text></Token><Token globalID="35" id="4" offset="192:193"><Text>:</Text></Token><Token globalID="36" id="5" offset="194:197"><Text>The</Text></Token><Token globalID="37" id="6" offset="198:205"><Text>patient</Text></Token><Token globalID="38" id="7" offset="206:215"><Text>initially</Text></Token><Token globalID="39" id="8" offset="216:225"><Text>presented</Text></Token><Token globalID="40" id="9" offset="226:230"><Text>with</Text></Token><Token globalID="41" id="10" offset="231:235"><Text>loud</Text></Token><Token globalID="42" id="11" offset="236:245"><Text>obnoxious</Text></Token><Token globalID="43" id="12" offset="246:253"><Text>snoring</Text></Token><Token globalID="44" id="13" offset="254:258"><Text>that</Text></Token><Token globalID="45" id="14" offset="259:268"><Text>disrupted</Text></Token><Token globalID="46" id="15" offset="269:272"><Text>the</Text></Token><Token globalID="47" id="16" offset="273:278"><Text>sleep</Text></Token><Token globalID="48" id="17" offset="279:281"><Text>of</Text></Token><Token globalID="49" id="18" offset="282:285"><Text>his</Text></Token><Token globalID="50" id="19" offset="286:289"><Text>bed</Text></Token><Token globalID="51" id="20" offset="290:297"><Text>partner</Text></Token><Token globalID="52" id="21" offset="297:298"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="299:433"><Text>He was found to have moderate-to-severe sleep apnea (predominantly hypopnea), was treated with nasal CPAP at 10 cm H2O nasal pressure.</Text><Tokens Count="25"><Token globalID="53" id="0" offset="299:301"><Text>He</Text></Token><Token globalID="54" id="1" offset="302:305"><Text>was</Text></Token><Token globalID="55" id="2" offset="306:311"><Text>found</Text></Token><Token globalID="56" id="3" offset="312:314"><Text>to</Text></Token><Token globalID="57" id="4" offset="315:319"><Text>have</Text></Token><Token globalID="58" id="5" offset="320:338"><Text>moderate-to-severe</Text></Token><Token globalID="59" id="6" offset="339:344"><Text>sleep</Text></Token><Token globalID="60" id="7" offset="345:350"><Text>apnea</Text></Token><Token globalID="61" id="8" offset="351:352"><Text>(</Text></Token><Token globalID="62" id="9" offset="352:365"><Text>predominantly</Text></Token><Token globalID="63" id="10" offset="366:374"><Text>hypopnea</Text></Token><Token globalID="64" id="11" offset="374:375"><Text>)</Text></Token><Token globalID="65" id="12" offset="375:376"><Text>,</Text></Token><Token globalID="66" id="13" offset="377:380"><Text>was</Text></Token><Token globalID="67" id="14" offset="381:388"><Text>treated</Text></Token><Token globalID="68" id="15" offset="389:393"><Text>with</Text></Token><Token globalID="69" id="16" offset="394:399"><Text>nasal</Text></Token><Token globalID="70" id="17" offset="400:404"><Text>CPAP</Text></Token><Token globalID="71" id="18" offset="405:407"><Text>at</Text></Token><Token globalID="72" id="19" offset="408:410"><Text>10</Text></Token><Token globalID="73" id="20" offset="411:413"><Text>cm</Text></Token><Token globalID="74" id="21" offset="414:417"><Text>H2O</Text></Token><Token globalID="75" id="22" offset="418:423"><Text>nasal</Text></Token><Token globalID="76" id="23" offset="424:432"><Text>pressure</Text></Token><Token globalID="77" id="24" offset="432:433"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="434:539"><Text>He has been on CPAP now for several months, and returns for followup to review his response to treatment.</Text><Tokens Count="21"><Token globalID="78" id="0" offset="434:436"><Text>He</Text></Token><Token globalID="79" id="1" offset="437:440"><Text>has</Text></Token><Token globalID="80" id="2" offset="441:445"><Text>been</Text></Token><Token globalID="81" id="3" offset="446:448"><Text>on</Text></Token><Token globalID="82" id="4" offset="449:453"><Text>CPAP</Text></Token><Token globalID="83" id="5" offset="454:457"><Text>now</Text></Token><Token globalID="84" id="6" offset="458:461"><Text>for</Text></Token><Token globalID="85" id="7" offset="462:469"><Text>several</Text></Token><Token globalID="86" id="8" offset="470:476"><Text>months</Text></Token><Token globalID="87" id="9" offset="476:477"><Text>,</Text></Token><Token globalID="88" id="10" offset="478:481"><Text>and</Text></Token><Token globalID="89" id="11" offset="482:489"><Text>returns</Text></Token><Token globalID="90" id="12" offset="490:493"><Text>for</Text></Token><Token globalID="91" id="13" offset="494:502"><Text>followup</Text></Token><Token globalID="92" id="14" offset="503:505"><Text>to</Text></Token><Token globalID="93" id="15" offset="506:512"><Text>review</Text></Token><Token globalID="94" id="16" offset="513:516"><Text>his</Text></Token><Token globalID="95" id="17" offset="517:525"><Text>response</Text></Token><Token globalID="96" id="18" offset="526:528"><Text>to</Text></Token><Token globalID="97" id="19" offset="529:538"><Text>treatment</Text></Token><Token globalID="98" id="20" offset="538:539"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="2"><Sentences Count="3"><Sentence id="0" offset="541:608"><Text>The patient reports that the CPAP has limited his snoring at night.</Text><Tokens Count="13"><Token globalID="99" id="0" offset="541:544"><Text>The</Text></Token><Token globalID="100" id="1" offset="545:552"><Text>patient</Text></Token><Token globalID="101" id="2" offset="553:560"><Text>reports</Text></Token><Token globalID="102" id="3" offset="561:565"><Text>that</Text></Token><Token globalID="103" id="4" offset="566:569"><Text>the</Text></Token><Token globalID="104" id="5" offset="570:574"><Text>CPAP</Text></Token><Token globalID="105" id="6" offset="575:578"><Text>has</Text></Token><Token globalID="106" id="7" offset="579:586"><Text>limited</Text></Token><Token globalID="107" id="8" offset="587:590"><Text>his</Text></Token><Token globalID="108" id="9" offset="591:598"><Text>snoring</Text></Token><Token globalID="109" id="10" offset="599:601"><Text>at</Text></Token><Token globalID="110" id="11" offset="602:607"><Text>night</Text></Token><Token globalID="111" id="12" offset="607:608"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="609:738"><Text>Occasionally, his bed partner wakes him in the middle of the night, when the mask comes off, and reminds him to replace the mask.</Text><Tokens Count="28"><Token globalID="112" id="0" offset="609:621"><Text>Occasionally</Text></Token><Token globalID="113" id="1" offset="621:622"><Text>,</Text></Token><Token globalID="114" id="2" offset="623:626"><Text>his</Text></Token><Token globalID="115" id="3" offset="627:630"><Text>bed</Text></Token><Token globalID="116" id="4" offset="631:638"><Text>partner</Text></Token><Token globalID="117" id="5" offset="639:644"><Text>wakes</Text></Token><Token globalID="118" id="6" offset="645:648"><Text>him</Text></Token><Token globalID="119" id="7" offset="649:651"><Text>in</Text></Token><Token globalID="120" id="8" offset="652:655"><Text>the</Text></Token><Token globalID="121" id="9" offset="656:662"><Text>middle</Text></Token><Token globalID="122" id="10" offset="663:665"><Text>of</Text></Token><Token globalID="123" id="11" offset="666:669"><Text>the</Text></Token><Token globalID="124" id="12" offset="670:675"><Text>night</Text></Token><Token globalID="125" id="13" offset="675:676"><Text>,</Text></Token><Token globalID="126" id="14" offset="677:681"><Text>when</Text></Token><Token globalID="127" id="15" offset="682:685"><Text>the</Text></Token><Token globalID="128" id="16" offset="686:690"><Text>mask</Text></Token><Token globalID="129" id="17" offset="691:696"><Text>comes</Text></Token><Token globalID="130" id="18" offset="697:700"><Text>off</Text></Token><Token globalID="131" id="19" offset="700:701"><Text>,</Text></Token><Token globalID="132" id="20" offset="702:705"><Text>and</Text></Token><Token globalID="133" id="21" offset="706:713"><Text>reminds</Text></Token><Token globalID="134" id="22" offset="714:717"><Text>him</Text></Token><Token globalID="135" id="23" offset="718:720"><Text>to</Text></Token><Token globalID="136" id="24" offset="721:728"><Text>replace</Text></Token><Token globalID="137" id="25" offset="729:732"><Text>the</Text></Token><Token globalID="138" id="26" offset="733:737"><Text>mask</Text></Token><Token globalID="139" id="27" offset="737:738"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="739:937"><Text>The patient estimates that he uses the CPAP approximately 5 to 7 nights per week, and on occasion takes it off and does not replace the mask when he awakens spontaneously in the middle of the night.</Text><Tokens Count="39"><Token globalID="140" id="0" offset="739:742"><Text>The</Text></Token><Token globalID="141" id="1" offset="743:750"><Text>patient</Text></Token><Token globalID="142" id="2" offset="751:760"><Text>estimates</Text></Token><Token globalID="143" id="3" offset="761:765"><Text>that</Text></Token><Token globalID="144" id="4" offset="766:768"><Text>he</Text></Token><Token globalID="145" id="5" offset="769:773"><Text>uses</Text></Token><Token globalID="146" id="6" offset="774:777"><Text>the</Text></Token><Token globalID="147" id="7" offset="778:782"><Text>CPAP</Text></Token><Token globalID="148" id="8" offset="783:796"><Text>approximately</Text></Token><Token globalID="149" id="9" offset="797:798"><Text>5</Text></Token><Token globalID="150" id="10" offset="799:801"><Text>to</Text></Token><Token globalID="151" id="11" offset="802:803"><Text>7</Text></Token><Token globalID="152" id="12" offset="804:810"><Text>nights</Text></Token><Token globalID="153" id="13" offset="811:814"><Text>per</Text></Token><Token globalID="154" id="14" offset="815:819"><Text>week</Text></Token><Token globalID="155" id="15" offset="819:820"><Text>,</Text></Token><Token globalID="156" id="16" offset="821:824"><Text>and</Text></Token><Token globalID="157" id="17" offset="825:827"><Text>on</Text></Token><Token globalID="158" id="18" offset="828:836"><Text>occasion</Text></Token><Token globalID="159" id="19" offset="837:842"><Text>takes</Text></Token><Token globalID="160" id="20" offset="843:845"><Text>it</Text></Token><Token globalID="161" id="21" offset="846:849"><Text>off</Text></Token><Token globalID="162" id="22" offset="850:853"><Text>and</Text></Token><Token globalID="163" id="23" offset="854:858"><Text>does</Text></Token><Token globalID="164" id="24" offset="859:862"><Text>not</Text></Token><Token globalID="165" id="25" offset="863:870"><Text>replace</Text></Token><Token globalID="166" id="26" offset="871:874"><Text>the</Text></Token><Token globalID="167" id="27" offset="875:879"><Text>mask</Text></Token><Token globalID="168" id="28" offset="880:884"><Text>when</Text></Token><Token globalID="169" id="29" offset="881:883"><Text>he</Text></Token><Token globalID="170" id="30" offset="888:895"><Text>awakens</Text></Token><Token globalID="171" id="31" offset="896:909"><Text>spontaneously</Text></Token><Token globalID="172" id="32" offset="910:912"><Text>in</Text></Token><Token globalID="173" id="33" offset="913:916"><Text>the</Text></Token><Token globalID="174" id="34" offset="917:923"><Text>middle</Text></Token><Token globalID="175" id="35" offset="924:926"><Text>of</Text></Token><Token globalID="176" id="36" offset="927:930"><Text>the</Text></Token><Token globalID="177" id="37" offset="931:936"><Text>night</Text></Token><Token globalID="178" id="38" offset="936:937"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="3"><Sentences Count="2"><Sentence id="0" offset="939:1073"><Text>The patient&#8217;s sleep pattern consists of going to bed between 11:00 and 11:30 at night and awakening between 6 to 7 a.m. on weekdays.</Text><Tokens Count="25"><Token globalID="179" id="0" offset="939:942"><Text>The</Text></Token><Token globalID="180" id="1" offset="943:954"><Text>patient&#8217;s</Text></Token><Token globalID="181" id="2" offset="955:960"><Text>sleep</Text></Token><Token globalID="182" id="3" offset="961:968"><Text>pattern</Text></Token><Token globalID="183" id="4" offset="969:977"><Text>consists</Text></Token><Token globalID="184" id="5" offset="978:980"><Text>of</Text></Token><Token globalID="185" id="6" offset="981:986"><Text>going</Text></Token><Token globalID="186" id="7" offset="987:989"><Text>to</Text></Token><Token globalID="187" id="8" offset="990:993"><Text>bed</Text></Token><Token globalID="188" id="9" offset="994:1001"><Text>between</Text></Token><Token globalID="189" id="10" offset="1002:1007"><Text>11:00</Text></Token><Token globalID="190" id="11" offset="1008:1011"><Text>and</Text></Token><Token globalID="191" id="12" offset="1012:1017"><Text>11:30</Text></Token><Token globalID="192" id="13" offset="1018:1020"><Text>at</Text></Token><Token globalID="193" id="14" offset="1021:1026"><Text>night</Text></Token><Token globalID="194" id="15" offset="1027:1030"><Text>and</Text></Token><Token globalID="195" id="16" offset="1031:1040"><Text>awakening</Text></Token><Token globalID="196" id="17" offset="1041:1048"><Text>between</Text></Token><Token globalID="197" id="18" offset="1049:1050"><Text>6</Text></Token><Token globalID="198" id="19" offset="1051:1053"><Text>to</Text></Token><Token globalID="199" id="20" offset="1054:1055"><Text>7</Text></Token><Token globalID="200" id="21" offset="1056:1060"><Text>a.m.</Text></Token><Token globalID="201" id="22" offset="1061:1063"><Text>on</Text></Token><Token globalID="202" id="23" offset="1064:1072"><Text>weekdays</Text></Token><Token globalID="203" id="24" offset="1072:1073"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="1074:1182"><Text>On weekends, he might sleep until 8 to 9 a.m. On Saturday night, he might go to bed approximately mid night.</Text><Tokens Count="24"><Token globalID="204" id="0" offset="1074:1076"><Text>On</Text></Token><Token globalID="205" id="1" offset="1077:1085"><Text>weekends</Text></Token><Token globalID="206" id="2" offset="1085:1086"><Text>,</Text></Token><Token globalID="207" id="3" offset="1087:1089"><Text>he</Text></Token><Token globalID="208" id="4" offset="1090:1095"><Text>might</Text></Token><Token globalID="209" id="5" offset="1096:1101"><Text>sleep</Text></Token><Token globalID="210" id="6" offset="1102:1107"><Text>until</Text></Token><Token globalID="211" id="7" offset="1108:1109"><Text>8</Text></Token><Token globalID="212" id="8" offset="1110:1112"><Text>to</Text></Token><Token globalID="213" id="9" offset="1113:1114"><Text>9</Text></Token><Token globalID="214" id="10" offset="1115:1119"><Text>a.m.</Text></Token><Token globalID="215" id="11" offset="1120:1122"><Text>On</Text></Token><Token globalID="216" id="12" offset="1123:1131"><Text>Saturday</Text></Token><Token globalID="217" id="13" offset="1132:1137"><Text>night</Text></Token><Token globalID="218" id="14" offset="1137:1138"><Text>,</Text></Token><Token globalID="219" id="15" offset="1139:1141"><Text>he</Text></Token><Token globalID="220" id="16" offset="1142:1147"><Text>might</Text></Token><Token globalID="221" id="17" offset="1148:1150"><Text>go</Text></Token><Token globalID="222" id="18" offset="1151:1153"><Text>to</Text></Token><Token globalID="223" id="19" offset="1154:1157"><Text>bed</Text></Token><Token globalID="224" id="20" offset="1158:1171"><Text>approximately</Text></Token><Token globalID="225" id="21" offset="1172:1175"><Text>mid</Text></Token><Token globalID="226" id="22" offset="1176:1181"><Text>night</Text></Token><Token globalID="227" id="23" offset="1181:1182"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="4"><Sentences Count="3"><Sentence id="0" offset="1184:1229"><Text>As noted, the patient is not snoring on CPAP.</Text><Tokens Count="11"><Token globalID="228" id="0" offset="1184:1186"><Text>As</Text></Token><Token globalID="229" id="1" offset="1187:1192"><Text>noted</Text></Token><Token globalID="230" id="2" offset="1192:1193"><Text>,</Text></Token><Token globalID="231" id="3" offset="1194:1197"><Text>the</Text></Token><Token globalID="232" id="4" offset="1198:1205"><Text>patient</Text></Token><Token globalID="233" id="5" offset="1206:1208"><Text>is</Text></Token><Token globalID="234" id="6" offset="1209:1212"><Text>not</Text></Token><Token globalID="235" id="7" offset="1213:1220"><Text>snoring</Text></Token><Token globalID="236" id="8" offset="1221:1223"><Text>on</Text></Token><Token globalID="237" id="9" offset="1224:1228"><Text>CPAP</Text></Token><Token globalID="238" id="10" offset="1228:1229"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="1230:1313"><Text>He denies much tossing and turning and does not awaken with the sheets in disarray.</Text><Tokens Count="16"><Token globalID="239" id="0" offset="1230:1232"><Text>He</Text></Token><Token globalID="240" id="1" offset="1233:1239"><Text>denies</Text></Token><Token globalID="241" id="2" offset="1240:1244"><Text>much</Text></Token><Token globalID="242" id="3" offset="1245:1252"><Text>tossing</Text></Token><Token globalID="243" id="4" offset="1253:1256"><Text>and</Text></Token><Token globalID="244" id="5" offset="1257:1264"><Text>turning</Text></Token><Token globalID="245" id="6" offset="1265:1268"><Text>and</Text></Token><Token globalID="246" id="7" offset="1269:1273"><Text>does</Text></Token><Token globalID="247" id="8" offset="1274:1277"><Text>not</Text></Token><Token globalID="248" id="9" offset="1278:1284"><Text>awaken</Text></Token><Token globalID="249" id="10" offset="1285:1289"><Text>with</Text></Token><Token globalID="250" id="11" offset="1290:1293"><Text>the</Text></Token><Token globalID="251" id="12" offset="1294:1300"><Text>sheets</Text></Token><Token globalID="252" id="13" offset="1301:1303"><Text>in</Text></Token><Token globalID="253" id="14" offset="1304:1312"><Text>disarray</Text></Token><Token globalID="254" id="15" offset="1312:1313"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="1314:1354"><Text>He awakens feeling relatively refreshed.</Text><Tokens Count="6"><Token globalID="255" id="0" offset="1314:1316"><Text>He</Text></Token><Token globalID="256" id="1" offset="1317:1324"><Text>awakens</Text></Token><Token globalID="257" id="2" offset="1325:1332"><Text>feeling</Text></Token><Token globalID="258" id="3" offset="1333:1343"><Text>relatively</Text></Token><Token globalID="259" id="4" offset="1344:1353"><Text>refreshed</Text></Token><Token globalID="260" id="5" offset="1353:1354"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="5"><Sentences Count="1"><Sentence id="0" offset="1356:1474"><Text>In the past few months, the patient has lost between 15 and 18 pounds in combination of dietary and exercise measures.</Text><Tokens Count="23"><Token globalID="261" id="0" offset="1356:1358"><Text>In</Text></Token><Token globalID="262" id="1" offset="1359:1362"><Text>the</Text></Token><Token globalID="263" id="2" offset="1363:1367"><Text>past</Text></Token><Token globalID="264" id="3" offset="1368:1371"><Text>few</Text></Token><Token globalID="265" id="4" offset="1372:1378"><Text>months</Text></Token><Token globalID="266" id="5" offset="1378:1379"><Text>,</Text></Token><Token globalID="267" id="6" offset="1380:1383"><Text>the</Text></Token><Token globalID="268" id="7" offset="1384:1391"><Text>patient</Text></Token><Token globalID="269" id="8" offset="1392:1395"><Text>has</Text></Token><Token globalID="270" id="9" offset="1396:1400"><Text>lost</Text></Token><Token globalID="271" id="10" offset="1401:1408"><Text>between</Text></Token><Token globalID="272" id="11" offset="1409:1411"><Text>15</Text></Token><Token globalID="273" id="12" offset="1412:1415"><Text>and</Text></Token><Token globalID="274" id="13" offset="1416:1418"><Text>18</Text></Token><Token globalID="275" id="14" offset="1419:1425"><Text>pounds</Text></Token><Token globalID="276" id="15" offset="1426:1428"><Text>in</Text></Token><Token globalID="277" id="16" offset="1429:1440"><Text>combination</Text></Token><Token globalID="278" id="17" offset="1441:1443"><Text>of</Text></Token><Token globalID="279" id="18" offset="1444:1451"><Text>dietary</Text></Token><Token globalID="280" id="19" offset="1452:1455"><Text>and</Text></Token><Token globalID="281" id="20" offset="1456:1464"><Text>exercise</Text></Token><Token globalID="282" id="21" offset="1465:1473"><Text>measures</Text></Token><Token globalID="283" id="22" offset="1473:1474"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="6"><Sentences Count="3"><Sentence id="0" offset="1476:1535"><Text>He continues to work at Smith Barney in downtown Baltimore.</Text><Tokens Count="11"><Token globalID="284" id="0" offset="1476:1478"><Text>He</Text></Token><Token globalID="285" id="1" offset="1479:1488"><Text>continues</Text></Token><Token globalID="286" id="2" offset="1489:1491"><Text>to</Text></Token><Token globalID="287" id="3" offset="1492:1496"><Text>work</Text></Token><Token globalID="288" id="4" offset="1497:1499"><Text>at</Text></Token><Token globalID="289" id="5" offset="1500:1505"><Text>Smith</Text></Token><Token globalID="290" id="6" offset="1506:1512"><Text>Barney</Text></Token><Token globalID="291" id="7" offset="1513:1515"><Text>in</Text></Token><Token globalID="292" id="8" offset="1516:1524"><Text>downtown</Text></Token><Token globalID="293" id="9" offset="1525:1534"><Text>Baltimore</Text></Token><Token globalID="294" id="10" offset="1534:1535"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="1536:1609"><Text>He generally works from 8 to 8:30 a.m. until approximately 5 to 5:30 p.m.</Text><Tokens Count="15"><Token globalID="295" id="0" offset="1536:1538"><Text>He</Text></Token><Token globalID="296" id="1" offset="1539:1548"><Text>generally</Text></Token><Token globalID="297" id="2" offset="1549:1554"><Text>works</Text></Token><Token globalID="298" id="3" offset="1555:1559"><Text>from</Text></Token><Token globalID="299" id="4" offset="1560:1561"><Text>8</Text></Token><Token globalID="300" id="5" offset="1562:1564"><Text>to</Text></Token><Token globalID="301" id="6" offset="1565:1569"><Text>8:30</Text></Token><Token globalID="302" id="7" offset="1570:1574"><Text>a.m.</Text></Token><Token globalID="303" id="8" offset="1575:1580"><Text>until</Text></Token><Token globalID="304" id="9" offset="1581:1594"><Text>approximately</Text></Token><Token globalID="305" id="10" offset="1595:1596"><Text>5</Text></Token><Token globalID="306" id="11" offset="1597:1599"><Text>to</Text></Token><Token globalID="307" id="12" offset="1600:1604"><Text>5:30</Text></Token><Token globalID="308" id="13" offset="1605:1608"><Text>p.m</Text></Token><Token globalID="309" id="14" offset="1606:1607"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="1610:1687"><Text>He is involved in training purpose to how to sell managed funds and accounts.</Text><Tokens Count="15"><Token globalID="310" id="0" offset="1610:1612"><Text>He</Text></Token><Token globalID="311" id="1" offset="1613:1615"><Text>is</Text></Token><Token globalID="312" id="2" offset="1616:1624"><Text>involved</Text></Token><Token globalID="313" id="3" offset="1616:1618"><Text>in</Text></Token><Token globalID="314" id="4" offset="1628:1636"><Text>training</Text></Token><Token globalID="315" id="5" offset="1637:1644"><Text>purpose</Text></Token><Token globalID="316" id="6" offset="1645:1647"><Text>to</Text></Token><Token globalID="317" id="7" offset="1648:1651"><Text>how</Text></Token><Token globalID="318" id="8" offset="1652:1654"><Text>to</Text></Token><Token globalID="319" id="9" offset="1655:1659"><Text>sell</Text></Token><Token globalID="320" id="10" offset="1660:1667"><Text>managed</Text></Token><Token globalID="321" id="11" offset="1668:1673"><Text>funds</Text></Token><Token globalID="322" id="12" offset="1674:1677"><Text>and</Text></Token><Token globalID="323" id="13" offset="1678:1686"><Text>accounts</Text></Token><Token globalID="324" id="14" offset="1686:1687"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="7"><Sentences Count="2"><Sentence id="0" offset="1689:1738"><Text>The patient reports no change in daytime stamina.</Text><Tokens Count="9"><Token globalID="325" id="0" offset="1689:1692"><Text>The</Text></Token><Token globalID="326" id="1" offset="1693:1700"><Text>patient</Text></Token><Token globalID="327" id="2" offset="1701:1708"><Text>reports</Text></Token><Token globalID="328" id="3" offset="1709:1711"><Text>no</Text></Token><Token globalID="329" id="4" offset="1712:1718"><Text>change</Text></Token><Token globalID="330" id="5" offset="1719:1721"><Text>in</Text></Token><Token globalID="331" id="6" offset="1722:1729"><Text>daytime</Text></Token><Token globalID="332" id="7" offset="1730:1737"><Text>stamina</Text></Token><Token globalID="333" id="8" offset="1737:1738"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="1739:1810"><Text>He has no difficulty staying awake during the daytime or evening hours.</Text><Tokens Count="13"><Token globalID="334" id="0" offset="1739:1741"><Text>He</Text></Token><Token globalID="335" id="1" offset="1742:1745"><Text>has</Text></Token><Token globalID="336" id="2" offset="1746:1748"><Text>no</Text></Token><Token globalID="337" id="3" offset="1749:1759"><Text>difficulty</Text></Token><Token globalID="338" id="4" offset="1760:1767"><Text>staying</Text></Token><Token globalID="339" id="5" offset="1768:1773"><Text>awake</Text></Token><Token globalID="340" id="6" offset="1774:1780"><Text>during</Text></Token><Token globalID="341" id="7" offset="1781:1784"><Text>the</Text></Token><Token globalID="342" id="8" offset="1785:1792"><Text>daytime</Text></Token><Token globalID="343" id="9" offset="1793:1795"><Text>or</Text></Token><Token globalID="344" id="10" offset="1796:1803"><Text>evening</Text></Token><Token globalID="345" id="11" offset="1804:1809"><Text>hours</Text></Token><Token globalID="346" id="12" offset="1809:1810"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="8"><Sentences Count="1"><Sentence id="0" offset="1812:1870"><Text>The past medical history is notable for allergic rhinitis.</Text><Tokens Count="10"><Token globalID="347" id="0" offset="1812:1815"><Text>The</Text></Token><Token globalID="348" id="1" offset="1816:1820"><Text>past</Text></Token><Token globalID="349" id="2" offset="1821:1828"><Text>medical</Text></Token><Token globalID="350" id="3" offset="1829:1836"><Text>history</Text></Token><Token globalID="351" id="4" offset="1830:1832"><Text>is</Text></Token><Token globalID="352" id="5" offset="1840:1847"><Text>notable</Text></Token><Token globalID="353" id="6" offset="1848:1851"><Text>for</Text></Token><Token globalID="354" id="7" offset="1852:1860"><Text>allergic</Text></Token><Token globalID="355" id="8" offset="1861:1869"><Text>rhinitis</Text></Token><Token globalID="356" id="9" offset="1869:1870"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="9"><Sentences Count="1"><Sentence id="0" offset="1872:1958"><Text>MEDICATIONS: He is maintained on Flonase and denies much in the way of nasal symptoms.</Text><Tokens Count="17"><Token globalID="357" id="0" offset="1872:1883"><Text>MEDICATIONS</Text></Token><Token globalID="358" id="1" offset="1883:1884"><Text>:</Text></Token><Token globalID="359" id="2" offset="1885:1887"><Text>He</Text></Token><Token globalID="360" id="3" offset="1888:1890"><Text>is</Text></Token><Token globalID="361" id="4" offset="1891:1901"><Text>maintained</Text></Token><Token globalID="362" id="5" offset="1902:1904"><Text>on</Text></Token><Token globalID="363" id="6" offset="1905:1912"><Text>Flonase</Text></Token><Token globalID="364" id="7" offset="1913:1916"><Text>and</Text></Token><Token globalID="365" id="8" offset="1917:1923"><Text>denies</Text></Token><Token globalID="366" id="9" offset="1924:1928"><Text>much</Text></Token><Token globalID="367" id="10" offset="1929:1931"><Text>in</Text></Token><Token globalID="368" id="11" offset="1932:1935"><Text>the</Text></Token><Token globalID="369" id="12" offset="1936:1939"><Text>way</Text></Token><Token globalID="370" id="13" offset="1940:1942"><Text>of</Text></Token><Token globalID="371" id="14" offset="1943:1948"><Text>nasal</Text></Token><Token globalID="372" id="15" offset="1949:1957"><Text>symptoms</Text></Token><Token globalID="373" id="16" offset="1957:1958"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="10"><Sentences Count="1"><Sentence id="0" offset="1960:1977"><Text>ALLERGIES: Molds.</Text><Tokens Count="4"><Token globalID="374" id="0" offset="1960:1969"><Text>ALLERGIES</Text></Token><Token globalID="375" id="1" offset="1969:1970"><Text>:</Text></Token><Token globalID="376" id="2" offset="1971:1976"><Text>Molds</Text></Token><Token globalID="377" id="3" offset="1976:1977"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="11"><Sentences Count="1"><Sentence id="0" offset="1979:2160"><Text>FINDINGS: Vital signs: Blood pressure 126/75, pulse 67, respiratory rate 16, weight 172 pounds, height 5 feet 9 inches, temperature 98.4 degrees and SaO2 is 99% on room air at rest.</Text><Tokens Count="40"><Token globalID="378" id="0" offset="1979:1987"><Text>FINDINGS</Text></Token><Token globalID="379" id="1" offset="1987:1988"><Text>:</Text></Token><Token globalID="380" id="2" offset="1989:1994"><Text>Vital</Text></Token><Token globalID="381" id="3" offset="1995:2000"><Text>signs</Text></Token><Token globalID="382" id="4" offset="2000:2001"><Text>:</Text></Token><Token globalID="383" id="5" offset="2002:2007"><Text>Blood</Text></Token><Token globalID="384" id="6" offset="2008:2016"><Text>pressure</Text></Token><Token globalID="385" id="7" offset="2017:2023"><Text>126/75</Text></Token><Token globalID="386" id="8" offset="2023:2024"><Text>,</Text></Token><Token globalID="387" id="9" offset="2025:2030"><Text>pulse</Text></Token><Token globalID="388" id="10" offset="2031:2033"><Text>67</Text></Token><Token globalID="389" id="11" offset="2033:2034"><Text>,</Text></Token><Token globalID="390" id="12" offset="2035:2046"><Text>respiratory</Text></Token><Token globalID="391" id="13" offset="2047:2051"><Text>rate</Text></Token><Token globalID="392" id="14" offset="2052:2054"><Text>16</Text></Token><Token globalID="393" id="15" offset="2054:2055"><Text>,</Text></Token><Token globalID="394" id="16" offset="2056:2062"><Text>weight</Text></Token><Token globalID="395" id="17" offset="2063:2066"><Text>172</Text></Token><Token globalID="396" id="18" offset="2067:2073"><Text>pounds</Text></Token><Token globalID="397" id="19" offset="2073:2074"><Text>,</Text></Token><Token globalID="398" id="20" offset="2075:2081"><Text>height</Text></Token><Token globalID="399" id="21" offset="2082:2083"><Text>5</Text></Token><Token globalID="400" id="22" offset="2084:2088"><Text>feet</Text></Token><Token globalID="401" id="23" offset="2089:2090"><Text>9</Text></Token><Token globalID="402" id="24" offset="2091:2097"><Text>inches</Text></Token><Token globalID="403" id="25" offset="2097:2098"><Text>,</Text></Token><Token globalID="404" id="26" offset="2099:2110"><Text>temperature</Text></Token><Token globalID="405" id="27" offset="2111:2115"><Text>98.4</Text></Token><Token globalID="406" id="28" offset="2116:2123"><Text>degrees</Text></Token><Token globalID="407" id="29" offset="2124:2127"><Text>and</Text></Token><Token globalID="408" id="30" offset="2128:2132"><Text>SaO2</Text></Token><Token globalID="409" id="31" offset="2133:2135"><Text>is</Text></Token><Token globalID="410" id="32" offset="2136:2138"><Text>99</Text></Token><Token globalID="411" id="33" offset="2138:2139"><Text>%</Text></Token><Token globalID="412" id="34" offset="2140:2142"><Text>on</Text></Token><Token globalID="413" id="35" offset="2143:2147"><Text>room</Text></Token><Token globalID="414" id="36" offset="2148:2151"><Text>air</Text></Token><Token globalID="415" id="37" offset="2152:2154"><Text>at</Text></Token><Token globalID="416" id="38" offset="2155:2159"><Text>rest</Text></Token><Token globalID="417" id="39" offset="2159:2160"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="12"><Sentences Count="1"><Sentence id="0" offset="2162:2215"><Text>The patient has adenoidal facies as noted previously.</Text><Tokens Count="9"><Token globalID="418" id="0" offset="2162:2165"><Text>The</Text></Token><Token globalID="419" id="1" offset="2166:2173"><Text>patient</Text></Token><Token globalID="420" id="2" offset="2174:2177"><Text>has</Text></Token><Token globalID="421" id="3" offset="2178:2187"><Text>adenoidal</Text></Token><Token globalID="422" id="4" offset="2188:2194"><Text>facies</Text></Token><Token globalID="423" id="5" offset="2195:2197"><Text>as</Text></Token><Token globalID="424" id="6" offset="2198:2203"><Text>noted</Text></Token><Token globalID="425" id="7" offset="2204:2214"><Text>previously</Text></Token><Token globalID="426" id="8" offset="2214:2215"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="13"><Sentences Count="1"><Sentence id="0" offset="2217:2299"><Text>Laboratories: The patient forgot to bring his smart card in for downloading today.</Text><Tokens Count="15"><Token globalID="427" id="0" offset="2217:2229"><Text>Laboratories</Text></Token><Token globalID="428" id="1" offset="2229:2230"><Text>:</Text></Token><Token globalID="429" id="2" offset="2231:2234"><Text>The</Text></Token><Token globalID="430" id="3" offset="2235:2242"><Text>patient</Text></Token><Token globalID="431" id="4" offset="2243:2249"><Text>forgot</Text></Token><Token globalID="432" id="5" offset="2250:2252"><Text>to</Text></Token><Token globalID="433" id="6" offset="2253:2258"><Text>bring</Text></Token><Token globalID="434" id="7" offset="2259:2262"><Text>his</Text></Token><Token globalID="435" id="8" offset="2263:2268"><Text>smart</Text></Token><Token globalID="436" id="9" offset="2269:2273"><Text>card</Text></Token><Token globalID="437" id="10" offset="2274:2276"><Text>in</Text></Token><Token globalID="438" id="11" offset="2277:2280"><Text>for</Text></Token><Token globalID="439" id="12" offset="2281:2292"><Text>downloading</Text></Token><Token globalID="440" id="13" offset="2293:2298"><Text>today</Text></Token><Token globalID="441" id="14" offset="2298:2299"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="14"><Sentences Count="5"><Sentence id="0" offset="2301:2344"><Text>ASSESSMENT: Moderate-to-severe sleep apnea.</Text><Tokens Count="6"><Token globalID="442" id="0" offset="2301:2311"><Text>ASSESSMENT</Text></Token><Token globalID="443" id="1" offset="2311:2312"><Text>:</Text></Token><Token globalID="444" id="2" offset="2313:2331"><Text>Moderate-to-severe</Text></Token><Token globalID="445" id="3" offset="2332:2337"><Text>sleep</Text></Token><Token globalID="446" id="4" offset="2338:2343"><Text>apnea</Text></Token><Token globalID="447" id="5" offset="2343:2344"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="2345:2403"><Text>I have recommended the patient continue CPAP indefinitely.</Text><Tokens Count="9"><Token globalID="448" id="0" offset="2345:2346"><Text>I</Text></Token><Token globalID="449" id="1" offset="2347:2351"><Text>have</Text></Token><Token globalID="450" id="2" offset="2352:2363"><Text>recommended</Text></Token><Token globalID="451" id="3" offset="2364:2367"><Text>the</Text></Token><Token globalID="452" id="4" offset="2368:2375"><Text>patient</Text></Token><Token globalID="453" id="5" offset="2376:2384"><Text>continue</Text></Token><Token globalID="454" id="6" offset="2385:2389"><Text>CPAP</Text></Token><Token globalID="455" id="7" offset="2390:2402"><Text>indefinitely</Text></Token><Token globalID="456" id="8" offset="2402:2403"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="2404:2493"><Text>He will be sending me his smart card for downloading to determine his CPAP usage pattern.</Text><Tokens Count="17"><Token globalID="457" id="0" offset="2404:2406"><Text>He</Text></Token><Token globalID="458" id="1" offset="2407:2411"><Text>will</Text></Token><Token globalID="459" id="2" offset="2412:2414"><Text>be</Text></Token><Token globalID="460" id="3" offset="2415:2422"><Text>sending</Text></Token><Token globalID="461" id="4" offset="2423:2425"><Text>me</Text></Token><Token globalID="462" id="5" offset="2426:2429"><Text>his</Text></Token><Token globalID="463" id="6" offset="2430:2435"><Text>smart</Text></Token><Token globalID="464" id="7" offset="2436:2440"><Text>card</Text></Token><Token globalID="465" id="8" offset="2441:2444"><Text>for</Text></Token><Token globalID="466" id="9" offset="2445:2456"><Text>downloading</Text></Token><Token globalID="467" id="10" offset="2457:2459"><Text>to</Text></Token><Token globalID="468" id="11" offset="2460:2469"><Text>determine</Text></Token><Token globalID="469" id="12" offset="2470:2473"><Text>his</Text></Token><Token globalID="470" id="13" offset="2474:2478"><Text>CPAP</Text></Token><Token globalID="471" id="14" offset="2479:2484"><Text>usage</Text></Token><Token globalID="472" id="15" offset="2485:2492"><Text>pattern</Text></Token><Token globalID="473" id="16" offset="2492:2493"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="3" offset="2494:2582"><Text>In addition, he will continue efforts to maintain his weight at current levels or below.</Text><Tokens Count="17"><Token globalID="474" id="0" offset="2494:2496"><Text>In</Text></Token><Token globalID="475" id="1" offset="2497:2505"><Text>addition</Text></Token><Token globalID="476" id="2" offset="2505:2506"><Text>,</Text></Token><Token globalID="477" id="3" offset="2507:2509"><Text>he</Text></Token><Token globalID="478" id="4" offset="2510:2514"><Text>will</Text></Token><Token globalID="479" id="5" offset="2515:2523"><Text>continue</Text></Token><Token globalID="480" id="6" offset="2524:2531"><Text>efforts</Text></Token><Token globalID="481" id="7" offset="2532:2534"><Text>to</Text></Token><Token globalID="482" id="8" offset="2535:2543"><Text>maintain</Text></Token><Token globalID="483" id="9" offset="2544:2547"><Text>his</Text></Token><Token globalID="484" id="10" offset="2548:2554"><Text>weight</Text></Token><Token globalID="485" id="11" offset="2555:2557"><Text>at</Text></Token><Token globalID="486" id="12" offset="2558:2565"><Text>current</Text></Token><Token globalID="487" id="13" offset="2566:2572"><Text>levels</Text></Token><Token globalID="488" id="14" offset="2573:2575"><Text>or</Text></Token><Token globalID="489" id="15" offset="2576:2581"><Text>below</Text></Token><Token globalID="490" id="16" offset="2581:2582"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="4" offset="2583:2711"><Text>Should he succeed in reducing further, we might consider re-running a sleep study to determine whether he still requires a CPAP.</Text><Tokens Count="23"><Token globalID="491" id="0" offset="2583:2589"><Text>Should</Text></Token><Token globalID="492" id="1" offset="2590:2592"><Text>he</Text></Token><Token globalID="493" id="2" offset="2593:2600"><Text>succeed</Text></Token><Token globalID="494" id="3" offset="2601:2603"><Text>in</Text></Token><Token globalID="495" id="4" offset="2604:2612"><Text>reducing</Text></Token><Token globalID="496" id="5" offset="2613:2620"><Text>further</Text></Token><Token globalID="497" id="6" offset="2620:2621"><Text>,</Text></Token><Token globalID="498" id="7" offset="2622:2624"><Text>we</Text></Token><Token globalID="499" id="8" offset="2625:2630"><Text>might</Text></Token><Token globalID="500" id="9" offset="2631:2639"><Text>consider</Text></Token><Token globalID="501" id="10" offset="2640:2650"><Text>re-running</Text></Token><Token globalID="502" id="11" offset="2651:2652"><Text>a</Text></Token><Token globalID="503" id="12" offset="2653:2658"><Text>sleep</Text></Token><Token globalID="504" id="13" offset="2659:2664"><Text>study</Text></Token><Token globalID="505" id="14" offset="2665:2667"><Text>to</Text></Token><Token globalID="506" id="15" offset="2668:2677"><Text>determine</Text></Token><Token globalID="507" id="16" offset="2678:2685"><Text>whether</Text></Token><Token globalID="508" id="17" offset="2679:2681"><Text>he</Text></Token><Token globalID="509" id="18" offset="2689:2694"><Text>still</Text></Token><Token globalID="510" id="19" offset="2695:2703"><Text>requires</Text></Token><Token globalID="511" id="20" offset="2704:2705"><Text>a</Text></Token><Token globalID="512" id="21" offset="2706:2710"><Text>CPAP</Text></Token><Token globalID="513" id="22" offset="2710:2711"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="15"><Sentences Count="3"><Sentence id="0" offset="2713:2839"><Text>PLANS: In the meantime, if it is also that the possible nasal obstruction is contributing to snoring and obstructive hypopnea.</Text><Tokens Count="23"><Token globalID="514" id="0" offset="2713:2718"><Text>PLANS</Text></Token><Token globalID="515" id="1" offset="2718:2719"><Text>:</Text></Token><Token globalID="516" id="2" offset="2720:2722"><Text>In</Text></Token><Token globalID="517" id="3" offset="2723:2726"><Text>the</Text></Token><Token globalID="518" id="4" offset="2727:2735"><Text>meantime</Text></Token><Token globalID="519" id="5" offset="2735:2736"><Text>,</Text></Token><Token globalID="520" id="6" offset="2737:2739"><Text>if</Text></Token><Token globalID="521" id="7" offset="2740:2742"><Text>it</Text></Token><Token globalID="522" id="8" offset="2743:2745"><Text>is</Text></Token><Token globalID="523" id="9" offset="2746:2750"><Text>also</Text></Token><Token globalID="524" id="10" offset="2751:2755"><Text>that</Text></Token><Token globalID="525" id="11" offset="2756:2759"><Text>the</Text></Token><Token globalID="526" id="12" offset="2760:2768"><Text>possible</Text></Token><Token globalID="527" id="13" offset="2769:2774"><Text>nasal</Text></Token><Token globalID="528" id="14" offset="2775:2786"><Text>obstruction</Text></Token><Token globalID="529" id="15" offset="2787:2789"><Text>is</Text></Token><Token globalID="530" id="16" offset="2790:2802"><Text>contributing</Text></Token><Token globalID="531" id="17" offset="2803:2805"><Text>to</Text></Token><Token globalID="532" id="18" offset="2806:2813"><Text>snoring</Text></Token><Token globalID="533" id="19" offset="2814:2817"><Text>and</Text></Token><Token globalID="534" id="20" offset="2818:2829"><Text>obstructive</Text></Token><Token globalID="535" id="21" offset="2830:2838"><Text>hypopnea</Text></Token><Token globalID="536" id="22" offset="2838:2839"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="2840:2967"><Text>I have recommended that a fiberoptic ENT exam be performed to exclude adenoidal tissue that may be contributing to obstruction.</Text><Tokens Count="21"><Token globalID="537" id="0" offset="2840:2841"><Text>I</Text></Token><Token globalID="538" id="1" offset="2842:2846"><Text>have</Text></Token><Token globalID="539" id="2" offset="2847:2858"><Text>recommended</Text></Token><Token globalID="540" id="3" offset="2859:2863"><Text>that</Text></Token><Token globalID="541" id="4" offset="2861:2862"><Text>a</Text></Token><Token globalID="542" id="5" offset="2866:2876"><Text>fiberoptic</Text></Token><Token globalID="543" id="6" offset="2877:2880"><Text>ENT</Text></Token><Token globalID="544" id="7" offset="2881:2885"><Text>exam</Text></Token><Token globalID="545" id="8" offset="2886:2888"><Text>be</Text></Token><Token globalID="546" id="9" offset="2889:2898"><Text>performed</Text></Token><Token globalID="547" id="10" offset="2899:2901"><Text>to</Text></Token><Token globalID="548" id="11" offset="2902:2909"><Text>exclude</Text></Token><Token globalID="549" id="12" offset="2910:2919"><Text>adenoidal</Text></Token><Token globalID="550" id="13" offset="2920:2926"><Text>tissue</Text></Token><Token globalID="551" id="14" offset="2927:2931"><Text>that</Text></Token><Token globalID="552" id="15" offset="2932:2935"><Text>may</Text></Token><Token globalID="553" id="16" offset="2936:2938"><Text>be</Text></Token><Token globalID="554" id="17" offset="2939:2951"><Text>contributing</Text></Token><Token globalID="555" id="18" offset="2952:2954"><Text>to</Text></Token><Token globalID="556" id="19" offset="2955:2966"><Text>obstruction</Text></Token><Token globalID="557" id="20" offset="2966:2967"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="2968:3022"><Text>He will be returning for routine followup in 6 months.</Text><Tokens Count="11"><Token globalID="558" id="0" offset="2968:2970"><Text>He</Text></Token><Token globalID="559" id="1" offset="2971:2975"><Text>will</Text></Token><Token globalID="560" id="2" offset="2976:2978"><Text>be</Text></Token><Token globalID="561" id="3" offset="2979:2988"><Text>returning</Text></Token><Token globalID="562" id="4" offset="2989:2992"><Text>for</Text></Token><Token globalID="563" id="5" offset="2993:3000"><Text>routine</Text></Token><Token globalID="564" id="6" offset="3001:3009"><Text>followup</Text></Token><Token globalID="565" id="7" offset="3010:3012"><Text>in</Text></Token><Token globalID="566" id="8" offset="3013:3014"><Text>6</Text></Token><Token globalID="567" id="9" offset="3015:3021"><Text>months</Text></Token><Token globalID="568" id="10" offset="3021:3022"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="16"><Sentences Count="1"><Sentence id="0" offset="3024:3081"><Text>//http://www.medicaltranscriptionsamples.com/sleep-apnea/</Text><Tokens Count="3"><Token globalID="569" id="0" offset="3024:3030"><Text>//http</Text></Token><Token globalID="570" id="1" offset="3030:3031"><Text>:</Text></Token><Token globalID="571" id="2" offset="3031:3081"><Text>//www.medicaltranscriptionsamples.com/sleep-apnea/</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph></Paragraphs></StartOutput>
+<StartOutput>
+    <Paragraphs Count="17">
+        <Paragraph id="0">
+            <Sentences Count="2">
+                <Sentence id="0" offset="0:115">
+                    <Text>REASON FOR VISIT: Mr. ABC is a 30-year-old man who returns in followup of his still
+                        moderate-to-severe sleep apnea.
+                    </Text>
+                    <Tokens Count="21">
+                        <Token globalID="0" id="0" offset="0:6">
+                            <Text>REASON</Text>
+                        </Token>
+                        <Token globalID="1" id="1" offset="7:10">
+                            <Text>FOR</Text>
+                        </Token>
+                        <Token globalID="2" id="2" offset="11:16">
+                            <Text>VISIT</Text>
+                        </Token>
+                        <Token globalID="3" id="3" offset="16:17">
+                            <Text>:</Text>
+                        </Token>
+                        <Token globalID="4" id="4" offset="18:21">
+                            <Text>Mr.</Text>
+                        </Token>
+                        <Token globalID="5" id="5" offset="22:25">
+                            <Text>ABC</Text>
+                        </Token>
+                        <Token globalID="6" id="6" offset="26:28">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="7" id="7" offset="29:30">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="8" id="8" offset="31:42">
+                            <Text>30-year-old</Text>
+                        </Token>
+                        <Token globalID="9" id="9" offset="43:46">
+                            <Text>man</Text>
+                        </Token>
+                        <Token globalID="10" id="10" offset="47:50">
+                            <Text>who</Text>
+                        </Token>
+                        <Token globalID="11" id="11" offset="51:58">
+                            <Text>returns</Text>
+                        </Token>
+                        <Token globalID="12" id="12" offset="59:61">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="13" id="13" offset="62:70">
+                            <Text>followup</Text>
+                        </Token>
+                        <Token globalID="14" id="14" offset="71:73">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="15" id="15" offset="74:77">
+                            <Text>his</Text>
+                        </Token>
+                        <Token globalID="16" id="16" offset="78:83">
+                            <Text>still</Text>
+                        </Token>
+                        <Token globalID="17" id="17" offset="84:102">
+                            <Text>moderate-to-severe</Text>
+                        </Token>
+                        <Token globalID="18" id="18" offset="103:108">
+                            <Text>sleep</Text>
+                        </Token>
+                        <Token globalID="19" id="19" offset="109:114">
+                            <Text>apnea</Text>
+                        </Token>
+                        <Token globalID="20" id="20" offset="114:115">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="116:164">
+                    <Text>He returns today to review his response to CPAP.</Text>
+                    <Tokens Count="10">
+                        <Token globalID="21" id="0" offset="116:118">
+                            <Text>He</Text>
+                        </Token>
+                        <Token globalID="22" id="1" offset="119:126">
+                            <Text>returns</Text>
+                        </Token>
+                        <Token globalID="23" id="2" offset="127:132">
+                            <Text>today</Text>
+                        </Token>
+                        <Token globalID="24" id="3" offset="127:129">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="25" id="4" offset="136:142">
+                            <Text>review</Text>
+                        </Token>
+                        <Token globalID="26" id="5" offset="143:146">
+                            <Text>his</Text>
+                        </Token>
+                        <Token globalID="27" id="6" offset="147:155">
+                            <Text>response</Text>
+                        </Token>
+                        <Token globalID="28" id="7" offset="156:158">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="29" id="8" offset="159:163">
+                            <Text>CPAP</Text>
+                        </Token>
+                        <Token globalID="30" id="9" offset="163:164">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="1">
+            <Sentences Count="3">
+                <Sentence id="0" offset="166:298">
+                    <Text>HISTORY OF PRESENT ILLNESS: The patient initially presented with loud obnoxious snoring that
+                        disrupted the sleep of his bed partner.
+                    </Text>
+                    <Tokens Count="22">
+                        <Token globalID="31" id="0" offset="166:173">
+                            <Text>HISTORY</Text>
+                        </Token>
+                        <Token globalID="32" id="1" offset="174:176">
+                            <Text>OF</Text>
+                        </Token>
+                        <Token globalID="33" id="2" offset="177:184">
+                            <Text>PRESENT</Text>
+                        </Token>
+                        <Token globalID="34" id="3" offset="185:192">
+                            <Text>ILLNESS</Text>
+                        </Token>
+                        <Token globalID="35" id="4" offset="192:193">
+                            <Text>:</Text>
+                        </Token>
+                        <Token globalID="36" id="5" offset="194:197">
+                            <Text>The</Text>
+                        </Token>
+                        <Token globalID="37" id="6" offset="198:205">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token globalID="38" id="7" offset="206:215">
+                            <Text>initially</Text>
+                        </Token>
+                        <Token globalID="39" id="8" offset="216:225">
+                            <Text>presented</Text>
+                        </Token>
+                        <Token globalID="40" id="9" offset="226:230">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="41" id="10" offset="231:235">
+                            <Text>loud</Text>
+                        </Token>
+                        <Token globalID="42" id="11" offset="236:245">
+                            <Text>obnoxious</Text>
+                        </Token>
+                        <Token globalID="43" id="12" offset="246:253">
+                            <Text>snoring</Text>
+                        </Token>
+                        <Token globalID="44" id="13" offset="254:258">
+                            <Text>that</Text>
+                        </Token>
+                        <Token globalID="45" id="14" offset="259:268">
+                            <Text>disrupted</Text>
+                        </Token>
+                        <Token globalID="46" id="15" offset="269:272">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="47" id="16" offset="273:278">
+                            <Text>sleep</Text>
+                        </Token>
+                        <Token globalID="48" id="17" offset="279:281">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="49" id="18" offset="282:285">
+                            <Text>his</Text>
+                        </Token>
+                        <Token globalID="50" id="19" offset="286:289">
+                            <Text>bed</Text>
+                        </Token>
+                        <Token globalID="51" id="20" offset="290:297">
+                            <Text>partner</Text>
+                        </Token>
+                        <Token globalID="52" id="21" offset="297:298">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="299:433">
+                    <Text>He was found to have moderate-to-severe sleep apnea (predominantly hypopnea), was treated with
+                        nasal CPAP at 10 cm H2O nasal pressure.
+                    </Text>
+                    <Tokens Count="25">
+                        <Token globalID="53" id="0" offset="299:301">
+                            <Text>He</Text>
+                        </Token>
+                        <Token globalID="54" id="1" offset="302:305">
+                            <Text>was</Text>
+                        </Token>
+                        <Token globalID="55" id="2" offset="306:311">
+                            <Text>found</Text>
+                        </Token>
+                        <Token globalID="56" id="3" offset="312:314">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="57" id="4" offset="315:319">
+                            <Text>have</Text>
+                        </Token>
+                        <Token globalID="58" id="5" offset="320:338">
+                            <Text>moderate-to-severe</Text>
+                        </Token>
+                        <Token globalID="59" id="6" offset="339:344">
+                            <Text>sleep</Text>
+                        </Token>
+                        <Token globalID="60" id="7" offset="345:350">
+                            <Text>apnea</Text>
+                        </Token>
+                        <Token globalID="61" id="8" offset="351:352">
+                            <Text>(</Text>
+                        </Token>
+                        <Token globalID="62" id="9" offset="352:365">
+                            <Text>predominantly</Text>
+                        </Token>
+                        <Token globalID="63" id="10" offset="366:374">
+                            <Text>hypopnea</Text>
+                        </Token>
+                        <Token globalID="64" id="11" offset="374:375">
+                            <Text>)</Text>
+                        </Token>
+                        <Token globalID="65" id="12" offset="375:376">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="66" id="13" offset="377:380">
+                            <Text>was</Text>
+                        </Token>
+                        <Token globalID="67" id="14" offset="381:388">
+                            <Text>treated</Text>
+                        </Token>
+                        <Token globalID="68" id="15" offset="389:393">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="69" id="16" offset="394:399">
+                            <Text>nasal</Text>
+                        </Token>
+                        <Token globalID="70" id="17" offset="400:404">
+                            <Text>CPAP</Text>
+                        </Token>
+                        <Token globalID="71" id="18" offset="405:407">
+                            <Text>at</Text>
+                        </Token>
+                        <Token globalID="72" id="19" offset="408:410">
+                            <Text>10</Text>
+                        </Token>
+                        <Token globalID="73" id="20" offset="411:413">
+                            <Text>cm</Text>
+                        </Token>
+                        <Token globalID="74" id="21" offset="414:417">
+                            <Text>H2O</Text>
+                        </Token>
+                        <Token globalID="75" id="22" offset="418:423">
+                            <Text>nasal</Text>
+                        </Token>
+                        <Token globalID="76" id="23" offset="424:432">
+                            <Text>pressure</Text>
+                        </Token>
+                        <Token globalID="77" id="24" offset="432:433">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="434:539">
+                    <Text>He has been on CPAP now for several months, and returns for followup to review his response to
+                        treatment.
+                    </Text>
+                    <Tokens Count="21">
+                        <Token globalID="78" id="0" offset="434:436">
+                            <Text>He</Text>
+                        </Token>
+                        <Token globalID="79" id="1" offset="437:440">
+                            <Text>has</Text>
+                        </Token>
+                        <Token globalID="80" id="2" offset="441:445">
+                            <Text>been</Text>
+                        </Token>
+                        <Token globalID="81" id="3" offset="446:448">
+                            <Text>on</Text>
+                        </Token>
+                        <Token globalID="82" id="4" offset="449:453">
+                            <Text>CPAP</Text>
+                        </Token>
+                        <Token globalID="83" id="5" offset="454:457">
+                            <Text>now</Text>
+                        </Token>
+                        <Token globalID="84" id="6" offset="458:461">
+                            <Text>for</Text>
+                        </Token>
+                        <Token globalID="85" id="7" offset="462:469">
+                            <Text>several</Text>
+                        </Token>
+                        <Token globalID="86" id="8" offset="470:476">
+                            <Text>months</Text>
+                        </Token>
+                        <Token globalID="87" id="9" offset="476:477">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="88" id="10" offset="478:481">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="89" id="11" offset="482:489">
+                            <Text>returns</Text>
+                        </Token>
+                        <Token globalID="90" id="12" offset="490:493">
+                            <Text>for</Text>
+                        </Token>
+                        <Token globalID="91" id="13" offset="494:502">
+                            <Text>followup</Text>
+                        </Token>
+                        <Token globalID="92" id="14" offset="503:505">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="93" id="15" offset="506:512">
+                            <Text>review</Text>
+                        </Token>
+                        <Token globalID="94" id="16" offset="513:516">
+                            <Text>his</Text>
+                        </Token>
+                        <Token globalID="95" id="17" offset="517:525">
+                            <Text>response</Text>
+                        </Token>
+                        <Token globalID="96" id="18" offset="526:528">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="97" id="19" offset="529:538">
+                            <Text>treatment</Text>
+                        </Token>
+                        <Token globalID="98" id="20" offset="538:539">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="2">
+            <Sentences Count="3">
+                <Sentence id="0" offset="541:608">
+                    <Text>The patient reports that the CPAP has limited his snoring at night.</Text>
+                    <Tokens Count="13">
+                        <Token globalID="99" id="0" offset="541:544">
+                            <Text>The</Text>
+                        </Token>
+                        <Token globalID="100" id="1" offset="545:552">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token globalID="101" id="2" offset="553:560">
+                            <Text>reports</Text>
+                        </Token>
+                        <Token globalID="102" id="3" offset="561:565">
+                            <Text>that</Text>
+                        </Token>
+                        <Token globalID="103" id="4" offset="566:569">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="104" id="5" offset="570:574">
+                            <Text>CPAP</Text>
+                        </Token>
+                        <Token globalID="105" id="6" offset="575:578">
+                            <Text>has</Text>
+                        </Token>
+                        <Token globalID="106" id="7" offset="579:586">
+                            <Text>limited</Text>
+                        </Token>
+                        <Token globalID="107" id="8" offset="587:590">
+                            <Text>his</Text>
+                        </Token>
+                        <Token globalID="108" id="9" offset="591:598">
+                            <Text>snoring</Text>
+                        </Token>
+                        <Token globalID="109" id="10" offset="599:601">
+                            <Text>at</Text>
+                        </Token>
+                        <Token globalID="110" id="11" offset="602:607">
+                            <Text>night</Text>
+                        </Token>
+                        <Token globalID="111" id="12" offset="607:608">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="609:738">
+                    <Text>Occasionally, his bed partner wakes him in the middle of the night, when the mask comes off,
+                        and reminds him to replace the mask.
+                    </Text>
+                    <Tokens Count="28">
+                        <Token globalID="112" id="0" offset="609:621">
+                            <Text>Occasionally</Text>
+                        </Token>
+                        <Token globalID="113" id="1" offset="621:622">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="114" id="2" offset="623:626">
+                            <Text>his</Text>
+                        </Token>
+                        <Token globalID="115" id="3" offset="627:630">
+                            <Text>bed</Text>
+                        </Token>
+                        <Token globalID="116" id="4" offset="631:638">
+                            <Text>partner</Text>
+                        </Token>
+                        <Token globalID="117" id="5" offset="639:644">
+                            <Text>wakes</Text>
+                        </Token>
+                        <Token globalID="118" id="6" offset="645:648">
+                            <Text>him</Text>
+                        </Token>
+                        <Token globalID="119" id="7" offset="649:651">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="120" id="8" offset="652:655">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="121" id="9" offset="656:662">
+                            <Text>middle</Text>
+                        </Token>
+                        <Token globalID="122" id="10" offset="663:665">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="123" id="11" offset="666:669">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="124" id="12" offset="670:675">
+                            <Text>night</Text>
+                        </Token>
+                        <Token globalID="125" id="13" offset="675:676">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="126" id="14" offset="677:681">
+                            <Text>when</Text>
+                        </Token>
+                        <Token globalID="127" id="15" offset="682:685">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="128" id="16" offset="686:690">
+                            <Text>mask</Text>
+                        </Token>
+                        <Token globalID="129" id="17" offset="691:696">
+                            <Text>comes</Text>
+                        </Token>
+                        <Token globalID="130" id="18" offset="697:700">
+                            <Text>off</Text>
+                        </Token>
+                        <Token globalID="131" id="19" offset="700:701">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="132" id="20" offset="702:705">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="133" id="21" offset="706:713">
+                            <Text>reminds</Text>
+                        </Token>
+                        <Token globalID="134" id="22" offset="714:717">
+                            <Text>him</Text>
+                        </Token>
+                        <Token globalID="135" id="23" offset="718:720">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="136" id="24" offset="721:728">
+                            <Text>replace</Text>
+                        </Token>
+                        <Token globalID="137" id="25" offset="729:732">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="138" id="26" offset="733:737">
+                            <Text>mask</Text>
+                        </Token>
+                        <Token globalID="139" id="27" offset="737:738">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="739:937">
+                    <Text>The patient estimates that he uses the CPAP approximately 5 to 7 nights per week, and on
+                        occasion takes it off and does not replace the mask when he awakens spontaneously in the middle
+                        of the night.
+                    </Text>
+                    <Tokens Count="39">
+                        <Token globalID="140" id="0" offset="739:742">
+                            <Text>The</Text>
+                        </Token>
+                        <Token globalID="141" id="1" offset="743:750">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token globalID="142" id="2" offset="751:760">
+                            <Text>estimates</Text>
+                        </Token>
+                        <Token globalID="143" id="3" offset="761:765">
+                            <Text>that</Text>
+                        </Token>
+                        <Token globalID="144" id="4" offset="766:768">
+                            <Text>he</Text>
+                        </Token>
+                        <Token globalID="145" id="5" offset="769:773">
+                            <Text>uses</Text>
+                        </Token>
+                        <Token globalID="146" id="6" offset="774:777">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="147" id="7" offset="778:782">
+                            <Text>CPAP</Text>
+                        </Token>
+                        <Token globalID="148" id="8" offset="783:796">
+                            <Text>approximately</Text>
+                        </Token>
+                        <Token globalID="149" id="9" offset="797:798">
+                            <Text>5</Text>
+                        </Token>
+                        <Token globalID="150" id="10" offset="799:801">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="151" id="11" offset="802:803">
+                            <Text>7</Text>
+                        </Token>
+                        <Token globalID="152" id="12" offset="804:810">
+                            <Text>nights</Text>
+                        </Token>
+                        <Token globalID="153" id="13" offset="811:814">
+                            <Text>per</Text>
+                        </Token>
+                        <Token globalID="154" id="14" offset="815:819">
+                            <Text>week</Text>
+                        </Token>
+                        <Token globalID="155" id="15" offset="819:820">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="156" id="16" offset="821:824">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="157" id="17" offset="825:827">
+                            <Text>on</Text>
+                        </Token>
+                        <Token globalID="158" id="18" offset="828:836">
+                            <Text>occasion</Text>
+                        </Token>
+                        <Token globalID="159" id="19" offset="837:842">
+                            <Text>takes</Text>
+                        </Token>
+                        <Token globalID="160" id="20" offset="843:845">
+                            <Text>it</Text>
+                        </Token>
+                        <Token globalID="161" id="21" offset="846:849">
+                            <Text>off</Text>
+                        </Token>
+                        <Token globalID="162" id="22" offset="850:853">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="163" id="23" offset="854:858">
+                            <Text>does</Text>
+                        </Token>
+                        <Token globalID="164" id="24" offset="859:862">
+                            <Text>not</Text>
+                        </Token>
+                        <Token globalID="165" id="25" offset="863:870">
+                            <Text>replace</Text>
+                        </Token>
+                        <Token globalID="166" id="26" offset="871:874">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="167" id="27" offset="875:879">
+                            <Text>mask</Text>
+                        </Token>
+                        <Token globalID="168" id="28" offset="880:884">
+                            <Text>when</Text>
+                        </Token>
+                        <Token globalID="169" id="29" offset="881:883">
+                            <Text>he</Text>
+                        </Token>
+                        <Token globalID="170" id="30" offset="888:895">
+                            <Text>awakens</Text>
+                        </Token>
+                        <Token globalID="171" id="31" offset="896:909">
+                            <Text>spontaneously</Text>
+                        </Token>
+                        <Token globalID="172" id="32" offset="910:912">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="173" id="33" offset="913:916">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="174" id="34" offset="917:923">
+                            <Text>middle</Text>
+                        </Token>
+                        <Token globalID="175" id="35" offset="924:926">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="176" id="36" offset="927:930">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="177" id="37" offset="931:936">
+                            <Text>night</Text>
+                        </Token>
+                        <Token globalID="178" id="38" offset="936:937">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="3">
+            <Sentences Count="2">
+                <Sentence id="0" offset="939:1073">
+                    <Text>The patient&#8217;s sleep pattern consists of going to bed between 11:00 and 11:30 at night
+                        and awakening between 6 to 7 a.m. on weekdays.
+                    </Text>
+                    <Tokens Count="25">
+                        <Token globalID="179" id="0" offset="939:942">
+                            <Text>The</Text>
+                        </Token>
+                        <Token globalID="180" id="1" offset="943:954">
+                            <Text>patient&#8217;s</Text>
+                        </Token>
+                        <Token globalID="181" id="2" offset="955:960">
+                            <Text>sleep</Text>
+                        </Token>
+                        <Token globalID="182" id="3" offset="961:968">
+                            <Text>pattern</Text>
+                        </Token>
+                        <Token globalID="183" id="4" offset="969:977">
+                            <Text>consists</Text>
+                        </Token>
+                        <Token globalID="184" id="5" offset="978:980">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="185" id="6" offset="981:986">
+                            <Text>going</Text>
+                        </Token>
+                        <Token globalID="186" id="7" offset="987:989">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="187" id="8" offset="990:993">
+                            <Text>bed</Text>
+                        </Token>
+                        <Token globalID="188" id="9" offset="994:1001">
+                            <Text>between</Text>
+                        </Token>
+                        <Token globalID="189" id="10" offset="1002:1007">
+                            <Text>11:00</Text>
+                        </Token>
+                        <Token globalID="190" id="11" offset="1008:1011">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="191" id="12" offset="1012:1017">
+                            <Text>11:30</Text>
+                        </Token>
+                        <Token globalID="192" id="13" offset="1018:1020">
+                            <Text>at</Text>
+                        </Token>
+                        <Token globalID="193" id="14" offset="1021:1026">
+                            <Text>night</Text>
+                        </Token>
+                        <Token globalID="194" id="15" offset="1027:1030">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="195" id="16" offset="1031:1040">
+                            <Text>awakening</Text>
+                        </Token>
+                        <Token globalID="196" id="17" offset="1041:1048">
+                            <Text>between</Text>
+                        </Token>
+                        <Token globalID="197" id="18" offset="1049:1050">
+                            <Text>6</Text>
+                        </Token>
+                        <Token globalID="198" id="19" offset="1051:1053">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="199" id="20" offset="1054:1055">
+                            <Text>7</Text>
+                        </Token>
+                        <Token globalID="200" id="21" offset="1056:1060">
+                            <Text>a.m.</Text>
+                        </Token>
+                        <Token globalID="201" id="22" offset="1061:1063">
+                            <Text>on</Text>
+                        </Token>
+                        <Token globalID="202" id="23" offset="1064:1072">
+                            <Text>weekdays</Text>
+                        </Token>
+                        <Token globalID="203" id="24" offset="1072:1073">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="1074:1182">
+                    <Text>On weekends, he might sleep until 8 to 9 a.m. On Saturday night, he might go to bed
+                        approximately mid night.
+                    </Text>
+                    <Tokens Count="24">
+                        <Token globalID="204" id="0" offset="1074:1076">
+                            <Text>On</Text>
+                        </Token>
+                        <Token globalID="205" id="1" offset="1077:1085">
+                            <Text>weekends</Text>
+                        </Token>
+                        <Token globalID="206" id="2" offset="1085:1086">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="207" id="3" offset="1087:1089">
+                            <Text>he</Text>
+                        </Token>
+                        <Token globalID="208" id="4" offset="1090:1095">
+                            <Text>might</Text>
+                        </Token>
+                        <Token globalID="209" id="5" offset="1096:1101">
+                            <Text>sleep</Text>
+                        </Token>
+                        <Token globalID="210" id="6" offset="1102:1107">
+                            <Text>until</Text>
+                        </Token>
+                        <Token globalID="211" id="7" offset="1108:1109">
+                            <Text>8</Text>
+                        </Token>
+                        <Token globalID="212" id="8" offset="1110:1112">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="213" id="9" offset="1113:1114">
+                            <Text>9</Text>
+                        </Token>
+                        <Token globalID="214" id="10" offset="1115:1119">
+                            <Text>a.m.</Text>
+                        </Token>
+                        <Token globalID="215" id="11" offset="1120:1122">
+                            <Text>On</Text>
+                        </Token>
+                        <Token globalID="216" id="12" offset="1123:1131">
+                            <Text>Saturday</Text>
+                        </Token>
+                        <Token globalID="217" id="13" offset="1132:1137">
+                            <Text>night</Text>
+                        </Token>
+                        <Token globalID="218" id="14" offset="1137:1138">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="219" id="15" offset="1139:1141">
+                            <Text>he</Text>
+                        </Token>
+                        <Token globalID="220" id="16" offset="1142:1147">
+                            <Text>might</Text>
+                        </Token>
+                        <Token globalID="221" id="17" offset="1148:1150">
+                            <Text>go</Text>
+                        </Token>
+                        <Token globalID="222" id="18" offset="1151:1153">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="223" id="19" offset="1154:1157">
+                            <Text>bed</Text>
+                        </Token>
+                        <Token globalID="224" id="20" offset="1158:1171">
+                            <Text>approximately</Text>
+                        </Token>
+                        <Token globalID="225" id="21" offset="1172:1175">
+                            <Text>mid</Text>
+                        </Token>
+                        <Token globalID="226" id="22" offset="1176:1181">
+                            <Text>night</Text>
+                        </Token>
+                        <Token globalID="227" id="23" offset="1181:1182">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="4">
+            <Sentences Count="3">
+                <Sentence id="0" offset="1184:1229">
+                    <Text>As noted, the patient is not snoring on CPAP.</Text>
+                    <Tokens Count="11">
+                        <Token globalID="228" id="0" offset="1184:1186">
+                            <Text>As</Text>
+                        </Token>
+                        <Token globalID="229" id="1" offset="1187:1192">
+                            <Text>noted</Text>
+                        </Token>
+                        <Token globalID="230" id="2" offset="1192:1193">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="231" id="3" offset="1194:1197">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="232" id="4" offset="1198:1205">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token globalID="233" id="5" offset="1206:1208">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="234" id="6" offset="1209:1212">
+                            <Text>not</Text>
+                        </Token>
+                        <Token globalID="235" id="7" offset="1213:1220">
+                            <Text>snoring</Text>
+                        </Token>
+                        <Token globalID="236" id="8" offset="1221:1223">
+                            <Text>on</Text>
+                        </Token>
+                        <Token globalID="237" id="9" offset="1224:1228">
+                            <Text>CPAP</Text>
+                        </Token>
+                        <Token globalID="238" id="10" offset="1228:1229">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="1230:1313">
+                    <Text>He denies much tossing and turning and does not awaken with the sheets in disarray.</Text>
+                    <Tokens Count="16">
+                        <Token globalID="239" id="0" offset="1230:1232">
+                            <Text>He</Text>
+                        </Token>
+                        <Token globalID="240" id="1" offset="1233:1239">
+                            <Text>denies</Text>
+                        </Token>
+                        <Token globalID="241" id="2" offset="1240:1244">
+                            <Text>much</Text>
+                        </Token>
+                        <Token globalID="242" id="3" offset="1245:1252">
+                            <Text>tossing</Text>
+                        </Token>
+                        <Token globalID="243" id="4" offset="1253:1256">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="244" id="5" offset="1257:1264">
+                            <Text>turning</Text>
+                        </Token>
+                        <Token globalID="245" id="6" offset="1265:1268">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="246" id="7" offset="1269:1273">
+                            <Text>does</Text>
+                        </Token>
+                        <Token globalID="247" id="8" offset="1274:1277">
+                            <Text>not</Text>
+                        </Token>
+                        <Token globalID="248" id="9" offset="1278:1284">
+                            <Text>awaken</Text>
+                        </Token>
+                        <Token globalID="249" id="10" offset="1285:1289">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="250" id="11" offset="1290:1293">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="251" id="12" offset="1294:1300">
+                            <Text>sheets</Text>
+                        </Token>
+                        <Token globalID="252" id="13" offset="1301:1303">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="253" id="14" offset="1304:1312">
+                            <Text>disarray</Text>
+                        </Token>
+                        <Token globalID="254" id="15" offset="1312:1313">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="1314:1354">
+                    <Text>He awakens feeling relatively refreshed.</Text>
+                    <Tokens Count="6">
+                        <Token globalID="255" id="0" offset="1314:1316">
+                            <Text>He</Text>
+                        </Token>
+                        <Token globalID="256" id="1" offset="1317:1324">
+                            <Text>awakens</Text>
+                        </Token>
+                        <Token globalID="257" id="2" offset="1325:1332">
+                            <Text>feeling</Text>
+                        </Token>
+                        <Token globalID="258" id="3" offset="1333:1343">
+                            <Text>relatively</Text>
+                        </Token>
+                        <Token globalID="259" id="4" offset="1344:1353">
+                            <Text>refreshed</Text>
+                        </Token>
+                        <Token globalID="260" id="5" offset="1353:1354">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="5">
+            <Sentences Count="1">
+                <Sentence id="0" offset="1356:1474">
+                    <Text>In the past few months, the patient has lost between 15 and 18 pounds in combination of
+                        dietary and exercise measures.
+                    </Text>
+                    <Tokens Count="23">
+                        <Token globalID="261" id="0" offset="1356:1358">
+                            <Text>In</Text>
+                        </Token>
+                        <Token globalID="262" id="1" offset="1359:1362">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="263" id="2" offset="1363:1367">
+                            <Text>past</Text>
+                        </Token>
+                        <Token globalID="264" id="3" offset="1368:1371">
+                            <Text>few</Text>
+                        </Token>
+                        <Token globalID="265" id="4" offset="1372:1378">
+                            <Text>months</Text>
+                        </Token>
+                        <Token globalID="266" id="5" offset="1378:1379">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="267" id="6" offset="1380:1383">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="268" id="7" offset="1384:1391">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token globalID="269" id="8" offset="1392:1395">
+                            <Text>has</Text>
+                        </Token>
+                        <Token globalID="270" id="9" offset="1396:1400">
+                            <Text>lost</Text>
+                        </Token>
+                        <Token globalID="271" id="10" offset="1401:1408">
+                            <Text>between</Text>
+                        </Token>
+                        <Token globalID="272" id="11" offset="1409:1411">
+                            <Text>15</Text>
+                        </Token>
+                        <Token globalID="273" id="12" offset="1412:1415">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="274" id="13" offset="1416:1418">
+                            <Text>18</Text>
+                        </Token>
+                        <Token globalID="275" id="14" offset="1419:1425">
+                            <Text>pounds</Text>
+                        </Token>
+                        <Token globalID="276" id="15" offset="1426:1428">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="277" id="16" offset="1429:1440">
+                            <Text>combination</Text>
+                        </Token>
+                        <Token globalID="278" id="17" offset="1441:1443">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="279" id="18" offset="1444:1451">
+                            <Text>dietary</Text>
+                        </Token>
+                        <Token globalID="280" id="19" offset="1452:1455">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="281" id="20" offset="1456:1464">
+                            <Text>exercise</Text>
+                        </Token>
+                        <Token globalID="282" id="21" offset="1465:1473">
+                            <Text>measures</Text>
+                        </Token>
+                        <Token globalID="283" id="22" offset="1473:1474">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="6">
+            <Sentences Count="3">
+                <Sentence id="0" offset="1476:1535">
+                    <Text>He continues to work at Smith Barney in downtown Baltimore.</Text>
+                    <Tokens Count="11">
+                        <Token globalID="284" id="0" offset="1476:1478">
+                            <Text>He</Text>
+                        </Token>
+                        <Token globalID="285" id="1" offset="1479:1488">
+                            <Text>continues</Text>
+                        </Token>
+                        <Token globalID="286" id="2" offset="1489:1491">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="287" id="3" offset="1492:1496">
+                            <Text>work</Text>
+                        </Token>
+                        <Token globalID="288" id="4" offset="1497:1499">
+                            <Text>at</Text>
+                        </Token>
+                        <Token globalID="289" id="5" offset="1500:1505">
+                            <Text>Smith</Text>
+                        </Token>
+                        <Token globalID="290" id="6" offset="1506:1512">
+                            <Text>Barney</Text>
+                        </Token>
+                        <Token globalID="291" id="7" offset="1513:1515">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="292" id="8" offset="1516:1524">
+                            <Text>downtown</Text>
+                        </Token>
+                        <Token globalID="293" id="9" offset="1525:1534">
+                            <Text>Baltimore</Text>
+                        </Token>
+                        <Token globalID="294" id="10" offset="1534:1535">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="1536:1609">
+                    <Text>He generally works from 8 to 8:30 a.m. until approximately 5 to 5:30 p.m.</Text>
+                    <Tokens Count="15">
+                        <Token globalID="295" id="0" offset="1536:1538">
+                            <Text>He</Text>
+                        </Token>
+                        <Token globalID="296" id="1" offset="1539:1548">
+                            <Text>generally</Text>
+                        </Token>
+                        <Token globalID="297" id="2" offset="1549:1554">
+                            <Text>works</Text>
+                        </Token>
+                        <Token globalID="298" id="3" offset="1555:1559">
+                            <Text>from</Text>
+                        </Token>
+                        <Token globalID="299" id="4" offset="1560:1561">
+                            <Text>8</Text>
+                        </Token>
+                        <Token globalID="300" id="5" offset="1562:1564">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="301" id="6" offset="1565:1569">
+                            <Text>8:30</Text>
+                        </Token>
+                        <Token globalID="302" id="7" offset="1570:1574">
+                            <Text>a.m.</Text>
+                        </Token>
+                        <Token globalID="303" id="8" offset="1575:1580">
+                            <Text>until</Text>
+                        </Token>
+                        <Token globalID="304" id="9" offset="1581:1594">
+                            <Text>approximately</Text>
+                        </Token>
+                        <Token globalID="305" id="10" offset="1595:1596">
+                            <Text>5</Text>
+                        </Token>
+                        <Token globalID="306" id="11" offset="1597:1599">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="307" id="12" offset="1600:1604">
+                            <Text>5:30</Text>
+                        </Token>
+                        <Token globalID="308" id="13" offset="1605:1608">
+                            <Text>p.m</Text>
+                        </Token>
+                        <Token globalID="309" id="14" offset="1606:1607">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="1610:1687">
+                    <Text>He is involved in training purpose to how to sell managed funds and accounts.</Text>
+                    <Tokens Count="15">
+                        <Token globalID="310" id="0" offset="1610:1612">
+                            <Text>He</Text>
+                        </Token>
+                        <Token globalID="311" id="1" offset="1613:1615">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="312" id="2" offset="1616:1624">
+                            <Text>involved</Text>
+                        </Token>
+                        <Token globalID="313" id="3" offset="1616:1618">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="314" id="4" offset="1628:1636">
+                            <Text>training</Text>
+                        </Token>
+                        <Token globalID="315" id="5" offset="1637:1644">
+                            <Text>purpose</Text>
+                        </Token>
+                        <Token globalID="316" id="6" offset="1645:1647">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="317" id="7" offset="1648:1651">
+                            <Text>how</Text>
+                        </Token>
+                        <Token globalID="318" id="8" offset="1652:1654">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="319" id="9" offset="1655:1659">
+                            <Text>sell</Text>
+                        </Token>
+                        <Token globalID="320" id="10" offset="1660:1667">
+                            <Text>managed</Text>
+                        </Token>
+                        <Token globalID="321" id="11" offset="1668:1673">
+                            <Text>funds</Text>
+                        </Token>
+                        <Token globalID="322" id="12" offset="1674:1677">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="323" id="13" offset="1678:1686">
+                            <Text>accounts</Text>
+                        </Token>
+                        <Token globalID="324" id="14" offset="1686:1687">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="7">
+            <Sentences Count="2">
+                <Sentence id="0" offset="1689:1738">
+                    <Text>The patient reports no change in daytime stamina.</Text>
+                    <Tokens Count="9">
+                        <Token globalID="325" id="0" offset="1689:1692">
+                            <Text>The</Text>
+                        </Token>
+                        <Token globalID="326" id="1" offset="1693:1700">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token globalID="327" id="2" offset="1701:1708">
+                            <Text>reports</Text>
+                        </Token>
+                        <Token globalID="328" id="3" offset="1709:1711">
+                            <Text>no</Text>
+                        </Token>
+                        <Token globalID="329" id="4" offset="1712:1718">
+                            <Text>change</Text>
+                        </Token>
+                        <Token globalID="330" id="5" offset="1719:1721">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="331" id="6" offset="1722:1729">
+                            <Text>daytime</Text>
+                        </Token>
+                        <Token globalID="332" id="7" offset="1730:1737">
+                            <Text>stamina</Text>
+                        </Token>
+                        <Token globalID="333" id="8" offset="1737:1738">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="1739:1810">
+                    <Text>He has no difficulty staying awake during the daytime or evening hours.</Text>
+                    <Tokens Count="13">
+                        <Token globalID="334" id="0" offset="1739:1741">
+                            <Text>He</Text>
+                        </Token>
+                        <Token globalID="335" id="1" offset="1742:1745">
+                            <Text>has</Text>
+                        </Token>
+                        <Token globalID="336" id="2" offset="1746:1748">
+                            <Text>no</Text>
+                        </Token>
+                        <Token globalID="337" id="3" offset="1749:1759">
+                            <Text>difficulty</Text>
+                        </Token>
+                        <Token globalID="338" id="4" offset="1760:1767">
+                            <Text>staying</Text>
+                        </Token>
+                        <Token globalID="339" id="5" offset="1768:1773">
+                            <Text>awake</Text>
+                        </Token>
+                        <Token globalID="340" id="6" offset="1774:1780">
+                            <Text>during</Text>
+                        </Token>
+                        <Token globalID="341" id="7" offset="1781:1784">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="342" id="8" offset="1785:1792">
+                            <Text>daytime</Text>
+                        </Token>
+                        <Token globalID="343" id="9" offset="1793:1795">
+                            <Text>or</Text>
+                        </Token>
+                        <Token globalID="344" id="10" offset="1796:1803">
+                            <Text>evening</Text>
+                        </Token>
+                        <Token globalID="345" id="11" offset="1804:1809">
+                            <Text>hours</Text>
+                        </Token>
+                        <Token globalID="346" id="12" offset="1809:1810">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="8">
+            <Sentences Count="1">
+                <Sentence id="0" offset="1812:1870">
+                    <Text>The past medical history is notable for allergic rhinitis.</Text>
+                    <Tokens Count="10">
+                        <Token globalID="347" id="0" offset="1812:1815">
+                            <Text>The</Text>
+                        </Token>
+                        <Token globalID="348" id="1" offset="1816:1820">
+                            <Text>past</Text>
+                        </Token>
+                        <Token globalID="349" id="2" offset="1821:1828">
+                            <Text>medical</Text>
+                        </Token>
+                        <Token globalID="350" id="3" offset="1829:1836">
+                            <Text>history</Text>
+                        </Token>
+                        <Token globalID="351" id="4" offset="1830:1832">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="352" id="5" offset="1840:1847">
+                            <Text>notable</Text>
+                        </Token>
+                        <Token globalID="353" id="6" offset="1848:1851">
+                            <Text>for</Text>
+                        </Token>
+                        <Token globalID="354" id="7" offset="1852:1860">
+                            <Text>allergic</Text>
+                        </Token>
+                        <Token globalID="355" id="8" offset="1861:1869">
+                            <Text>rhinitis</Text>
+                        </Token>
+                        <Token globalID="356" id="9" offset="1869:1870">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="9">
+            <Sentences Count="1">
+                <Sentence id="0" offset="1872:1958">
+                    <Text>MEDICATIONS: He is maintained on Flonase and denies much in the way of nasal symptoms.</Text>
+                    <Tokens Count="17">
+                        <Token globalID="357" id="0" offset="1872:1883">
+                            <Text>MEDICATIONS</Text>
+                        </Token>
+                        <Token globalID="358" id="1" offset="1883:1884">
+                            <Text>:</Text>
+                        </Token>
+                        <Token globalID="359" id="2" offset="1885:1887">
+                            <Text>He</Text>
+                        </Token>
+                        <Token globalID="360" id="3" offset="1888:1890">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="361" id="4" offset="1891:1901">
+                            <Text>maintained</Text>
+                        </Token>
+                        <Token globalID="362" id="5" offset="1902:1904">
+                            <Text>on</Text>
+                        </Token>
+                        <Token globalID="363" id="6" offset="1905:1912">
+                            <Text>Flonase</Text>
+                        </Token>
+                        <Token globalID="364" id="7" offset="1913:1916">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="365" id="8" offset="1917:1923">
+                            <Text>denies</Text>
+                        </Token>
+                        <Token globalID="366" id="9" offset="1924:1928">
+                            <Text>much</Text>
+                        </Token>
+                        <Token globalID="367" id="10" offset="1929:1931">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="368" id="11" offset="1932:1935">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="369" id="12" offset="1936:1939">
+                            <Text>way</Text>
+                        </Token>
+                        <Token globalID="370" id="13" offset="1940:1942">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="371" id="14" offset="1943:1948">
+                            <Text>nasal</Text>
+                        </Token>
+                        <Token globalID="372" id="15" offset="1949:1957">
+                            <Text>symptoms</Text>
+                        </Token>
+                        <Token globalID="373" id="16" offset="1957:1958">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="10">
+            <Sentences Count="1">
+                <Sentence id="0" offset="1960:1977">
+                    <Text>ALLERGIES: Molds.</Text>
+                    <Tokens Count="4">
+                        <Token globalID="374" id="0" offset="1960:1969">
+                            <Text>ALLERGIES</Text>
+                        </Token>
+                        <Token globalID="375" id="1" offset="1969:1970">
+                            <Text>:</Text>
+                        </Token>
+                        <Token globalID="376" id="2" offset="1971:1976">
+                            <Text>Molds</Text>
+                        </Token>
+                        <Token globalID="377" id="3" offset="1976:1977">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="11">
+            <Sentences Count="1">
+                <Sentence id="0" offset="1979:2160">
+                    <Text>FINDINGS: Vital signs: Blood pressure 126/75, pulse 67, respiratory rate 16, weight 172
+                        pounds, height 5 feet 9 inches, temperature 98.4 degrees and SaO2 is 99% on room air at rest.
+                    </Text>
+                    <Tokens Count="40">
+                        <Token globalID="378" id="0" offset="1979:1987">
+                            <Text>FINDINGS</Text>
+                        </Token>
+                        <Token globalID="379" id="1" offset="1987:1988">
+                            <Text>:</Text>
+                        </Token>
+                        <Token globalID="380" id="2" offset="1989:1994">
+                            <Text>Vital</Text>
+                        </Token>
+                        <Token globalID="381" id="3" offset="1995:2000">
+                            <Text>signs</Text>
+                        </Token>
+                        <Token globalID="382" id="4" offset="2000:2001">
+                            <Text>:</Text>
+                        </Token>
+                        <Token globalID="383" id="5" offset="2002:2007">
+                            <Text>Blood</Text>
+                        </Token>
+                        <Token globalID="384" id="6" offset="2008:2016">
+                            <Text>pressure</Text>
+                        </Token>
+                        <Token globalID="385" id="7" offset="2017:2023">
+                            <Text>126/75</Text>
+                        </Token>
+                        <Token globalID="386" id="8" offset="2023:2024">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="387" id="9" offset="2025:2030">
+                            <Text>pulse</Text>
+                        </Token>
+                        <Token globalID="388" id="10" offset="2031:2033">
+                            <Text>67</Text>
+                        </Token>
+                        <Token globalID="389" id="11" offset="2033:2034">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="390" id="12" offset="2035:2046">
+                            <Text>respiratory</Text>
+                        </Token>
+                        <Token globalID="391" id="13" offset="2047:2051">
+                            <Text>rate</Text>
+                        </Token>
+                        <Token globalID="392" id="14" offset="2052:2054">
+                            <Text>16</Text>
+                        </Token>
+                        <Token globalID="393" id="15" offset="2054:2055">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="394" id="16" offset="2056:2062">
+                            <Text>weight</Text>
+                        </Token>
+                        <Token globalID="395" id="17" offset="2063:2066">
+                            <Text>172</Text>
+                        </Token>
+                        <Token globalID="396" id="18" offset="2067:2073">
+                            <Text>pounds</Text>
+                        </Token>
+                        <Token globalID="397" id="19" offset="2073:2074">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="398" id="20" offset="2075:2081">
+                            <Text>height</Text>
+                        </Token>
+                        <Token globalID="399" id="21" offset="2082:2083">
+                            <Text>5</Text>
+                        </Token>
+                        <Token globalID="400" id="22" offset="2084:2088">
+                            <Text>feet</Text>
+                        </Token>
+                        <Token globalID="401" id="23" offset="2089:2090">
+                            <Text>9</Text>
+                        </Token>
+                        <Token globalID="402" id="24" offset="2091:2097">
+                            <Text>inches</Text>
+                        </Token>
+                        <Token globalID="403" id="25" offset="2097:2098">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="404" id="26" offset="2099:2110">
+                            <Text>temperature</Text>
+                        </Token>
+                        <Token globalID="405" id="27" offset="2111:2115">
+                            <Text>98.4</Text>
+                        </Token>
+                        <Token globalID="406" id="28" offset="2116:2123">
+                            <Text>degrees</Text>
+                        </Token>
+                        <Token globalID="407" id="29" offset="2124:2127">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="408" id="30" offset="2128:2132">
+                            <Text>SaO2</Text>
+                        </Token>
+                        <Token globalID="409" id="31" offset="2133:2135">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="410" id="32" offset="2136:2138">
+                            <Text>99</Text>
+                        </Token>
+                        <Token globalID="411" id="33" offset="2138:2139">
+                            <Text>%</Text>
+                        </Token>
+                        <Token globalID="412" id="34" offset="2140:2142">
+                            <Text>on</Text>
+                        </Token>
+                        <Token globalID="413" id="35" offset="2143:2147">
+                            <Text>room</Text>
+                        </Token>
+                        <Token globalID="414" id="36" offset="2148:2151">
+                            <Text>air</Text>
+                        </Token>
+                        <Token globalID="415" id="37" offset="2152:2154">
+                            <Text>at</Text>
+                        </Token>
+                        <Token globalID="416" id="38" offset="2155:2159">
+                            <Text>rest</Text>
+                        </Token>
+                        <Token globalID="417" id="39" offset="2159:2160">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="12">
+            <Sentences Count="1">
+                <Sentence id="0" offset="2162:2215">
+                    <Text>The patient has adenoidal facies as noted previously.</Text>
+                    <Tokens Count="9">
+                        <Token globalID="418" id="0" offset="2162:2165">
+                            <Text>The</Text>
+                        </Token>
+                        <Token globalID="419" id="1" offset="2166:2173">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token globalID="420" id="2" offset="2174:2177">
+                            <Text>has</Text>
+                        </Token>
+                        <Token globalID="421" id="3" offset="2178:2187">
+                            <Text>adenoidal</Text>
+                        </Token>
+                        <Token globalID="422" id="4" offset="2188:2194">
+                            <Text>facies</Text>
+                        </Token>
+                        <Token globalID="423" id="5" offset="2195:2197">
+                            <Text>as</Text>
+                        </Token>
+                        <Token globalID="424" id="6" offset="2198:2203">
+                            <Text>noted</Text>
+                        </Token>
+                        <Token globalID="425" id="7" offset="2204:2214">
+                            <Text>previously</Text>
+                        </Token>
+                        <Token globalID="426" id="8" offset="2214:2215">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="13">
+            <Sentences Count="1">
+                <Sentence id="0" offset="2217:2299">
+                    <Text>Laboratories: The patient forgot to bring his smart card in for downloading today.</Text>
+                    <Tokens Count="15">
+                        <Token globalID="427" id="0" offset="2217:2229">
+                            <Text>Laboratories</Text>
+                        </Token>
+                        <Token globalID="428" id="1" offset="2229:2230">
+                            <Text>:</Text>
+                        </Token>
+                        <Token globalID="429" id="2" offset="2231:2234">
+                            <Text>The</Text>
+                        </Token>
+                        <Token globalID="430" id="3" offset="2235:2242">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token globalID="431" id="4" offset="2243:2249">
+                            <Text>forgot</Text>
+                        </Token>
+                        <Token globalID="432" id="5" offset="2250:2252">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="433" id="6" offset="2253:2258">
+                            <Text>bring</Text>
+                        </Token>
+                        <Token globalID="434" id="7" offset="2259:2262">
+                            <Text>his</Text>
+                        </Token>
+                        <Token globalID="435" id="8" offset="2263:2268">
+                            <Text>smart</Text>
+                        </Token>
+                        <Token globalID="436" id="9" offset="2269:2273">
+                            <Text>card</Text>
+                        </Token>
+                        <Token globalID="437" id="10" offset="2274:2276">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="438" id="11" offset="2277:2280">
+                            <Text>for</Text>
+                        </Token>
+                        <Token globalID="439" id="12" offset="2281:2292">
+                            <Text>downloading</Text>
+                        </Token>
+                        <Token globalID="440" id="13" offset="2293:2298">
+                            <Text>today</Text>
+                        </Token>
+                        <Token globalID="441" id="14" offset="2298:2299">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="14">
+            <Sentences Count="5">
+                <Sentence id="0" offset="2301:2344">
+                    <Text>ASSESSMENT: Moderate-to-severe sleep apnea.</Text>
+                    <Tokens Count="6">
+                        <Token globalID="442" id="0" offset="2301:2311">
+                            <Text>ASSESSMENT</Text>
+                        </Token>
+                        <Token globalID="443" id="1" offset="2311:2312">
+                            <Text>:</Text>
+                        </Token>
+                        <Token globalID="444" id="2" offset="2313:2331">
+                            <Text>Moderate-to-severe</Text>
+                        </Token>
+                        <Token globalID="445" id="3" offset="2332:2337">
+                            <Text>sleep</Text>
+                        </Token>
+                        <Token globalID="446" id="4" offset="2338:2343">
+                            <Text>apnea</Text>
+                        </Token>
+                        <Token globalID="447" id="5" offset="2343:2344">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="2345:2403">
+                    <Text>I have recommended the patient continue CPAP indefinitely.</Text>
+                    <Tokens Count="9">
+                        <Token globalID="448" id="0" offset="2345:2346">
+                            <Text>I</Text>
+                        </Token>
+                        <Token globalID="449" id="1" offset="2347:2351">
+                            <Text>have</Text>
+                        </Token>
+                        <Token globalID="450" id="2" offset="2352:2363">
+                            <Text>recommended</Text>
+                        </Token>
+                        <Token globalID="451" id="3" offset="2364:2367">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="452" id="4" offset="2368:2375">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token globalID="453" id="5" offset="2376:2384">
+                            <Text>continue</Text>
+                        </Token>
+                        <Token globalID="454" id="6" offset="2385:2389">
+                            <Text>CPAP</Text>
+                        </Token>
+                        <Token globalID="455" id="7" offset="2390:2402">
+                            <Text>indefinitely</Text>
+                        </Token>
+                        <Token globalID="456" id="8" offset="2402:2403">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="2404:2493">
+                    <Text>He will be sending me his smart card for downloading to determine his CPAP usage pattern.
+                    </Text>
+                    <Tokens Count="17">
+                        <Token globalID="457" id="0" offset="2404:2406">
+                            <Text>He</Text>
+                        </Token>
+                        <Token globalID="458" id="1" offset="2407:2411">
+                            <Text>will</Text>
+                        </Token>
+                        <Token globalID="459" id="2" offset="2412:2414">
+                            <Text>be</Text>
+                        </Token>
+                        <Token globalID="460" id="3" offset="2415:2422">
+                            <Text>sending</Text>
+                        </Token>
+                        <Token globalID="461" id="4" offset="2423:2425">
+                            <Text>me</Text>
+                        </Token>
+                        <Token globalID="462" id="5" offset="2426:2429">
+                            <Text>his</Text>
+                        </Token>
+                        <Token globalID="463" id="6" offset="2430:2435">
+                            <Text>smart</Text>
+                        </Token>
+                        <Token globalID="464" id="7" offset="2436:2440">
+                            <Text>card</Text>
+                        </Token>
+                        <Token globalID="465" id="8" offset="2441:2444">
+                            <Text>for</Text>
+                        </Token>
+                        <Token globalID="466" id="9" offset="2445:2456">
+                            <Text>downloading</Text>
+                        </Token>
+                        <Token globalID="467" id="10" offset="2457:2459">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="468" id="11" offset="2460:2469">
+                            <Text>determine</Text>
+                        </Token>
+                        <Token globalID="469" id="12" offset="2470:2473">
+                            <Text>his</Text>
+                        </Token>
+                        <Token globalID="470" id="13" offset="2474:2478">
+                            <Text>CPAP</Text>
+                        </Token>
+                        <Token globalID="471" id="14" offset="2479:2484">
+                            <Text>usage</Text>
+                        </Token>
+                        <Token globalID="472" id="15" offset="2485:2492">
+                            <Text>pattern</Text>
+                        </Token>
+                        <Token globalID="473" id="16" offset="2492:2493">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="3" offset="2494:2582">
+                    <Text>In addition, he will continue efforts to maintain his weight at current levels or below.
+                    </Text>
+                    <Tokens Count="17">
+                        <Token globalID="474" id="0" offset="2494:2496">
+                            <Text>In</Text>
+                        </Token>
+                        <Token globalID="475" id="1" offset="2497:2505">
+                            <Text>addition</Text>
+                        </Token>
+                        <Token globalID="476" id="2" offset="2505:2506">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="477" id="3" offset="2507:2509">
+                            <Text>he</Text>
+                        </Token>
+                        <Token globalID="478" id="4" offset="2510:2514">
+                            <Text>will</Text>
+                        </Token>
+                        <Token globalID="479" id="5" offset="2515:2523">
+                            <Text>continue</Text>
+                        </Token>
+                        <Token globalID="480" id="6" offset="2524:2531">
+                            <Text>efforts</Text>
+                        </Token>
+                        <Token globalID="481" id="7" offset="2532:2534">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="482" id="8" offset="2535:2543">
+                            <Text>maintain</Text>
+                        </Token>
+                        <Token globalID="483" id="9" offset="2544:2547">
+                            <Text>his</Text>
+                        </Token>
+                        <Token globalID="484" id="10" offset="2548:2554">
+                            <Text>weight</Text>
+                        </Token>
+                        <Token globalID="485" id="11" offset="2555:2557">
+                            <Text>at</Text>
+                        </Token>
+                        <Token globalID="486" id="12" offset="2558:2565">
+                            <Text>current</Text>
+                        </Token>
+                        <Token globalID="487" id="13" offset="2566:2572">
+                            <Text>levels</Text>
+                        </Token>
+                        <Token globalID="488" id="14" offset="2573:2575">
+                            <Text>or</Text>
+                        </Token>
+                        <Token globalID="489" id="15" offset="2576:2581">
+                            <Text>below</Text>
+                        </Token>
+                        <Token globalID="490" id="16" offset="2581:2582">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="4" offset="2583:2711">
+                    <Text>Should he succeed in reducing further, we might consider re-running a sleep study to determine
+                        whether he still requires a CPAP.
+                    </Text>
+                    <Tokens Count="23">
+                        <Token globalID="491" id="0" offset="2583:2589">
+                            <Text>Should</Text>
+                        </Token>
+                        <Token globalID="492" id="1" offset="2590:2592">
+                            <Text>he</Text>
+                        </Token>
+                        <Token globalID="493" id="2" offset="2593:2600">
+                            <Text>succeed</Text>
+                        </Token>
+                        <Token globalID="494" id="3" offset="2601:2603">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="495" id="4" offset="2604:2612">
+                            <Text>reducing</Text>
+                        </Token>
+                        <Token globalID="496" id="5" offset="2613:2620">
+                            <Text>further</Text>
+                        </Token>
+                        <Token globalID="497" id="6" offset="2620:2621">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="498" id="7" offset="2622:2624">
+                            <Text>we</Text>
+                        </Token>
+                        <Token globalID="499" id="8" offset="2625:2630">
+                            <Text>might</Text>
+                        </Token>
+                        <Token globalID="500" id="9" offset="2631:2639">
+                            <Text>consider</Text>
+                        </Token>
+                        <Token globalID="501" id="10" offset="2640:2650">
+                            <Text>re-running</Text>
+                        </Token>
+                        <Token globalID="502" id="11" offset="2651:2652">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="503" id="12" offset="2653:2658">
+                            <Text>sleep</Text>
+                        </Token>
+                        <Token globalID="504" id="13" offset="2659:2664">
+                            <Text>study</Text>
+                        </Token>
+                        <Token globalID="505" id="14" offset="2665:2667">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="506" id="15" offset="2668:2677">
+                            <Text>determine</Text>
+                        </Token>
+                        <Token globalID="507" id="16" offset="2678:2685">
+                            <Text>whether</Text>
+                        </Token>
+                        <Token globalID="508" id="17" offset="2679:2681">
+                            <Text>he</Text>
+                        </Token>
+                        <Token globalID="509" id="18" offset="2689:2694">
+                            <Text>still</Text>
+                        </Token>
+                        <Token globalID="510" id="19" offset="2695:2703">
+                            <Text>requires</Text>
+                        </Token>
+                        <Token globalID="511" id="20" offset="2704:2705">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="512" id="21" offset="2706:2710">
+                            <Text>CPAP</Text>
+                        </Token>
+                        <Token globalID="513" id="22" offset="2710:2711">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="15">
+            <Sentences Count="3">
+                <Sentence id="0" offset="2713:2839">
+                    <Text>PLANS: In the meantime, if it is also that the possible nasal obstruction is contributing to
+                        snoring and obstructive hypopnea.
+                    </Text>
+                    <Tokens Count="23">
+                        <Token globalID="514" id="0" offset="2713:2718">
+                            <Text>PLANS</Text>
+                        </Token>
+                        <Token globalID="515" id="1" offset="2718:2719">
+                            <Text>:</Text>
+                        </Token>
+                        <Token globalID="516" id="2" offset="2720:2722">
+                            <Text>In</Text>
+                        </Token>
+                        <Token globalID="517" id="3" offset="2723:2726">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="518" id="4" offset="2727:2735">
+                            <Text>meantime</Text>
+                        </Token>
+                        <Token globalID="519" id="5" offset="2735:2736">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="520" id="6" offset="2737:2739">
+                            <Text>if</Text>
+                        </Token>
+                        <Token globalID="521" id="7" offset="2740:2742">
+                            <Text>it</Text>
+                        </Token>
+                        <Token globalID="522" id="8" offset="2743:2745">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="523" id="9" offset="2746:2750">
+                            <Text>also</Text>
+                        </Token>
+                        <Token globalID="524" id="10" offset="2751:2755">
+                            <Text>that</Text>
+                        </Token>
+                        <Token globalID="525" id="11" offset="2756:2759">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="526" id="12" offset="2760:2768">
+                            <Text>possible</Text>
+                        </Token>
+                        <Token globalID="527" id="13" offset="2769:2774">
+                            <Text>nasal</Text>
+                        </Token>
+                        <Token globalID="528" id="14" offset="2775:2786">
+                            <Text>obstruction</Text>
+                        </Token>
+                        <Token globalID="529" id="15" offset="2787:2789">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="530" id="16" offset="2790:2802">
+                            <Text>contributing</Text>
+                        </Token>
+                        <Token globalID="531" id="17" offset="2803:2805">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="532" id="18" offset="2806:2813">
+                            <Text>snoring</Text>
+                        </Token>
+                        <Token globalID="533" id="19" offset="2814:2817">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="534" id="20" offset="2818:2829">
+                            <Text>obstructive</Text>
+                        </Token>
+                        <Token globalID="535" id="21" offset="2830:2838">
+                            <Text>hypopnea</Text>
+                        </Token>
+                        <Token globalID="536" id="22" offset="2838:2839">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="2840:2967">
+                    <Text>I have recommended that a fiberoptic ENT exam be performed to exclude adenoidal tissue that
+                        may be contributing to obstruction.
+                    </Text>
+                    <Tokens Count="21">
+                        <Token globalID="537" id="0" offset="2840:2841">
+                            <Text>I</Text>
+                        </Token>
+                        <Token globalID="538" id="1" offset="2842:2846">
+                            <Text>have</Text>
+                        </Token>
+                        <Token globalID="539" id="2" offset="2847:2858">
+                            <Text>recommended</Text>
+                        </Token>
+                        <Token globalID="540" id="3" offset="2859:2863">
+                            <Text>that</Text>
+                        </Token>
+                        <Token globalID="541" id="4" offset="2861:2862">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="542" id="5" offset="2866:2876">
+                            <Text>fiberoptic</Text>
+                        </Token>
+                        <Token globalID="543" id="6" offset="2877:2880">
+                            <Text>ENT</Text>
+                        </Token>
+                        <Token globalID="544" id="7" offset="2881:2885">
+                            <Text>exam</Text>
+                        </Token>
+                        <Token globalID="545" id="8" offset="2886:2888">
+                            <Text>be</Text>
+                        </Token>
+                        <Token globalID="546" id="9" offset="2889:2898">
+                            <Text>performed</Text>
+                        </Token>
+                        <Token globalID="547" id="10" offset="2899:2901">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="548" id="11" offset="2902:2909">
+                            <Text>exclude</Text>
+                        </Token>
+                        <Token globalID="549" id="12" offset="2910:2919">
+                            <Text>adenoidal</Text>
+                        </Token>
+                        <Token globalID="550" id="13" offset="2920:2926">
+                            <Text>tissue</Text>
+                        </Token>
+                        <Token globalID="551" id="14" offset="2927:2931">
+                            <Text>that</Text>
+                        </Token>
+                        <Token globalID="552" id="15" offset="2932:2935">
+                            <Text>may</Text>
+                        </Token>
+                        <Token globalID="553" id="16" offset="2936:2938">
+                            <Text>be</Text>
+                        </Token>
+                        <Token globalID="554" id="17" offset="2939:2951">
+                            <Text>contributing</Text>
+                        </Token>
+                        <Token globalID="555" id="18" offset="2952:2954">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="556" id="19" offset="2955:2966">
+                            <Text>obstruction</Text>
+                        </Token>
+                        <Token globalID="557" id="20" offset="2966:2967">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="2968:3022">
+                    <Text>He will be returning for routine followup in 6 months.</Text>
+                    <Tokens Count="11">
+                        <Token globalID="558" id="0" offset="2968:2970">
+                            <Text>He</Text>
+                        </Token>
+                        <Token globalID="559" id="1" offset="2971:2975">
+                            <Text>will</Text>
+                        </Token>
+                        <Token globalID="560" id="2" offset="2976:2978">
+                            <Text>be</Text>
+                        </Token>
+                        <Token globalID="561" id="3" offset="2979:2988">
+                            <Text>returning</Text>
+                        </Token>
+                        <Token globalID="562" id="4" offset="2989:2992">
+                            <Text>for</Text>
+                        </Token>
+                        <Token globalID="563" id="5" offset="2993:3000">
+                            <Text>routine</Text>
+                        </Token>
+                        <Token globalID="564" id="6" offset="3001:3009">
+                            <Text>followup</Text>
+                        </Token>
+                        <Token globalID="565" id="7" offset="3010:3012">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="566" id="8" offset="3013:3014">
+                            <Text>6</Text>
+                        </Token>
+                        <Token globalID="567" id="9" offset="3015:3021">
+                            <Text>months</Text>
+                        </Token>
+                        <Token globalID="568" id="10" offset="3021:3022">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="16">
+            <Sentences Count="1">
+                <Sentence id="0" offset="3024:3081">
+                    <Text>//http://www.medicaltranscriptionsamples.com/sleep-apnea/</Text>
+                    <Tokens Count="3">
+                        <Token globalID="569" id="0" offset="3024:3030">
+                            <Text>//http</Text>
+                        </Token>
+                        <Token globalID="570" id="1" offset="3030:3031">
+                            <Text>:</Text>
+                        </Token>
+                        <Token globalID="571" id="2" offset="3031:3081">
+                            <Text>//www.medicaltranscriptionsamples.com/sleep-apnea/</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+    </Paragraphs>
+</StartOutput>

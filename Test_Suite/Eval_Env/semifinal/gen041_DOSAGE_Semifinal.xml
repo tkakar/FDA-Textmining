@@ -1,0 +1,45 @@
+<ANNOTATIONS annotator="Project MEFA Program" textSource="/Users/wutianyu/ISP2016/Test_Suite/Test_Cases/gen041">
+    <EVENT_DT end="" start="" />
+    <DEMOGRAPHICS>
+        <AGE_SET>
+            <AGE end="" start="" />
+            <AGE_COD end="" start="" />
+        </AGE_SET>
+        <WT_SET>
+            <WT end="" start="" />
+            <WT_COD end="" start="" />
+        </WT_SET>
+        <SEX end="" start="" />
+    </DEMOGRAPHICS>
+    <DRUG_FILE>
+        
+        <INSTANCE id="" primary="" timePeriod="">
+            
+            <DRUGNAME end="" start="" />
+            <COREF end="" start="" />
+            <ROUTE end="" start="" />
+            <DECHAL end="" start="" />
+            <RECHAL end="" start="" />
+            <DOSE_AMT end="" start="" />
+            <DOSE_UNIT end="" start="" />
+            <DOSE_FORM end="" start="" />
+            <DOSE_FREQ end="" start="" />
+            <REACTIONS_IDS />
+            
+            <INDICATION_IDS />
+        </INSTANCE>
+    <INSTANCE><DOSE_AMT end="1293" extractor="DosageRegExtractor" start="1289">12.5</DOSE_AMT></INSTANCE><INSTANCE><DOSE_FREQ end="-1" extractor="DosageRegExtractor" start="-1">None</DOSE_FREQ></INSTANCE><INSTANCE><DOSE_UNIT end="1296" extractor="DosageRegExtractor" start="1294">mg</DOSE_UNIT></INSTANCE><INSTANCE><DOSE_AMT end="1321" extractor="DosageRegExtractor" start="1319">10</DOSE_AMT></INSTANCE><INSTANCE><DOSE_FREQ end="-1" extractor="DosageRegExtractor" start="-1">None</DOSE_FREQ></INSTANCE><INSTANCE><DOSE_UNIT end="1324" extractor="DosageRegExtractor" start="1322">mg</DOSE_UNIT></INSTANCE><INSTANCE><DOSE_AMT end="1615" extractor="DosageRegExtractor" start="1614">5</DOSE_AMT></INSTANCE><INSTANCE><DOSE_FREQ end="-1" extractor="DosageRegExtractor" start="-1">None</DOSE_FREQ></INSTANCE><INSTANCE><DOSE_UNIT end="1618" extractor="DosageRegExtractor" start="1616">mg</DOSE_UNIT></INSTANCE><INSTANCE><DOSE_AMT end="2145" extractor="DosageRegExtractor" start="2144">5</DOSE_AMT></INSTANCE><INSTANCE><DOSE_FREQ end="-1" extractor="DosageRegExtractor" start="-1">None</DOSE_FREQ></INSTANCE><INSTANCE><DOSE_UNIT end="2148" extractor="DosageRegExtractor" start="2146">mg</DOSE_UNIT></INSTANCE><INSTANCE><DOSE_AMT end="2187" extractor="DosageRegExtractor" start="2185">25</DOSE_AMT></INSTANCE><INSTANCE><DOSE_FREQ end="-1" extractor="DosageRegExtractor" start="-1">None</DOSE_FREQ></INSTANCE><INSTANCE><DOSE_UNIT end="2190" extractor="DosageRegExtractor" start="2188">mg</DOSE_UNIT></INSTANCE><INSTANCE><DOSE_AMT end="2576" extractor="DosageRegExtractor" start="2574">25</DOSE_AMT></INSTANCE><INSTANCE><DOSE_FREQ end="-1" extractor="DosageRegExtractor" start="-1">None</DOSE_FREQ></INSTANCE><INSTANCE><DOSE_UNIT end="2579" extractor="DosageRegExtractor" start="2577">mg</DOSE_UNIT></INSTANCE></DRUG_FILE>
+    <REACTION_FILE>
+        <INSTANCE>
+            <PT end="" id="" start="" />
+            <COREF end="" start="" />
+        </INSTANCE>
+    </REACTION_FILE>
+    <INDICATION_FILE>
+        <INSTANCE>
+            <INDI_PT end="" id="" start="" />
+            <COREF end="" start="" />
+        </INSTANCE>
+    </INDICATION_FILE>
+    <COMMENT>This section is for freeform comments from the annotator regarding any particular test case.</COMMENT>
+</ANNOTATIONS>

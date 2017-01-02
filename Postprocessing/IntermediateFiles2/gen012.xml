@@ -1,1 +1,1919 @@
-<StartOutput><Paragraphs Count="36"><Paragraph id="0"><Sentences Count="1"><Sentence id="0" offset="0:81"><Text>CC: Mr. Jones is a 72yo white, retired farmer, who presented to the ER because "I</Text><Tokens Count="20"><Token POSTag="NN" globalID="0" id="0" offset="0:2"><Text>CC</Text></Token><Token POSTag=":" globalID="1" id="1" offset="2:3"><Text>:</Text></Token><Token POSTag="NNP" globalID="2" id="2" offset="4:7"><Text>Mr.</Text></Token><Token POSTag="NNP" globalID="3" id="3" offset="8:13"><Text>Jones</Text></Token><Token POSTag="VBZ" globalID="4" id="4" offset="14:16"><Text>is</Text></Token><Token POSTag="DT" globalID="5" id="5" offset="17:18"><Text>a</Text></Token><Token POSTag="JJ" globalID="6" id="6" offset="19:23"><Text>72yo</Text></Token><Token POSTag="JJ" globalID="7" id="7" offset="24:29"><Text>white</Text></Token><Token POSTag="," globalID="8" id="8" offset="29:30"><Text>,</Text></Token><Token POSTag="JJ" globalID="9" id="9" offset="31:38"><Text>retired</Text></Token><Token POSTag="NN" globalID="10" id="10" offset="39:45"><Text>farmer</Text></Token><Token POSTag="," globalID="11" id="11" offset="45:46"><Text>,</Text></Token><Token POSTag="WP" globalID="12" id="12" offset="47:50"><Text>who</Text></Token><Token POSTag="VBD" globalID="13" id="13" offset="51:60"><Text>presented</Text></Token><Token POSTag="TO" globalID="14" id="14" offset="61:63"><Text>to</Text></Token><Token POSTag="DT" globalID="15" id="15" offset="64:67"><Text>the</Text></Token><Token POSTag="NN" globalID="16" id="16" offset="68:70"><Text>ER</Text></Token><Token POSTag="IN" globalID="17" id="17" offset="71:78"><Text>because</Text></Token><Token POSTag="``" globalID="18" id="18" offset="-1:1"><Text>``</Text></Token><Token POSTag="NN" globalID="19" id="19" offset="-1:0"><Text>I</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="1"><Sentences Count="1"><Sentence id="0" offset="82:118"><Text>fainted 3 times in the last 2 days."</Text><Tokens Count="10"><Token POSTag="VBN" globalID="20" id="0" offset="-1:6"><Text>fainted</Text></Token><Token POSTag="CD" globalID="21" id="1" offset="-1:0"><Text>3</Text></Token><Token POSTag="NNS" globalID="22" id="2" offset="-1:4"><Text>times</Text></Token><Token POSTag="IN" globalID="23" id="3" offset="-1:1"><Text>in</Text></Token><Token POSTag="DT" globalID="24" id="4" offset="-1:2"><Text>the</Text></Token><Token POSTag="JJ" globalID="25" id="5" offset="-1:3"><Text>last</Text></Token><Token POSTag="CD" globalID="26" id="6" offset="-1:0"><Text>2</Text></Token><Token POSTag="NNS" globalID="27" id="7" offset="-1:3"><Text>days</Text></Token><Token POSTag="." globalID="28" id="8" offset="-1:0"><Text>.</Text></Token><Token POSTag="NN" globalID="29" id="9" offset="-1:1"><Text>''</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="2"><Sentences Count="0" /></Paragraph><Paragraph id="3"><Sentences Count="1"><Sentence id="0" offset="121:210"><Text>HPI: Mr. Jones was in his usual state of health, which allows him to lead a fairly active</Text><Tokens Count="20"><Token POSTag="NN" globalID="30" id="0" offset="-1:2"><Text>HPI</Text></Token><Token POSTag=":" globalID="31" id="1" offset="-1:0"><Text>:</Text></Token><Token POSTag="NNP" globalID="32" id="2" offset="-1:2"><Text>Mr.</Text></Token><Token POSTag="NNP" globalID="33" id="3" offset="-1:4"><Text>Jones</Text></Token><Token POSTag="VBD" globalID="34" id="4" offset="-1:2"><Text>was</Text></Token><Token POSTag="IN" globalID="35" id="5" offset="-1:1"><Text>in</Text></Token><Token POSTag="PRP$" globalID="36" id="6" offset="-1:2"><Text>his</Text></Token><Token POSTag="JJ" globalID="37" id="7" offset="-1:4"><Text>usual</Text></Token><Token POSTag="NN" globalID="38" id="8" offset="-1:4"><Text>state</Text></Token><Token POSTag="IN" globalID="39" id="9" offset="-1:1"><Text>of</Text></Token><Token POSTag="NN" globalID="40" id="10" offset="-1:5"><Text>health</Text></Token><Token POSTag="," globalID="41" id="11" offset="-1:0"><Text>,</Text></Token><Token POSTag="WDT" globalID="42" id="12" offset="-1:4"><Text>which</Text></Token><Token POSTag="VBZ" globalID="43" id="13" offset="-1:5"><Text>allows</Text></Token><Token POSTag="NN" globalID="44" id="14" offset="-1:2"><Text>him</Text></Token><Token POSTag="TO" globalID="45" id="15" offset="-1:1"><Text>to</Text></Token><Token POSTag="VB" globalID="46" id="16" offset="-1:3"><Text>lead</Text></Token><Token POSTag="DT" globalID="47" id="17" offset="-1:0"><Text>a</Text></Token><Token POSTag="RB" globalID="48" id="18" offset="-1:5"><Text>fairly</Text></Token><Token POSTag="JJ" globalID="49" id="19" offset="-1:5"><Text>active</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="4"><Sentences Count="2"><Sentence id="0" offset="211:279"><Text>life, until 2 days PTA when he was in the kitchen making a sandwich.</Text><Tokens Count="16"><Token POSTag="NN" globalID="50" id="0" offset="-1:3"><Text>life</Text></Token><Token POSTag="," globalID="51" id="1" offset="-1:0"><Text>,</Text></Token><Token POSTag="IN" globalID="52" id="2" offset="-1:4"><Text>until</Text></Token><Token POSTag="CD" globalID="53" id="3" offset="-1:0"><Text>2</Text></Token><Token POSTag="NNS" globalID="54" id="4" offset="-1:3"><Text>days</Text></Token><Token POSTag="NN" globalID="55" id="5" offset="-1:2"><Text>PTA</Text></Token><Token POSTag="WRB" globalID="56" id="6" offset="-1:3"><Text>when</Text></Token><Token POSTag="NN" globalID="57" id="7" offset="-1:1"><Text>he</Text></Token><Token POSTag="VBD" globalID="58" id="8" offset="-1:2"><Text>was</Text></Token><Token POSTag="IN" globalID="59" id="9" offset="-1:1"><Text>in</Text></Token><Token POSTag="DT" globalID="60" id="10" offset="-1:2"><Text>the</Text></Token><Token POSTag="NN" globalID="61" id="11" offset="-1:6"><Text>kitchen</Text></Token><Token POSTag="VBG" globalID="62" id="12" offset="-1:5"><Text>making</Text></Token><Token POSTag="DT" globalID="63" id="13" offset="-1:0"><Text>a</Text></Token><Token POSTag="NN" globalID="64" id="14" offset="-1:7"><Text>sandwich</Text></Token><Token POSTag="." globalID="65" id="15" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="280:300"><Text>At that time he felt</Text><Tokens Count="5"><Token POSTag="IN" globalID="66" id="0" offset="-1:1"><Text>At</Text></Token><Token POSTag="DT" globalID="67" id="1" offset="-1:3"><Text>that</Text></Token><Token POSTag="NN" globalID="68" id="2" offset="-1:3"><Text>time</Text></Token><Token POSTag="RB" globalID="69" id="3" offset="-1:1"><Text>he</Text></Token><Token POSTag="VBN" globalID="70" id="4" offset="-1:3"><Text>felt</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="5"><Sentences Count="2"><Sentence id="0" offset="301:340"><Text>"dizzy" and found himself on the floor.</Text><Tokens Count="10"><Token POSTag="``" globalID="71" id="0" offset="-1:1"><Text>``</Text></Token><Token POSTag="NN" globalID="72" id="1" offset="-1:4"><Text>dizzy</Text></Token><Token POSTag="VBN" globalID="73" id="2" offset="-1:1"><Text>''</Text></Token><Token POSTag="CC" globalID="74" id="3" offset="-1:2"><Text>and</Text></Token><Token POSTag="VBD" globalID="75" id="4" offset="-1:4"><Text>found</Text></Token><Token POSTag="PRP" globalID="76" id="5" offset="-1:6"><Text>himself</Text></Token><Token POSTag="IN" globalID="77" id="6" offset="-1:1"><Text>on</Text></Token><Token POSTag="DT" globalID="78" id="7" offset="-1:2"><Text>the</Text></Token><Token POSTag="NN" globalID="79" id="8" offset="-1:4"><Text>floor</Text></Token><Token POSTag="." globalID="80" id="9" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="341:391"><Text>He described the dizziness as "feeling like he was</Text><Tokens Count="10"><Token POSTag="VBZ" globalID="81" id="0" offset="-1:1"><Text>He</Text></Token><Token POSTag="VBN" globalID="82" id="1" offset="-1:8"><Text>described</Text></Token><Token POSTag="DT" globalID="83" id="2" offset="-1:2"><Text>the</Text></Token><Token POSTag="NN" globalID="84" id="3" offset="-1:8"><Text>dizziness</Text></Token><Token POSTag="IN" globalID="85" id="4" offset="-1:1"><Text>as</Text></Token><Token POSTag="``" globalID="86" id="5" offset="-1:1"><Text>``</Text></Token><Token POSTag="NN" globalID="87" id="6" offset="-1:6"><Text>feeling</Text></Token><Token POSTag="IN" globalID="88" id="7" offset="-1:3"><Text>like</Text></Token><Token POSTag="NN" globalID="89" id="8" offset="-1:1"><Text>he</Text></Token><Token POSTag="VBD" globalID="90" id="9" offset="-1:2"><Text>was</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="6"><Sentences Count="2"><Sentence id="0" offset="392:411"><Text>going to pass out."</Text><Tokens Count="6"><Token POSTag="VBG" globalID="91" id="0" offset="-1:4"><Text>going</Text></Token><Token POSTag="TO" globalID="92" id="1" offset="-1:1"><Text>to</Text></Token><Token POSTag="VB" globalID="93" id="2" offset="-1:3"><Text>pass</Text></Token><Token POSTag="RP" globalID="94" id="3" offset="-1:2"><Text>out</Text></Token><Token POSTag="." globalID="95" id="4" offset="-1:0"><Text>.</Text></Token><Token POSTag="NN" globalID="96" id="5" offset="-1:1"><Text>''</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="412:478"><Text>He doesn't remember what happened but thinks he lost consciousness</Text><Tokens Count="11"><Token POSTag="NN" globalID="97" id="0" offset="-1:1"><Text>He</Text></Token><Token POSTag="VBZ" globalID="98" id="1" offset="-1:3"><Text>does</Text></Token><Token POSTag="RB" globalID="99" id="2" offset="-1:2"><Text>n't</Text></Token><Token POSTag="VB" globalID="100" id="3" offset="-1:7"><Text>remember</Text></Token><Token POSTag="WP" globalID="101" id="4" offset="-1:3"><Text>what</Text></Token><Token POSTag="VBD" globalID="102" id="5" offset="-1:7"><Text>happened</Text></Token><Token POSTag="CC" globalID="103" id="6" offset="-1:2"><Text>but</Text></Token><Token POSTag="NN" globalID="104" id="7" offset="-1:5"><Text>thinks</Text></Token><Token POSTag="VBZ" globalID="105" id="8" offset="-1:1"><Text>he</Text></Token><Token POSTag="VBN" globalID="106" id="9" offset="-1:3"><Text>lost</Text></Token><Token POSTag="NN" globalID="107" id="10" offset="-1:12"><Text>consciousness</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="7"><Sentences Count="3"><Sentence id="0" offset="479:513"><Text>for only a few seconds to minutes.</Text><Tokens Count="8"><Token POSTag="IN" globalID="108" id="0" offset="-1:2"><Text>for</Text></Token><Token POSTag="RB" globalID="109" id="1" offset="-1:3"><Text>only</Text></Token><Token POSTag="DT" globalID="110" id="2" offset="-1:0"><Text>a</Text></Token><Token POSTag="JJ" globalID="111" id="3" offset="-1:2"><Text>few</Text></Token><Token POSTag="NNS" globalID="112" id="4" offset="-1:6"><Text>seconds</Text></Token><Token POSTag="TO" globalID="113" id="5" offset="-1:1"><Text>to</Text></Token><Token POSTag="NNS" globalID="114" id="6" offset="-1:6"><Text>minutes</Text></Token><Token POSTag="." globalID="115" id="7" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="514:556"><Text>No one was home at the time to witness it.</Text><Tokens Count="11"><Token POSTag="NN" globalID="116" id="0" offset="-1:1"><Text>No</Text></Token><Token POSTag="CD" globalID="117" id="1" offset="-1:2"><Text>one</Text></Token><Token POSTag="VBD" globalID="118" id="2" offset="-1:2"><Text>was</Text></Token><Token POSTag="VBN" globalID="119" id="3" offset="-1:3"><Text>home</Text></Token><Token POSTag="IN" globalID="120" id="4" offset="-1:1"><Text>at</Text></Token><Token POSTag="DT" globalID="121" id="5" offset="-1:2"><Text>the</Text></Token><Token POSTag="NN" globalID="122" id="6" offset="-1:3"><Text>time</Text></Token><Token POSTag="TO" globalID="123" id="7" offset="-1:1"><Text>to</Text></Token><Token POSTag="NN" globalID="124" id="8" offset="-1:6"><Text>witness</Text></Token><Token POSTag="PRP" globalID="125" id="9" offset="-1:1"><Text>it</Text></Token><Token POSTag="." globalID="126" id="10" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="557:565"><Text>He had a</Text><Tokens Count="3"><Token POSTag="NN" globalID="127" id="0" offset="-1:1"><Text>He</Text></Token><Token POSTag="VBD" globalID="128" id="1" offset="-1:2"><Text>had</Text></Token><Token POSTag="NN" globalID="129" id="2" offset="-1:0"><Text>a</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="8"><Sentences Count="2"><Sentence id="0" offset="566:631"><Text>headache after the episode, which he relates to hitting his head.</Text><Tokens Count="13"><Token POSTag="NN" globalID="130" id="0" offset="-1:7"><Text>headache</Text></Token><Token POSTag="IN" globalID="131" id="1" offset="-1:4"><Text>after</Text></Token><Token POSTag="DT" globalID="132" id="2" offset="-1:2"><Text>the</Text></Token><Token POSTag="NN" globalID="133" id="3" offset="-1:6"><Text>episode</Text></Token><Token POSTag="," globalID="134" id="4" offset="-1:0"><Text>,</Text></Token><Token POSTag="WDT" globalID="135" id="5" offset="-1:4"><Text>which</Text></Token><Token POSTag="RB" globalID="136" id="6" offset="-1:1"><Text>he</Text></Token><Token POSTag="VBZ" globalID="137" id="7" offset="-1:6"><Text>relates</Text></Token><Token POSTag="TO" globalID="138" id="8" offset="-1:1"><Text>to</Text></Token><Token POSTag="JJ" globalID="139" id="9" offset="-1:6"><Text>hitting</Text></Token><Token POSTag="NN" globalID="140" id="10" offset="-1:2"><Text>his</Text></Token><Token POSTag="NN" globalID="141" id="11" offset="-1:3"><Text>head</Text></Token><Token POSTag="." globalID="142" id="12" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="632:654"><Text>(It has eased off with</Text><Tokens Count="6"><Token POSTag="-LRB-" globalID="143" id="0" offset="-1:0"><Text>(</Text></Token><Token POSTag="PRP" globalID="144" id="1" offset="-1:1"><Text>It</Text></Token><Token POSTag="VBZ" globalID="145" id="2" offset="-1:2"><Text>has</Text></Token><Token POSTag="VBN" globalID="146" id="3" offset="-1:4"><Text>eased</Text></Token><Token POSTag="RP" globalID="147" id="4" offset="-1:2"><Text>off</Text></Token><Token POSTag="IN" globalID="148" id="5" offset="-1:3"><Text>with</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="9"><Sentences Count="2"><Sentence id="0" offset="655:664"><Text>Tylenol.)</Text><Tokens Count="3"><Token POSTag="NN" globalID="149" id="0" offset="-1:6"><Text>Tylenol</Text></Token><Token POSTag="." globalID="150" id="1" offset="-1:0"><Text>.</Text></Token><Token POSTag="-RRB-" globalID="151" id="2" offset="2161:2162"><Text>)</Text></Token></Tokens><ParseTree>(S1 (S (NP (NP (NN Tylenol)) (. .)) (-RRB- -RRB-)))</ParseTree></Sentence><Sentence id="1" offset="665:741"><Text>Prior to losing consciousness, he did not experience a headache, chest pain,</Text><Tokens Count="15"><Token POSTag="JJ" globalID="152" id="0" offset="-1:4"><Text>Prior</Text></Token><Token POSTag="TO" globalID="153" id="1" offset="-1:1"><Text>to</Text></Token><Token POSTag="NN" globalID="154" id="2" offset="-1:5"><Text>losing</Text></Token><Token POSTag="NN" globalID="155" id="3" offset="-1:12"><Text>consciousness</Text></Token><Token POSTag="," globalID="156" id="4" offset="-1:0"><Text>,</Text></Token><Token POSTag="NN" globalID="157" id="5" offset="-1:1"><Text>he</Text></Token><Token POSTag="VBD" globalID="158" id="6" offset="-1:2"><Text>did</Text></Token><Token POSTag="RB" globalID="159" id="7" offset="-1:2"><Text>not</Text></Token><Token POSTag="VBP" globalID="160" id="8" offset="-1:9"><Text>experience</Text></Token><Token POSTag="DT" globalID="161" id="9" offset="-1:0"><Text>a</Text></Token><Token POSTag="NN" globalID="162" id="10" offset="-1:7"><Text>headache</Text></Token><Token POSTag="," globalID="163" id="11" offset="-1:0"><Text>,</Text></Token><Token POSTag="NN" globalID="164" id="12" offset="-1:4"><Text>chest</Text></Token><Token POSTag="NN" globalID="165" id="13" offset="-1:3"><Text>pain</Text></Token><Token POSTag="," globalID="166" id="14" offset="-1:0"><Text>,</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="10"><Sentences Count="3"><Sentence id="0" offset="742:779"><Text>palpitations, or shortness of breath.</Text><Tokens Count="7"><Token POSTag="NNS" globalID="167" id="0" offset="-1:11"><Text>palpitations</Text></Token><Token POSTag="," globalID="168" id="1" offset="-1:0"><Text>,</Text></Token><Token POSTag="CC" globalID="169" id="2" offset="-1:1"><Text>or</Text></Token><Token POSTag="NNS" globalID="170" id="3" offset="-1:8"><Text>shortness</Text></Token><Token POSTag="IN" globalID="171" id="4" offset="-1:1"><Text>of</Text></Token><Token POSTag="NN" globalID="172" id="5" offset="-1:5"><Text>breath</Text></Token><Token POSTag="." globalID="173" id="6" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="780:803"><Text>He was not incontinent.</Text><Tokens Count="5"><Token POSTag="NN" globalID="174" id="0" offset="-1:1"><Text>He</Text></Token><Token POSTag="VBD" globalID="175" id="1" offset="-1:2"><Text>was</Text></Token><Token POSTag="RB" globalID="176" id="2" offset="-1:2"><Text>not</Text></Token><Token POSTag="JJ" globalID="177" id="3" offset="-1:10"><Text>incontinent</Text></Token><Token POSTag="." globalID="178" id="4" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="804:831"><Text>Other than the headache, he</Text><Tokens Count="6"><Token POSTag="JJ" globalID="179" id="0" offset="-1:4"><Text>Other</Text></Token><Token POSTag="IN" globalID="180" id="1" offset="-1:3"><Text>than</Text></Token><Token POSTag="DT" globalID="181" id="2" offset="-1:2"><Text>the</Text></Token><Token POSTag="NN" globalID="182" id="3" offset="-1:7"><Text>headache</Text></Token><Token POSTag="," globalID="183" id="4" offset="-1:0"><Text>,</Text></Token><Token POSTag="NN" globalID="184" id="5" offset="-1:1"><Text>he</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="11"><Sentences Count="1"><Sentence id="0" offset="832:881"><Text>felt fine and ate his sandwich once he "came to."</Text><Tokens Count="13"><Token POSTag="VBP" globalID="185" id="0" offset="-1:3"><Text>felt</Text></Token><Token POSTag="NN" globalID="186" id="1" offset="-1:3"><Text>fine</Text></Token><Token POSTag="CC" globalID="187" id="2" offset="-1:2"><Text>and</Text></Token><Token POSTag="VBP" globalID="188" id="3" offset="-1:2"><Text>ate</Text></Token><Token POSTag="NN" globalID="189" id="4" offset="-1:2"><Text>his</Text></Token><Token POSTag="NN" globalID="190" id="5" offset="-1:7"><Text>sandwich</Text></Token><Token POSTag="IN" globalID="191" id="6" offset="-1:3"><Text>once</Text></Token><Token POSTag="NN" globalID="192" id="7" offset="-1:1"><Text>he</Text></Token><Token POSTag="``" globalID="193" id="8" offset="-1:1"><Text>``</Text></Token><Token POSTag="VBD" globalID="194" id="9" offset="-1:3"><Text>came</Text></Token><Token POSTag="TO" globalID="195" id="10" offset="-1:1"><Text>to</Text></Token><Token POSTag="." globalID="196" id="11" offset="-1:0"><Text>.</Text></Token><Token POSTag="CD" globalID="197" id="12" offset="-1:1"><Text>''</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="12"><Sentences Count="2"><Sentence id="0" offset="882:963"><Text>He had a very similar episode the next day while he was sitting down watching TV.</Text><Tokens Count="17"><Token POSTag="NN" globalID="198" id="0" offset="-1:1"><Text>He</Text></Token><Token POSTag="VBD" globalID="199" id="1" offset="-1:2"><Text>had</Text></Token><Token POSTag="DT" globalID="200" id="2" offset="-1:0"><Text>a</Text></Token><Token POSTag="RB" globalID="201" id="3" offset="-1:3"><Text>very</Text></Token><Token POSTag="JJ" globalID="202" id="4" offset="-1:6"><Text>similar</Text></Token><Token POSTag="NN" globalID="203" id="5" offset="-1:6"><Text>episode</Text></Token><Token POSTag="DT" globalID="204" id="6" offset="-1:2"><Text>the</Text></Token><Token POSTag="JJ" globalID="205" id="7" offset="-1:3"><Text>next</Text></Token><Token POSTag="NN" globalID="206" id="8" offset="-1:2"><Text>day</Text></Token><Token POSTag="IN" globalID="207" id="9" offset="-1:4"><Text>while</Text></Token><Token POSTag="NN" globalID="208" id="10" offset="-1:1"><Text>he</Text></Token><Token POSTag="VBD" globalID="209" id="11" offset="-1:2"><Text>was</Text></Token><Token POSTag="JJ" globalID="210" id="12" offset="-1:6"><Text>sitting</Text></Token><Token POSTag="NN" globalID="211" id="13" offset="-1:3"><Text>down</Text></Token><Token POSTag="NN" globalID="212" id="14" offset="-1:7"><Text>watching</Text></Token><Token POSTag="NN" globalID="213" id="15" offset="-1:1"><Text>TV</Text></Token><Token POSTag="." globalID="214" id="16" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="882:884"><Text>He</Text><Tokens Count="1"><Token POSTag="NN" globalID="215" id="0" offset="-1:1"><Text>He</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="13"><Sentences Count="1"><Sentence id="0" offset="967:1057"><Text>felt like he was going to faint and then became aware that he had missed part of his show.</Text><Tokens Count="20"><Token POSTag="NN" globalID="216" id="0" offset="-1:3"><Text>felt</Text></Token><Token POSTag="IN" globalID="217" id="1" offset="-1:3"><Text>like</Text></Token><Token POSTag="NN" globalID="218" id="2" offset="-1:1"><Text>he</Text></Token><Token POSTag="VBD" globalID="219" id="3" offset="-1:2"><Text>was</Text></Token><Token POSTag="JJ" globalID="220" id="4" offset="-1:4"><Text>going</Text></Token><Token POSTag="TO" globalID="221" id="5" offset="-1:1"><Text>to</Text></Token><Token POSTag="NN" globalID="222" id="6" offset="-1:4"><Text>faint</Text></Token><Token POSTag="CC" globalID="223" id="7" offset="-1:2"><Text>and</Text></Token><Token POSTag="RB" globalID="224" id="8" offset="-1:3"><Text>then</Text></Token><Token POSTag="VBD" globalID="225" id="9" offset="-1:5"><Text>became</Text></Token><Token POSTag="NN" globalID="226" id="10" offset="-1:4"><Text>aware</Text></Token><Token POSTag="IN" globalID="227" id="11" offset="-1:3"><Text>that</Text></Token><Token POSTag="NN" globalID="228" id="12" offset="-1:1"><Text>he</Text></Token><Token POSTag="VBD" globalID="229" id="13" offset="-1:2"><Text>had</Text></Token><Token POSTag="VBD" globalID="230" id="14" offset="-1:5"><Text>missed</Text></Token><Token POSTag="NN" globalID="231" id="15" offset="-1:3"><Text>part</Text></Token><Token POSTag="IN" globalID="232" id="16" offset="-1:1"><Text>of</Text></Token><Token POSTag="NN" globalID="233" id="17" offset="-1:2"><Text>his</Text></Token><Token POSTag="VB" globalID="234" id="18" offset="-1:3"><Text>show</Text></Token><Token POSTag="." globalID="235" id="19" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="14"><Sentences Count="2"><Sentence id="0" offset="1058:1132"><Text>The 3rd fainting spell occurred this morning as he was getting out of bed.</Text><Tokens Count="15"><Token POSTag="DT" globalID="236" id="0" offset="-1:2"><Text>The</Text></Token><Token POSTag="JJ" globalID="237" id="1" offset="-1:2"><Text>3rd</Text></Token><Token POSTag="NN" globalID="238" id="2" offset="-1:7"><Text>fainting</Text></Token><Token POSTag="NN" globalID="239" id="3" offset="-1:4"><Text>spell</Text></Token><Token POSTag="VBD" globalID="240" id="4" offset="-1:7"><Text>occurred</Text></Token><Token POSTag="DT" globalID="241" id="5" offset="-1:3"><Text>this</Text></Token><Token POSTag="NN" globalID="242" id="6" offset="-1:6"><Text>morning</Text></Token><Token POSTag="IN" globalID="243" id="7" offset="-1:1"><Text>as</Text></Token><Token POSTag="NN" globalID="244" id="8" offset="-1:1"><Text>he</Text></Token><Token POSTag="VBD" globalID="245" id="9" offset="-1:2"><Text>was</Text></Token><Token POSTag="VBG" globalID="246" id="10" offset="-1:6"><Text>getting</Text></Token><Token POSTag="RP" globalID="247" id="11" offset="-1:2"><Text>out</Text></Token><Token POSTag="IN" globalID="248" id="12" offset="-1:1"><Text>of</Text></Token><Token POSTag="NN" globalID="249" id="13" offset="-1:2"><Text>bed</Text></Token><Token POSTag="." globalID="250" id="14" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="1133:1145"><Text>He fell back</Text><Tokens Count="3"><Token POSTag="NN" globalID="251" id="0" offset="-1:1"><Text>He</Text></Token><Token POSTag="NN" globalID="252" id="1" offset="-1:3"><Text>fell</Text></Token><Token POSTag="RB" globalID="253" id="2" offset="-1:3"><Text>back</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="15"><Sentences Count="2"><Sentence id="0" offset="1146:1183"><Text>onto the bed so did not hurt himself.</Text><Tokens Count="9"><Token POSTag="IN" globalID="254" id="0" offset="-1:3"><Text>onto</Text></Token><Token POSTag="DT" globalID="255" id="1" offset="-1:2"><Text>the</Text></Token><Token POSTag="NN" globalID="256" id="2" offset="-1:2"><Text>bed</Text></Token><Token POSTag="IN" globalID="257" id="3" offset="-1:1"><Text>so</Text></Token><Token POSTag="VBD" globalID="258" id="4" offset="-1:2"><Text>did</Text></Token><Token POSTag="RB" globalID="259" id="5" offset="-1:2"><Text>not</Text></Token><Token POSTag="VB" globalID="260" id="6" offset="-1:3"><Text>hurt</Text></Token><Token POSTag="PRP" globalID="261" id="7" offset="-1:6"><Text>himself</Text></Token><Token POSTag="." globalID="262" id="8" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="1184:1236"><Text>He told his wife what happened and she insisted that</Text><Tokens Count="10"><Token POSTag="NN" globalID="263" id="0" offset="-1:1"><Text>He</Text></Token><Token POSTag="VBN" globalID="264" id="1" offset="-1:3"><Text>told</Text></Token><Token POSTag="NN" globalID="265" id="2" offset="-1:2"><Text>his</Text></Token><Token POSTag="NN" globalID="266" id="3" offset="-1:3"><Text>wife</Text></Token><Token POSTag="WP" globalID="267" id="4" offset="-1:3"><Text>what</Text></Token><Token POSTag="VBD" globalID="268" id="5" offset="-1:7"><Text>happened</Text></Token><Token POSTag="CC" globalID="269" id="6" offset="-1:2"><Text>and</Text></Token><Token POSTag="PRP" globalID="270" id="7" offset="-1:2"><Text>she</Text></Token><Token POSTag="VBD" globalID="271" id="8" offset="-1:7"><Text>insisted</Text></Token><Token POSTag="DT" globalID="272" id="9" offset="-1:3"><Text>that</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="16"><Sentences Count="1"><Sentence id="0" offset="1237:1256"><Text>he come to the ER. </Text><Tokens Count="6"><Token POSTag="NN" globalID="273" id="0" offset="-1:1"><Text>he</Text></Token><Token POSTag="VBN" globalID="274" id="1" offset="-1:3"><Text>come</Text></Token><Token POSTag="TO" globalID="275" id="2" offset="-1:1"><Text>to</Text></Token><Token POSTag="DT" globalID="276" id="3" offset="-1:2"><Text>the</Text></Token><Token POSTag="NN" globalID="277" id="4" offset="-1:1"><Text>ER</Text></Token><Token POSTag="." globalID="278" id="5" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="17"><Sentences Count="2"><Sentence id="0" offset="1257:1334"><Text>He has not started any new medicines or engaged in any new activities lately.</Text><Tokens Count="15"><Token POSTag="NN" globalID="279" id="0" offset="-1:1"><Text>He</Text></Token><Token POSTag="VBZ" globalID="280" id="1" offset="-1:2"><Text>has</Text></Token><Token POSTag="RB" globalID="281" id="2" offset="-1:2"><Text>not</Text></Token><Token POSTag="VBN" globalID="282" id="3" offset="-1:6"><Text>started</Text></Token><Token POSTag="DT" globalID="283" id="4" offset="-1:2"><Text>any</Text></Token><Token POSTag="NN" globalID="284" id="5" offset="-1:2"><Text>new</Text></Token><Token POSTag="NNS" globalID="285" id="6" offset="-1:8"><Text>medicines</Text></Token><Token POSTag="CC" globalID="286" id="7" offset="-1:1"><Text>or</Text></Token><Token POSTag="VBN" globalID="287" id="8" offset="-1:6"><Text>engaged</Text></Token><Token POSTag="IN" globalID="288" id="9" offset="-1:1"><Text>in</Text></Token><Token POSTag="DT" globalID="289" id="10" offset="-1:2"><Text>any</Text></Token><Token POSTag="JJ" globalID="290" id="11" offset="-1:2"><Text>new</Text></Token><Token POSTag="NNS" globalID="291" id="12" offset="-1:9"><Text>activities</Text></Token><Token POSTag="RB" globalID="292" id="13" offset="-1:5"><Text>lately</Text></Token><Token POSTag="." globalID="293" id="14" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="1257:1267"><Text>He has not</Text><Tokens Count="3"><Token POSTag="NN" globalID="294" id="0" offset="-1:1"><Text>He</Text></Token><Token POSTag="VBZ" globalID="295" id="1" offset="-1:2"><Text>has</Text></Token><Token POSTag="RB" globalID="296" id="2" offset="-1:2"><Text>not</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="18"><Sentences Count="2"><Sentence id="0" offset="1346:1375"><Text>been sick including no N/V/D.</Text><Tokens Count="6"><Token POSTag="VBN" globalID="297" id="0" offset="-1:3"><Text>been</Text></Token><Token POSTag="NN" globalID="298" id="1" offset="-1:3"><Text>sick</Text></Token><Token POSTag="VBG" globalID="299" id="2" offset="-1:8"><Text>including</Text></Token><Token POSTag="NN" globalID="300" id="3" offset="-1:1"><Text>no</Text></Token><Token POSTag="NN" globalID="301" id="4" offset="-1:4"><Text>N/V/D</Text></Token><Token POSTag="." globalID="302" id="5" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="1376:1430"><Text>He has never had chest pains or been told he has heart</Text><Tokens Count="12"><Token POSTag="NN" globalID="303" id="0" offset="-1:1"><Text>He</Text></Token><Token POSTag="VBZ" globalID="304" id="1" offset="-1:2"><Text>has</Text></Token><Token POSTag="RB" globalID="305" id="2" offset="-1:4"><Text>never</Text></Token><Token POSTag="VBD" globalID="306" id="3" offset="-1:2"><Text>had</Text></Token><Token POSTag="JJ" globalID="307" id="4" offset="-1:4"><Text>chest</Text></Token><Token POSTag="NNS" globalID="308" id="5" offset="-1:4"><Text>pains</Text></Token><Token POSTag="CC" globalID="309" id="6" offset="-1:1"><Text>or</Text></Token><Token POSTag="VBN" globalID="310" id="7" offset="-1:3"><Text>been</Text></Token><Token POSTag="NN" globalID="311" id="8" offset="-1:3"><Text>told</Text></Token><Token POSTag="NN" globalID="312" id="9" offset="-1:1"><Text>he</Text></Token><Token POSTag="VBZ" globalID="313" id="10" offset="-1:2"><Text>has</Text></Token><Token POSTag="NN" globalID="314" id="11" offset="-1:4"><Text>heart</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="19"><Sentences Count="2"><Sentence id="0" offset="1431:1439"><Text>disease.</Text><Tokens Count="2"><Token POSTag="NN" globalID="315" id="0" offset="-1:6"><Text>disease</Text></Token><Token POSTag="." globalID="316" id="1" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (NP (NP (NN disease)) (. .))))</ParseTree></Sentence><Sentence id="1" offset="1440:1515"><Text>He has had vertigo in the past but that was very different from his current</Text><Tokens Count="15"><Token POSTag="NN" globalID="317" id="0" offset="-1:1"><Text>He</Text></Token><Token POSTag="VBZ" globalID="318" id="1" offset="-1:2"><Text>has</Text></Token><Token POSTag="VBD" globalID="319" id="2" offset="-1:2"><Text>had</Text></Token><Token POSTag="NN" globalID="320" id="3" offset="-1:6"><Text>vertigo</Text></Token><Token POSTag="IN" globalID="321" id="4" offset="-1:1"><Text>in</Text></Token><Token POSTag="DT" globalID="322" id="5" offset="-1:2"><Text>the</Text></Token><Token POSTag="JJ" globalID="323" id="6" offset="-1:3"><Text>past</Text></Token><Token POSTag="CC" globalID="324" id="7" offset="-1:2"><Text>but</Text></Token><Token POSTag="WDT" globalID="325" id="8" offset="-1:3"><Text>that</Text></Token><Token POSTag="VBD" globalID="326" id="9" offset="-1:2"><Text>was</Text></Token><Token POSTag="RB" globalID="327" id="10" offset="-1:3"><Text>very</Text></Token><Token POSTag="JJ" globalID="328" id="11" offset="-1:8"><Text>different</Text></Token><Token POSTag="IN" globalID="329" id="12" offset="-1:3"><Text>from</Text></Token><Token POSTag="NN" globalID="330" id="13" offset="-1:2"><Text>his</Text></Token><Token POSTag="NN" globalID="331" id="14" offset="-1:6"><Text>current</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="20"><Sentences Count="2"><Sentence id="0" offset="1516:1528"><Text>"dizziness".</Text><Tokens Count="4"><Token POSTag="``" globalID="332" id="0" offset="-1:1"><Text>``</Text></Token><Token POSTag="NN" globalID="333" id="1" offset="-1:8"><Text>dizziness</Text></Token><Token POSTag="NNS" globalID="334" id="2" offset="-1:1"><Text>''</Text></Token><Token POSTag="." globalID="335" id="3" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="1529:1604"><Text>He has not had any change in vision, slurred speech, weakness, numbness, or</Text><Tokens Count="17"><Token POSTag="NN" globalID="336" id="0" offset="-1:1"><Text>He</Text></Token><Token POSTag="VBZ" globalID="337" id="1" offset="-1:2"><Text>has</Text></Token><Token POSTag="RB" globalID="338" id="2" offset="-1:2"><Text>not</Text></Token><Token POSTag="VBD" globalID="339" id="3" offset="-1:2"><Text>had</Text></Token><Token POSTag="DT" globalID="340" id="4" offset="-1:2"><Text>any</Text></Token><Token POSTag="NN" globalID="341" id="5" offset="-1:5"><Text>change</Text></Token><Token POSTag="IN" globalID="342" id="6" offset="-1:1"><Text>in</Text></Token><Token POSTag="NN" globalID="343" id="7" offset="-1:5"><Text>vision</Text></Token><Token POSTag="," globalID="344" id="8" offset="-1:0"><Text>,</Text></Token><Token POSTag="JJ" globalID="345" id="9" offset="-1:6"><Text>slurred</Text></Token><Token POSTag="NN" globalID="346" id="10" offset="-1:5"><Text>speech</Text></Token><Token POSTag="," globalID="347" id="11" offset="-1:0"><Text>,</Text></Token><Token POSTag="NN" globalID="348" id="12" offset="-1:7"><Text>weakness</Text></Token><Token POSTag="," globalID="349" id="13" offset="-1:0"><Text>,</Text></Token><Token POSTag="NN" globalID="350" id="14" offset="-1:7"><Text>numbness</Text></Token><Token POSTag="," globalID="351" id="15" offset="-1:0"><Text>,</Text></Token><Token POSTag="NN" globalID="352" id="16" offset="-1:1"><Text>or</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="21"><Sentences Count="1"><Sentence id="0" offset="1605:1631"><Text>tingling in the last week.</Text><Tokens Count="6"><Token POSTag="VBG" globalID="353" id="0" offset="-1:7"><Text>tingling</Text></Token><Token POSTag="IN" globalID="354" id="1" offset="-1:1"><Text>in</Text></Token><Token POSTag="DT" globalID="355" id="2" offset="-1:2"><Text>the</Text></Token><Token POSTag="JJ" globalID="356" id="3" offset="-1:3"><Text>last</Text></Token><Token POSTag="NN" globalID="357" id="4" offset="-1:3"><Text>week</Text></Token><Token POSTag="." globalID="358" id="5" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="22"><Sentences Count="0" /></Paragraph><Paragraph id="23"><Sentences Count="1"><Sentence id="0" offset="1633:1644"><Text>Medications</Text><Tokens Count="1"><Token POSTag="NNS" globalID="359" id="0" offset="-1:10"><Text>Medications</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="24"><Sentences Count="1"><Sentence id="0" offset="1645:1682"><Text>1. lisinopril 20 mg po daily, for HTN</Text><Tokens Count="9"><Token POSTag="LS" globalID="360" id="0" offset="-1:1"><Text>1.</Text></Token><Token POSTag="NN" globalID="361" id="1" offset="-1:9"><Text>lisinopril</Text></Token><Token POSTag="CD" globalID="362" id="2" offset="-1:1"><Text>20</Text></Token><Token POSTag="NN" globalID="363" id="3" offset="-1:1"><Text>mg</Text></Token><Token POSTag="CD" globalID="364" id="4" offset="-1:1"><Text>po</Text></Token><Token POSTag="RB" globalID="365" id="5" offset="-1:4"><Text>daily</Text></Token><Token POSTag="," globalID="366" id="6" offset="-1:0"><Text>,</Text></Token><Token POSTag="IN" globalID="367" id="7" offset="-1:2"><Text>for</Text></Token><Token POSTag="NN" globalID="368" id="8" offset="-1:2"><Text>HTN</Text></Token></Tokens><ParseTree>(S1 (S (LST (LS 1.)) (NP (NP (NN lisinopril) (CD 20) (NN mg) (CD po)) (ADVP (RB daily)) (, ,) (PP (IN for) (NP (NN HTN))))))</ParseTree></Sentence></Sentences></Paragraph><Paragraph id="25"><Sentences Count="2"><Sentence id="0" offset="1683:1685"><Text>2.</Text><Tokens Count="2"><Token POSTag="CD" globalID="369" id="0" offset="-1:0"><Text>2</Text></Token><Token POSTag="." globalID="370" id="1" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (NP (NP (CD 2)) (. .))))</ParseTree></Sentence><Sentence id="1" offset="1686:1721"><Text>Hytrin 5 mg po at bedtime, for BPH </Text><Tokens Count="9"><Token POSTag="NN" globalID="371" id="0" offset="-1:5"><Text>Hytrin</Text></Token><Token POSTag="CD" globalID="372" id="1" offset="-1:0"><Text>5</Text></Token><Token POSTag="NN" globalID="373" id="2" offset="-1:1"><Text>mg</Text></Token><Token POSTag="CD" globalID="374" id="3" offset="-1:1"><Text>po</Text></Token><Token POSTag="IN" globalID="375" id="4" offset="-1:1"><Text>at</Text></Token><Token POSTag="NN" globalID="376" id="5" offset="-1:6"><Text>bedtime</Text></Token><Token POSTag="," globalID="377" id="6" offset="-1:0"><Text>,</Text></Token><Token POSTag="IN" globalID="378" id="7" offset="-1:2"><Text>for</Text></Token><Token POSTag="NN" globalID="379" id="8" offset="-1:2"><Text>BPH</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="26"><Sentences Count="2"><Sentence id="0" offset="1722:1724"><Text>3.</Text><Tokens Count="2"><Token POSTag="CD" globalID="380" id="0" offset="-1:0"><Text>3</Text></Token><Token POSTag="." globalID="381" id="1" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (NP (NP (CD 3)) (. .))))</ParseTree></Sentence><Sentence id="1" offset="1725:1766"><Text>ASA 325 mg po daily, for cardioprotection</Text><Tokens Count="8"><Token POSTag="NN" globalID="382" id="0" offset="-1:2"><Text>ASA</Text></Token><Token POSTag="CD" globalID="383" id="1" offset="-1:2"><Text>325</Text></Token><Token POSTag="NN" globalID="384" id="2" offset="-1:1"><Text>mg</Text></Token><Token POSTag="CD" globalID="385" id="3" offset="-1:1"><Text>po</Text></Token><Token POSTag="RB" globalID="386" id="4" offset="-1:4"><Text>daily</Text></Token><Token POSTag="," globalID="387" id="5" offset="-1:0"><Text>,</Text></Token><Token POSTag="IN" globalID="388" id="6" offset="-1:2"><Text>for</Text></Token><Token POSTag="NN" globalID="389" id="7" offset="-1:15"><Text>cardioprotection</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="27"><Sentences Count="2"><Sentence id="0" offset="1767:1769"><Text>4.</Text><Tokens Count="2"><Token POSTag="CD" globalID="390" id="0" offset="-1:0"><Text>4</Text></Token><Token POSTag="." globalID="391" id="1" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (NP (CD 4))) (. .)))</ParseTree></Sentence><Sentence id="1" offset="1770:1817"><Text>Allopurinol 300mg po daily, for gout prevention</Text><Tokens Count="8"><Token POSTag="NN" globalID="392" id="0" offset="-1:10"><Text>Allopurinol</Text></Token><Token POSTag="NN" globalID="393" id="1" offset="-1:4"><Text>300mg</Text></Token><Token POSTag="NN" globalID="394" id="2" offset="-1:1"><Text>po</Text></Token><Token POSTag="RB" globalID="395" id="3" offset="-1:4"><Text>daily</Text></Token><Token POSTag="," globalID="396" id="4" offset="-1:0"><Text>,</Text></Token><Token POSTag="IN" globalID="397" id="5" offset="-1:2"><Text>for</Text></Token><Token POSTag="NN" globalID="398" id="6" offset="-1:3"><Text>gout</Text></Token><Token POSTag="NN" globalID="399" id="7" offset="-1:9"><Text>prevention</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="28"><Sentences Count="2"><Sentence id="0" offset="1818:1820"><Text>5.</Text><Tokens Count="2"><Token POSTag="CD" globalID="400" id="0" offset="-1:0"><Text>5</Text></Token><Token POSTag="." globalID="401" id="1" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (NP (NP (CD 5)) (. .))))</ParseTree></Sentence><Sentence id="1" offset="1821:1860"><Text>Atrovent 2puffs 4 times a day, for COPD</Text><Tokens Count="9"><Token POSTag="NN" globalID="402" id="0" offset="-1:7"><Text>Atrovent</Text></Token><Token POSTag="NN" globalID="403" id="1" offset="-1:5"><Text>2puffs</Text></Token><Token POSTag="CD" globalID="404" id="2" offset="-1:0"><Text>4</Text></Token><Token POSTag="NNS" globalID="405" id="3" offset="-1:4"><Text>times</Text></Token><Token POSTag="DT" globalID="406" id="4" offset="-1:0"><Text>a</Text></Token><Token POSTag="NN" globalID="407" id="5" offset="-1:2"><Text>day</Text></Token><Token POSTag="," globalID="408" id="6" offset="-1:0"><Text>,</Text></Token><Token POSTag="IN" globalID="409" id="7" offset="-1:2"><Text>for</Text></Token><Token POSTag="NN" globalID="410" id="8" offset="-1:3"><Text>COPD</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="29"><Sentences Count="2"><Sentence id="0" offset="1861:1863"><Text>6.</Text><Tokens Count="2"><Token POSTag="CD" globalID="411" id="0" offset="-1:0"><Text>6</Text></Token><Token POSTag="." globalID="412" id="1" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (NP (NP (CD 6)) (. .))))</ParseTree></Sentence><Sentence id="1" offset="1864:1919"><Text>Motrin 200mg po 2-3 times a day as needed for arthritis</Text><Tokens Count="11"><Token POSTag="NN" globalID="413" id="0" offset="-1:5"><Text>Motrin</Text></Token><Token POSTag="NN" globalID="414" id="1" offset="-1:4"><Text>200mg</Text></Token><Token POSTag="NN" globalID="415" id="2" offset="-1:1"><Text>po</Text></Token><Token POSTag="NN" globalID="416" id="3" offset="-1:2"><Text>2-3</Text></Token><Token POSTag="NNS" globalID="417" id="4" offset="-1:4"><Text>times</Text></Token><Token POSTag="DT" globalID="418" id="5" offset="-1:0"><Text>a</Text></Token><Token POSTag="NN" globalID="419" id="6" offset="-1:2"><Text>day</Text></Token><Token POSTag="IN" globalID="420" id="7" offset="-1:1"><Text>as</Text></Token><Token POSTag="VBN" globalID="421" id="8" offset="-1:5"><Text>needed</Text></Token><Token POSTag="IN" globalID="422" id="9" offset="-1:2"><Text>for</Text></Token><Token POSTag="NN" globalID="423" id="10" offset="-1:8"><Text>arthritis</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="30"><Sentences Count="2"><Sentence id="0" offset="1920:1922"><Text>7.</Text><Tokens Count="2"><Token POSTag="CD" globalID="424" id="0" offset="-1:0"><Text>7</Text></Token><Token POSTag="." globalID="425" id="1" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (NP (NP (CD 7)) (. .))))</ParseTree></Sentence><Sentence id="1" offset="1923:1980"><Text>Aleve 1-2 tabs po 2-3 times a day as needed for arthritis</Text><Tokens Count="12"><Token POSTag="NN" globalID="426" id="0" offset="-1:4"><Text>Aleve</Text></Token><Token POSTag="CD" globalID="427" id="1" offset="-1:2"><Text>1-2</Text></Token><Token POSTag="NN" globalID="428" id="2" offset="-1:3"><Text>tabs</Text></Token><Token POSTag="NN" globalID="429" id="3" offset="-1:1"><Text>po</Text></Token><Token POSTag="NN" globalID="430" id="4" offset="-1:2"><Text>2-3</Text></Token><Token POSTag="NNS" globalID="431" id="5" offset="-1:4"><Text>times</Text></Token><Token POSTag="DT" globalID="432" id="6" offset="-1:0"><Text>a</Text></Token><Token POSTag="NN" globalID="433" id="7" offset="-1:2"><Text>day</Text></Token><Token POSTag="IN" globalID="434" id="8" offset="-1:1"><Text>as</Text></Token><Token POSTag="VBN" globalID="435" id="9" offset="-1:5"><Text>needed</Text></Token><Token POSTag="IN" globalID="436" id="10" offset="-1:2"><Text>for</Text></Token><Token POSTag="NN" globalID="437" id="11" offset="-1:8"><Text>arthritis</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="31"><Sentences Count="2"><Sentence id="0" offset="1981:1983"><Text>8.</Text><Tokens Count="2"><Token POSTag="CD" globalID="438" id="0" offset="-1:0"><Text>8</Text></Token><Token POSTag="." globalID="439" id="1" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (NP (NP (CD 8)) (. .))))</ParseTree></Sentence><Sentence id="1" offset="1984:2053"><Text>Tylenol arthritis 1-2 tabs po 3-4 times a day as needed for arthritis</Text><Tokens Count="13"><Token POSTag="NN" globalID="440" id="0" offset="-1:6"><Text>Tylenol</Text></Token><Token POSTag="NN" globalID="441" id="1" offset="-1:8"><Text>arthritis</Text></Token><Token POSTag="CD" globalID="442" id="2" offset="-1:2"><Text>1-2</Text></Token><Token POSTag="NN" globalID="443" id="3" offset="-1:3"><Text>tabs</Text></Token><Token POSTag="NN" globalID="444" id="4" offset="-1:1"><Text>po</Text></Token><Token POSTag="JJ" globalID="445" id="5" offset="-1:2"><Text>3-4</Text></Token><Token POSTag="NNS" globalID="446" id="6" offset="-1:4"><Text>times</Text></Token><Token POSTag="DT" globalID="447" id="7" offset="-1:0"><Text>a</Text></Token><Token POSTag="NN" globalID="448" id="8" offset="-1:2"><Text>day</Text></Token><Token POSTag="IN" globalID="449" id="9" offset="-1:1"><Text>as</Text></Token><Token POSTag="VBN" globalID="450" id="10" offset="-1:5"><Text>needed</Text></Token><Token POSTag="IN" globalID="451" id="11" offset="-1:2"><Text>for</Text></Token><Token POSTag="NN" globalID="452" id="12" offset="-1:8"><Text>arthritis</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="32"><Sentences Count="2"><Sentence id="0" offset="2054:2056"><Text>9.</Text><Tokens Count="2"><Token POSTag="CD" globalID="453" id="0" offset="-1:0"><Text>9</Text></Token><Token POSTag="." globalID="454" id="1" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (NP (NP (CD 9)) (. .))))</ParseTree></Sentence><Sentence id="1" offset="2057:2099"><Text>Saw palmetto 2 tabs po daily, for prostate</Text><Tokens Count="9"><Token POSTag="VB" globalID="455" id="0" offset="-1:2"><Text>Saw</Text></Token><Token POSTag="NN" globalID="456" id="1" offset="-1:7"><Text>palmetto</Text></Token><Token POSTag="CD" globalID="457" id="2" offset="-1:0"><Text>2</Text></Token><Token POSTag="NN" globalID="458" id="3" offset="-1:3"><Text>tabs</Text></Token><Token POSTag="NN" globalID="459" id="4" offset="-1:1"><Text>po</Text></Token><Token POSTag="RB" globalID="460" id="5" offset="-1:4"><Text>daily</Text></Token><Token POSTag="," globalID="461" id="6" offset="-1:0"><Text>,</Text></Token><Token POSTag="IN" globalID="462" id="7" offset="-1:2"><Text>for</Text></Token><Token POSTag="NN" globalID="463" id="8" offset="-1:7"><Text>prostate</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="33"><Sentences Count="0" /></Paragraph><Paragraph id="34"><Sentences Count="1"><Sentence id="0" offset="2101:2124"><Text>Allergies- sulfa (rash)</Text><Tokens Count="5"><Token POSTag="JJ" globalID="464" id="0" offset="-1:9"><Text>Allergies-</Text></Token><Token POSTag="NN" globalID="465" id="1" offset="-1:4"><Text>sulfa</Text></Token><Token POSTag="-LRB-" globalID="466" id="2" offset="-1:0"><Text>(</Text></Token><Token POSTag="NN" globalID="467" id="3" offset="-1:3"><Text>rash</Text></Token><Token POSTag="-RRB-" globalID="468" id="4" offset="2161:2162"><Text>)</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="35"><Sentences Count="1"><Sentence id="0" offset="2125:2162"><Text>Adverse drug reactions- codeine (N/V)</Text><Tokens Count="7"><Token POSTag="JJ" globalID="469" id="0" offset="-1:6"><Text>Adverse</Text></Token><Token POSTag="NN" globalID="470" id="1" offset="-1:3"><Text>drug</Text></Token><Token POSTag="NN" globalID="471" id="2" offset="-1:9"><Text>reactions-</Text></Token><Token POSTag="NN" globalID="472" id="3" offset="-1:6"><Text>codeine</Text></Token><Token POSTag="-LRB-" globalID="473" id="4" offset="-1:0"><Text>(</Text></Token><Token POSTag="NN" globalID="474" id="5" offset="-1:2"><Text>N/V</Text></Token><Token POSTag="-RRB-" globalID="475" id="6" offset="2161:2162"><Text>)</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph></Paragraphs></StartOutput>
+<StartOutput>
+    <Paragraphs Count="36">
+        <Paragraph id="0">
+            <Sentences Count="1">
+                <Sentence id="0" offset="0:81">
+                    <Text>CC: Mr. Jones is a 72yo white, retired farmer, who presented to the ER because "I</Text>
+                    <Tokens Count="20">
+                        <Token POSTag="NN" globalID="0" id="0" offset="0:2">
+                            <Text>CC</Text>
+                        </Token>
+                        <Token POSTag=":" globalID="1" id="1" offset="2:3">
+                            <Text>:</Text>
+                        </Token>
+                        <Token POSTag="NNP" globalID="2" id="2" offset="4:7">
+                            <Text>Mr.</Text>
+                        </Token>
+                        <Token POSTag="NNP" globalID="3" id="3" offset="8:13">
+                            <Text>Jones</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="4" id="4" offset="14:16">
+                            <Text>is</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="5" id="5" offset="17:18">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="6" id="6" offset="19:23">
+                            <Text>72yo</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="7" id="7" offset="24:29">
+                            <Text>white</Text>
+                        </Token>
+                        <Token POSTag="," globalID="8" id="8" offset="29:30">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="9" id="9" offset="31:38">
+                            <Text>retired</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="10" id="10" offset="39:45">
+                            <Text>farmer</Text>
+                        </Token>
+                        <Token POSTag="," globalID="11" id="11" offset="45:46">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="WP" globalID="12" id="12" offset="47:50">
+                            <Text>who</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="13" id="13" offset="51:60">
+                            <Text>presented</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="14" id="14" offset="61:63">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="15" id="15" offset="64:67">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="16" id="16" offset="68:70">
+                            <Text>ER</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="17" id="17" offset="71:78">
+                            <Text>because</Text>
+                        </Token>
+                        <Token POSTag="``" globalID="18" id="18" offset="-1:1">
+                            <Text>``</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="19" id="19" offset="-1:0">
+                            <Text>I</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="1">
+            <Sentences Count="1">
+                <Sentence id="0" offset="82:118">
+                    <Text>fainted 3 times in the last 2 days."</Text>
+                    <Tokens Count="10">
+                        <Token POSTag="VBN" globalID="20" id="0" offset="-1:6">
+                            <Text>fainted</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="21" id="1" offset="-1:0">
+                            <Text>3</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="22" id="2" offset="-1:4">
+                            <Text>times</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="23" id="3" offset="-1:1">
+                            <Text>in</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="24" id="4" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="25" id="5" offset="-1:3">
+                            <Text>last</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="26" id="6" offset="-1:0">
+                            <Text>2</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="27" id="7" offset="-1:3">
+                            <Text>days</Text>
+                        </Token>
+                        <Token POSTag="." globalID="28" id="8" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="29" id="9" offset="-1:1">
+                            <Text>''</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="2">
+            <Sentences Count="0"/>
+        </Paragraph>
+        <Paragraph id="3">
+            <Sentences Count="1">
+                <Sentence id="0" offset="121:210">
+                    <Text>HPI: Mr. Jones was in his usual state of health, which allows him to lead a fairly active
+                    </Text>
+                    <Tokens Count="20">
+                        <Token POSTag="NN" globalID="30" id="0" offset="-1:2">
+                            <Text>HPI</Text>
+                        </Token>
+                        <Token POSTag=":" globalID="31" id="1" offset="-1:0">
+                            <Text>:</Text>
+                        </Token>
+                        <Token POSTag="NNP" globalID="32" id="2" offset="-1:2">
+                            <Text>Mr.</Text>
+                        </Token>
+                        <Token POSTag="NNP" globalID="33" id="3" offset="-1:4">
+                            <Text>Jones</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="34" id="4" offset="-1:2">
+                            <Text>was</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="35" id="5" offset="-1:1">
+                            <Text>in</Text>
+                        </Token>
+                        <Token POSTag="PRP$" globalID="36" id="6" offset="-1:2">
+                            <Text>his</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="37" id="7" offset="-1:4">
+                            <Text>usual</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="38" id="8" offset="-1:4">
+                            <Text>state</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="39" id="9" offset="-1:1">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="40" id="10" offset="-1:5">
+                            <Text>health</Text>
+                        </Token>
+                        <Token POSTag="," globalID="41" id="11" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="WDT" globalID="42" id="12" offset="-1:4">
+                            <Text>which</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="43" id="13" offset="-1:5">
+                            <Text>allows</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="44" id="14" offset="-1:2">
+                            <Text>him</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="45" id="15" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="VB" globalID="46" id="16" offset="-1:3">
+                            <Text>lead</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="47" id="17" offset="-1:0">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="48" id="18" offset="-1:5">
+                            <Text>fairly</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="49" id="19" offset="-1:5">
+                            <Text>active</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="4">
+            <Sentences Count="2">
+                <Sentence id="0" offset="211:279">
+                    <Text>life, until 2 days PTA when he was in the kitchen making a sandwich.</Text>
+                    <Tokens Count="16">
+                        <Token POSTag="NN" globalID="50" id="0" offset="-1:3">
+                            <Text>life</Text>
+                        </Token>
+                        <Token POSTag="," globalID="51" id="1" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="52" id="2" offset="-1:4">
+                            <Text>until</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="53" id="3" offset="-1:0">
+                            <Text>2</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="54" id="4" offset="-1:3">
+                            <Text>days</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="55" id="5" offset="-1:2">
+                            <Text>PTA</Text>
+                        </Token>
+                        <Token POSTag="WRB" globalID="56" id="6" offset="-1:3">
+                            <Text>when</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="57" id="7" offset="-1:1">
+                            <Text>he</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="58" id="8" offset="-1:2">
+                            <Text>was</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="59" id="9" offset="-1:1">
+                            <Text>in</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="60" id="10" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="61" id="11" offset="-1:6">
+                            <Text>kitchen</Text>
+                        </Token>
+                        <Token POSTag="VBG" globalID="62" id="12" offset="-1:5">
+                            <Text>making</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="63" id="13" offset="-1:0">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="64" id="14" offset="-1:7">
+                            <Text>sandwich</Text>
+                        </Token>
+                        <Token POSTag="." globalID="65" id="15" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="280:300">
+                    <Text>At that time he felt</Text>
+                    <Tokens Count="5">
+                        <Token POSTag="IN" globalID="66" id="0" offset="-1:1">
+                            <Text>At</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="67" id="1" offset="-1:3">
+                            <Text>that</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="68" id="2" offset="-1:3">
+                            <Text>time</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="69" id="3" offset="-1:1">
+                            <Text>he</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="70" id="4" offset="-1:3">
+                            <Text>felt</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="5">
+            <Sentences Count="2">
+                <Sentence id="0" offset="301:340">
+                    <Text>"dizzy" and found himself on the floor.</Text>
+                    <Tokens Count="10">
+                        <Token POSTag="``" globalID="71" id="0" offset="-1:1">
+                            <Text>``</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="72" id="1" offset="-1:4">
+                            <Text>dizzy</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="73" id="2" offset="-1:1">
+                            <Text>''</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="74" id="3" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="75" id="4" offset="-1:4">
+                            <Text>found</Text>
+                        </Token>
+                        <Token POSTag="PRP" globalID="76" id="5" offset="-1:6">
+                            <Text>himself</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="77" id="6" offset="-1:1">
+                            <Text>on</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="78" id="7" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="79" id="8" offset="-1:4">
+                            <Text>floor</Text>
+                        </Token>
+                        <Token POSTag="." globalID="80" id="9" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="341:391">
+                    <Text>He described the dizziness as "feeling like he was</Text>
+                    <Tokens Count="10">
+                        <Token POSTag="VBZ" globalID="81" id="0" offset="-1:1">
+                            <Text>He</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="82" id="1" offset="-1:8">
+                            <Text>described</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="83" id="2" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="84" id="3" offset="-1:8">
+                            <Text>dizziness</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="85" id="4" offset="-1:1">
+                            <Text>as</Text>
+                        </Token>
+                        <Token POSTag="``" globalID="86" id="5" offset="-1:1">
+                            <Text>``</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="87" id="6" offset="-1:6">
+                            <Text>feeling</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="88" id="7" offset="-1:3">
+                            <Text>like</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="89" id="8" offset="-1:1">
+                            <Text>he</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="90" id="9" offset="-1:2">
+                            <Text>was</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="6">
+            <Sentences Count="2">
+                <Sentence id="0" offset="392:411">
+                    <Text>going to pass out."</Text>
+                    <Tokens Count="6">
+                        <Token POSTag="VBG" globalID="91" id="0" offset="-1:4">
+                            <Text>going</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="92" id="1" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="VB" globalID="93" id="2" offset="-1:3">
+                            <Text>pass</Text>
+                        </Token>
+                        <Token POSTag="RP" globalID="94" id="3" offset="-1:2">
+                            <Text>out</Text>
+                        </Token>
+                        <Token POSTag="." globalID="95" id="4" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="96" id="5" offset="-1:1">
+                            <Text>''</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="412:478">
+                    <Text>He doesn't remember what happened but thinks he lost consciousness</Text>
+                    <Tokens Count="11">
+                        <Token POSTag="NN" globalID="97" id="0" offset="-1:1">
+                            <Text>He</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="98" id="1" offset="-1:3">
+                            <Text>does</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="99" id="2" offset="-1:2">
+                            <Text>n't</Text>
+                        </Token>
+                        <Token POSTag="VB" globalID="100" id="3" offset="-1:7">
+                            <Text>remember</Text>
+                        </Token>
+                        <Token POSTag="WP" globalID="101" id="4" offset="-1:3">
+                            <Text>what</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="102" id="5" offset="-1:7">
+                            <Text>happened</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="103" id="6" offset="-1:2">
+                            <Text>but</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="104" id="7" offset="-1:5">
+                            <Text>thinks</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="105" id="8" offset="-1:1">
+                            <Text>he</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="106" id="9" offset="-1:3">
+                            <Text>lost</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="107" id="10" offset="-1:12">
+                            <Text>consciousness</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="7">
+            <Sentences Count="3">
+                <Sentence id="0" offset="479:513">
+                    <Text>for only a few seconds to minutes.</Text>
+                    <Tokens Count="8">
+                        <Token POSTag="IN" globalID="108" id="0" offset="-1:2">
+                            <Text>for</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="109" id="1" offset="-1:3">
+                            <Text>only</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="110" id="2" offset="-1:0">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="111" id="3" offset="-1:2">
+                            <Text>few</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="112" id="4" offset="-1:6">
+                            <Text>seconds</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="113" id="5" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="114" id="6" offset="-1:6">
+                            <Text>minutes</Text>
+                        </Token>
+                        <Token POSTag="." globalID="115" id="7" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="514:556">
+                    <Text>No one was home at the time to witness it.</Text>
+                    <Tokens Count="11">
+                        <Token POSTag="NN" globalID="116" id="0" offset="-1:1">
+                            <Text>No</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="117" id="1" offset="-1:2">
+                            <Text>one</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="118" id="2" offset="-1:2">
+                            <Text>was</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="119" id="3" offset="-1:3">
+                            <Text>home</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="120" id="4" offset="-1:1">
+                            <Text>at</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="121" id="5" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="122" id="6" offset="-1:3">
+                            <Text>time</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="123" id="7" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="124" id="8" offset="-1:6">
+                            <Text>witness</Text>
+                        </Token>
+                        <Token POSTag="PRP" globalID="125" id="9" offset="-1:1">
+                            <Text>it</Text>
+                        </Token>
+                        <Token POSTag="." globalID="126" id="10" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="557:565">
+                    <Text>He had a</Text>
+                    <Tokens Count="3">
+                        <Token POSTag="NN" globalID="127" id="0" offset="-1:1">
+                            <Text>He</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="128" id="1" offset="-1:2">
+                            <Text>had</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="129" id="2" offset="-1:0">
+                            <Text>a</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="8">
+            <Sentences Count="2">
+                <Sentence id="0" offset="566:631">
+                    <Text>headache after the episode, which he relates to hitting his head.</Text>
+                    <Tokens Count="13">
+                        <Token POSTag="NN" globalID="130" id="0" offset="-1:7">
+                            <Text>headache</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="131" id="1" offset="-1:4">
+                            <Text>after</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="132" id="2" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="133" id="3" offset="-1:6">
+                            <Text>episode</Text>
+                        </Token>
+                        <Token POSTag="," globalID="134" id="4" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="WDT" globalID="135" id="5" offset="-1:4">
+                            <Text>which</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="136" id="6" offset="-1:1">
+                            <Text>he</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="137" id="7" offset="-1:6">
+                            <Text>relates</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="138" id="8" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="139" id="9" offset="-1:6">
+                            <Text>hitting</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="140" id="10" offset="-1:2">
+                            <Text>his</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="141" id="11" offset="-1:3">
+                            <Text>head</Text>
+                        </Token>
+                        <Token POSTag="." globalID="142" id="12" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="632:654">
+                    <Text>(It has eased off with</Text>
+                    <Tokens Count="6">
+                        <Token POSTag="-LRB-" globalID="143" id="0" offset="-1:0">
+                            <Text>(</Text>
+                        </Token>
+                        <Token POSTag="PRP" globalID="144" id="1" offset="-1:1">
+                            <Text>It</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="145" id="2" offset="-1:2">
+                            <Text>has</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="146" id="3" offset="-1:4">
+                            <Text>eased</Text>
+                        </Token>
+                        <Token POSTag="RP" globalID="147" id="4" offset="-1:2">
+                            <Text>off</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="148" id="5" offset="-1:3">
+                            <Text>with</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="9">
+            <Sentences Count="2">
+                <Sentence id="0" offset="655:664">
+                    <Text>Tylenol.)</Text>
+                    <Tokens Count="3">
+                        <Token POSTag="NN" globalID="149" id="0" offset="-1:6">
+                            <Text>Tylenol</Text>
+                        </Token>
+                        <Token POSTag="." globalID="150" id="1" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                        <Token POSTag="-RRB-" globalID="151" id="2" offset="2161:2162">
+                            <Text>)</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (NP (NP (NN Tylenol)) (. .)) (-RRB- -RRB-)))</ParseTree>
+                </Sentence>
+                <Sentence id="1" offset="665:741">
+                    <Text>Prior to losing consciousness, he did not experience a headache, chest pain,</Text>
+                    <Tokens Count="15">
+                        <Token POSTag="JJ" globalID="152" id="0" offset="-1:4">
+                            <Text>Prior</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="153" id="1" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="154" id="2" offset="-1:5">
+                            <Text>losing</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="155" id="3" offset="-1:12">
+                            <Text>consciousness</Text>
+                        </Token>
+                        <Token POSTag="," globalID="156" id="4" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="157" id="5" offset="-1:1">
+                            <Text>he</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="158" id="6" offset="-1:2">
+                            <Text>did</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="159" id="7" offset="-1:2">
+                            <Text>not</Text>
+                        </Token>
+                        <Token POSTag="VBP" globalID="160" id="8" offset="-1:9">
+                            <Text>experience</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="161" id="9" offset="-1:0">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="162" id="10" offset="-1:7">
+                            <Text>headache</Text>
+                        </Token>
+                        <Token POSTag="," globalID="163" id="11" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="164" id="12" offset="-1:4">
+                            <Text>chest</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="165" id="13" offset="-1:3">
+                            <Text>pain</Text>
+                        </Token>
+                        <Token POSTag="," globalID="166" id="14" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="10">
+            <Sentences Count="3">
+                <Sentence id="0" offset="742:779">
+                    <Text>palpitations, or shortness of breath.</Text>
+                    <Tokens Count="7">
+                        <Token POSTag="NNS" globalID="167" id="0" offset="-1:11">
+                            <Text>palpitations</Text>
+                        </Token>
+                        <Token POSTag="," globalID="168" id="1" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="169" id="2" offset="-1:1">
+                            <Text>or</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="170" id="3" offset="-1:8">
+                            <Text>shortness</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="171" id="4" offset="-1:1">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="172" id="5" offset="-1:5">
+                            <Text>breath</Text>
+                        </Token>
+                        <Token POSTag="." globalID="173" id="6" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="780:803">
+                    <Text>He was not incontinent.</Text>
+                    <Tokens Count="5">
+                        <Token POSTag="NN" globalID="174" id="0" offset="-1:1">
+                            <Text>He</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="175" id="1" offset="-1:2">
+                            <Text>was</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="176" id="2" offset="-1:2">
+                            <Text>not</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="177" id="3" offset="-1:10">
+                            <Text>incontinent</Text>
+                        </Token>
+                        <Token POSTag="." globalID="178" id="4" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="804:831">
+                    <Text>Other than the headache, he</Text>
+                    <Tokens Count="6">
+                        <Token POSTag="JJ" globalID="179" id="0" offset="-1:4">
+                            <Text>Other</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="180" id="1" offset="-1:3">
+                            <Text>than</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="181" id="2" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="182" id="3" offset="-1:7">
+                            <Text>headache</Text>
+                        </Token>
+                        <Token POSTag="," globalID="183" id="4" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="184" id="5" offset="-1:1">
+                            <Text>he</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="11">
+            <Sentences Count="1">
+                <Sentence id="0" offset="832:881">
+                    <Text>felt fine and ate his sandwich once he "came to."</Text>
+                    <Tokens Count="13">
+                        <Token POSTag="VBP" globalID="185" id="0" offset="-1:3">
+                            <Text>felt</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="186" id="1" offset="-1:3">
+                            <Text>fine</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="187" id="2" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="VBP" globalID="188" id="3" offset="-1:2">
+                            <Text>ate</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="189" id="4" offset="-1:2">
+                            <Text>his</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="190" id="5" offset="-1:7">
+                            <Text>sandwich</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="191" id="6" offset="-1:3">
+                            <Text>once</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="192" id="7" offset="-1:1">
+                            <Text>he</Text>
+                        </Token>
+                        <Token POSTag="``" globalID="193" id="8" offset="-1:1">
+                            <Text>``</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="194" id="9" offset="-1:3">
+                            <Text>came</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="195" id="10" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="." globalID="196" id="11" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="197" id="12" offset="-1:1">
+                            <Text>''</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="12">
+            <Sentences Count="2">
+                <Sentence id="0" offset="882:963">
+                    <Text>He had a very similar episode the next day while he was sitting down watching TV.</Text>
+                    <Tokens Count="17">
+                        <Token POSTag="NN" globalID="198" id="0" offset="-1:1">
+                            <Text>He</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="199" id="1" offset="-1:2">
+                            <Text>had</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="200" id="2" offset="-1:0">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="201" id="3" offset="-1:3">
+                            <Text>very</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="202" id="4" offset="-1:6">
+                            <Text>similar</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="203" id="5" offset="-1:6">
+                            <Text>episode</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="204" id="6" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="205" id="7" offset="-1:3">
+                            <Text>next</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="206" id="8" offset="-1:2">
+                            <Text>day</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="207" id="9" offset="-1:4">
+                            <Text>while</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="208" id="10" offset="-1:1">
+                            <Text>he</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="209" id="11" offset="-1:2">
+                            <Text>was</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="210" id="12" offset="-1:6">
+                            <Text>sitting</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="211" id="13" offset="-1:3">
+                            <Text>down</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="212" id="14" offset="-1:7">
+                            <Text>watching</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="213" id="15" offset="-1:1">
+                            <Text>TV</Text>
+                        </Token>
+                        <Token POSTag="." globalID="214" id="16" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="882:884">
+                    <Text>He</Text>
+                    <Tokens Count="1">
+                        <Token POSTag="NN" globalID="215" id="0" offset="-1:1">
+                            <Text>He</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="13">
+            <Sentences Count="1">
+                <Sentence id="0" offset="967:1057">
+                    <Text>felt like he was going to faint and then became aware that he had missed part of his show.
+                    </Text>
+                    <Tokens Count="20">
+                        <Token POSTag="NN" globalID="216" id="0" offset="-1:3">
+                            <Text>felt</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="217" id="1" offset="-1:3">
+                            <Text>like</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="218" id="2" offset="-1:1">
+                            <Text>he</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="219" id="3" offset="-1:2">
+                            <Text>was</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="220" id="4" offset="-1:4">
+                            <Text>going</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="221" id="5" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="222" id="6" offset="-1:4">
+                            <Text>faint</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="223" id="7" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="224" id="8" offset="-1:3">
+                            <Text>then</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="225" id="9" offset="-1:5">
+                            <Text>became</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="226" id="10" offset="-1:4">
+                            <Text>aware</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="227" id="11" offset="-1:3">
+                            <Text>that</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="228" id="12" offset="-1:1">
+                            <Text>he</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="229" id="13" offset="-1:2">
+                            <Text>had</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="230" id="14" offset="-1:5">
+                            <Text>missed</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="231" id="15" offset="-1:3">
+                            <Text>part</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="232" id="16" offset="-1:1">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="233" id="17" offset="-1:2">
+                            <Text>his</Text>
+                        </Token>
+                        <Token POSTag="VB" globalID="234" id="18" offset="-1:3">
+                            <Text>show</Text>
+                        </Token>
+                        <Token POSTag="." globalID="235" id="19" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="14">
+            <Sentences Count="2">
+                <Sentence id="0" offset="1058:1132">
+                    <Text>The 3rd fainting spell occurred this morning as he was getting out of bed.</Text>
+                    <Tokens Count="15">
+                        <Token POSTag="DT" globalID="236" id="0" offset="-1:2">
+                            <Text>The</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="237" id="1" offset="-1:2">
+                            <Text>3rd</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="238" id="2" offset="-1:7">
+                            <Text>fainting</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="239" id="3" offset="-1:4">
+                            <Text>spell</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="240" id="4" offset="-1:7">
+                            <Text>occurred</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="241" id="5" offset="-1:3">
+                            <Text>this</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="242" id="6" offset="-1:6">
+                            <Text>morning</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="243" id="7" offset="-1:1">
+                            <Text>as</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="244" id="8" offset="-1:1">
+                            <Text>he</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="245" id="9" offset="-1:2">
+                            <Text>was</Text>
+                        </Token>
+                        <Token POSTag="VBG" globalID="246" id="10" offset="-1:6">
+                            <Text>getting</Text>
+                        </Token>
+                        <Token POSTag="RP" globalID="247" id="11" offset="-1:2">
+                            <Text>out</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="248" id="12" offset="-1:1">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="249" id="13" offset="-1:2">
+                            <Text>bed</Text>
+                        </Token>
+                        <Token POSTag="." globalID="250" id="14" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="1133:1145">
+                    <Text>He fell back</Text>
+                    <Tokens Count="3">
+                        <Token POSTag="NN" globalID="251" id="0" offset="-1:1">
+                            <Text>He</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="252" id="1" offset="-1:3">
+                            <Text>fell</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="253" id="2" offset="-1:3">
+                            <Text>back</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="15">
+            <Sentences Count="2">
+                <Sentence id="0" offset="1146:1183">
+                    <Text>onto the bed so did not hurt himself.</Text>
+                    <Tokens Count="9">
+                        <Token POSTag="IN" globalID="254" id="0" offset="-1:3">
+                            <Text>onto</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="255" id="1" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="256" id="2" offset="-1:2">
+                            <Text>bed</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="257" id="3" offset="-1:1">
+                            <Text>so</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="258" id="4" offset="-1:2">
+                            <Text>did</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="259" id="5" offset="-1:2">
+                            <Text>not</Text>
+                        </Token>
+                        <Token POSTag="VB" globalID="260" id="6" offset="-1:3">
+                            <Text>hurt</Text>
+                        </Token>
+                        <Token POSTag="PRP" globalID="261" id="7" offset="-1:6">
+                            <Text>himself</Text>
+                        </Token>
+                        <Token POSTag="." globalID="262" id="8" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="1184:1236">
+                    <Text>He told his wife what happened and she insisted that</Text>
+                    <Tokens Count="10">
+                        <Token POSTag="NN" globalID="263" id="0" offset="-1:1">
+                            <Text>He</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="264" id="1" offset="-1:3">
+                            <Text>told</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="265" id="2" offset="-1:2">
+                            <Text>his</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="266" id="3" offset="-1:3">
+                            <Text>wife</Text>
+                        </Token>
+                        <Token POSTag="WP" globalID="267" id="4" offset="-1:3">
+                            <Text>what</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="268" id="5" offset="-1:7">
+                            <Text>happened</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="269" id="6" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="PRP" globalID="270" id="7" offset="-1:2">
+                            <Text>she</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="271" id="8" offset="-1:7">
+                            <Text>insisted</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="272" id="9" offset="-1:3">
+                            <Text>that</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="16">
+            <Sentences Count="1">
+                <Sentence id="0" offset="1237:1256">
+                    <Text>he come to the ER.</Text>
+                    <Tokens Count="6">
+                        <Token POSTag="NN" globalID="273" id="0" offset="-1:1">
+                            <Text>he</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="274" id="1" offset="-1:3">
+                            <Text>come</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="275" id="2" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="276" id="3" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="277" id="4" offset="-1:1">
+                            <Text>ER</Text>
+                        </Token>
+                        <Token POSTag="." globalID="278" id="5" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="17">
+            <Sentences Count="2">
+                <Sentence id="0" offset="1257:1334">
+                    <Text>He has not started any new medicines or engaged in any new activities lately.</Text>
+                    <Tokens Count="15">
+                        <Token POSTag="NN" globalID="279" id="0" offset="-1:1">
+                            <Text>He</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="280" id="1" offset="-1:2">
+                            <Text>has</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="281" id="2" offset="-1:2">
+                            <Text>not</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="282" id="3" offset="-1:6">
+                            <Text>started</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="283" id="4" offset="-1:2">
+                            <Text>any</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="284" id="5" offset="-1:2">
+                            <Text>new</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="285" id="6" offset="-1:8">
+                            <Text>medicines</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="286" id="7" offset="-1:1">
+                            <Text>or</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="287" id="8" offset="-1:6">
+                            <Text>engaged</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="288" id="9" offset="-1:1">
+                            <Text>in</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="289" id="10" offset="-1:2">
+                            <Text>any</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="290" id="11" offset="-1:2">
+                            <Text>new</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="291" id="12" offset="-1:9">
+                            <Text>activities</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="292" id="13" offset="-1:5">
+                            <Text>lately</Text>
+                        </Token>
+                        <Token POSTag="." globalID="293" id="14" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="1257:1267">
+                    <Text>He has not</Text>
+                    <Tokens Count="3">
+                        <Token POSTag="NN" globalID="294" id="0" offset="-1:1">
+                            <Text>He</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="295" id="1" offset="-1:2">
+                            <Text>has</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="296" id="2" offset="-1:2">
+                            <Text>not</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="18">
+            <Sentences Count="2">
+                <Sentence id="0" offset="1346:1375">
+                    <Text>been sick including no N/V/D.</Text>
+                    <Tokens Count="6">
+                        <Token POSTag="VBN" globalID="297" id="0" offset="-1:3">
+                            <Text>been</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="298" id="1" offset="-1:3">
+                            <Text>sick</Text>
+                        </Token>
+                        <Token POSTag="VBG" globalID="299" id="2" offset="-1:8">
+                            <Text>including</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="300" id="3" offset="-1:1">
+                            <Text>no</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="301" id="4" offset="-1:4">
+                            <Text>N/V/D</Text>
+                        </Token>
+                        <Token POSTag="." globalID="302" id="5" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="1376:1430">
+                    <Text>He has never had chest pains or been told he has heart</Text>
+                    <Tokens Count="12">
+                        <Token POSTag="NN" globalID="303" id="0" offset="-1:1">
+                            <Text>He</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="304" id="1" offset="-1:2">
+                            <Text>has</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="305" id="2" offset="-1:4">
+                            <Text>never</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="306" id="3" offset="-1:2">
+                            <Text>had</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="307" id="4" offset="-1:4">
+                            <Text>chest</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="308" id="5" offset="-1:4">
+                            <Text>pains</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="309" id="6" offset="-1:1">
+                            <Text>or</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="310" id="7" offset="-1:3">
+                            <Text>been</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="311" id="8" offset="-1:3">
+                            <Text>told</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="312" id="9" offset="-1:1">
+                            <Text>he</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="313" id="10" offset="-1:2">
+                            <Text>has</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="314" id="11" offset="-1:4">
+                            <Text>heart</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="19">
+            <Sentences Count="2">
+                <Sentence id="0" offset="1431:1439">
+                    <Text>disease.</Text>
+                    <Tokens Count="2">
+                        <Token POSTag="NN" globalID="315" id="0" offset="-1:6">
+                            <Text>disease</Text>
+                        </Token>
+                        <Token POSTag="." globalID="316" id="1" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (NP (NP (NN disease)) (. .))))</ParseTree>
+                </Sentence>
+                <Sentence id="1" offset="1440:1515">
+                    <Text>He has had vertigo in the past but that was very different from his current</Text>
+                    <Tokens Count="15">
+                        <Token POSTag="NN" globalID="317" id="0" offset="-1:1">
+                            <Text>He</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="318" id="1" offset="-1:2">
+                            <Text>has</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="319" id="2" offset="-1:2">
+                            <Text>had</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="320" id="3" offset="-1:6">
+                            <Text>vertigo</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="321" id="4" offset="-1:1">
+                            <Text>in</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="322" id="5" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="323" id="6" offset="-1:3">
+                            <Text>past</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="324" id="7" offset="-1:2">
+                            <Text>but</Text>
+                        </Token>
+                        <Token POSTag="WDT" globalID="325" id="8" offset="-1:3">
+                            <Text>that</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="326" id="9" offset="-1:2">
+                            <Text>was</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="327" id="10" offset="-1:3">
+                            <Text>very</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="328" id="11" offset="-1:8">
+                            <Text>different</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="329" id="12" offset="-1:3">
+                            <Text>from</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="330" id="13" offset="-1:2">
+                            <Text>his</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="331" id="14" offset="-1:6">
+                            <Text>current</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="20">
+            <Sentences Count="2">
+                <Sentence id="0" offset="1516:1528">
+                    <Text>"dizziness".</Text>
+                    <Tokens Count="4">
+                        <Token POSTag="``" globalID="332" id="0" offset="-1:1">
+                            <Text>``</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="333" id="1" offset="-1:8">
+                            <Text>dizziness</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="334" id="2" offset="-1:1">
+                            <Text>''</Text>
+                        </Token>
+                        <Token POSTag="." globalID="335" id="3" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="1529:1604">
+                    <Text>He has not had any change in vision, slurred speech, weakness, numbness, or</Text>
+                    <Tokens Count="17">
+                        <Token POSTag="NN" globalID="336" id="0" offset="-1:1">
+                            <Text>He</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="337" id="1" offset="-1:2">
+                            <Text>has</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="338" id="2" offset="-1:2">
+                            <Text>not</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="339" id="3" offset="-1:2">
+                            <Text>had</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="340" id="4" offset="-1:2">
+                            <Text>any</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="341" id="5" offset="-1:5">
+                            <Text>change</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="342" id="6" offset="-1:1">
+                            <Text>in</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="343" id="7" offset="-1:5">
+                            <Text>vision</Text>
+                        </Token>
+                        <Token POSTag="," globalID="344" id="8" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="345" id="9" offset="-1:6">
+                            <Text>slurred</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="346" id="10" offset="-1:5">
+                            <Text>speech</Text>
+                        </Token>
+                        <Token POSTag="," globalID="347" id="11" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="348" id="12" offset="-1:7">
+                            <Text>weakness</Text>
+                        </Token>
+                        <Token POSTag="," globalID="349" id="13" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="350" id="14" offset="-1:7">
+                            <Text>numbness</Text>
+                        </Token>
+                        <Token POSTag="," globalID="351" id="15" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="352" id="16" offset="-1:1">
+                            <Text>or</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="21">
+            <Sentences Count="1">
+                <Sentence id="0" offset="1605:1631">
+                    <Text>tingling in the last week.</Text>
+                    <Tokens Count="6">
+                        <Token POSTag="VBG" globalID="353" id="0" offset="-1:7">
+                            <Text>tingling</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="354" id="1" offset="-1:1">
+                            <Text>in</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="355" id="2" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="356" id="3" offset="-1:3">
+                            <Text>last</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="357" id="4" offset="-1:3">
+                            <Text>week</Text>
+                        </Token>
+                        <Token POSTag="." globalID="358" id="5" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="22">
+            <Sentences Count="0"/>
+        </Paragraph>
+        <Paragraph id="23">
+            <Sentences Count="1">
+                <Sentence id="0" offset="1633:1644">
+                    <Text>Medications</Text>
+                    <Tokens Count="1">
+                        <Token POSTag="NNS" globalID="359" id="0" offset="-1:10">
+                            <Text>Medications</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="24">
+            <Sentences Count="1">
+                <Sentence id="0" offset="1645:1682">
+                    <Text>1. lisinopril 20 mg po daily, for HTN</Text>
+                    <Tokens Count="9">
+                        <Token POSTag="LS" globalID="360" id="0" offset="-1:1">
+                            <Text>1.</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="361" id="1" offset="-1:9">
+                            <Text>lisinopril</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="362" id="2" offset="-1:1">
+                            <Text>20</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="363" id="3" offset="-1:1">
+                            <Text>mg</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="364" id="4" offset="-1:1">
+                            <Text>po</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="365" id="5" offset="-1:4">
+                            <Text>daily</Text>
+                        </Token>
+                        <Token POSTag="," globalID="366" id="6" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="367" id="7" offset="-1:2">
+                            <Text>for</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="368" id="8" offset="-1:2">
+                            <Text>HTN</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (LST (LS 1.)) (NP (NP (NN lisinopril) (CD 20) (NN mg) (CD po)) (ADVP (RB daily))
+                        (, ,) (PP (IN for) (NP (NN HTN))))))
+                    </ParseTree>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="25">
+            <Sentences Count="2">
+                <Sentence id="0" offset="1683:1685">
+                    <Text>2.</Text>
+                    <Tokens Count="2">
+                        <Token POSTag="CD" globalID="369" id="0" offset="-1:0">
+                            <Text>2</Text>
+                        </Token>
+                        <Token POSTag="." globalID="370" id="1" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (NP (NP (CD 2)) (. .))))</ParseTree>
+                </Sentence>
+                <Sentence id="1" offset="1686:1721">
+                    <Text>Hytrin 5 mg po at bedtime, for BPH</Text>
+                    <Tokens Count="9">
+                        <Token POSTag="NN" globalID="371" id="0" offset="-1:5">
+                            <Text>Hytrin</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="372" id="1" offset="-1:0">
+                            <Text>5</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="373" id="2" offset="-1:1">
+                            <Text>mg</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="374" id="3" offset="-1:1">
+                            <Text>po</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="375" id="4" offset="-1:1">
+                            <Text>at</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="376" id="5" offset="-1:6">
+                            <Text>bedtime</Text>
+                        </Token>
+                        <Token POSTag="," globalID="377" id="6" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="378" id="7" offset="-1:2">
+                            <Text>for</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="379" id="8" offset="-1:2">
+                            <Text>BPH</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="26">
+            <Sentences Count="2">
+                <Sentence id="0" offset="1722:1724">
+                    <Text>3.</Text>
+                    <Tokens Count="2">
+                        <Token POSTag="CD" globalID="380" id="0" offset="-1:0">
+                            <Text>3</Text>
+                        </Token>
+                        <Token POSTag="." globalID="381" id="1" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (NP (NP (CD 3)) (. .))))</ParseTree>
+                </Sentence>
+                <Sentence id="1" offset="1725:1766">
+                    <Text>ASA 325 mg po daily, for cardioprotection</Text>
+                    <Tokens Count="8">
+                        <Token POSTag="NN" globalID="382" id="0" offset="-1:2">
+                            <Text>ASA</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="383" id="1" offset="-1:2">
+                            <Text>325</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="384" id="2" offset="-1:1">
+                            <Text>mg</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="385" id="3" offset="-1:1">
+                            <Text>po</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="386" id="4" offset="-1:4">
+                            <Text>daily</Text>
+                        </Token>
+                        <Token POSTag="," globalID="387" id="5" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="388" id="6" offset="-1:2">
+                            <Text>for</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="389" id="7" offset="-1:15">
+                            <Text>cardioprotection</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="27">
+            <Sentences Count="2">
+                <Sentence id="0" offset="1767:1769">
+                    <Text>4.</Text>
+                    <Tokens Count="2">
+                        <Token POSTag="CD" globalID="390" id="0" offset="-1:0">
+                            <Text>4</Text>
+                        </Token>
+                        <Token POSTag="." globalID="391" id="1" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (NP (CD 4))) (. .)))</ParseTree>
+                </Sentence>
+                <Sentence id="1" offset="1770:1817">
+                    <Text>Allopurinol 300mg po daily, for gout prevention</Text>
+                    <Tokens Count="8">
+                        <Token POSTag="NN" globalID="392" id="0" offset="-1:10">
+                            <Text>Allopurinol</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="393" id="1" offset="-1:4">
+                            <Text>300mg</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="394" id="2" offset="-1:1">
+                            <Text>po</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="395" id="3" offset="-1:4">
+                            <Text>daily</Text>
+                        </Token>
+                        <Token POSTag="," globalID="396" id="4" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="397" id="5" offset="-1:2">
+                            <Text>for</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="398" id="6" offset="-1:3">
+                            <Text>gout</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="399" id="7" offset="-1:9">
+                            <Text>prevention</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="28">
+            <Sentences Count="2">
+                <Sentence id="0" offset="1818:1820">
+                    <Text>5.</Text>
+                    <Tokens Count="2">
+                        <Token POSTag="CD" globalID="400" id="0" offset="-1:0">
+                            <Text>5</Text>
+                        </Token>
+                        <Token POSTag="." globalID="401" id="1" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (NP (NP (CD 5)) (. .))))</ParseTree>
+                </Sentence>
+                <Sentence id="1" offset="1821:1860">
+                    <Text>Atrovent 2puffs 4 times a day, for COPD</Text>
+                    <Tokens Count="9">
+                        <Token POSTag="NN" globalID="402" id="0" offset="-1:7">
+                            <Text>Atrovent</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="403" id="1" offset="-1:5">
+                            <Text>2puffs</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="404" id="2" offset="-1:0">
+                            <Text>4</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="405" id="3" offset="-1:4">
+                            <Text>times</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="406" id="4" offset="-1:0">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="407" id="5" offset="-1:2">
+                            <Text>day</Text>
+                        </Token>
+                        <Token POSTag="," globalID="408" id="6" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="409" id="7" offset="-1:2">
+                            <Text>for</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="410" id="8" offset="-1:3">
+                            <Text>COPD</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="29">
+            <Sentences Count="2">
+                <Sentence id="0" offset="1861:1863">
+                    <Text>6.</Text>
+                    <Tokens Count="2">
+                        <Token POSTag="CD" globalID="411" id="0" offset="-1:0">
+                            <Text>6</Text>
+                        </Token>
+                        <Token POSTag="." globalID="412" id="1" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (NP (NP (CD 6)) (. .))))</ParseTree>
+                </Sentence>
+                <Sentence id="1" offset="1864:1919">
+                    <Text>Motrin 200mg po 2-3 times a day as needed for arthritis</Text>
+                    <Tokens Count="11">
+                        <Token POSTag="NN" globalID="413" id="0" offset="-1:5">
+                            <Text>Motrin</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="414" id="1" offset="-1:4">
+                            <Text>200mg</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="415" id="2" offset="-1:1">
+                            <Text>po</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="416" id="3" offset="-1:2">
+                            <Text>2-3</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="417" id="4" offset="-1:4">
+                            <Text>times</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="418" id="5" offset="-1:0">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="419" id="6" offset="-1:2">
+                            <Text>day</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="420" id="7" offset="-1:1">
+                            <Text>as</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="421" id="8" offset="-1:5">
+                            <Text>needed</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="422" id="9" offset="-1:2">
+                            <Text>for</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="423" id="10" offset="-1:8">
+                            <Text>arthritis</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="30">
+            <Sentences Count="2">
+                <Sentence id="0" offset="1920:1922">
+                    <Text>7.</Text>
+                    <Tokens Count="2">
+                        <Token POSTag="CD" globalID="424" id="0" offset="-1:0">
+                            <Text>7</Text>
+                        </Token>
+                        <Token POSTag="." globalID="425" id="1" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (NP (NP (CD 7)) (. .))))</ParseTree>
+                </Sentence>
+                <Sentence id="1" offset="1923:1980">
+                    <Text>Aleve 1-2 tabs po 2-3 times a day as needed for arthritis</Text>
+                    <Tokens Count="12">
+                        <Token POSTag="NN" globalID="426" id="0" offset="-1:4">
+                            <Text>Aleve</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="427" id="1" offset="-1:2">
+                            <Text>1-2</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="428" id="2" offset="-1:3">
+                            <Text>tabs</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="429" id="3" offset="-1:1">
+                            <Text>po</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="430" id="4" offset="-1:2">
+                            <Text>2-3</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="431" id="5" offset="-1:4">
+                            <Text>times</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="432" id="6" offset="-1:0">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="433" id="7" offset="-1:2">
+                            <Text>day</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="434" id="8" offset="-1:1">
+                            <Text>as</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="435" id="9" offset="-1:5">
+                            <Text>needed</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="436" id="10" offset="-1:2">
+                            <Text>for</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="437" id="11" offset="-1:8">
+                            <Text>arthritis</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="31">
+            <Sentences Count="2">
+                <Sentence id="0" offset="1981:1983">
+                    <Text>8.</Text>
+                    <Tokens Count="2">
+                        <Token POSTag="CD" globalID="438" id="0" offset="-1:0">
+                            <Text>8</Text>
+                        </Token>
+                        <Token POSTag="." globalID="439" id="1" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (NP (NP (CD 8)) (. .))))</ParseTree>
+                </Sentence>
+                <Sentence id="1" offset="1984:2053">
+                    <Text>Tylenol arthritis 1-2 tabs po 3-4 times a day as needed for arthritis</Text>
+                    <Tokens Count="13">
+                        <Token POSTag="NN" globalID="440" id="0" offset="-1:6">
+                            <Text>Tylenol</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="441" id="1" offset="-1:8">
+                            <Text>arthritis</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="442" id="2" offset="-1:2">
+                            <Text>1-2</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="443" id="3" offset="-1:3">
+                            <Text>tabs</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="444" id="4" offset="-1:1">
+                            <Text>po</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="445" id="5" offset="-1:2">
+                            <Text>3-4</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="446" id="6" offset="-1:4">
+                            <Text>times</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="447" id="7" offset="-1:0">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="448" id="8" offset="-1:2">
+                            <Text>day</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="449" id="9" offset="-1:1">
+                            <Text>as</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="450" id="10" offset="-1:5">
+                            <Text>needed</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="451" id="11" offset="-1:2">
+                            <Text>for</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="452" id="12" offset="-1:8">
+                            <Text>arthritis</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="32">
+            <Sentences Count="2">
+                <Sentence id="0" offset="2054:2056">
+                    <Text>9.</Text>
+                    <Tokens Count="2">
+                        <Token POSTag="CD" globalID="453" id="0" offset="-1:0">
+                            <Text>9</Text>
+                        </Token>
+                        <Token POSTag="." globalID="454" id="1" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (NP (NP (CD 9)) (. .))))</ParseTree>
+                </Sentence>
+                <Sentence id="1" offset="2057:2099">
+                    <Text>Saw palmetto 2 tabs po daily, for prostate</Text>
+                    <Tokens Count="9">
+                        <Token POSTag="VB" globalID="455" id="0" offset="-1:2">
+                            <Text>Saw</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="456" id="1" offset="-1:7">
+                            <Text>palmetto</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="457" id="2" offset="-1:0">
+                            <Text>2</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="458" id="3" offset="-1:3">
+                            <Text>tabs</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="459" id="4" offset="-1:1">
+                            <Text>po</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="460" id="5" offset="-1:4">
+                            <Text>daily</Text>
+                        </Token>
+                        <Token POSTag="," globalID="461" id="6" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="462" id="7" offset="-1:2">
+                            <Text>for</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="463" id="8" offset="-1:7">
+                            <Text>prostate</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="33">
+            <Sentences Count="0"/>
+        </Paragraph>
+        <Paragraph id="34">
+            <Sentences Count="1">
+                <Sentence id="0" offset="2101:2124">
+                    <Text>Allergies- sulfa (rash)</Text>
+                    <Tokens Count="5">
+                        <Token POSTag="JJ" globalID="464" id="0" offset="-1:9">
+                            <Text>Allergies-</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="465" id="1" offset="-1:4">
+                            <Text>sulfa</Text>
+                        </Token>
+                        <Token POSTag="-LRB-" globalID="466" id="2" offset="-1:0">
+                            <Text>(</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="467" id="3" offset="-1:3">
+                            <Text>rash</Text>
+                        </Token>
+                        <Token POSTag="-RRB-" globalID="468" id="4" offset="2161:2162">
+                            <Text>)</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="35">
+            <Sentences Count="1">
+                <Sentence id="0" offset="2125:2162">
+                    <Text>Adverse drug reactions- codeine (N/V)</Text>
+                    <Tokens Count="7">
+                        <Token POSTag="JJ" globalID="469" id="0" offset="-1:6">
+                            <Text>Adverse</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="470" id="1" offset="-1:3">
+                            <Text>drug</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="471" id="2" offset="-1:9">
+                            <Text>reactions-</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="472" id="3" offset="-1:6">
+                            <Text>codeine</Text>
+                        </Token>
+                        <Token POSTag="-LRB-" globalID="473" id="4" offset="-1:0">
+                            <Text>(</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="474" id="5" offset="-1:2">
+                            <Text>N/V</Text>
+                        </Token>
+                        <Token POSTag="-RRB-" globalID="475" id="6" offset="2161:2162">
+                            <Text>)</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+    </Paragraphs>
+</StartOutput>

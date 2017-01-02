@@ -10,8 +10,8 @@ from Extractors.Gender.GenderRegExtractor import GenderRegExtractor
 from Extractors.Gender.SVMv1GenderExtractor import SVMv1GenderExtractor
 from Assemblers.EntityAssembler import EntityAssembler
 
-class GenderAssembler(EntityAssembler):
 
+class GenderAssembler(EntityAssembler):
     def __init__(self, rawTextFileName, intermediateXMLFileName, anExtractorList=[]):
         """
         Initializes the EventDateAssembler and returns it. All Extractors for the Event Date DataElement must be specified in the list below. 
@@ -24,7 +24,9 @@ class GenderAssembler(EntityAssembler):
         """
         super(GenderAssembler, self).__init__(rawTextFileName, intermediateXMLFileName, anExtractorList=[])
 
-        self.AllPossibleExtractorList = {"GenderRegExtractor":GenderRegExtractor(rawTextFileName, intermediateXMLFileName), "SVMv1GenderExtractor":SVMv1GenderExtractor(rawTextFileName, intermediateXMLFileName)}
+        self.AllPossibleExtractorList = {
+            "GenderRegExtractor": GenderRegExtractor(rawTextFileName, intermediateXMLFileName),
+            "SVMv1GenderExtractor": SVMv1GenderExtractor(rawTextFileName, intermediateXMLFileName)}
         self.entityName = 'SEX'
         self.filename = rawTextFileName
         self.testCaseName = self.filename[self.filename.rfind(r'/') + 1:self.filename.rfind(r'.txt')]

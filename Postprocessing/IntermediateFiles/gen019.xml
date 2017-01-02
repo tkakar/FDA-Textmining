@@ -1,1 +1,2343 @@
-<StartOutput><Paragraphs Count="29"><Paragraph id="0"><Sentences Count="2"><Sentence id="0" offset="0:75"><Text>Client is 27 year old single female, A/O x3 self directing Wt: 100-150 lbs.</Text><Tokens Count="17"><Token globalID="0" id="0" offset="0:6"><Text>Client</Text></Token><Token globalID="1" id="1" offset="7:9"><Text>is</Text></Token><Token globalID="2" id="2" offset="10:12"><Text>27</Text></Token><Token globalID="3" id="3" offset="13:17"><Text>year</Text></Token><Token globalID="4" id="4" offset="18:21"><Text>old</Text></Token><Token globalID="5" id="5" offset="22:28"><Text>single</Text></Token><Token globalID="6" id="6" offset="29:35"><Text>female</Text></Token><Token globalID="7" id="7" offset="35:36"><Text>,</Text></Token><Token globalID="8" id="8" offset="37:40"><Text>A/O</Text></Token><Token globalID="9" id="9" offset="41:43"><Text>x3</Text></Token><Token globalID="10" id="10" offset="44:48"><Text>self</Text></Token><Token globalID="11" id="11" offset="49:58"><Text>directing</Text></Token><Token globalID="12" id="12" offset="59:61"><Text>Wt</Text></Token><Token globalID="13" id="13" offset="61:62"><Text>:</Text></Token><Token globalID="14" id="14" offset="63:70"><Text>100-150</Text></Token><Token globalID="15" id="15" offset="71:74"><Text>lbs</Text></Token><Token globalID="16" id="16" offset="74:75"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="76:120"><Text>Ht: 5&#8217;4&#8221; vision, speech, and hearing ok.</Text><Tokens Count="11"><Token globalID="17" id="0" offset="76:78"><Text>Ht</Text></Token><Token globalID="18" id="1" offset="78:79"><Text>:</Text></Token><Token globalID="19" id="2" offset="80:88"><Text>5&#8217;4&#8221;</Text></Token><Token globalID="20" id="3" offset="89:95"><Text>vision</Text></Token><Token globalID="21" id="4" offset="95:96"><Text>,</Text></Token><Token globalID="22" id="5" offset="97:103"><Text>speech</Text></Token><Token globalID="23" id="6" offset="103:104"><Text>,</Text></Token><Token globalID="24" id="7" offset="105:108"><Text>and</Text></Token><Token globalID="25" id="8" offset="109:116"><Text>hearing</Text></Token><Token globalID="26" id="9" offset="117:119"><Text>ok</Text></Token><Token globalID="27" id="10" offset="119:120"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="1"><Sentences Count="2"><Sentence id="0" offset="121:206"><Text>Due to a spinal cord injury/quad client requires total care in all ADL&#8217;s and IADLs.</Text><Tokens Count="16"><Token globalID="28" id="0" offset="121:124"><Text>Due</Text></Token><Token globalID="29" id="1" offset="125:127"><Text>to</Text></Token><Token globalID="30" id="2" offset="128:129"><Text>a</Text></Token><Token globalID="31" id="3" offset="130:136"><Text>spinal</Text></Token><Token globalID="32" id="4" offset="137:141"><Text>cord</Text></Token><Token globalID="33" id="5" offset="142:153"><Text>injury/quad</Text></Token><Token globalID="34" id="6" offset="154:160"><Text>client</Text></Token><Token globalID="35" id="7" offset="161:169"><Text>requires</Text></Token><Token globalID="36" id="8" offset="170:175"><Text>total</Text></Token><Token globalID="37" id="9" offset="176:180"><Text>care</Text></Token><Token globalID="38" id="10" offset="181:183"><Text>in</Text></Token><Token globalID="39" id="11" offset="184:187"><Text>all</Text></Token><Token globalID="40" id="12" offset="188:195"><Text>ADL&#8217;s</Text></Token><Token globalID="41" id="13" offset="196:199"><Text>and</Text></Token><Token globalID="42" id="14" offset="200:205"><Text>IADLs</Text></Token><Token globalID="43" id="15" offset="205:206"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="207:238"><Text>Client resides in single family</Text><Tokens Count="5"><Token globalID="44" id="0" offset="207:213"><Text>Client</Text></Token><Token globalID="45" id="1" offset="214:221"><Text>resides</Text></Token><Token globalID="46" id="2" offset="222:224"><Text>in</Text></Token><Token globalID="47" id="3" offset="225:231"><Text>single</Text></Token><Token globalID="48" id="4" offset="232:238"><Text>family</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="2"><Sentences Count="2"><Sentence id="0" offset="239:329"><Text>home with 50 year old mother, 52 year old father, 29 year old sister and a dog and 2 cats.</Text><Tokens Count="23"><Token globalID="49" id="0" offset="239:243"><Text>home</Text></Token><Token globalID="50" id="1" offset="244:248"><Text>with</Text></Token><Token globalID="51" id="2" offset="249:251"><Text>50</Text></Token><Token globalID="52" id="3" offset="252:256"><Text>year</Text></Token><Token globalID="53" id="4" offset="257:260"><Text>old</Text></Token><Token globalID="54" id="5" offset="261:267"><Text>mother</Text></Token><Token globalID="55" id="6" offset="267:268"><Text>,</Text></Token><Token globalID="56" id="7" offset="269:271"><Text>52</Text></Token><Token globalID="57" id="8" offset="272:276"><Text>year</Text></Token><Token globalID="58" id="9" offset="277:280"><Text>old</Text></Token><Token globalID="59" id="10" offset="281:287"><Text>father</Text></Token><Token globalID="60" id="11" offset="287:288"><Text>,</Text></Token><Token globalID="61" id="12" offset="289:291"><Text>29</Text></Token><Token globalID="62" id="13" offset="292:296"><Text>year</Text></Token><Token globalID="63" id="14" offset="297:300"><Text>old</Text></Token><Token globalID="64" id="15" offset="301:307"><Text>sister</Text></Token><Token globalID="65" id="16" offset="308:311"><Text>and</Text></Token><Token globalID="66" id="17" offset="308:309"><Text>a</Text></Token><Token globalID="67" id="18" offset="314:317"><Text>dog</Text></Token><Token globalID="68" id="19" offset="318:321"><Text>and</Text></Token><Token globalID="69" id="20" offset="322:323"><Text>2</Text></Token><Token globalID="70" id="21" offset="324:328"><Text>cats</Text></Token><Token globalID="71" id="22" offset="328:329"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="330:350"><Text>Both parents are the</Text><Tokens Count="4"><Token globalID="72" id="0" offset="330:334"><Text>Both</Text></Token><Token globalID="73" id="1" offset="335:342"><Text>parents</Text></Token><Token globalID="74" id="2" offset="336:339"><Text>are</Text></Token><Token globalID="75" id="3" offset="347:350"><Text>the</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="3"><Sentences Count="3"><Sentence id="0" offset="351:398"><Text>primary caregivers and have joint guardianship.</Text><Tokens Count="7"><Token globalID="76" id="0" offset="351:358"><Text>primary</Text></Token><Token globalID="77" id="1" offset="359:369"><Text>caregivers</Text></Token><Token globalID="78" id="2" offset="370:373"><Text>and</Text></Token><Token globalID="79" id="3" offset="374:378"><Text>have</Text></Token><Token globalID="80" id="4" offset="379:384"><Text>joint</Text></Token><Token globalID="81" id="5" offset="385:397"><Text>guardianship</Text></Token><Token globalID="82" id="6" offset="397:398"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="399:441"><Text>Client&#8217;s aunt is the secondary guardian.</Text><Tokens Count="7"><Token globalID="83" id="0" offset="399:409"><Text>Client&#8217;s</Text></Token><Token globalID="84" id="1" offset="410:414"><Text>aunt</Text></Token><Token globalID="85" id="2" offset="415:417"><Text>is</Text></Token><Token globalID="86" id="3" offset="418:421"><Text>the</Text></Token><Token globalID="87" id="4" offset="422:431"><Text>secondary</Text></Token><Token globalID="88" id="5" offset="432:440"><Text>guardian</Text></Token><Token globalID="89" id="6" offset="440:441"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="442:467"><Text>Client&#8217;s sister teaches</Text><Tokens Count="3"><Token globalID="90" id="0" offset="442:452"><Text>Client&#8217;s</Text></Token><Token globalID="91" id="1" offset="453:459"><Text>sister</Text></Token><Token globalID="92" id="2" offset="460:467"><Text>teaches</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="4"><Sentences Count="2"><Sentence id="0" offset="468:503"><Text>and works during the summer months.</Text><Tokens Count="7"><Token globalID="93" id="0" offset="468:471"><Text>and</Text></Token><Token globalID="94" id="1" offset="472:477"><Text>works</Text></Token><Token globalID="95" id="2" offset="478:484"><Text>during</Text></Token><Token globalID="96" id="3" offset="485:488"><Text>the</Text></Token><Token globalID="97" id="4" offset="489:495"><Text>summer</Text></Token><Token globalID="98" id="5" offset="496:502"><Text>months</Text></Token><Token globalID="99" id="6" offset="502:503"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="504:577"><Text>Per client and mom, sister is not reliable but does assist in some of the</Text><Tokens Count="16"><Token globalID="100" id="0" offset="504:507"><Text>Per</Text></Token><Token globalID="101" id="1" offset="508:514"><Text>client</Text></Token><Token globalID="102" id="2" offset="515:518"><Text>and</Text></Token><Token globalID="103" id="3" offset="519:522"><Text>mom</Text></Token><Token globalID="104" id="4" offset="522:523"><Text>,</Text></Token><Token globalID="105" id="5" offset="524:530"><Text>sister</Text></Token><Token globalID="106" id="6" offset="525:527"><Text>is</Text></Token><Token globalID="107" id="7" offset="534:537"><Text>not</Text></Token><Token globalID="108" id="8" offset="538:546"><Text>reliable</Text></Token><Token globalID="109" id="9" offset="547:550"><Text>but</Text></Token><Token globalID="110" id="10" offset="551:555"><Text>does</Text></Token><Token globalID="111" id="11" offset="556:562"><Text>assist</Text></Token><Token globalID="112" id="12" offset="563:565"><Text>in</Text></Token><Token globalID="113" id="13" offset="566:570"><Text>some</Text></Token><Token globalID="114" id="14" offset="571:573"><Text>of</Text></Token><Token globalID="115" id="15" offset="574:577"><Text>the</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="5"><Sentences Count="2"><Sentence id="0" offset="578:594"><Text>client&#8217;s care.</Text><Tokens Count="3"><Token globalID="116" id="0" offset="578:588"><Text>client&#8217;s</Text></Token><Token globalID="117" id="1" offset="589:593"><Text>care</Text></Token><Token globalID="118" id="2" offset="593:594"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="595:687"><Text>Client&#8217;s mom is a nurse works 3dpw (varies) 11a-11p shifts (leaves 10:15p and returns home</Text><Tokens Count="18"><Token globalID="119" id="0" offset="595:605"><Text>Client&#8217;s</Text></Token><Token globalID="120" id="1" offset="606:609"><Text>mom</Text></Token><Token globalID="121" id="2" offset="610:612"><Text>is</Text></Token><Token globalID="122" id="3" offset="613:614"><Text>a</Text></Token><Token globalID="123" id="4" offset="615:620"><Text>nurse</Text></Token><Token globalID="124" id="5" offset="621:626"><Text>works</Text></Token><Token globalID="125" id="6" offset="627:631"><Text>3dpw</Text></Token><Token globalID="126" id="7" offset="632:633"><Text>(</Text></Token><Token globalID="127" id="8" offset="633:639"><Text>varies</Text></Token><Token globalID="128" id="9" offset="639:640"><Text>)</Text></Token><Token globalID="129" id="10" offset="641:648"><Text>11a-11p</Text></Token><Token globalID="130" id="11" offset="649:655"><Text>shifts</Text></Token><Token globalID="131" id="12" offset="656:657"><Text>(</Text></Token><Token globalID="132" id="13" offset="657:663"><Text>leaves</Text></Token><Token globalID="133" id="14" offset="664:670"><Text>10:15p</Text></Token><Token globalID="134" id="15" offset="671:674"><Text>and</Text></Token><Token globalID="135" id="16" offset="675:682"><Text>returns</Text></Token><Token globalID="136" id="17" offset="683:687"><Text>home</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="6"><Sentences Count="2"><Sentence id="0" offset="688:759"><Text>anywhere between 12:30a-3:00a in addition to working a lot of overtime.</Text><Tokens Count="12"><Token globalID="137" id="0" offset="688:696"><Text>anywhere</Text></Token><Token globalID="138" id="1" offset="697:704"><Text>between</Text></Token><Token globalID="139" id="2" offset="705:717"><Text>12:30a-3:00a</Text></Token><Token globalID="140" id="3" offset="718:720"><Text>in</Text></Token><Token globalID="141" id="4" offset="721:729"><Text>addition</Text></Token><Token globalID="142" id="5" offset="730:732"><Text>to</Text></Token><Token globalID="143" id="6" offset="733:740"><Text>working</Text></Token><Token globalID="144" id="7" offset="741:742"><Text>a</Text></Token><Token globalID="145" id="8" offset="743:746"><Text>lot</Text></Token><Token globalID="146" id="9" offset="747:749"><Text>of</Text></Token><Token globalID="147" id="10" offset="750:758"><Text>overtime</Text></Token><Token globalID="148" id="11" offset="758:759"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="760:798"><Text>Dad is an accountant and works monfri;</Text><Tokens Count="8"><Token globalID="149" id="0" offset="760:763"><Text>Dad</Text></Token><Token globalID="150" id="1" offset="764:766"><Text>is</Text></Token><Token globalID="151" id="2" offset="767:769"><Text>an</Text></Token><Token globalID="152" id="3" offset="770:780"><Text>accountant</Text></Token><Token globalID="153" id="4" offset="781:784"><Text>and</Text></Token><Token globalID="154" id="5" offset="785:790"><Text>works</Text></Token><Token globalID="155" id="6" offset="791:797"><Text>monfri</Text></Token><Token globalID="156" id="7" offset="797:798"><Text>;</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="7"><Sentences Count="2"><Sentence id="0" offset="799:859"><Text>up at 5:30a and out of the house by 6:30a-home around 5:00p.</Text><Tokens Count="13"><Token globalID="157" id="0" offset="799:801"><Text>up</Text></Token><Token globalID="158" id="1" offset="802:804"><Text>at</Text></Token><Token globalID="159" id="2" offset="805:810"><Text>5:30a</Text></Token><Token globalID="160" id="3" offset="811:814"><Text>and</Text></Token><Token globalID="161" id="4" offset="815:818"><Text>out</Text></Token><Token globalID="162" id="5" offset="819:821"><Text>of</Text></Token><Token globalID="163" id="6" offset="822:825"><Text>the</Text></Token><Token globalID="164" id="7" offset="826:831"><Text>house</Text></Token><Token globalID="165" id="8" offset="832:834"><Text>by</Text></Token><Token globalID="166" id="9" offset="835:845"><Text>6:30a-home</Text></Token><Token globalID="167" id="10" offset="846:852"><Text>around</Text></Token><Token globalID="168" id="11" offset="853:858"><Text>5:00p</Text></Token><Token globalID="169" id="12" offset="858:859"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="860:903"><Text>Dad is also gone a lot in the evenings with</Text><Tokens Count="10"><Token globalID="170" id="0" offset="860:863"><Text>Dad</Text></Token><Token globalID="171" id="1" offset="864:866"><Text>is</Text></Token><Token globalID="172" id="2" offset="867:871"><Text>also</Text></Token><Token globalID="173" id="3" offset="872:876"><Text>gone</Text></Token><Token globalID="174" id="4" offset="877:878"><Text>a</Text></Token><Token globalID="175" id="5" offset="879:882"><Text>lot</Text></Token><Token globalID="176" id="6" offset="883:885"><Text>in</Text></Token><Token globalID="177" id="7" offset="886:889"><Text>the</Text></Token><Token globalID="178" id="8" offset="890:898"><Text>evenings</Text></Token><Token globalID="179" id="9" offset="899:903"><Text>with</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="8"><Sentences Count="3"><Sentence id="0" offset="904:930"><Text>various social activities.</Text><Tokens Count="4"><Token globalID="180" id="0" offset="904:911"><Text>various</Text></Token><Token globalID="181" id="1" offset="912:918"><Text>social</Text></Token><Token globalID="182" id="2" offset="919:929"><Text>activities</Text></Token><Token globalID="183" id="3" offset="929:930"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="931:980"><Text>Client transfers with stand pivot and one assist.</Text><Tokens Count="9"><Token globalID="184" id="0" offset="931:937"><Text>Client</Text></Token><Token globalID="185" id="1" offset="938:947"><Text>transfers</Text></Token><Token globalID="186" id="2" offset="948:952"><Text>with</Text></Token><Token globalID="187" id="3" offset="953:958"><Text>stand</Text></Token><Token globalID="188" id="4" offset="959:964"><Text>pivot</Text></Token><Token globalID="189" id="5" offset="965:968"><Text>and</Text></Token><Token globalID="190" id="6" offset="969:972"><Text>one</Text></Token><Token globalID="191" id="7" offset="973:979"><Text>assist</Text></Token><Token globalID="192" id="8" offset="979:980"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="981:1021"><Text>Non ambulatory uses electric w/c (client</Text><Tokens Count="7"><Token globalID="193" id="0" offset="981:984"><Text>Non</Text></Token><Token globalID="194" id="1" offset="985:995"><Text>ambulatory</Text></Token><Token globalID="195" id="2" offset="996:1000"><Text>uses</Text></Token><Token globalID="196" id="3" offset="1001:1009"><Text>electric</Text></Token><Token globalID="197" id="4" offset="1010:1013"><Text>w/c</Text></Token><Token globalID="198" id="5" offset="1014:1015"><Text>(</Text></Token><Token globalID="199" id="6" offset="1015:1021"><Text>client</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="9"><Sentences Count="3"><Sentence id="0" offset="1022:1053"><Text>operates herself) for mobility.</Text><Tokens Count="6"><Token globalID="200" id="0" offset="1022:1030"><Text>operates</Text></Token><Token globalID="201" id="1" offset="1031:1038"><Text>herself</Text></Token><Token globalID="202" id="2" offset="1038:1039"><Text>)</Text></Token><Token globalID="203" id="3" offset="1040:1043"><Text>for</Text></Token><Token globalID="204" id="4" offset="1044:1052"><Text>mobility</Text></Token><Token globalID="205" id="5" offset="1052:1053"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="1054:1106"><Text>Client needs to be wheeled in the manual wheelchair.</Text><Tokens Count="10"><Token globalID="206" id="0" offset="1054:1060"><Text>Client</Text></Token><Token globalID="207" id="1" offset="1061:1066"><Text>needs</Text></Token><Token globalID="208" id="2" offset="1067:1069"><Text>to</Text></Token><Token globalID="209" id="3" offset="1070:1072"><Text>be</Text></Token><Token globalID="210" id="4" offset="1073:1080"><Text>wheeled</Text></Token><Token globalID="211" id="5" offset="1081:1083"><Text>in</Text></Token><Token globalID="212" id="6" offset="1084:1087"><Text>the</Text></Token><Token globalID="213" id="7" offset="1088:1094"><Text>manual</Text></Token><Token globalID="214" id="8" offset="1095:1105"><Text>wheelchair</Text></Token><Token globalID="215" id="9" offset="1105:1106"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="1107:1135"><Text>Client is a professional and</Text><Tokens Count="5"><Token globalID="216" id="0" offset="1107:1113"><Text>Client</Text></Token><Token globalID="217" id="1" offset="1114:1116"><Text>is</Text></Token><Token globalID="218" id="2" offset="1117:1118"><Text>a</Text></Token><Token globalID="219" id="3" offset="1119:1131"><Text>professional</Text></Token><Token globalID="220" id="4" offset="1132:1135"><Text>and</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="10"><Sentences Count="2"><Sentence id="0" offset="1136:1180"><Text>works full-time days and part-time evenings.</Text><Tokens Count="7"><Token globalID="221" id="0" offset="1136:1141"><Text>works</Text></Token><Token globalID="222" id="1" offset="1142:1151"><Text>full-time</Text></Token><Token globalID="223" id="2" offset="1152:1156"><Text>days</Text></Token><Token globalID="224" id="3" offset="1157:1160"><Text>and</Text></Token><Token globalID="225" id="4" offset="1161:1170"><Text>part-time</Text></Token><Token globalID="226" id="5" offset="1171:1179"><Text>evenings</Text></Token><Token globalID="227" id="6" offset="1179:1180"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="1181:1244"><Text>Regular Mon-Fri hours are 8:30a-4:30p however actual hours vary</Text><Tokens Count="9"><Token globalID="228" id="0" offset="1181:1188"><Text>Regular</Text></Token><Token globalID="229" id="1" offset="1189:1196"><Text>Mon-Fri</Text></Token><Token globalID="230" id="2" offset="1197:1202"><Text>hours</Text></Token><Token globalID="231" id="3" offset="1203:1206"><Text>are</Text></Token><Token globalID="232" id="4" offset="1207:1218"><Text>8:30a-4:30p</Text></Token><Token globalID="233" id="5" offset="1219:1226"><Text>however</Text></Token><Token globalID="234" id="6" offset="1227:1233"><Text>actual</Text></Token><Token globalID="235" id="7" offset="1234:1239"><Text>hours</Text></Token><Token globalID="236" id="8" offset="1240:1244"><Text>vary</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="11"><Sentences Count="2"><Sentence id="0" offset="1245:1328"><Text>so much due to overtime, work schedules and mandatory continuing education classes.</Text><Tokens Count="14"><Token globalID="237" id="0" offset="1245:1247"><Text>so</Text></Token><Token globalID="238" id="1" offset="1248:1252"><Text>much</Text></Token><Token globalID="239" id="2" offset="1253:1256"><Text>due</Text></Token><Token globalID="240" id="3" offset="1257:1259"><Text>to</Text></Token><Token globalID="241" id="4" offset="1260:1268"><Text>overtime</Text></Token><Token globalID="242" id="5" offset="1268:1269"><Text>,</Text></Token><Token globalID="243" id="6" offset="1270:1274"><Text>work</Text></Token><Token globalID="244" id="7" offset="1275:1284"><Text>schedules</Text></Token><Token globalID="245" id="8" offset="1285:1288"><Text>and</Text></Token><Token globalID="246" id="9" offset="1289:1298"><Text>mandatory</Text></Token><Token globalID="247" id="10" offset="1299:1309"><Text>continuing</Text></Token><Token globalID="248" id="11" offset="1310:1319"><Text>education</Text></Token><Token globalID="249" id="12" offset="1320:1327"><Text>classes</Text></Token><Token globalID="250" id="13" offset="1327:1328"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="1329:1358"><Text>Client has a private w/c lift</Text><Tokens Count="6"><Token globalID="251" id="0" offset="1329:1335"><Text>Client</Text></Token><Token globalID="252" id="1" offset="1336:1339"><Text>has</Text></Token><Token globalID="253" id="2" offset="1337:1338"><Text>a</Text></Token><Token globalID="254" id="3" offset="1342:1349"><Text>private</Text></Token><Token globalID="255" id="4" offset="1350:1353"><Text>w/c</Text></Token><Token globalID="256" id="5" offset="1354:1358"><Text>lift</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="12"><Sentences Count="2"><Sentence id="0" offset="1359:1413"><Text>van for medical appt., work and social transportation.</Text><Tokens Count="10"><Token globalID="257" id="0" offset="1359:1362"><Text>van</Text></Token><Token globalID="258" id="1" offset="1363:1366"><Text>for</Text></Token><Token globalID="259" id="2" offset="1367:1374"><Text>medical</Text></Token><Token globalID="260" id="3" offset="1375:1380"><Text>appt.</Text></Token><Token globalID="261" id="4" offset="1380:1381"><Text>,</Text></Token><Token globalID="262" id="5" offset="1382:1386"><Text>work</Text></Token><Token globalID="263" id="6" offset="1387:1390"><Text>and</Text></Token><Token globalID="264" id="7" offset="1391:1397"><Text>social</Text></Token><Token globalID="265" id="8" offset="1398:1412"><Text>transportation</Text></Token><Token globalID="266" id="9" offset="1412:1413"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="1414:1473"><Text>Client very well aware that transportation is not a medical</Text><Tokens Count="10"><Token globalID="267" id="0" offset="1414:1420"><Text>Client</Text></Token><Token globalID="268" id="1" offset="1421:1425"><Text>very</Text></Token><Token globalID="269" id="2" offset="1426:1430"><Text>well</Text></Token><Token globalID="270" id="3" offset="1431:1436"><Text>aware</Text></Token><Token globalID="271" id="4" offset="1437:1441"><Text>that</Text></Token><Token globalID="272" id="5" offset="1442:1456"><Text>transportation</Text></Token><Token globalID="273" id="6" offset="1457:1459"><Text>is</Text></Token><Token globalID="274" id="7" offset="1460:1463"><Text>not</Text></Token><Token globalID="275" id="8" offset="1464:1465"><Text>a</Text></Token><Token globalID="276" id="9" offset="1466:1473"><Text>medical</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="13"><Sentences Count="2"><Sentence id="0" offset="1474:1569"><Text>task and is not part of the care plan and that the attendant is not allowed to drive/transport.</Text><Tokens Count="19"><Token globalID="277" id="0" offset="1474:1478"><Text>task</Text></Token><Token globalID="278" id="1" offset="1479:1482"><Text>and</Text></Token><Token globalID="279" id="2" offset="1483:1485"><Text>is</Text></Token><Token globalID="280" id="3" offset="1486:1489"><Text>not</Text></Token><Token globalID="281" id="4" offset="1490:1494"><Text>part</Text></Token><Token globalID="282" id="5" offset="1495:1497"><Text>of</Text></Token><Token globalID="283" id="6" offset="1498:1501"><Text>the</Text></Token><Token globalID="284" id="7" offset="1502:1506"><Text>care</Text></Token><Token globalID="285" id="8" offset="1507:1511"><Text>plan</Text></Token><Token globalID="286" id="9" offset="1512:1515"><Text>and</Text></Token><Token globalID="287" id="10" offset="1516:1520"><Text>that</Text></Token><Token globalID="288" id="11" offset="1521:1524"><Text>the</Text></Token><Token globalID="289" id="12" offset="1525:1534"><Text>attendant</Text></Token><Token globalID="290" id="13" offset="1535:1537"><Text>is</Text></Token><Token globalID="291" id="14" offset="1538:1541"><Text>not</Text></Token><Token globalID="292" id="15" offset="1542:1549"><Text>allowed</Text></Token><Token globalID="293" id="16" offset="1550:1552"><Text>to</Text></Token><Token globalID="294" id="17" offset="1553:1568"><Text>drive/transport</Text></Token><Token globalID="295" id="18" offset="1568:1569"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="1570:1592"><Text>Client pays the people</Text><Tokens Count="4"><Token globalID="296" id="0" offset="1570:1576"><Text>Client</Text></Token><Token globalID="297" id="1" offset="1577:1581"><Text>pays</Text></Token><Token globalID="298" id="2" offset="1582:1585"><Text>the</Text></Token><Token globalID="299" id="3" offset="1586:1592"><Text>people</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="14"><Sentences Count="2"><Sentence id="0" offset="1593:1621"><Text>who drive the van privately.</Text><Tokens Count="6"><Token globalID="300" id="0" offset="1593:1596"><Text>who</Text></Token><Token globalID="301" id="1" offset="1597:1602"><Text>drive</Text></Token><Token globalID="302" id="2" offset="1603:1606"><Text>the</Text></Token><Token globalID="303" id="3" offset="1607:1610"><Text>van</Text></Token><Token globalID="304" id="4" offset="1611:1620"><Text>privately</Text></Token><Token globalID="305" id="5" offset="1620:1621"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="1622:1709"><Text>Client needs to have the attendant with her during all work hours since client requires</Text><Tokens Count="15"><Token globalID="306" id="0" offset="1622:1628"><Text>Client</Text></Token><Token globalID="307" id="1" offset="1629:1634"><Text>needs</Text></Token><Token globalID="308" id="2" offset="1635:1637"><Text>to</Text></Token><Token globalID="309" id="3" offset="1638:1642"><Text>have</Text></Token><Token globalID="310" id="4" offset="1643:1646"><Text>the</Text></Token><Token globalID="311" id="5" offset="1647:1656"><Text>attendant</Text></Token><Token globalID="312" id="6" offset="1657:1661"><Text>with</Text></Token><Token globalID="313" id="7" offset="1662:1665"><Text>her</Text></Token><Token globalID="314" id="8" offset="1666:1672"><Text>during</Text></Token><Token globalID="315" id="9" offset="1673:1676"><Text>all</Text></Token><Token globalID="316" id="10" offset="1677:1681"><Text>work</Text></Token><Token globalID="317" id="11" offset="1682:1687"><Text>hours</Text></Token><Token globalID="318" id="12" offset="1688:1693"><Text>since</Text></Token><Token globalID="319" id="13" offset="1694:1700"><Text>client</Text></Token><Token globalID="320" id="14" offset="1701:1709"><Text>requires</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="15"><Sentences Count="1"><Sentence id="0" offset="1710:1824"><Text>total assistance with everything; taking off coat, feeding, toileting (st cath every2-4 hrs), stands client during</Text><Tokens Count="22"><Token globalID="321" id="0" offset="1710:1715"><Text>total</Text></Token><Token globalID="322" id="1" offset="1716:1726"><Text>assistance</Text></Token><Token globalID="323" id="2" offset="1727:1731"><Text>with</Text></Token><Token globalID="324" id="3" offset="1732:1742"><Text>everything</Text></Token><Token globalID="325" id="4" offset="1742:1743"><Text>;</Text></Token><Token globalID="326" id="5" offset="1744:1750"><Text>taking</Text></Token><Token globalID="327" id="6" offset="1751:1754"><Text>off</Text></Token><Token globalID="328" id="7" offset="1755:1759"><Text>coat</Text></Token><Token globalID="329" id="8" offset="1759:1760"><Text>,</Text></Token><Token globalID="330" id="9" offset="1761:1768"><Text>feeding</Text></Token><Token globalID="331" id="10" offset="1768:1769"><Text>,</Text></Token><Token globalID="332" id="11" offset="1770:1779"><Text>toileting</Text></Token><Token globalID="333" id="12" offset="1780:1781"><Text>(</Text></Token><Token globalID="334" id="13" offset="1781:1783"><Text>st</Text></Token><Token globalID="335" id="14" offset="1784:1788"><Text>cath</Text></Token><Token globalID="336" id="15" offset="1789:1797"><Text>every2-4</Text></Token><Token globalID="337" id="16" offset="1798:1801"><Text>hrs</Text></Token><Token globalID="338" id="17" offset="1801:1802"><Text>)</Text></Token><Token globalID="339" id="18" offset="1802:1803"><Text>,</Text></Token><Token globalID="340" id="19" offset="1804:1810"><Text>stands</Text></Token><Token globalID="341" id="20" offset="1811:1817"><Text>client</Text></Token><Token globalID="342" id="21" offset="1818:1824"><Text>during</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="16"><Sentences Count="3"><Sentence id="0" offset="1825:1851"><Text>breaks taking notes etc...</Text><Tokens Count="5"><Token globalID="343" id="0" offset="1825:1831"><Text>breaks</Text></Token><Token globalID="344" id="1" offset="1832:1838"><Text>taking</Text></Token><Token globalID="345" id="2" offset="1839:1844"><Text>notes</Text></Token><Token globalID="346" id="3" offset="1845:1848"><Text>etc</Text></Token><Token globalID="347" id="4" offset="1848:1851"><Text>...</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="1852:1925"><Text>Client goes to hospital every 3 months to have her Baclofen pump changed.</Text><Tokens Count="14"><Token globalID="348" id="0" offset="1852:1858"><Text>Client</Text></Token><Token globalID="349" id="1" offset="1859:1863"><Text>goes</Text></Token><Token globalID="350" id="2" offset="1864:1866"><Text>to</Text></Token><Token globalID="351" id="3" offset="1867:1875"><Text>hospital</Text></Token><Token globalID="352" id="4" offset="1876:1881"><Text>every</Text></Token><Token globalID="353" id="5" offset="1882:1883"><Text>3</Text></Token><Token globalID="354" id="6" offset="1884:1890"><Text>months</Text></Token><Token globalID="355" id="7" offset="1891:1893"><Text>to</Text></Token><Token globalID="356" id="8" offset="1894:1898"><Text>have</Text></Token><Token globalID="357" id="9" offset="1899:1902"><Text>her</Text></Token><Token globalID="358" id="10" offset="1903:1911"><Text>Baclofen</Text></Token><Token globalID="359" id="11" offset="1912:1916"><Text>pump</Text></Token><Token globalID="360" id="12" offset="1917:1924"><Text>changed</Text></Token><Token globalID="361" id="13" offset="1924:1925"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="1926:1938"><Text>Parents pick</Text><Tokens Count="2"><Token globalID="362" id="0" offset="1926:1933"><Text>Parents</Text></Token><Token globalID="363" id="1" offset="1934:1938"><Text>pick</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="17"><Sentences Count="3"><Sentence id="0" offset="1939:1977"><Text>up/oversees medication administration.</Text><Tokens Count="4"><Token globalID="364" id="0" offset="1939:1950"><Text>up/oversees</Text></Token><Token globalID="365" id="1" offset="1951:1961"><Text>medication</Text></Token><Token globalID="366" id="2" offset="1962:1976"><Text>administration</Text></Token><Token globalID="367" id="3" offset="1976:1977"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="1978:2001"><Text>Client needs to be fed.</Text><Tokens Count="6"><Token globalID="368" id="0" offset="1978:1984"><Text>Client</Text></Token><Token globalID="369" id="1" offset="1985:1990"><Text>needs</Text></Token><Token globalID="370" id="2" offset="1991:1993"><Text>to</Text></Token><Token globalID="371" id="3" offset="1994:1996"><Text>be</Text></Token><Token globalID="372" id="4" offset="1997:2000"><Text>fed</Text></Token><Token globalID="373" id="5" offset="2000:2001"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="2002:2052"><Text>Client&#8217;s bathroom is w/c accessible with roll in</Text><Tokens Count="8"><Token globalID="374" id="0" offset="2002:2012"><Text>Client&#8217;s</Text></Token><Token globalID="375" id="1" offset="2013:2021"><Text>bathroom</Text></Token><Token globalID="376" id="2" offset="2022:2024"><Text>is</Text></Token><Token globalID="377" id="3" offset="2025:2028"><Text>w/c</Text></Token><Token globalID="378" id="4" offset="2029:2039"><Text>accessible</Text></Token><Token globalID="379" id="5" offset="2040:2044"><Text>with</Text></Token><Token globalID="380" id="6" offset="2045:2049"><Text>roll</Text></Token><Token globalID="381" id="7" offset="2050:2052"><Text>in</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="18"><Sentences Count="3"><Sentence id="0" offset="2053:2060"><Text>shower.</Text><Tokens Count="2"><Token globalID="382" id="0" offset="2053:2059"><Text>shower</Text></Token><Token globalID="383" id="1" offset="2059:2060"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (NP (NP (NN shower)) (. .))))</ParseTree></Sentence><Sentence id="1" offset="2061:2136"><Text>Landline phone in client&#8217;s bedroom is the only one client is able to use.</Text><Tokens Count="15"><Token globalID="384" id="0" offset="2061:2069"><Text>Landline</Text></Token><Token globalID="385" id="1" offset="2070:2075"><Text>phone</Text></Token><Token globalID="386" id="2" offset="2076:2078"><Text>in</Text></Token><Token globalID="387" id="3" offset="2079:2089"><Text>client&#8217;s</Text></Token><Token globalID="388" id="4" offset="2090:2097"><Text>bedroom</Text></Token><Token globalID="389" id="5" offset="2098:2100"><Text>is</Text></Token><Token globalID="390" id="6" offset="2101:2104"><Text>the</Text></Token><Token globalID="391" id="7" offset="2105:2109"><Text>only</Text></Token><Token globalID="392" id="8" offset="2110:2113"><Text>one</Text></Token><Token globalID="393" id="9" offset="2114:2120"><Text>client</Text></Token><Token globalID="394" id="10" offset="2121:2123"><Text>is</Text></Token><Token globalID="395" id="11" offset="2124:2128"><Text>able</Text></Token><Token globalID="396" id="12" offset="2129:2131"><Text>to</Text></Token><Token globalID="397" id="13" offset="2132:2135"><Text>use</Text></Token><Token globalID="398" id="14" offset="2135:2136"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="2137:2168"><Text>Client can push buttons to dial</Text><Tokens Count="6"><Token globalID="399" id="0" offset="2137:2143"><Text>Client</Text></Token><Token globalID="400" id="1" offset="2144:2147"><Text>can</Text></Token><Token globalID="401" id="2" offset="2148:2152"><Text>push</Text></Token><Token globalID="402" id="3" offset="2153:2160"><Text>buttons</Text></Token><Token globalID="403" id="4" offset="2156:2158"><Text>to</Text></Token><Token globalID="404" id="5" offset="2164:2168"><Text>dial</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="19"><Sentences Count="3"><Sentence id="0" offset="2169:2193"><Text>out using speaker phone.</Text><Tokens Count="5"><Token globalID="405" id="0" offset="2169:2172"><Text>out</Text></Token><Token globalID="406" id="1" offset="2173:2178"><Text>using</Text></Token><Token globalID="407" id="2" offset="2179:2186"><Text>speaker</Text></Token><Token globalID="408" id="3" offset="2187:2192"><Text>phone</Text></Token><Token globalID="409" id="4" offset="2192:2193"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="2194:2232"><Text>Client needs help with her cell phone.</Text><Tokens Count="8"><Token globalID="410" id="0" offset="2194:2200"><Text>Client</Text></Token><Token globalID="411" id="1" offset="2201:2206"><Text>needs</Text></Token><Token globalID="412" id="2" offset="2207:2211"><Text>help</Text></Token><Token globalID="413" id="3" offset="2212:2216"><Text>with</Text></Token><Token globalID="414" id="4" offset="2217:2220"><Text>her</Text></Token><Token globalID="415" id="5" offset="2221:2225"><Text>cell</Text></Token><Token globalID="416" id="6" offset="2226:2231"><Text>phone</Text></Token><Token globalID="417" id="7" offset="2231:2232"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="2233:2285"><Text>Client left alone for short periods of time a couple</Text><Tokens Count="10"><Token globalID="418" id="0" offset="2233:2239"><Text>Client</Text></Token><Token globalID="419" id="1" offset="2240:2244"><Text>left</Text></Token><Token globalID="420" id="2" offset="2245:2250"><Text>alone</Text></Token><Token globalID="421" id="3" offset="2251:2254"><Text>for</Text></Token><Token globalID="422" id="4" offset="2255:2260"><Text>short</Text></Token><Token globalID="423" id="5" offset="2261:2268"><Text>periods</Text></Token><Token globalID="424" id="6" offset="2269:2271"><Text>of</Text></Token><Token globalID="425" id="7" offset="2272:2276"><Text>time</Text></Token><Token globalID="426" id="8" offset="2277:2278"><Text>a</Text></Token><Token globalID="427" id="9" offset="2279:2285"><Text>couple</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="20"><Sentences Count="2"><Sentence id="0" offset="2286:2328"><Text>hours at a time with no apparent problems.</Text><Tokens Count="9"><Token globalID="428" id="0" offset="2286:2291"><Text>hours</Text></Token><Token globalID="429" id="1" offset="2292:2294"><Text>at</Text></Token><Token globalID="430" id="2" offset="2292:2293"><Text>a</Text></Token><Token globalID="431" id="3" offset="2297:2301"><Text>time</Text></Token><Token globalID="432" id="4" offset="2302:2306"><Text>with</Text></Token><Token globalID="433" id="5" offset="2307:2309"><Text>no</Text></Token><Token globalID="434" id="6" offset="2310:2318"><Text>apparent</Text></Token><Token globalID="435" id="7" offset="2319:2327"><Text>problems</Text></Token><Token globalID="436" id="8" offset="2327:2328"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="2329:2398"><Text>House is all on one level so it is easy for client to get around with</Text><Tokens Count="16"><Token globalID="437" id="0" offset="2329:2334"><Text>House</Text></Token><Token globalID="438" id="1" offset="2335:2337"><Text>is</Text></Token><Token globalID="439" id="2" offset="2338:2341"><Text>all</Text></Token><Token globalID="440" id="3" offset="2342:2344"><Text>on</Text></Token><Token globalID="441" id="4" offset="2345:2348"><Text>one</Text></Token><Token globalID="442" id="5" offset="2349:2354"><Text>level</Text></Token><Token globalID="443" id="6" offset="2355:2357"><Text>so</Text></Token><Token globalID="444" id="7" offset="2358:2360"><Text>it</Text></Token><Token globalID="445" id="8" offset="2361:2363"><Text>is</Text></Token><Token globalID="446" id="9" offset="2364:2368"><Text>easy</Text></Token><Token globalID="447" id="10" offset="2369:2372"><Text>for</Text></Token><Token globalID="448" id="11" offset="2373:2379"><Text>client</Text></Token><Token globalID="449" id="12" offset="2380:2382"><Text>to</Text></Token><Token globalID="450" id="13" offset="2383:2386"><Text>get</Text></Token><Token globalID="451" id="14" offset="2387:2393"><Text>around</Text></Token><Token globalID="452" id="15" offset="2394:2398"><Text>with</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="21"><Sentences Count="2"><Sentence id="0" offset="2399:2474"><Text>power w/c going out the front door with a small ramp incline to get in/out.</Text><Tokens Count="16"><Token globalID="453" id="0" offset="2399:2404"><Text>power</Text></Token><Token globalID="454" id="1" offset="2405:2408"><Text>w/c</Text></Token><Token globalID="455" id="2" offset="2409:2414"><Text>going</Text></Token><Token globalID="456" id="3" offset="2415:2418"><Text>out</Text></Token><Token globalID="457" id="4" offset="2419:2422"><Text>the</Text></Token><Token globalID="458" id="5" offset="2423:2428"><Text>front</Text></Token><Token globalID="459" id="6" offset="2429:2433"><Text>door</Text></Token><Token globalID="460" id="7" offset="2434:2438"><Text>with</Text></Token><Token globalID="461" id="8" offset="2439:2440"><Text>a</Text></Token><Token globalID="462" id="9" offset="2441:2446"><Text>small</Text></Token><Token globalID="463" id="10" offset="2447:2451"><Text>ramp</Text></Token><Token globalID="464" id="11" offset="2452:2459"><Text>incline</Text></Token><Token globalID="465" id="12" offset="2460:2462"><Text>to</Text></Token><Token globalID="466" id="13" offset="2463:2466"><Text>get</Text></Token><Token globalID="467" id="14" offset="2467:2473"><Text>in/out</Text></Token><Token globalID="468" id="15" offset="2473:2474"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="2475:2509"><Text>Client needs help with opening the</Text><Tokens Count="6"><Token globalID="469" id="0" offset="2475:2481"><Text>Client</Text></Token><Token globalID="470" id="1" offset="2482:2487"><Text>needs</Text></Token><Token globalID="471" id="2" offset="2488:2492"><Text>help</Text></Token><Token globalID="472" id="3" offset="2493:2497"><Text>with</Text></Token><Token globalID="473" id="4" offset="2498:2505"><Text>opening</Text></Token><Token globalID="474" id="5" offset="2506:2509"><Text>the</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="22"><Sentences Count="4"><Sentence id="0" offset="2510:2515"><Text>door.</Text><Tokens Count="2"><Token globalID="475" id="0" offset="2510:2514"><Text>door</Text></Token><Token globalID="476" id="1" offset="2514:2515"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (NP (NP (NN door)) (. .))))</ParseTree></Sentence><Sentence id="1" offset="2516:2568"><Text>Washer/dryer off kitchen; electric stove, microwave.</Text><Tokens Count="9"><Token globalID="477" id="0" offset="2516:2528"><Text>Washer/dryer</Text></Token><Token globalID="478" id="1" offset="2529:2532"><Text>off</Text></Token><Token globalID="479" id="2" offset="2533:2540"><Text>kitchen</Text></Token><Token globalID="480" id="3" offset="2540:2541"><Text>;</Text></Token><Token globalID="481" id="4" offset="2542:2550"><Text>electric</Text></Token><Token globalID="482" id="5" offset="2551:2556"><Text>stove</Text></Token><Token globalID="483" id="6" offset="2556:2557"><Text>,</Text></Token><Token globalID="484" id="7" offset="2558:2567"><Text>microwave</Text></Token><Token globalID="485" id="8" offset="2567:2568"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="2569:2613"><Text>Client handles own finances on the computer.</Text><Tokens Count="8"><Token globalID="486" id="0" offset="2569:2575"><Text>Client</Text></Token><Token globalID="487" id="1" offset="2576:2583"><Text>handles</Text></Token><Token globalID="488" id="2" offset="2584:2587"><Text>own</Text></Token><Token globalID="489" id="3" offset="2588:2596"><Text>finances</Text></Token><Token globalID="490" id="4" offset="2597:2599"><Text>on</Text></Token><Token globalID="491" id="5" offset="2600:2603"><Text>the</Text></Token><Token globalID="492" id="6" offset="2604:2612"><Text>computer</Text></Token><Token globalID="493" id="7" offset="2612:2613"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="3" offset="2569:2575"><Text>Client</Text><Tokens Count="1"><Token globalID="494" id="0" offset="2614:2620"><Text>Client</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="23"><Sentences Count="3"><Sentence id="0" offset="2621:2651"><Text>able to push keyboard buttons.</Text><Tokens Count="6"><Token globalID="495" id="0" offset="2621:2625"><Text>able</Text></Token><Token globalID="496" id="1" offset="2626:2628"><Text>to</Text></Token><Token globalID="497" id="2" offset="2629:2633"><Text>push</Text></Token><Token globalID="498" id="3" offset="2634:2642"><Text>keyboard</Text></Token><Token globalID="499" id="4" offset="2643:2650"><Text>buttons</Text></Token><Token globalID="500" id="5" offset="2650:2651"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="2652:2702"><Text>Parents both have POA and assist client as needed.</Text><Tokens Count="10"><Token globalID="501" id="0" offset="2652:2659"><Text>Parents</Text></Token><Token globalID="502" id="1" offset="2660:2664"><Text>both</Text></Token><Token globalID="503" id="2" offset="2665:2669"><Text>have</Text></Token><Token globalID="504" id="3" offset="2670:2673"><Text>POA</Text></Token><Token globalID="505" id="4" offset="2674:2677"><Text>and</Text></Token><Token globalID="506" id="5" offset="2678:2684"><Text>assist</Text></Token><Token globalID="507" id="6" offset="2685:2691"><Text>client</Text></Token><Token globalID="508" id="7" offset="2692:2694"><Text>as</Text></Token><Token globalID="509" id="8" offset="2695:2701"><Text>needed</Text></Token><Token globalID="510" id="9" offset="2701:2702"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="2703:2725"><Text>Parents continue to be</Text><Tokens Count="4"><Token globalID="511" id="0" offset="2703:2710"><Text>Parents</Text></Token><Token globalID="512" id="1" offset="2711:2719"><Text>continue</Text></Token><Token globalID="513" id="2" offset="2720:2722"><Text>to</Text></Token><Token globalID="514" id="3" offset="2723:2725"><Text>be</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="24"><Sentences Count="1"><Sentence id="0" offset="2726:2836"><Text>responsible for major grocery shopping, laundry, meals, cath care/bowel regime and all care during non-service</Text><Tokens Count="18"><Token globalID="515" id="0" offset="2726:2737"><Text>responsible</Text></Token><Token globalID="516" id="1" offset="2738:2741"><Text>for</Text></Token><Token globalID="517" id="2" offset="2742:2747"><Text>major</Text></Token><Token globalID="518" id="3" offset="2748:2755"><Text>grocery</Text></Token><Token globalID="519" id="4" offset="2756:2764"><Text>shopping</Text></Token><Token globalID="520" id="5" offset="2764:2765"><Text>,</Text></Token><Token globalID="521" id="6" offset="2766:2773"><Text>laundry</Text></Token><Token globalID="522" id="7" offset="2773:2774"><Text>,</Text></Token><Token globalID="523" id="8" offset="2775:2780"><Text>meals</Text></Token><Token globalID="524" id="9" offset="2780:2781"><Text>,</Text></Token><Token globalID="525" id="10" offset="2782:2786"><Text>cath</Text></Token><Token globalID="526" id="11" offset="2787:2797"><Text>care/bowel</Text></Token><Token globalID="527" id="12" offset="2798:2804"><Text>regime</Text></Token><Token globalID="528" id="13" offset="2805:2808"><Text>and</Text></Token><Token globalID="529" id="14" offset="2809:2812"><Text>all</Text></Token><Token globalID="530" id="15" offset="2813:2817"><Text>care</Text></Token><Token globalID="531" id="16" offset="2818:2824"><Text>during</Text></Token><Token globalID="532" id="17" offset="2825:2836"><Text>non-service</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="25"><Sentences Count="3"><Sentence id="0" offset="2837:2843"><Text>hours.</Text><Tokens Count="2"><Token globalID="533" id="0" offset="2837:2842"><Text>hours</Text></Token><Token globalID="534" id="1" offset="2842:2843"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (NP (NP (NNS hours)) (. .))))</ParseTree></Sentence><Sentence id="1" offset="2844:2875"><Text>Parents provide all night care.</Text><Tokens Count="6"><Token globalID="535" id="0" offset="2844:2851"><Text>Parents</Text></Token><Token globalID="536" id="1" offset="2852:2859"><Text>provide</Text></Token><Token globalID="537" id="2" offset="2860:2863"><Text>all</Text></Token><Token globalID="538" id="3" offset="2864:2869"><Text>night</Text></Token><Token globalID="539" id="4" offset="2870:2874"><Text>care</Text></Token><Token globalID="540" id="5" offset="2874:2875"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="2876:2949"><Text>Client has to be turned and positioned and toilet needs attended 2-3x per</Text><Tokens Count="13"><Token globalID="541" id="0" offset="2876:2882"><Text>Client</Text></Token><Token globalID="542" id="1" offset="2883:2886"><Text>has</Text></Token><Token globalID="543" id="2" offset="2887:2889"><Text>to</Text></Token><Token globalID="544" id="3" offset="2890:2892"><Text>be</Text></Token><Token globalID="545" id="4" offset="2893:2899"><Text>turned</Text></Token><Token globalID="546" id="5" offset="2900:2903"><Text>and</Text></Token><Token globalID="547" id="6" offset="2904:2914"><Text>positioned</Text></Token><Token globalID="548" id="7" offset="2915:2918"><Text>and</Text></Token><Token globalID="549" id="8" offset="2919:2925"><Text>toilet</Text></Token><Token globalID="550" id="9" offset="2926:2931"><Text>needs</Text></Token><Token globalID="551" id="10" offset="2932:2940"><Text>attended</Text></Token><Token globalID="552" id="11" offset="2941:2945"><Text>2-3x</Text></Token><Token globalID="553" id="12" offset="2946:2949"><Text>per</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="26"><Sentences Count="3"><Sentence id="0" offset="2950:2956"><Text>night.</Text><Tokens Count="2"><Token globalID="554" id="0" offset="2950:2955"><Text>night</Text></Token><Token globalID="555" id="1" offset="2955:2956"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (NP (NP (NN night)) (. .))))</ParseTree></Sentence><Sentence id="1" offset="2957:2999"><Text>All family members have keys to the house.</Text><Tokens Count="9"><Token globalID="556" id="0" offset="2957:2960"><Text>All</Text></Token><Token globalID="557" id="1" offset="2961:2967"><Text>family</Text></Token><Token globalID="558" id="2" offset="2968:2975"><Text>members</Text></Token><Token globalID="559" id="3" offset="2976:2980"><Text>have</Text></Token><Token globalID="560" id="4" offset="2981:2985"><Text>keys</Text></Token><Token globalID="561" id="5" offset="2986:2988"><Text>to</Text></Token><Token globalID="562" id="6" offset="2989:2992"><Text>the</Text></Token><Token globalID="563" id="7" offset="2993:2998"><Text>house</Text></Token><Token globalID="564" id="8" offset="2998:2999"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="3000:3052"><Text>CDPAP assistants assist with all AM/PM personal care</Text><Tokens Count="8"><Token globalID="565" id="0" offset="3000:3005"><Text>CDPAP</Text></Token><Token globalID="566" id="1" offset="3006:3016"><Text>assistants</Text></Token><Token globalID="567" id="2" offset="3006:3012"><Text>assist</Text></Token><Token globalID="568" id="3" offset="3024:3028"><Text>with</Text></Token><Token globalID="569" id="4" offset="3029:3032"><Text>all</Text></Token><Token globalID="570" id="5" offset="3033:3038"><Text>AM/PM</Text></Token><Token globalID="571" id="6" offset="3039:3047"><Text>personal</Text></Token><Token globalID="572" id="7" offset="3048:3052"><Text>care</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="27"><Sentences Count="1"><Sentence id="0" offset="3053:3153"><Text>(bathing, shampoo, dressing and undressing), meds, meals (must be fed), catheterization/bowel regime</Text><Tokens Count="21"><Token globalID="573" id="0" offset="3053:3054"><Text>(</Text></Token><Token globalID="574" id="1" offset="3054:3061"><Text>bathing</Text></Token><Token globalID="575" id="2" offset="3061:3062"><Text>,</Text></Token><Token globalID="576" id="3" offset="3063:3070"><Text>shampoo</Text></Token><Token globalID="577" id="4" offset="3070:3071"><Text>,</Text></Token><Token globalID="578" id="5" offset="3072:3080"><Text>dressing</Text></Token><Token globalID="579" id="6" offset="3081:3084"><Text>and</Text></Token><Token globalID="580" id="7" offset="3085:3095"><Text>undressing</Text></Token><Token globalID="581" id="8" offset="3095:3096"><Text>)</Text></Token><Token globalID="582" id="9" offset="3096:3097"><Text>,</Text></Token><Token globalID="583" id="10" offset="3098:3102"><Text>meds</Text></Token><Token globalID="584" id="11" offset="3102:3103"><Text>,</Text></Token><Token globalID="585" id="12" offset="3104:3109"><Text>meals</Text></Token><Token globalID="586" id="13" offset="3110:3111"><Text>(</Text></Token><Token globalID="587" id="14" offset="3111:3115"><Text>must</Text></Token><Token globalID="588" id="15" offset="3116:3118"><Text>be</Text></Token><Token globalID="589" id="16" offset="3119:3122"><Text>fed</Text></Token><Token globalID="590" id="17" offset="3122:3123"><Text>)</Text></Token><Token globalID="591" id="18" offset="3123:3124"><Text>,</Text></Token><Token globalID="592" id="19" offset="3125:3146"><Text>catheterization/bowel</Text></Token><Token globalID="593" id="20" offset="3147:3153"><Text>regime</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="28"><Sentences Count="1"><Sentence id="0" offset="3154:3225"><Text>ROM/exercises, minor groceries, personal laundry and household chores. </Text><Tokens Count="11"><Token globalID="594" id="0" offset="3154:3167"><Text>ROM/exercises</Text></Token><Token globalID="595" id="1" offset="3167:3168"><Text>,</Text></Token><Token globalID="596" id="2" offset="3169:3174"><Text>minor</Text></Token><Token globalID="597" id="3" offset="3175:3184"><Text>groceries</Text></Token><Token globalID="598" id="4" offset="3184:3185"><Text>,</Text></Token><Token globalID="599" id="5" offset="3186:3194"><Text>personal</Text></Token><Token globalID="600" id="6" offset="3195:3202"><Text>laundry</Text></Token><Token globalID="601" id="7" offset="3203:3206"><Text>and</Text></Token><Token globalID="602" id="8" offset="3207:3216"><Text>household</Text></Token><Token globalID="603" id="9" offset="3217:3223"><Text>chores</Text></Token><Token globalID="604" id="10" offset="3223:3224"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph></Paragraphs></StartOutput>
+<StartOutput>
+    <Paragraphs Count="29">
+        <Paragraph id="0">
+            <Sentences Count="2">
+                <Sentence id="0" offset="0:75">
+                    <Text>Client is 27 year old single female, A/O x3 self directing Wt: 100-150 lbs.</Text>
+                    <Tokens Count="17">
+                        <Token globalID="0" id="0" offset="0:6">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token globalID="1" id="1" offset="7:9">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="2" id="2" offset="10:12">
+                            <Text>27</Text>
+                        </Token>
+                        <Token globalID="3" id="3" offset="13:17">
+                            <Text>year</Text>
+                        </Token>
+                        <Token globalID="4" id="4" offset="18:21">
+                            <Text>old</Text>
+                        </Token>
+                        <Token globalID="5" id="5" offset="22:28">
+                            <Text>single</Text>
+                        </Token>
+                        <Token globalID="6" id="6" offset="29:35">
+                            <Text>female</Text>
+                        </Token>
+                        <Token globalID="7" id="7" offset="35:36">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="8" id="8" offset="37:40">
+                            <Text>A/O</Text>
+                        </Token>
+                        <Token globalID="9" id="9" offset="41:43">
+                            <Text>x3</Text>
+                        </Token>
+                        <Token globalID="10" id="10" offset="44:48">
+                            <Text>self</Text>
+                        </Token>
+                        <Token globalID="11" id="11" offset="49:58">
+                            <Text>directing</Text>
+                        </Token>
+                        <Token globalID="12" id="12" offset="59:61">
+                            <Text>Wt</Text>
+                        </Token>
+                        <Token globalID="13" id="13" offset="61:62">
+                            <Text>:</Text>
+                        </Token>
+                        <Token globalID="14" id="14" offset="63:70">
+                            <Text>100-150</Text>
+                        </Token>
+                        <Token globalID="15" id="15" offset="71:74">
+                            <Text>lbs</Text>
+                        </Token>
+                        <Token globalID="16" id="16" offset="74:75">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="76:120">
+                    <Text>Ht: 5&#8217;4&#8221; vision, speech, and hearing ok.</Text>
+                    <Tokens Count="11">
+                        <Token globalID="17" id="0" offset="76:78">
+                            <Text>Ht</Text>
+                        </Token>
+                        <Token globalID="18" id="1" offset="78:79">
+                            <Text>:</Text>
+                        </Token>
+                        <Token globalID="19" id="2" offset="80:88">
+                            <Text>5&#8217;4&#8221;</Text>
+                        </Token>
+                        <Token globalID="20" id="3" offset="89:95">
+                            <Text>vision</Text>
+                        </Token>
+                        <Token globalID="21" id="4" offset="95:96">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="22" id="5" offset="97:103">
+                            <Text>speech</Text>
+                        </Token>
+                        <Token globalID="23" id="6" offset="103:104">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="24" id="7" offset="105:108">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="25" id="8" offset="109:116">
+                            <Text>hearing</Text>
+                        </Token>
+                        <Token globalID="26" id="9" offset="117:119">
+                            <Text>ok</Text>
+                        </Token>
+                        <Token globalID="27" id="10" offset="119:120">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="1">
+            <Sentences Count="2">
+                <Sentence id="0" offset="121:206">
+                    <Text>Due to a spinal cord injury/quad client requires total care in all ADL&#8217;s and IADLs.
+                    </Text>
+                    <Tokens Count="16">
+                        <Token globalID="28" id="0" offset="121:124">
+                            <Text>Due</Text>
+                        </Token>
+                        <Token globalID="29" id="1" offset="125:127">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="30" id="2" offset="128:129">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="31" id="3" offset="130:136">
+                            <Text>spinal</Text>
+                        </Token>
+                        <Token globalID="32" id="4" offset="137:141">
+                            <Text>cord</Text>
+                        </Token>
+                        <Token globalID="33" id="5" offset="142:153">
+                            <Text>injury/quad</Text>
+                        </Token>
+                        <Token globalID="34" id="6" offset="154:160">
+                            <Text>client</Text>
+                        </Token>
+                        <Token globalID="35" id="7" offset="161:169">
+                            <Text>requires</Text>
+                        </Token>
+                        <Token globalID="36" id="8" offset="170:175">
+                            <Text>total</Text>
+                        </Token>
+                        <Token globalID="37" id="9" offset="176:180">
+                            <Text>care</Text>
+                        </Token>
+                        <Token globalID="38" id="10" offset="181:183">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="39" id="11" offset="184:187">
+                            <Text>all</Text>
+                        </Token>
+                        <Token globalID="40" id="12" offset="188:195">
+                            <Text>ADL&#8217;s</Text>
+                        </Token>
+                        <Token globalID="41" id="13" offset="196:199">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="42" id="14" offset="200:205">
+                            <Text>IADLs</Text>
+                        </Token>
+                        <Token globalID="43" id="15" offset="205:206">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="207:238">
+                    <Text>Client resides in single family</Text>
+                    <Tokens Count="5">
+                        <Token globalID="44" id="0" offset="207:213">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token globalID="45" id="1" offset="214:221">
+                            <Text>resides</Text>
+                        </Token>
+                        <Token globalID="46" id="2" offset="222:224">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="47" id="3" offset="225:231">
+                            <Text>single</Text>
+                        </Token>
+                        <Token globalID="48" id="4" offset="232:238">
+                            <Text>family</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="2">
+            <Sentences Count="2">
+                <Sentence id="0" offset="239:329">
+                    <Text>home with 50 year old mother, 52 year old father, 29 year old sister and a dog and 2 cats.
+                    </Text>
+                    <Tokens Count="23">
+                        <Token globalID="49" id="0" offset="239:243">
+                            <Text>home</Text>
+                        </Token>
+                        <Token globalID="50" id="1" offset="244:248">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="51" id="2" offset="249:251">
+                            <Text>50</Text>
+                        </Token>
+                        <Token globalID="52" id="3" offset="252:256">
+                            <Text>year</Text>
+                        </Token>
+                        <Token globalID="53" id="4" offset="257:260">
+                            <Text>old</Text>
+                        </Token>
+                        <Token globalID="54" id="5" offset="261:267">
+                            <Text>mother</Text>
+                        </Token>
+                        <Token globalID="55" id="6" offset="267:268">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="56" id="7" offset="269:271">
+                            <Text>52</Text>
+                        </Token>
+                        <Token globalID="57" id="8" offset="272:276">
+                            <Text>year</Text>
+                        </Token>
+                        <Token globalID="58" id="9" offset="277:280">
+                            <Text>old</Text>
+                        </Token>
+                        <Token globalID="59" id="10" offset="281:287">
+                            <Text>father</Text>
+                        </Token>
+                        <Token globalID="60" id="11" offset="287:288">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="61" id="12" offset="289:291">
+                            <Text>29</Text>
+                        </Token>
+                        <Token globalID="62" id="13" offset="292:296">
+                            <Text>year</Text>
+                        </Token>
+                        <Token globalID="63" id="14" offset="297:300">
+                            <Text>old</Text>
+                        </Token>
+                        <Token globalID="64" id="15" offset="301:307">
+                            <Text>sister</Text>
+                        </Token>
+                        <Token globalID="65" id="16" offset="308:311">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="66" id="17" offset="308:309">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="67" id="18" offset="314:317">
+                            <Text>dog</Text>
+                        </Token>
+                        <Token globalID="68" id="19" offset="318:321">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="69" id="20" offset="322:323">
+                            <Text>2</Text>
+                        </Token>
+                        <Token globalID="70" id="21" offset="324:328">
+                            <Text>cats</Text>
+                        </Token>
+                        <Token globalID="71" id="22" offset="328:329">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="330:350">
+                    <Text>Both parents are the</Text>
+                    <Tokens Count="4">
+                        <Token globalID="72" id="0" offset="330:334">
+                            <Text>Both</Text>
+                        </Token>
+                        <Token globalID="73" id="1" offset="335:342">
+                            <Text>parents</Text>
+                        </Token>
+                        <Token globalID="74" id="2" offset="336:339">
+                            <Text>are</Text>
+                        </Token>
+                        <Token globalID="75" id="3" offset="347:350">
+                            <Text>the</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="3">
+            <Sentences Count="3">
+                <Sentence id="0" offset="351:398">
+                    <Text>primary caregivers and have joint guardianship.</Text>
+                    <Tokens Count="7">
+                        <Token globalID="76" id="0" offset="351:358">
+                            <Text>primary</Text>
+                        </Token>
+                        <Token globalID="77" id="1" offset="359:369">
+                            <Text>caregivers</Text>
+                        </Token>
+                        <Token globalID="78" id="2" offset="370:373">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="79" id="3" offset="374:378">
+                            <Text>have</Text>
+                        </Token>
+                        <Token globalID="80" id="4" offset="379:384">
+                            <Text>joint</Text>
+                        </Token>
+                        <Token globalID="81" id="5" offset="385:397">
+                            <Text>guardianship</Text>
+                        </Token>
+                        <Token globalID="82" id="6" offset="397:398">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="399:441">
+                    <Text>Client&#8217;s aunt is the secondary guardian.</Text>
+                    <Tokens Count="7">
+                        <Token globalID="83" id="0" offset="399:409">
+                            <Text>Client&#8217;s</Text>
+                        </Token>
+                        <Token globalID="84" id="1" offset="410:414">
+                            <Text>aunt</Text>
+                        </Token>
+                        <Token globalID="85" id="2" offset="415:417">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="86" id="3" offset="418:421">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="87" id="4" offset="422:431">
+                            <Text>secondary</Text>
+                        </Token>
+                        <Token globalID="88" id="5" offset="432:440">
+                            <Text>guardian</Text>
+                        </Token>
+                        <Token globalID="89" id="6" offset="440:441">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="442:467">
+                    <Text>Client&#8217;s sister teaches</Text>
+                    <Tokens Count="3">
+                        <Token globalID="90" id="0" offset="442:452">
+                            <Text>Client&#8217;s</Text>
+                        </Token>
+                        <Token globalID="91" id="1" offset="453:459">
+                            <Text>sister</Text>
+                        </Token>
+                        <Token globalID="92" id="2" offset="460:467">
+                            <Text>teaches</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="4">
+            <Sentences Count="2">
+                <Sentence id="0" offset="468:503">
+                    <Text>and works during the summer months.</Text>
+                    <Tokens Count="7">
+                        <Token globalID="93" id="0" offset="468:471">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="94" id="1" offset="472:477">
+                            <Text>works</Text>
+                        </Token>
+                        <Token globalID="95" id="2" offset="478:484">
+                            <Text>during</Text>
+                        </Token>
+                        <Token globalID="96" id="3" offset="485:488">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="97" id="4" offset="489:495">
+                            <Text>summer</Text>
+                        </Token>
+                        <Token globalID="98" id="5" offset="496:502">
+                            <Text>months</Text>
+                        </Token>
+                        <Token globalID="99" id="6" offset="502:503">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="504:577">
+                    <Text>Per client and mom, sister is not reliable but does assist in some of the</Text>
+                    <Tokens Count="16">
+                        <Token globalID="100" id="0" offset="504:507">
+                            <Text>Per</Text>
+                        </Token>
+                        <Token globalID="101" id="1" offset="508:514">
+                            <Text>client</Text>
+                        </Token>
+                        <Token globalID="102" id="2" offset="515:518">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="103" id="3" offset="519:522">
+                            <Text>mom</Text>
+                        </Token>
+                        <Token globalID="104" id="4" offset="522:523">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="105" id="5" offset="524:530">
+                            <Text>sister</Text>
+                        </Token>
+                        <Token globalID="106" id="6" offset="525:527">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="107" id="7" offset="534:537">
+                            <Text>not</Text>
+                        </Token>
+                        <Token globalID="108" id="8" offset="538:546">
+                            <Text>reliable</Text>
+                        </Token>
+                        <Token globalID="109" id="9" offset="547:550">
+                            <Text>but</Text>
+                        </Token>
+                        <Token globalID="110" id="10" offset="551:555">
+                            <Text>does</Text>
+                        </Token>
+                        <Token globalID="111" id="11" offset="556:562">
+                            <Text>assist</Text>
+                        </Token>
+                        <Token globalID="112" id="12" offset="563:565">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="113" id="13" offset="566:570">
+                            <Text>some</Text>
+                        </Token>
+                        <Token globalID="114" id="14" offset="571:573">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="115" id="15" offset="574:577">
+                            <Text>the</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="5">
+            <Sentences Count="2">
+                <Sentence id="0" offset="578:594">
+                    <Text>client&#8217;s care.</Text>
+                    <Tokens Count="3">
+                        <Token globalID="116" id="0" offset="578:588">
+                            <Text>client&#8217;s</Text>
+                        </Token>
+                        <Token globalID="117" id="1" offset="589:593">
+                            <Text>care</Text>
+                        </Token>
+                        <Token globalID="118" id="2" offset="593:594">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="595:687">
+                    <Text>Client&#8217;s mom is a nurse works 3dpw (varies) 11a-11p shifts (leaves 10:15p and returns
+                        home
+                    </Text>
+                    <Tokens Count="18">
+                        <Token globalID="119" id="0" offset="595:605">
+                            <Text>Client&#8217;s</Text>
+                        </Token>
+                        <Token globalID="120" id="1" offset="606:609">
+                            <Text>mom</Text>
+                        </Token>
+                        <Token globalID="121" id="2" offset="610:612">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="122" id="3" offset="613:614">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="123" id="4" offset="615:620">
+                            <Text>nurse</Text>
+                        </Token>
+                        <Token globalID="124" id="5" offset="621:626">
+                            <Text>works</Text>
+                        </Token>
+                        <Token globalID="125" id="6" offset="627:631">
+                            <Text>3dpw</Text>
+                        </Token>
+                        <Token globalID="126" id="7" offset="632:633">
+                            <Text>(</Text>
+                        </Token>
+                        <Token globalID="127" id="8" offset="633:639">
+                            <Text>varies</Text>
+                        </Token>
+                        <Token globalID="128" id="9" offset="639:640">
+                            <Text>)</Text>
+                        </Token>
+                        <Token globalID="129" id="10" offset="641:648">
+                            <Text>11a-11p</Text>
+                        </Token>
+                        <Token globalID="130" id="11" offset="649:655">
+                            <Text>shifts</Text>
+                        </Token>
+                        <Token globalID="131" id="12" offset="656:657">
+                            <Text>(</Text>
+                        </Token>
+                        <Token globalID="132" id="13" offset="657:663">
+                            <Text>leaves</Text>
+                        </Token>
+                        <Token globalID="133" id="14" offset="664:670">
+                            <Text>10:15p</Text>
+                        </Token>
+                        <Token globalID="134" id="15" offset="671:674">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="135" id="16" offset="675:682">
+                            <Text>returns</Text>
+                        </Token>
+                        <Token globalID="136" id="17" offset="683:687">
+                            <Text>home</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="6">
+            <Sentences Count="2">
+                <Sentence id="0" offset="688:759">
+                    <Text>anywhere between 12:30a-3:00a in addition to working a lot of overtime.</Text>
+                    <Tokens Count="12">
+                        <Token globalID="137" id="0" offset="688:696">
+                            <Text>anywhere</Text>
+                        </Token>
+                        <Token globalID="138" id="1" offset="697:704">
+                            <Text>between</Text>
+                        </Token>
+                        <Token globalID="139" id="2" offset="705:717">
+                            <Text>12:30a-3:00a</Text>
+                        </Token>
+                        <Token globalID="140" id="3" offset="718:720">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="141" id="4" offset="721:729">
+                            <Text>addition</Text>
+                        </Token>
+                        <Token globalID="142" id="5" offset="730:732">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="143" id="6" offset="733:740">
+                            <Text>working</Text>
+                        </Token>
+                        <Token globalID="144" id="7" offset="741:742">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="145" id="8" offset="743:746">
+                            <Text>lot</Text>
+                        </Token>
+                        <Token globalID="146" id="9" offset="747:749">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="147" id="10" offset="750:758">
+                            <Text>overtime</Text>
+                        </Token>
+                        <Token globalID="148" id="11" offset="758:759">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="760:798">
+                    <Text>Dad is an accountant and works monfri;</Text>
+                    <Tokens Count="8">
+                        <Token globalID="149" id="0" offset="760:763">
+                            <Text>Dad</Text>
+                        </Token>
+                        <Token globalID="150" id="1" offset="764:766">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="151" id="2" offset="767:769">
+                            <Text>an</Text>
+                        </Token>
+                        <Token globalID="152" id="3" offset="770:780">
+                            <Text>accountant</Text>
+                        </Token>
+                        <Token globalID="153" id="4" offset="781:784">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="154" id="5" offset="785:790">
+                            <Text>works</Text>
+                        </Token>
+                        <Token globalID="155" id="6" offset="791:797">
+                            <Text>monfri</Text>
+                        </Token>
+                        <Token globalID="156" id="7" offset="797:798">
+                            <Text>;</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="7">
+            <Sentences Count="2">
+                <Sentence id="0" offset="799:859">
+                    <Text>up at 5:30a and out of the house by 6:30a-home around 5:00p.</Text>
+                    <Tokens Count="13">
+                        <Token globalID="157" id="0" offset="799:801">
+                            <Text>up</Text>
+                        </Token>
+                        <Token globalID="158" id="1" offset="802:804">
+                            <Text>at</Text>
+                        </Token>
+                        <Token globalID="159" id="2" offset="805:810">
+                            <Text>5:30a</Text>
+                        </Token>
+                        <Token globalID="160" id="3" offset="811:814">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="161" id="4" offset="815:818">
+                            <Text>out</Text>
+                        </Token>
+                        <Token globalID="162" id="5" offset="819:821">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="163" id="6" offset="822:825">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="164" id="7" offset="826:831">
+                            <Text>house</Text>
+                        </Token>
+                        <Token globalID="165" id="8" offset="832:834">
+                            <Text>by</Text>
+                        </Token>
+                        <Token globalID="166" id="9" offset="835:845">
+                            <Text>6:30a-home</Text>
+                        </Token>
+                        <Token globalID="167" id="10" offset="846:852">
+                            <Text>around</Text>
+                        </Token>
+                        <Token globalID="168" id="11" offset="853:858">
+                            <Text>5:00p</Text>
+                        </Token>
+                        <Token globalID="169" id="12" offset="858:859">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="860:903">
+                    <Text>Dad is also gone a lot in the evenings with</Text>
+                    <Tokens Count="10">
+                        <Token globalID="170" id="0" offset="860:863">
+                            <Text>Dad</Text>
+                        </Token>
+                        <Token globalID="171" id="1" offset="864:866">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="172" id="2" offset="867:871">
+                            <Text>also</Text>
+                        </Token>
+                        <Token globalID="173" id="3" offset="872:876">
+                            <Text>gone</Text>
+                        </Token>
+                        <Token globalID="174" id="4" offset="877:878">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="175" id="5" offset="879:882">
+                            <Text>lot</Text>
+                        </Token>
+                        <Token globalID="176" id="6" offset="883:885">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="177" id="7" offset="886:889">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="178" id="8" offset="890:898">
+                            <Text>evenings</Text>
+                        </Token>
+                        <Token globalID="179" id="9" offset="899:903">
+                            <Text>with</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="8">
+            <Sentences Count="3">
+                <Sentence id="0" offset="904:930">
+                    <Text>various social activities.</Text>
+                    <Tokens Count="4">
+                        <Token globalID="180" id="0" offset="904:911">
+                            <Text>various</Text>
+                        </Token>
+                        <Token globalID="181" id="1" offset="912:918">
+                            <Text>social</Text>
+                        </Token>
+                        <Token globalID="182" id="2" offset="919:929">
+                            <Text>activities</Text>
+                        </Token>
+                        <Token globalID="183" id="3" offset="929:930">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="931:980">
+                    <Text>Client transfers with stand pivot and one assist.</Text>
+                    <Tokens Count="9">
+                        <Token globalID="184" id="0" offset="931:937">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token globalID="185" id="1" offset="938:947">
+                            <Text>transfers</Text>
+                        </Token>
+                        <Token globalID="186" id="2" offset="948:952">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="187" id="3" offset="953:958">
+                            <Text>stand</Text>
+                        </Token>
+                        <Token globalID="188" id="4" offset="959:964">
+                            <Text>pivot</Text>
+                        </Token>
+                        <Token globalID="189" id="5" offset="965:968">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="190" id="6" offset="969:972">
+                            <Text>one</Text>
+                        </Token>
+                        <Token globalID="191" id="7" offset="973:979">
+                            <Text>assist</Text>
+                        </Token>
+                        <Token globalID="192" id="8" offset="979:980">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="981:1021">
+                    <Text>Non ambulatory uses electric w/c (client</Text>
+                    <Tokens Count="7">
+                        <Token globalID="193" id="0" offset="981:984">
+                            <Text>Non</Text>
+                        </Token>
+                        <Token globalID="194" id="1" offset="985:995">
+                            <Text>ambulatory</Text>
+                        </Token>
+                        <Token globalID="195" id="2" offset="996:1000">
+                            <Text>uses</Text>
+                        </Token>
+                        <Token globalID="196" id="3" offset="1001:1009">
+                            <Text>electric</Text>
+                        </Token>
+                        <Token globalID="197" id="4" offset="1010:1013">
+                            <Text>w/c</Text>
+                        </Token>
+                        <Token globalID="198" id="5" offset="1014:1015">
+                            <Text>(</Text>
+                        </Token>
+                        <Token globalID="199" id="6" offset="1015:1021">
+                            <Text>client</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="9">
+            <Sentences Count="3">
+                <Sentence id="0" offset="1022:1053">
+                    <Text>operates herself) for mobility.</Text>
+                    <Tokens Count="6">
+                        <Token globalID="200" id="0" offset="1022:1030">
+                            <Text>operates</Text>
+                        </Token>
+                        <Token globalID="201" id="1" offset="1031:1038">
+                            <Text>herself</Text>
+                        </Token>
+                        <Token globalID="202" id="2" offset="1038:1039">
+                            <Text>)</Text>
+                        </Token>
+                        <Token globalID="203" id="3" offset="1040:1043">
+                            <Text>for</Text>
+                        </Token>
+                        <Token globalID="204" id="4" offset="1044:1052">
+                            <Text>mobility</Text>
+                        </Token>
+                        <Token globalID="205" id="5" offset="1052:1053">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="1054:1106">
+                    <Text>Client needs to be wheeled in the manual wheelchair.</Text>
+                    <Tokens Count="10">
+                        <Token globalID="206" id="0" offset="1054:1060">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token globalID="207" id="1" offset="1061:1066">
+                            <Text>needs</Text>
+                        </Token>
+                        <Token globalID="208" id="2" offset="1067:1069">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="209" id="3" offset="1070:1072">
+                            <Text>be</Text>
+                        </Token>
+                        <Token globalID="210" id="4" offset="1073:1080">
+                            <Text>wheeled</Text>
+                        </Token>
+                        <Token globalID="211" id="5" offset="1081:1083">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="212" id="6" offset="1084:1087">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="213" id="7" offset="1088:1094">
+                            <Text>manual</Text>
+                        </Token>
+                        <Token globalID="214" id="8" offset="1095:1105">
+                            <Text>wheelchair</Text>
+                        </Token>
+                        <Token globalID="215" id="9" offset="1105:1106">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="1107:1135">
+                    <Text>Client is a professional and</Text>
+                    <Tokens Count="5">
+                        <Token globalID="216" id="0" offset="1107:1113">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token globalID="217" id="1" offset="1114:1116">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="218" id="2" offset="1117:1118">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="219" id="3" offset="1119:1131">
+                            <Text>professional</Text>
+                        </Token>
+                        <Token globalID="220" id="4" offset="1132:1135">
+                            <Text>and</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="10">
+            <Sentences Count="2">
+                <Sentence id="0" offset="1136:1180">
+                    <Text>works full-time days and part-time evenings.</Text>
+                    <Tokens Count="7">
+                        <Token globalID="221" id="0" offset="1136:1141">
+                            <Text>works</Text>
+                        </Token>
+                        <Token globalID="222" id="1" offset="1142:1151">
+                            <Text>full-time</Text>
+                        </Token>
+                        <Token globalID="223" id="2" offset="1152:1156">
+                            <Text>days</Text>
+                        </Token>
+                        <Token globalID="224" id="3" offset="1157:1160">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="225" id="4" offset="1161:1170">
+                            <Text>part-time</Text>
+                        </Token>
+                        <Token globalID="226" id="5" offset="1171:1179">
+                            <Text>evenings</Text>
+                        </Token>
+                        <Token globalID="227" id="6" offset="1179:1180">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="1181:1244">
+                    <Text>Regular Mon-Fri hours are 8:30a-4:30p however actual hours vary</Text>
+                    <Tokens Count="9">
+                        <Token globalID="228" id="0" offset="1181:1188">
+                            <Text>Regular</Text>
+                        </Token>
+                        <Token globalID="229" id="1" offset="1189:1196">
+                            <Text>Mon-Fri</Text>
+                        </Token>
+                        <Token globalID="230" id="2" offset="1197:1202">
+                            <Text>hours</Text>
+                        </Token>
+                        <Token globalID="231" id="3" offset="1203:1206">
+                            <Text>are</Text>
+                        </Token>
+                        <Token globalID="232" id="4" offset="1207:1218">
+                            <Text>8:30a-4:30p</Text>
+                        </Token>
+                        <Token globalID="233" id="5" offset="1219:1226">
+                            <Text>however</Text>
+                        </Token>
+                        <Token globalID="234" id="6" offset="1227:1233">
+                            <Text>actual</Text>
+                        </Token>
+                        <Token globalID="235" id="7" offset="1234:1239">
+                            <Text>hours</Text>
+                        </Token>
+                        <Token globalID="236" id="8" offset="1240:1244">
+                            <Text>vary</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="11">
+            <Sentences Count="2">
+                <Sentence id="0" offset="1245:1328">
+                    <Text>so much due to overtime, work schedules and mandatory continuing education classes.</Text>
+                    <Tokens Count="14">
+                        <Token globalID="237" id="0" offset="1245:1247">
+                            <Text>so</Text>
+                        </Token>
+                        <Token globalID="238" id="1" offset="1248:1252">
+                            <Text>much</Text>
+                        </Token>
+                        <Token globalID="239" id="2" offset="1253:1256">
+                            <Text>due</Text>
+                        </Token>
+                        <Token globalID="240" id="3" offset="1257:1259">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="241" id="4" offset="1260:1268">
+                            <Text>overtime</Text>
+                        </Token>
+                        <Token globalID="242" id="5" offset="1268:1269">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="243" id="6" offset="1270:1274">
+                            <Text>work</Text>
+                        </Token>
+                        <Token globalID="244" id="7" offset="1275:1284">
+                            <Text>schedules</Text>
+                        </Token>
+                        <Token globalID="245" id="8" offset="1285:1288">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="246" id="9" offset="1289:1298">
+                            <Text>mandatory</Text>
+                        </Token>
+                        <Token globalID="247" id="10" offset="1299:1309">
+                            <Text>continuing</Text>
+                        </Token>
+                        <Token globalID="248" id="11" offset="1310:1319">
+                            <Text>education</Text>
+                        </Token>
+                        <Token globalID="249" id="12" offset="1320:1327">
+                            <Text>classes</Text>
+                        </Token>
+                        <Token globalID="250" id="13" offset="1327:1328">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="1329:1358">
+                    <Text>Client has a private w/c lift</Text>
+                    <Tokens Count="6">
+                        <Token globalID="251" id="0" offset="1329:1335">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token globalID="252" id="1" offset="1336:1339">
+                            <Text>has</Text>
+                        </Token>
+                        <Token globalID="253" id="2" offset="1337:1338">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="254" id="3" offset="1342:1349">
+                            <Text>private</Text>
+                        </Token>
+                        <Token globalID="255" id="4" offset="1350:1353">
+                            <Text>w/c</Text>
+                        </Token>
+                        <Token globalID="256" id="5" offset="1354:1358">
+                            <Text>lift</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="12">
+            <Sentences Count="2">
+                <Sentence id="0" offset="1359:1413">
+                    <Text>van for medical appt., work and social transportation.</Text>
+                    <Tokens Count="10">
+                        <Token globalID="257" id="0" offset="1359:1362">
+                            <Text>van</Text>
+                        </Token>
+                        <Token globalID="258" id="1" offset="1363:1366">
+                            <Text>for</Text>
+                        </Token>
+                        <Token globalID="259" id="2" offset="1367:1374">
+                            <Text>medical</Text>
+                        </Token>
+                        <Token globalID="260" id="3" offset="1375:1380">
+                            <Text>appt.</Text>
+                        </Token>
+                        <Token globalID="261" id="4" offset="1380:1381">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="262" id="5" offset="1382:1386">
+                            <Text>work</Text>
+                        </Token>
+                        <Token globalID="263" id="6" offset="1387:1390">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="264" id="7" offset="1391:1397">
+                            <Text>social</Text>
+                        </Token>
+                        <Token globalID="265" id="8" offset="1398:1412">
+                            <Text>transportation</Text>
+                        </Token>
+                        <Token globalID="266" id="9" offset="1412:1413">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="1414:1473">
+                    <Text>Client very well aware that transportation is not a medical</Text>
+                    <Tokens Count="10">
+                        <Token globalID="267" id="0" offset="1414:1420">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token globalID="268" id="1" offset="1421:1425">
+                            <Text>very</Text>
+                        </Token>
+                        <Token globalID="269" id="2" offset="1426:1430">
+                            <Text>well</Text>
+                        </Token>
+                        <Token globalID="270" id="3" offset="1431:1436">
+                            <Text>aware</Text>
+                        </Token>
+                        <Token globalID="271" id="4" offset="1437:1441">
+                            <Text>that</Text>
+                        </Token>
+                        <Token globalID="272" id="5" offset="1442:1456">
+                            <Text>transportation</Text>
+                        </Token>
+                        <Token globalID="273" id="6" offset="1457:1459">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="274" id="7" offset="1460:1463">
+                            <Text>not</Text>
+                        </Token>
+                        <Token globalID="275" id="8" offset="1464:1465">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="276" id="9" offset="1466:1473">
+                            <Text>medical</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="13">
+            <Sentences Count="2">
+                <Sentence id="0" offset="1474:1569">
+                    <Text>task and is not part of the care plan and that the attendant is not allowed to
+                        drive/transport.
+                    </Text>
+                    <Tokens Count="19">
+                        <Token globalID="277" id="0" offset="1474:1478">
+                            <Text>task</Text>
+                        </Token>
+                        <Token globalID="278" id="1" offset="1479:1482">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="279" id="2" offset="1483:1485">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="280" id="3" offset="1486:1489">
+                            <Text>not</Text>
+                        </Token>
+                        <Token globalID="281" id="4" offset="1490:1494">
+                            <Text>part</Text>
+                        </Token>
+                        <Token globalID="282" id="5" offset="1495:1497">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="283" id="6" offset="1498:1501">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="284" id="7" offset="1502:1506">
+                            <Text>care</Text>
+                        </Token>
+                        <Token globalID="285" id="8" offset="1507:1511">
+                            <Text>plan</Text>
+                        </Token>
+                        <Token globalID="286" id="9" offset="1512:1515">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="287" id="10" offset="1516:1520">
+                            <Text>that</Text>
+                        </Token>
+                        <Token globalID="288" id="11" offset="1521:1524">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="289" id="12" offset="1525:1534">
+                            <Text>attendant</Text>
+                        </Token>
+                        <Token globalID="290" id="13" offset="1535:1537">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="291" id="14" offset="1538:1541">
+                            <Text>not</Text>
+                        </Token>
+                        <Token globalID="292" id="15" offset="1542:1549">
+                            <Text>allowed</Text>
+                        </Token>
+                        <Token globalID="293" id="16" offset="1550:1552">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="294" id="17" offset="1553:1568">
+                            <Text>drive/transport</Text>
+                        </Token>
+                        <Token globalID="295" id="18" offset="1568:1569">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="1570:1592">
+                    <Text>Client pays the people</Text>
+                    <Tokens Count="4">
+                        <Token globalID="296" id="0" offset="1570:1576">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token globalID="297" id="1" offset="1577:1581">
+                            <Text>pays</Text>
+                        </Token>
+                        <Token globalID="298" id="2" offset="1582:1585">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="299" id="3" offset="1586:1592">
+                            <Text>people</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="14">
+            <Sentences Count="2">
+                <Sentence id="0" offset="1593:1621">
+                    <Text>who drive the van privately.</Text>
+                    <Tokens Count="6">
+                        <Token globalID="300" id="0" offset="1593:1596">
+                            <Text>who</Text>
+                        </Token>
+                        <Token globalID="301" id="1" offset="1597:1602">
+                            <Text>drive</Text>
+                        </Token>
+                        <Token globalID="302" id="2" offset="1603:1606">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="303" id="3" offset="1607:1610">
+                            <Text>van</Text>
+                        </Token>
+                        <Token globalID="304" id="4" offset="1611:1620">
+                            <Text>privately</Text>
+                        </Token>
+                        <Token globalID="305" id="5" offset="1620:1621">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="1622:1709">
+                    <Text>Client needs to have the attendant with her during all work hours since client requires</Text>
+                    <Tokens Count="15">
+                        <Token globalID="306" id="0" offset="1622:1628">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token globalID="307" id="1" offset="1629:1634">
+                            <Text>needs</Text>
+                        </Token>
+                        <Token globalID="308" id="2" offset="1635:1637">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="309" id="3" offset="1638:1642">
+                            <Text>have</Text>
+                        </Token>
+                        <Token globalID="310" id="4" offset="1643:1646">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="311" id="5" offset="1647:1656">
+                            <Text>attendant</Text>
+                        </Token>
+                        <Token globalID="312" id="6" offset="1657:1661">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="313" id="7" offset="1662:1665">
+                            <Text>her</Text>
+                        </Token>
+                        <Token globalID="314" id="8" offset="1666:1672">
+                            <Text>during</Text>
+                        </Token>
+                        <Token globalID="315" id="9" offset="1673:1676">
+                            <Text>all</Text>
+                        </Token>
+                        <Token globalID="316" id="10" offset="1677:1681">
+                            <Text>work</Text>
+                        </Token>
+                        <Token globalID="317" id="11" offset="1682:1687">
+                            <Text>hours</Text>
+                        </Token>
+                        <Token globalID="318" id="12" offset="1688:1693">
+                            <Text>since</Text>
+                        </Token>
+                        <Token globalID="319" id="13" offset="1694:1700">
+                            <Text>client</Text>
+                        </Token>
+                        <Token globalID="320" id="14" offset="1701:1709">
+                            <Text>requires</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="15">
+            <Sentences Count="1">
+                <Sentence id="0" offset="1710:1824">
+                    <Text>total assistance with everything; taking off coat, feeding, toileting (st cath every2-4 hrs),
+                        stands client during
+                    </Text>
+                    <Tokens Count="22">
+                        <Token globalID="321" id="0" offset="1710:1715">
+                            <Text>total</Text>
+                        </Token>
+                        <Token globalID="322" id="1" offset="1716:1726">
+                            <Text>assistance</Text>
+                        </Token>
+                        <Token globalID="323" id="2" offset="1727:1731">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="324" id="3" offset="1732:1742">
+                            <Text>everything</Text>
+                        </Token>
+                        <Token globalID="325" id="4" offset="1742:1743">
+                            <Text>;</Text>
+                        </Token>
+                        <Token globalID="326" id="5" offset="1744:1750">
+                            <Text>taking</Text>
+                        </Token>
+                        <Token globalID="327" id="6" offset="1751:1754">
+                            <Text>off</Text>
+                        </Token>
+                        <Token globalID="328" id="7" offset="1755:1759">
+                            <Text>coat</Text>
+                        </Token>
+                        <Token globalID="329" id="8" offset="1759:1760">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="330" id="9" offset="1761:1768">
+                            <Text>feeding</Text>
+                        </Token>
+                        <Token globalID="331" id="10" offset="1768:1769">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="332" id="11" offset="1770:1779">
+                            <Text>toileting</Text>
+                        </Token>
+                        <Token globalID="333" id="12" offset="1780:1781">
+                            <Text>(</Text>
+                        </Token>
+                        <Token globalID="334" id="13" offset="1781:1783">
+                            <Text>st</Text>
+                        </Token>
+                        <Token globalID="335" id="14" offset="1784:1788">
+                            <Text>cath</Text>
+                        </Token>
+                        <Token globalID="336" id="15" offset="1789:1797">
+                            <Text>every2-4</Text>
+                        </Token>
+                        <Token globalID="337" id="16" offset="1798:1801">
+                            <Text>hrs</Text>
+                        </Token>
+                        <Token globalID="338" id="17" offset="1801:1802">
+                            <Text>)</Text>
+                        </Token>
+                        <Token globalID="339" id="18" offset="1802:1803">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="340" id="19" offset="1804:1810">
+                            <Text>stands</Text>
+                        </Token>
+                        <Token globalID="341" id="20" offset="1811:1817">
+                            <Text>client</Text>
+                        </Token>
+                        <Token globalID="342" id="21" offset="1818:1824">
+                            <Text>during</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="16">
+            <Sentences Count="3">
+                <Sentence id="0" offset="1825:1851">
+                    <Text>breaks taking notes etc...</Text>
+                    <Tokens Count="5">
+                        <Token globalID="343" id="0" offset="1825:1831">
+                            <Text>breaks</Text>
+                        </Token>
+                        <Token globalID="344" id="1" offset="1832:1838">
+                            <Text>taking</Text>
+                        </Token>
+                        <Token globalID="345" id="2" offset="1839:1844">
+                            <Text>notes</Text>
+                        </Token>
+                        <Token globalID="346" id="3" offset="1845:1848">
+                            <Text>etc</Text>
+                        </Token>
+                        <Token globalID="347" id="4" offset="1848:1851">
+                            <Text>...</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="1852:1925">
+                    <Text>Client goes to hospital every 3 months to have her Baclofen pump changed.</Text>
+                    <Tokens Count="14">
+                        <Token globalID="348" id="0" offset="1852:1858">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token globalID="349" id="1" offset="1859:1863">
+                            <Text>goes</Text>
+                        </Token>
+                        <Token globalID="350" id="2" offset="1864:1866">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="351" id="3" offset="1867:1875">
+                            <Text>hospital</Text>
+                        </Token>
+                        <Token globalID="352" id="4" offset="1876:1881">
+                            <Text>every</Text>
+                        </Token>
+                        <Token globalID="353" id="5" offset="1882:1883">
+                            <Text>3</Text>
+                        </Token>
+                        <Token globalID="354" id="6" offset="1884:1890">
+                            <Text>months</Text>
+                        </Token>
+                        <Token globalID="355" id="7" offset="1891:1893">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="356" id="8" offset="1894:1898">
+                            <Text>have</Text>
+                        </Token>
+                        <Token globalID="357" id="9" offset="1899:1902">
+                            <Text>her</Text>
+                        </Token>
+                        <Token globalID="358" id="10" offset="1903:1911">
+                            <Text>Baclofen</Text>
+                        </Token>
+                        <Token globalID="359" id="11" offset="1912:1916">
+                            <Text>pump</Text>
+                        </Token>
+                        <Token globalID="360" id="12" offset="1917:1924">
+                            <Text>changed</Text>
+                        </Token>
+                        <Token globalID="361" id="13" offset="1924:1925">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="1926:1938">
+                    <Text>Parents pick</Text>
+                    <Tokens Count="2">
+                        <Token globalID="362" id="0" offset="1926:1933">
+                            <Text>Parents</Text>
+                        </Token>
+                        <Token globalID="363" id="1" offset="1934:1938">
+                            <Text>pick</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="17">
+            <Sentences Count="3">
+                <Sentence id="0" offset="1939:1977">
+                    <Text>up/oversees medication administration.</Text>
+                    <Tokens Count="4">
+                        <Token globalID="364" id="0" offset="1939:1950">
+                            <Text>up/oversees</Text>
+                        </Token>
+                        <Token globalID="365" id="1" offset="1951:1961">
+                            <Text>medication</Text>
+                        </Token>
+                        <Token globalID="366" id="2" offset="1962:1976">
+                            <Text>administration</Text>
+                        </Token>
+                        <Token globalID="367" id="3" offset="1976:1977">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="1978:2001">
+                    <Text>Client needs to be fed.</Text>
+                    <Tokens Count="6">
+                        <Token globalID="368" id="0" offset="1978:1984">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token globalID="369" id="1" offset="1985:1990">
+                            <Text>needs</Text>
+                        </Token>
+                        <Token globalID="370" id="2" offset="1991:1993">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="371" id="3" offset="1994:1996">
+                            <Text>be</Text>
+                        </Token>
+                        <Token globalID="372" id="4" offset="1997:2000">
+                            <Text>fed</Text>
+                        </Token>
+                        <Token globalID="373" id="5" offset="2000:2001">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="2002:2052">
+                    <Text>Client&#8217;s bathroom is w/c accessible with roll in</Text>
+                    <Tokens Count="8">
+                        <Token globalID="374" id="0" offset="2002:2012">
+                            <Text>Client&#8217;s</Text>
+                        </Token>
+                        <Token globalID="375" id="1" offset="2013:2021">
+                            <Text>bathroom</Text>
+                        </Token>
+                        <Token globalID="376" id="2" offset="2022:2024">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="377" id="3" offset="2025:2028">
+                            <Text>w/c</Text>
+                        </Token>
+                        <Token globalID="378" id="4" offset="2029:2039">
+                            <Text>accessible</Text>
+                        </Token>
+                        <Token globalID="379" id="5" offset="2040:2044">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="380" id="6" offset="2045:2049">
+                            <Text>roll</Text>
+                        </Token>
+                        <Token globalID="381" id="7" offset="2050:2052">
+                            <Text>in</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="18">
+            <Sentences Count="3">
+                <Sentence id="0" offset="2053:2060">
+                    <Text>shower.</Text>
+                    <Tokens Count="2">
+                        <Token globalID="382" id="0" offset="2053:2059">
+                            <Text>shower</Text>
+                        </Token>
+                        <Token globalID="383" id="1" offset="2059:2060">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (NP (NP (NN shower)) (. .))))</ParseTree>
+                </Sentence>
+                <Sentence id="1" offset="2061:2136">
+                    <Text>Landline phone in client&#8217;s bedroom is the only one client is able to use.</Text>
+                    <Tokens Count="15">
+                        <Token globalID="384" id="0" offset="2061:2069">
+                            <Text>Landline</Text>
+                        </Token>
+                        <Token globalID="385" id="1" offset="2070:2075">
+                            <Text>phone</Text>
+                        </Token>
+                        <Token globalID="386" id="2" offset="2076:2078">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="387" id="3" offset="2079:2089">
+                            <Text>client&#8217;s</Text>
+                        </Token>
+                        <Token globalID="388" id="4" offset="2090:2097">
+                            <Text>bedroom</Text>
+                        </Token>
+                        <Token globalID="389" id="5" offset="2098:2100">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="390" id="6" offset="2101:2104">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="391" id="7" offset="2105:2109">
+                            <Text>only</Text>
+                        </Token>
+                        <Token globalID="392" id="8" offset="2110:2113">
+                            <Text>one</Text>
+                        </Token>
+                        <Token globalID="393" id="9" offset="2114:2120">
+                            <Text>client</Text>
+                        </Token>
+                        <Token globalID="394" id="10" offset="2121:2123">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="395" id="11" offset="2124:2128">
+                            <Text>able</Text>
+                        </Token>
+                        <Token globalID="396" id="12" offset="2129:2131">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="397" id="13" offset="2132:2135">
+                            <Text>use</Text>
+                        </Token>
+                        <Token globalID="398" id="14" offset="2135:2136">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="2137:2168">
+                    <Text>Client can push buttons to dial</Text>
+                    <Tokens Count="6">
+                        <Token globalID="399" id="0" offset="2137:2143">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token globalID="400" id="1" offset="2144:2147">
+                            <Text>can</Text>
+                        </Token>
+                        <Token globalID="401" id="2" offset="2148:2152">
+                            <Text>push</Text>
+                        </Token>
+                        <Token globalID="402" id="3" offset="2153:2160">
+                            <Text>buttons</Text>
+                        </Token>
+                        <Token globalID="403" id="4" offset="2156:2158">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="404" id="5" offset="2164:2168">
+                            <Text>dial</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="19">
+            <Sentences Count="3">
+                <Sentence id="0" offset="2169:2193">
+                    <Text>out using speaker phone.</Text>
+                    <Tokens Count="5">
+                        <Token globalID="405" id="0" offset="2169:2172">
+                            <Text>out</Text>
+                        </Token>
+                        <Token globalID="406" id="1" offset="2173:2178">
+                            <Text>using</Text>
+                        </Token>
+                        <Token globalID="407" id="2" offset="2179:2186">
+                            <Text>speaker</Text>
+                        </Token>
+                        <Token globalID="408" id="3" offset="2187:2192">
+                            <Text>phone</Text>
+                        </Token>
+                        <Token globalID="409" id="4" offset="2192:2193">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="2194:2232">
+                    <Text>Client needs help with her cell phone.</Text>
+                    <Tokens Count="8">
+                        <Token globalID="410" id="0" offset="2194:2200">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token globalID="411" id="1" offset="2201:2206">
+                            <Text>needs</Text>
+                        </Token>
+                        <Token globalID="412" id="2" offset="2207:2211">
+                            <Text>help</Text>
+                        </Token>
+                        <Token globalID="413" id="3" offset="2212:2216">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="414" id="4" offset="2217:2220">
+                            <Text>her</Text>
+                        </Token>
+                        <Token globalID="415" id="5" offset="2221:2225">
+                            <Text>cell</Text>
+                        </Token>
+                        <Token globalID="416" id="6" offset="2226:2231">
+                            <Text>phone</Text>
+                        </Token>
+                        <Token globalID="417" id="7" offset="2231:2232">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="2233:2285">
+                    <Text>Client left alone for short periods of time a couple</Text>
+                    <Tokens Count="10">
+                        <Token globalID="418" id="0" offset="2233:2239">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token globalID="419" id="1" offset="2240:2244">
+                            <Text>left</Text>
+                        </Token>
+                        <Token globalID="420" id="2" offset="2245:2250">
+                            <Text>alone</Text>
+                        </Token>
+                        <Token globalID="421" id="3" offset="2251:2254">
+                            <Text>for</Text>
+                        </Token>
+                        <Token globalID="422" id="4" offset="2255:2260">
+                            <Text>short</Text>
+                        </Token>
+                        <Token globalID="423" id="5" offset="2261:2268">
+                            <Text>periods</Text>
+                        </Token>
+                        <Token globalID="424" id="6" offset="2269:2271">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="425" id="7" offset="2272:2276">
+                            <Text>time</Text>
+                        </Token>
+                        <Token globalID="426" id="8" offset="2277:2278">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="427" id="9" offset="2279:2285">
+                            <Text>couple</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="20">
+            <Sentences Count="2">
+                <Sentence id="0" offset="2286:2328">
+                    <Text>hours at a time with no apparent problems.</Text>
+                    <Tokens Count="9">
+                        <Token globalID="428" id="0" offset="2286:2291">
+                            <Text>hours</Text>
+                        </Token>
+                        <Token globalID="429" id="1" offset="2292:2294">
+                            <Text>at</Text>
+                        </Token>
+                        <Token globalID="430" id="2" offset="2292:2293">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="431" id="3" offset="2297:2301">
+                            <Text>time</Text>
+                        </Token>
+                        <Token globalID="432" id="4" offset="2302:2306">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="433" id="5" offset="2307:2309">
+                            <Text>no</Text>
+                        </Token>
+                        <Token globalID="434" id="6" offset="2310:2318">
+                            <Text>apparent</Text>
+                        </Token>
+                        <Token globalID="435" id="7" offset="2319:2327">
+                            <Text>problems</Text>
+                        </Token>
+                        <Token globalID="436" id="8" offset="2327:2328">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="2329:2398">
+                    <Text>House is all on one level so it is easy for client to get around with</Text>
+                    <Tokens Count="16">
+                        <Token globalID="437" id="0" offset="2329:2334">
+                            <Text>House</Text>
+                        </Token>
+                        <Token globalID="438" id="1" offset="2335:2337">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="439" id="2" offset="2338:2341">
+                            <Text>all</Text>
+                        </Token>
+                        <Token globalID="440" id="3" offset="2342:2344">
+                            <Text>on</Text>
+                        </Token>
+                        <Token globalID="441" id="4" offset="2345:2348">
+                            <Text>one</Text>
+                        </Token>
+                        <Token globalID="442" id="5" offset="2349:2354">
+                            <Text>level</Text>
+                        </Token>
+                        <Token globalID="443" id="6" offset="2355:2357">
+                            <Text>so</Text>
+                        </Token>
+                        <Token globalID="444" id="7" offset="2358:2360">
+                            <Text>it</Text>
+                        </Token>
+                        <Token globalID="445" id="8" offset="2361:2363">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="446" id="9" offset="2364:2368">
+                            <Text>easy</Text>
+                        </Token>
+                        <Token globalID="447" id="10" offset="2369:2372">
+                            <Text>for</Text>
+                        </Token>
+                        <Token globalID="448" id="11" offset="2373:2379">
+                            <Text>client</Text>
+                        </Token>
+                        <Token globalID="449" id="12" offset="2380:2382">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="450" id="13" offset="2383:2386">
+                            <Text>get</Text>
+                        </Token>
+                        <Token globalID="451" id="14" offset="2387:2393">
+                            <Text>around</Text>
+                        </Token>
+                        <Token globalID="452" id="15" offset="2394:2398">
+                            <Text>with</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="21">
+            <Sentences Count="2">
+                <Sentence id="0" offset="2399:2474">
+                    <Text>power w/c going out the front door with a small ramp incline to get in/out.</Text>
+                    <Tokens Count="16">
+                        <Token globalID="453" id="0" offset="2399:2404">
+                            <Text>power</Text>
+                        </Token>
+                        <Token globalID="454" id="1" offset="2405:2408">
+                            <Text>w/c</Text>
+                        </Token>
+                        <Token globalID="455" id="2" offset="2409:2414">
+                            <Text>going</Text>
+                        </Token>
+                        <Token globalID="456" id="3" offset="2415:2418">
+                            <Text>out</Text>
+                        </Token>
+                        <Token globalID="457" id="4" offset="2419:2422">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="458" id="5" offset="2423:2428">
+                            <Text>front</Text>
+                        </Token>
+                        <Token globalID="459" id="6" offset="2429:2433">
+                            <Text>door</Text>
+                        </Token>
+                        <Token globalID="460" id="7" offset="2434:2438">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="461" id="8" offset="2439:2440">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="462" id="9" offset="2441:2446">
+                            <Text>small</Text>
+                        </Token>
+                        <Token globalID="463" id="10" offset="2447:2451">
+                            <Text>ramp</Text>
+                        </Token>
+                        <Token globalID="464" id="11" offset="2452:2459">
+                            <Text>incline</Text>
+                        </Token>
+                        <Token globalID="465" id="12" offset="2460:2462">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="466" id="13" offset="2463:2466">
+                            <Text>get</Text>
+                        </Token>
+                        <Token globalID="467" id="14" offset="2467:2473">
+                            <Text>in/out</Text>
+                        </Token>
+                        <Token globalID="468" id="15" offset="2473:2474">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="2475:2509">
+                    <Text>Client needs help with opening the</Text>
+                    <Tokens Count="6">
+                        <Token globalID="469" id="0" offset="2475:2481">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token globalID="470" id="1" offset="2482:2487">
+                            <Text>needs</Text>
+                        </Token>
+                        <Token globalID="471" id="2" offset="2488:2492">
+                            <Text>help</Text>
+                        </Token>
+                        <Token globalID="472" id="3" offset="2493:2497">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="473" id="4" offset="2498:2505">
+                            <Text>opening</Text>
+                        </Token>
+                        <Token globalID="474" id="5" offset="2506:2509">
+                            <Text>the</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="22">
+            <Sentences Count="4">
+                <Sentence id="0" offset="2510:2515">
+                    <Text>door.</Text>
+                    <Tokens Count="2">
+                        <Token globalID="475" id="0" offset="2510:2514">
+                            <Text>door</Text>
+                        </Token>
+                        <Token globalID="476" id="1" offset="2514:2515">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (NP (NP (NN door)) (. .))))</ParseTree>
+                </Sentence>
+                <Sentence id="1" offset="2516:2568">
+                    <Text>Washer/dryer off kitchen; electric stove, microwave.</Text>
+                    <Tokens Count="9">
+                        <Token globalID="477" id="0" offset="2516:2528">
+                            <Text>Washer/dryer</Text>
+                        </Token>
+                        <Token globalID="478" id="1" offset="2529:2532">
+                            <Text>off</Text>
+                        </Token>
+                        <Token globalID="479" id="2" offset="2533:2540">
+                            <Text>kitchen</Text>
+                        </Token>
+                        <Token globalID="480" id="3" offset="2540:2541">
+                            <Text>;</Text>
+                        </Token>
+                        <Token globalID="481" id="4" offset="2542:2550">
+                            <Text>electric</Text>
+                        </Token>
+                        <Token globalID="482" id="5" offset="2551:2556">
+                            <Text>stove</Text>
+                        </Token>
+                        <Token globalID="483" id="6" offset="2556:2557">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="484" id="7" offset="2558:2567">
+                            <Text>microwave</Text>
+                        </Token>
+                        <Token globalID="485" id="8" offset="2567:2568">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="2569:2613">
+                    <Text>Client handles own finances on the computer.</Text>
+                    <Tokens Count="8">
+                        <Token globalID="486" id="0" offset="2569:2575">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token globalID="487" id="1" offset="2576:2583">
+                            <Text>handles</Text>
+                        </Token>
+                        <Token globalID="488" id="2" offset="2584:2587">
+                            <Text>own</Text>
+                        </Token>
+                        <Token globalID="489" id="3" offset="2588:2596">
+                            <Text>finances</Text>
+                        </Token>
+                        <Token globalID="490" id="4" offset="2597:2599">
+                            <Text>on</Text>
+                        </Token>
+                        <Token globalID="491" id="5" offset="2600:2603">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="492" id="6" offset="2604:2612">
+                            <Text>computer</Text>
+                        </Token>
+                        <Token globalID="493" id="7" offset="2612:2613">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="3" offset="2569:2575">
+                    <Text>Client</Text>
+                    <Tokens Count="1">
+                        <Token globalID="494" id="0" offset="2614:2620">
+                            <Text>Client</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="23">
+            <Sentences Count="3">
+                <Sentence id="0" offset="2621:2651">
+                    <Text>able to push keyboard buttons.</Text>
+                    <Tokens Count="6">
+                        <Token globalID="495" id="0" offset="2621:2625">
+                            <Text>able</Text>
+                        </Token>
+                        <Token globalID="496" id="1" offset="2626:2628">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="497" id="2" offset="2629:2633">
+                            <Text>push</Text>
+                        </Token>
+                        <Token globalID="498" id="3" offset="2634:2642">
+                            <Text>keyboard</Text>
+                        </Token>
+                        <Token globalID="499" id="4" offset="2643:2650">
+                            <Text>buttons</Text>
+                        </Token>
+                        <Token globalID="500" id="5" offset="2650:2651">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="2652:2702">
+                    <Text>Parents both have POA and assist client as needed.</Text>
+                    <Tokens Count="10">
+                        <Token globalID="501" id="0" offset="2652:2659">
+                            <Text>Parents</Text>
+                        </Token>
+                        <Token globalID="502" id="1" offset="2660:2664">
+                            <Text>both</Text>
+                        </Token>
+                        <Token globalID="503" id="2" offset="2665:2669">
+                            <Text>have</Text>
+                        </Token>
+                        <Token globalID="504" id="3" offset="2670:2673">
+                            <Text>POA</Text>
+                        </Token>
+                        <Token globalID="505" id="4" offset="2674:2677">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="506" id="5" offset="2678:2684">
+                            <Text>assist</Text>
+                        </Token>
+                        <Token globalID="507" id="6" offset="2685:2691">
+                            <Text>client</Text>
+                        </Token>
+                        <Token globalID="508" id="7" offset="2692:2694">
+                            <Text>as</Text>
+                        </Token>
+                        <Token globalID="509" id="8" offset="2695:2701">
+                            <Text>needed</Text>
+                        </Token>
+                        <Token globalID="510" id="9" offset="2701:2702">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="2703:2725">
+                    <Text>Parents continue to be</Text>
+                    <Tokens Count="4">
+                        <Token globalID="511" id="0" offset="2703:2710">
+                            <Text>Parents</Text>
+                        </Token>
+                        <Token globalID="512" id="1" offset="2711:2719">
+                            <Text>continue</Text>
+                        </Token>
+                        <Token globalID="513" id="2" offset="2720:2722">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="514" id="3" offset="2723:2725">
+                            <Text>be</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="24">
+            <Sentences Count="1">
+                <Sentence id="0" offset="2726:2836">
+                    <Text>responsible for major grocery shopping, laundry, meals, cath care/bowel regime and all care
+                        during non-service
+                    </Text>
+                    <Tokens Count="18">
+                        <Token globalID="515" id="0" offset="2726:2737">
+                            <Text>responsible</Text>
+                        </Token>
+                        <Token globalID="516" id="1" offset="2738:2741">
+                            <Text>for</Text>
+                        </Token>
+                        <Token globalID="517" id="2" offset="2742:2747">
+                            <Text>major</Text>
+                        </Token>
+                        <Token globalID="518" id="3" offset="2748:2755">
+                            <Text>grocery</Text>
+                        </Token>
+                        <Token globalID="519" id="4" offset="2756:2764">
+                            <Text>shopping</Text>
+                        </Token>
+                        <Token globalID="520" id="5" offset="2764:2765">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="521" id="6" offset="2766:2773">
+                            <Text>laundry</Text>
+                        </Token>
+                        <Token globalID="522" id="7" offset="2773:2774">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="523" id="8" offset="2775:2780">
+                            <Text>meals</Text>
+                        </Token>
+                        <Token globalID="524" id="9" offset="2780:2781">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="525" id="10" offset="2782:2786">
+                            <Text>cath</Text>
+                        </Token>
+                        <Token globalID="526" id="11" offset="2787:2797">
+                            <Text>care/bowel</Text>
+                        </Token>
+                        <Token globalID="527" id="12" offset="2798:2804">
+                            <Text>regime</Text>
+                        </Token>
+                        <Token globalID="528" id="13" offset="2805:2808">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="529" id="14" offset="2809:2812">
+                            <Text>all</Text>
+                        </Token>
+                        <Token globalID="530" id="15" offset="2813:2817">
+                            <Text>care</Text>
+                        </Token>
+                        <Token globalID="531" id="16" offset="2818:2824">
+                            <Text>during</Text>
+                        </Token>
+                        <Token globalID="532" id="17" offset="2825:2836">
+                            <Text>non-service</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="25">
+            <Sentences Count="3">
+                <Sentence id="0" offset="2837:2843">
+                    <Text>hours.</Text>
+                    <Tokens Count="2">
+                        <Token globalID="533" id="0" offset="2837:2842">
+                            <Text>hours</Text>
+                        </Token>
+                        <Token globalID="534" id="1" offset="2842:2843">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (NP (NP (NNS hours)) (. .))))</ParseTree>
+                </Sentence>
+                <Sentence id="1" offset="2844:2875">
+                    <Text>Parents provide all night care.</Text>
+                    <Tokens Count="6">
+                        <Token globalID="535" id="0" offset="2844:2851">
+                            <Text>Parents</Text>
+                        </Token>
+                        <Token globalID="536" id="1" offset="2852:2859">
+                            <Text>provide</Text>
+                        </Token>
+                        <Token globalID="537" id="2" offset="2860:2863">
+                            <Text>all</Text>
+                        </Token>
+                        <Token globalID="538" id="3" offset="2864:2869">
+                            <Text>night</Text>
+                        </Token>
+                        <Token globalID="539" id="4" offset="2870:2874">
+                            <Text>care</Text>
+                        </Token>
+                        <Token globalID="540" id="5" offset="2874:2875">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="2876:2949">
+                    <Text>Client has to be turned and positioned and toilet needs attended 2-3x per</Text>
+                    <Tokens Count="13">
+                        <Token globalID="541" id="0" offset="2876:2882">
+                            <Text>Client</Text>
+                        </Token>
+                        <Token globalID="542" id="1" offset="2883:2886">
+                            <Text>has</Text>
+                        </Token>
+                        <Token globalID="543" id="2" offset="2887:2889">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="544" id="3" offset="2890:2892">
+                            <Text>be</Text>
+                        </Token>
+                        <Token globalID="545" id="4" offset="2893:2899">
+                            <Text>turned</Text>
+                        </Token>
+                        <Token globalID="546" id="5" offset="2900:2903">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="547" id="6" offset="2904:2914">
+                            <Text>positioned</Text>
+                        </Token>
+                        <Token globalID="548" id="7" offset="2915:2918">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="549" id="8" offset="2919:2925">
+                            <Text>toilet</Text>
+                        </Token>
+                        <Token globalID="550" id="9" offset="2926:2931">
+                            <Text>needs</Text>
+                        </Token>
+                        <Token globalID="551" id="10" offset="2932:2940">
+                            <Text>attended</Text>
+                        </Token>
+                        <Token globalID="552" id="11" offset="2941:2945">
+                            <Text>2-3x</Text>
+                        </Token>
+                        <Token globalID="553" id="12" offset="2946:2949">
+                            <Text>per</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="26">
+            <Sentences Count="3">
+                <Sentence id="0" offset="2950:2956">
+                    <Text>night.</Text>
+                    <Tokens Count="2">
+                        <Token globalID="554" id="0" offset="2950:2955">
+                            <Text>night</Text>
+                        </Token>
+                        <Token globalID="555" id="1" offset="2955:2956">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (NP (NP (NN night)) (. .))))</ParseTree>
+                </Sentence>
+                <Sentence id="1" offset="2957:2999">
+                    <Text>All family members have keys to the house.</Text>
+                    <Tokens Count="9">
+                        <Token globalID="556" id="0" offset="2957:2960">
+                            <Text>All</Text>
+                        </Token>
+                        <Token globalID="557" id="1" offset="2961:2967">
+                            <Text>family</Text>
+                        </Token>
+                        <Token globalID="558" id="2" offset="2968:2975">
+                            <Text>members</Text>
+                        </Token>
+                        <Token globalID="559" id="3" offset="2976:2980">
+                            <Text>have</Text>
+                        </Token>
+                        <Token globalID="560" id="4" offset="2981:2985">
+                            <Text>keys</Text>
+                        </Token>
+                        <Token globalID="561" id="5" offset="2986:2988">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="562" id="6" offset="2989:2992">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="563" id="7" offset="2993:2998">
+                            <Text>house</Text>
+                        </Token>
+                        <Token globalID="564" id="8" offset="2998:2999">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="3000:3052">
+                    <Text>CDPAP assistants assist with all AM/PM personal care</Text>
+                    <Tokens Count="8">
+                        <Token globalID="565" id="0" offset="3000:3005">
+                            <Text>CDPAP</Text>
+                        </Token>
+                        <Token globalID="566" id="1" offset="3006:3016">
+                            <Text>assistants</Text>
+                        </Token>
+                        <Token globalID="567" id="2" offset="3006:3012">
+                            <Text>assist</Text>
+                        </Token>
+                        <Token globalID="568" id="3" offset="3024:3028">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="569" id="4" offset="3029:3032">
+                            <Text>all</Text>
+                        </Token>
+                        <Token globalID="570" id="5" offset="3033:3038">
+                            <Text>AM/PM</Text>
+                        </Token>
+                        <Token globalID="571" id="6" offset="3039:3047">
+                            <Text>personal</Text>
+                        </Token>
+                        <Token globalID="572" id="7" offset="3048:3052">
+                            <Text>care</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="27">
+            <Sentences Count="1">
+                <Sentence id="0" offset="3053:3153">
+                    <Text>(bathing, shampoo, dressing and undressing), meds, meals (must be fed), catheterization/bowel
+                        regime
+                    </Text>
+                    <Tokens Count="21">
+                        <Token globalID="573" id="0" offset="3053:3054">
+                            <Text>(</Text>
+                        </Token>
+                        <Token globalID="574" id="1" offset="3054:3061">
+                            <Text>bathing</Text>
+                        </Token>
+                        <Token globalID="575" id="2" offset="3061:3062">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="576" id="3" offset="3063:3070">
+                            <Text>shampoo</Text>
+                        </Token>
+                        <Token globalID="577" id="4" offset="3070:3071">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="578" id="5" offset="3072:3080">
+                            <Text>dressing</Text>
+                        </Token>
+                        <Token globalID="579" id="6" offset="3081:3084">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="580" id="7" offset="3085:3095">
+                            <Text>undressing</Text>
+                        </Token>
+                        <Token globalID="581" id="8" offset="3095:3096">
+                            <Text>)</Text>
+                        </Token>
+                        <Token globalID="582" id="9" offset="3096:3097">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="583" id="10" offset="3098:3102">
+                            <Text>meds</Text>
+                        </Token>
+                        <Token globalID="584" id="11" offset="3102:3103">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="585" id="12" offset="3104:3109">
+                            <Text>meals</Text>
+                        </Token>
+                        <Token globalID="586" id="13" offset="3110:3111">
+                            <Text>(</Text>
+                        </Token>
+                        <Token globalID="587" id="14" offset="3111:3115">
+                            <Text>must</Text>
+                        </Token>
+                        <Token globalID="588" id="15" offset="3116:3118">
+                            <Text>be</Text>
+                        </Token>
+                        <Token globalID="589" id="16" offset="3119:3122">
+                            <Text>fed</Text>
+                        </Token>
+                        <Token globalID="590" id="17" offset="3122:3123">
+                            <Text>)</Text>
+                        </Token>
+                        <Token globalID="591" id="18" offset="3123:3124">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="592" id="19" offset="3125:3146">
+                            <Text>catheterization/bowel</Text>
+                        </Token>
+                        <Token globalID="593" id="20" offset="3147:3153">
+                            <Text>regime</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="28">
+            <Sentences Count="1">
+                <Sentence id="0" offset="3154:3225">
+                    <Text>ROM/exercises, minor groceries, personal laundry and household chores.</Text>
+                    <Tokens Count="11">
+                        <Token globalID="594" id="0" offset="3154:3167">
+                            <Text>ROM/exercises</Text>
+                        </Token>
+                        <Token globalID="595" id="1" offset="3167:3168">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="596" id="2" offset="3169:3174">
+                            <Text>minor</Text>
+                        </Token>
+                        <Token globalID="597" id="3" offset="3175:3184">
+                            <Text>groceries</Text>
+                        </Token>
+                        <Token globalID="598" id="4" offset="3184:3185">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="599" id="5" offset="3186:3194">
+                            <Text>personal</Text>
+                        </Token>
+                        <Token globalID="600" id="6" offset="3195:3202">
+                            <Text>laundry</Text>
+                        </Token>
+                        <Token globalID="601" id="7" offset="3203:3206">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="602" id="8" offset="3207:3216">
+                            <Text>household</Text>
+                        </Token>
+                        <Token globalID="603" id="9" offset="3217:3223">
+                            <Text>chores</Text>
+                        </Token>
+                        <Token globalID="604" id="10" offset="3223:3224">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+    </Paragraphs>
+</StartOutput>

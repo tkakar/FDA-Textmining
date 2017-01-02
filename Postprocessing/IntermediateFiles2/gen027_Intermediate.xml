@@ -1,1 +1,389 @@
-<StartOutput><Paragraphs Count="3"><Paragraph id="0"><Sentences Count="5"><Sentence id="0" offset="0:135"><Text>Achartley is a female patient of age 28, weight 115lbs, height 5'4", located in Michigan who suffers primarily from Atrial Tachycardia.</Text><Tokens Count="25"><Token POSTag="NN" globalID="0" id="0" offset="0:9"><Text>Achartley</Text></Token><Token POSTag="VBZ" globalID="1" id="1" offset="10:12"><Text>is</Text></Token><Token POSTag="DT" globalID="2" id="2" offset="13:14"><Text>a</Text></Token><Token POSTag="JJ" globalID="3" id="3" offset="15:21"><Text>female</Text><METAMAP>[orch,phsu]</METAMAP></Token><Token POSTag="NN" globalID="4" id="4" offset="22:29"><Text>patient</Text></Token><Token POSTag="IN" globalID="5" id="5" offset="30:32"><Text>of</Text></Token><Token POSTag="NN" globalID="6" id="6" offset="33:36"><Text>age</Text></Token><Token POSTag="CD" globalID="7" id="7" offset="37:39"><Text>28</Text></Token><Token POSTag="," globalID="8" id="8" offset="39:40"><Text>,</Text></Token><Token POSTag="NN" globalID="9" id="9" offset="41:47"><Text>weight</Text></Token><Token POSTag="NN" globalID="10" id="10" offset="48:54"><Text>115lbs</Text></Token><Token POSTag="," globalID="11" id="11" offset="54:55"><Text>,</Text></Token><Token POSTag="NN" globalID="12" id="12" offset="56:62"><Text>height</Text></Token><Token POSTag="CD" globalID="13" id="13" offset="63:67"><Text>5'4"</Text></Token><Token POSTag="," globalID="14" id="14" offset="67:68"><Text>,</Text></Token><Token POSTag="JJ" globalID="15" id="15" offset="69:76"><Text>located</Text></Token><Token POSTag="IN" globalID="16" id="16" offset="77:79"><Text>in</Text></Token><Token POSTag="NNP" globalID="17" id="17" offset="80:88"><Text>Michigan</Text></Token><Token POSTag="WP" globalID="18" id="18" offset="89:92"><Text>who</Text></Token><Token POSTag="VBZ" globalID="19" id="19" offset="93:100"><Text>suffers</Text></Token><Token POSTag="RB" globalID="20" id="20" offset="101:110"><Text>primarily</Text></Token><Token POSTag="IN" globalID="21" id="21" offset="111:115"><Text>from</Text></Token><Token POSTag="JJ" globalID="22" id="22" offset="116:122"><Text>Atrial</Text></Token><Token POSTag="NN" globalID="23" id="23" offset="123:134"><Text>Tachycardia</Text></Token><Token POSTag="." globalID="24" id="24" offset="134:135"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (NP (NN Achartley)) (VP (VBZ is) (NP (NP (DT a) (JJ female) (NN patient)) (PP (IN of) (NP (NP (NN age) (CD 28)) (, ,) (NP (NN weight) (NN 115lbs)) (, ,) (NP (NN height) (CD 5'4"))))) (, ,) (ADJP (JJ located) (PP (IN in) (NP (NP (NNP Michigan)) (SBAR (WHNP (WP who)) (S (VP (VBZ suffers) (PP (ADVP (RB primarily)) (IN from) (NP (JJ Atrial) (NN Tachycardia))))))))))) (. .)))</ParseTree></Sentence><Sentence id="1" offset="136:247"><Text>Achartley has been taking Norco (hydrocodone-acetaminophen) 325mg-5mg as needed since October-15-2014 for pain.</Text><Tokens Count="16"><Token POSTag="NN" globalID="25" id="0" offset="136:145"><Text>Achartley</Text></Token><Token POSTag="VBZ" globalID="26" id="1" offset="146:149"><Text>has</Text></Token><Token POSTag="VBN" globalID="27" id="2" offset="150:154"><Text>been</Text></Token><Token POSTag="VBG" globalID="28" id="3" offset="155:161"><Text>taking</Text></Token><Token POSTag="NNP" globalID="29" id="4" offset="162:167"><Text>Norco</Text></Token><Token POSTag="-LRB-" globalID="30" id="5" offset="168:169"><Text>(</Text></Token><Token POSTag="JJ" globalID="31" id="6" offset="169:194"><Text>hydrocodone-acetaminophen</Text></Token><Token POSTag="-RRB-" globalID="32" id="7" offset="194:195"><Text>)</Text></Token><Token POSTag="NN" globalID="33" id="8" offset="196:205"><Text>325mg-5mg</Text></Token><Token POSTag="IN" globalID="34" id="9" offset="206:208"><Text>as</Text></Token><Token POSTag="VBN" globalID="35" id="10" offset="209:215"><Text>needed</Text></Token><Token POSTag="IN" globalID="36" id="11" offset="216:221"><Text>since</Text></Token><Token POSTag="CD" globalID="37" id="12" offset="222:237"><Text>October-15-2014</Text></Token><Token POSTag="IN" globalID="38" id="13" offset="238:241"><Text>for</Text></Token><Token POSTag="NN" globalID="39" id="14" offset="242:246"><Text>pain</Text></Token><Token POSTag="." globalID="40" id="15" offset="246:247"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (NP (NN Achartley)) (VP (VBZ has) (VP (VBN been) (VP (VBG taking) (NP (NP (NNP Norco) (-LRB- -LRB-) (JJ hydrocodone-acetaminophen) (-RRB- -RRB-) (NN 325mg-5mg)) (SBAR (IN as) (S (VP (VBN needed) (PP (IN since) (NP (NP (CD October-15-2014)) (PP (IN for) (NP (NN pain))))))))))))) (. .)))</ParseTree></Sentence><Sentence id="2" offset="248:347"><Text>While taking the drug the consumer has had minor complaints about itchy skin, a common side effect.</Text><Tokens Count="19"><Token POSTag="IN" globalID="41" id="0" offset="248:253"><Text>While</Text></Token><Token POSTag="VBG" globalID="42" id="1" offset="254:260"><Text>taking</Text></Token><Token POSTag="DT" globalID="43" id="2" offset="261:264"><Text>the</Text></Token><Token POSTag="NN" globalID="44" id="3" offset="265:269"><Text>drug</Text></Token><Token POSTag="DT" globalID="45" id="4" offset="270:273"><Text>the</Text></Token><Token POSTag="NN" globalID="46" id="5" offset="274:282"><Text>consumer</Text></Token><Token POSTag="VBZ" globalID="47" id="6" offset="283:286"><Text>has</Text></Token><Token POSTag="VBD" globalID="48" id="7" offset="287:290"><Text>had</Text></Token><Token POSTag="JJ" globalID="49" id="8" offset="291:296"><Text>minor</Text></Token><Token POSTag="NNS" globalID="50" id="9" offset="297:307"><Text>complaints</Text></Token><Token POSTag="IN" globalID="51" id="10" offset="308:313"><Text>about</Text></Token><Token POSTag="NN" globalID="52" id="11" offset="314:319"><Text>itchy</Text></Token><Token POSTag="NN" globalID="53" id="12" offset="320:324"><Text>skin</Text></Token><Token POSTag="," globalID="54" id="13" offset="324:325"><Text>,</Text></Token><Token POSTag="DT" globalID="55" id="14" offset="326:327"><Text>a</Text></Token><Token POSTag="JJ" globalID="56" id="15" offset="328:334"><Text>common</Text></Token><Token POSTag="JJ" globalID="57" id="16" offset="335:339"><Text>side</Text></Token><Token POSTag="NN" globalID="58" id="17" offset="340:346"><Text>effect</Text></Token><Token POSTag="." globalID="59" id="18" offset="346:347"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (SBAR (IN While) (S (VP (VBG taking) (NP (DT the) (NN drug))))) (NP (DT the) (NN consumer)) (VP (VBZ has) (VP (VP (VBD had) (NP (NP (JJ minor) (NNS complaints)) (PP (IN about) (NP (NN itchy) (NN skin))))) (, ,) (NP (DT a) (JJ common) (JJ side) (NN effect))))) (. .)))</ParseTree></Sentence><Sentence id="3" offset="348:427"><Text>Previous to the drug, Achartley had a cardiac ablation surgery on Oct 06, 2011.</Text><Tokens Count="17"><Token POSTag="JJ" globalID="60" id="0" offset="348:356"><Text>Previous</Text></Token><Token POSTag="TO" globalID="61" id="1" offset="357:359"><Text>to</Text></Token><Token POSTag="DT" globalID="62" id="2" offset="360:363"><Text>the</Text></Token><Token POSTag="NN" globalID="63" id="3" offset="364:368"><Text>drug</Text></Token><Token POSTag="," globalID="64" id="4" offset="368:369"><Text>,</Text></Token><Token POSTag="NNP" globalID="65" id="5" offset="370:379"><Text>Achartley</Text></Token><Token POSTag="VBD" globalID="66" id="6" offset="380:383"><Text>had</Text></Token><Token POSTag="DT" globalID="67" id="7" offset="381:382"><Text>a</Text></Token><Token POSTag="JJ" globalID="68" id="8" offset="386:393"><Text>cardiac</Text></Token><Token POSTag="NN" globalID="69" id="9" offset="394:402"><Text>ablation</Text></Token><Token POSTag="NN" globalID="70" id="10" offset="403:410"><Text>surgery</Text></Token><Token POSTag="IN" globalID="71" id="11" offset="411:413"><Text>on</Text></Token><Token POSTag="NN" globalID="72" id="12" offset="414:417"><Text>Oct</Text></Token><Token POSTag="NN" globalID="73" id="13" offset="418:420"><Text>06</Text><METAMAP>[phsu]</METAMAP></Token><Token POSTag="," globalID="74" id="14" offset="420:421"><Text>,</Text></Token><Token POSTag="NN" globalID="75" id="15" offset="422:426"><Text>2011</Text></Token><Token POSTag="." globalID="76" id="16" offset="426:427"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (NP (ADJP (JJ Previous) (PP (TO to) (NP (DT the) (NN drug)))) (, ,) (NNP Achartley)) (VP (VBD had) (NP (DT a) (JJ cardiac) (NN ablation) (NN surgery)) (PP (IN on) (NP (NP (NN Oct) (NN 06)) (, ,) (NP (NN 2011)))))) (. .)))</ParseTree></Sentence><Sentence id="4" offset="428:501"><Text>Patient complained about severe soreness that resulted from the surgery. </Text><Tokens Count="11"><Token POSTag="NN" globalID="77" id="0" offset="428:435"><Text>Patient</Text></Token><Token POSTag="VBD" globalID="78" id="1" offset="436:446"><Text>complained</Text></Token><Token POSTag="IN" globalID="79" id="2" offset="447:452"><Text>about</Text></Token><Token POSTag="JJ" globalID="80" id="3" offset="453:459"><Text>severe</Text></Token><Token POSTag="NN" globalID="81" id="4" offset="460:468"><Text>soreness</Text></Token><Token POSTag="WDT" globalID="82" id="5" offset="469:473"><Text>that</Text></Token><Token POSTag="VBD" globalID="83" id="6" offset="474:482"><Text>resulted</Text></Token><Token POSTag="IN" globalID="84" id="7" offset="483:487"><Text>from</Text></Token><Token POSTag="DT" globalID="85" id="8" offset="488:491"><Text>the</Text></Token><Token POSTag="NN" globalID="86" id="9" offset="492:499"><Text>surgery</Text></Token><Token POSTag="." globalID="87" id="10" offset="499:500"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (NP (NN Patient)) (VP (VBD complained) (PP (IN about) (NP (NP (JJ severe) (NN soreness)) (SBAR (WHNP (WDT that)) (S (VP (VBD resulted) (PP (IN from) (NP (DT the) (NN surgery)))))))))) (. .)))</ParseTree></Sentence></Sentences></Paragraph><Paragraph id="1"><Sentences Count="0" /></Paragraph><Paragraph id="2"><Sentences Count="1"><Sentence id="0" offset="503:618"><Text>//fictional write up by Amber based on the information found on https://www.patientslikeme.com/patients/view/284208</Text><Tokens Count="14"><Token POSTag="NNP" globalID="88" id="0" offset="503:514"><Text>//fictional</Text></Token><Token POSTag="VB" globalID="89" id="1" offset="515:520"><Text>write</Text></Token><Token POSTag="RP" globalID="90" id="2" offset="521:523"><Text>up</Text></Token><Token POSTag="IN" globalID="91" id="3" offset="524:526"><Text>by</Text></Token><Token POSTag="NN" globalID="92" id="4" offset="527:532"><Text>Amber</Text></Token><Token POSTag="VBN" globalID="93" id="5" offset="533:538"><Text>based</Text></Token><Token POSTag="IN" globalID="94" id="6" offset="539:541"><Text>on</Text></Token><Token POSTag="DT" globalID="95" id="7" offset="542:545"><Text>the</Text></Token><Token POSTag="NN" globalID="96" id="8" offset="546:557"><Text>information</Text></Token><Token POSTag="VBN" globalID="97" id="9" offset="558:563"><Text>found</Text></Token><Token POSTag="IN" globalID="98" id="10" offset="564:566"><Text>on</Text></Token><Token POSTag="NNS" globalID="99" id="11" offset="567:572"><Text>https</Text></Token><Token POSTag=":" globalID="100" id="12" offset="572:573"><Text>:</Text></Token><Token POSTag="CD" globalID="101" id="13" offset="573:618"><Text>//www.patientslikeme.com/patients/view/284208</Text></Token></Tokens><ParseTree>(S1 (S (NP (NP (NP (NNP //fictional)) (VP (VB write) (PRT (RP up)) (PP (IN by) (NP (NN Amber))) (PP (VBN based) (PP (IN on) (NP (NP (DT the) (NN information)) (VP (VBN found) (PP (IN on) (NP (NNS https))))))))) (: :) (NP (CD //www.patientslikeme.com/patients/view/284208)))))</ParseTree></Sentence></Sentences></Paragraph></Paragraphs></StartOutput>
+<StartOutput>
+    <Paragraphs Count="3">
+        <Paragraph id="0">
+            <Sentences Count="5">
+                <Sentence id="0" offset="0:135">
+                    <Text>Achartley is a female patient of age 28, weight 115lbs, height 5'4", located in Michigan who
+                        suffers primarily from Atrial Tachycardia.
+                    </Text>
+                    <Tokens Count="25">
+                        <Token POSTag="NN" globalID="0" id="0" offset="0:9">
+                            <Text>Achartley</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="1" id="1" offset="10:12">
+                            <Text>is</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="2" id="2" offset="13:14">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="3" id="3" offset="15:21">
+                            <Text>female</Text>
+                            <METAMAP>[orch,phsu]</METAMAP>
+                        </Token>
+                        <Token POSTag="NN" globalID="4" id="4" offset="22:29">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="5" id="5" offset="30:32">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="6" id="6" offset="33:36">
+                            <Text>age</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="7" id="7" offset="37:39">
+                            <Text>28</Text>
+                        </Token>
+                        <Token POSTag="," globalID="8" id="8" offset="39:40">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="9" id="9" offset="41:47">
+                            <Text>weight</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="10" id="10" offset="48:54">
+                            <Text>115lbs</Text>
+                        </Token>
+                        <Token POSTag="," globalID="11" id="11" offset="54:55">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="12" id="12" offset="56:62">
+                            <Text>height</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="13" id="13" offset="63:67">
+                            <Text>5'4"</Text>
+                        </Token>
+                        <Token POSTag="," globalID="14" id="14" offset="67:68">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="15" id="15" offset="69:76">
+                            <Text>located</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="16" id="16" offset="77:79">
+                            <Text>in</Text>
+                        </Token>
+                        <Token POSTag="NNP" globalID="17" id="17" offset="80:88">
+                            <Text>Michigan</Text>
+                        </Token>
+                        <Token POSTag="WP" globalID="18" id="18" offset="89:92">
+                            <Text>who</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="19" id="19" offset="93:100">
+                            <Text>suffers</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="20" id="20" offset="101:110">
+                            <Text>primarily</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="21" id="21" offset="111:115">
+                            <Text>from</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="22" id="22" offset="116:122">
+                            <Text>Atrial</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="23" id="23" offset="123:134">
+                            <Text>Tachycardia</Text>
+                        </Token>
+                        <Token POSTag="." globalID="24" id="24" offset="134:135">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (NP (NN Achartley)) (VP (VBZ is) (NP (NP (DT a) (JJ female) (NN patient)) (PP
+                        (IN of) (NP (NP (NN age) (CD 28)) (, ,) (NP (NN weight) (NN 115lbs)) (, ,) (NP (NN height) (CD
+                        5'4"))))) (, ,) (ADJP (JJ located) (PP (IN in) (NP (NP (NNP Michigan)) (SBAR (WHNP (WP who)) (S
+                        (VP (VBZ suffers) (PP (ADVP (RB primarily)) (IN from) (NP (JJ Atrial) (NN Tachycardia)))))))))))
+                        (. .)))
+                    </ParseTree>
+                </Sentence>
+                <Sentence id="1" offset="136:247">
+                    <Text>Achartley has been taking Norco (hydrocodone-acetaminophen) 325mg-5mg as needed since
+                        October-15-2014 for pain.
+                    </Text>
+                    <Tokens Count="16">
+                        <Token POSTag="NN" globalID="25" id="0" offset="136:145">
+                            <Text>Achartley</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="26" id="1" offset="146:149">
+                            <Text>has</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="27" id="2" offset="150:154">
+                            <Text>been</Text>
+                        </Token>
+                        <Token POSTag="VBG" globalID="28" id="3" offset="155:161">
+                            <Text>taking</Text>
+                        </Token>
+                        <Token POSTag="NNP" globalID="29" id="4" offset="162:167">
+                            <Text>Norco</Text>
+                        </Token>
+                        <Token POSTag="-LRB-" globalID="30" id="5" offset="168:169">
+                            <Text>(</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="31" id="6" offset="169:194">
+                            <Text>hydrocodone-acetaminophen</Text>
+                        </Token>
+                        <Token POSTag="-RRB-" globalID="32" id="7" offset="194:195">
+                            <Text>)</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="33" id="8" offset="196:205">
+                            <Text>325mg-5mg</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="34" id="9" offset="206:208">
+                            <Text>as</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="35" id="10" offset="209:215">
+                            <Text>needed</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="36" id="11" offset="216:221">
+                            <Text>since</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="37" id="12" offset="222:237">
+                            <Text>October-15-2014</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="38" id="13" offset="238:241">
+                            <Text>for</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="39" id="14" offset="242:246">
+                            <Text>pain</Text>
+                        </Token>
+                        <Token POSTag="." globalID="40" id="15" offset="246:247">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (NP (NN Achartley)) (VP (VBZ has) (VP (VBN been) (VP (VBG taking) (NP (NP (NNP
+                        Norco) (-LRB- -LRB-) (JJ hydrocodone-acetaminophen) (-RRB- -RRB-) (NN 325mg-5mg)) (SBAR (IN as)
+                        (S (VP (VBN needed) (PP (IN since) (NP (NP (CD October-15-2014)) (PP (IN for) (NP (NN
+                        pain))))))))))))) (. .)))
+                    </ParseTree>
+                </Sentence>
+                <Sentence id="2" offset="248:347">
+                    <Text>While taking the drug the consumer has had minor complaints about itchy skin, a common side
+                        effect.
+                    </Text>
+                    <Tokens Count="19">
+                        <Token POSTag="IN" globalID="41" id="0" offset="248:253">
+                            <Text>While</Text>
+                        </Token>
+                        <Token POSTag="VBG" globalID="42" id="1" offset="254:260">
+                            <Text>taking</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="43" id="2" offset="261:264">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="44" id="3" offset="265:269">
+                            <Text>drug</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="45" id="4" offset="270:273">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="46" id="5" offset="274:282">
+                            <Text>consumer</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="47" id="6" offset="283:286">
+                            <Text>has</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="48" id="7" offset="287:290">
+                            <Text>had</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="49" id="8" offset="291:296">
+                            <Text>minor</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="50" id="9" offset="297:307">
+                            <Text>complaints</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="51" id="10" offset="308:313">
+                            <Text>about</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="52" id="11" offset="314:319">
+                            <Text>itchy</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="53" id="12" offset="320:324">
+                            <Text>skin</Text>
+                        </Token>
+                        <Token POSTag="," globalID="54" id="13" offset="324:325">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="55" id="14" offset="326:327">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="56" id="15" offset="328:334">
+                            <Text>common</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="57" id="16" offset="335:339">
+                            <Text>side</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="58" id="17" offset="340:346">
+                            <Text>effect</Text>
+                        </Token>
+                        <Token POSTag="." globalID="59" id="18" offset="346:347">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (SBAR (IN While) (S (VP (VBG taking) (NP (DT the) (NN drug))))) (NP (DT the)
+                        (NN consumer)) (VP (VBZ has) (VP (VP (VBD had) (NP (NP (JJ minor) (NNS complaints)) (PP (IN
+                        about) (NP (NN itchy) (NN skin))))) (, ,) (NP (DT a) (JJ common) (JJ side) (NN effect))))) (.
+                        .)))
+                    </ParseTree>
+                </Sentence>
+                <Sentence id="3" offset="348:427">
+                    <Text>Previous to the drug, Achartley had a cardiac ablation surgery on Oct 06, 2011.</Text>
+                    <Tokens Count="17">
+                        <Token POSTag="JJ" globalID="60" id="0" offset="348:356">
+                            <Text>Previous</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="61" id="1" offset="357:359">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="62" id="2" offset="360:363">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="63" id="3" offset="364:368">
+                            <Text>drug</Text>
+                        </Token>
+                        <Token POSTag="," globalID="64" id="4" offset="368:369">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NNP" globalID="65" id="5" offset="370:379">
+                            <Text>Achartley</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="66" id="6" offset="380:383">
+                            <Text>had</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="67" id="7" offset="381:382">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="68" id="8" offset="386:393">
+                            <Text>cardiac</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="69" id="9" offset="394:402">
+                            <Text>ablation</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="70" id="10" offset="403:410">
+                            <Text>surgery</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="71" id="11" offset="411:413">
+                            <Text>on</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="72" id="12" offset="414:417">
+                            <Text>Oct</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="73" id="13" offset="418:420">
+                            <Text>06</Text>
+                            <METAMAP>[phsu]</METAMAP>
+                        </Token>
+                        <Token POSTag="," globalID="74" id="14" offset="420:421">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="75" id="15" offset="422:426">
+                            <Text>2011</Text>
+                        </Token>
+                        <Token POSTag="." globalID="76" id="16" offset="426:427">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (NP (ADJP (JJ Previous) (PP (TO to) (NP (DT the) (NN drug)))) (, ,) (NNP
+                        Achartley)) (VP (VBD had) (NP (DT a) (JJ cardiac) (NN ablation) (NN surgery)) (PP (IN on) (NP
+                        (NP (NN Oct) (NN 06)) (, ,) (NP (NN 2011)))))) (. .)))
+                    </ParseTree>
+                </Sentence>
+                <Sentence id="4" offset="428:501">
+                    <Text>Patient complained about severe soreness that resulted from the surgery.</Text>
+                    <Tokens Count="11">
+                        <Token POSTag="NN" globalID="77" id="0" offset="428:435">
+                            <Text>Patient</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="78" id="1" offset="436:446">
+                            <Text>complained</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="79" id="2" offset="447:452">
+                            <Text>about</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="80" id="3" offset="453:459">
+                            <Text>severe</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="81" id="4" offset="460:468">
+                            <Text>soreness</Text>
+                        </Token>
+                        <Token POSTag="WDT" globalID="82" id="5" offset="469:473">
+                            <Text>that</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="83" id="6" offset="474:482">
+                            <Text>resulted</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="84" id="7" offset="483:487">
+                            <Text>from</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="85" id="8" offset="488:491">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="86" id="9" offset="492:499">
+                            <Text>surgery</Text>
+                        </Token>
+                        <Token POSTag="." globalID="87" id="10" offset="499:500">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (NP (NN Patient)) (VP (VBD complained) (PP (IN about) (NP (NP (JJ severe) (NN
+                        soreness)) (SBAR (WHNP (WDT that)) (S (VP (VBD resulted) (PP (IN from) (NP (DT the) (NN
+                        surgery)))))))))) (. .)))
+                    </ParseTree>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="1">
+            <Sentences Count="0"/>
+        </Paragraph>
+        <Paragraph id="2">
+            <Sentences Count="1">
+                <Sentence id="0" offset="503:618">
+                    <Text>//fictional write up by Amber based on the information found on
+                        https://www.patientslikeme.com/patients/view/284208
+                    </Text>
+                    <Tokens Count="14">
+                        <Token POSTag="NNP" globalID="88" id="0" offset="503:514">
+                            <Text>//fictional</Text>
+                        </Token>
+                        <Token POSTag="VB" globalID="89" id="1" offset="515:520">
+                            <Text>write</Text>
+                        </Token>
+                        <Token POSTag="RP" globalID="90" id="2" offset="521:523">
+                            <Text>up</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="91" id="3" offset="524:526">
+                            <Text>by</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="92" id="4" offset="527:532">
+                            <Text>Amber</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="93" id="5" offset="533:538">
+                            <Text>based</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="94" id="6" offset="539:541">
+                            <Text>on</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="95" id="7" offset="542:545">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="96" id="8" offset="546:557">
+                            <Text>information</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="97" id="9" offset="558:563">
+                            <Text>found</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="98" id="10" offset="564:566">
+                            <Text>on</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="99" id="11" offset="567:572">
+                            <Text>https</Text>
+                        </Token>
+                        <Token POSTag=":" globalID="100" id="12" offset="572:573">
+                            <Text>:</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="101" id="13" offset="573:618">
+                            <Text>//www.patientslikeme.com/patients/view/284208</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (NP (NP (NP (NNP //fictional)) (VP (VB write) (PRT (RP up)) (PP (IN by) (NP (NN
+                        Amber))) (PP (VBN based) (PP (IN on) (NP (NP (DT the) (NN information)) (VP (VBN found) (PP (IN
+                        on) (NP (NNS https))))))))) (: :) (NP (CD //www.patientslikeme.com/patients/view/284208)))))
+                    </ParseTree>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+    </Paragraphs>
+</StartOutput>

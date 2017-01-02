@@ -1,1 +1,507 @@
-<StartOutput><Paragraphs Count="13"><Paragraph id="0"><Sentences Count="1"><Sentence id="0" offset="0:8"><Text>Patient:</Text><Tokens Count="2"><Token POSTag="NN" globalID="0" id="0" offset="0:7"><Text>Patient</Text></Token><Token POSTag=":" globalID="1" id="1" offset="7:8"><Text>:</Text></Token></Tokens><ParseTree>(S1 (S (NP (NN Patient) (: :))))</ParseTree></Sentence></Sentences></Paragraph><Paragraph id="1"><Sentences Count="1"><Sentence id="0" offset="9:38"><Text>Female, 56years old, 165.5lbs</Text><Tokens Count="6"><Token POSTag="NN" globalID="2" id="0" offset="9:15"><Text>Female</Text></Token><Token POSTag="," globalID="3" id="1" offset="15:16"><Text>,</Text></Token><Token POSTag="NNS" globalID="4" id="2" offset="17:24"><Text>56years</Text></Token><Token POSTag="JJ" globalID="5" id="3" offset="25:28"><Text>old</Text></Token><Token POSTag="," globalID="6" id="4" offset="28:29"><Text>,</Text></Token><Token POSTag="NN" globalID="7" id="5" offset="30:38"><Text>165.5lbs</Text></Token></Tokens><ParseTree>(S1 (S (NP (NP (NN Female)) (, ,) (NP (NP (NNS 56years)) (ADJP (JJ old))) (, ,) (NP (NN 165.5lbs)))))</ParseTree></Sentence></Sentences></Paragraph><Paragraph id="2"><Sentences Count="0" /></Paragraph><Paragraph id="3"><Sentences Count="2"><Sentence id="0" offset="40:179"><Text>On december 1st, the patient started therapy with desloratadine(AERIUS)tablet, oral, 5.0 mg, 1 every 1 day and used for unknown indication.</Text><Tokens Count="30"><Token POSTag="IN" globalID="8" id="0" offset="40:42"><Text>On</Text></Token><Token POSTag="NNP" globalID="9" id="1" offset="43:51"><Text>december</Text></Token><Token POSTag="JJ" globalID="10" id="2" offset="52:55"><Text>1st</Text></Token><Token POSTag="," globalID="11" id="3" offset="55:56"><Text>,</Text></Token><Token POSTag="DT" globalID="12" id="4" offset="57:60"><Text>the</Text></Token><Token POSTag="NN" globalID="13" id="5" offset="61:68"><Text>patient</Text></Token><Token POSTag="VBD" globalID="14" id="6" offset="69:76"><Text>started</Text></Token><Token POSTag="NN" globalID="15" id="7" offset="77:84"><Text>therapy</Text></Token><Token POSTag="IN" globalID="16" id="8" offset="85:89"><Text>with</Text></Token><Token POSTag="NN" globalID="17" id="9" offset="90:103"><Text>desloratadine</Text><METAMAP>[orch,phsu]</METAMAP></Token><Token POSTag="-LRB-" globalID="18" id="10" offset="103:104"><Text>(</Text></Token><Token POSTag="NN" globalID="19" id="11" offset="104:110"><Text>AERIUS</Text><METAMAP>[orch,phsu]</METAMAP></Token><Token POSTag="-RRB-" globalID="20" id="12" offset="110:111"><Text>)</Text></Token><Token POSTag="NN" globalID="21" id="13" offset="111:117"><Text>tablet</Text></Token><Token POSTag="," globalID="22" id="14" offset="117:118"><Text>,</Text></Token><Token POSTag="JJ" globalID="23" id="15" offset="119:123"><Text>oral</Text></Token><Token POSTag="," globalID="24" id="16" offset="123:124"><Text>,</Text></Token><Token POSTag="CD" globalID="25" id="17" offset="125:128"><Text>5.0</Text></Token><Token POSTag="NN" globalID="26" id="18" offset="129:131"><Text>mg</Text></Token><Token POSTag="," globalID="27" id="19" offset="131:132"><Text>,</Text></Token><Token POSTag="CD" globalID="28" id="20" offset="133:134"><Text>1</Text></Token><Token POSTag="DT" globalID="29" id="21" offset="135:140"><Text>every</Text></Token><Token POSTag="CD" globalID="30" id="22" offset="141:142"><Text>1</Text></Token><Token POSTag="NN" globalID="31" id="23" offset="143:146"><Text>day</Text></Token><Token POSTag="CC" globalID="32" id="24" offset="147:150"><Text>and</Text></Token><Token POSTag="VBN" globalID="33" id="25" offset="151:155"><Text>used</Text></Token><Token POSTag="IN" globalID="34" id="26" offset="156:159"><Text>for</Text></Token><Token POSTag="JJ" globalID="35" id="27" offset="160:167"><Text>unknown</Text></Token><Token POSTag="NN" globalID="36" id="28" offset="168:178"><Text>indication</Text></Token><Token POSTag="." globalID="37" id="29" offset="178:179"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (PP (IN On) (NP (NP (NNP december)) (ADJP (JJ 1st)))) (, ,) (NP (DT the) (NN patient)) (VP (VP (VBD started) (NP (NN therapy)) (PP (IN with) (NP (NP (NN desloratadine) (-LRB- -LRB-) (NN AERIUS) (-RRB- -RRB-) (NN tablet)) (, ,) (NP (ADJP (JJ oral))) (, ,) (NP (CD 5.0) (NN mg)) (, ,) (NP (CD 1) (DT every) (CD 1) (NN day))))) (CC and) (VP (VBN used) (PP (IN for) (NP (JJ unknown) (NN indication))))) (. .)))</ParseTree></Sentence><Sentence id="1" offset="180:283"><Text>On december 20th, the patient experienced hallucination, auditory, psychotic disorder and paranoia.    </Text><Tokens Count="16"><Token POSTag="IN" globalID="38" id="0" offset="180:182"><Text>On</Text></Token><Token POSTag="NNP" globalID="39" id="1" offset="183:191"><Text>december</Text></Token><Token POSTag="CD" globalID="40" id="2" offset="192:196"><Text>20th</Text></Token><Token POSTag="," globalID="41" id="3" offset="196:197"><Text>,</Text></Token><Token POSTag="DT" globalID="42" id="4" offset="198:201"><Text>the</Text></Token><Token POSTag="NN" globalID="43" id="5" offset="202:209"><Text>patient</Text></Token><Token POSTag="VBN" globalID="44" id="6" offset="210:221"><Text>experienced</Text></Token><Token POSTag="NN" globalID="45" id="7" offset="222:235"><Text>hallucination</Text></Token><Token POSTag="," globalID="46" id="8" offset="235:236"><Text>,</Text></Token><Token POSTag="NN" globalID="47" id="9" offset="237:245"><Text>auditory</Text></Token><Token POSTag="," globalID="48" id="10" offset="245:246"><Text>,</Text></Token><Token POSTag="JJ" globalID="49" id="11" offset="247:256"><Text>psychotic</Text></Token><Token POSTag="NN" globalID="50" id="12" offset="257:265"><Text>disorder</Text></Token><Token POSTag="CC" globalID="51" id="13" offset="266:269"><Text>and</Text></Token><Token POSTag="NN" globalID="52" id="14" offset="270:278"><Text>paranoia</Text></Token><Token POSTag="." globalID="53" id="15" offset="278:279"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (PP (IN On) (NP (NNP december) (CD 20th))) (, ,) (NP (DT the) (NN patient)) (VP (VBN experienced) (NP (NP (NN hallucination)) (, ,) (NP (NN auditory)) (, ,) (NP (JJ psychotic) (NN disorder)) (CC and) (NP (NN paranoia))))) (. .)))</ParseTree></Sentence></Sentences></Paragraph><Paragraph id="4"><Sentences Count="0" /></Paragraph><Paragraph id="5"><Sentences Count="1"><Sentence id="0" offset="285:336"><Text>The action taken with suspect products was unknown.</Text><Tokens Count="9"><Token POSTag="DT" globalID="54" id="0" offset="285:288"><Text>The</Text></Token><Token POSTag="NN" globalID="55" id="1" offset="289:295"><Text>action</Text></Token><Token POSTag="VBN" globalID="56" id="2" offset="296:301"><Text>taken</Text></Token><Token POSTag="IN" globalID="57" id="3" offset="302:306"><Text>with</Text></Token><Token POSTag="NN" globalID="58" id="4" offset="307:314"><Text>suspect</Text></Token><Token POSTag="NNS" globalID="59" id="5" offset="315:323"><Text>products</Text></Token><Token POSTag="VBD" globalID="60" id="6" offset="324:327"><Text>was</Text></Token><Token POSTag="JJ" globalID="61" id="7" offset="328:335"><Text>unknown</Text></Token><Token POSTag="." globalID="62" id="8" offset="335:336"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (NP (NP (DT The) (NN action)) (VP (VBN taken) (PP (IN with) (NP (NN suspect) (NNS products))))) (VP (VBD was) (ADJP (JJ unknown)))) (. .)))</ParseTree></Sentence></Sentences></Paragraph><Paragraph id="6"><Sentences Count="1"><Sentence id="0" offset="337:447"><Text>The outcome of hallucination, auditory, psychotic disorder and paranoia was recovered on an unspecified date. </Text><Tokens Count="18"><Token POSTag="DT" globalID="63" id="0" offset="337:340"><Text>The</Text></Token><Token POSTag="NN" globalID="64" id="1" offset="341:348"><Text>outcome</Text></Token><Token POSTag="IN" globalID="65" id="2" offset="349:351"><Text>of</Text></Token><Token POSTag="NN" globalID="66" id="3" offset="352:365"><Text>hallucination</Text></Token><Token POSTag="," globalID="67" id="4" offset="365:366"><Text>,</Text></Token><Token POSTag="NN" globalID="68" id="5" offset="367:375"><Text>auditory</Text></Token><Token POSTag="," globalID="69" id="6" offset="375:376"><Text>,</Text></Token><Token POSTag="JJ" globalID="70" id="7" offset="377:386"><Text>psychotic</Text></Token><Token POSTag="NN" globalID="71" id="8" offset="387:395"><Text>disorder</Text></Token><Token POSTag="CC" globalID="72" id="9" offset="396:399"><Text>and</Text></Token><Token POSTag="NN" globalID="73" id="10" offset="400:408"><Text>paranoia</Text></Token><Token POSTag="VBD" globalID="74" id="11" offset="409:412"><Text>was</Text></Token><Token POSTag="VBN" globalID="75" id="12" offset="413:422"><Text>recovered</Text></Token><Token POSTag="IN" globalID="76" id="13" offset="423:425"><Text>on</Text></Token><Token POSTag="DT" globalID="77" id="14" offset="426:428"><Text>an</Text></Token><Token POSTag="JJ" globalID="78" id="15" offset="429:440"><Text>unspecified</Text></Token><Token POSTag="NN" globalID="79" id="16" offset="441:445"><Text>date</Text></Token><Token POSTag="." globalID="80" id="17" offset="445:446"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (NP (NP (DT The) (NN outcome)) (PP (IN of) (NP (NP (NN hallucination)) (, ,) (NP (NN auditory)) (, ,) (NP (JJ psychotic) (NN disorder)) (CC and) (NP (NN paranoia))))) (VP (VBD was) (VP (VBN recovered) (PP (IN on) (NP (DT an) (JJ unspecified) (NN date)))))) (. .)))</ParseTree></Sentence></Sentences></Paragraph><Paragraph id="7"><Sentences Count="0" /></Paragraph><Paragraph id="8"><Sentences Count="1"><Sentence id="0" offset="449:581"><Text>Relatedness between the suspect therapies and the events: hallucination, auditory, psychotic disorder and paranoia was not reported.</Text><Tokens Count="21"><Token POSTag="NN" globalID="81" id="0" offset="449:460"><Text>Relatedness</Text></Token><Token POSTag="IN" globalID="82" id="1" offset="461:468"><Text>between</Text></Token><Token POSTag="DT" globalID="83" id="2" offset="469:472"><Text>the</Text></Token><Token POSTag="NN" globalID="84" id="3" offset="473:480"><Text>suspect</Text></Token><Token POSTag="NNS" globalID="85" id="4" offset="481:490"><Text>therapies</Text></Token><Token POSTag="CC" globalID="86" id="5" offset="491:494"><Text>and</Text></Token><Token POSTag="DT" globalID="87" id="6" offset="495:498"><Text>the</Text></Token><Token POSTag="NNS" globalID="88" id="7" offset="499:505"><Text>events</Text></Token><Token POSTag=":" globalID="89" id="8" offset="505:506"><Text>:</Text></Token><Token POSTag="NN" globalID="90" id="9" offset="507:520"><Text>hallucination</Text></Token><Token POSTag="," globalID="91" id="10" offset="520:521"><Text>,</Text></Token><Token POSTag="NN" globalID="92" id="11" offset="522:530"><Text>auditory</Text></Token><Token POSTag="," globalID="93" id="12" offset="530:531"><Text>,</Text></Token><Token POSTag="JJ" globalID="94" id="13" offset="532:541"><Text>psychotic</Text></Token><Token POSTag="NN" globalID="95" id="14" offset="542:550"><Text>disorder</Text></Token><Token POSTag="CC" globalID="96" id="15" offset="551:554"><Text>and</Text></Token><Token POSTag="NN" globalID="97" id="16" offset="555:563"><Text>paranoia</Text></Token><Token POSTag="VBD" globalID="98" id="17" offset="564:567"><Text>was</Text></Token><Token POSTag="RB" globalID="99" id="18" offset="568:571"><Text>not</Text></Token><Token POSTag="VBN" globalID="100" id="19" offset="572:580"><Text>reported</Text></Token><Token POSTag="." globalID="101" id="20" offset="580:581"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (NP (NP (NN Relatedness)) (PP (IN between) (NP (NP (NP (DT the) (NN suspect) (NNS therapies)) (CC and) (NP (DT the) (NNS events))) (: :) (NP (NP (NN hallucination)) (, ,) (NP (NN auditory)) (, ,) (NP (JJ psychotic) (NN disorder)) (CC and) (NP (NN paranoia)))))) (VP (VBD was) (RB not) (VP (VBN reported)))) (. .)))</ParseTree></Sentence></Sentences></Paragraph><Paragraph id="9"><Sentences Count="0" /></Paragraph><Paragraph id="10"><Sentences Count="1"><Sentence id="0" offset="583:649"><Text>The agency considered the events to be medically significant.     </Text><Tokens Count="10"><Token POSTag="DT" globalID="102" id="0" offset="583:586"><Text>The</Text></Token><Token POSTag="NN" globalID="103" id="1" offset="587:593"><Text>agency</Text></Token><Token POSTag="VBD" globalID="104" id="2" offset="594:604"><Text>considered</Text></Token><Token POSTag="DT" globalID="105" id="3" offset="605:608"><Text>the</Text></Token><Token POSTag="NNS" globalID="106" id="4" offset="609:615"><Text>events</Text></Token><Token POSTag="TO" globalID="107" id="5" offset="616:618"><Text>to</Text></Token><Token POSTag="VB" globalID="108" id="6" offset="619:621"><Text>be</Text></Token><Token POSTag="RB" globalID="109" id="7" offset="622:631"><Text>medically</Text></Token><Token POSTag="JJ" globalID="110" id="8" offset="632:643"><Text>significant</Text></Token><Token POSTag="." globalID="111" id="9" offset="643:644"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (NP (DT The) (NN agency)) (VP (VBD considered) (NP (DT the) (NNS events)) (S (VP (TO to) (VP (VB be) (ADJP (RB medically) (JJ significant))))))) (. .)))</ParseTree></Sentence></Sentences></Paragraph><Paragraph id="11"><Sentences Count="0" /></Paragraph><Paragraph id="12"><Sentences Count="1"><Sentence id="0" offset="651:727"><Text>Additional information is not expected due to agency confidentiality clause.</Text><Tokens Count="11"><Token POSTag="JJ" globalID="112" id="0" offset="651:661"><Text>Additional</Text></Token><Token POSTag="NN" globalID="113" id="1" offset="662:673"><Text>information</Text></Token><Token POSTag="VBZ" globalID="114" id="2" offset="674:676"><Text>is</Text></Token><Token POSTag="RB" globalID="115" id="3" offset="677:680"><Text>not</Text></Token><Token POSTag="VBN" globalID="116" id="4" offset="681:689"><Text>expected</Text></Token><Token POSTag="JJ" globalID="117" id="5" offset="690:693"><Text>due</Text></Token><Token POSTag="TO" globalID="118" id="6" offset="694:696"><Text>to</Text></Token><Token POSTag="NN" globalID="119" id="7" offset="697:703"><Text>agency</Text></Token><Token POSTag="NN" globalID="120" id="8" offset="704:719"><Text>confidentiality</Text></Token><Token POSTag="NN" globalID="121" id="9" offset="720:726"><Text>clause</Text></Token><Token POSTag="." globalID="122" id="10" offset="726:727"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (NP (JJ Additional) (NN information)) (VP (VBZ is) (RB not) (VP (VBN expected) (PP (JJ due) (TO to) (NP (NN agency) (NN confidentiality) (NN clause)))))) (. .)))</ParseTree></Sentence></Sentences></Paragraph></Paragraphs></StartOutput>
+<StartOutput>
+    <Paragraphs Count="13">
+        <Paragraph id="0">
+            <Sentences Count="1">
+                <Sentence id="0" offset="0:8">
+                    <Text>Patient:</Text>
+                    <Tokens Count="2">
+                        <Token POSTag="NN" globalID="0" id="0" offset="0:7">
+                            <Text>Patient</Text>
+                        </Token>
+                        <Token POSTag=":" globalID="1" id="1" offset="7:8">
+                            <Text>:</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (NP (NN Patient) (: :))))</ParseTree>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="1">
+            <Sentences Count="1">
+                <Sentence id="0" offset="9:38">
+                    <Text>Female, 56years old, 165.5lbs</Text>
+                    <Tokens Count="6">
+                        <Token POSTag="NN" globalID="2" id="0" offset="9:15">
+                            <Text>Female</Text>
+                        </Token>
+                        <Token POSTag="," globalID="3" id="1" offset="15:16">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="4" id="2" offset="17:24">
+                            <Text>56years</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="5" id="3" offset="25:28">
+                            <Text>old</Text>
+                        </Token>
+                        <Token POSTag="," globalID="6" id="4" offset="28:29">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="7" id="5" offset="30:38">
+                            <Text>165.5lbs</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (NP (NP (NN Female)) (, ,) (NP (NP (NNS 56years)) (ADJP (JJ old))) (, ,) (NP (NN
+                        165.5lbs)))))
+                    </ParseTree>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="2">
+            <Sentences Count="0"/>
+        </Paragraph>
+        <Paragraph id="3">
+            <Sentences Count="2">
+                <Sentence id="0" offset="40:179">
+                    <Text>On december 1st, the patient started therapy with desloratadine(AERIUS)tablet, oral, 5.0 mg, 1
+                        every 1 day and used for unknown indication.
+                    </Text>
+                    <Tokens Count="30">
+                        <Token POSTag="IN" globalID="8" id="0" offset="40:42">
+                            <Text>On</Text>
+                        </Token>
+                        <Token POSTag="NNP" globalID="9" id="1" offset="43:51">
+                            <Text>december</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="10" id="2" offset="52:55">
+                            <Text>1st</Text>
+                        </Token>
+                        <Token POSTag="," globalID="11" id="3" offset="55:56">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="12" id="4" offset="57:60">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="13" id="5" offset="61:68">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="14" id="6" offset="69:76">
+                            <Text>started</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="15" id="7" offset="77:84">
+                            <Text>therapy</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="16" id="8" offset="85:89">
+                            <Text>with</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="17" id="9" offset="90:103">
+                            <Text>desloratadine</Text>
+                            <METAMAP>[orch,phsu]</METAMAP>
+                        </Token>
+                        <Token POSTag="-LRB-" globalID="18" id="10" offset="103:104">
+                            <Text>(</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="19" id="11" offset="104:110">
+                            <Text>AERIUS</Text>
+                            <METAMAP>[orch,phsu]</METAMAP>
+                        </Token>
+                        <Token POSTag="-RRB-" globalID="20" id="12" offset="110:111">
+                            <Text>)</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="21" id="13" offset="111:117">
+                            <Text>tablet</Text>
+                        </Token>
+                        <Token POSTag="," globalID="22" id="14" offset="117:118">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="23" id="15" offset="119:123">
+                            <Text>oral</Text>
+                        </Token>
+                        <Token POSTag="," globalID="24" id="16" offset="123:124">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="25" id="17" offset="125:128">
+                            <Text>5.0</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="26" id="18" offset="129:131">
+                            <Text>mg</Text>
+                        </Token>
+                        <Token POSTag="," globalID="27" id="19" offset="131:132">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="28" id="20" offset="133:134">
+                            <Text>1</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="29" id="21" offset="135:140">
+                            <Text>every</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="30" id="22" offset="141:142">
+                            <Text>1</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="31" id="23" offset="143:146">
+                            <Text>day</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="32" id="24" offset="147:150">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="33" id="25" offset="151:155">
+                            <Text>used</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="34" id="26" offset="156:159">
+                            <Text>for</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="35" id="27" offset="160:167">
+                            <Text>unknown</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="36" id="28" offset="168:178">
+                            <Text>indication</Text>
+                        </Token>
+                        <Token POSTag="." globalID="37" id="29" offset="178:179">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (PP (IN On) (NP (NP (NNP december)) (ADJP (JJ 1st)))) (, ,) (NP (DT the) (NN
+                        patient)) (VP (VP (VBD started) (NP (NN therapy)) (PP (IN with) (NP (NP (NN desloratadine)
+                        (-LRB- -LRB-) (NN AERIUS) (-RRB- -RRB-) (NN tablet)) (, ,) (NP (ADJP (JJ oral))) (, ,) (NP (CD
+                        5.0) (NN mg)) (, ,) (NP (CD 1) (DT every) (CD 1) (NN day))))) (CC and) (VP (VBN used) (PP (IN
+                        for) (NP (JJ unknown) (NN indication))))) (. .)))
+                    </ParseTree>
+                </Sentence>
+                <Sentence id="1" offset="180:283">
+                    <Text>On december 20th, the patient experienced hallucination, auditory, psychotic disorder and
+                        paranoia.
+                    </Text>
+                    <Tokens Count="16">
+                        <Token POSTag="IN" globalID="38" id="0" offset="180:182">
+                            <Text>On</Text>
+                        </Token>
+                        <Token POSTag="NNP" globalID="39" id="1" offset="183:191">
+                            <Text>december</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="40" id="2" offset="192:196">
+                            <Text>20th</Text>
+                        </Token>
+                        <Token POSTag="," globalID="41" id="3" offset="196:197">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="42" id="4" offset="198:201">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="43" id="5" offset="202:209">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="44" id="6" offset="210:221">
+                            <Text>experienced</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="45" id="7" offset="222:235">
+                            <Text>hallucination</Text>
+                        </Token>
+                        <Token POSTag="," globalID="46" id="8" offset="235:236">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="47" id="9" offset="237:245">
+                            <Text>auditory</Text>
+                        </Token>
+                        <Token POSTag="," globalID="48" id="10" offset="245:246">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="49" id="11" offset="247:256">
+                            <Text>psychotic</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="50" id="12" offset="257:265">
+                            <Text>disorder</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="51" id="13" offset="266:269">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="52" id="14" offset="270:278">
+                            <Text>paranoia</Text>
+                        </Token>
+                        <Token POSTag="." globalID="53" id="15" offset="278:279">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (PP (IN On) (NP (NNP december) (CD 20th))) (, ,) (NP (DT the) (NN patient)) (VP
+                        (VBN experienced) (NP (NP (NN hallucination)) (, ,) (NP (NN auditory)) (, ,) (NP (JJ psychotic)
+                        (NN disorder)) (CC and) (NP (NN paranoia))))) (. .)))
+                    </ParseTree>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="4">
+            <Sentences Count="0"/>
+        </Paragraph>
+        <Paragraph id="5">
+            <Sentences Count="1">
+                <Sentence id="0" offset="285:336">
+                    <Text>The action taken with suspect products was unknown.</Text>
+                    <Tokens Count="9">
+                        <Token POSTag="DT" globalID="54" id="0" offset="285:288">
+                            <Text>The</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="55" id="1" offset="289:295">
+                            <Text>action</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="56" id="2" offset="296:301">
+                            <Text>taken</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="57" id="3" offset="302:306">
+                            <Text>with</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="58" id="4" offset="307:314">
+                            <Text>suspect</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="59" id="5" offset="315:323">
+                            <Text>products</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="60" id="6" offset="324:327">
+                            <Text>was</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="61" id="7" offset="328:335">
+                            <Text>unknown</Text>
+                        </Token>
+                        <Token POSTag="." globalID="62" id="8" offset="335:336">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (NP (NP (DT The) (NN action)) (VP (VBN taken) (PP (IN with) (NP (NN suspect)
+                        (NNS products))))) (VP (VBD was) (ADJP (JJ unknown)))) (. .)))
+                    </ParseTree>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="6">
+            <Sentences Count="1">
+                <Sentence id="0" offset="337:447">
+                    <Text>The outcome of hallucination, auditory, psychotic disorder and paranoia was recovered on an
+                        unspecified date.
+                    </Text>
+                    <Tokens Count="18">
+                        <Token POSTag="DT" globalID="63" id="0" offset="337:340">
+                            <Text>The</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="64" id="1" offset="341:348">
+                            <Text>outcome</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="65" id="2" offset="349:351">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="66" id="3" offset="352:365">
+                            <Text>hallucination</Text>
+                        </Token>
+                        <Token POSTag="," globalID="67" id="4" offset="365:366">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="68" id="5" offset="367:375">
+                            <Text>auditory</Text>
+                        </Token>
+                        <Token POSTag="," globalID="69" id="6" offset="375:376">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="70" id="7" offset="377:386">
+                            <Text>psychotic</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="71" id="8" offset="387:395">
+                            <Text>disorder</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="72" id="9" offset="396:399">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="73" id="10" offset="400:408">
+                            <Text>paranoia</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="74" id="11" offset="409:412">
+                            <Text>was</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="75" id="12" offset="413:422">
+                            <Text>recovered</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="76" id="13" offset="423:425">
+                            <Text>on</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="77" id="14" offset="426:428">
+                            <Text>an</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="78" id="15" offset="429:440">
+                            <Text>unspecified</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="79" id="16" offset="441:445">
+                            <Text>date</Text>
+                        </Token>
+                        <Token POSTag="." globalID="80" id="17" offset="445:446">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (NP (NP (DT The) (NN outcome)) (PP (IN of) (NP (NP (NN hallucination)) (, ,)
+                        (NP (NN auditory)) (, ,) (NP (JJ psychotic) (NN disorder)) (CC and) (NP (NN paranoia))))) (VP
+                        (VBD was) (VP (VBN recovered) (PP (IN on) (NP (DT an) (JJ unspecified) (NN date)))))) (. .)))
+                    </ParseTree>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="7">
+            <Sentences Count="0"/>
+        </Paragraph>
+        <Paragraph id="8">
+            <Sentences Count="1">
+                <Sentence id="0" offset="449:581">
+                    <Text>Relatedness between the suspect therapies and the events: hallucination, auditory, psychotic
+                        disorder and paranoia was not reported.
+                    </Text>
+                    <Tokens Count="21">
+                        <Token POSTag="NN" globalID="81" id="0" offset="449:460">
+                            <Text>Relatedness</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="82" id="1" offset="461:468">
+                            <Text>between</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="83" id="2" offset="469:472">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="84" id="3" offset="473:480">
+                            <Text>suspect</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="85" id="4" offset="481:490">
+                            <Text>therapies</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="86" id="5" offset="491:494">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="87" id="6" offset="495:498">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="88" id="7" offset="499:505">
+                            <Text>events</Text>
+                        </Token>
+                        <Token POSTag=":" globalID="89" id="8" offset="505:506">
+                            <Text>:</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="90" id="9" offset="507:520">
+                            <Text>hallucination</Text>
+                        </Token>
+                        <Token POSTag="," globalID="91" id="10" offset="520:521">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="92" id="11" offset="522:530">
+                            <Text>auditory</Text>
+                        </Token>
+                        <Token POSTag="," globalID="93" id="12" offset="530:531">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="94" id="13" offset="532:541">
+                            <Text>psychotic</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="95" id="14" offset="542:550">
+                            <Text>disorder</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="96" id="15" offset="551:554">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="97" id="16" offset="555:563">
+                            <Text>paranoia</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="98" id="17" offset="564:567">
+                            <Text>was</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="99" id="18" offset="568:571">
+                            <Text>not</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="100" id="19" offset="572:580">
+                            <Text>reported</Text>
+                        </Token>
+                        <Token POSTag="." globalID="101" id="20" offset="580:581">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (NP (NP (NN Relatedness)) (PP (IN between) (NP (NP (NP (DT the) (NN suspect)
+                        (NNS therapies)) (CC and) (NP (DT the) (NNS events))) (: :) (NP (NP (NN hallucination)) (, ,)
+                        (NP (NN auditory)) (, ,) (NP (JJ psychotic) (NN disorder)) (CC and) (NP (NN paranoia)))))) (VP
+                        (VBD was) (RB not) (VP (VBN reported)))) (. .)))
+                    </ParseTree>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="9">
+            <Sentences Count="0"/>
+        </Paragraph>
+        <Paragraph id="10">
+            <Sentences Count="1">
+                <Sentence id="0" offset="583:649">
+                    <Text>The agency considered the events to be medically significant.</Text>
+                    <Tokens Count="10">
+                        <Token POSTag="DT" globalID="102" id="0" offset="583:586">
+                            <Text>The</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="103" id="1" offset="587:593">
+                            <Text>agency</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="104" id="2" offset="594:604">
+                            <Text>considered</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="105" id="3" offset="605:608">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="106" id="4" offset="609:615">
+                            <Text>events</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="107" id="5" offset="616:618">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="VB" globalID="108" id="6" offset="619:621">
+                            <Text>be</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="109" id="7" offset="622:631">
+                            <Text>medically</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="110" id="8" offset="632:643">
+                            <Text>significant</Text>
+                        </Token>
+                        <Token POSTag="." globalID="111" id="9" offset="643:644">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (NP (DT The) (NN agency)) (VP (VBD considered) (NP (DT the) (NNS events)) (S
+                        (VP (TO to) (VP (VB be) (ADJP (RB medically) (JJ significant))))))) (. .)))
+                    </ParseTree>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="11">
+            <Sentences Count="0"/>
+        </Paragraph>
+        <Paragraph id="12">
+            <Sentences Count="1">
+                <Sentence id="0" offset="651:727">
+                    <Text>Additional information is not expected due to agency confidentiality clause.</Text>
+                    <Tokens Count="11">
+                        <Token POSTag="JJ" globalID="112" id="0" offset="651:661">
+                            <Text>Additional</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="113" id="1" offset="662:673">
+                            <Text>information</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="114" id="2" offset="674:676">
+                            <Text>is</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="115" id="3" offset="677:680">
+                            <Text>not</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="116" id="4" offset="681:689">
+                            <Text>expected</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="117" id="5" offset="690:693">
+                            <Text>due</Text>
+                        </Token>
+                        <Token POSTag="TO" globalID="118" id="6" offset="694:696">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="119" id="7" offset="697:703">
+                            <Text>agency</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="120" id="8" offset="704:719">
+                            <Text>confidentiality</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="121" id="9" offset="720:726">
+                            <Text>clause</Text>
+                        </Token>
+                        <Token POSTag="." globalID="122" id="10" offset="726:727">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (NP (JJ Additional) (NN information)) (VP (VBZ is) (RB not) (VP (VBN expected)
+                        (PP (JJ due) (TO to) (NP (NN agency) (NN confidentiality) (NN clause)))))) (. .)))
+                    </ParseTree>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+    </Paragraphs>
+</StartOutput>

@@ -1,78 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ANNOTATIONS textSource="fda010.txt" annotator="Vimig Socrates">
-	<EVENT_DT start="1057" end="1068">20140806</EVENT_DT>
-	<DEMOGRAPHICS>
-		<AGE_SET>
-			<AGE start="50" end="52">71</AGE>
-			<AGE_COD start="53" end="61">YR</AGE_COD>
-		</AGE_SET>
-		<WT_SET>
-			<WT start="153" end="156">160</WT>
-			<WT_COD start="157" end="163">LBS</WT_COD>
-		</WT_SET>
-		<SEX start="72" end="78">F</SEX>
-	</DEMOGRAPHICS>
-	<DRUG_FILE>
-		<INSTANCE id="0" primary="false" timePeriod="past">
-		<DRUGNAME start="551" end="557">MYCINS</DRUGNAME>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="" end=""></DOSE_AMT>
-	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
-    	</INSTANCE>
-    	<INSTANCE id="1" primary="false" timePeriod="past">
-	      <DRUGNAME start="629" end="634">SULFA</DRUGNAME>
-	      <COREF start="636" end="656"/>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="" end=""></DOSE_AMT>
-	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
-    	</INSTANCE>
-		<INSTANCE id="2" primary="false" timePeriod="current"> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
-	      <DRUGNAME start="689" end="702">canagliflozin</DRUGNAME>
-	      <COREF start="1038" end="1051"/>
-	      <COREF start="1791" end="1804"/>
-	      <ROUTE start="712" end="716">oral</ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="733" end="736">300</DOSE_AMT>
-	      <DOSE_UNIT start="737" end="739">MG</DOSE_UNIT>
-	      <DOSE_FORM start="704" end="710">tablet</DOSE_FORM>
-	      <DOSE_FREQ start="740" end="750">QD</DOSE_FREQ>
-	      <REACTIONS_IDS></REACTIONS_IDS>
-	      <INDICATION_IDS>0</INDICATION_IDS>
-    	</INSTANCE>
-    	<INSTANCE id="3" primary="false" timePeriod="current">
-	      <DRUGNAME start="802" end="813">domperidone</DRUGNAME>
-	      <COREF start="1522" end="1533"/>
-	      <COREF start="1579" end="1590"/>
-	      <COREF start="1749" end="1760"/>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="843" end="873">UNK</DOSE_AMT>
-	      <DOSE_UNIT start="843" end="873">UNK</DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="843" end="873">UNK</DOSE_FREQ>
-	      <REACTIONS_IDS></REACTIONS_IDS>
-	      <INDICATION_IDS>1</INDICATION_IDS>
-    	</INSTANCE>
-	</DRUG_FILE>
-	<REACTION_FILE>
-		<PT id="0" start="1151" end="1169">increased belching</PT>
-		<PT id="1" start="1225" end="1252">worsening of abdominal pain</PT>
-		<PT id="2" start="1313" end="1325">very gaseous</PT>
-		<PT id="3" start="1389" end="1410">worsening of bloating</PT>
-	</REACTION_FILE>
-	<INDICATION_FILE>
-		<INDI_PT id="0" start="782" end="797">type 2 diabetes</INDI_PT>
-		<INDI_PT id="1" start="913" end="935">diabetic gastroparesis</INDI_PT>
-	</INDICATION_FILE>
-<COMMENT></COMMENT>
+    <EVENT_DT start="1057" end="1068">20140806</EVENT_DT>
+    <DEMOGRAPHICS>
+        <AGE_SET>
+            <AGE start="50" end="52">71</AGE>
+            <AGE_COD start="53" end="61">YR</AGE_COD>
+        </AGE_SET>
+        <WT_SET>
+            <WT start="153" end="156">160</WT>
+            <WT_COD start="157" end="163">LBS</WT_COD>
+        </WT_SET>
+        <SEX start="72" end="78">F</SEX>
+    </DEMOGRAPHICS>
+    <DRUG_FILE>
+        <INSTANCE id="0" primary="false" timePeriod="past">
+            <DRUGNAME start="551" end="557">MYCINS</DRUGNAME>
+            <ROUTE start="" end=""></ROUTE>
+            <DECHAL start="" end=""></DECHAL>
+            <RECHAL start="" end=""></RECHAL>
+            <DOSE_AMT start="" end=""></DOSE_AMT>
+            <DOSE_UNIT start="" end=""></DOSE_UNIT>
+            <DOSE_FORM start="" end=""></DOSE_FORM>
+            <DOSE_FREQ start="" end=""></DOSE_FREQ>
+        </INSTANCE>
+        <INSTANCE id="1" primary="false" timePeriod="past">
+            <DRUGNAME start="629" end="634">SULFA</DRUGNAME>
+            <COREF start="636" end="656"/>
+            <ROUTE start="" end=""></ROUTE>
+            <DECHAL start="" end=""></DECHAL>
+            <RECHAL start="" end=""></RECHAL>
+            <DOSE_AMT start="" end=""></DOSE_AMT>
+            <DOSE_UNIT start="" end=""></DOSE_UNIT>
+            <DOSE_FORM start="" end=""></DOSE_FORM>
+            <DOSE_FREQ start="" end=""></DOSE_FREQ>
+        </INSTANCE>
+        <INSTANCE id="2" primary="false"
+                  timePeriod="current"> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
+            <DRUGNAME start="689" end="702">canagliflozin</DRUGNAME>
+            <COREF start="1038" end="1051"/>
+            <COREF start="1791" end="1804"/>
+            <ROUTE start="712" end="716">oral</ROUTE>
+            <DECHAL start="" end=""></DECHAL>
+            <RECHAL start="" end=""></RECHAL>
+            <DOSE_AMT start="733" end="736">300</DOSE_AMT>
+            <DOSE_UNIT start="737" end="739">MG</DOSE_UNIT>
+            <DOSE_FORM start="704" end="710">tablet</DOSE_FORM>
+            <DOSE_FREQ start="740" end="750">QD</DOSE_FREQ>
+            <REACTIONS_IDS></REACTIONS_IDS>
+            <INDICATION_IDS>0</INDICATION_IDS>
+        </INSTANCE>
+        <INSTANCE id="3" primary="false" timePeriod="current">
+            <DRUGNAME start="802" end="813">domperidone</DRUGNAME>
+            <COREF start="1522" end="1533"/>
+            <COREF start="1579" end="1590"/>
+            <COREF start="1749" end="1760"/>
+            <ROUTE start="" end=""></ROUTE>
+            <DECHAL start="" end=""></DECHAL>
+            <RECHAL start="" end=""></RECHAL>
+            <DOSE_AMT start="843" end="873">UNK</DOSE_AMT>
+            <DOSE_UNIT start="843" end="873">UNK</DOSE_UNIT>
+            <DOSE_FORM start="" end=""></DOSE_FORM>
+            <DOSE_FREQ start="843" end="873">UNK</DOSE_FREQ>
+            <REACTIONS_IDS></REACTIONS_IDS>
+            <INDICATION_IDS>1</INDICATION_IDS>
+        </INSTANCE>
+    </DRUG_FILE>
+    <REACTION_FILE>
+        <PT id="0" start="1151" end="1169">increased belching</PT>
+        <PT id="1" start="1225" end="1252">worsening of abdominal pain</PT>
+        <PT id="2" start="1313" end="1325">very gaseous</PT>
+        <PT id="3" start="1389" end="1410">worsening of bloating</PT>
+    </REACTION_FILE>
+    <INDICATION_FILE>
+        <INDI_PT id="0" start="782" end="797">type 2 diabetes</INDI_PT>
+        <INDI_PT id="1" start="913" end="935">diabetic gastroparesis</INDI_PT>
+    </INDICATION_FILE>
+    <COMMENT></COMMENT>
 </ANNOTATIONS>

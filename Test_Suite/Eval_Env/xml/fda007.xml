@@ -1,186 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ANNOTATIONS textSource="fda007.txt" annotator="Amber Wallace">
-	<EVENT_DT start="1657" end="1669">UNK</EVENT_DT>
-	<DEMOGRAPHICS>
-		<AGE_SET>
-			<AGE start="152" end="154">54</AGE>
-			<AGE_COD start="155" end="163">YR</AGE_COD>
-		</AGE_SET>
-		<WT_SET>
-			<WT start="" end=""></WT>
-			<WT_COD start="" end=""></WT_COD>
-		</WT_SET>
-		<SEX start="164" end="170">F</SEX>
-	</DEMOGRAPHICS>
-	<DRUG_FILE>
-		<INSTANCE id="1" primary="TRUE" timePeriod="CURRENT"> 
-	      <DRUGNAME start="295" end="308">DESLORATADINE</DRUGNAME>
-	      <ROUTE start="324" end="328">ORAL</ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="330" end="333">5.0</DOSE_AMT>
-	      <DOSE_UNIT start="334" end="336">MG</DOSE_UNIT>
-	      <DOSE_FORM start="316" end="322">TABLET</DOSE_FORM>
-	      <DOSE_FREQ start="445" end="458">QD</DOSE_FREQ>
-    	</INSTANCE>
-    	<INSTANCE id="2" primary="" timePeriod="CURRENT"> 
-	      <DRUGNAME start="419" end="430">CLOPIDOGREL</DRUGNAME>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="439" end="441">75</DOSE_AMT>
-	      <DOSE_UNIT start="442" end="444">MG</DOSE_UNIT>
-	      <DOSE_FORM start="431" end="437">TABLET</DOSE_FORM>
-	      <DOSE_FREQ start="445" end="458">QD</DOSE_FREQ>
-    	</INSTANCE>
-    	<INSTANCE id="3" primary="" timePeriod="CURRENT"> 
-	      <DRUGNAME start="492" end="512">TOLTERODINE TARTRATE</DRUGNAME>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="550" end="552">40</DOSE_AMT>
-	      <DOSE_UNIT start="552" end="554">MG</DOSE_UNIT>
-	      <DOSE_FORM start="523" end="548">SUSTAINED RELEASE CAPSULE</DOSE_FORM>
-	      <DOSE_FREQ start="556" end="569">QD</DOSE_FREQ>
-    	</INSTANCE>
-    	<INSTANCE id="4" primary="" timePeriod="CURRENT"> 
-	      <DRUGNAME start="602" end="613">DOMPERIDONE</DRUGNAME>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="643" end="645">10</DOSE_AMT>
-	      <DOSE_UNIT start="645" end="647">MG</DOSE_UNIT>
-	      <DOSE_FORM start="635" end="641">TABLET</DOSE_FORM>
-	      <DOSE_FREQ start="649" end="662">BID</DOSE_FREQ>
-    	</INSTANCE>
-    	<INSTANCE id="5" primary="" timePeriod="CURRENT"> <!--START HERE WITH ASPIRIN-->
-	      <DRUGNAME start="695" end="702">ASPIRIN</DRUGNAME>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="719" end="720">1</DOSE_AMT>
-	      <DOSE_UNIT start="720" end="722">DF</DOSE_UNIT>
-	      <DOSE_FORM start="711" end="717">TABLET</DOSE_FORM>
-	      <DOSE_FREQ start="724" end="737">QD</DOSE_FREQ>
-    	</INSTANCE>
-    	<INSTANCE id="6" primary="" timePeriod="CURRENT">
-	      <DRUGNAME start="770" end="780">IMIPRAMINE</DRUGNAME>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="789" end="791">25</DOSE_AMT>
-	      <DOSE_UNIT start="791" end="793">MG</DOSE_UNIT>
-	      <DOSE_FORM start="781" end="787">TABLET</DOSE_FORM>
-	      <DOSE_FREQ start="795" end="808">BID</DOSE_FREQ>
-    	</INSTANCE>
-    	<INSTANCE id="7" primary="" timePeriod="CURRENT">
-	      <DRUGNAME start="841" end="853">TRANDOLAPRIL</DRUGNAME>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="870" end="871">2</DOSE_AMT>
-	      <DOSE_UNIT start="871" end="873">MG</DOSE_UNIT>
-	      <DOSE_FORM start="875" end="882">CAPSULE</DOSE_FORM>
-	      <DOSE_FREQ start="892" end="905">QD</DOSE_FREQ>
-    	</INSTANCE>
-    	<INSTANCE id="8" primary="" timePeriod="CURRENT">
-	      <DRUGNAME start="938" end="950">PANTOPRAZOLE</DRUGNAME>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="951" end="953">40</DOSE_AMT>
-	      <DOSE_UNIT start="953" end="955">MG</DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="957" end="970">QD</DOSE_FREQ>
-    	</INSTANCE>
-    	<INSTANCE id="9" primary="" timePeriod="CURRENT">
-	      <DRUGNAME start="1003" end="1015">ROSUVASTATIN</DRUGNAME>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="1024" end="1026">20</DOSE_AMT>
-	      <DOSE_UNIT start="1026" end="1028">MG</DOSE_UNIT>
-	      <DOSE_FORM start="1016" end="1022">TABLET</DOSE_FORM>
-	      <DOSE_FREQ start="957" end="970">QD</DOSE_FREQ>
-    	</INSTANCE>
-    	<INSTANCE id="10" primary="" timePeriod="CURRENT">
-	      <DRUGNAME start="1077" end="1088">USTEKINUMAB</DRUGNAME>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="" end=""></DOSE_AMT>
-	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
-	      <DOSE_FORM start="1097" end="1118">SOLUTION SUBCUTANEOUS</DOSE_FORM>
-	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
-    	</INSTANCE>
-    	<INSTANCE id="11" primary="" timePeriod="CURRENT">
-	      <DRUGNAME start="1158" end="1168">SUCRALFATE</DRUGNAME>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="1178" end="1182">1000</DOSE_AMT>
-	      <DOSE_UNIT start="1182" end="1184">MG</DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="1186" end="1199">BID</DOSE_FREQ>
-    	</INSTANCE>
-    	<INSTANCE id="12" primary="" timePeriod="CURRENT">
-	      <DRUGNAME start="1232" end="1240">ATENOLOL</DRUGNAME>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="1249" end="1251">50</DOSE_AMT>
-	      <DOSE_UNIT start="1251" end="1253">MG</DOSE_UNIT>
-	      <DOSE_FORM start="1241" end="1247">TABLET</DOSE_FORM>
-	      <DOSE_FREQ start="1255" end="1268">QD</DOSE_FREQ>
-    	</INSTANCE>
-    	<INSTANCE id="13" primary="" timePeriod="CURRENT">
-	      <DRUGNAME start="1302" end="1316">CLARITHROMYCIN</DRUGNAME> <!--START HERE-->
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="1317" end="1320">100</DOSE_AMT>
-	      <DOSE_UNIT start="1320" end="1322">MG</DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="1324" end="1337">QD</DOSE_FREQ>
-    	</INSTANCE>
-    	<INSTANCE id="14" primary="" timePeriod="CURRENT">
-	      <DRUGNAME start="1370" end="1381">CICLESONIDE</DRUGNAME>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="1399" end="1403">4000</DOSE_AMT>
-	      <DOSE_UNIT start="1404" end="1407">MCG</DOSE_UNIT>
-	      <DOSE_FORM start="1390" end="1397">AEROSOL</DOSE_FORM>
-	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
-    	</INSTANCE>
-    	<INSTANCE id="15" primary="" timePeriod="CURRENT">
-	      <DRUGNAME start="1439" end="1448">EZETIMIBE</DRUGNAME>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="1465" end="1467">10</DOSE_AMT>
-	      <DOSE_UNIT start="1467" end="1469">MG</DOSE_UNIT>
-	      <DOSE_FORM start="1457" end="1463">TABLET</DOSE_FORM>
-	      <DOSE_FREQ start="1471" end="1484">QD</DOSE_FREQ>
-    	</INSTANCE>
-    	<INSTANCE id="16" primary="" timePeriod="CURRENT">
-	      <DRUGNAME start="1520" end="1538">MONTELUKAST SODIUM</DRUGNAME>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="" end=""></DOSE_AMT>
-	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
-    	</INSTANCE>
-	</DRUG_FILE>
-	<REACTION_FILE>
-		<PT start="1695" end="1708">HALLUCINATION</PT>
-		<PT start="1710" end="1718">AUDITORY</PT>
-		<PT start="1720" end="1738">PSYCOTIC DISORDER</PT>
-		<PT start="1743" end="1751">PARANOIA</PT>
-	</REACTION_FILE>
-	<INDICATION_FILE>
-		<INDI_PT start="" end=""></INDI_PT>
-	</INDICATION_FILE>
+    <EVENT_DT start="1657" end="1669">UNK</EVENT_DT>
+    <DEMOGRAPHICS>
+        <AGE_SET>
+            <AGE start="152" end="154">54</AGE>
+            <AGE_COD start="155" end="163">YR</AGE_COD>
+        </AGE_SET>
+        <WT_SET>
+            <WT start="" end=""></WT>
+            <WT_COD start="" end=""></WT_COD>
+        </WT_SET>
+        <SEX start="164" end="170">F</SEX>
+    </DEMOGRAPHICS>
+    <DRUG_FILE>
+        <INSTANCE id="1" primary="TRUE" timePeriod="CURRENT">
+            <DRUGNAME start="295" end="308">DESLORATADINE</DRUGNAME>
+            <ROUTE start="324" end="328">ORAL</ROUTE>
+            <DECHAL start="" end=""></DECHAL>
+            <RECHAL start="" end=""></RECHAL>
+            <DOSE_AMT start="330" end="333">5.0</DOSE_AMT>
+            <DOSE_UNIT start="334" end="336">MG</DOSE_UNIT>
+            <DOSE_FORM start="316" end="322">TABLET</DOSE_FORM>
+            <DOSE_FREQ start="445" end="458">QD</DOSE_FREQ>
+        </INSTANCE>
+        <INSTANCE id="2" primary="" timePeriod="CURRENT">
+            <DRUGNAME start="419" end="430">CLOPIDOGREL</DRUGNAME>
+            <ROUTE start="" end=""></ROUTE>
+            <DECHAL start="" end=""></DECHAL>
+            <RECHAL start="" end=""></RECHAL>
+            <DOSE_AMT start="439" end="441">75</DOSE_AMT>
+            <DOSE_UNIT start="442" end="444">MG</DOSE_UNIT>
+            <DOSE_FORM start="431" end="437">TABLET</DOSE_FORM>
+            <DOSE_FREQ start="445" end="458">QD</DOSE_FREQ>
+        </INSTANCE>
+        <INSTANCE id="3" primary="" timePeriod="CURRENT">
+            <DRUGNAME start="492" end="512">TOLTERODINE TARTRATE</DRUGNAME>
+            <ROUTE start="" end=""></ROUTE>
+            <DECHAL start="" end=""></DECHAL>
+            <RECHAL start="" end=""></RECHAL>
+            <DOSE_AMT start="550" end="552">40</DOSE_AMT>
+            <DOSE_UNIT start="552" end="554">MG</DOSE_UNIT>
+            <DOSE_FORM start="523" end="548">SUSTAINED RELEASE CAPSULE</DOSE_FORM>
+            <DOSE_FREQ start="556" end="569">QD</DOSE_FREQ>
+        </INSTANCE>
+        <INSTANCE id="4" primary="" timePeriod="CURRENT">
+            <DRUGNAME start="602" end="613">DOMPERIDONE</DRUGNAME>
+            <ROUTE start="" end=""></ROUTE>
+            <DECHAL start="" end=""></DECHAL>
+            <RECHAL start="" end=""></RECHAL>
+            <DOSE_AMT start="643" end="645">10</DOSE_AMT>
+            <DOSE_UNIT start="645" end="647">MG</DOSE_UNIT>
+            <DOSE_FORM start="635" end="641">TABLET</DOSE_FORM>
+            <DOSE_FREQ start="649" end="662">BID</DOSE_FREQ>
+        </INSTANCE>
+        <INSTANCE id="5" primary="" timePeriod="CURRENT"> <!--START HERE WITH ASPIRIN-->
+            <DRUGNAME start="695" end="702">ASPIRIN</DRUGNAME>
+            <ROUTE start="" end=""></ROUTE>
+            <DECHAL start="" end=""></DECHAL>
+            <RECHAL start="" end=""></RECHAL>
+            <DOSE_AMT start="719" end="720">1</DOSE_AMT>
+            <DOSE_UNIT start="720" end="722">DF</DOSE_UNIT>
+            <DOSE_FORM start="711" end="717">TABLET</DOSE_FORM>
+            <DOSE_FREQ start="724" end="737">QD</DOSE_FREQ>
+        </INSTANCE>
+        <INSTANCE id="6" primary="" timePeriod="CURRENT">
+            <DRUGNAME start="770" end="780">IMIPRAMINE</DRUGNAME>
+            <ROUTE start="" end=""></ROUTE>
+            <DECHAL start="" end=""></DECHAL>
+            <RECHAL start="" end=""></RECHAL>
+            <DOSE_AMT start="789" end="791">25</DOSE_AMT>
+            <DOSE_UNIT start="791" end="793">MG</DOSE_UNIT>
+            <DOSE_FORM start="781" end="787">TABLET</DOSE_FORM>
+            <DOSE_FREQ start="795" end="808">BID</DOSE_FREQ>
+        </INSTANCE>
+        <INSTANCE id="7" primary="" timePeriod="CURRENT">
+            <DRUGNAME start="841" end="853">TRANDOLAPRIL</DRUGNAME>
+            <ROUTE start="" end=""></ROUTE>
+            <DECHAL start="" end=""></DECHAL>
+            <RECHAL start="" end=""></RECHAL>
+            <DOSE_AMT start="870" end="871">2</DOSE_AMT>
+            <DOSE_UNIT start="871" end="873">MG</DOSE_UNIT>
+            <DOSE_FORM start="875" end="882">CAPSULE</DOSE_FORM>
+            <DOSE_FREQ start="892" end="905">QD</DOSE_FREQ>
+        </INSTANCE>
+        <INSTANCE id="8" primary="" timePeriod="CURRENT">
+            <DRUGNAME start="938" end="950">PANTOPRAZOLE</DRUGNAME>
+            <ROUTE start="" end=""></ROUTE>
+            <DECHAL start="" end=""></DECHAL>
+            <RECHAL start="" end=""></RECHAL>
+            <DOSE_AMT start="951" end="953">40</DOSE_AMT>
+            <DOSE_UNIT start="953" end="955">MG</DOSE_UNIT>
+            <DOSE_FORM start="" end=""></DOSE_FORM>
+            <DOSE_FREQ start="957" end="970">QD</DOSE_FREQ>
+        </INSTANCE>
+        <INSTANCE id="9" primary="" timePeriod="CURRENT">
+            <DRUGNAME start="1003" end="1015">ROSUVASTATIN</DRUGNAME>
+            <ROUTE start="" end=""></ROUTE>
+            <DECHAL start="" end=""></DECHAL>
+            <RECHAL start="" end=""></RECHAL>
+            <DOSE_AMT start="1024" end="1026">20</DOSE_AMT>
+            <DOSE_UNIT start="1026" end="1028">MG</DOSE_UNIT>
+            <DOSE_FORM start="1016" end="1022">TABLET</DOSE_FORM>
+            <DOSE_FREQ start="957" end="970">QD</DOSE_FREQ>
+        </INSTANCE>
+        <INSTANCE id="10" primary="" timePeriod="CURRENT">
+            <DRUGNAME start="1077" end="1088">USTEKINUMAB</DRUGNAME>
+            <ROUTE start="" end=""></ROUTE>
+            <DECHAL start="" end=""></DECHAL>
+            <RECHAL start="" end=""></RECHAL>
+            <DOSE_AMT start="" end=""></DOSE_AMT>
+            <DOSE_UNIT start="" end=""></DOSE_UNIT>
+            <DOSE_FORM start="1097" end="1118">SOLUTION SUBCUTANEOUS</DOSE_FORM>
+            <DOSE_FREQ start="" end=""></DOSE_FREQ>
+        </INSTANCE>
+        <INSTANCE id="11" primary="" timePeriod="CURRENT">
+            <DRUGNAME start="1158" end="1168">SUCRALFATE</DRUGNAME>
+            <ROUTE start="" end=""></ROUTE>
+            <DECHAL start="" end=""></DECHAL>
+            <RECHAL start="" end=""></RECHAL>
+            <DOSE_AMT start="1178" end="1182">1000</DOSE_AMT>
+            <DOSE_UNIT start="1182" end="1184">MG</DOSE_UNIT>
+            <DOSE_FORM start="" end=""></DOSE_FORM>
+            <DOSE_FREQ start="1186" end="1199">BID</DOSE_FREQ>
+        </INSTANCE>
+        <INSTANCE id="12" primary="" timePeriod="CURRENT">
+            <DRUGNAME start="1232" end="1240">ATENOLOL</DRUGNAME>
+            <ROUTE start="" end=""></ROUTE>
+            <DECHAL start="" end=""></DECHAL>
+            <RECHAL start="" end=""></RECHAL>
+            <DOSE_AMT start="1249" end="1251">50</DOSE_AMT>
+            <DOSE_UNIT start="1251" end="1253">MG</DOSE_UNIT>
+            <DOSE_FORM start="1241" end="1247">TABLET</DOSE_FORM>
+            <DOSE_FREQ start="1255" end="1268">QD</DOSE_FREQ>
+        </INSTANCE>
+        <INSTANCE id="13" primary="" timePeriod="CURRENT">
+            <DRUGNAME start="1302" end="1316">CLARITHROMYCIN</DRUGNAME> <!--START HERE-->
+            <ROUTE start="" end=""></ROUTE>
+            <DECHAL start="" end=""></DECHAL>
+            <RECHAL start="" end=""></RECHAL>
+            <DOSE_AMT start="1317" end="1320">100</DOSE_AMT>
+            <DOSE_UNIT start="1320" end="1322">MG</DOSE_UNIT>
+            <DOSE_FORM start="" end=""></DOSE_FORM>
+            <DOSE_FREQ start="1324" end="1337">QD</DOSE_FREQ>
+        </INSTANCE>
+        <INSTANCE id="14" primary="" timePeriod="CURRENT">
+            <DRUGNAME start="1370" end="1381">CICLESONIDE</DRUGNAME>
+            <ROUTE start="" end=""></ROUTE>
+            <DECHAL start="" end=""></DECHAL>
+            <RECHAL start="" end=""></RECHAL>
+            <DOSE_AMT start="1399" end="1403">4000</DOSE_AMT>
+            <DOSE_UNIT start="1404" end="1407">MCG</DOSE_UNIT>
+            <DOSE_FORM start="1390" end="1397">AEROSOL</DOSE_FORM>
+            <DOSE_FREQ start="" end=""></DOSE_FREQ>
+        </INSTANCE>
+        <INSTANCE id="15" primary="" timePeriod="CURRENT">
+            <DRUGNAME start="1439" end="1448">EZETIMIBE</DRUGNAME>
+            <ROUTE start="" end=""></ROUTE>
+            <DECHAL start="" end=""></DECHAL>
+            <RECHAL start="" end=""></RECHAL>
+            <DOSE_AMT start="1465" end="1467">10</DOSE_AMT>
+            <DOSE_UNIT start="1467" end="1469">MG</DOSE_UNIT>
+            <DOSE_FORM start="1457" end="1463">TABLET</DOSE_FORM>
+            <DOSE_FREQ start="1471" end="1484">QD</DOSE_FREQ>
+        </INSTANCE>
+        <INSTANCE id="16" primary="" timePeriod="CURRENT">
+            <DRUGNAME start="1520" end="1538">MONTELUKAST SODIUM</DRUGNAME>
+            <ROUTE start="" end=""></ROUTE>
+            <DECHAL start="" end=""></DECHAL>
+            <RECHAL start="" end=""></RECHAL>
+            <DOSE_AMT start="" end=""></DOSE_AMT>
+            <DOSE_UNIT start="" end=""></DOSE_UNIT>
+            <DOSE_FORM start="" end=""></DOSE_FORM>
+            <DOSE_FREQ start="" end=""></DOSE_FREQ>
+        </INSTANCE>
+    </DRUG_FILE>
+    <REACTION_FILE>
+        <PT start="1695" end="1708">HALLUCINATION</PT>
+        <PT start="1710" end="1718">AUDITORY</PT>
+        <PT start="1720" end="1738">PSYCOTIC DISORDER</PT>
+        <PT start="1743" end="1751">PARANOIA</PT>
+    </REACTION_FILE>
+    <INDICATION_FILE>
+        <INDI_PT start="" end=""></INDI_PT>
+    </INDICATION_FILE>
 </ANNOTATIONS>

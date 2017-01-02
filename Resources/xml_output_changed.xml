@@ -1,2 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StartOutput><Paragraphs Count=""><Paragraph id=""><ParagraphText /><ParagraphStartPos /><ParagraphEndPos /><ParagraphLength /><Sentences Count=""><Sentence id=""><SentenceText /><SentenceStartPos /><SentenceLength /><SentencEndPos /><Phrases Count="" Type="(0 for tokens, 1 for phrases)"><Phrase><PhraseText /><PhraseStartPos /><PhraseLength /><PhraseEndPos /><PhraseMappedTag /><PhraseMappedExtractor /></Phrase></Phrases><ParseTrees><TreeAsString /><Tokens Count=""><Token><TokenText /><TokenStartPos /><TokenLength /><TokenEndPos /><TokenMappedTag /><TokenMappedExtractor /></Token></Tokens></ParseTrees></Sentence></Sentences></Paragraph></Paragraphs></StartOutput>
+<StartOutput>
+    <Paragraphs Count="">
+        <Paragraph id="">
+            <ParagraphText/>
+            <ParagraphStartPos/>
+            <ParagraphEndPos/>
+            <ParagraphLength/>
+            <Sentences Count="">
+                <Sentence id="">
+                    <SentenceText/>
+                    <SentenceStartPos/>
+                    <SentenceLength/>
+                    <SentencEndPos/>
+                    <Phrases Count="" Type="(0 for tokens, 1 for phrases)">
+                        <Phrase>
+                            <PhraseText/>
+                            <PhraseStartPos/>
+                            <PhraseLength/>
+                            <PhraseEndPos/>
+                            <PhraseMappedTag/>
+                            <PhraseMappedExtractor/>
+                        </Phrase>
+                    </Phrases>
+                    <ParseTrees>
+                        <TreeAsString/>
+                        <Tokens Count="">
+                            <Token>
+                                <TokenText/>
+                                <TokenStartPos/>
+                                <TokenLength/>
+                                <TokenEndPos/>
+                                <TokenMappedTag/>
+                                <TokenMappedExtractor/>
+                            </Token>
+                        </Tokens>
+                    </ParseTrees>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+    </Paragraphs>
+</StartOutput>

@@ -7,10 +7,11 @@ Todo:
 """
 from Preprocessing.Preprocessor import Preprocessor
 import xml.etree.ElementTree as ET
-from test import Compare
+
+
+# from test import Compare
 
 class EntityAssembler(object):
-    
     def __init__(self, rawTextFileName, intermediateXMLFileName, anExtractorList=[]):
         """
         Initializes the EventDateAssembler and returns it. All Extractors for the Event Date DataElement must be specified in the list below. 
@@ -21,13 +22,14 @@ class EntityAssembler(object):
         Returns:
             EventDateAssembler Object
         """
-        
+
         self.preprocess = Preprocessor(rawTextFileName, intermediateXMLFileName)
         self.AllPossibleExtractorList = {}
         self.extractorList = anExtractorList
         self.extractorObjList = []
         self.dataElementList = []
         self.entityName = ""
+
     def setExtractorList(self, aList):
         """Sets the extractor list by searching the dictionary for corresponding python objects.
 
@@ -40,8 +42,8 @@ class EntityAssembler(object):
         self.extractorList = aList
 
         for extractor in self.extractorList:
-            self.extractorObjList.append(self.AllPossibleExtractorList[extractor])
-            
+            if extractor!= "DrugnameMetamapExtractor":
+                self.extractorObjList.append(self.AllPossibleExtractorList[extractor])
         return self.extractorObjList
 
     def getAllPossibleExtractors(self):
@@ -65,7 +67,7 @@ class EntityAssembler(object):
             the list of extractor python objects 
         """
         return self.extractorObjList
-           
+
     def runExtractors(self):
         """Runs all the extractors and returns DataElements.
         
@@ -89,29 +91,29 @@ class EntityAssembler(object):
 
                 if hasCharOffsetFlag:
                     self.dataElementList.append(ev_dataElem)
-               
+
             elif ev_dataElem and hasattr(ev_dataElem, 'charOffset'):
                 self.dataElementList.append(ev_dataElem)
-            
-   
-# def main():
-#     extractorHandler = EventDateExtractorHandler('../test_cases/fda001.txt')
+
+
+            # def main():
+            #     extractorHandler = EventDateExtractorHandler('../test_cases/fda001.txt')
 
     def writeToSemiFinalXML(self):
 
         filename = self.filename
         filename = filename[:filename.rfind('.txt')]
         testCaseName = filename[filename.rfind(r'/') + 1:]
-        
-        outputXMLFN = 'Test_Suite/Eval_Env/semifinal/'+testCaseName+'_'+self.entityName+'_Semifinal.xml'
+
+        outputXMLFN = 'Test_Suite/Eval_Env/semifinal/' + testCaseName + '_' + self.entityName + '_Semifinal.xml'
 
         defXML = open('Test_Suite/XML/XML.xml')
         etree = ET.parse(defXML)
         root = etree.getroot()
-        
+
         root.attrib['textSource'] = filename
         root.attrib['annotator'] = 'Project MEFA Program'
-      
+
         for dataelements in self.dataElementList:
             if isinstance(dataelements, list):
                 for dataelement in dataelements:
@@ -119,17 +121,17 @@ class EntityAssembler(object):
             else:
                 root = self.xmlWriterHelper(dataelements, root)
 
-        #We had to remove this and not use self.entityName because each returned element in self.dataElementList has more than one dataElement (each extractor returns more than one item)
-        #edElem = root.find(self.entityName)
+        # We had to remove this and not use self.entityName because each returned element in self.dataElementList has more than one dataElement (each extractor returns more than one item)
+        # edElem = root.find(self.entityName)
         etree._setroot(root)
         etree.write(outputXMLFN)
-        
+
     def xmlWriterHelper(self, element, root):
         elem = ET.Element(element.entityName)
-        #should be reading in a list of lists
-        print "THIS IS THE OFFSET WE ARE ERRORING ON: ", element.charOffset
-        #TODO: Figure out if this is the best way, ideally each extractor should make this check, but don't have time right now. 
-        #By this, I mean checking if the offset exists should be done in each extractor properly.
+        # should be reading in a list of lists
+        # print "THIS IS THE OFFSET WE ARE ERRORING ON: ", element.charOffset
+        # TODO: Figure out if this is the best way, ideally each extractor should make this check, but don't have time right now.
+        # By this, I mean checking if the offset exists should be done in each extractor properly.
         if element.charOffset[0]:
             start = str(element.charOffset[0][0])
             end = str(element.charOffset[-1][1])
@@ -139,23 +141,22 @@ class EntityAssembler(object):
             elem.attrib['extractor'] = str(element.extractorName)
             elem.text = str(element.extractedField)
 
-            print 'element.entityName: ', element.entityName
-            entityParent = root.find('.//'+element.entityName+'/..')
-            print "This is the element: ", ET.dump(elem)
+            # print 'element.entityName: ', element.entityName
+            entityParent = root.find('.//' + element.entityName + '/..')
+            # print "This is the element: ", ET.dump(elem)
             entityParent.append(elem)
 
-            
         return root
 
     def launchTestSuite(self):
         self.filename
-        # we need the annotation file and the program output file: Test_Suite/Eval_Env/xml/fda001.xml 
-        # and Test_Suite/Eval_Env/semifinal/fda001_EVENT_DT_Semifinal.xml
-        comp = Compare('Test_Suite/Eval_Env/xml/'+self.testCaseName+r'.xml', 'Test_Suite/Eval_Env/semifinal/'+self.testCaseName+'_'+self.entityName+'_'+r'Semifinal.xml')
-        #comp = Compare('../Test_Suite/Eval_Env/xml/'+self.testCaseName+r'.xml', '../Test_Suite/Eval_Env/semifinal/'+self.testCaseName+'_'+self.entityName+'_'+r'Semifinal.xml')
-        for elements in self.dataElementList:
-            if isinstance(elements, list):
-                for dataelement in elements:
-                    comp.run_compare(dataelement.entityName, dataelement.extractorName) 
-            else:
-                comp.run_compare(elements.entityName, elements.extractorName) 
+        # # we need the annotation file and the program output file: Test_Suite/Eval_Env/xml/fda001.xml
+        # # and Test_Suite/Eval_Env/semifinal/fda001_EVENT_DT_Semifinal.xml
+        # comp = Compare('Test_Suite/Eval_Env/xml/'+self.testCaseName+r'.xml', 'Test_Suite/Eval_Env/semifinal/'+self.testCaseName+'_'+self.entityName+'_'+r'Semifinal.xml')
+        # # comp = Compare('../Test_Suite/Eval_Env/xml/'+self.testCaseName+r'.xml', '../Test_Suite/Eval_Env/semifinal/'+self.testCaseName+'_'+self.entityName+'_'+r'Semifinal.xml')
+        # for elements in self.dataElementList:
+        #     if isinstance(elements, list):
+        #         for dataelement in elements:
+        #             comp.run_compare(dataelement.entityName, dataelement.extractorName)
+        #     else:
+        #         comp.run_compare(elements.entityName, elements.extractorName)

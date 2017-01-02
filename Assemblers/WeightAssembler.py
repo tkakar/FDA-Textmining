@@ -12,8 +12,8 @@ from Extractors.Weight.SVMv1WeightExtractor import SVMv1WeightExtractor
 
 from Assemblers.EntityAssembler import EntityAssembler
 
-class WeightAssembler(EntityAssembler):
 
+class WeightAssembler(EntityAssembler):
     def __init__(self, rawTextFileName, intermediateXMLFileName, anExtractorList=[]):
         """
         Initializes the EventDateAssembler and returns it. All Extractors for the Event Date DataElement must be specified in the list below. 
@@ -26,7 +26,10 @@ class WeightAssembler(EntityAssembler):
         """
         super(WeightAssembler, self).__init__(rawTextFileName, intermediateXMLFileName, anExtractorList=[])
 
-        self.AllPossibleExtractorList = {"WeightRegExtractor":WeightRegExtractor(rawTextFileName, intermediateXMLFileName), "WeightNltkExtractor":WeightNltkExtractor(rawTextFileName, intermediateXMLFileName), "SVMv1WeightExtractor":SVMv1WeightExtractor(rawTextFileName, intermediateXMLFileName)}
+        self.AllPossibleExtractorList = {
+            "WeightRegExtractor": WeightRegExtractor(rawTextFileName, intermediateXMLFileName),
+            "WeightNltkExtractor": WeightNltkExtractor(rawTextFileName, intermediateXMLFileName),
+            "SVMv1WeightExtractor": SVMv1WeightExtractor(rawTextFileName, intermediateXMLFileName)}
         self.entityName = 'WT_SET'
         self.filename = rawTextFileName
         self.testCaseName = self.filename[self.filename.rfind(r'/') + 1:self.filename.rfind(r'.txt')]

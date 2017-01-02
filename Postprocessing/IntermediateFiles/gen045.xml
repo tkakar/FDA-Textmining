@@ -1,1 +1,479 @@
-<StartOutput><Paragraphs Count="7"><Paragraph id="0"><Sentences Count="2"><Sentence id="0" offset="0:158"><Text>16-Apr-2015, non health professional reported the case of a Female patient (age 60, 140lbs) who received ERYTHROMYCIN (Product be excluded as a Teva product).</Text><Tokens Count="31"><Token globalID="0" id="0" offset="0:11"><Text>16-Apr-2015</Text></Token><Token globalID="1" id="1" offset="11:12"><Text>,</Text></Token><Token globalID="2" id="2" offset="13:16"><Text>non</Text></Token><Token globalID="3" id="3" offset="17:23"><Text>health</Text></Token><Token globalID="4" id="4" offset="24:36"><Text>professional</Text></Token><Token globalID="5" id="5" offset="37:45"><Text>reported</Text></Token><Token globalID="6" id="6" offset="46:49"><Text>the</Text></Token><Token globalID="7" id="7" offset="50:54"><Text>case</Text></Token><Token globalID="8" id="8" offset="55:57"><Text>of</Text></Token><Token globalID="9" id="9" offset="58:59"><Text>a</Text></Token><Token globalID="10" id="10" offset="60:66"><Text>Female</Text></Token><Token globalID="11" id="11" offset="67:74"><Text>patient</Text></Token><Token globalID="12" id="12" offset="75:76"><Text>(</Text></Token><Token globalID="13" id="13" offset="76:79"><Text>age</Text></Token><Token globalID="14" id="14" offset="80:82"><Text>60</Text></Token><Token globalID="15" id="15" offset="82:83"><Text>,</Text></Token><Token globalID="16" id="16" offset="84:90"><Text>140lbs</Text></Token><Token globalID="17" id="17" offset="90:91"><Text>)</Text></Token><Token globalID="18" id="18" offset="92:95"><Text>who</Text></Token><Token globalID="19" id="19" offset="96:104"><Text>received</Text></Token><Token globalID="20" id="20" offset="105:117"><Text>ERYTHROMYCIN</Text></Token><Token globalID="21" id="21" offset="118:119"><Text>(</Text></Token><Token globalID="22" id="22" offset="119:126"><Text>Product</Text></Token><Token globalID="23" id="23" offset="127:129"><Text>be</Text></Token><Token globalID="24" id="24" offset="130:138"><Text>excluded</Text></Token><Token globalID="25" id="25" offset="139:141"><Text>as</Text></Token><Token globalID="26" id="26" offset="139:140"><Text>a</Text></Token><Token globalID="27" id="27" offset="144:148"><Text>Teva</Text></Token><Token globalID="28" id="28" offset="149:156"><Text>product</Text></Token><Token globalID="29" id="29" offset="156:157"><Text>)</Text></Token><Token globalID="30" id="30" offset="157:158"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="159:275"><Text>While on the suspect medication(s), the patient experienced ARRHYTHMIA(Serious); POSSIBLE DRUG INTERACTION(Serious).</Text><Tokens Count="24"><Token globalID="31" id="0" offset="159:164"><Text>While</Text></Token><Token globalID="32" id="1" offset="165:167"><Text>on</Text></Token><Token globalID="33" id="2" offset="168:171"><Text>the</Text></Token><Token globalID="34" id="3" offset="172:179"><Text>suspect</Text></Token><Token globalID="35" id="4" offset="180:190"><Text>medication</Text></Token><Token globalID="36" id="5" offset="190:191"><Text>(</Text></Token><Token globalID="37" id="6" offset="191:192"><Text>s</Text></Token><Token globalID="38" id="7" offset="192:193"><Text>)</Text></Token><Token globalID="39" id="8" offset="193:194"><Text>,</Text></Token><Token globalID="40" id="9" offset="195:198"><Text>the</Text></Token><Token globalID="41" id="10" offset="199:206"><Text>patient</Text></Token><Token globalID="42" id="11" offset="207:218"><Text>experienced</Text></Token><Token globalID="43" id="12" offset="219:229"><Text>ARRHYTHMIA</Text></Token><Token globalID="44" id="13" offset="229:230"><Text>(</Text></Token><Token globalID="45" id="14" offset="230:237"><Text>Serious</Text></Token><Token globalID="46" id="15" offset="237:238"><Text>)</Text></Token><Token globalID="47" id="16" offset="238:239"><Text>;</Text></Token><Token globalID="48" id="17" offset="240:248"><Text>POSSIBLE</Text></Token><Token globalID="49" id="18" offset="249:253"><Text>DRUG</Text></Token><Token globalID="50" id="19" offset="254:265"><Text>INTERACTION</Text></Token><Token globalID="51" id="20" offset="265:266"><Text>(</Text></Token><Token globalID="52" id="21" offset="266:273"><Text>Serious</Text></Token><Token globalID="53" id="22" offset="273:274"><Text>)</Text></Token><Token globalID="54" id="23" offset="274:275"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="1"><Sentences Count="1"><Sentence id="0" offset="277:375"><Text>The patient had medical history of CROHN'S DISEASE(Not Continuing), GASTROPARESIS(Not Continuing).</Text><Tokens Count="20"><Token globalID="55" id="0" offset="277:280"><Text>The</Text></Token><Token globalID="56" id="1" offset="281:288"><Text>patient</Text></Token><Token globalID="57" id="2" offset="289:292"><Text>had</Text></Token><Token globalID="58" id="3" offset="293:300"><Text>medical</Text></Token><Token globalID="59" id="4" offset="301:308"><Text>history</Text></Token><Token globalID="60" id="5" offset="309:311"><Text>of</Text></Token><Token globalID="61" id="6" offset="312:317"><Text>CROHN</Text></Token><Token globalID="62" id="7" offset="317:319"><Text>'S</Text></Token><Token globalID="63" id="8" offset="320:327"><Text>DISEASE</Text></Token><Token globalID="64" id="9" offset="327:328"><Text>(</Text></Token><Token globalID="65" id="10" offset="328:331"><Text>Not</Text></Token><Token globalID="66" id="11" offset="332:342"><Text>Continuing</Text></Token><Token globalID="67" id="12" offset="342:343"><Text>)</Text></Token><Token globalID="68" id="13" offset="343:344"><Text>,</Text></Token><Token globalID="69" id="14" offset="345:358"><Text>GASTROPARESIS</Text></Token><Token globalID="70" id="15" offset="358:359"><Text>(</Text></Token><Token globalID="71" id="16" offset="359:362"><Text>Not</Text></Token><Token globalID="72" id="17" offset="363:373"><Text>Continuing</Text></Token><Token globalID="73" id="18" offset="373:374"><Text>)</Text></Token><Token globalID="74" id="19" offset="374:375"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="2"><Sentences Count="1"><Sentence id="0" offset="376:381"><Text>     </Text><Tokens Count="0" /><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="3"><Sentences Count="1"><Sentence id="0" offset="382:500"><Text>The patient's concomitant medication included  MESALAZINE( Unknown,  Dosage Form: Unspecified,  for CROHN'S DISEASE). </Text><Tokens Count="21"><Token globalID="75" id="0" offset="382:385"><Text>The</Text></Token><Token globalID="76" id="1" offset="386:393"><Text>patient</Text></Token><Token globalID="77" id="2" offset="393:395"><Text>'s</Text></Token><Token globalID="78" id="3" offset="396:407"><Text>concomitant</Text></Token><Token globalID="79" id="4" offset="408:418"><Text>medication</Text></Token><Token globalID="80" id="5" offset="419:427"><Text>included</Text></Token><Token globalID="81" id="6" offset="429:439"><Text>MESALAZINE</Text></Token><Token globalID="82" id="7" offset="439:440"><Text>(</Text></Token><Token globalID="83" id="8" offset="441:448"><Text>Unknown</Text></Token><Token globalID="84" id="9" offset="448:449"><Text>,</Text></Token><Token globalID="85" id="10" offset="451:457"><Text>Dosage</Text></Token><Token globalID="86" id="11" offset="458:462"><Text>Form</Text></Token><Token globalID="87" id="12" offset="462:463"><Text>:</Text></Token><Token globalID="88" id="13" offset="464:475"><Text>Unspecified</Text></Token><Token globalID="89" id="14" offset="475:476"><Text>,</Text></Token><Token globalID="90" id="15" offset="478:481"><Text>for</Text></Token><Token globalID="91" id="16" offset="482:487"><Text>CROHN</Text></Token><Token globalID="92" id="17" offset="487:489"><Text>'S</Text></Token><Token globalID="93" id="18" offset="490:497"><Text>DISEASE</Text></Token><Token globalID="94" id="19" offset="497:498"><Text>)</Text></Token><Token globalID="95" id="20" offset="498:499"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="4"><Sentences Count="1"><Sentence id="0" offset="501:550"><Text>The patient's past medication were unspecified.  </Text><Tokens Count="8"><Token globalID="96" id="0" offset="501:504"><Text>The</Text></Token><Token globalID="97" id="1" offset="505:512"><Text>patient</Text></Token><Token globalID="98" id="2" offset="512:514"><Text>'s</Text></Token><Token globalID="99" id="3" offset="515:519"><Text>past</Text></Token><Token globalID="100" id="4" offset="520:530"><Text>medication</Text></Token><Token globalID="101" id="5" offset="531:535"><Text>were</Text></Token><Token globalID="102" id="6" offset="536:547"><Text>unspecified</Text></Token><Token globalID="103" id="7" offset="547:548"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="5"><Sentences Count="1"><Sentence id="0" offset="552:580"><Text>Lab tests were not reported.</Text><Tokens Count="6"><Token globalID="104" id="0" offset="552:555"><Text>Lab</Text></Token><Token globalID="105" id="1" offset="556:561"><Text>tests</Text></Token><Token globalID="106" id="2" offset="562:566"><Text>were</Text></Token><Token globalID="107" id="3" offset="567:570"><Text>not</Text></Token><Token globalID="108" id="4" offset="571:579"><Text>reported</Text></Token><Token globalID="109" id="5" offset="579:580"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph><Paragraph id="6"><Sentences Count="1"><Sentence id="0" offset="582:690"><Text>This case was considered serious based on the following criteria: (Other Serious (Important Medical Events))</Text><Tokens Count="20"><Token globalID="110" id="0" offset="582:586"><Text>This</Text></Token><Token globalID="111" id="1" offset="587:591"><Text>case</Text></Token><Token globalID="112" id="2" offset="592:595"><Text>was</Text></Token><Token globalID="113" id="3" offset="596:606"><Text>considered</Text></Token><Token globalID="114" id="4" offset="607:614"><Text>serious</Text></Token><Token globalID="115" id="5" offset="615:620"><Text>based</Text></Token><Token globalID="116" id="6" offset="621:623"><Text>on</Text></Token><Token globalID="117" id="7" offset="624:627"><Text>the</Text></Token><Token globalID="118" id="8" offset="628:637"><Text>following</Text></Token><Token globalID="119" id="9" offset="638:646"><Text>criteria</Text></Token><Token globalID="120" id="10" offset="646:647"><Text>:</Text></Token><Token globalID="121" id="11" offset="648:649"><Text>(</Text></Token><Token globalID="122" id="12" offset="649:654"><Text>Other</Text></Token><Token globalID="123" id="13" offset="655:662"><Text>Serious</Text></Token><Token globalID="124" id="14" offset="663:664"><Text>(</Text></Token><Token globalID="125" id="15" offset="664:673"><Text>Important</Text></Token><Token globalID="126" id="16" offset="674:681"><Text>Medical</Text></Token><Token globalID="127" id="17" offset="682:688"><Text>Events</Text></Token><Token globalID="128" id="18" offset="688:689"><Text>)</Text></Token><Token globalID="129" id="19" offset="688:689"><Text>)</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph></Paragraphs></StartOutput>
+<StartOutput>
+    <Paragraphs Count="7">
+        <Paragraph id="0">
+            <Sentences Count="2">
+                <Sentence id="0" offset="0:158">
+                    <Text>16-Apr-2015, non health professional reported the case of a Female patient (age 60, 140lbs)
+                        who received ERYTHROMYCIN (Product be excluded as a Teva product).
+                    </Text>
+                    <Tokens Count="31">
+                        <Token globalID="0" id="0" offset="0:11">
+                            <Text>16-Apr-2015</Text>
+                        </Token>
+                        <Token globalID="1" id="1" offset="11:12">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="2" id="2" offset="13:16">
+                            <Text>non</Text>
+                        </Token>
+                        <Token globalID="3" id="3" offset="17:23">
+                            <Text>health</Text>
+                        </Token>
+                        <Token globalID="4" id="4" offset="24:36">
+                            <Text>professional</Text>
+                        </Token>
+                        <Token globalID="5" id="5" offset="37:45">
+                            <Text>reported</Text>
+                        </Token>
+                        <Token globalID="6" id="6" offset="46:49">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="7" id="7" offset="50:54">
+                            <Text>case</Text>
+                        </Token>
+                        <Token globalID="8" id="8" offset="55:57">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="9" id="9" offset="58:59">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="10" id="10" offset="60:66">
+                            <Text>Female</Text>
+                        </Token>
+                        <Token globalID="11" id="11" offset="67:74">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token globalID="12" id="12" offset="75:76">
+                            <Text>(</Text>
+                        </Token>
+                        <Token globalID="13" id="13" offset="76:79">
+                            <Text>age</Text>
+                        </Token>
+                        <Token globalID="14" id="14" offset="80:82">
+                            <Text>60</Text>
+                        </Token>
+                        <Token globalID="15" id="15" offset="82:83">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="16" id="16" offset="84:90">
+                            <Text>140lbs</Text>
+                        </Token>
+                        <Token globalID="17" id="17" offset="90:91">
+                            <Text>)</Text>
+                        </Token>
+                        <Token globalID="18" id="18" offset="92:95">
+                            <Text>who</Text>
+                        </Token>
+                        <Token globalID="19" id="19" offset="96:104">
+                            <Text>received</Text>
+                        </Token>
+                        <Token globalID="20" id="20" offset="105:117">
+                            <Text>ERYTHROMYCIN</Text>
+                        </Token>
+                        <Token globalID="21" id="21" offset="118:119">
+                            <Text>(</Text>
+                        </Token>
+                        <Token globalID="22" id="22" offset="119:126">
+                            <Text>Product</Text>
+                        </Token>
+                        <Token globalID="23" id="23" offset="127:129">
+                            <Text>be</Text>
+                        </Token>
+                        <Token globalID="24" id="24" offset="130:138">
+                            <Text>excluded</Text>
+                        </Token>
+                        <Token globalID="25" id="25" offset="139:141">
+                            <Text>as</Text>
+                        </Token>
+                        <Token globalID="26" id="26" offset="139:140">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="27" id="27" offset="144:148">
+                            <Text>Teva</Text>
+                        </Token>
+                        <Token globalID="28" id="28" offset="149:156">
+                            <Text>product</Text>
+                        </Token>
+                        <Token globalID="29" id="29" offset="156:157">
+                            <Text>)</Text>
+                        </Token>
+                        <Token globalID="30" id="30" offset="157:158">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="159:275">
+                    <Text>While on the suspect medication(s), the patient experienced ARRHYTHMIA(Serious); POSSIBLE DRUG
+                        INTERACTION(Serious).
+                    </Text>
+                    <Tokens Count="24">
+                        <Token globalID="31" id="0" offset="159:164">
+                            <Text>While</Text>
+                        </Token>
+                        <Token globalID="32" id="1" offset="165:167">
+                            <Text>on</Text>
+                        </Token>
+                        <Token globalID="33" id="2" offset="168:171">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="34" id="3" offset="172:179">
+                            <Text>suspect</Text>
+                        </Token>
+                        <Token globalID="35" id="4" offset="180:190">
+                            <Text>medication</Text>
+                        </Token>
+                        <Token globalID="36" id="5" offset="190:191">
+                            <Text>(</Text>
+                        </Token>
+                        <Token globalID="37" id="6" offset="191:192">
+                            <Text>s</Text>
+                        </Token>
+                        <Token globalID="38" id="7" offset="192:193">
+                            <Text>)</Text>
+                        </Token>
+                        <Token globalID="39" id="8" offset="193:194">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="40" id="9" offset="195:198">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="41" id="10" offset="199:206">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token globalID="42" id="11" offset="207:218">
+                            <Text>experienced</Text>
+                        </Token>
+                        <Token globalID="43" id="12" offset="219:229">
+                            <Text>ARRHYTHMIA</Text>
+                        </Token>
+                        <Token globalID="44" id="13" offset="229:230">
+                            <Text>(</Text>
+                        </Token>
+                        <Token globalID="45" id="14" offset="230:237">
+                            <Text>Serious</Text>
+                        </Token>
+                        <Token globalID="46" id="15" offset="237:238">
+                            <Text>)</Text>
+                        </Token>
+                        <Token globalID="47" id="16" offset="238:239">
+                            <Text>;</Text>
+                        </Token>
+                        <Token globalID="48" id="17" offset="240:248">
+                            <Text>POSSIBLE</Text>
+                        </Token>
+                        <Token globalID="49" id="18" offset="249:253">
+                            <Text>DRUG</Text>
+                        </Token>
+                        <Token globalID="50" id="19" offset="254:265">
+                            <Text>INTERACTION</Text>
+                        </Token>
+                        <Token globalID="51" id="20" offset="265:266">
+                            <Text>(</Text>
+                        </Token>
+                        <Token globalID="52" id="21" offset="266:273">
+                            <Text>Serious</Text>
+                        </Token>
+                        <Token globalID="53" id="22" offset="273:274">
+                            <Text>)</Text>
+                        </Token>
+                        <Token globalID="54" id="23" offset="274:275">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="1">
+            <Sentences Count="1">
+                <Sentence id="0" offset="277:375">
+                    <Text>The patient had medical history of CROHN'S DISEASE(Not Continuing), GASTROPARESIS(Not
+                        Continuing).
+                    </Text>
+                    <Tokens Count="20">
+                        <Token globalID="55" id="0" offset="277:280">
+                            <Text>The</Text>
+                        </Token>
+                        <Token globalID="56" id="1" offset="281:288">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token globalID="57" id="2" offset="289:292">
+                            <Text>had</Text>
+                        </Token>
+                        <Token globalID="58" id="3" offset="293:300">
+                            <Text>medical</Text>
+                        </Token>
+                        <Token globalID="59" id="4" offset="301:308">
+                            <Text>history</Text>
+                        </Token>
+                        <Token globalID="60" id="5" offset="309:311">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="61" id="6" offset="312:317">
+                            <Text>CROHN</Text>
+                        </Token>
+                        <Token globalID="62" id="7" offset="317:319">
+                            <Text>'S</Text>
+                        </Token>
+                        <Token globalID="63" id="8" offset="320:327">
+                            <Text>DISEASE</Text>
+                        </Token>
+                        <Token globalID="64" id="9" offset="327:328">
+                            <Text>(</Text>
+                        </Token>
+                        <Token globalID="65" id="10" offset="328:331">
+                            <Text>Not</Text>
+                        </Token>
+                        <Token globalID="66" id="11" offset="332:342">
+                            <Text>Continuing</Text>
+                        </Token>
+                        <Token globalID="67" id="12" offset="342:343">
+                            <Text>)</Text>
+                        </Token>
+                        <Token globalID="68" id="13" offset="343:344">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="69" id="14" offset="345:358">
+                            <Text>GASTROPARESIS</Text>
+                        </Token>
+                        <Token globalID="70" id="15" offset="358:359">
+                            <Text>(</Text>
+                        </Token>
+                        <Token globalID="71" id="16" offset="359:362">
+                            <Text>Not</Text>
+                        </Token>
+                        <Token globalID="72" id="17" offset="363:373">
+                            <Text>Continuing</Text>
+                        </Token>
+                        <Token globalID="73" id="18" offset="373:374">
+                            <Text>)</Text>
+                        </Token>
+                        <Token globalID="74" id="19" offset="374:375">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="2">
+            <Sentences Count="1">
+                <Sentence id="0" offset="376:381">
+                    <Text></Text>
+                    <Tokens Count="0"/>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="3">
+            <Sentences Count="1">
+                <Sentence id="0" offset="382:500">
+                    <Text>The patient's concomitant medication included MESALAZINE( Unknown, Dosage Form: Unspecified,
+                        for CROHN'S DISEASE).
+                    </Text>
+                    <Tokens Count="21">
+                        <Token globalID="75" id="0" offset="382:385">
+                            <Text>The</Text>
+                        </Token>
+                        <Token globalID="76" id="1" offset="386:393">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token globalID="77" id="2" offset="393:395">
+                            <Text>'s</Text>
+                        </Token>
+                        <Token globalID="78" id="3" offset="396:407">
+                            <Text>concomitant</Text>
+                        </Token>
+                        <Token globalID="79" id="4" offset="408:418">
+                            <Text>medication</Text>
+                        </Token>
+                        <Token globalID="80" id="5" offset="419:427">
+                            <Text>included</Text>
+                        </Token>
+                        <Token globalID="81" id="6" offset="429:439">
+                            <Text>MESALAZINE</Text>
+                        </Token>
+                        <Token globalID="82" id="7" offset="439:440">
+                            <Text>(</Text>
+                        </Token>
+                        <Token globalID="83" id="8" offset="441:448">
+                            <Text>Unknown</Text>
+                        </Token>
+                        <Token globalID="84" id="9" offset="448:449">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="85" id="10" offset="451:457">
+                            <Text>Dosage</Text>
+                        </Token>
+                        <Token globalID="86" id="11" offset="458:462">
+                            <Text>Form</Text>
+                        </Token>
+                        <Token globalID="87" id="12" offset="462:463">
+                            <Text>:</Text>
+                        </Token>
+                        <Token globalID="88" id="13" offset="464:475">
+                            <Text>Unspecified</Text>
+                        </Token>
+                        <Token globalID="89" id="14" offset="475:476">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="90" id="15" offset="478:481">
+                            <Text>for</Text>
+                        </Token>
+                        <Token globalID="91" id="16" offset="482:487">
+                            <Text>CROHN</Text>
+                        </Token>
+                        <Token globalID="92" id="17" offset="487:489">
+                            <Text>'S</Text>
+                        </Token>
+                        <Token globalID="93" id="18" offset="490:497">
+                            <Text>DISEASE</Text>
+                        </Token>
+                        <Token globalID="94" id="19" offset="497:498">
+                            <Text>)</Text>
+                        </Token>
+                        <Token globalID="95" id="20" offset="498:499">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="4">
+            <Sentences Count="1">
+                <Sentence id="0" offset="501:550">
+                    <Text>The patient's past medication were unspecified.</Text>
+                    <Tokens Count="8">
+                        <Token globalID="96" id="0" offset="501:504">
+                            <Text>The</Text>
+                        </Token>
+                        <Token globalID="97" id="1" offset="505:512">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token globalID="98" id="2" offset="512:514">
+                            <Text>'s</Text>
+                        </Token>
+                        <Token globalID="99" id="3" offset="515:519">
+                            <Text>past</Text>
+                        </Token>
+                        <Token globalID="100" id="4" offset="520:530">
+                            <Text>medication</Text>
+                        </Token>
+                        <Token globalID="101" id="5" offset="531:535">
+                            <Text>were</Text>
+                        </Token>
+                        <Token globalID="102" id="6" offset="536:547">
+                            <Text>unspecified</Text>
+                        </Token>
+                        <Token globalID="103" id="7" offset="547:548">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="5">
+            <Sentences Count="1">
+                <Sentence id="0" offset="552:580">
+                    <Text>Lab tests were not reported.</Text>
+                    <Tokens Count="6">
+                        <Token globalID="104" id="0" offset="552:555">
+                            <Text>Lab</Text>
+                        </Token>
+                        <Token globalID="105" id="1" offset="556:561">
+                            <Text>tests</Text>
+                        </Token>
+                        <Token globalID="106" id="2" offset="562:566">
+                            <Text>were</Text>
+                        </Token>
+                        <Token globalID="107" id="3" offset="567:570">
+                            <Text>not</Text>
+                        </Token>
+                        <Token globalID="108" id="4" offset="571:579">
+                            <Text>reported</Text>
+                        </Token>
+                        <Token globalID="109" id="5" offset="579:580">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="6">
+            <Sentences Count="1">
+                <Sentence id="0" offset="582:690">
+                    <Text>This case was considered serious based on the following criteria: (Other Serious (Important
+                        Medical Events))
+                    </Text>
+                    <Tokens Count="20">
+                        <Token globalID="110" id="0" offset="582:586">
+                            <Text>This</Text>
+                        </Token>
+                        <Token globalID="111" id="1" offset="587:591">
+                            <Text>case</Text>
+                        </Token>
+                        <Token globalID="112" id="2" offset="592:595">
+                            <Text>was</Text>
+                        </Token>
+                        <Token globalID="113" id="3" offset="596:606">
+                            <Text>considered</Text>
+                        </Token>
+                        <Token globalID="114" id="4" offset="607:614">
+                            <Text>serious</Text>
+                        </Token>
+                        <Token globalID="115" id="5" offset="615:620">
+                            <Text>based</Text>
+                        </Token>
+                        <Token globalID="116" id="6" offset="621:623">
+                            <Text>on</Text>
+                        </Token>
+                        <Token globalID="117" id="7" offset="624:627">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="118" id="8" offset="628:637">
+                            <Text>following</Text>
+                        </Token>
+                        <Token globalID="119" id="9" offset="638:646">
+                            <Text>criteria</Text>
+                        </Token>
+                        <Token globalID="120" id="10" offset="646:647">
+                            <Text>:</Text>
+                        </Token>
+                        <Token globalID="121" id="11" offset="648:649">
+                            <Text>(</Text>
+                        </Token>
+                        <Token globalID="122" id="12" offset="649:654">
+                            <Text>Other</Text>
+                        </Token>
+                        <Token globalID="123" id="13" offset="655:662">
+                            <Text>Serious</Text>
+                        </Token>
+                        <Token globalID="124" id="14" offset="663:664">
+                            <Text>(</Text>
+                        </Token>
+                        <Token globalID="125" id="15" offset="664:673">
+                            <Text>Important</Text>
+                        </Token>
+                        <Token globalID="126" id="16" offset="674:681">
+                            <Text>Medical</Text>
+                        </Token>
+                        <Token globalID="127" id="17" offset="682:688">
+                            <Text>Events</Text>
+                        </Token>
+                        <Token globalID="128" id="18" offset="688:689">
+                            <Text>)</Text>
+                        </Token>
+                        <Token globalID="129" id="19" offset="688:689">
+                            <Text>)</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+    </Paragraphs>
+</StartOutput>

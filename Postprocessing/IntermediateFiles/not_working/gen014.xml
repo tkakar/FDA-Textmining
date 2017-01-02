@@ -1,1 +1,610 @@
-<StartOutput><Paragraphs Count="19"><Paragraph id="0"><Sentences Count="1"><Sentence id="0" offset="0:17"><Text>Patient ID: Mr. H</Text><Tokens Count="5"><Token globalID="0" id="0" offset="0:7"><Text>Patient</Text></Token><Token globalID="1" id="1" offset="8:10"><Text>ID</Text></Token><Token globalID="2" id="2" offset="10:11"><Text>:</Text></Token><Token globalID="3" id="3" offset="12:15"><Text>Mr.</Text></Token><Token globalID="4" id="4" offset="16:17"><Text>H</Text></Token></Tokens></Sentence></Sentences></Paragraph><Paragraph id="1"><Sentences Count="1"><Sentence id="0" offset="19:56"><Text>History and Physical conducted by: MD</Text><Tokens Count="7"><Token globalID="5" id="0" offset="19:26"><Text>History</Text></Token><Token globalID="6" id="1" offset="27:30"><Text>and</Text></Token><Token globalID="7" id="2" offset="31:39"><Text>Physical</Text></Token><Token globalID="8" id="3" offset="40:49"><Text>conducted</Text></Token><Token globalID="9" id="4" offset="50:52"><Text>by</Text></Token><Token globalID="10" id="5" offset="52:53"><Text>:</Text></Token><Token globalID="11" id="6" offset="54:56"><Text>MD</Text></Token></Tokens></Sentence></Sentences></Paragraph><Paragraph id="2"><Sentences Count="1"><Sentence id="0" offset="58:108"><Text>History and Physical conducted on: October 1, 2007</Text><Tokens Count="10"><Token globalID="12" id="0" offset="58:65"><Text>History</Text></Token><Token globalID="13" id="1" offset="66:69"><Text>and</Text></Token><Token globalID="14" id="2" offset="70:78"><Text>Physical</Text></Token><Token globalID="15" id="3" offset="79:88"><Text>conducted</Text></Token><Token globalID="16" id="4" offset="80:82"><Text>on</Text></Token><Token globalID="17" id="5" offset="91:92"><Text>:</Text></Token><Token globalID="18" id="6" offset="93:100"><Text>October</Text></Token><Token globalID="19" id="7" offset="101:102"><Text>1</Text></Token><Token globalID="20" id="8" offset="102:103"><Text>,</Text></Token><Token globalID="21" id="9" offset="104:108"><Text>2007</Text></Token></Tokens></Sentence></Sentences></Paragraph><Paragraph id="3"><Sentences Count="1"><Sentence id="0" offset="110:188"><Text>Source: The patient gives his own history and appears to be a reliable source.</Text><Tokens Count="16"><Token globalID="22" id="0" offset="110:116"><Text>Source</Text></Token><Token globalID="23" id="1" offset="116:117"><Text>:</Text></Token><Token globalID="24" id="2" offset="118:121"><Text>The</Text></Token><Token globalID="25" id="3" offset="122:129"><Text>patient</Text></Token><Token globalID="26" id="4" offset="130:135"><Text>gives</Text></Token><Token globalID="27" id="5" offset="136:139"><Text>his</Text></Token><Token globalID="28" id="6" offset="140:143"><Text>own</Text></Token><Token globalID="29" id="7" offset="144:151"><Text>history</Text></Token><Token globalID="30" id="8" offset="152:155"><Text>and</Text></Token><Token globalID="31" id="9" offset="156:163"><Text>appears</Text></Token><Token globalID="32" id="10" offset="164:166"><Text>to</Text></Token><Token globalID="33" id="11" offset="167:169"><Text>be</Text></Token><Token globalID="34" id="12" offset="170:171"><Text>a</Text></Token><Token globalID="35" id="13" offset="172:180"><Text>reliable</Text></Token><Token globalID="36" id="14" offset="181:187"><Text>source</Text></Token><Token globalID="37" id="15" offset="187:188"><Text>.</Text></Token></Tokens></Sentence></Sentences></Paragraph><Paragraph id="4"><Sentences Count="1"><Sentence id="0" offset="190:221"><Text>Chief Complaint: Abdominal pain</Text><Tokens Count="5"><Token globalID="38" id="0" offset="190:195"><Text>Chief</Text></Token><Token globalID="39" id="1" offset="196:205"><Text>Complaint</Text></Token><Token globalID="40" id="2" offset="205:206"><Text>:</Text></Token><Token globalID="41" id="3" offset="207:216"><Text>Abdominal</Text></Token><Token globalID="42" id="4" offset="217:221"><Text>pain</Text></Token></Tokens></Sentence></Sentences></Paragraph><Paragraph id="5"><Sentences Count="1"><Sentence id="0" offset="223:249"><Text>History of Present Illness</Text><Tokens Count="4"><Token globalID="43" id="0" offset="223:230"><Text>History</Text></Token><Token globalID="44" id="1" offset="231:233"><Text>of</Text></Token><Token globalID="45" id="2" offset="234:241"><Text>Present</Text></Token><Token globalID="46" id="3" offset="242:249"><Text>Illness</Text></Token></Tokens></Sentence></Sentences></Paragraph><Paragraph id="6"><Sentences Count="24"><Sentence id="0" offset="250:439"><Text>Mr. H is a 65 year old white male with a past medical history significant for an MI and depression who presents today complaining of sharp, epigastric abdominal pain of 3-4 months duration.</Text><Tokens Count="35"><Token globalID="47" id="0" offset="250:253"><Text>Mr.</Text></Token><Token globalID="48" id="1" offset="254:255"><Text>H</Text></Token><Token globalID="49" id="2" offset="256:258"><Text>is</Text></Token><Token globalID="50" id="3" offset="259:260"><Text>a</Text></Token><Token globalID="51" id="4" offset="261:263"><Text>65</Text></Token><Token globalID="52" id="5" offset="264:268"><Text>year</Text></Token><Token globalID="53" id="6" offset="269:272"><Text>old</Text></Token><Token globalID="54" id="7" offset="273:278"><Text>white</Text></Token><Token globalID="55" id="8" offset="279:283"><Text>male</Text></Token><Token globalID="56" id="9" offset="284:288"><Text>with</Text></Token><Token globalID="57" id="10" offset="289:290"><Text>a</Text></Token><Token globalID="58" id="11" offset="291:295"><Text>past</Text></Token><Token globalID="59" id="12" offset="296:303"><Text>medical</Text></Token><Token globalID="60" id="13" offset="304:311"><Text>history</Text></Token><Token globalID="61" id="14" offset="312:323"><Text>significant</Text></Token><Token globalID="62" id="15" offset="324:327"><Text>for</Text></Token><Token globalID="63" id="16" offset="328:330"><Text>an</Text></Token><Token globalID="64" id="17" offset="331:333"><Text>MI</Text></Token><Token globalID="65" id="18" offset="334:337"><Text>and</Text></Token><Token globalID="66" id="19" offset="338:348"><Text>depression</Text></Token><Token globalID="67" id="20" offset="349:352"><Text>who</Text></Token><Token globalID="68" id="21" offset="353:361"><Text>presents</Text></Token><Token globalID="69" id="22" offset="362:367"><Text>today</Text></Token><Token globalID="70" id="23" offset="368:379"><Text>complaining</Text></Token><Token globalID="71" id="24" offset="380:382"><Text>of</Text></Token><Token globalID="72" id="25" offset="383:388"><Text>sharp</Text></Token><Token globalID="73" id="26" offset="388:389"><Text>,</Text></Token><Token globalID="74" id="27" offset="390:400"><Text>epigastric</Text></Token><Token globalID="75" id="28" offset="401:410"><Text>abdominal</Text></Token><Token globalID="76" id="29" offset="411:415"><Text>pain</Text></Token><Token globalID="77" id="30" offset="416:418"><Text>of</Text></Token><Token globalID="78" id="31" offset="419:422"><Text>3-4</Text></Token><Token globalID="79" id="32" offset="423:429"><Text>months</Text></Token><Token globalID="80" id="33" offset="430:438"><Text>duration</Text></Token><Token globalID="81" id="34" offset="438:439"><Text>.</Text></Token></Tokens></Sentence><Sentence id="1" offset="440:513"><Text>The abdominal pain has been gradually worsening over the past 3-4 months.</Text><Tokens Count="13"><Token globalID="82" id="0" offset="440:443"><Text>The</Text></Token><Token globalID="83" id="1" offset="444:453"><Text>abdominal</Text></Token><Token globalID="84" id="2" offset="454:458"><Text>pain</Text></Token><Token globalID="85" id="3" offset="459:462"><Text>has</Text></Token><Token globalID="86" id="4" offset="463:467"><Text>been</Text></Token><Token globalID="87" id="5" offset="468:477"><Text>gradually</Text></Token><Token globalID="88" id="6" offset="478:487"><Text>worsening</Text></Token><Token globalID="89" id="7" offset="488:492"><Text>over</Text></Token><Token globalID="90" id="8" offset="493:496"><Text>the</Text></Token><Token globalID="91" id="9" offset="497:501"><Text>past</Text></Token><Token globalID="92" id="10" offset="502:505"><Text>3-4</Text></Token><Token globalID="93" id="11" offset="506:512"><Text>months</Text></Token><Token globalID="94" id="12" offset="512:513"><Text>.</Text></Token></Tokens></Sentence><Sentence id="2" offset="514:641"><Text>The pain has not changed or worsened acutely; Mr. H seeks care for the pain at this time because he is now covered by Medicare.</Text><Tokens Count="27"><Token globalID="95" id="0" offset="514:517"><Text>The</Text></Token><Token globalID="96" id="1" offset="518:522"><Text>pain</Text></Token><Token globalID="97" id="2" offset="523:526"><Text>has</Text></Token><Token globalID="98" id="3" offset="527:530"><Text>not</Text></Token><Token globalID="99" id="4" offset="531:538"><Text>changed</Text></Token><Token globalID="100" id="5" offset="539:541"><Text>or</Text></Token><Token globalID="101" id="6" offset="542:550"><Text>worsened</Text></Token><Token globalID="102" id="7" offset="551:558"><Text>acutely</Text></Token><Token globalID="103" id="8" offset="558:559"><Text>;</Text></Token><Token globalID="104" id="9" offset="560:563"><Text>Mr.</Text></Token><Token globalID="105" id="10" offset="564:565"><Text>H</Text></Token><Token globalID="106" id="11" offset="566:571"><Text>seeks</Text></Token><Token globalID="107" id="12" offset="572:576"><Text>care</Text></Token><Token globalID="108" id="13" offset="577:580"><Text>for</Text></Token><Token globalID="109" id="14" offset="581:584"><Text>the</Text></Token><Token globalID="110" id="15" offset="585:589"><Text>pain</Text></Token><Token globalID="111" id="16" offset="590:592"><Text>at</Text></Token><Token globalID="112" id="17" offset="593:597"><Text>this</Text></Token><Token globalID="113" id="18" offset="598:602"><Text>time</Text></Token><Token globalID="114" id="19" offset="603:610"><Text>because</Text></Token><Token globalID="115" id="20" offset="611:613"><Text>he</Text></Token><Token globalID="116" id="21" offset="614:616"><Text>is</Text></Token><Token globalID="117" id="22" offset="617:620"><Text>now</Text></Token><Token globalID="118" id="23" offset="621:628"><Text>covered</Text></Token><Token globalID="119" id="24" offset="629:631"><Text>by</Text></Token><Token globalID="120" id="25" offset="632:640"><Text>Medicare</Text></Token><Token globalID="121" id="26" offset="640:641"><Text>.</Text></Token></Tokens></Sentence><Sentence id="3" offset="642:726"><Text>The pain is located in the epigastric region and left upper quadrant of the abdomen.</Text><Tokens Count="16"><Token globalID="122" id="0" offset="642:645"><Text>The</Text></Token><Token globalID="123" id="1" offset="646:650"><Text>pain</Text></Token><Token globalID="124" id="2" offset="651:653"><Text>is</Text></Token><Token globalID="125" id="3" offset="654:661"><Text>located</Text></Token><Token globalID="126" id="4" offset="662:664"><Text>in</Text></Token><Token globalID="127" id="5" offset="665:668"><Text>the</Text></Token><Token globalID="128" id="6" offset="669:679"><Text>epigastric</Text></Token><Token globalID="129" id="7" offset="680:686"><Text>region</Text></Token><Token globalID="130" id="8" offset="687:690"><Text>and</Text></Token><Token globalID="131" id="9" offset="691:695"><Text>left</Text></Token><Token globalID="132" id="10" offset="696:701"><Text>upper</Text></Token><Token globalID="133" id="11" offset="702:710"><Text>quadrant</Text></Token><Token globalID="134" id="12" offset="711:713"><Text>of</Text></Token><Token globalID="135" id="13" offset="714:717"><Text>the</Text></Token><Token globalID="136" id="14" offset="718:725"><Text>abdomen</Text></Token><Token globalID="137" id="15" offset="725:726"><Text>.</Text></Token></Tokens></Sentence><Sentence id="4" offset="727:747"><Text>It does not radiate.</Text><Tokens Count="5"><Token globalID="138" id="0" offset="727:729"><Text>It</Text></Token><Token globalID="139" id="1" offset="730:734"><Text>does</Text></Token><Token globalID="140" id="2" offset="735:738"><Text>not</Text></Token><Token globalID="141" id="3" offset="739:746"><Text>radiate</Text></Token><Token globalID="142" id="4" offset="746:747"><Text>.</Text></Token></Tokens></Sentence><Sentence id="5" offset="748:835"><Text>The pain is relatively constant throughout the day and night but does vary in severity.</Text><Tokens Count="16"><Token globalID="143" id="0" offset="748:751"><Text>The</Text></Token><Token globalID="144" id="1" offset="752:756"><Text>pain</Text></Token><Token globalID="145" id="2" offset="757:759"><Text>is</Text></Token><Token globalID="146" id="3" offset="760:770"><Text>relatively</Text></Token><Token globalID="147" id="4" offset="771:779"><Text>constant</Text></Token><Token globalID="148" id="5" offset="780:790"><Text>throughout</Text></Token><Token globalID="149" id="6" offset="791:794"><Text>the</Text></Token><Token globalID="150" id="7" offset="795:798"><Text>day</Text></Token><Token globalID="151" id="8" offset="799:802"><Text>and</Text></Token><Token globalID="152" id="9" offset="803:808"><Text>night</Text></Token><Token globalID="153" id="10" offset="809:812"><Text>but</Text></Token><Token globalID="154" id="11" offset="813:817"><Text>does</Text></Token><Token globalID="155" id="12" offset="818:822"><Text>vary</Text></Token><Token globalID="156" id="13" offset="823:825"><Text>in</Text></Token><Token globalID="157" id="14" offset="826:834"><Text>severity</Text></Token><Token globalID="158" id="15" offset="834:835"><Text>.</Text></Token></Tokens></Sentence><Sentence id="6" offset="836:878"><Text>Mr. H rates the pain as 6/10 at its worst.</Text><Tokens Count="11"><Token globalID="159" id="0" offset="836:839"><Text>Mr.</Text></Token><Token globalID="160" id="1" offset="840:841"><Text>H</Text></Token><Token globalID="161" id="2" offset="842:847"><Text>rates</Text></Token><Token globalID="162" id="3" offset="848:851"><Text>the</Text></Token><Token globalID="163" id="4" offset="852:856"><Text>pain</Text></Token><Token globalID="164" id="5" offset="857:859"><Text>as</Text></Token><Token globalID="165" id="6" offset="860:864"><Text>6/10</Text></Token><Token globalID="166" id="7" offset="865:867"><Text>at</Text></Token><Token globalID="167" id="8" offset="868:871"><Text>its</Text></Token><Token globalID="168" id="9" offset="872:877"><Text>worst</Text></Token><Token globalID="169" id="10" offset="877:878"><Text>.</Text></Token></Tokens></Sentence><Sentence id="7" offset="879:935"><Text>
+<StartOutput>
+    <Paragraphs Count="19">
+        <Paragraph id="0">
+            <Sentences Count="1">
+                <Sentence id="0" offset="0:17">
+                    <Text>Patient ID: Mr. H</Text>
+                    <Tokens Count="5">
+                        <Token globalID="0" id="0" offset="0:7">
+                            <Text>Patient</Text>
+                        </Token>
+                        <Token globalID="1" id="1" offset="8:10">
+                            <Text>ID</Text>
+                        </Token>
+                        <Token globalID="2" id="2" offset="10:11">
+                            <Text>:</Text>
+                        </Token>
+                        <Token globalID="3" id="3" offset="12:15">
+                            <Text>Mr.</Text>
+                        </Token>
+                        <Token globalID="4" id="4" offset="16:17">
+                            <Text>H</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="1">
+            <Sentences Count="1">
+                <Sentence id="0" offset="19:56">
+                    <Text>History and Physical conducted by: MD</Text>
+                    <Tokens Count="7">
+                        <Token globalID="5" id="0" offset="19:26">
+                            <Text>History</Text>
+                        </Token>
+                        <Token globalID="6" id="1" offset="27:30">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="7" id="2" offset="31:39">
+                            <Text>Physical</Text>
+                        </Token>
+                        <Token globalID="8" id="3" offset="40:49">
+                            <Text>conducted</Text>
+                        </Token>
+                        <Token globalID="9" id="4" offset="50:52">
+                            <Text>by</Text>
+                        </Token>
+                        <Token globalID="10" id="5" offset="52:53">
+                            <Text>:</Text>
+                        </Token>
+                        <Token globalID="11" id="6" offset="54:56">
+                            <Text>MD</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="2">
+            <Sentences Count="1">
+                <Sentence id="0" offset="58:108">
+                    <Text>History and Physical conducted on: October 1, 2007</Text>
+                    <Tokens Count="10">
+                        <Token globalID="12" id="0" offset="58:65">
+                            <Text>History</Text>
+                        </Token>
+                        <Token globalID="13" id="1" offset="66:69">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="14" id="2" offset="70:78">
+                            <Text>Physical</Text>
+                        </Token>
+                        <Token globalID="15" id="3" offset="79:88">
+                            <Text>conducted</Text>
+                        </Token>
+                        <Token globalID="16" id="4" offset="80:82">
+                            <Text>on</Text>
+                        </Token>
+                        <Token globalID="17" id="5" offset="91:92">
+                            <Text>:</Text>
+                        </Token>
+                        <Token globalID="18" id="6" offset="93:100">
+                            <Text>October</Text>
+                        </Token>
+                        <Token globalID="19" id="7" offset="101:102">
+                            <Text>1</Text>
+                        </Token>
+                        <Token globalID="20" id="8" offset="102:103">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="21" id="9" offset="104:108">
+                            <Text>2007</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="3">
+            <Sentences Count="1">
+                <Sentence id="0" offset="110:188">
+                    <Text>Source: The patient gives his own history and appears to be a reliable source.</Text>
+                    <Tokens Count="16">
+                        <Token globalID="22" id="0" offset="110:116">
+                            <Text>Source</Text>
+                        </Token>
+                        <Token globalID="23" id="1" offset="116:117">
+                            <Text>:</Text>
+                        </Token>
+                        <Token globalID="24" id="2" offset="118:121">
+                            <Text>The</Text>
+                        </Token>
+                        <Token globalID="25" id="3" offset="122:129">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token globalID="26" id="4" offset="130:135">
+                            <Text>gives</Text>
+                        </Token>
+                        <Token globalID="27" id="5" offset="136:139">
+                            <Text>his</Text>
+                        </Token>
+                        <Token globalID="28" id="6" offset="140:143">
+                            <Text>own</Text>
+                        </Token>
+                        <Token globalID="29" id="7" offset="144:151">
+                            <Text>history</Text>
+                        </Token>
+                        <Token globalID="30" id="8" offset="152:155">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="31" id="9" offset="156:163">
+                            <Text>appears</Text>
+                        </Token>
+                        <Token globalID="32" id="10" offset="164:166">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="33" id="11" offset="167:169">
+                            <Text>be</Text>
+                        </Token>
+                        <Token globalID="34" id="12" offset="170:171">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="35" id="13" offset="172:180">
+                            <Text>reliable</Text>
+                        </Token>
+                        <Token globalID="36" id="14" offset="181:187">
+                            <Text>source</Text>
+                        </Token>
+                        <Token globalID="37" id="15" offset="187:188">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="4">
+            <Sentences Count="1">
+                <Sentence id="0" offset="190:221">
+                    <Text>Chief Complaint: Abdominal pain</Text>
+                    <Tokens Count="5">
+                        <Token globalID="38" id="0" offset="190:195">
+                            <Text>Chief</Text>
+                        </Token>
+                        <Token globalID="39" id="1" offset="196:205">
+                            <Text>Complaint</Text>
+                        </Token>
+                        <Token globalID="40" id="2" offset="205:206">
+                            <Text>:</Text>
+                        </Token>
+                        <Token globalID="41" id="3" offset="207:216">
+                            <Text>Abdominal</Text>
+                        </Token>
+                        <Token globalID="42" id="4" offset="217:221">
+                            <Text>pain</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="5">
+            <Sentences Count="1">
+                <Sentence id="0" offset="223:249">
+                    <Text>History of Present Illness</Text>
+                    <Tokens Count="4">
+                        <Token globalID="43" id="0" offset="223:230">
+                            <Text>History</Text>
+                        </Token>
+                        <Token globalID="44" id="1" offset="231:233">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="45" id="2" offset="234:241">
+                            <Text>Present</Text>
+                        </Token>
+                        <Token globalID="46" id="3" offset="242:249">
+                            <Text>Illness</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="6">
+            <Sentences Count="24">
+                <Sentence id="0" offset="250:439">
+                    <Text>Mr. H is a 65 year old white male with a past medical history significant for an MI and
+                        depression who presents today complaining of sharp, epigastric abdominal pain of 3-4 months
+                        duration.
+                    </Text>
+                    <Tokens Count="35">
+                        <Token globalID="47" id="0" offset="250:253">
+                            <Text>Mr.</Text>
+                        </Token>
+                        <Token globalID="48" id="1" offset="254:255">
+                            <Text>H</Text>
+                        </Token>
+                        <Token globalID="49" id="2" offset="256:258">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="50" id="3" offset="259:260">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="51" id="4" offset="261:263">
+                            <Text>65</Text>
+                        </Token>
+                        <Token globalID="52" id="5" offset="264:268">
+                            <Text>year</Text>
+                        </Token>
+                        <Token globalID="53" id="6" offset="269:272">
+                            <Text>old</Text>
+                        </Token>
+                        <Token globalID="54" id="7" offset="273:278">
+                            <Text>white</Text>
+                        </Token>
+                        <Token globalID="55" id="8" offset="279:283">
+                            <Text>male</Text>
+                        </Token>
+                        <Token globalID="56" id="9" offset="284:288">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="57" id="10" offset="289:290">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="58" id="11" offset="291:295">
+                            <Text>past</Text>
+                        </Token>
+                        <Token globalID="59" id="12" offset="296:303">
+                            <Text>medical</Text>
+                        </Token>
+                        <Token globalID="60" id="13" offset="304:311">
+                            <Text>history</Text>
+                        </Token>
+                        <Token globalID="61" id="14" offset="312:323">
+                            <Text>significant</Text>
+                        </Token>
+                        <Token globalID="62" id="15" offset="324:327">
+                            <Text>for</Text>
+                        </Token>
+                        <Token globalID="63" id="16" offset="328:330">
+                            <Text>an</Text>
+                        </Token>
+                        <Token globalID="64" id="17" offset="331:333">
+                            <Text>MI</Text>
+                        </Token>
+                        <Token globalID="65" id="18" offset="334:337">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="66" id="19" offset="338:348">
+                            <Text>depression</Text>
+                        </Token>
+                        <Token globalID="67" id="20" offset="349:352">
+                            <Text>who</Text>
+                        </Token>
+                        <Token globalID="68" id="21" offset="353:361">
+                            <Text>presents</Text>
+                        </Token>
+                        <Token globalID="69" id="22" offset="362:367">
+                            <Text>today</Text>
+                        </Token>
+                        <Token globalID="70" id="23" offset="368:379">
+                            <Text>complaining</Text>
+                        </Token>
+                        <Token globalID="71" id="24" offset="380:382">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="72" id="25" offset="383:388">
+                            <Text>sharp</Text>
+                        </Token>
+                        <Token globalID="73" id="26" offset="388:389">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="74" id="27" offset="390:400">
+                            <Text>epigastric</Text>
+                        </Token>
+                        <Token globalID="75" id="28" offset="401:410">
+                            <Text>abdominal</Text>
+                        </Token>
+                        <Token globalID="76" id="29" offset="411:415">
+                            <Text>pain</Text>
+                        </Token>
+                        <Token globalID="77" id="30" offset="416:418">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="78" id="31" offset="419:422">
+                            <Text>3-4</Text>
+                        </Token>
+                        <Token globalID="79" id="32" offset="423:429">
+                            <Text>months</Text>
+                        </Token>
+                        <Token globalID="80" id="33" offset="430:438">
+                            <Text>duration</Text>
+                        </Token>
+                        <Token globalID="81" id="34" offset="438:439">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+                <Sentence id="1" offset="440:513">
+                    <Text>The abdominal pain has been gradually worsening over the past 3-4 months.</Text>
+                    <Tokens Count="13">
+                        <Token globalID="82" id="0" offset="440:443">
+                            <Text>The</Text>
+                        </Token>
+                        <Token globalID="83" id="1" offset="444:453">
+                            <Text>abdominal</Text>
+                        </Token>
+                        <Token globalID="84" id="2" offset="454:458">
+                            <Text>pain</Text>
+                        </Token>
+                        <Token globalID="85" id="3" offset="459:462">
+                            <Text>has</Text>
+                        </Token>
+                        <Token globalID="86" id="4" offset="463:467">
+                            <Text>been</Text>
+                        </Token>
+                        <Token globalID="87" id="5" offset="468:477">
+                            <Text>gradually</Text>
+                        </Token>
+                        <Token globalID="88" id="6" offset="478:487">
+                            <Text>worsening</Text>
+                        </Token>
+                        <Token globalID="89" id="7" offset="488:492">
+                            <Text>over</Text>
+                        </Token>
+                        <Token globalID="90" id="8" offset="493:496">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="91" id="9" offset="497:501">
+                            <Text>past</Text>
+                        </Token>
+                        <Token globalID="92" id="10" offset="502:505">
+                            <Text>3-4</Text>
+                        </Token>
+                        <Token globalID="93" id="11" offset="506:512">
+                            <Text>months</Text>
+                        </Token>
+                        <Token globalID="94" id="12" offset="512:513">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+                <Sentence id="2" offset="514:641">
+                    <Text>The pain has not changed or worsened acutely; Mr. H seeks care for the pain at this time
+                        because he is now covered by Medicare.
+                    </Text>
+                    <Tokens Count="27">
+                        <Token globalID="95" id="0" offset="514:517">
+                            <Text>The</Text>
+                        </Token>
+                        <Token globalID="96" id="1" offset="518:522">
+                            <Text>pain</Text>
+                        </Token>
+                        <Token globalID="97" id="2" offset="523:526">
+                            <Text>has</Text>
+                        </Token>
+                        <Token globalID="98" id="3" offset="527:530">
+                            <Text>not</Text>
+                        </Token>
+                        <Token globalID="99" id="4" offset="531:538">
+                            <Text>changed</Text>
+                        </Token>
+                        <Token globalID="100" id="5" offset="539:541">
+                            <Text>or</Text>
+                        </Token>
+                        <Token globalID="101" id="6" offset="542:550">
+                            <Text>worsened</Text>
+                        </Token>
+                        <Token globalID="102" id="7" offset="551:558">
+                            <Text>acutely</Text>
+                        </Token>
+                        <Token globalID="103" id="8" offset="558:559">
+                            <Text>;</Text>
+                        </Token>
+                        <Token globalID="104" id="9" offset="560:563">
+                            <Text>Mr.</Text>
+                        </Token>
+                        <Token globalID="105" id="10" offset="564:565">
+                            <Text>H</Text>
+                        </Token>
+                        <Token globalID="106" id="11" offset="566:571">
+                            <Text>seeks</Text>
+                        </Token>
+                        <Token globalID="107" id="12" offset="572:576">
+                            <Text>care</Text>
+                        </Token>
+                        <Token globalID="108" id="13" offset="577:580">
+                            <Text>for</Text>
+                        </Token>
+                        <Token globalID="109" id="14" offset="581:584">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="110" id="15" offset="585:589">
+                            <Text>pain</Text>
+                        </Token>
+                        <Token globalID="111" id="16" offset="590:592">
+                            <Text>at</Text>
+                        </Token>
+                        <Token globalID="112" id="17" offset="593:597">
+                            <Text>this</Text>
+                        </Token>
+                        <Token globalID="113" id="18" offset="598:602">
+                            <Text>time</Text>
+                        </Token>
+                        <Token globalID="114" id="19" offset="603:610">
+                            <Text>because</Text>
+                        </Token>
+                        <Token globalID="115" id="20" offset="611:613">
+                            <Text>he</Text>
+                        </Token>
+                        <Token globalID="116" id="21" offset="614:616">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="117" id="22" offset="617:620">
+                            <Text>now</Text>
+                        </Token>
+                        <Token globalID="118" id="23" offset="621:628">
+                            <Text>covered</Text>
+                        </Token>
+                        <Token globalID="119" id="24" offset="629:631">
+                            <Text>by</Text>
+                        </Token>
+                        <Token globalID="120" id="25" offset="632:640">
+                            <Text>Medicare</Text>
+                        </Token>
+                        <Token globalID="121" id="26" offset="640:641">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+                <Sentence id="3" offset="642:726">
+                    <Text>The pain is located in the epigastric region and left upper quadrant of the abdomen.</Text>
+                    <Tokens Count="16">
+                        <Token globalID="122" id="0" offset="642:645">
+                            <Text>The</Text>
+                        </Token>
+                        <Token globalID="123" id="1" offset="646:650">
+                            <Text>pain</Text>
+                        </Token>
+                        <Token globalID="124" id="2" offset="651:653">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="125" id="3" offset="654:661">
+                            <Text>located</Text>
+                        </Token>
+                        <Token globalID="126" id="4" offset="662:664">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="127" id="5" offset="665:668">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="128" id="6" offset="669:679">
+                            <Text>epigastric</Text>
+                        </Token>
+                        <Token globalID="129" id="7" offset="680:686">
+                            <Text>region</Text>
+                        </Token>
+                        <Token globalID="130" id="8" offset="687:690">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="131" id="9" offset="691:695">
+                            <Text>left</Text>
+                        </Token>
+                        <Token globalID="132" id="10" offset="696:701">
+                            <Text>upper</Text>
+                        </Token>
+                        <Token globalID="133" id="11" offset="702:710">
+                            <Text>quadrant</Text>
+                        </Token>
+                        <Token globalID="134" id="12" offset="711:713">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="135" id="13" offset="714:717">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="136" id="14" offset="718:725">
+                            <Text>abdomen</Text>
+                        </Token>
+                        <Token globalID="137" id="15" offset="725:726">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+                <Sentence id="4" offset="727:747">
+                    <Text>It does not radiate.</Text>
+                    <Tokens Count="5">
+                        <Token globalID="138" id="0" offset="727:729">
+                            <Text>It</Text>
+                        </Token>
+                        <Token globalID="139" id="1" offset="730:734">
+                            <Text>does</Text>
+                        </Token>
+                        <Token globalID="140" id="2" offset="735:738">
+                            <Text>not</Text>
+                        </Token>
+                        <Token globalID="141" id="3" offset="739:746">
+                            <Text>radiate</Text>
+                        </Token>
+                        <Token globalID="142" id="4" offset="746:747">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+                <Sentence id="5" offset="748:835">
+                    <Text>The pain is relatively constant throughout the day and night but does vary in severity.</Text>
+                    <Tokens Count="16">
+                        <Token globalID="143" id="0" offset="748:751">
+                            <Text>The</Text>
+                        </Token>
+                        <Token globalID="144" id="1" offset="752:756">
+                            <Text>pain</Text>
+                        </Token>
+                        <Token globalID="145" id="2" offset="757:759">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="146" id="3" offset="760:770">
+                            <Text>relatively</Text>
+                        </Token>
+                        <Token globalID="147" id="4" offset="771:779">
+                            <Text>constant</Text>
+                        </Token>
+                        <Token globalID="148" id="5" offset="780:790">
+                            <Text>throughout</Text>
+                        </Token>
+                        <Token globalID="149" id="6" offset="791:794">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="150" id="7" offset="795:798">
+                            <Text>day</Text>
+                        </Token>
+                        <Token globalID="151" id="8" offset="799:802">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="152" id="9" offset="803:808">
+                            <Text>night</Text>
+                        </Token>
+                        <Token globalID="153" id="10" offset="809:812">
+                            <Text>but</Text>
+                        </Token>
+                        <Token globalID="154" id="11" offset="813:817">
+                            <Text>does</Text>
+                        </Token>
+                        <Token globalID="155" id="12" offset="818:822">
+                            <Text>vary</Text>
+                        </Token>
+                        <Token globalID="156" id="13" offset="823:825">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="157" id="14" offset="826:834">
+                            <Text>severity</Text>
+                        </Token>
+                        <Token globalID="158" id="15" offset="834:835">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+                <Sentence id="6" offset="836:878">
+                    <Text>Mr. H rates the pain as 6/10 at its worst.</Text>
+                    <Tokens Count="11">
+                        <Token globalID="159" id="0" offset="836:839">
+                            <Text>Mr.</Text>
+                        </Token>
+                        <Token globalID="160" id="1" offset="840:841">
+                            <Text>H</Text>
+                        </Token>
+                        <Token globalID="161" id="2" offset="842:847">
+                            <Text>rates</Text>
+                        </Token>
+                        <Token globalID="162" id="3" offset="848:851">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="163" id="4" offset="852:856">
+                            <Text>pain</Text>
+                        </Token>
+                        <Token globalID="164" id="5" offset="857:859">
+                            <Text>as</Text>
+                        </Token>
+                        <Token globalID="165" id="6" offset="860:864">
+                            <Text>6/10</Text>
+                        </Token>
+                        <Token globalID="166" id="7" offset="865:867">
+                            <Text>at</Text>
+                        </Token>
+                        <Token globalID="167" id="8" offset="868:871">
+                            <Text>its</Text>
+                        </Token>
+                        <Token globalID="168" id="9" offset="872:877">
+                            <Text>worst</Text>
+                        </Token>
+                        <Token globalID="169" id="10" offset="877:878">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+                <Sentence id="7" offset="879:935">
+                    <Text>

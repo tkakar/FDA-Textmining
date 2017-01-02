@@ -1,1 +1,517 @@
-<StartOutput><Paragraphs Count="1"><Paragraph id="0"><Sentences Count="6"><Sentence id="0" offset="0:107"><Text>A spontaneous report was received from a Health canada via Health professional concerning a Female patient.</Text><Tokens Count="17"><Token POSTag="DT" globalID="0" id="0" offset="0:1"><Text>A</Text></Token><Token POSTag="JJ" globalID="1" id="1" offset="2:13"><Text>spontaneous</Text></Token><Token POSTag="NN" globalID="2" id="2" offset="14:20"><Text>report</Text></Token><Token POSTag="VBD" globalID="3" id="3" offset="21:24"><Text>was</Text></Token><Token POSTag="VBN" globalID="4" id="4" offset="25:33"><Text>received</Text></Token><Token POSTag="IN" globalID="5" id="5" offset="34:38"><Text>from</Text></Token><Token POSTag="DT" globalID="6" id="6" offset="39:40"><Text>a</Text></Token><Token POSTag="NN" globalID="7" id="7" offset="41:47"><Text>Health</Text></Token><Token POSTag="NN" globalID="8" id="8" offset="48:54"><Text>canada</Text></Token><Token POSTag="IN" globalID="9" id="9" offset="55:58"><Text>via</Text></Token><Token POSTag="NN" globalID="10" id="10" offset="59:65"><Text>Health</Text></Token><Token POSTag="NN" globalID="11" id="11" offset="66:78"><Text>professional</Text></Token><Token POSTag="VBG" globalID="12" id="12" offset="79:89"><Text>concerning</Text></Token><Token POSTag="DT" globalID="13" id="13" offset="90:91"><Text>a</Text></Token><Token POSTag="JJ" globalID="14" id="14" offset="92:98"><Text>Female</Text></Token><Token POSTag="NN" globalID="15" id="15" offset="99:106"><Text>patient</Text></Token><Token POSTag="." globalID="16" id="16" offset="106:107"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (NP (DT A) (JJ spontaneous) (NN report)) (VP (VBD was) (VP (VBN received) (PP (IN from) (NP (NP (DT a) (NN Health) (NN canada) (IN via) (NN Health) (NN professional)) (VP (VBG concerning) (NP (DT a) (JJ Female) (NN patient)))))))) (. .)))</ParseTree></Sentence><Sentence id="1" offset="108:182"><Text>The patient was of 34 years old and weighted 130.2 pounds as of 2-14-2013.</Text><Tokens Count="15"><Token POSTag="DT" globalID="17" id="0" offset="108:111"><Text>The</Text></Token><Token POSTag="NN" globalID="18" id="1" offset="112:119"><Text>patient</Text></Token><Token POSTag="VBD" globalID="19" id="2" offset="120:123"><Text>was</Text><METAMAP>[dsyn]</METAMAP></Token><Token POSTag="IN" globalID="20" id="3" offset="124:126"><Text>of</Text></Token><Token POSTag="CD" globalID="21" id="4" offset="127:129"><Text>34</Text></Token><Token POSTag="NNS" globalID="22" id="5" offset="130:135"><Text>years</Text></Token><Token POSTag="JJ" globalID="23" id="6" offset="136:139"><Text>old</Text></Token><Token POSTag="CC" globalID="24" id="7" offset="140:143"><Text>and</Text></Token><Token POSTag="JJ" globalID="25" id="8" offset="144:152"><Text>weighted</Text></Token><Token POSTag="CD" globalID="26" id="9" offset="153:158"><Text>130.2</Text></Token><Token POSTag="NNS" globalID="27" id="10" offset="159:165"><Text>pounds</Text></Token><Token POSTag="IN" globalID="28" id="11" offset="166:168"><Text>as</Text></Token><Token POSTag="IN" globalID="29" id="12" offset="169:171"><Text>of</Text></Token><Token POSTag="NN" globalID="30" id="13" offset="172:181"><Text>2-14-2013</Text></Token><Token POSTag="." globalID="31" id="14" offset="181:182"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD was) (PP (IN of) (NP (NP (CD 34) (NNS years)) (ADJP (ADJP (JJ old)) (CC and) (ADJP (JJ weighted))))) (NP (NP (CD 130.2) (NNS pounds)) (PP (IN as) (PP (IN of) (NP (NN 2-14-2013))))))) (. .)))</ParseTree></Sentence><Sentence id="2" offset="183:241"><Text>Concomitant medications included paracetamol and ramipril.</Text><Tokens Count="7"><Token POSTag="JJ" globalID="32" id="0" offset="183:194"><Text>Concomitant</Text></Token><Token POSTag="NNS" globalID="33" id="1" offset="195:206"><Text>medications</Text><METAMAP>[phsu]</METAMAP></Token><Token POSTag="VBD" globalID="34" id="2" offset="207:215"><Text>included</Text></Token><Token POSTag="NN" globalID="35" id="3" offset="216:227"><Text>paracetamol</Text><METAMAP>[orch,phsu]</METAMAP></Token><Token POSTag="CC" globalID="36" id="4" offset="228:231"><Text>and</Text></Token><Token POSTag="NN" globalID="37" id="5" offset="232:240"><Text>ramipril</Text><METAMAP>[orch,phsu]</METAMAP></Token><Token POSTag="." globalID="38" id="6" offset="240:241"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (NP (JJ Concomitant) (NNS medications)) (VP (VBD included) (NP (NP (NN paracetamol)) (CC and) (NP (NN ramipril))))) (. .)))</ParseTree></Sentence><Sentence id="3" offset="242:310"><Text>Patients relevant history and concurrent disease were not available.</Text><Tokens Count="10"><Token POSTag="NNS" globalID="39" id="0" offset="242:250"><Text>Patients</Text></Token><Token POSTag="JJ" globalID="40" id="1" offset="251:259"><Text>relevant</Text></Token><Token POSTag="NN" globalID="41" id="2" offset="260:267"><Text>history</Text></Token><Token POSTag="CC" globalID="42" id="3" offset="268:271"><Text>and</Text></Token><Token POSTag="JJ" globalID="43" id="4" offset="272:282"><Text>concurrent</Text></Token><Token POSTag="NN" globalID="44" id="5" offset="283:290"><Text>disease</Text><METAMAP>[dsyn]</METAMAP></Token><Token POSTag="VBD" globalID="45" id="6" offset="291:295"><Text>were</Text></Token><Token POSTag="RB" globalID="46" id="7" offset="296:299"><Text>not</Text></Token><Token POSTag="JJ" globalID="47" id="8" offset="300:309"><Text>available</Text></Token><Token POSTag="." globalID="48" id="9" offset="309:310"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (NP (NNS Patients) (NP (NP (JJ relevant) (NN history)) (CC and) (NP (JJ concurrent) (NN disease)))) (VP (VBD were) (RB not) (ADJP (JJ available)))) (. .)))</ParseTree></Sentence><Sentence id="4" offset="311:452"><Text>It was reported that a patient had arthritis (preferred term: arthritis) and her condition aggravated (preferred term: condition aggravated).</Text><Tokens Count="26"><Token POSTag="PRP" globalID="49" id="0" offset="311:313"><Text>It</Text></Token><Token POSTag="VBD" globalID="50" id="1" offset="314:317"><Text>was</Text></Token><Token POSTag="VBN" globalID="51" id="2" offset="318:326"><Text>reported</Text></Token><Token POSTag="IN" globalID="52" id="3" offset="327:331"><Text>that</Text></Token><Token POSTag="DT" globalID="53" id="4" offset="329:330"><Text>a</Text></Token><Token POSTag="NN" globalID="54" id="5" offset="334:341"><Text>patient</Text></Token><Token POSTag="VBD" globalID="55" id="6" offset="342:345"><Text>had</Text></Token><Token POSTag="NN" globalID="56" id="7" offset="346:355"><Text>arthritis</Text><METAMAP>[dsyn]</METAMAP></Token><Token POSTag="-LRB-" globalID="57" id="8" offset="356:357"><Text>(</Text></Token><Token POSTag="JJ" globalID="58" id="9" offset="357:366"><Text>preferred</Text></Token><Token POSTag="NN" globalID="59" id="10" offset="367:371"><Text>term</Text></Token><Token POSTag=":" globalID="60" id="11" offset="371:372"><Text>:</Text></Token><Token POSTag="NN" globalID="61" id="12" offset="373:382"><Text>arthritis</Text><METAMAP>[dsyn]</METAMAP></Token><Token POSTag="-RRB-" globalID="62" id="13" offset="382:383"><Text>)</Text></Token><Token POSTag="CC" globalID="63" id="14" offset="384:387"><Text>and</Text></Token><Token POSTag="PRP$" globalID="64" id="15" offset="388:391"><Text>her</Text></Token><Token POSTag="NN" globalID="65" id="16" offset="392:401"><Text>condition</Text><METAMAP>[dsyn]</METAMAP></Token><Token POSTag="VBN" globalID="66" id="17" offset="402:412"><Text>aggravated</Text></Token><Token POSTag="-LRB-" globalID="67" id="18" offset="413:414"><Text>(</Text></Token><Token POSTag="JJ" globalID="68" id="19" offset="414:423"><Text>preferred</Text></Token><Token POSTag="NN" globalID="69" id="20" offset="424:428"><Text>term</Text></Token><Token POSTag=":" globalID="70" id="21" offset="428:429"><Text>:</Text></Token><Token POSTag="NN" globalID="71" id="22" offset="430:439"><Text>condition</Text><METAMAP>[dsyn]</METAMAP></Token><Token POSTag="VBN" globalID="72" id="23" offset="440:450"><Text>aggravated</Text></Token><Token POSTag="-RRB-" globalID="73" id="24" offset="450:451"><Text>)</Text></Token><Token POSTag="." globalID="74" id="25" offset="451:452"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (NP (PRP It)) (VP (VBD was) (VP (VBN reported) (SBAR (IN that) (S (S (NP (DT a) (NN patient)) (VP (VBD had) (NP (NN arthritis)) (PRN (-LRB- -LRB-) (NP (JJ preferred) (NN term) (: :) (NN arthritis)) (-RRB- -RRB-)))) (CC and) (S (NP (PRP$ her) (NN condition)) (VP (VBN aggravated) (PRN (-LRB- -LRB-) (NP (NP (JJ preferred) (NN term)) (: :) (NP (NP (NN condition)) (VP (VBN aggravated)))) (-RRB- -RRB-))))))))) (. .)))</ParseTree></Sentence><Sentence id="5" offset="453:861"><Text>Patient also had coronary artery occlusion (preferred term: coronary artery occlusion).Action taken with all suspect drugs were unknown.The outcome of the event of arthritis, condition aggravated and coronary artery occlusion were unknown.The reporter has assessed the events of arthritis, condition aggravated and coronary artery occlusion to be serious with seriousness criteria of important medical event.</Text><Tokens Count="62"><Token POSTag="NN" globalID="75" id="0" offset="453:460"><Text>Patient</Text></Token><Token POSTag="RB" globalID="76" id="1" offset="461:465"><Text>also</Text></Token><Token POSTag="VBD" globalID="77" id="2" offset="466:469"><Text>had</Text></Token><Token POSTag="JJ" globalID="78" id="3" offset="470:478"><Text>coronary</Text><METAMAP>[dsyn]</METAMAP></Token><Token POSTag="NN" globalID="79" id="4" offset="479:485"><Text>artery</Text><METAMAP>[dsyn]</METAMAP></Token><Token POSTag="NN" globalID="80" id="5" offset="486:495"><Text>occlusion</Text><METAMAP>[dsyn]</METAMAP></Token><Token POSTag="-LRB-" globalID="81" id="6" offset="496:497"><Text>(</Text></Token><Token POSTag="JJ" globalID="82" id="7" offset="497:506"><Text>preferred</Text></Token><Token POSTag="NN" globalID="83" id="8" offset="507:511"><Text>term</Text></Token><Token POSTag=":" globalID="84" id="9" offset="511:512"><Text>:</Text></Token><Token POSTag="JJ" globalID="85" id="10" offset="513:521"><Text>coronary</Text><METAMAP>[dsyn]</METAMAP></Token><Token POSTag="NN" globalID="86" id="11" offset="522:528"><Text>artery</Text><METAMAP>[dsyn]</METAMAP></Token><Token POSTag="NN" globalID="87" id="12" offset="529:538"><Text>occlusion</Text><METAMAP>[dsyn]</METAMAP></Token><Token POSTag="-RRB-" globalID="88" id="13" offset="538:539"><Text>)</Text></Token><Token POSTag="NN" globalID="89" id="14" offset="539:546"><Text>.Action</Text></Token><Token POSTag="VBN" globalID="90" id="15" offset="547:552"><Text>taken</Text></Token><Token POSTag="IN" globalID="91" id="16" offset="553:557"><Text>with</Text></Token><Token POSTag="DT" globalID="92" id="17" offset="558:561"><Text>all</Text></Token><Token POSTag="NN" globalID="93" id="18" offset="562:569"><Text>suspect</Text></Token><Token POSTag="NNS" globalID="94" id="19" offset="570:575"><Text>drugs</Text><METAMAP>[phsu]</METAMAP></Token><Token POSTag="VBD" globalID="95" id="20" offset="576:580"><Text>were</Text></Token><Token POSTag="NN" globalID="96" id="21" offset="581:592"><Text>unknown.The</Text></Token><Token POSTag="NN" globalID="97" id="22" offset="593:600"><Text>outcome</Text></Token><Token POSTag="IN" globalID="98" id="23" offset="601:603"><Text>of</Text></Token><Token POSTag="DT" globalID="99" id="24" offset="604:607"><Text>the</Text></Token><Token POSTag="NN" globalID="100" id="25" offset="608:613"><Text>event</Text></Token><Token POSTag="IN" globalID="101" id="26" offset="614:616"><Text>of</Text></Token><Token POSTag="NN" globalID="102" id="27" offset="617:626"><Text>arthritis</Text><METAMAP>[dsyn]</METAMAP></Token><Token POSTag="," globalID="103" id="28" offset="626:627"><Text>,</Text></Token><Token POSTag="NN" globalID="104" id="29" offset="628:637"><Text>condition</Text><METAMAP>[dsyn]</METAMAP></Token><Token POSTag="VBN" globalID="105" id="30" offset="638:648"><Text>aggravated</Text></Token><Token POSTag="CC" globalID="106" id="31" offset="649:652"><Text>and</Text></Token><Token POSTag="JJ" globalID="107" id="32" offset="653:661"><Text>coronary</Text><METAMAP>[dsyn]</METAMAP></Token><Token POSTag="NN" globalID="108" id="33" offset="662:668"><Text>artery</Text><METAMAP>[dsyn]</METAMAP></Token><Token POSTag="NN" globalID="109" id="34" offset="669:678"><Text>occlusion</Text><METAMAP>[dsyn]</METAMAP></Token><Token POSTag="VBD" globalID="110" id="35" offset="679:683"><Text>were</Text></Token><Token POSTag="VBG" globalID="111" id="36" offset="684:695"><Text>unknown.The</Text></Token><Token POSTag="NN" globalID="112" id="37" offset="696:704"><Text>reporter</Text></Token><Token POSTag="VBZ" globalID="113" id="38" offset="705:708"><Text>has</Text></Token><Token POSTag="VBN" globalID="114" id="39" offset="709:717"><Text>assessed</Text></Token><Token POSTag="DT" globalID="115" id="40" offset="718:721"><Text>the</Text></Token><Token POSTag="NNS" globalID="116" id="41" offset="722:728"><Text>events</Text></Token><Token POSTag="IN" globalID="117" id="42" offset="729:731"><Text>of</Text></Token><Token POSTag="NN" globalID="118" id="43" offset="732:741"><Text>arthritis</Text><METAMAP>[dsyn]</METAMAP></Token><Token POSTag="," globalID="119" id="44" offset="741:742"><Text>,</Text></Token><Token POSTag="NN" globalID="120" id="45" offset="743:752"><Text>condition</Text><METAMAP>[dsyn]</METAMAP></Token><Token POSTag="VBN" globalID="121" id="46" offset="753:763"><Text>aggravated</Text></Token><Token POSTag="CC" globalID="122" id="47" offset="764:767"><Text>and</Text></Token><Token POSTag="JJ" globalID="123" id="48" offset="768:776"><Text>coronary</Text><METAMAP>[dsyn]</METAMAP></Token><Token POSTag="NN" globalID="124" id="49" offset="777:783"><Text>artery</Text><METAMAP>[dsyn]</METAMAP></Token><Token POSTag="NN" globalID="125" id="50" offset="784:793"><Text>occlusion</Text><METAMAP>[dsyn]</METAMAP></Token><Token POSTag="TO" globalID="126" id="51" offset="794:796"><Text>to</Text></Token><Token POSTag="VB" globalID="127" id="52" offset="797:799"><Text>be</Text></Token><Token POSTag="JJ" globalID="128" id="53" offset="800:807"><Text>serious</Text></Token><Token POSTag="IN" globalID="129" id="54" offset="808:812"><Text>with</Text></Token><Token POSTag="NNS" globalID="130" id="55" offset="813:824"><Text>seriousness</Text></Token><Token POSTag="NNS" globalID="131" id="56" offset="825:833"><Text>criteria</Text></Token><Token POSTag="IN" globalID="132" id="57" offset="834:836"><Text>of</Text></Token><Token POSTag="JJ" globalID="133" id="58" offset="837:846"><Text>important</Text></Token><Token POSTag="JJ" globalID="134" id="59" offset="847:854"><Text>medical</Text></Token><Token POSTag="NN" globalID="135" id="60" offset="855:860"><Text>event</Text></Token><Token POSTag="." globalID="136" id="61" offset="860:861"><Text>.</Text></Token></Tokens><ParseTree>(S1 (S (S (NP (NN Patient)) (ADVP (RB also)) (VP (VBD had) (NP (NP (JJ coronary) (NN artery) (NN occlusion)) (PRN (-LRB- -LRB-) (NP (NP (JJ preferred) (NN term)) (: :) (NP (JJ coronary) (NN artery) (NN occlusion))) (-RRB- -RRB-))))) (S (NP (NP (NN .Action)) (VP (VBN taken) (PP (IN with) (NP (DT all) (NN suspect) (NNS drugs))))) (VP (VBD were) (NP (NP (NN unknown.The) (NN outcome)) (PP (IN of) (NP (NP (DT the) (NN event)) (PP (IN of) (NP (NP (NN arthritis)) (, ,) (NP (NP (NN condition)) (VP (VBN aggravated)))))))))) (CC and) (S (NP (JJ coronary) (NN artery) (NN occlusion)) (VP (VBD were) (VP (VBG unknown.The) (S (NP (NN reporter)) (VP (VBZ has) (VP (VBN assessed) (NP (NP (DT the) (NNS events)) (PP (IN of) (NP (NP (NP (NN arthritis)) (, ,) (NP (NP (NN condition)) (VP (VBN aggravated)))) (CC and) (NP (JJ coronary) (NN artery) (NN occlusion))))) (S (VP (TO to) (VP (VB be) (ADJP (JJ serious) (PP (IN with) (NP (NP (NNS seriousness) (NNS criteria)) (PP (IN of) (NP (JJ important) (JJ medical) (NN event))))))))))))))) (. .)))</ParseTree></Sentence></Sentences></Paragraph></Paragraphs></StartOutput>
+<StartOutput>
+    <Paragraphs Count="1">
+        <Paragraph id="0">
+            <Sentences Count="6">
+                <Sentence id="0" offset="0:107">
+                    <Text>A spontaneous report was received from a Health canada via Health professional concerning a
+                        Female patient.
+                    </Text>
+                    <Tokens Count="17">
+                        <Token POSTag="DT" globalID="0" id="0" offset="0:1">
+                            <Text>A</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="1" id="1" offset="2:13">
+                            <Text>spontaneous</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="2" id="2" offset="14:20">
+                            <Text>report</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="3" id="3" offset="21:24">
+                            <Text>was</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="4" id="4" offset="25:33">
+                            <Text>received</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="5" id="5" offset="34:38">
+                            <Text>from</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="6" id="6" offset="39:40">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="7" id="7" offset="41:47">
+                            <Text>Health</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="8" id="8" offset="48:54">
+                            <Text>canada</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="9" id="9" offset="55:58">
+                            <Text>via</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="10" id="10" offset="59:65">
+                            <Text>Health</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="11" id="11" offset="66:78">
+                            <Text>professional</Text>
+                        </Token>
+                        <Token POSTag="VBG" globalID="12" id="12" offset="79:89">
+                            <Text>concerning</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="13" id="13" offset="90:91">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="14" id="14" offset="92:98">
+                            <Text>Female</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="15" id="15" offset="99:106">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token POSTag="." globalID="16" id="16" offset="106:107">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (NP (DT A) (JJ spontaneous) (NN report)) (VP (VBD was) (VP (VBN received) (PP
+                        (IN from) (NP (NP (DT a) (NN Health) (NN canada) (IN via) (NN Health) (NN professional)) (VP
+                        (VBG concerning) (NP (DT a) (JJ Female) (NN patient)))))))) (. .)))
+                    </ParseTree>
+                </Sentence>
+                <Sentence id="1" offset="108:182">
+                    <Text>The patient was of 34 years old and weighted 130.2 pounds as of 2-14-2013.</Text>
+                    <Tokens Count="15">
+                        <Token POSTag="DT" globalID="17" id="0" offset="108:111">
+                            <Text>The</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="18" id="1" offset="112:119">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="19" id="2" offset="120:123">
+                            <Text>was</Text>
+                            <METAMAP>[dsyn]</METAMAP>
+                        </Token>
+                        <Token POSTag="IN" globalID="20" id="3" offset="124:126">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="21" id="4" offset="127:129">
+                            <Text>34</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="22" id="5" offset="130:135">
+                            <Text>years</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="23" id="6" offset="136:139">
+                            <Text>old</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="24" id="7" offset="140:143">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="25" id="8" offset="144:152">
+                            <Text>weighted</Text>
+                        </Token>
+                        <Token POSTag="CD" globalID="26" id="9" offset="153:158">
+                            <Text>130.2</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="27" id="10" offset="159:165">
+                            <Text>pounds</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="28" id="11" offset="166:168">
+                            <Text>as</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="29" id="12" offset="169:171">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="30" id="13" offset="172:181">
+                            <Text>2-14-2013</Text>
+                        </Token>
+                        <Token POSTag="." globalID="31" id="14" offset="181:182">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (NP (DT The) (NN patient)) (VP (VBD was) (PP (IN of) (NP (NP (CD 34) (NNS
+                        years)) (ADJP (ADJP (JJ old)) (CC and) (ADJP (JJ weighted))))) (NP (NP (CD 130.2) (NNS pounds))
+                        (PP (IN as) (PP (IN of) (NP (NN 2-14-2013))))))) (. .)))
+                    </ParseTree>
+                </Sentence>
+                <Sentence id="2" offset="183:241">
+                    <Text>Concomitant medications included paracetamol and ramipril.</Text>
+                    <Tokens Count="7">
+                        <Token POSTag="JJ" globalID="32" id="0" offset="183:194">
+                            <Text>Concomitant</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="33" id="1" offset="195:206">
+                            <Text>medications</Text>
+                            <METAMAP>[phsu]</METAMAP>
+                        </Token>
+                        <Token POSTag="VBD" globalID="34" id="2" offset="207:215">
+                            <Text>included</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="35" id="3" offset="216:227">
+                            <Text>paracetamol</Text>
+                            <METAMAP>[orch,phsu]</METAMAP>
+                        </Token>
+                        <Token POSTag="CC" globalID="36" id="4" offset="228:231">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="37" id="5" offset="232:240">
+                            <Text>ramipril</Text>
+                            <METAMAP>[orch,phsu]</METAMAP>
+                        </Token>
+                        <Token POSTag="." globalID="38" id="6" offset="240:241">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (NP (JJ Concomitant) (NNS medications)) (VP (VBD included) (NP (NP (NN
+                        paracetamol)) (CC and) (NP (NN ramipril))))) (. .)))
+                    </ParseTree>
+                </Sentence>
+                <Sentence id="3" offset="242:310">
+                    <Text>Patients relevant history and concurrent disease were not available.</Text>
+                    <Tokens Count="10">
+                        <Token POSTag="NNS" globalID="39" id="0" offset="242:250">
+                            <Text>Patients</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="40" id="1" offset="251:259">
+                            <Text>relevant</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="41" id="2" offset="260:267">
+                            <Text>history</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="42" id="3" offset="268:271">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="43" id="4" offset="272:282">
+                            <Text>concurrent</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="44" id="5" offset="283:290">
+                            <Text>disease</Text>
+                            <METAMAP>[dsyn]</METAMAP>
+                        </Token>
+                        <Token POSTag="VBD" globalID="45" id="6" offset="291:295">
+                            <Text>were</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="46" id="7" offset="296:299">
+                            <Text>not</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="47" id="8" offset="300:309">
+                            <Text>available</Text>
+                        </Token>
+                        <Token POSTag="." globalID="48" id="9" offset="309:310">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (NP (NNS Patients) (NP (NP (JJ relevant) (NN history)) (CC and) (NP (JJ
+                        concurrent) (NN disease)))) (VP (VBD were) (RB not) (ADJP (JJ available)))) (. .)))
+                    </ParseTree>
+                </Sentence>
+                <Sentence id="4" offset="311:452">
+                    <Text>It was reported that a patient had arthritis (preferred term: arthritis) and her condition
+                        aggravated (preferred term: condition aggravated).
+                    </Text>
+                    <Tokens Count="26">
+                        <Token POSTag="PRP" globalID="49" id="0" offset="311:313">
+                            <Text>It</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="50" id="1" offset="314:317">
+                            <Text>was</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="51" id="2" offset="318:326">
+                            <Text>reported</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="52" id="3" offset="327:331">
+                            <Text>that</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="53" id="4" offset="329:330">
+                            <Text>a</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="54" id="5" offset="334:341">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="55" id="6" offset="342:345">
+                            <Text>had</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="56" id="7" offset="346:355">
+                            <Text>arthritis</Text>
+                            <METAMAP>[dsyn]</METAMAP>
+                        </Token>
+                        <Token POSTag="-LRB-" globalID="57" id="8" offset="356:357">
+                            <Text>(</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="58" id="9" offset="357:366">
+                            <Text>preferred</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="59" id="10" offset="367:371">
+                            <Text>term</Text>
+                        </Token>
+                        <Token POSTag=":" globalID="60" id="11" offset="371:372">
+                            <Text>:</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="61" id="12" offset="373:382">
+                            <Text>arthritis</Text>
+                            <METAMAP>[dsyn]</METAMAP>
+                        </Token>
+                        <Token POSTag="-RRB-" globalID="62" id="13" offset="382:383">
+                            <Text>)</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="63" id="14" offset="384:387">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="PRP$" globalID="64" id="15" offset="388:391">
+                            <Text>her</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="65" id="16" offset="392:401">
+                            <Text>condition</Text>
+                            <METAMAP>[dsyn]</METAMAP>
+                        </Token>
+                        <Token POSTag="VBN" globalID="66" id="17" offset="402:412">
+                            <Text>aggravated</Text>
+                        </Token>
+                        <Token POSTag="-LRB-" globalID="67" id="18" offset="413:414">
+                            <Text>(</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="68" id="19" offset="414:423">
+                            <Text>preferred</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="69" id="20" offset="424:428">
+                            <Text>term</Text>
+                        </Token>
+                        <Token POSTag=":" globalID="70" id="21" offset="428:429">
+                            <Text>:</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="71" id="22" offset="430:439">
+                            <Text>condition</Text>
+                            <METAMAP>[dsyn]</METAMAP>
+                        </Token>
+                        <Token POSTag="VBN" globalID="72" id="23" offset="440:450">
+                            <Text>aggravated</Text>
+                        </Token>
+                        <Token POSTag="-RRB-" globalID="73" id="24" offset="450:451">
+                            <Text>)</Text>
+                        </Token>
+                        <Token POSTag="." globalID="74" id="25" offset="451:452">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (NP (PRP It)) (VP (VBD was) (VP (VBN reported) (SBAR (IN that) (S (S (NP (DT a)
+                        (NN patient)) (VP (VBD had) (NP (NN arthritis)) (PRN (-LRB- -LRB-) (NP (JJ preferred) (NN term)
+                        (: :) (NN arthritis)) (-RRB- -RRB-)))) (CC and) (S (NP (PRP$ her) (NN condition)) (VP (VBN
+                        aggravated) (PRN (-LRB- -LRB-) (NP (NP (JJ preferred) (NN term)) (: :) (NP (NP (NN condition))
+                        (VP (VBN aggravated)))) (-RRB- -RRB-))))))))) (. .)))
+                    </ParseTree>
+                </Sentence>
+                <Sentence id="5" offset="453:861">
+                    <Text>Patient also had coronary artery occlusion (preferred term: coronary artery occlusion).Action
+                        taken with all suspect drugs were unknown.The outcome of the event of arthritis, condition
+                        aggravated and coronary artery occlusion were unknown.The reporter has assessed the events of
+                        arthritis, condition aggravated and coronary artery occlusion to be serious with seriousness
+                        criteria of important medical event.
+                    </Text>
+                    <Tokens Count="62">
+                        <Token POSTag="NN" globalID="75" id="0" offset="453:460">
+                            <Text>Patient</Text>
+                        </Token>
+                        <Token POSTag="RB" globalID="76" id="1" offset="461:465">
+                            <Text>also</Text>
+                        </Token>
+                        <Token POSTag="VBD" globalID="77" id="2" offset="466:469">
+                            <Text>had</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="78" id="3" offset="470:478">
+                            <Text>coronary</Text>
+                            <METAMAP>[dsyn]</METAMAP>
+                        </Token>
+                        <Token POSTag="NN" globalID="79" id="4" offset="479:485">
+                            <Text>artery</Text>
+                            <METAMAP>[dsyn]</METAMAP>
+                        </Token>
+                        <Token POSTag="NN" globalID="80" id="5" offset="486:495">
+                            <Text>occlusion</Text>
+                            <METAMAP>[dsyn]</METAMAP>
+                        </Token>
+                        <Token POSTag="-LRB-" globalID="81" id="6" offset="496:497">
+                            <Text>(</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="82" id="7" offset="497:506">
+                            <Text>preferred</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="83" id="8" offset="507:511">
+                            <Text>term</Text>
+                        </Token>
+                        <Token POSTag=":" globalID="84" id="9" offset="511:512">
+                            <Text>:</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="85" id="10" offset="513:521">
+                            <Text>coronary</Text>
+                            <METAMAP>[dsyn]</METAMAP>
+                        </Token>
+                        <Token POSTag="NN" globalID="86" id="11" offset="522:528">
+                            <Text>artery</Text>
+                            <METAMAP>[dsyn]</METAMAP>
+                        </Token>
+                        <Token POSTag="NN" globalID="87" id="12" offset="529:538">
+                            <Text>occlusion</Text>
+                            <METAMAP>[dsyn]</METAMAP>
+                        </Token>
+                        <Token POSTag="-RRB-" globalID="88" id="13" offset="538:539">
+                            <Text>)</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="89" id="14" offset="539:546">
+                            <Text>.Action</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="90" id="15" offset="547:552">
+                            <Text>taken</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="91" id="16" offset="553:557">
+                            <Text>with</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="92" id="17" offset="558:561">
+                            <Text>all</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="93" id="18" offset="562:569">
+                            <Text>suspect</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="94" id="19" offset="570:575">
+                            <Text>drugs</Text>
+                            <METAMAP>[phsu]</METAMAP>
+                        </Token>
+                        <Token POSTag="VBD" globalID="95" id="20" offset="576:580">
+                            <Text>were</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="96" id="21" offset="581:592">
+                            <Text>unknown.The</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="97" id="22" offset="593:600">
+                            <Text>outcome</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="98" id="23" offset="601:603">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="99" id="24" offset="604:607">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="100" id="25" offset="608:613">
+                            <Text>event</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="101" id="26" offset="614:616">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="102" id="27" offset="617:626">
+                            <Text>arthritis</Text>
+                            <METAMAP>[dsyn]</METAMAP>
+                        </Token>
+                        <Token POSTag="," globalID="103" id="28" offset="626:627">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="104" id="29" offset="628:637">
+                            <Text>condition</Text>
+                            <METAMAP>[dsyn]</METAMAP>
+                        </Token>
+                        <Token POSTag="VBN" globalID="105" id="30" offset="638:648">
+                            <Text>aggravated</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="106" id="31" offset="649:652">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="107" id="32" offset="653:661">
+                            <Text>coronary</Text>
+                            <METAMAP>[dsyn]</METAMAP>
+                        </Token>
+                        <Token POSTag="NN" globalID="108" id="33" offset="662:668">
+                            <Text>artery</Text>
+                            <METAMAP>[dsyn]</METAMAP>
+                        </Token>
+                        <Token POSTag="NN" globalID="109" id="34" offset="669:678">
+                            <Text>occlusion</Text>
+                            <METAMAP>[dsyn]</METAMAP>
+                        </Token>
+                        <Token POSTag="VBD" globalID="110" id="35" offset="679:683">
+                            <Text>were</Text>
+                        </Token>
+                        <Token POSTag="VBG" globalID="111" id="36" offset="684:695">
+                            <Text>unknown.The</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="112" id="37" offset="696:704">
+                            <Text>reporter</Text>
+                        </Token>
+                        <Token POSTag="VBZ" globalID="113" id="38" offset="705:708">
+                            <Text>has</Text>
+                        </Token>
+                        <Token POSTag="VBN" globalID="114" id="39" offset="709:717">
+                            <Text>assessed</Text>
+                        </Token>
+                        <Token POSTag="DT" globalID="115" id="40" offset="718:721">
+                            <Text>the</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="116" id="41" offset="722:728">
+                            <Text>events</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="117" id="42" offset="729:731">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="118" id="43" offset="732:741">
+                            <Text>arthritis</Text>
+                            <METAMAP>[dsyn]</METAMAP>
+                        </Token>
+                        <Token POSTag="," globalID="119" id="44" offset="741:742">
+                            <Text>,</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="120" id="45" offset="743:752">
+                            <Text>condition</Text>
+                            <METAMAP>[dsyn]</METAMAP>
+                        </Token>
+                        <Token POSTag="VBN" globalID="121" id="46" offset="753:763">
+                            <Text>aggravated</Text>
+                        </Token>
+                        <Token POSTag="CC" globalID="122" id="47" offset="764:767">
+                            <Text>and</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="123" id="48" offset="768:776">
+                            <Text>coronary</Text>
+                            <METAMAP>[dsyn]</METAMAP>
+                        </Token>
+                        <Token POSTag="NN" globalID="124" id="49" offset="777:783">
+                            <Text>artery</Text>
+                            <METAMAP>[dsyn]</METAMAP>
+                        </Token>
+                        <Token POSTag="NN" globalID="125" id="50" offset="784:793">
+                            <Text>occlusion</Text>
+                            <METAMAP>[dsyn]</METAMAP>
+                        </Token>
+                        <Token POSTag="TO" globalID="126" id="51" offset="794:796">
+                            <Text>to</Text>
+                        </Token>
+                        <Token POSTag="VB" globalID="127" id="52" offset="797:799">
+                            <Text>be</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="128" id="53" offset="800:807">
+                            <Text>serious</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="129" id="54" offset="808:812">
+                            <Text>with</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="130" id="55" offset="813:824">
+                            <Text>seriousness</Text>
+                        </Token>
+                        <Token POSTag="NNS" globalID="131" id="56" offset="825:833">
+                            <Text>criteria</Text>
+                        </Token>
+                        <Token POSTag="IN" globalID="132" id="57" offset="834:836">
+                            <Text>of</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="133" id="58" offset="837:846">
+                            <Text>important</Text>
+                        </Token>
+                        <Token POSTag="JJ" globalID="134" id="59" offset="847:854">
+                            <Text>medical</Text>
+                        </Token>
+                        <Token POSTag="NN" globalID="135" id="60" offset="855:860">
+                            <Text>event</Text>
+                        </Token>
+                        <Token POSTag="." globalID="136" id="61" offset="860:861">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree>(S1 (S (S (NP (NN Patient)) (ADVP (RB also)) (VP (VBD had) (NP (NP (JJ coronary) (NN
+                        artery) (NN occlusion)) (PRN (-LRB- -LRB-) (NP (NP (JJ preferred) (NN term)) (: :) (NP (JJ
+                        coronary) (NN artery) (NN occlusion))) (-RRB- -RRB-))))) (S (NP (NP (NN .Action)) (VP (VBN
+                        taken) (PP (IN with) (NP (DT all) (NN suspect) (NNS drugs))))) (VP (VBD were) (NP (NP (NN
+                        unknown.The) (NN outcome)) (PP (IN of) (NP (NP (DT the) (NN event)) (PP (IN of) (NP (NP (NN
+                        arthritis)) (, ,) (NP (NP (NN condition)) (VP (VBN aggravated)))))))))) (CC and) (S (NP (JJ
+                        coronary) (NN artery) (NN occlusion)) (VP (VBD were) (VP (VBG unknown.The) (S (NP (NN reporter))
+                        (VP (VBZ has) (VP (VBN assessed) (NP (NP (DT the) (NNS events)) (PP (IN of) (NP (NP (NP (NN
+                        arthritis)) (, ,) (NP (NP (NN condition)) (VP (VBN aggravated)))) (CC and) (NP (JJ coronary) (NN
+                        artery) (NN occlusion))))) (S (VP (TO to) (VP (VB be) (ADJP (JJ serious) (PP (IN with) (NP (NP
+                        (NNS seriousness) (NNS criteria)) (PP (IN of) (NP (JJ important) (JJ medical) (NN
+                        event))))))))))))))) (. .)))
+                    </ParseTree>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+    </Paragraphs>
+</StartOutput>

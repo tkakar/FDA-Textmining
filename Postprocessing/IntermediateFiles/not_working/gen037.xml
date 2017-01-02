@@ -1,1 +1,434 @@
-<StartOutput><Paragraphs Count="18"><Paragraph id="0"><Sentences Count="1"><Sentence id="0" offset="0:80"><Text>Chief Complaint: Abdominal pain, nausea, vomiting, fever, altered mental status.</Text><Tokens Count="16"><Token globalID="0" id="0" offset="0:5"><Text>Chief</Text></Token><Token globalID="1" id="1" offset="6:15"><Text>Complaint</Text></Token><Token globalID="2" id="2" offset="15:16"><Text>:</Text></Token><Token globalID="3" id="3" offset="17:26"><Text>Abdominal</Text></Token><Token globalID="4" id="4" offset="27:31"><Text>pain</Text></Token><Token globalID="5" id="5" offset="31:32"><Text>,</Text></Token><Token globalID="6" id="6" offset="33:39"><Text>nausea</Text></Token><Token globalID="7" id="7" offset="39:40"><Text>,</Text></Token><Token globalID="8" id="8" offset="41:49"><Text>vomiting</Text></Token><Token globalID="9" id="9" offset="49:50"><Text>,</Text></Token><Token globalID="10" id="10" offset="51:56"><Text>fever</Text></Token><Token globalID="11" id="11" offset="56:57"><Text>,</Text></Token><Token globalID="12" id="12" offset="58:65"><Text>altered</Text></Token><Token globalID="13" id="13" offset="66:72"><Text>mental</Text></Token><Token globalID="14" id="14" offset="73:79"><Text>status</Text></Token><Token globalID="15" id="15" offset="79:80"><Text>.</Text></Token></Tokens></Sentence></Sentences></Paragraph><Paragraph id="1"><Sentences Count="5"><Sentence id="0" offset="82:304"><Text>History of Present Illness: 55 yo WM with reactive airways disease, allergic rhinitis who was in his usual state of health until he underwent a dental extraction with administration of cephalexin 1 week prior to admission.</Text><Tokens Count="39"><Token globalID="16" id="0" offset="82:89"><Text>History</Text></Token><Token globalID="17" id="1" offset="90:92"><Text>of</Text></Token><Token globalID="18" id="2" offset="93:100"><Text>Present</Text></Token><Token globalID="19" id="3" offset="101:108"><Text>Illness</Text></Token><Token globalID="20" id="4" offset="108:109"><Text>:</Text></Token><Token globalID="21" id="5" offset="110:112"><Text>55</Text></Token><Token globalID="22" id="6" offset="113:115"><Text>yo</Text></Token><Token globalID="23" id="7" offset="116:118"><Text>WM</Text></Token><Token globalID="24" id="8" offset="119:123"><Text>with</Text></Token><Token globalID="25" id="9" offset="124:132"><Text>reactive</Text></Token><Token globalID="26" id="10" offset="133:140"><Text>airways</Text></Token><Token globalID="27" id="11" offset="141:148"><Text>disease</Text></Token><Token globalID="28" id="12" offset="148:149"><Text>,</Text></Token><Token globalID="29" id="13" offset="150:158"><Text>allergic</Text></Token><Token globalID="30" id="14" offset="159:167"><Text>rhinitis</Text></Token><Token globalID="31" id="15" offset="168:171"><Text>who</Text></Token><Token globalID="32" id="16" offset="172:175"><Text>was</Text></Token><Token globalID="33" id="17" offset="176:178"><Text>in</Text></Token><Token globalID="34" id="18" offset="179:182"><Text>his</Text></Token><Token globalID="35" id="19" offset="183:188"><Text>usual</Text></Token><Token globalID="36" id="20" offset="189:194"><Text>state</Text></Token><Token globalID="37" id="21" offset="195:197"><Text>of</Text></Token><Token globalID="38" id="22" offset="198:204"><Text>health</Text></Token><Token globalID="39" id="23" offset="205:210"><Text>until</Text></Token><Token globalID="40" id="24" offset="211:213"><Text>he</Text></Token><Token globalID="41" id="25" offset="214:223"><Text>underwent</Text></Token><Token globalID="42" id="26" offset="224:225"><Text>a</Text></Token><Token globalID="43" id="27" offset="226:232"><Text>dental</Text></Token><Token globalID="44" id="28" offset="233:243"><Text>extraction</Text></Token><Token globalID="45" id="29" offset="244:248"><Text>with</Text></Token><Token globalID="46" id="30" offset="249:263"><Text>administration</Text></Token><Token globalID="47" id="31" offset="264:266"><Text>of</Text></Token><Token globalID="48" id="32" offset="267:277"><Text>cephalexin</Text></Token><Token globalID="49" id="33" offset="278:279"><Text>1</Text></Token><Token globalID="50" id="34" offset="280:284"><Text>week</Text></Token><Token globalID="51" id="35" offset="285:290"><Text>prior</Text></Token><Token globalID="52" id="36" offset="291:293"><Text>to</Text></Token><Token globalID="53" id="37" offset="294:303"><Text>admission</Text></Token><Token globalID="54" id="38" offset="303:304"><Text>.</Text></Token></Tokens></Sentence><Sentence id="1" offset="305:417"><Text>Approximately one day after the dental procedure, he began having nausea, and abdominal pain along with fatigue.</Text><Tokens Count="20"><Token globalID="55" id="0" offset="305:318"><Text>Approximately</Text></Token><Token globalID="56" id="1" offset="319:322"><Text>one</Text></Token><Token globalID="57" id="2" offset="323:326"><Text>day</Text></Token><Token globalID="58" id="3" offset="327:332"><Text>after</Text></Token><Token globalID="59" id="4" offset="333:336"><Text>the</Text></Token><Token globalID="60" id="5" offset="337:343"><Text>dental</Text></Token><Token globalID="61" id="6" offset="344:353"><Text>procedure</Text></Token><Token globalID="62" id="7" offset="353:354"><Text>,</Text></Token><Token globalID="63" id="8" offset="355:357"><Text>he</Text></Token><Token globalID="64" id="9" offset="358:363"><Text>began</Text></Token><Token globalID="65" id="10" offset="364:370"><Text>having</Text></Token><Token globalID="66" id="11" offset="371:377"><Text>nausea</Text></Token><Token globalID="67" id="12" offset="377:378"><Text>,</Text></Token><Token globalID="68" id="13" offset="379:382"><Text>and</Text></Token><Token globalID="69" id="14" offset="383:392"><Text>abdominal</Text></Token><Token globalID="70" id="15" offset="393:397"><Text>pain</Text></Token><Token globalID="71" id="16" offset="398:403"><Text>along</Text></Token><Token globalID="72" id="17" offset="404:408"><Text>with</Text></Token><Token globalID="73" id="18" offset="409:416"><Text>fatigue</Text></Token><Token globalID="74" id="19" offset="416:417"><Text>.</Text></Token></Tokens></Sentence><Sentence id="2" offset="418:529"><Text>The abdominal pain was described as pressure-like and was located in the epigastrium and periumbilical regions.</Text><Tokens Count="17"><Token globalID="75" id="0" offset="418:421"><Text>The</Text></Token><Token globalID="76" id="1" offset="422:431"><Text>abdominal</Text></Token><Token globalID="77" id="2" offset="432:436"><Text>pain</Text></Token><Token globalID="78" id="3" offset="437:440"><Text>was</Text></Token><Token globalID="79" id="4" offset="441:450"><Text>described</Text></Token><Token globalID="80" id="5" offset="451:453"><Text>as</Text></Token><Token globalID="81" id="6" offset="454:467"><Text>pressure-like</Text></Token><Token globalID="82" id="7" offset="468:471"><Text>and</Text></Token><Token globalID="83" id="8" offset="472:475"><Text>was</Text></Token><Token globalID="84" id="9" offset="476:483"><Text>located</Text></Token><Token globalID="85" id="10" offset="484:486"><Text>in</Text></Token><Token globalID="86" id="11" offset="487:490"><Text>the</Text></Token><Token globalID="87" id="12" offset="491:502"><Text>epigastrium</Text></Token><Token globalID="88" id="13" offset="503:506"><Text>and</Text></Token><Token globalID="89" id="14" offset="507:520"><Text>periumbilical</Text></Token><Token globalID="90" id="15" offset="521:528"><Text>regions</Text></Token><Token globalID="91" id="16" offset="528:529"><Text>.</Text></Token></Tokens></Sentence><Sentence id="3" offset="530:616"><Text>He initially attributed the symptoms to a side effect of the antibiotic he was taking.</Text><Tokens Count="16"><Token globalID="92" id="0" offset="530:532"><Text>He</Text></Token><Token globalID="93" id="1" offset="533:542"><Text>initially</Text></Token><Token globalID="94" id="2" offset="543:553"><Text>attributed</Text></Token><Token globalID="95" id="3" offset="554:557"><Text>the</Text></Token><Token globalID="96" id="4" offset="558:566"><Text>symptoms</Text></Token><Token globalID="97" id="5" offset="562:564"><Text>to</Text></Token><Token globalID="98" id="6" offset="570:571"><Text>a</Text></Token><Token globalID="99" id="7" offset="572:576"><Text>side</Text></Token><Token globalID="100" id="8" offset="577:583"><Text>effect</Text></Token><Token globalID="101" id="9" offset="584:586"><Text>of</Text></Token><Token globalID="102" id="10" offset="587:590"><Text>the</Text></Token><Token globalID="103" id="11" offset="591:601"><Text>antibiotic</Text></Token><Token globalID="104" id="12" offset="602:604"><Text>he</Text></Token><Token globalID="105" id="13" offset="605:608"><Text>was</Text></Token><Token globalID="106" id="14" offset="609:615"><Text>taking</Text></Token><Token globalID="107" id="15" offset="615:616"><Text>.</Text></Token></Tokens></Sentence><Sentence id="4" offset="617:712"><Text>However, with worsening of his symptoms, he presented to the ER 5 days after dental extraction.</Text><Tokens Count="19"><Token globalID="108" id="0" offset="617:624"><Text>However</Text></Token><Token globalID="109" id="1" offset="624:625"><Text>,</Text></Token><Token globalID="110" id="2" offset="626:630"><Text>with</Text></Token><Token globalID="111" id="3" offset="631:640"><Text>worsening</Text></Token><Token globalID="112" id="4" offset="641:643"><Text>of</Text></Token><Token globalID="113" id="5" offset="644:647"><Text>his</Text></Token><Token globalID="114" id="6" offset="648:656"><Text>symptoms</Text></Token><Token globalID="115" id="7" offset="656:657"><Text>,</Text></Token><Token globalID="116" id="8" offset="658:660"><Text>he</Text></Token><Token globalID="117" id="9" offset="661:670"><Text>presented</Text></Token><Token globalID="118" id="10" offset="671:673"><Text>to</Text></Token><Token globalID="119" id="11" offset="674:677"><Text>the</Text></Token><Token globalID="120" id="12" offset="678:680"><Text>ER</Text></Token><Token globalID="121" id="13" offset="681:682"><Text>5</Text></Token><Token globalID="122" id="14" offset="683:687"><Text>days</Text></Token><Token globalID="123" id="15" offset="688:693"><Text>after</Text></Token><Token globalID="124" id="16" offset="694:700"><Text>dental</Text></Token><Token globalID="125" id="17" offset="701:711"><Text>extraction</Text></Token><Token globalID="126" id="18" offset="711:712"><Text>.</Text></Token></Tokens></Sentence></Sentences></Paragraph><Paragraph id="2"><Sentences Count="8"><Sentence id="0" offset="714:777"><Text>
+<StartOutput>
+    <Paragraphs Count="18">
+        <Paragraph id="0">
+            <Sentences Count="1">
+                <Sentence id="0" offset="0:80">
+                    <Text>Chief Complaint: Abdominal pain, nausea, vomiting, fever, altered mental status.</Text>
+                    <Tokens Count="16">
+                        <Token globalID="0" id="0" offset="0:5">
+                            <Text>Chief</Text>
+                        </Token>
+                        <Token globalID="1" id="1" offset="6:15">
+                            <Text>Complaint</Text>
+                        </Token>
+                        <Token globalID="2" id="2" offset="15:16">
+                            <Text>:</Text>
+                        </Token>
+                        <Token globalID="3" id="3" offset="17:26">
+                            <Text>Abdominal</Text>
+                        </Token>
+                        <Token globalID="4" id="4" offset="27:31">
+                            <Text>pain</Text>
+                        </Token>
+                        <Token globalID="5" id="5" offset="31:32">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="6" id="6" offset="33:39">
+                            <Text>nausea</Text>
+                        </Token>
+                        <Token globalID="7" id="7" offset="39:40">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="8" id="8" offset="41:49">
+                            <Text>vomiting</Text>
+                        </Token>
+                        <Token globalID="9" id="9" offset="49:50">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="10" id="10" offset="51:56">
+                            <Text>fever</Text>
+                        </Token>
+                        <Token globalID="11" id="11" offset="56:57">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="12" id="12" offset="58:65">
+                            <Text>altered</Text>
+                        </Token>
+                        <Token globalID="13" id="13" offset="66:72">
+                            <Text>mental</Text>
+                        </Token>
+                        <Token globalID="14" id="14" offset="73:79">
+                            <Text>status</Text>
+                        </Token>
+                        <Token globalID="15" id="15" offset="79:80">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="1">
+            <Sentences Count="5">
+                <Sentence id="0" offset="82:304">
+                    <Text>History of Present Illness: 55 yo WM with reactive airways disease, allergic rhinitis who was
+                        in his usual state of health until he underwent a dental extraction with administration of
+                        cephalexin 1 week prior to admission.
+                    </Text>
+                    <Tokens Count="39">
+                        <Token globalID="16" id="0" offset="82:89">
+                            <Text>History</Text>
+                        </Token>
+                        <Token globalID="17" id="1" offset="90:92">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="18" id="2" offset="93:100">
+                            <Text>Present</Text>
+                        </Token>
+                        <Token globalID="19" id="3" offset="101:108">
+                            <Text>Illness</Text>
+                        </Token>
+                        <Token globalID="20" id="4" offset="108:109">
+                            <Text>:</Text>
+                        </Token>
+                        <Token globalID="21" id="5" offset="110:112">
+                            <Text>55</Text>
+                        </Token>
+                        <Token globalID="22" id="6" offset="113:115">
+                            <Text>yo</Text>
+                        </Token>
+                        <Token globalID="23" id="7" offset="116:118">
+                            <Text>WM</Text>
+                        </Token>
+                        <Token globalID="24" id="8" offset="119:123">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="25" id="9" offset="124:132">
+                            <Text>reactive</Text>
+                        </Token>
+                        <Token globalID="26" id="10" offset="133:140">
+                            <Text>airways</Text>
+                        </Token>
+                        <Token globalID="27" id="11" offset="141:148">
+                            <Text>disease</Text>
+                        </Token>
+                        <Token globalID="28" id="12" offset="148:149">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="29" id="13" offset="150:158">
+                            <Text>allergic</Text>
+                        </Token>
+                        <Token globalID="30" id="14" offset="159:167">
+                            <Text>rhinitis</Text>
+                        </Token>
+                        <Token globalID="31" id="15" offset="168:171">
+                            <Text>who</Text>
+                        </Token>
+                        <Token globalID="32" id="16" offset="172:175">
+                            <Text>was</Text>
+                        </Token>
+                        <Token globalID="33" id="17" offset="176:178">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="34" id="18" offset="179:182">
+                            <Text>his</Text>
+                        </Token>
+                        <Token globalID="35" id="19" offset="183:188">
+                            <Text>usual</Text>
+                        </Token>
+                        <Token globalID="36" id="20" offset="189:194">
+                            <Text>state</Text>
+                        </Token>
+                        <Token globalID="37" id="21" offset="195:197">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="38" id="22" offset="198:204">
+                            <Text>health</Text>
+                        </Token>
+                        <Token globalID="39" id="23" offset="205:210">
+                            <Text>until</Text>
+                        </Token>
+                        <Token globalID="40" id="24" offset="211:213">
+                            <Text>he</Text>
+                        </Token>
+                        <Token globalID="41" id="25" offset="214:223">
+                            <Text>underwent</Text>
+                        </Token>
+                        <Token globalID="42" id="26" offset="224:225">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="43" id="27" offset="226:232">
+                            <Text>dental</Text>
+                        </Token>
+                        <Token globalID="44" id="28" offset="233:243">
+                            <Text>extraction</Text>
+                        </Token>
+                        <Token globalID="45" id="29" offset="244:248">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="46" id="30" offset="249:263">
+                            <Text>administration</Text>
+                        </Token>
+                        <Token globalID="47" id="31" offset="264:266">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="48" id="32" offset="267:277">
+                            <Text>cephalexin</Text>
+                        </Token>
+                        <Token globalID="49" id="33" offset="278:279">
+                            <Text>1</Text>
+                        </Token>
+                        <Token globalID="50" id="34" offset="280:284">
+                            <Text>week</Text>
+                        </Token>
+                        <Token globalID="51" id="35" offset="285:290">
+                            <Text>prior</Text>
+                        </Token>
+                        <Token globalID="52" id="36" offset="291:293">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="53" id="37" offset="294:303">
+                            <Text>admission</Text>
+                        </Token>
+                        <Token globalID="54" id="38" offset="303:304">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+                <Sentence id="1" offset="305:417">
+                    <Text>Approximately one day after the dental procedure, he began having nausea, and abdominal pain
+                        along with fatigue.
+                    </Text>
+                    <Tokens Count="20">
+                        <Token globalID="55" id="0" offset="305:318">
+                            <Text>Approximately</Text>
+                        </Token>
+                        <Token globalID="56" id="1" offset="319:322">
+                            <Text>one</Text>
+                        </Token>
+                        <Token globalID="57" id="2" offset="323:326">
+                            <Text>day</Text>
+                        </Token>
+                        <Token globalID="58" id="3" offset="327:332">
+                            <Text>after</Text>
+                        </Token>
+                        <Token globalID="59" id="4" offset="333:336">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="60" id="5" offset="337:343">
+                            <Text>dental</Text>
+                        </Token>
+                        <Token globalID="61" id="6" offset="344:353">
+                            <Text>procedure</Text>
+                        </Token>
+                        <Token globalID="62" id="7" offset="353:354">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="63" id="8" offset="355:357">
+                            <Text>he</Text>
+                        </Token>
+                        <Token globalID="64" id="9" offset="358:363">
+                            <Text>began</Text>
+                        </Token>
+                        <Token globalID="65" id="10" offset="364:370">
+                            <Text>having</Text>
+                        </Token>
+                        <Token globalID="66" id="11" offset="371:377">
+                            <Text>nausea</Text>
+                        </Token>
+                        <Token globalID="67" id="12" offset="377:378">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="68" id="13" offset="379:382">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="69" id="14" offset="383:392">
+                            <Text>abdominal</Text>
+                        </Token>
+                        <Token globalID="70" id="15" offset="393:397">
+                            <Text>pain</Text>
+                        </Token>
+                        <Token globalID="71" id="16" offset="398:403">
+                            <Text>along</Text>
+                        </Token>
+                        <Token globalID="72" id="17" offset="404:408">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="73" id="18" offset="409:416">
+                            <Text>fatigue</Text>
+                        </Token>
+                        <Token globalID="74" id="19" offset="416:417">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+                <Sentence id="2" offset="418:529">
+                    <Text>The abdominal pain was described as pressure-like and was located in the epigastrium and
+                        periumbilical regions.
+                    </Text>
+                    <Tokens Count="17">
+                        <Token globalID="75" id="0" offset="418:421">
+                            <Text>The</Text>
+                        </Token>
+                        <Token globalID="76" id="1" offset="422:431">
+                            <Text>abdominal</Text>
+                        </Token>
+                        <Token globalID="77" id="2" offset="432:436">
+                            <Text>pain</Text>
+                        </Token>
+                        <Token globalID="78" id="3" offset="437:440">
+                            <Text>was</Text>
+                        </Token>
+                        <Token globalID="79" id="4" offset="441:450">
+                            <Text>described</Text>
+                        </Token>
+                        <Token globalID="80" id="5" offset="451:453">
+                            <Text>as</Text>
+                        </Token>
+                        <Token globalID="81" id="6" offset="454:467">
+                            <Text>pressure-like</Text>
+                        </Token>
+                        <Token globalID="82" id="7" offset="468:471">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="83" id="8" offset="472:475">
+                            <Text>was</Text>
+                        </Token>
+                        <Token globalID="84" id="9" offset="476:483">
+                            <Text>located</Text>
+                        </Token>
+                        <Token globalID="85" id="10" offset="484:486">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="86" id="11" offset="487:490">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="87" id="12" offset="491:502">
+                            <Text>epigastrium</Text>
+                        </Token>
+                        <Token globalID="88" id="13" offset="503:506">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="89" id="14" offset="507:520">
+                            <Text>periumbilical</Text>
+                        </Token>
+                        <Token globalID="90" id="15" offset="521:528">
+                            <Text>regions</Text>
+                        </Token>
+                        <Token globalID="91" id="16" offset="528:529">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+                <Sentence id="3" offset="530:616">
+                    <Text>He initially attributed the symptoms to a side effect of the antibiotic he was taking.</Text>
+                    <Tokens Count="16">
+                        <Token globalID="92" id="0" offset="530:532">
+                            <Text>He</Text>
+                        </Token>
+                        <Token globalID="93" id="1" offset="533:542">
+                            <Text>initially</Text>
+                        </Token>
+                        <Token globalID="94" id="2" offset="543:553">
+                            <Text>attributed</Text>
+                        </Token>
+                        <Token globalID="95" id="3" offset="554:557">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="96" id="4" offset="558:566">
+                            <Text>symptoms</Text>
+                        </Token>
+                        <Token globalID="97" id="5" offset="562:564">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="98" id="6" offset="570:571">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="99" id="7" offset="572:576">
+                            <Text>side</Text>
+                        </Token>
+                        <Token globalID="100" id="8" offset="577:583">
+                            <Text>effect</Text>
+                        </Token>
+                        <Token globalID="101" id="9" offset="584:586">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="102" id="10" offset="587:590">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="103" id="11" offset="591:601">
+                            <Text>antibiotic</Text>
+                        </Token>
+                        <Token globalID="104" id="12" offset="602:604">
+                            <Text>he</Text>
+                        </Token>
+                        <Token globalID="105" id="13" offset="605:608">
+                            <Text>was</Text>
+                        </Token>
+                        <Token globalID="106" id="14" offset="609:615">
+                            <Text>taking</Text>
+                        </Token>
+                        <Token globalID="107" id="15" offset="615:616">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+                <Sentence id="4" offset="617:712">
+                    <Text>However, with worsening of his symptoms, he presented to the ER 5 days after dental
+                        extraction.
+                    </Text>
+                    <Tokens Count="19">
+                        <Token globalID="108" id="0" offset="617:624">
+                            <Text>However</Text>
+                        </Token>
+                        <Token globalID="109" id="1" offset="624:625">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="110" id="2" offset="626:630">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="111" id="3" offset="631:640">
+                            <Text>worsening</Text>
+                        </Token>
+                        <Token globalID="112" id="4" offset="641:643">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="113" id="5" offset="644:647">
+                            <Text>his</Text>
+                        </Token>
+                        <Token globalID="114" id="6" offset="648:656">
+                            <Text>symptoms</Text>
+                        </Token>
+                        <Token globalID="115" id="7" offset="656:657">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="116" id="8" offset="658:660">
+                            <Text>he</Text>
+                        </Token>
+                        <Token globalID="117" id="9" offset="661:670">
+                            <Text>presented</Text>
+                        </Token>
+                        <Token globalID="118" id="10" offset="671:673">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="119" id="11" offset="674:677">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="120" id="12" offset="678:680">
+                            <Text>ER</Text>
+                        </Token>
+                        <Token globalID="121" id="13" offset="681:682">
+                            <Text>5</Text>
+                        </Token>
+                        <Token globalID="122" id="14" offset="683:687">
+                            <Text>days</Text>
+                        </Token>
+                        <Token globalID="123" id="15" offset="688:693">
+                            <Text>after</Text>
+                        </Token>
+                        <Token globalID="124" id="16" offset="694:700">
+                            <Text>dental</Text>
+                        </Token>
+                        <Token globalID="125" id="17" offset="701:711">
+                            <Text>extraction</Text>
+                        </Token>
+                        <Token globalID="126" id="18" offset="711:712">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+        <Paragraph id="2">
+            <Sentences Count="8">
+                <Sentence id="0" offset="714:777">
+                    <Text>

@@ -1,79 +1,109 @@
 {
-   "sentences":[
-      {
-         "parsetree":"(ROOT (S (NP-TMP (JJ Last) (NN summer)) (, ,) (NP (PRP they)) (VP (VBD met) (NP (DT every) (NNP Tuesday) (NN afternoon)) (, ,) (PP (IN from) (NP (CD 1:00) (NN pm))) (PP (TO to) (NP (CD 3:00) (NN pm)))) (. .)))",
-         "text":"Last summer, they met every Tuesday afternoon, from 1:00 pm to 3:00 pm.",
-         "dependencies":[
-            [
-               "root",
-               "ROOT",
-               "met"
-            ],
-            [
-               "amod",
-               "summer",
-               "Last"
-            ],
-            [
-               "tmod",
-               "met",
-               "summer"
-            ],
-            [
-               "nsubj",
-               "met",
-               "they"
-            ],
-            [
-               "det",
-               "afternoon",
-               "every"
-            ],
-            [
-               "nn",
-               "afternoon",
-               "Tuesday"
-            ],
-            [
-               "dobj",
-               "met",
-               "afternoon"
-            ],
-            [
-               "num",
-               "pm",
-               "1:00"
-            ],
-            [
-               "prep_from",
-               "met",
-               "pm"
-            ],
-            [
-               "num",
-               "pm",
-               "3:00"
-            ],
-            [
-               "prep_to",
-               "met",
-               "pm"
-            ]
-         ],
-         "words":[
-            [
-               "Last",
-               {
-                  "NormalizedNamedEntityTag":"XXXX-SU",
-                  "Timex":"<TIMEX3 alt_value=\\"XXXX-SU OFFSET P-1Y\\" anchorTimeID=\\"t2\\" temporalFunction=\\"true\\" tid=\\"t1\\" type=\\"DATE\\" valueFromFunction=\\"tf0\\">Last summer</TIMEX3>",
-                  "Lemma":"last",
-                  "CharacterOffsetEnd":"4",
-                  "PartOfSpeech":"JJ",
-                  "CharacterOffsetBegin":"0",
-                  "NamedEntityTag":"DATE"
-               }
-            ]
-            ]
-      }
-   ]
+  "sentences": [
+    {
+      "parsetree": "(ROOT (S (NP-TMP (JJ Last) (NN summer)) (, ,) (NP (PRP they)) (VP (VBD met) (NP (DT every) (NNP Tuesday) (NN afternoon)) (, ,) (PP (IN from) (NP (CD 1:00) (NN pm))) (PP (TO to) (NP (CD 3:00) (NN pm)))) (. .)))",
+      "text": "Last summer, they met every Tuesday afternoon, from 1:00 pm to 3:00 pm.",
+      "dependencies": [
+        [
+          "root",
+          "ROOT",
+          "met"
+        ],
+        [
+          "amod",
+          "summer",
+          "Last"
+        ],
+        [
+          "tmod",
+          "met",
+          "summer"
+        ],
+        [
+          "nsubj",
+          "met",
+          "they"
+        ],
+        [
+          "det",
+          "afternoon",
+          "every"
+        ],
+        [
+          "nn",
+          "afternoon",
+          "Tuesday"
+        ],
+        [
+          "dobj",
+          "met",
+          "afternoon"
+        ],
+        [
+          "num",
+          "pm",
+          "1:00"
+        ],
+        [
+          "prep_from",
+          "met",
+          "pm"
+        ],
+        [
+          "num",
+          "pm",
+          "3:00"
+        ],
+        [
+          "prep_to",
+          "met",
+          "pm"
+        ]
+      ],
+      "words": [
+        [
+          "Last",
+          {
+            "NormalizedNamedEntityTag": "XXXX-SU",
+            "Timex": "<TIMEX3 alt_value=\\"
+            XXXX
+            -
+            SU
+            OFFSET
+            P
+            -1
+            Y
+            \
+            \
+            " anchorTimeID=\\"
+            t2
+            \
+            \
+            " temporalFunction=\\"
+            true
+            \
+            \
+            " tid=\\"
+            t1
+            \
+            \
+            " type=\\"
+            DATE
+            \
+            \
+            " valueFromFunction=\\"
+            tf0
+            \
+            \
+            ">Last summer</TIMEX3>",
+            "Lemma": "last",
+            "CharacterOffsetEnd": "4",
+            "PartOfSpeech": "JJ",
+            "CharacterOffsetBegin": "0",
+            "NamedEntityTag": "DATE"
+          }
+        ]
+      ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import xml.etree.cElementTree as et
 
-sxml="""
+sxml = """
 <ANNOTATIONS textSource=\"fda010.txt\" annotator=\"Amber Wallace\">
 <EVENT_DT start=null end=null></EVENT_DT>
 <DEMOGRAPHICS>
@@ -56,13 +56,13 @@ sxml="""
 </ANNOTATIONS>
 """
 
-tree=et.formstring(sxml)
+tree = et.formstring(sxml)
 
 for el in tree.findall('ANNOTATIONS'):
     print '-------------------'
     for ch in el.getchildren():
-        print '{:>15}: {:<30}'.format(ch.tag, ch.text) 
+        print '{:>15}: {:<30}'.format(ch.tag, ch.text)
 
-#print "\nan alternate way:"  
-#el=tree.find('INSTANCE[2]/DRUGNAME')  # xpath
-#print '{:>15}: {:<30}'.format(el.tag, el.text)  
+        # print "\nan alternate way:"
+# el=tree.find('INSTANCE[2]/DRUGNAME')  # xpath
+# print '{:>15}: {:<30}'.format(el.tag, el.text)

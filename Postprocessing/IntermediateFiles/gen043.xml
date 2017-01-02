@@ -1,1 +1,703 @@
-<StartOutput><Paragraphs Count="1"><Paragraph id="0"><Sentences Count="8"><Sentence id="0" offset="0:184"><Text>FDA contacted a female patient of age 32 and weight 135lbs for follow-up after she contacted Drug Information to disclose information regarding an adverse event related to domperidone.</Text><Tokens Count="29"><Token globalID="0" id="0" offset="0:3"><Text>FDA</Text></Token><Token globalID="1" id="1" offset="4:13"><Text>contacted</Text></Token><Token globalID="2" id="2" offset="8:9"><Text>a</Text></Token><Token globalID="3" id="3" offset="16:22"><Text>female</Text></Token><Token globalID="4" id="4" offset="23:30"><Text>patient</Text></Token><Token globalID="5" id="5" offset="31:33"><Text>of</Text></Token><Token globalID="6" id="6" offset="34:37"><Text>age</Text></Token><Token globalID="7" id="7" offset="38:40"><Text>32</Text></Token><Token globalID="8" id="8" offset="41:44"><Text>and</Text></Token><Token globalID="9" id="9" offset="45:51"><Text>weight</Text></Token><Token globalID="10" id="10" offset="52:58"><Text>135lbs</Text></Token><Token globalID="11" id="11" offset="59:62"><Text>for</Text></Token><Token globalID="12" id="12" offset="63:72"><Text>follow-up</Text></Token><Token globalID="13" id="13" offset="73:78"><Text>after</Text></Token><Token globalID="14" id="14" offset="79:82"><Text>she</Text></Token><Token globalID="15" id="15" offset="83:92"><Text>contacted</Text></Token><Token globalID="16" id="16" offset="93:97"><Text>Drug</Text></Token><Token globalID="17" id="17" offset="98:109"><Text>Information</Text></Token><Token globalID="18" id="18" offset="110:112"><Text>to</Text></Token><Token globalID="19" id="19" offset="113:121"><Text>disclose</Text></Token><Token globalID="20" id="20" offset="122:133"><Text>information</Text></Token><Token globalID="21" id="21" offset="134:143"><Text>regarding</Text></Token><Token globalID="22" id="22" offset="144:146"><Text>an</Text></Token><Token globalID="23" id="23" offset="147:154"><Text>adverse</Text></Token><Token globalID="24" id="24" offset="155:160"><Text>event</Text></Token><Token globalID="25" id="25" offset="161:168"><Text>related</Text></Token><Token globalID="26" id="26" offset="169:171"><Text>to</Text></Token><Token globalID="27" id="27" offset="172:183"><Text>domperidone</Text></Token><Token globalID="28" id="28" offset="183:184"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="1" offset="185:264"><Text>Domperidone 30mg 3-4 times per day was prescribed in August 2014 for lactation.</Text><Tokens Count="14"><Token globalID="29" id="0" offset="185:196"><Text>Domperidone</Text></Token><Token globalID="30" id="1" offset="197:201"><Text>30mg</Text></Token><Token globalID="31" id="2" offset="202:205"><Text>3-4</Text></Token><Token globalID="32" id="3" offset="206:211"><Text>times</Text></Token><Token globalID="33" id="4" offset="212:215"><Text>per</Text></Token><Token globalID="34" id="5" offset="216:219"><Text>day</Text></Token><Token globalID="35" id="6" offset="220:223"><Text>was</Text></Token><Token globalID="36" id="7" offset="224:234"><Text>prescribed</Text></Token><Token globalID="37" id="8" offset="235:237"><Text>in</Text></Token><Token globalID="38" id="9" offset="238:244"><Text>August</Text></Token><Token globalID="39" id="10" offset="245:249"><Text>2014</Text></Token><Token globalID="40" id="11" offset="250:253"><Text>for</Text></Token><Token globalID="41" id="12" offset="254:263"><Text>lactation</Text></Token><Token globalID="42" id="13" offset="263:264"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="2" offset="265:392"><Text>About 3 weeks-1 month later (mid-January 2015), patient developed palpations ("butterflies in my chest") and felt "very tired."</Text><Tokens Count="28"><Token globalID="43" id="0" offset="265:270"><Text>About</Text></Token><Token globalID="44" id="1" offset="271:272"><Text>3</Text></Token><Token globalID="45" id="2" offset="273:280"><Text>weeks-1</Text></Token><Token globalID="46" id="3" offset="281:286"><Text>month</Text></Token><Token globalID="47" id="4" offset="287:292"><Text>later</Text></Token><Token globalID="48" id="5" offset="293:294"><Text>(</Text></Token><Token globalID="49" id="6" offset="294:305"><Text>mid-January</Text></Token><Token globalID="50" id="7" offset="306:310"><Text>2015</Text></Token><Token globalID="51" id="8" offset="310:311"><Text>)</Text></Token><Token globalID="52" id="9" offset="311:312"><Text>,</Text></Token><Token globalID="53" id="10" offset="313:320"><Text>patient</Text></Token><Token globalID="54" id="11" offset="321:330"><Text>developed</Text></Token><Token globalID="55" id="12" offset="331:341"><Text>palpations</Text></Token><Token globalID="56" id="13" offset="342:343"><Text>(</Text></Token><Token globalID="57" id="14" offset="-1:1"><Text>``</Text></Token><Token globalID="58" id="15" offset="-1:10"><Text>butterflies</Text></Token><Token globalID="59" id="16" offset="-1:1"><Text>in</Text></Token><Token globalID="60" id="17" offset="-1:1"><Text>my</Text></Token><Token globalID="61" id="18" offset="-1:4"><Text>chest</Text></Token><Token globalID="62" id="19" offset="-1:1"><Text>''</Text></Token><Token globalID="63" id="20" offset="-1:0"><Text>)</Text></Token><Token globalID="64" id="21" offset="-1:2"><Text>and</Text></Token><Token globalID="65" id="22" offset="-1:3"><Text>felt</Text></Token><Token globalID="66" id="23" offset="-1:1"><Text>``</Text></Token><Token globalID="67" id="24" offset="-1:3"><Text>very</Text></Token><Token globalID="68" id="25" offset="-1:4"><Text>tired</Text></Token><Token globalID="69" id="26" offset="-1:0"><Text>.</Text></Token><Token globalID="70" id="27" offset="-1:1"><Text>''</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="3" offset="393:542"><Text>She didn't think much of symptoms and attributed them to being tired and having a new baby, so she continued domperidone and tried to get more sleep.</Text><Tokens Count="30"><Token globalID="71" id="0" offset="-1:2"><Text>She</Text></Token><Token globalID="72" id="1" offset="-1:2"><Text>did</Text></Token><Token globalID="73" id="2" offset="-1:2"><Text>n't</Text></Token><Token globalID="74" id="3" offset="-1:4"><Text>think</Text></Token><Token globalID="75" id="4" offset="-1:3"><Text>much</Text></Token><Token globalID="76" id="5" offset="-1:1"><Text>of</Text></Token><Token globalID="77" id="6" offset="-1:7"><Text>symptoms</Text></Token><Token globalID="78" id="7" offset="-1:2"><Text>and</Text></Token><Token globalID="79" id="8" offset="-1:9"><Text>attributed</Text></Token><Token globalID="80" id="9" offset="-1:3"><Text>them</Text></Token><Token globalID="81" id="10" offset="-1:1"><Text>to</Text></Token><Token globalID="82" id="11" offset="-1:4"><Text>being</Text></Token><Token globalID="83" id="12" offset="-1:4"><Text>tired</Text></Token><Token globalID="84" id="13" offset="-1:2"><Text>and</Text></Token><Token globalID="85" id="14" offset="-1:5"><Text>having</Text></Token><Token globalID="86" id="15" offset="-1:0"><Text>a</Text></Token><Token globalID="87" id="16" offset="-1:2"><Text>new</Text></Token><Token globalID="88" id="17" offset="-1:3"><Text>baby</Text></Token><Token globalID="89" id="18" offset="-1:0"><Text>,</Text></Token><Token globalID="90" id="19" offset="-1:1"><Text>so</Text></Token><Token globalID="91" id="20" offset="-1:2"><Text>she</Text></Token><Token globalID="92" id="21" offset="-1:8"><Text>continued</Text></Token><Token globalID="93" id="22" offset="-1:10"><Text>domperidone</Text></Token><Token globalID="94" id="23" offset="-1:2"><Text>and</Text></Token><Token globalID="95" id="24" offset="-1:4"><Text>tried</Text></Token><Token globalID="96" id="25" offset="-1:1"><Text>to</Text></Token><Token globalID="97" id="26" offset="-1:2"><Text>get</Text></Token><Token globalID="98" id="27" offset="-1:3"><Text>more</Text></Token><Token globalID="99" id="28" offset="-1:4"><Text>sleep</Text></Token><Token globalID="100" id="29" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="4" offset="543:674"><Text>Symptoms of malaise, palpitation, "chest pain", syncope-like feelings continued, so patient decided to research domperidone online.</Text><Tokens Count="23"><Token globalID="101" id="0" offset="-1:7"><Text>Symptoms</Text></Token><Token globalID="102" id="1" offset="-1:1"><Text>of</Text></Token><Token globalID="103" id="2" offset="-1:6"><Text>malaise</Text></Token><Token globalID="104" id="3" offset="-1:0"><Text>,</Text></Token><Token globalID="105" id="4" offset="-1:10"><Text>palpitation</Text></Token><Token globalID="106" id="5" offset="-1:0"><Text>,</Text></Token><Token globalID="107" id="6" offset="-1:1"><Text>``</Text></Token><Token globalID="108" id="7" offset="-1:4"><Text>chest</Text></Token><Token globalID="109" id="8" offset="-1:3"><Text>pain</Text></Token><Token globalID="110" id="9" offset="-1:1"><Text>''</Text></Token><Token globalID="111" id="10" offset="-1:0"><Text>,</Text></Token><Token globalID="112" id="11" offset="-1:11"><Text>syncope-like</Text></Token><Token globalID="113" id="12" offset="-1:7"><Text>feelings</Text></Token><Token globalID="114" id="13" offset="-1:8"><Text>continued</Text></Token><Token globalID="115" id="14" offset="-1:0"><Text>,</Text></Token><Token globalID="116" id="15" offset="-1:1"><Text>so</Text></Token><Token globalID="117" id="16" offset="-1:6"><Text>patient</Text></Token><Token globalID="118" id="17" offset="-1:6"><Text>decided</Text></Token><Token globalID="119" id="18" offset="-1:1"><Text>to</Text></Token><Token globalID="120" id="19" offset="-1:7"><Text>research</Text></Token><Token globalID="121" id="20" offset="-1:10"><Text>domperidone</Text></Token><Token globalID="122" id="21" offset="-1:5"><Text>online</Text></Token><Token globalID="123" id="22" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="5" offset="675:956"><Text>After finding out that QT prolongation and sudden death are possibly associated with domperidone (and that the symptoms she was having could be the result of QT prolongation), and that it is not approved in the US, she stopped taking the medication and contacted her OB/GYN office.</Text><Tokens Count="52"><Token globalID="124" id="0" offset="-1:4"><Text>After</Text></Token><Token globalID="125" id="1" offset="-1:6"><Text>finding</Text></Token><Token globalID="126" id="2" offset="-1:2"><Text>out</Text></Token><Token globalID="127" id="3" offset="-1:3"><Text>that</Text></Token><Token globalID="128" id="4" offset="-1:1"><Text>QT</Text></Token><Token globalID="129" id="5" offset="-1:11"><Text>prolongation</Text></Token><Token globalID="130" id="6" offset="-1:2"><Text>and</Text></Token><Token globalID="131" id="7" offset="-1:5"><Text>sudden</Text></Token><Token globalID="132" id="8" offset="-1:4"><Text>death</Text></Token><Token globalID="133" id="9" offset="-1:2"><Text>are</Text></Token><Token globalID="134" id="10" offset="-1:7"><Text>possibly</Text></Token><Token globalID="135" id="11" offset="-1:9"><Text>associated</Text></Token><Token globalID="136" id="12" offset="-1:3"><Text>with</Text></Token><Token globalID="137" id="13" offset="-1:10"><Text>domperidone</Text></Token><Token globalID="138" id="14" offset="-1:0"><Text>(</Text></Token><Token globalID="139" id="15" offset="-1:2"><Text>and</Text></Token><Token globalID="140" id="16" offset="-1:3"><Text>that</Text></Token><Token globalID="141" id="17" offset="-1:2"><Text>the</Text></Token><Token globalID="142" id="18" offset="-1:7"><Text>symptoms</Text></Token><Token globalID="143" id="19" offset="-1:2"><Text>she</Text></Token><Token globalID="144" id="20" offset="-1:2"><Text>was</Text></Token><Token globalID="145" id="21" offset="-1:5"><Text>having</Text></Token><Token globalID="146" id="22" offset="-1:4"><Text>could</Text></Token><Token globalID="147" id="23" offset="-1:1"><Text>be</Text></Token><Token globalID="148" id="24" offset="-1:2"><Text>the</Text></Token><Token globalID="149" id="25" offset="-1:5"><Text>result</Text></Token><Token globalID="150" id="26" offset="-1:1"><Text>of</Text></Token><Token globalID="151" id="27" offset="-1:1"><Text>QT</Text></Token><Token globalID="152" id="28" offset="-1:11"><Text>prolongation</Text></Token><Token globalID="153" id="29" offset="-1:0"><Text>)</Text></Token><Token globalID="154" id="30" offset="-1:0"><Text>,</Text></Token><Token globalID="155" id="31" offset="-1:2"><Text>and</Text></Token><Token globalID="156" id="32" offset="-1:3"><Text>that</Text></Token><Token globalID="157" id="33" offset="-1:1"><Text>it</Text></Token><Token globalID="158" id="34" offset="-1:1"><Text>is</Text></Token><Token globalID="159" id="35" offset="-1:2"><Text>not</Text></Token><Token globalID="160" id="36" offset="-1:7"><Text>approved</Text></Token><Token globalID="161" id="37" offset="-1:1"><Text>in</Text></Token><Token globalID="162" id="38" offset="-1:2"><Text>the</Text></Token><Token globalID="163" id="39" offset="-1:1"><Text>US</Text></Token><Token globalID="164" id="40" offset="-1:0"><Text>,</Text></Token><Token globalID="165" id="41" offset="-1:2"><Text>she</Text></Token><Token globalID="166" id="42" offset="-1:6"><Text>stopped</Text></Token><Token globalID="167" id="43" offset="-1:5"><Text>taking</Text></Token><Token globalID="168" id="44" offset="-1:2"><Text>the</Text></Token><Token globalID="169" id="45" offset="-1:9"><Text>medication</Text></Token><Token globalID="170" id="46" offset="-1:2"><Text>and</Text></Token><Token globalID="171" id="47" offset="-1:8"><Text>contacted</Text></Token><Token globalID="172" id="48" offset="-1:2"><Text>her</Text></Token><Token globalID="173" id="49" offset="-1:5"><Text>OB/GYN</Text></Token><Token globalID="174" id="50" offset="-1:5"><Text>office</Text></Token><Token globalID="175" id="51" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="6" offset="957:1104"><Text>The office told her that she was incorrect and that domperidone is allowed to be prescribed in the US and that lactation was just an off-label use.</Text><Tokens Count="28"><Token globalID="176" id="0" offset="-1:2"><Text>The</Text></Token><Token globalID="177" id="1" offset="-1:5"><Text>office</Text></Token><Token globalID="178" id="2" offset="-1:3"><Text>told</Text></Token><Token globalID="179" id="3" offset="-1:2"><Text>her</Text></Token><Token globalID="180" id="4" offset="-1:3"><Text>that</Text></Token><Token globalID="181" id="5" offset="-1:2"><Text>she</Text></Token><Token globalID="182" id="6" offset="-1:2"><Text>was</Text></Token><Token globalID="183" id="7" offset="-1:8"><Text>incorrect</Text></Token><Token globalID="184" id="8" offset="-1:2"><Text>and</Text></Token><Token globalID="185" id="9" offset="-1:3"><Text>that</Text></Token><Token globalID="186" id="10" offset="-1:10"><Text>domperidone</Text></Token><Token globalID="187" id="11" offset="-1:1"><Text>is</Text></Token><Token globalID="188" id="12" offset="-1:6"><Text>allowed</Text></Token><Token globalID="189" id="13" offset="-1:1"><Text>to</Text></Token><Token globalID="190" id="14" offset="-1:1"><Text>be</Text></Token><Token globalID="191" id="15" offset="-1:9"><Text>prescribed</Text></Token><Token globalID="192" id="16" offset="-1:1"><Text>in</Text></Token><Token globalID="193" id="17" offset="-1:2"><Text>the</Text></Token><Token globalID="194" id="18" offset="-1:1"><Text>US</Text></Token><Token globalID="195" id="19" offset="-1:2"><Text>and</Text></Token><Token globalID="196" id="20" offset="-1:3"><Text>that</Text></Token><Token globalID="197" id="21" offset="-1:8"><Text>lactation</Text></Token><Token globalID="198" id="22" offset="-1:2"><Text>was</Text></Token><Token globalID="199" id="23" offset="-1:3"><Text>just</Text></Token><Token globalID="200" id="24" offset="-1:1"><Text>an</Text></Token><Token globalID="201" id="25" offset="-1:8"><Text>off-label</Text></Token><Token globalID="202" id="26" offset="-1:2"><Text>use</Text></Token><Token globalID="203" id="27" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence><Sentence id="7" offset="1105:1154"><Text>Symptoms resolved after domperidone was stopped. </Text><Tokens Count="7"><Token globalID="204" id="0" offset="-1:7"><Text>Symptoms</Text></Token><Token globalID="205" id="1" offset="-1:7"><Text>resolved</Text></Token><Token globalID="206" id="2" offset="-1:4"><Text>after</Text></Token><Token globalID="207" id="3" offset="-1:10"><Text>domperidone</Text></Token><Token globalID="208" id="4" offset="-1:2"><Text>was</Text></Token><Token globalID="209" id="5" offset="-1:6"><Text>stopped</Text></Token><Token globalID="210" id="6" offset="-1:0"><Text>.</Text></Token></Tokens><ParseTree /></Sentence></Sentences></Paragraph></Paragraphs></StartOutput>
+<StartOutput>
+    <Paragraphs Count="1">
+        <Paragraph id="0">
+            <Sentences Count="8">
+                <Sentence id="0" offset="0:184">
+                    <Text>FDA contacted a female patient of age 32 and weight 135lbs for follow-up after she contacted
+                        Drug Information to disclose information regarding an adverse event related to domperidone.
+                    </Text>
+                    <Tokens Count="29">
+                        <Token globalID="0" id="0" offset="0:3">
+                            <Text>FDA</Text>
+                        </Token>
+                        <Token globalID="1" id="1" offset="4:13">
+                            <Text>contacted</Text>
+                        </Token>
+                        <Token globalID="2" id="2" offset="8:9">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="3" id="3" offset="16:22">
+                            <Text>female</Text>
+                        </Token>
+                        <Token globalID="4" id="4" offset="23:30">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token globalID="5" id="5" offset="31:33">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="6" id="6" offset="34:37">
+                            <Text>age</Text>
+                        </Token>
+                        <Token globalID="7" id="7" offset="38:40">
+                            <Text>32</Text>
+                        </Token>
+                        <Token globalID="8" id="8" offset="41:44">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="9" id="9" offset="45:51">
+                            <Text>weight</Text>
+                        </Token>
+                        <Token globalID="10" id="10" offset="52:58">
+                            <Text>135lbs</Text>
+                        </Token>
+                        <Token globalID="11" id="11" offset="59:62">
+                            <Text>for</Text>
+                        </Token>
+                        <Token globalID="12" id="12" offset="63:72">
+                            <Text>follow-up</Text>
+                        </Token>
+                        <Token globalID="13" id="13" offset="73:78">
+                            <Text>after</Text>
+                        </Token>
+                        <Token globalID="14" id="14" offset="79:82">
+                            <Text>she</Text>
+                        </Token>
+                        <Token globalID="15" id="15" offset="83:92">
+                            <Text>contacted</Text>
+                        </Token>
+                        <Token globalID="16" id="16" offset="93:97">
+                            <Text>Drug</Text>
+                        </Token>
+                        <Token globalID="17" id="17" offset="98:109">
+                            <Text>Information</Text>
+                        </Token>
+                        <Token globalID="18" id="18" offset="110:112">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="19" id="19" offset="113:121">
+                            <Text>disclose</Text>
+                        </Token>
+                        <Token globalID="20" id="20" offset="122:133">
+                            <Text>information</Text>
+                        </Token>
+                        <Token globalID="21" id="21" offset="134:143">
+                            <Text>regarding</Text>
+                        </Token>
+                        <Token globalID="22" id="22" offset="144:146">
+                            <Text>an</Text>
+                        </Token>
+                        <Token globalID="23" id="23" offset="147:154">
+                            <Text>adverse</Text>
+                        </Token>
+                        <Token globalID="24" id="24" offset="155:160">
+                            <Text>event</Text>
+                        </Token>
+                        <Token globalID="25" id="25" offset="161:168">
+                            <Text>related</Text>
+                        </Token>
+                        <Token globalID="26" id="26" offset="169:171">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="27" id="27" offset="172:183">
+                            <Text>domperidone</Text>
+                        </Token>
+                        <Token globalID="28" id="28" offset="183:184">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="1" offset="185:264">
+                    <Text>Domperidone 30mg 3-4 times per day was prescribed in August 2014 for lactation.</Text>
+                    <Tokens Count="14">
+                        <Token globalID="29" id="0" offset="185:196">
+                            <Text>Domperidone</Text>
+                        </Token>
+                        <Token globalID="30" id="1" offset="197:201">
+                            <Text>30mg</Text>
+                        </Token>
+                        <Token globalID="31" id="2" offset="202:205">
+                            <Text>3-4</Text>
+                        </Token>
+                        <Token globalID="32" id="3" offset="206:211">
+                            <Text>times</Text>
+                        </Token>
+                        <Token globalID="33" id="4" offset="212:215">
+                            <Text>per</Text>
+                        </Token>
+                        <Token globalID="34" id="5" offset="216:219">
+                            <Text>day</Text>
+                        </Token>
+                        <Token globalID="35" id="6" offset="220:223">
+                            <Text>was</Text>
+                        </Token>
+                        <Token globalID="36" id="7" offset="224:234">
+                            <Text>prescribed</Text>
+                        </Token>
+                        <Token globalID="37" id="8" offset="235:237">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="38" id="9" offset="238:244">
+                            <Text>August</Text>
+                        </Token>
+                        <Token globalID="39" id="10" offset="245:249">
+                            <Text>2014</Text>
+                        </Token>
+                        <Token globalID="40" id="11" offset="250:253">
+                            <Text>for</Text>
+                        </Token>
+                        <Token globalID="41" id="12" offset="254:263">
+                            <Text>lactation</Text>
+                        </Token>
+                        <Token globalID="42" id="13" offset="263:264">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="2" offset="265:392">
+                    <Text>About 3 weeks-1 month later (mid-January 2015), patient developed palpations ("butterflies in
+                        my chest") and felt "very tired."
+                    </Text>
+                    <Tokens Count="28">
+                        <Token globalID="43" id="0" offset="265:270">
+                            <Text>About</Text>
+                        </Token>
+                        <Token globalID="44" id="1" offset="271:272">
+                            <Text>3</Text>
+                        </Token>
+                        <Token globalID="45" id="2" offset="273:280">
+                            <Text>weeks-1</Text>
+                        </Token>
+                        <Token globalID="46" id="3" offset="281:286">
+                            <Text>month</Text>
+                        </Token>
+                        <Token globalID="47" id="4" offset="287:292">
+                            <Text>later</Text>
+                        </Token>
+                        <Token globalID="48" id="5" offset="293:294">
+                            <Text>(</Text>
+                        </Token>
+                        <Token globalID="49" id="6" offset="294:305">
+                            <Text>mid-January</Text>
+                        </Token>
+                        <Token globalID="50" id="7" offset="306:310">
+                            <Text>2015</Text>
+                        </Token>
+                        <Token globalID="51" id="8" offset="310:311">
+                            <Text>)</Text>
+                        </Token>
+                        <Token globalID="52" id="9" offset="311:312">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="53" id="10" offset="313:320">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token globalID="54" id="11" offset="321:330">
+                            <Text>developed</Text>
+                        </Token>
+                        <Token globalID="55" id="12" offset="331:341">
+                            <Text>palpations</Text>
+                        </Token>
+                        <Token globalID="56" id="13" offset="342:343">
+                            <Text>(</Text>
+                        </Token>
+                        <Token globalID="57" id="14" offset="-1:1">
+                            <Text>``</Text>
+                        </Token>
+                        <Token globalID="58" id="15" offset="-1:10">
+                            <Text>butterflies</Text>
+                        </Token>
+                        <Token globalID="59" id="16" offset="-1:1">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="60" id="17" offset="-1:1">
+                            <Text>my</Text>
+                        </Token>
+                        <Token globalID="61" id="18" offset="-1:4">
+                            <Text>chest</Text>
+                        </Token>
+                        <Token globalID="62" id="19" offset="-1:1">
+                            <Text>''</Text>
+                        </Token>
+                        <Token globalID="63" id="20" offset="-1:0">
+                            <Text>)</Text>
+                        </Token>
+                        <Token globalID="64" id="21" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="65" id="22" offset="-1:3">
+                            <Text>felt</Text>
+                        </Token>
+                        <Token globalID="66" id="23" offset="-1:1">
+                            <Text>``</Text>
+                        </Token>
+                        <Token globalID="67" id="24" offset="-1:3">
+                            <Text>very</Text>
+                        </Token>
+                        <Token globalID="68" id="25" offset="-1:4">
+                            <Text>tired</Text>
+                        </Token>
+                        <Token globalID="69" id="26" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                        <Token globalID="70" id="27" offset="-1:1">
+                            <Text>''</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="3" offset="393:542">
+                    <Text>She didn't think much of symptoms and attributed them to being tired and having a new baby, so
+                        she continued domperidone and tried to get more sleep.
+                    </Text>
+                    <Tokens Count="30">
+                        <Token globalID="71" id="0" offset="-1:2">
+                            <Text>She</Text>
+                        </Token>
+                        <Token globalID="72" id="1" offset="-1:2">
+                            <Text>did</Text>
+                        </Token>
+                        <Token globalID="73" id="2" offset="-1:2">
+                            <Text>n't</Text>
+                        </Token>
+                        <Token globalID="74" id="3" offset="-1:4">
+                            <Text>think</Text>
+                        </Token>
+                        <Token globalID="75" id="4" offset="-1:3">
+                            <Text>much</Text>
+                        </Token>
+                        <Token globalID="76" id="5" offset="-1:1">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="77" id="6" offset="-1:7">
+                            <Text>symptoms</Text>
+                        </Token>
+                        <Token globalID="78" id="7" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="79" id="8" offset="-1:9">
+                            <Text>attributed</Text>
+                        </Token>
+                        <Token globalID="80" id="9" offset="-1:3">
+                            <Text>them</Text>
+                        </Token>
+                        <Token globalID="81" id="10" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="82" id="11" offset="-1:4">
+                            <Text>being</Text>
+                        </Token>
+                        <Token globalID="83" id="12" offset="-1:4">
+                            <Text>tired</Text>
+                        </Token>
+                        <Token globalID="84" id="13" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="85" id="14" offset="-1:5">
+                            <Text>having</Text>
+                        </Token>
+                        <Token globalID="86" id="15" offset="-1:0">
+                            <Text>a</Text>
+                        </Token>
+                        <Token globalID="87" id="16" offset="-1:2">
+                            <Text>new</Text>
+                        </Token>
+                        <Token globalID="88" id="17" offset="-1:3">
+                            <Text>baby</Text>
+                        </Token>
+                        <Token globalID="89" id="18" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="90" id="19" offset="-1:1">
+                            <Text>so</Text>
+                        </Token>
+                        <Token globalID="91" id="20" offset="-1:2">
+                            <Text>she</Text>
+                        </Token>
+                        <Token globalID="92" id="21" offset="-1:8">
+                            <Text>continued</Text>
+                        </Token>
+                        <Token globalID="93" id="22" offset="-1:10">
+                            <Text>domperidone</Text>
+                        </Token>
+                        <Token globalID="94" id="23" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="95" id="24" offset="-1:4">
+                            <Text>tried</Text>
+                        </Token>
+                        <Token globalID="96" id="25" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="97" id="26" offset="-1:2">
+                            <Text>get</Text>
+                        </Token>
+                        <Token globalID="98" id="27" offset="-1:3">
+                            <Text>more</Text>
+                        </Token>
+                        <Token globalID="99" id="28" offset="-1:4">
+                            <Text>sleep</Text>
+                        </Token>
+                        <Token globalID="100" id="29" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="4" offset="543:674">
+                    <Text>Symptoms of malaise, palpitation, "chest pain", syncope-like feelings continued, so patient
+                        decided to research domperidone online.
+                    </Text>
+                    <Tokens Count="23">
+                        <Token globalID="101" id="0" offset="-1:7">
+                            <Text>Symptoms</Text>
+                        </Token>
+                        <Token globalID="102" id="1" offset="-1:1">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="103" id="2" offset="-1:6">
+                            <Text>malaise</Text>
+                        </Token>
+                        <Token globalID="104" id="3" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="105" id="4" offset="-1:10">
+                            <Text>palpitation</Text>
+                        </Token>
+                        <Token globalID="106" id="5" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="107" id="6" offset="-1:1">
+                            <Text>``</Text>
+                        </Token>
+                        <Token globalID="108" id="7" offset="-1:4">
+                            <Text>chest</Text>
+                        </Token>
+                        <Token globalID="109" id="8" offset="-1:3">
+                            <Text>pain</Text>
+                        </Token>
+                        <Token globalID="110" id="9" offset="-1:1">
+                            <Text>''</Text>
+                        </Token>
+                        <Token globalID="111" id="10" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="112" id="11" offset="-1:11">
+                            <Text>syncope-like</Text>
+                        </Token>
+                        <Token globalID="113" id="12" offset="-1:7">
+                            <Text>feelings</Text>
+                        </Token>
+                        <Token globalID="114" id="13" offset="-1:8">
+                            <Text>continued</Text>
+                        </Token>
+                        <Token globalID="115" id="14" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="116" id="15" offset="-1:1">
+                            <Text>so</Text>
+                        </Token>
+                        <Token globalID="117" id="16" offset="-1:6">
+                            <Text>patient</Text>
+                        </Token>
+                        <Token globalID="118" id="17" offset="-1:6">
+                            <Text>decided</Text>
+                        </Token>
+                        <Token globalID="119" id="18" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="120" id="19" offset="-1:7">
+                            <Text>research</Text>
+                        </Token>
+                        <Token globalID="121" id="20" offset="-1:10">
+                            <Text>domperidone</Text>
+                        </Token>
+                        <Token globalID="122" id="21" offset="-1:5">
+                            <Text>online</Text>
+                        </Token>
+                        <Token globalID="123" id="22" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="5" offset="675:956">
+                    <Text>After finding out that QT prolongation and sudden death are possibly associated with
+                        domperidone (and that the symptoms she was having could be the result of QT prolongation), and
+                        that it is not approved in the US, she stopped taking the medication and contacted her OB/GYN
+                        office.
+                    </Text>
+                    <Tokens Count="52">
+                        <Token globalID="124" id="0" offset="-1:4">
+                            <Text>After</Text>
+                        </Token>
+                        <Token globalID="125" id="1" offset="-1:6">
+                            <Text>finding</Text>
+                        </Token>
+                        <Token globalID="126" id="2" offset="-1:2">
+                            <Text>out</Text>
+                        </Token>
+                        <Token globalID="127" id="3" offset="-1:3">
+                            <Text>that</Text>
+                        </Token>
+                        <Token globalID="128" id="4" offset="-1:1">
+                            <Text>QT</Text>
+                        </Token>
+                        <Token globalID="129" id="5" offset="-1:11">
+                            <Text>prolongation</Text>
+                        </Token>
+                        <Token globalID="130" id="6" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="131" id="7" offset="-1:5">
+                            <Text>sudden</Text>
+                        </Token>
+                        <Token globalID="132" id="8" offset="-1:4">
+                            <Text>death</Text>
+                        </Token>
+                        <Token globalID="133" id="9" offset="-1:2">
+                            <Text>are</Text>
+                        </Token>
+                        <Token globalID="134" id="10" offset="-1:7">
+                            <Text>possibly</Text>
+                        </Token>
+                        <Token globalID="135" id="11" offset="-1:9">
+                            <Text>associated</Text>
+                        </Token>
+                        <Token globalID="136" id="12" offset="-1:3">
+                            <Text>with</Text>
+                        </Token>
+                        <Token globalID="137" id="13" offset="-1:10">
+                            <Text>domperidone</Text>
+                        </Token>
+                        <Token globalID="138" id="14" offset="-1:0">
+                            <Text>(</Text>
+                        </Token>
+                        <Token globalID="139" id="15" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="140" id="16" offset="-1:3">
+                            <Text>that</Text>
+                        </Token>
+                        <Token globalID="141" id="17" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="142" id="18" offset="-1:7">
+                            <Text>symptoms</Text>
+                        </Token>
+                        <Token globalID="143" id="19" offset="-1:2">
+                            <Text>she</Text>
+                        </Token>
+                        <Token globalID="144" id="20" offset="-1:2">
+                            <Text>was</Text>
+                        </Token>
+                        <Token globalID="145" id="21" offset="-1:5">
+                            <Text>having</Text>
+                        </Token>
+                        <Token globalID="146" id="22" offset="-1:4">
+                            <Text>could</Text>
+                        </Token>
+                        <Token globalID="147" id="23" offset="-1:1">
+                            <Text>be</Text>
+                        </Token>
+                        <Token globalID="148" id="24" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="149" id="25" offset="-1:5">
+                            <Text>result</Text>
+                        </Token>
+                        <Token globalID="150" id="26" offset="-1:1">
+                            <Text>of</Text>
+                        </Token>
+                        <Token globalID="151" id="27" offset="-1:1">
+                            <Text>QT</Text>
+                        </Token>
+                        <Token globalID="152" id="28" offset="-1:11">
+                            <Text>prolongation</Text>
+                        </Token>
+                        <Token globalID="153" id="29" offset="-1:0">
+                            <Text>)</Text>
+                        </Token>
+                        <Token globalID="154" id="30" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="155" id="31" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="156" id="32" offset="-1:3">
+                            <Text>that</Text>
+                        </Token>
+                        <Token globalID="157" id="33" offset="-1:1">
+                            <Text>it</Text>
+                        </Token>
+                        <Token globalID="158" id="34" offset="-1:1">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="159" id="35" offset="-1:2">
+                            <Text>not</Text>
+                        </Token>
+                        <Token globalID="160" id="36" offset="-1:7">
+                            <Text>approved</Text>
+                        </Token>
+                        <Token globalID="161" id="37" offset="-1:1">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="162" id="38" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="163" id="39" offset="-1:1">
+                            <Text>US</Text>
+                        </Token>
+                        <Token globalID="164" id="40" offset="-1:0">
+                            <Text>,</Text>
+                        </Token>
+                        <Token globalID="165" id="41" offset="-1:2">
+                            <Text>she</Text>
+                        </Token>
+                        <Token globalID="166" id="42" offset="-1:6">
+                            <Text>stopped</Text>
+                        </Token>
+                        <Token globalID="167" id="43" offset="-1:5">
+                            <Text>taking</Text>
+                        </Token>
+                        <Token globalID="168" id="44" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="169" id="45" offset="-1:9">
+                            <Text>medication</Text>
+                        </Token>
+                        <Token globalID="170" id="46" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="171" id="47" offset="-1:8">
+                            <Text>contacted</Text>
+                        </Token>
+                        <Token globalID="172" id="48" offset="-1:2">
+                            <Text>her</Text>
+                        </Token>
+                        <Token globalID="173" id="49" offset="-1:5">
+                            <Text>OB/GYN</Text>
+                        </Token>
+                        <Token globalID="174" id="50" offset="-1:5">
+                            <Text>office</Text>
+                        </Token>
+                        <Token globalID="175" id="51" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="6" offset="957:1104">
+                    <Text>The office told her that she was incorrect and that domperidone is allowed to be prescribed in
+                        the US and that lactation was just an off-label use.
+                    </Text>
+                    <Tokens Count="28">
+                        <Token globalID="176" id="0" offset="-1:2">
+                            <Text>The</Text>
+                        </Token>
+                        <Token globalID="177" id="1" offset="-1:5">
+                            <Text>office</Text>
+                        </Token>
+                        <Token globalID="178" id="2" offset="-1:3">
+                            <Text>told</Text>
+                        </Token>
+                        <Token globalID="179" id="3" offset="-1:2">
+                            <Text>her</Text>
+                        </Token>
+                        <Token globalID="180" id="4" offset="-1:3">
+                            <Text>that</Text>
+                        </Token>
+                        <Token globalID="181" id="5" offset="-1:2">
+                            <Text>she</Text>
+                        </Token>
+                        <Token globalID="182" id="6" offset="-1:2">
+                            <Text>was</Text>
+                        </Token>
+                        <Token globalID="183" id="7" offset="-1:8">
+                            <Text>incorrect</Text>
+                        </Token>
+                        <Token globalID="184" id="8" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="185" id="9" offset="-1:3">
+                            <Text>that</Text>
+                        </Token>
+                        <Token globalID="186" id="10" offset="-1:10">
+                            <Text>domperidone</Text>
+                        </Token>
+                        <Token globalID="187" id="11" offset="-1:1">
+                            <Text>is</Text>
+                        </Token>
+                        <Token globalID="188" id="12" offset="-1:6">
+                            <Text>allowed</Text>
+                        </Token>
+                        <Token globalID="189" id="13" offset="-1:1">
+                            <Text>to</Text>
+                        </Token>
+                        <Token globalID="190" id="14" offset="-1:1">
+                            <Text>be</Text>
+                        </Token>
+                        <Token globalID="191" id="15" offset="-1:9">
+                            <Text>prescribed</Text>
+                        </Token>
+                        <Token globalID="192" id="16" offset="-1:1">
+                            <Text>in</Text>
+                        </Token>
+                        <Token globalID="193" id="17" offset="-1:2">
+                            <Text>the</Text>
+                        </Token>
+                        <Token globalID="194" id="18" offset="-1:1">
+                            <Text>US</Text>
+                        </Token>
+                        <Token globalID="195" id="19" offset="-1:2">
+                            <Text>and</Text>
+                        </Token>
+                        <Token globalID="196" id="20" offset="-1:3">
+                            <Text>that</Text>
+                        </Token>
+                        <Token globalID="197" id="21" offset="-1:8">
+                            <Text>lactation</Text>
+                        </Token>
+                        <Token globalID="198" id="22" offset="-1:2">
+                            <Text>was</Text>
+                        </Token>
+                        <Token globalID="199" id="23" offset="-1:3">
+                            <Text>just</Text>
+                        </Token>
+                        <Token globalID="200" id="24" offset="-1:1">
+                            <Text>an</Text>
+                        </Token>
+                        <Token globalID="201" id="25" offset="-1:8">
+                            <Text>off-label</Text>
+                        </Token>
+                        <Token globalID="202" id="26" offset="-1:2">
+                            <Text>use</Text>
+                        </Token>
+                        <Token globalID="203" id="27" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+                <Sentence id="7" offset="1105:1154">
+                    <Text>Symptoms resolved after domperidone was stopped.</Text>
+                    <Tokens Count="7">
+                        <Token globalID="204" id="0" offset="-1:7">
+                            <Text>Symptoms</Text>
+                        </Token>
+                        <Token globalID="205" id="1" offset="-1:7">
+                            <Text>resolved</Text>
+                        </Token>
+                        <Token globalID="206" id="2" offset="-1:4">
+                            <Text>after</Text>
+                        </Token>
+                        <Token globalID="207" id="3" offset="-1:10">
+                            <Text>domperidone</Text>
+                        </Token>
+                        <Token globalID="208" id="4" offset="-1:2">
+                            <Text>was</Text>
+                        </Token>
+                        <Token globalID="209" id="5" offset="-1:6">
+                            <Text>stopped</Text>
+                        </Token>
+                        <Token globalID="210" id="6" offset="-1:0">
+                            <Text>.</Text>
+                        </Token>
+                    </Tokens>
+                    <ParseTree/>
+                </Sentence>
+            </Sentences>
+        </Paragraph>
+    </Paragraphs>
+</StartOutput>

@@ -6,9 +6,10 @@ Todo:
   +Change all of the fields and add @property decorators to make it more pythonic.
 
 """
+
+
 class DataElement(object):
-    
-    def __init__(self,extractedField=None, charOffset=None, extractorName=None, entityName=None):
+    def __init__(self, extractedField=None, charOffset=None, extractorName=None, entityName=None):
         """Initializes the DataElement with information received from an Extractor that will be passed to the Assembler.
         
         Args:
@@ -23,7 +24,6 @@ class DataElement(object):
         self._charOffset = charOffset
         self._extractorName = extractorName
         self._entityName = entityName
-
 
     # def __repr__(self):
     #     charOffset = [str(x)+':'+str(y)+';' for x,y in self.charOffset]
@@ -41,7 +41,7 @@ class DataElement(object):
         return self._extractedField
 
     @extractedField.setter
-    def extractedField(self,extractedField):
+    def extractedField(self, extractedField):
         """Sets the  extracted field
         
         Args:
@@ -63,9 +63,9 @@ class DataElement(object):
            the character offset (int)
         """
         return self._charOffset
-    
+
     @charOffset.setter
-    def charOffset(self,charOffset):
+    def charOffset(self, charOffset):
         """Sets the character offset
         
         Args:
@@ -73,7 +73,7 @@ class DataElement(object):
             
         Returns:
             None
-        """ 
+        """
         self._charOffset = charOffset
 
     @property
@@ -89,7 +89,7 @@ class DataElement(object):
         return self._extractorName
 
     @extractorName.setter
-    def extractorName(self,extractorName):
+    def extractorName(self, extractorName):
         """Sets the Extractor name
         
         Args:
@@ -97,7 +97,7 @@ class DataElement(object):
             
         Returns:
             None
-        """ 
+        """
         self._extractorName = extractorName
 
     @property

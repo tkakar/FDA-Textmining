@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ANNOTATIONS textSource="gen025.xml" annotator="Amber Wallace">
-	<EVENT_DT start="90" end="105">199109</EVENT_DT>
-	<DEMOGRAPHICS>
-		<AGE_SET>
-			<AGE start="16" end="18">67</AGE>
-			<AGE_COD start="18" end="27">YR</AGE_COD>
-		</AGE_SET>
-		<WT_SET>
-			<WT start="" end=""></WT>
-			<WT_COD start="" end=""></WT_COD>
-		</WT_SET>
-		<SEX start="28" end="33">F</SEX>
-	</DEMOGRAPHICS>
-	<DRUG_FILE> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
-		<INSTANCE id="" primary="" timePeriod=""> <!--primary is bool | timePeriod can be current/past/unk -->
-	      <DRUGNAME start="" end=""></DRUGNAME>
-	      <COREF start="" end=""/>
-	      <ROUTE start="" end=""></ROUTE>
-	      <DECHAL start="" end=""></DECHAL>
-	      <RECHAL start="" end=""></RECHAL>
-	      <DOSE_AMT start="" end=""></DOSE_AMT>
-	      <DOSE_UNIT start="" end=""></DOSE_UNIT>
-	      <DOSE_FORM start="" end=""></DOSE_FORM>
-	      <DOSE_FREQ start="" end=""></DOSE_FREQ>
-	      <REACTIONS_IDS></REACTIONS_IDS> <!-- REACTION_IDS and INDICATION_IDS are delimited by commas (e.g. <REACTIONS_IDS>1,2,3</REACTIONS_IDS>) -->
-	      <INDICATION_IDS></INDICATION_IDS>
-    	</INSTANCE>
-	</DRUG_FILE>
-	<REACTION_FILE>
-		<PT id="" start="" end=""></PT>
-	</REACTION_FILE>
-	<INDICATION_FILE>
-		<INDI_PT id="" start="" end=""></INDI_PT>
-	</INDICATION_FILE>
-<COMMENT>
-</COMMENT>
+    <EVENT_DT start="90" end="105">199109</EVENT_DT>
+    <DEMOGRAPHICS>
+        <AGE_SET>
+            <AGE start="16" end="18">67</AGE>
+            <AGE_COD start="18" end="27">YR</AGE_COD>
+        </AGE_SET>
+        <WT_SET>
+            <WT start="" end=""></WT>
+            <WT_COD start="" end=""></WT_COD>
+        </WT_SET>
+        <SEX start="28" end="33">F</SEX>
+    </DEMOGRAPHICS>
+    <DRUG_FILE> <!--DRUG_FILE CONTAINS AN ARRAY OF INSTANCES, ONE FOR EACH DRUG-->
+        <INSTANCE id="" primary="" timePeriod=""> <!--primary is bool | timePeriod can be current/past/unk -->
+            <DRUGNAME start="" end=""></DRUGNAME>
+            <COREF start="" end=""/>
+            <ROUTE start="" end=""></ROUTE>
+            <DECHAL start="" end=""></DECHAL>
+            <RECHAL start="" end=""></RECHAL>
+            <DOSE_AMT start="" end=""></DOSE_AMT>
+            <DOSE_UNIT start="" end=""></DOSE_UNIT>
+            <DOSE_FORM start="" end=""></DOSE_FORM>
+            <DOSE_FREQ start="" end=""></DOSE_FREQ>
+            <REACTIONS_IDS></REACTIONS_IDS> <!-- REACTION_IDS and INDICATION_IDS are delimited by commas (e.g. <REACTIONS_IDS>1,2,3</REACTIONS_IDS>) -->
+            <INDICATION_IDS></INDICATION_IDS>
+        </INSTANCE>
+    </DRUG_FILE>
+    <REACTION_FILE>
+        <PT id="" start="" end=""></PT>
+    </REACTION_FILE>
+    <INDICATION_FILE>
+        <INDI_PT id="" start="" end=""></INDI_PT>
+    </INDICATION_FILE>
+    <COMMENT>
+    </COMMENT>
 </ANNOTATIONS>

@@ -6,8 +6,8 @@ The following class extends the DataElement class, and includes any additional f
 
 from DataElement import DataElement
 
-class DosageElement(DataElement):
 
+class DosageElement(DataElement):
     def __init__(self, *args, **kwargs):
         """Calls the super"""
         super(DosageElement, self).__init__(*args, **kwargs)
