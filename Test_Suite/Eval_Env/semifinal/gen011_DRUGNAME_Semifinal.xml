@@ -1,4 +1,4 @@
-<ANNOTATIONS annotator="Project MEFA Program" textSource="/Users/wutianyu/ISP2016/Test_Suite/Test_Cases/gen011">
+<ANNOTATIONS annotator="Project MEFA Program" textSource="Test_Suite/Test_Cases/gen011">
     <EVENT_DT end="" start="" />
     <DEMOGRAPHICS>
         <AGE_SET>
@@ -28,7 +28,7 @@
             
             <INDICATION_IDS />
         </INSTANCE>
-    <INSTANCE><DRUGNAME end="25" extractor="DrugnameRegExtractor" start="10">coumadin</DRUGNAME></INSTANCE></DRUG_FILE>
+    </DRUG_FILE>
     <REACTION_FILE>
         <INSTANCE>
             <PT end="" id="" start="" />

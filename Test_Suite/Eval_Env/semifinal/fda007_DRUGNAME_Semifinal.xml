@@ -1,4 +1,4 @@
-<ANNOTATIONS annotator="Project MEFA Program" textSource="/Users/wutianyu/ISP2016/Test_Suite/Test_Cases/fda007">
+<ANNOTATIONS annotator="Project MEFA Program" textSource="Test_Suite/Test_Cases/fda007">
     <EVENT_DT end="" start="" />
     <DEMOGRAPHICS>
         <AGE_SET>
@@ -28,7 +28,7 @@
             
             <INDICATION_IDS />
         </INSTANCE>
-    <INSTANCE><DRUGNAME end="25" extractor="DrugnameRegExtractor" start="10">desloratadine</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="26" extractor="DrugnameRegExtractor" start="11">detrol</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="29" extractor="DrugnameRegExtractor" start="14">aspirin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="34" extractor="DrugnameRegExtractor" start="19">imipramine</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="41" extractor="DrugnameRegExtractor" start="26">trandolapril</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="50" extractor="DrugnameRegExtractor" start="35">mavik</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="61" extractor="DrugnameRegExtractor" start="46">pantoprazole</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="74" extractor="DrugnameRegExtractor" start="59">ustekinumab</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="89" extractor="DrugnameRegExtractor" start="74">stelara</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="106" extractor="DrugnameRegExtractor" start="91">sucralfate</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="125" extractor="DrugnameRegExtractor" start="110">clarithromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="146" extractor="DrugnameRegExtractor" start="131">alvesco</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="169" extractor="DrugnameRegExtractor" start="154">ezetimibe</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="0" extractor="SVMv1DrugNameExtractor" start="2">desloratadine</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="0" extractor="SVMv1DrugNameExtractor" start="6">aspirin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="0" extractor="SVMv1DrugNameExtractor" start="1">rosuvastatin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="0" extractor="SVMv1DrugNameExtractor" start="1">ustekinumab</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="1" extractor="SVMv1DrugNameExtractor" start="1">sucralfate</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="2" extractor="SVMv1DrugNameExtractor" start="1">atenolol</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="3" extractor="SVMv1DrugNameExtractor" start="1">clarithromycin</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="3" extractor="SVMv1DrugNameExtractor" start="1">ciclesonide</DRUGNAME></INSTANCE><INSTANCE><DRUGNAME end="4" extractor="SVMv1DrugNameExtractor" start="1">ezetimibe</DRUGNAME></INSTANCE></DRUG_FILE>
+    </DRUG_FILE>
     <REACTION_FILE>
         <INSTANCE>
             <PT end="" id="" start="" />
